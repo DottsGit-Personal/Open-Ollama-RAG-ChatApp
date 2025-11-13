@@ -1,0 +1,324 @@
+arXiv:1001.0065v1  [astro-ph.SR]  31 Dec 2009
+Science in China Series G: Physics, Mechanics & Astronomy
+@2009 SCIENCE IN CHINA PRESS
+Springerwww.scichina.com
+phys.scichina.com
+www.springerlink.com
+EIT waves and coronal magnetic ﬁeld diagnostics
+CHENPengFei
+Department of Astronomy, Nanjing University,Nanjing 2100 93, China
+Magnetic ﬁeld in the solar lower atmosphere can be measured b y the use of the Zeeman and Hanle
+effects. In contrast, the coronal magnetic ﬁeld well above t he solar surface, which directly controls
+various eruptive phenomena, can not be precisely measureed with the traditional techniques. Several
+attempts arebeingmadetoprobethecoronal magneticﬁeld,s uchasforce-freeextrapolationbasedon
+the photospheric magnetograms, gyroresonance radio emiss ions, and coronal seismology based on
+MHDwavesinthecorona. Comparedtothewavestrappedinthel ocalizedcoronalloops,EITwavesare
+the only global-scale wave phenomenon, and thus are the idea l tool for the coronal global seismology.
+In this paper, we review the observations and modelings of EI T waves, and illustrate how they can be
+appliedto probe the global magnetic ﬁeldinthe corona.
+coronalmass ejections (CMEs), magnetic ﬁeld,diagnostics , magnetohydrodynamics (MHD)
+Magnetic ﬁeld plays a vital role in various astro-
+physical processes. In the solar atmosphere, mag-
+netic ﬁeld interacts with the plasma, producing
+abundant eruptive activities, besides the relatively
+quiescent heating in the atmosphere. Therefore,
+the measurement of magnetic ﬁeld in the solar at-
+mosphere is extremely important. For strong mag-
+netic ﬁeld, Zeeman eﬀect has long been used in
+the solar photosphere and chromosphere, and is
+being testiﬁed for the transition region. For weak
+magnetic ﬁeld measurement, Hanle eﬀect can be
+utilized[1]. Spectral lines are formed in a relatively
+narrow height range in these atmospheric layers, so
+the local magnetic ﬁeld can be obtained directly.
+However, for the corona, where magnetic ﬁeld di-
+rectly controls theplasmakinematics, optical emis-
+sion lines are optically thin, and the traditionaltechniques do not work so well[2]. Although some
+techniques have been developed to extrapolate the
+coronal magnetic ﬁeld based on photospheric mag-
+netograms, the extrapolation is an ill-posed prob-
+lem anyway. Therefore, it is imperative to develop
+alternative approaches to probe the coronal mag-
+netic ﬁeld, such as gyroresonance radio emissions.
+Ubiquitous perturbations in the corona would
+propagate in the form of MHD waves in the quiet
+Sunortrigger theoscillations ofcoronal structures,
+such as prominences and coronal loops, caused by
+the trapped MHD waves. The phase speeds of the
+propagating waves or the standing waves are de-
+termined by the local magnetic ﬁeld and/or tem-
+perature. Thus, either the propagation speed or
+the oscillation period provides eﬀective informa-
+tion to diagnose the magnetic ﬁeld in the corona,
+Received July 15, 2009; accepted August 15, 2009
+doi: 10.1007/s11433-009-0240-9
+†Corresponding author (email: chenpf@nju.edu.cn)
+Supported by the 973 project (Grant No. 2006CB806302), and t he National Natural Science Foundation of China (Grant Nos. 10933003 and
+10403003)
+Citation: Chen, P. F. EIT waves and coronal magnetic ﬁeld diagnostics. Sci China Ser G, 2009, 52(11): 1785-1789, doi: 10.1007/s114 33-009-
+0240-9which gives rise to a new discipline, i.e, coronal
+seismology[3].
+In the early 1960s, Moreton & Ramsey[4]discov-
+ered a kind of arc-shaped chromospheric pertur-
+bations propagating away from big ﬂares to a dis-
+tance>5×105km, later called Moreton waves.
+According to Uchida[5], Moreton waves were due
+to coronal fast-mode waves sweeping the chromo-
+sphere, and they can be used to reconstruct the
+Alfv´ en velocity, hence the magnetic ﬁeld distribu-
+tions in the corona. In contrast to this large-scale
+waves, localized MHD waves were also found to be
+trapped in coronal loops and prominences (see ref.
+[6] for a review).
+Coronal loop/prominence oscillations provide
+the diagnosis of the local magnetic ﬁeld, whereas
+Moreton waves provide the magnetic ﬁeld informa-
+tion on a relatively larger scale. Both phenomena
+cover only a small part of the solar surface. How-
+ever, EITwaves, whichwerediscovered inthecoro-
+nal mass ejection (CME) event on 1997 May 12,
+oﬀer a perfect opportunity for the magnetic ﬁeld
+diagnosis on a global scale.
+1 EIT waves: Observations and model-
+ings
+After thelaunch of theSOHOsatellite inlate 1995,
+one of its payloads, the EUV Imaging Telescope
+(EIT), detected an almost circular front propagat-
+ing outward from the source active region in the
+CME/ﬂare event on 1997 May 12[7]. More fre-
+quently, they are present as propagating patches,
+rather than circular fronts. Such a wave phe-
+nomenon is often referred to as “EIT wave”, but
+occasionally called “coronal wave” bysomeauthors
+(e.g., ref. [8]). EIT wave fronts, with an emission
+enhancement ranging from a few to tens of per-
+cent, are always followed immediately by expand-
+ing EUV dimmings in the base diﬀerence images[9].
+Therefore, EIT waves and dimmings are consid-
+ered symbiotic phenomena which require a com-
+mon physical process in any theoretical model[10].
+Since EIT waves and dimmings are found visible
+in several EUV bands, they are believed to result
+mainly from density enhancement and depletion,
+respectively, althoughWills-Davey &Thompson[11]and Chen & Fang[12]pointed out that the temper-
+ature variation also plays a role in determining the
+EUV intensity. The statistical study by Klassen
+et al.[13], using SOHO/EIT observations, indicates
+that the typical velocities of EIT waves range from
+170 to 350 km ·s−1, with a mean value of 271
+km·s−1. Note that the EIT wave velocity can be
+as slow as 50 km ·s−1or even smaller[14]. According
+to recent research by Long et al.[15], who analyzed
+the high-cadence EUV observations by STEREO
+satellite, the low cadence of the SOHO/EIT ob-
+servations smoothed the EIT wave velocity evo-
+lution, i.e, the maximum velocity was underes-
+timated and the low velocity was overestimated.
+Therefore, a renewed statistics of EIT wave veloc-
+ities, based on the high cadence observations of
+STEREO/SECCHI, is strongly recommended.
+The discovery of EIT waves immediately re-
+minded the researchers of the coronal counter-
+parts of H αMoreton waves, and so they were
+explained in terms of fast-mode MHD waves in
+the corona[9,16,17], though there were arguments
+whether the fast-mode waves originate from the
+ﬂare or the CME[18,19]. However, the fast-mode
+wave model can not account for the following ob-
+servational features: (1) Even considering that the
+high-cadence observations may upgrade the statis-
+tical results made by Klassen et al.[13], the EIT
+wave velocities are still signiﬁcantly smaller than
+those of Moreton waves, which are truly fast-mode;
+(2) EIT waves may stop at the footpoints of the
+magnetic separatrix[20]; (3) EIT wave velocities are
+anti-correlated with the speeds of the correspond-
+ing type II radio bursts[13]; (4) EIT waves acceler-
+ate from ∼20 km·s−1near the source active region
+to more than 400 km ·s−1in the quiet region[15].
+In order to reconcile these discrepancies, Chen et
+al.[21,22]proposed a ﬁeld-line stretching model, i.e,
+as the strongly twisted ﬂux rope erupts to form a
+CME, a fast-mode piston-driven shock propagates
+outward, which corresponds to the coronal coun-
+terpart of H αMoreton wave. At the same time,
+the erupting ﬂux rope pushes the overlying mag-
+neticloopsuccessively. Thestretchingofeachmag-
+netic loop leads to an EIT wave front on the outer
+sideanddensitydepletioninsidethemagneticloop.
+1786 Chen, P. F. SciChinaSer G-Phys Mech Astron |Nov. 2009 |vol. 52|no. 11|1785-1789Therefore, the model explains the EIT waves and
+dimmings simultaneously. The ﬁeld-line stretching
+model can account for all the four features men-
+tioned above, and was supported by imaging and
+spectroscopic observations[23].
+3 EIT waves as a tool for coronal seis-
+mology
+Since EIT waves propagate across almost the en-
+tire solar disk in many events, they are the ideal
+tool for the global magnetic ﬁeld diagnosis. As for
+other wave phenomena, how EIT waves are used
+for coronal seismology depends on the identiﬁca-
+tion of the wave mode. If they are fast-mode MHD
+waves, the magnetic ﬁeld reconstruction would be
+the same as used for Moreton waves. Within such
+a framework, several groups tried to reconstruct
+theglobal magnetic ﬁeld distribution[24]. Consider-
+ing the discrepancies between the fast-mode wave
+model and the observations, we have proposed a
+magnetic ﬁeld-line stretching model, as described
+in Sec. 2. In this section, we discuss how EIT
+waves can be used for coronal seismology in the
+framework of our ﬁeld-line stretching model.
+The sketch of our model is depicted in Figure 1,
+where the thick curved lines are the initial mag-
+netic ﬁeld lines. As the ﬂux rope ( the circles )
+moves upward, it pushes the top part of the ﬁrst
+ﬁeld line near point A,and this local part expands
+outward. As shown in Figure 1(a), the expan-sion would be transferred along the ﬁeld line to
+its footpoints CandE,with the Alfv´ enic veloc-
+ityvA. The expansion near the footpoints Cand
+Ecompresses the plasma on the outer side, which
+produces the ﬁrst EIT wave front. At the same
+time, the local expansion near point Awould also
+betransferredupward to thetop part of thesecond
+magnetic ﬁeld line, near point B,with the fast-
+mode wave velocity ( vf=/radicalbig
+v2
+A+v2
+s, where vsis
+the sound speed) since it is perpendicular to the
+ﬁeld lines, as illustrated by the right panel. Thus
+the top part of the second ﬁeld line near point B
+expands. Again, the local expansion, as a kind of
+perturbation, would be transferred along the sec-
+ond ﬁeld line to its footpoints DandF,with the
+Alfv´ enic velocity vA. Thereby, a second EIT wave
+front is formed near points DandF.With such a
+repeating circle, progressing EIT wave fronts are
+formed as outer ﬁeld lines are pushed to expand
+successively. Note that the successive expansion
+of the magnetic loops naturally leads to expanding
+dimming regions behind the EIT wave fronts. The
+apparent velocity of the EIT wave in the model
+is the distance between two successive EIT wave
+fronts, e.g., CD, divided by the time diﬀerence
+between the formation of the two successive EIT
+wave fronts, ∆ t. This is to say, the EIT wave
+apparent velocity near points CandDis related
+to the magnetic ﬁeld by vEIT=CD/∆t, where
+∆t=/integraltextB
+A1/vfds+/integraltextD
+B1/vAds−/integraltextC
+A1/vAds.
+I GA
+C DH
+DH
+G C IA
+EF F EB B
+Figure 1 The sketch of our ﬁeld-line stretching model for EIT waves[21].
+Chen,P. F. Sci ChinaSerG-Phys Mech Astron |Nov. 2009 |vol. 52|no. 11|1785-1789 1787Figure 2 (a) A magnetic conﬁguration with an active region surrounde d by potential ﬁeld; (b) the corresponding distributions of the
+fast-mode wave and EIT wave velocities along the surface. Th e unit of the velocity is 900 km ·s−1.
+As demonstrated by Chen et al.[21], if the mag-
+netic ﬁeld lines are concentric semicircles, the re-
+sultingvEITis about 0.34 vf. For any given mag-
+netic conﬁguration, the EIT wave velocity distri-
+bution can be analogically derived by the above
+formula. For example, Figure 2(a) depicts the
+magnetic conﬁguration for an active region sur-
+rounded by a potential bipolar ﬁeld. The cor-
+responding EIT wave velocity and the fast-mode
+wave velocity distributions are plotted in the Fig-
+ure2(b). TheEITwaves areseentoaccelerate near
+the boundary of the source active region. This fea-
+ture is consistent with the recent observation[15],
+but which cannot be interpreted by the fast-mode
+wave model.
+We can adjust the coronal magnetic conﬁgura-
+tion so that the resulting EIT wave velocity distri-
+bution can best match the observational one. In
+this way, the coronal magnetic ﬁeld distribution
+can be reconstructed. This procedure, which is
+forward modeling, is demonstrated here to be eli-
+gible. The inverse modeling, i.e., to derive the 3D
+coronal magnetic ﬁeld directly from the observedEIT wave velocity distribution, similar to the tech-
+niquesusedinhelioseismology, deservessubstantial
+further studies.
+4 Prospects
+As the largest-scale wave phenomenon in the
+corona, EIT waves oﬀer an ideal opportunity to
+probe the coronal magnetic ﬁeld. As proposed in
+our ﬁeld-line stretching model, the formation of
+each EIT wave front conveys the magnetic infor-
+mation in 3D space, all the way from the erupting
+ﬂux rope to the top of each ﬁeld line, and then
+along the ﬁeld line to its footpoints. Therefore,
+similar to the p-mode waves in the helioseismology,
+EIT waves can be used to probe the 3D distribu-
+tion of the coronal magnetic ﬁeld, providing that
+high-cadence EUV imaging observations are avail-
+able. Inthis paper, wedemonstrated thefeasibility
+of the forward modeling of the coronal seismology
+based on EIT wave. However, the inverse model-
+ing, i.e., the direct inversion from EIT wave veloc-
+ity evolution tothecoronal magneticﬁeld, deserves
+further investigation.
+1 Sahal-Br´ echot S. The Hanle eﬀect applied to magnetic ﬁeld
+diagnostics. Space Sci Rev, 1981, 29: 391–401
+2 White S M. Solar and Space Weather Radiophysics, Vol.314.
+Gary D E, Keller C U, eds. Dordrecht: Academic Publisher,
+2004. 89–113
+3 Roberts B, Edwin P M, Benz A O. On coronal oscillations.Astrophys J, 1984, 279: 857–865
+4 Moreton G E, Ramsey H E. Recent observations of dynamical
+phenomena associated with solar ﬂares. Publ Astron Soc Pac,
+1960, 72: 357
+5 Uchida Y. Propagation of hydromagnetic disturbances in th e
+solar corona and Moreton’s wave phenomenon. Sol Phys, 1968,
+1788 Chen, P. F. SciChinaSer G-Phys Mech Astron |Nov. 2009 |vol. 52|no. 11|1785-17894: 30–44
+6 Roberts B. Waves and oscillations in the corona. Sol Phys,
+2000, 193: 139–152
+7 Thompson B J, Plunkett S P, Gurman J B et al. SOHO/EIT
+observations of an Earth-directed coronal mass ejection on
+May 12, 1997. Geophys Res Lett, 1998, 25: 2465–2468
+8 Vrˇ snak B, Warmuth A, Temmer M et al. Multi-wavelength
+study of coronal waves associated with the CME-ﬂare event of
+3 November 2003. Astron Astrophys, 2006, 448: 739–752
+9 Thompson B J, Gurman J B, Neupert W M et al. SOHO/EIT
+observations of the 1997 April 7 coronal transient: Possibl e
+evidence of coronal moreton waves. Astrophys J, 1999, 517:
+151–154
+10 Chen P F. Initiation and propagation of CMEs. J Astrophys
+Astron, 2008, 29: 179–186
+11 Wills-Davey M J, Thompson B J. Observations of a propagat-
+ing disturbance in TRACE. Sol Phys, 1999, 190: 467–483
+12 Chen P F, Fang C. EIT waves - A signature of global magnetic
+restructuring in CMEs. IAU Symp, 2005, 226: 55–64
+13 Klassen A, Aurass H, Mann G et al. Catalogue of the 1997
+SOHO-EIT coronal transient waves and associated type II ra-
+dio burst spectra. Astron Astrophys, 2000, 141: 357–369
+14 Thompson B J, Myers D C. Catalog of Coronal “EIT Wave”
+Transients. Astrophys J Suppl Ser, 2009, 183: 225–243
+15 Long D M, Gallagher P T, McAteer R T J et al. The kinemat-ics of a globally propagating disturbance in the solar coron a.
+Astrophys J, 2008, 680: L81-L84
+16 Wu S T, Zheng H, Wang S et al. 3D numerical simulation
+of MHD waves observed by EIT. J Geophys Res, 2001, 106:
+25089-25102
+17 Wang Y M. EIT waves and fast-mode propagation in the solar
+corona. Astrophys J, 2000, 543: L89–L92
+18 Grechnev V V, Uralov A M, Slemzin V A et al. Absorption
+phenomena and a probable blast wave in the 13 July 2004
+eruptive event. Sol Phys, 2008, 253: 263–290
+19 Veronig A M, Temmer M, Vrˇ snak B. High-cadence observa-
+tions of a global coronal Wave by STEREO EUVI. Astrophys
+J, 2008, 681: L113–L116
+20 Delann´ ee C,AulanierG. CMEAssociated withtransequato rial
+loops and a bald patch ﬂare. Sol Phys, 1999, 190: 107–129
+21 Chen P F, Wu S T, Shibata K, et al. Evidence of EIT and
+Moreton waves in numerical simulations. Astrophys J, 2002,
+572: L99–L102
+22 Chen P F, Fang C, Shibata K. A full view of EIT waves. As-
+trophys J, 2005, 622: 1202–1210
+23 Harra L K, Sterling A C. Imaging and spectroscopic investi ga-
+tions of a solar coronal wave. Astrophys J, 2003, 587: 429–43 8
+24 Warmuth A, Mann G. A model of the Alfv´ en speed in the solar
+corona. Astron Astrophys, 2005, 435: 1123–1135
+Chen,P. F. Sci ChinaSerG-Phys Mech Astron |Nov. 2009 |vol. 52|no. 11|1785-1789 1789

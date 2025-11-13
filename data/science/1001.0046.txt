@@ -1,0 +1,262 @@
+arXiv:1001.0046v1  [math.CO]  31 Dec 2009THE CAUCHY-SCHWARZ INEQUALITY IN CAYLEY GRAPH
+AND TOURNAMENT STRUCTURES ON FINITE FIELDS
+STEPHAN FOLDES AND L ´ASZL´O MAJOR
+Abstract. The Cayley graph construction provides a natural grid struc ture
+on a ﬁnite vector space over a ﬁeld of prime or prime square car dinality, where
+the characteristic is congruent to 3 modulo 4, in addition to the quadratic
+residue tournament structure on the prime subﬁeld. Distanc e from the null
+vector in the grid graph deﬁnes a Manhattan norm. The Hermiti an inner prod-
+uct on these spaces over ﬁnite ﬁelds behaves in some respects similarly to the
+real and complex case. An analogue of the Cauchy-Schwarz ine quality is valid
+with respect to the Manhattan norm. With respect to the non-t ransitive order
+provided by the quadratic residue tournament, an analogue o f the Cauchy-
+Schwarz inequality holds in arbitrarily large neighborhoo ds of the null vector,
+when the characteristic is an appropriate large prime.
+1.Manhattan norms and grid graphs
+We consider the ﬁnite ﬁelds FpandFp2of prime and prime square cardinality,
+wherep≡3 mod 4. The ﬁeld Fp2has a natural graph structure with the ﬁeld
+elements as vertices, two distinct vertices u,zbeing adjacent if ( z−u)4= 1. The
+subﬁeldFpofFp2then induces a subgraph in which xandyare adjacent if and only
+if (y−x)2= 1.The graph Fp2is isomorphic to the Cartesian square C2
+p=Cp/squareCp,
+whereCpis ap-cycle and within Fp2the induced subgraph Fpis itself a p-cycle.
+Clearly the graph Fp2is not planar, but can be drawn as a grid on the torus.
+For any connected graph whose vertex set is a group, the distanc e of any vertex
+zfrom the identity element of the group is called the normofz, denoted N(z).
+In general, distances and norms measured in connected subgraph s induced by sub-
+groups can be larger than distances and norms measured with refe rence to the
+whole graph. However, with respect to the distance-preserving s ubgraph induced
+byFpinFp2, the norm of any z∈Fpis the same as its norm with respect to the
+whole graph Fp2: this is simply the length of the shortest path from 0 to zin the
+cycle induced by Fp.
+Forq=porq=p2, then-dimensional vector space Fn
+qis also endowed with
+the Cartesian product graph structure Fq/square···/squareFqisomorphic to Cn
+porC2n
+p. The
+norm of a vector v= (v1,...,v n) inFn
+qis then equal to the sum N(v1)+···+N(vn)
+and we also write N(v) for this vector norm.
+The Gaussian integers Z[i] also constitute a graph in which uandzare adjacent
+if and only if ( z−u)4= 1.
+Date: Dec 24, 2009.
+1991Mathematics Subject Classiﬁcation. Primary 05C12, 05C20, 05C25; Secondary 06F99,
+11T99.
+Key words and phrases. Cauchy-Schwarz inequality, triangle inequality, submult iplicativity,
+ﬁnite ﬁeld, quadratic ﬁeld extension, quadratic residue to urnament, grid graph, Manhattan dis-
+tance, discrete norm, Gaussian integers, graph product, gr aph quotient, Cayley graph.
+12 STEPHAN FOLDES AND L ´ASZL´O MAJOR
+It iseasytoseethatthenorminthis inﬁnite Manhattan grid satisﬁesthetriangle
+and submultiplicative inequalities
+N(u+z)≤N(u)+N(z)
+N(uz)≤N(u)N(z)
+To emphasize that the norms on Fp2,Fn
+p2andZ[i] are understood with reference
+to the speciﬁc grid graphs deﬁned above, we call these norms Manhattan norms .
+Throughout this paper we think of Fp2as the ring quotient Z[i]/(p).
+2.Graph quotients and Cayley graphs
+Given a graph G(undirected, with possible loops) on vertex set Vand an equi-
+valence relation ≡onV, thequotient graph G/≡is deﬁned as follows: the vertices
+ofG/≡are the equivalence classes of ≡, and classes A,Bare adjacent if for some
+a∈A,b∈B, the elements a,bare adjacent in G. Note that the distance of Ato
+Bin the quotient graph is at most equal to, but possibly less than the m inimum of
+the distances atobfor alla∈A,b∈B. Note also that G/≡can have loops even
+ifGhas not.
+Given a group Gwith identity element eand a set Γ of group elements that
+generates G, the(left) Cayley graph C(G,Γ) ofGwith respect to Γ has vertex set
+G, elements a,b∈Gbeing considered adjacent if ab−1orba−1belongs to Γ. For
+each congruence ≡of the group G, corresponding to some normal subgroup H, Γ
+yields a generating set Γ ≡ofG/≡consisting with those classes of ≡that intersect
+Γ. The graph quotient of C(G,Γ) by the equivalence ≡coincides with the Cayley
+graph of the quotient graph G/≡with respect to Γ ≡. ForR⊆Ginducing a
+connected subgraph [ R] inC(G,Γ), denote by dR(x,y) the distance function of the
+subgraph [ R]. Denoting by xHtheH-coset of any x∈G, this relates to norms in
+C(G,Γ) andC(G,Γ)/≡as follows: for all x∈R,
+dR(x,e)≥N(x)≥N(xH)
+Both inequalities can be strict. However, we have:
+Cayley Graph Quotient Lemma. Let a group Gwith identity ebe generated
+byΓ⊆G, and consider any normal subgroup Hwith corresponding congruence ≡.
+There is a set R⊆Ghaving exactly one element in common with each congruence
+class modulo H, and such that for every x∈R
+dR(x,e) =N(x) =N(xH)
+Proof.We can deﬁne the unique (representative) element r(A)∈R∩Afor each
+cosetAby induction on the distance d(H,A) ofAfromHinC(G,Γ)/≡. Let
+r(H) =e. Assuming r(A) deﬁned for all Awithd(H,A)≤m, let a coset Bhave
+distance m+1 from H. Choose any coset Aadjacent to Bwithd(H,A) =mand
+elements a∈A,b∈Bthat are adjacent in C(G,Γ). Letr(B) =ba−1r(A)./square
+We can apply the above lemma in the case where G=Z[i], Γ ={1,i}and
+H=pZ[i] ={pa+pbi:a,b∈Z}foraprimeinteger p≡3 mod 4. Now C(G,Γ)and
+C(G,Γ)/≡are the Manhattan grid graphs on Z[i] andZ[i]/H=Fp2, respectively.
+Referringtothe set Rofrepresentativesinthe lemma, forany H-cosetsX,Yletx,y
+be the unique elements in X∩R,Y∩R. Asxy∈XY, we have N(XY)≤N(xy).
+By the submultiplicative inequality in Z[i] we have N(xy)≤N(x)N(y). Using the3
+lemmawehave N(x)N(y) =N(X)N(Y). Thisyieldsasubmultiplicativeinequality
+inFp2and a similar reasoning on the coset X+Yyields a triangle inequality:
+Triangle and Submultiplicative Inequalities in Fp2.For allu,zinFp2
+N(u+z)≤N(u)+N(z)
+N(uz)≤N(u)N(z)
+/square
+This indicates that Manhattan distance provides a well-behaved not ion of neigh-
+borhood of 0 in the ﬁnite ﬁelds Fp2.
+3.Squares in Fpand non-transitive order
+For each prime p≡3 mod 4 the quadratic residue tournament onFpis the
+directed graph with vertex set Fpin which there is an arrowfrom vertex xto vertex
+yify−xis a non-zero square in Fp, in which case we write x <py. We write x≤py
+ifx <pyorx=y. The relation ≤pis reﬂexive, anti-symmetric but not transitive,
+and for every x/ne}ationslash=yexactly one of x≤pyory≤pxholds. Using Dirichlet’s
+theorem on primes in arithmetic progressions, Kustaanheimo showe d [4] that for
+every positive integer k, there is a prime p≡3 mod 4, such that ≤pis a transitive
+(and linear) order relation on {0,1,...,k} ⊆Fp, that is, all positive integers up to
+kare quadratic residues mod p. Obviously kcannot exceed ( p−1)/2. Implications
+of [4] and related questions were investigated by J¨ arnefelt, Kust aanheimo, Quist
+[3, 5], in particular with a view to discrete models in physics, also in subse quent
+application-oriented work between the 1950’s (Coish [1]) and the 198 0’s (Nambu
+[6]). For further references see [2]. In particular [4] implies that for every positive
+integerk, there is a prime p≡3 mod 4, such that all z∈Fp2withN(z)≤kare
+squares in Fp2. (Note that all elements of the prime subﬁeld Fpare squares in Fp2.)
+To emphasise the analogy of the relation ≤pwith the ordinary inequality relation
+≤among numbers, we say that a non-zero z∈Fp2ispositiveifz∈Fpand 0≤pz.
+4.Inner products compared in non-transitive order
+The only non-trivial automorphism of the ﬁeld Fp2associates to each z∈Fp2
+itsconjugate z. Theinner product v·wof vectors v= (v1,...,v n) andw=
+(w1,...,w n) inFn
+p2is deﬁned as the scalar v1w1+···+vnwn∈Fp2. This inner
+product is left and right distributive over vector addition, satisﬁes v·w=w·v,
+c(v·w) = (cv)·w=v·(cw) for allc∈Fp2. However, while v·vbelongs to the
+prime subﬁeld Fp,v·vis not necessarily positive, and can be 0 even if v/ne}ationslash=0. Still,
+a conditional version of positive deﬁniteness holds locally:
+Conditional Positive Deﬁniteness. For every k≥1there is a prime p≡3
+mod 4, such that for all n≥1and for all vectors v∈Fn
+p2of Manhattan norm
+N(v)≤k,we have 0≤pv·vwith equality if and only if v=0.
+Proof.By Kustaanheimo’s result in [4] there is a prime integer p≡3 mod 4 such
+that 0,1,...,2k3are all quadratic residues mod p. Forv= (v1,...,v n) inFn
+p2, let
+vj=aj+bji, wherei2=−1. IfN(v)≤kthen for all j,N(aj)≤kandN(bj)≤k,
+vjvj=a2
+j+b2
+jbelongs to the set of squares {0,...,2k2}. Sincevjcan be non-zero
+for at most kindices 1 ≤j≤nonly, the sum of the corresponding terms a2
+j+b2
+j
+belongs to the set of squares {0,1,...,2k3}. /square4 STEPHAN FOLDES AND L ´ASZL´O MAJOR
+Note that for all vectors v,w∈Fn
+p2
+(v·w)(w·v) = (v·w)(v·w)∈Fpand
+(v·v)(w·w)∈Fp
+Ifvandwareproportional , i.e. if there exists a scalar cinFp2such that v=cw
+orw=cv, then the above two products are equal. Generally, they are relat ed in
+the quadratic residue tournament of Fpas follows.
+Cauchy-Schwarz Inequality for Quadratic Residue Tourname nts.For eve-
+ryk≥1there is a prime p≡3 mod 4 , such that for all n≥1and for all vectors
+v,w∈Fn
+p2of Manhattan norm at most k,
+(v·w)(w·v)≤p(v·v)(w·w)
+Proof.Forn= 1 the inequality holds trivially as the two sides are equal. Assume
+n≥2,v= (v1,...,v n),w= (w1,...,w n). Forall1 ≤i≤n,N(vi)≤k,N(wi)≤k.
+By Kustaanheimo’s result [4] there is a prime p≡3 mod 4 such that all positive
+integers up to 4 k6are quadratic residues modulo p. For each of the/parenleftbign
+2/parenrightbig
+pairs
+{i,j} ⊆ {1,...,n},i/ne}ationslash=j, by the triangle and submultiplicative inequalities in Fp2
+N[(viwj−vjwi)(viwj−vjwj)]≤(k2+k2)2= 4k4
+Thus the element
+(viwjviwj+vjwivjwi)−(viwjvjwi+vjwiviwj) = (viwj−vjwi)(viwj−vjwj)
+is a square of Manhattan norm at most 4 k4inFp, and it is non-zero for at most/parenleftbigk
+2/parenrightbig
+≤k2pairs{i,j}. Summing over all pairs {i,j}, all but at most/parenleftbigk
+2/parenrightbig
+≤k2terms
+vanish in the sum/summationdisplay
+[(viwjviwj+vjwivjwi)−(viwjvjwi+vjwiviwj)]
+which therefore has Manhattan norm at most 4 k6and it must also be a square in
+Fp. But this sum is equal to the diﬀerence of products
+n/summationdisplay
+i=1vivin/summationdisplay
+j=1wjwj−n/summationdisplay
+i=1viwin/summationdisplay
+j=1vjwj= (v·v)(w·w)−(v·w)(w·v)
+which is consequently a square in Fp. /square
+Remark. From the proof it is clear that, in analogy with the classical Cauchy-
+Schwarz inequality, for vectors v,wof norm not exceeding kinFn
+p2, wherepis
+related to kas stipulated above, the Cauchy-Schwarz inequality with respect t o≤p
+holds with equality if and only if viwj−vjwi= 0 for all i,j, i.e. if and only if v,w
+are proportional.
+We note that the inequality established above is conditional, it holds on ly in a
+speciﬁed Manhattan neighborhood of the null vector. Every non- zero element of
+Fpcan be written as a sum of two squares, in particular there are a,b∈Fp, such
+thata2+b2=−1. Forz=a+biwe have zz=−1. As soon as n≥2, inFn
+p2let
+v= (a,b,0,...,0) and w= (bz,−az,0,...,0)
+The inequality ( v·w)(w·v)≤p(v·v)(w·w) fails because the left-hand side is 0
+and the right-hand side is −1. In fact if n≥3, the inequality can be invalidated
+with vectors v,winFn
+pas follows. Taking again a,b∈Fpwitha2+b2=−1, let
+v= (1,a,b,0,...,0) and w= (1,0,0,0,...,0)5
+However,the Cauchy-Schwarzinequalityholdsunconditionallyinthe 2-dimensional
+case for vectors with components in Fp:
+Special case of F2
+p.Letpbe a prime congruent 3modulo4. For all vectors v,w
+inF2
+p
+(v·w)(w·v)≤p(v·v)(w·w)
+Proof.Nowtheconjugationappearinginthe innerproductsisthe identity. Written
+in components,
+(v·v)(w·w)−(v·w)(w·v) = (v2
+1+v2
+2)(w2
+1+w2
+2)−(v1w1+v2w2)2=
+=v2
+1w2
+2+v2
+2w2
+1−2v1w1v2w2= (v1w2−v2w1)2
+/square
+5.Manhattan norm of inner product
+The Manhattan norm can be seen to be submultiplicative not only on th e ring
+Z[i] and its quotient ﬁeld Fp2, but on all vector spaces Fn
+p2, with respect to the
+inner product:
+Cauchy-Schwarz Inequality for Manhattan Norm on Fn
+p2.Consider any
+primep≡3 mod 4 and letn≥1. For all v,w∈Fn
+p2
+N(v·w)≤N(v)N(w)
+Proof.Letv= (v1,...,v n),w= (w1,...,w n)∈Fn
+p2. Thenv·w=/summationtextvjwj. Clearly
+N(z) =N(z) for any z∈Fp2. By the triangle and submultiplicative inequalities in
+Fp2we have
+N(v·w) =N/parenleftbig/summationtextvjwj/parenrightbig
+≤/summationtextN/parenleftbig
+vjwj/parenrightbig
+≤/summationtextN(vj)N(wj)≤
+≤/summationtextN(vj)/summationtextN(wj) =N(v)N(w)
+/square
+Remark. The inequality N(v·w)≤N(v)N(w) is easily interpreted and continues
+to hold for v,win the module ( Z[i]/mZ[i])nfor any positive integer m. As soon as
+mis composite, or a prime not congruent to 3 modulo 4, the ring Z[i]/mZ[i] fails
+to be an integral domain.
+References
+[1] H.R. Coish, Elementary particles in a ﬁnite world geomet ry, Phys. Rev. 114 - 1 (1959) 383-388
+[2] S. Foldes, The Lorentz group and its ﬁnite ﬁeld analogues : local isomorphism and approxima-
+tion, J. Math. Phys. 49, 093512 (2008)
+[3] G. J¨ arnefelt, P. Kustaanheimo, An observation on ﬁnite geometries, in Proc. Skandinaviske
+Matematikerkongress i Trondheim 1949, 166-182
+[4] P. Kustaanheimo, A note on a ﬁnite approximation of the eu clidean plane geometry, Comment.
+Phys.-Math. Soc. Sc. Fenn. XV. 19 (1950) 1-11
+[5] P. Kustaanheimo, B. Qvist, On diﬀerentiation in Galois ﬁ elds. Ann. Acad. Sci. Fennicae. Ser.
+A. I. Math.-Phys. 1952, (1952). no. 137, 12 pp.
+[6] Y. Nambu, Field theory of Galois ﬁelds, in Field Theory an d Quantum Statistics, eds. J.A.
+Batalin et.al., Institute of Physics Publishing 1987, pp. 6 25-6366 STEPHAN FOLDES AND L ´ASZL´O MAJOR
+Stephan Foldes
+Institute of Mathematics,
+Tampere University of Technology,
+PL 553, 33101 Tampere, Finland
+E-mail address :sf@tut.fi
+L´aszl´o Major
+Institute of Mathematics,
+Tampere University of Technology,
+PL 553, 33101 Tampere, Finland
+E-mail address :laszlo.major@tut.fi

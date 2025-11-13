@@ -1,0 +1,321 @@
+arXiv:1001.0810v1  [astro-ph.CO]  6 Jan 2010Relaxing constraints on dark matter annihilation
+Leonid Chuzhoy
+Department of Astronomy and Astrophysics, The University o f Chicago, 5640 S. Ellis, Chicago, IL 60637,
+USA; chuzhoy@oddjob.uchicago.edu
+ABSTRACT
+The relic abundance of thermal dark matter particles is generally as sumed to be inversely
+proportional to their annihilation rate, which is therefore constra ined by the present matter
+density,∝angbracketleftσannv∝angbracketright ∼10−26Ω−1
+dmcm3·sec−1. Here we point out that much lower values of ∝angbracketleftσannv∝angbracketright
+arepossibleforheavydarkmattercandidates( mX/greaterorsimilar10TeV)thatcoupletootherparticlespecies
+through the electroweak force. With heavy dark matter particles present the early universe may
+evolveaccordingtothefollowingscenario. Afteranearlyentryinto matter-dominatedphase,dark
+matter particles form self-gravitating microhalos. Collisional intera ction between dark matter
+particles and the surroundingradiation ﬁeld eventually leads to micro halosgravothermalcollapse
+and annihilation of most dark matter particles. For suﬃciently heavy dark matter candidates
+(mX/greaterorsimilar10 TeV) the universe can return to radiation-dominated phase bef ore the nucleosynthesis
+and thereafter follow the ”standard” scenario.
+Subject headings: cosmology: theory – early universe
+1. Introduction
+While there is a strong evidence for the ex-
+istence of non-baryonic dark matter, little is
+known about its origins. In the currently popu-
+lar scenario, dark matter particles and antipar-
+ticles start in thermal equilibrium with radia-
+tion. When temperature drops below the par-
+ticle mass, mX, their comoving density begins an
+exponential fall until the annihilation time-scale,
+tann= (nX∝angbracketleftσannv∝angbracketright)−1, becomes larger than the
+age of the Universe. From this point the comoving
+density of dark matter particles is assumed frozen.
+Forthe relicabundance ofdarkmatter particlesto
+be consistent with the present value of Ω dmtheir
+annihilation rate at the time of freeze-out must
+equal (Kolb & Turner 1989)
+∝angbracketleftσannv∝angbracketright ∼3·10−26cm3·sec−1.(1)
+Unless dark matter is of non-thermal origin
+(Chung, Kolb & Riotto 1998), lower values of
+∝angbracketleftσannv∝angbracketrightwould overclose the universe and there-
+fore can be excluded.
+If dark matter particles interact through any
+known force, during the decoupling epoch, whenT∼mX, their annihilation cross-section can not
+exceedσann/lessorsimilarα/T2∼α/m2
+X. Using this fact,
+Griest & Kamionkowski (1990) obtained from (1)
+anupperlimitonthemassofdarkmatterparticles
+mX/lessorsimilar300 TeV. (2)
+However, in this paper we point out that dark
+matter candidates with higher mass and lower an-
+nihilation cross-section are not necessarily incon-
+sistent with the present value of Ω dm. Unlike the
+standard model, which assumes the dark matter
+comoving density freezes out soon after the tem-
+peratureoftheUniversedropsbelow mX, weshow
+that it is possible for it to drop again later, after
+dark matter particles form virialized halos.
+2. Dark matter annihilation inside halos
+Unlike the standard model, where the matter
+becomes dominant only around z∼104, in a Uni-
+verse with low ∝angbracketleftσannv∝angbracketrightand high mXthe initial
+transition to matter domination happens much
+earlier. Consequently the growth of density per-
+turbations and the formation of the ﬁrst gravita-
+1tionally bound halos would be likewise shifted to
+a much earlier epoch.
+The collapse of dark matter particles into halos
+gives a strong boost to the dark matter annihi-
+lation rate. Whereas previously the time-scale for
+particleannihilationwasincreasingfasterthanthe
+age of the Universe, freeze-out of the local density
+inside gravitationally bound halos causes the re-
+versal of this trend. Once the Hubble time begins
+to catch up with the annihilation time-scale, the
+dark matter comoving density is no longer con-
+stant.
+Subsequent evolution of the Universe depends
+on the nature of the dark matter particles. For
+purely collisionless dark matter it can be shown
+(see Appendix A) that the comoving matter den-
+sity eventually approaches an asymptote, ρm(1+
+z)−3∝t−1/4. This moderate rate of decline turns
+out to be insuﬃcient for the Universe to return to
+radiation dominated phase before the nucleosyn-
+thesis. However, annihilation inside halos can be
+greatly sped up if dark matter particles interact
+with the surrounding radiation (made up mostly
+of relativistic quarks and leptons).
+At present weakly interacting massive parti-
+cles (WIMPs) are the most popular candidates
+for the role of dark matter. The collisional cou-
+pling between WIMPs and other species is usu-
+ally assumed to be negligible. At our epoch this
+assumption is generally correct, as the Universe
+temperature is far below the mass scale of W±
+andZbosonswhich mediate the weakforce. How-
+ever, in the early universe, when T/greaterorsimilar300 GeV,
+the coupling becomes very eﬃcient. At high tem-
+peratures WIMPs scattering cross-section rises to
+σelastic∼α2/T2, making the ratio between the
+relaxation time and the age of the Universe
+τrel
+tHubble∼mX+T
+α2mPl, (3)
+wheremPlis the Planck mass. For mX/lessorsimilar1013
+TeV and 0 .1/lessorsimilarT/lessorsimilar1013TeV this ratio drops
+below unity, implying that WIMPs kinetic energy
+is tightly coupled to the radiation.
+Collisional coupling between dark matter and
+radiation has a two-fold eﬀect on the formation
+of self-gravitating dark matter halos, which is ex-
+pected to begin after the matter-radiation equal-
+ity. On small scales, Tvirial< Tγ, the energy
+transfer from radiation to dark matter preventsthecollapseofthelow-masshalos. Onlargescales,
+Tvirial/greaterorsimilarTγ, the eﬀect is the opposite. Since
+self-gravitating objects have negative heat capac-
+ity, the energy loss to the surrounding radiation
+ﬁeld would lead dark matter particles to collapse
+deeper into the gravitational well, thereby raising
+the virial temperature. Thus the continuous en-
+ergy loss to the background radiation results in a
+gravothermal collapse.1
+The time-scale for particle diﬀusion in self-
+gravitating objects, which in our case also sets the
+time-scale for gravothermal collapse of larger ha-
+los, is
+τcoll∼∝angbracketleftσelv∝angbracketright
+Gmx, (4)
+whereσel∼α2/T2is the scattering cross-section
+for the weakly interacting particles. If, as gener-
+ally predicted by the inﬂation models, the density
+perturbation spectrum is scale-invariant, then the
+velocity dispersion of dark matter particles in ha-
+los with a size above the damping scales should
+be of order v∼0.1cand the virial temperature
+T∼0.01mX. Thus in large halos the gravother-
+mal collapse proceeds on a timescale
+τcoll∼103/parenleftBigmX
+1TeV/parenrightBig−3
+sec. (5)
+If halos consist equally of dark matter particles
+and anti-particles (i.e. there is no dark matter
+asymmetry) at some point during the gravother-
+mal collapsenearlyall ofthem mayannihilate into
+radiation. Provided the mass of the particle is
+greater than ∼10 TeV, halos collapse and the
+resulting conversion of dark matter to radiation
+would end before nucleosynthesis and thereafter
+the evolution of the Universe can proceed accord-
+ing to the ”standard” scenario.
+3. Discussion
+Itfollowsfromourscenariothattheexistenceof
+stable particles with high mass and low annihila-
+tion cross-section does not violate the constraints
+on the present matter density. If several species of
+1During the epoch of reionization, 6 /lessorsimilarz/lessorsimilar20, inverse
+Compton scatterings between electrons and the CMB pho-
+tons have a similareﬀect on baryonic halos. However, there
+the gravothermal collapse is generally avoided either by en -
+ergy injection from stars and miniquasars or by hydrogen
+recombination, which depletes the free electron abundance .
+2such particles existed in the early universe, each
+could have been eliminated in separate periods of
+matter domination followed by return to radiation
+domination.
+To satisfy the constraints on abundance of the
+light elements the last reversal to radiation dom-
+ination must have happened prior to the nucle-
+osynthesis. Nevertheless it is possible for the tran-
+sitional matter dominated phase to leave its im-
+print on the presently observed universe. Besides
+leaving a small remnant of heavy particles, which
+at present compose the dark matter, the transi-
+tional matter dominated phase might aﬀect later
+universe by creating a population of primordial
+black holes and baryon asymmetry.
+The violation of CP-symmetry in the early uni-
+verse (Sakharov 1967) makes it natural to expect
+a small diﬀerential between the coupling strengths
+of particles and anti-particles. Inside collapsing
+halos the drag force produced on dark matter
+particles through elastic scatterings with the es-
+caping radiation may be diﬀerent from the force
+on dark matter anti-particles. As a result, spa-
+tial segregation of dark matter particles and anti-
+particles would be produced. Similarly, a dif-
+ferential drag by the infalling dark matter par-
+ticles on the outﬂowing quarks and anti-quarks
+(or leptons and anti-leptons) would produce lo-
+cal over/underabundancesof baryons and leptons.
+During halos gravothermal collapse the existence
+of such segregation would make it impossible for
+the entirehalo to annihilate intoradiation. There-
+fore the collapse of particles (or anti-particles)
+dominating at the halo center should lead to the
+formation of a black hole.
+Since black holes do not conserve baryon num-
+bers (Hawking 1974; Zeldovich 1976; Carr 1976),
+formation of a central black hole would convert a
+local particle asymmetry into a global one. De-
+pending on their initial mass, these primordial
+black holes may have evaporated long before the
+present epoch, possibly further amplifying the
+matter-antimatterasymmetryin the process(Dol-
+gov 1982). Alternatively, if their mass was suﬃ-
+ciently large, signiﬁcant population of primordial
+black holes may still be found in our Universe.
+TheauthorthanksE.W.Kolb,M.S.TurnerandM. Beltran for stimulating discussions.
+Appendix A: Annihilation of collisionless
+particles in virialized halos
+We consider the evolution of matter den-
+sity ﬁeld, assuming the annihilation cross-section
+scales as ∝angbracketleftσannv∝angbracketright ∝v−xat non-relativistic veloci-
+ties. While it is common to assume x= 0, many
+new particle candidates with x= 1 have been
+proposed (e.g. Hisano et al. 2004; Profumo 2005;
+Lattanzi & Silk 2008). Here we shall assume that
+xcan take any value in the physically plausible
+range 0≤x <2.
+After decoupling from radiation matter den-
+sity drops to a point when the annihilation time-
+scale,tann= (nx∝angbracketleftσannv∝angbracketright)−1, becomes longer than
+the Hubble time, so that the comoving density is
+frozen. As long as the density ﬁeld remains nearly
+homogeneous with the density and velocity dis-
+persion falling respectively as a−3anda−2with
+the increasing scale factor, a,tann/tHubblecontin-
+ues to rise. However, this trend is reversed af-
+ter matter collapses into halos. Inside an isolated
+gravitationally bound halos both the local density
+and velocity dispersion remain roughly constant,
+freezing the growth of tannuntil it becomes com-
+parable with tHubble. At this point a halo would
+start losing mass at a signiﬁcant rate via parti-
+cle annihilation. The subsequent halo evolution of
+can be described as following.
+The mass loss from particle annihilation and
+the resulting decrease of binding energy would
+cause the halo to expand, so that the annihila-
+tion time-scale tracks the age of the halo. Because
+the dynamic time is much shorter than tHubble,
+the halo always remains close to dynamical equi-
+librium. Since the gravitational binding energy is
+proportional to Eg∝M2/R, whereMandRare
+the total massandthe radiusofthe halo, changing
+the mass and radius by dManddRrespectively,
+changesEgby
+dEg=Eg/parenleftbigg
+2dM
+M−dR
+R/parenrightbigg
+. (6)
+The change of halo kinetic energy, Ek, in the an-
+nihilation process depends on the velocity depen-
+dence of σannand the particle velocity distribu-
+tion. Assuming Maxwell-Boltzmann distribution,
+we ﬁnd that the average kinetic energy of an an-
+3nihilating particle is (1 −x/2)(mX/angbracketleftbig
+v2/angbracketrightbig
+/2), where/radicalbig
+∝angbracketleftv2∝angbracketrightis the local velocity dispersion. Thus
+dEk
+Ek=/parenleftBig
+1−x
+2/parenrightBigdM
+M. (7)
+Combining the virial theorem, Eg=−2Ek, with
+equations (6) and (7), we ﬁnd that the radius
+of the halo increases with the falling mass as
+R∝M−1+x/2. Further, by using the scalings
+ρ∝M/R3,v∝/radicalbig
+M/Rand (ρv−x)∝t−1, we
+ﬁnd that the total mass of the halo falls with time
+asM∝tµ,µ=−4/(16+2x−x2). For the entire
+range 0≤x <2,µis conﬁned to a narrow range
+−0.25≤x <−0.235.
+Modeling the Universe as an ensemble of iso-
+lated halos, we can follow the global evolution of
+matter and radiation density ﬁelds
+d2a
+adt2=−4πG
+3(ρm+2ργ),(8)
+dρm
+dt=−/parenleftbigg
+3da
+adt−µ
+t/parenrightbigg
+ρm,(9)
+dργ
+dt=−4da
+adt−µ
+tρm, (10)
+whereργandρmare respectively, the mean densi-
+ties ofradiation and matter and ais the expansion
+factor. Solving the equations, we ﬁnd the asymp-
+totic solutions
+a∝t(2+µ)/3, (11)
+ρm=2+5µ+2µ2
+12πGt2, ργ=−(2+µ)µ
+8πGt2,(12)
+ρm
+ργ=−2(1+2µ)
+3µ. (13)
+Forµ≈ −1/4 we get Ω m≈4/7 and Ω γ≈3/7.
+REFERENCES
+Carr B.J. 1976, ApJ, 206, 8
+ChungD. J.H., KolbE.W., RiottoA. 1998,Phys.
+Rev. Lett. 81, 4048
+Dolgov A.D. 1992, Phys. Rept. 222, 309Griest K., Kamionkowski M. 1990, Phys. Rev.
+Lett., 64, 615
+Hawking S. W. 1974, Nature 248, 30
+Hisano J., Matsumoto S., & Nojiri M. M. 2004,
+Phys. Rev. Lett., 92, 031303
+Kolb E.W., Turner M.S., ”The Early Eniverse”
+(Addison-Wesley, Redwood City)
+Lattanzi M., & Silk J. 2009, Phys. Rev. D., 79,
+3523
+Profumo S., 2005, Phys. Rev. D 72, 103521
+Sakharov A.D. 1967, JETP, 5, 24
+Zeldovich Ya. B., 1976, JETP Lett. 24, 25
+This 2-column preprint was prepared with the AAS L ATEX
+macros v5.2.
+4

@@ -1,0 +1,107 @@
+arXiv:1001.0704v1  [astro-ph.CO]  5 Jan 2010Propertiesandshort-timeevolutionofnearby
+galaxies
+A. Chuprikov∗
+Astro SpaceCenterof P.N.LebedevPhysicalInstituteofRus sianAcademyof
+Sciences,Profsoyuznaya84/ 32,117997,Moscow,Russia
+E-mail:achupr@asc.rssi.ru
+I. Guirin
+Astro SpaceCenterof P.N.LebedevPhysicalInstituteofRus sianAcademyof
+Sciences,Profsoyuznaya84/ 32,117997,Moscow,Russia
+E-mail:igirin@asc.rssi.ru
+We analyzethe results of processingof data of observations which had beencarried out with the
+VLBA during 10 last years. All the data have been retrieved fr om archive of the National Radio
+Astronomy Observatory(USA NRAO, Socorro, New Mexico). Par ticularly, we examine data of
+VLBA observational sessions titled BK068,BL111,BL137,BL149, andBD086. Objects of our
+interest are near galaxies with z < 0.02. The radio maps of com pact structure around the active
+galacticnuclei (AGN)reconstructedfortwo such galaxies (NGC315and3C274) in U frequency
+band (15 GHz) are presented. Some parametersof these source s are shown in Table 1. We have
+to perform the careful amplitude and phase calibration for a ll the data. Particularly, a correction
+of the delay caused by the Earth atmosphere has been made beca use it is necessary in this fre-
+quency range. Bright quasars close to the target sources (fo r instance, J0136+4751 and 3C279
+correspondingly) are used as atmosphere calibrators. Seco ndly, the Multi Frequency Synthesis
+(MFS) method (Likhachev, 2004) is used for ﬁnal maps reconst ruction as well as for estimation
+of spectral index values of core and jet of AGN of both objects . As a result, we can make some
+conclusionsaboutthemilliarcsecondstructureofcentral regionsofsourcesthankstotheusingof
+these two methodsof the VLBA data processing. Moreover,we c an revealsome changesof this
+structurein1999-2009,andestimate roughlythevelocitie sandacceleration/decelerationvalues
+for brightest componentsof the nuclei of NGC315 and 3C274. A ny polarizationphenomenaare
+not taken into account. We present results of processing of d ata of LL polarization for all the
+observationalsessions
+PanoramicRadioAstronomy: Wide-ﬁeld1-2GHzresearchonga laxyevolution-PRA2009
+June02-052009
+Groningen,theNetherlands
+∗Speaker.
+c/circlecopyrtCopyrightownedbytheauthor(s)underthetermsoftheCreat ive CommonsAttribution-NonCommercial-ShareAlikeLicen ce. http://pos.sissa.it/NearGalaxies A.Chuprikov
+1. Results ofdata processing
+The software project Astro Space Locator (ASL for Windows) ( Chuprikov, 2002) has been
+used toprocess all the data. The data processing consists of the following stages :
+•Amplitude calibration of all the data using GCand TYtables
+•Single band fringe ﬁtting (the primary phase calibration) o f all the data. Estimation of the
+optimum value of solution interval
+•Averaging of all the data over each frequency band
+•Multi band fringe ﬁtting of the atmosphere calibrator data. Estimation of gain values for
+every frequency and every time interval
+•Application of gains, compensation of atmosphere delay for all the data
+•Self-calibration
+•Imaging
+Figure 1 demonstrates the compact structure of nuclei of 3C2 74 and NGC315 reconstructed
+according to the scheme above. Evolution of this structure i s obvious for both sources. Table 2
+and Table 3 show the changes of coordinates of components. Th ese changes have the following
+properties :
+1. For 3C274
+•Image consists of 3components (A,B,and C)
+•Thereis not anyvisible proper motion of the brightest compo nent (component A)
+•Velocity value of the B component is minimal between Februar y 6, 2003 and February 5,
+2007. This value is equal approximately to 1 .5·108cm/s , and it increases after February 5,
+2007 up to1 .1·109cm/s
+•Velocity value of the C component also has a minimum between F ebruary 6, 2003 and
+February 5, 2007. Thisminimum value isequal to approximate ly 6.1·108cm/s
+Again, this value increases after February 5, 2007 upto 3 .6·109cm/s
+2. For NGC315
+•Image consists of 2components (A,and B)
+•Thereis not anyvisible proper motion of the brightest compo nent (component A)
+•Velocity of the B component decreases between July 19, 1999 a nd September 12, 2008
+from 6.5·109cm/s downto 1 .7·108cm/s
+2. Conclusions
+Weassumed that using theprocedure of atmosphere delay cali bration canessentially improve
+the image of source in the 2 centimetre wavelength range. The monitoring of near galaxies radio
+structure evolution for the period of approximately 10 year s is possible thanks to such application
+of such procedure to VLBA data. Analysis of evolution of stru cture of two galaxies (3C274, and
+NGC315) demonstrates absence of superluminal motion of any component in both sources. The
+2NearGalaxies A.Chuprikov
+maximum value of component velocity isequal approximately to6.5·109cm/s(or 0 .22·c). Thus,
+we could to propose that strong synchrotron self-absorptio n is signiﬁcant in both sources. More-
+over, spectral index maps show a highly inverted core (spect ral index is positive in core of both
+sources). This could be another indicator of self-absorpti on.
+Alltheresultspresented inthispaperarepreliminary. Iti snecessary toperformsimilarmonitoring
+of near galaxies in other frequency ranges to make ﬁnal concl usions. Procedures and techologies
+used during the VLBA data processing also could be very usefu l for processing of data of future
+Space VLBImission titled RADIOASTRON.
+Figure1: Evolutionoftheradiostructurein1999- 2009for3C274(lef t),andNGC0315(right)
+References
+[1] A.Chuprikov2002,Proc.ofthe 6thEuropeanVLBI Network Symposium,June25th-28th2002,
+Bonn,Germany,27
+[2] E.B. Fomalont2000,APJSS, 131,95
+[3] S. Likhachev2004,Proc.ofthe7thEuropeanVLBINetwork SymposiumonNewDevelopmentsin
+VLBIScienceandtechnology,October12-152004,Toledo,Sp ain,325
+3NearGalaxies A.Chuprikov
+Table 1:Redshift(Fomalont,2000)anddistancefor3C274andNGC315
+IAU Common z Distance 1mas corresponds to
+Name Name [Mpc] linear size [cm]
+J1230+1223 3C274 0.004 14.7 2 .20·1017
+J0057+3021 NGC315 0.017 62.5 9 .35·1017
+Table 2:RelativecoordinatesofA, B, andC componentsofthecentral regionof3C274in1999- 2009
+Date JD VLBA RAof DECof RAof DECof RAof DECof
+2450000 + Session A (mas) A (mas) B (mas) B (mas) C (mas) C (mas)
+22/05/1999 1320.51 BK068 0 0 -0.870 0.61 -2.32 0.64
+06/02/2003 2676.80 BL111 0 0 -1.552 0.59 -2.52 1.01
+05/02/2007 4136.85 BL137 0 0 -1.637 0.57 -2.40 0.68
+07/01/2009 4838.85 BL149 0 0 -1.900 0.40 -3.35 0.98
+Table 3:RelativecoordinatesofA andB componentsofthe centralreg ionofNGC315in 1999-2008
+Date JD VLBA RAof DECof RAof DECof
+2450000 + Session A (mas) A (mas) B (mas) B (mas)
+19/07/1999 1378.97 BK068 0 0 -1.618 1.196
+28/12/2000 1907.38 BK068 0 0 -1.437 0.930
+03/10/2003 2915.65 BD086 0 0 -1.525 1.486
+12/09/2008 4721.82 BL149 0 0 -1.500 1.500
+4

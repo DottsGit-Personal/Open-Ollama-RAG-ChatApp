@@ -1,0 +1,174 @@
+arXiv:1001.0176v4  [math.RA]  19 Jun 2012A note on the Schur multiplier of a nilpotent Lie
+algebra
+Peyman Niroomanda, Francesco Russob
+aSchool of Mathematics and Computer Science Damghan University o f Basic Sciences,
+Damghan, Iran.
+bUniversity of Naples Federico II via Cinthia, 80126, Naples, Italy.
+Abstract
+ForanilpotentLiealgebra Lofdimension nanddim( L2) =m(m≥
+1), we ﬁnd the upper bound dim( M(L))≤1
+2(n+m−2)(n−m−1)+1,
+whereM(L) denotes the Schur multiplier of L. In case m= 1 the
+equality holds if and only if L∼=H(1)⊕A, where Ais an abelian
+Lie algebra of dimension n−3 andH(1) is the Heisenberg algebra of
+dimension 3.
+Key Words : Schur multiplier, nilpotent Lie algebras.
+2000 Mathematics Subject Classiﬁcation : Primary 17B30; Secondary
+17B60, 17B99.
+1 Introduction
+It is well known that restrictions on the Schur multiplier of ﬁnitep–groups
+(pa prime) are related to signiﬁcant information on the Schur m ultiplier
+M(L) of a nilpotent Lie algebra Lof dimension n. Many times it is possible
+to get structural results on Lonly looking at the size of M(L). This fact
+was already noted by Batten and others in [1, Theorem 5]. Give nt(L) =
+1
+2n(n−1)−dim(M(L)), they prove in [1, Theorem 3] that t(L) = 1 if and
+only ifL∼=H(1), where H(1) is the Heisenberg algebra of dimension 3.
+Moreover [1, Theorem 5] shows that t(L) = 2 if and only if L∼=H(1)⊕A,
+whereAis an abelian algebra of dim( A) = 1.
+To convenience of the reader, we recall that a ﬁnite dimensio nal Lie
+algebraLis called Heisenberg provided that L2=Z(L) and dim( L2) = 1.
+Suchalgebrasareodddimensionalwithbasis v1,...,v2m,vandtheonlynon-
+zero multiplication between basis elements is [ v2i−1,v2i] =−[v2i,v2i−1] =v
+1fori= 1,...,m. The symbol H(m) denotes the Heisenberg algebra of
+dimension 2 m+1.
+There are successive contributions on the same line of inves tigation, once
+we prescribea value for t(L). In [3] the cases t(L) = 3,4,5,6 are studied and
+weaker characterizations are obtained (see [3, Theorems 2, 3, 4]). Under the
+same prospective we should read [2, 5], where homological ma chineries are
+involved.
+It is instructive to note that in [1, Section 1] Batten and oth ers declare
+explicitly that their contributions originated from the cl assiﬁcation of Zhou
+in [9], where a corresponding situation for p–groups was analyzed. In a
+certain sense the same motivation allows us to write the pres ent paper.
+A classic restriction of Jones [4, Theorem 3.1.4] on the Schu r multiplier
+of a non-abelian p–group has been recently improved by the ﬁrst author.
+More precisely it is proved in [6] that a non-abelian p–groupGof order pn
+with derived subgroup of order pkhas
+|M(G)| ≤p1
+2(n+k−2)(n−k−1)+1.
+In particular,
+|M(G)| ≤p1
+2(n−1)(n−2)+1
+and the equality holds in this last bound if and only if G=H×Z, whereH
+is extra special of order p3and exponent p, andZis an elementary abelian
+p–group.
+The present paper is devoted to obtain similar results for Li e algebras.
+2 Preliminaries
+The present section illustrates how the ideas of Zhou [9] hav e been adapted
+in [3] to the context of Lie algebras. This is an important fee dback for our
+main theorems. For instance, the following is analogous to [ 4, Theorem
+2.5.2].
+Proposition 2.1. (See[1, Lemma 4] ).LetLbe a ﬁnite dimensional Lie al-
+gebra,Kan ideal of LandH=L/K. Then there exists a ﬁnite dimensional
+Lie algebra Jand and ideal MofJsuch that
+(i)L2∩K∼=J/M;
+(ii)M(L)∼=M;
+(iii)M(H)is an epimorphic image of J.
+2The Schur multiplier of the direct product of two ﬁnite group s is equal to
+the direct product of the Schur multipliers of the two factor s plus the tensor
+product of the abelianization of the two groups (see [4, Theo rem 2.2.10]).
+This is a general fact of homology, which is known as the K¨ unn eth Formula
+(see [7]), and it is true also for two ﬁnite dimensional Lie al gebrasHandK.
+The K¨ unneth Formula was originally obtained by Schur in 190 4 (see [8]).
+We recall that the symbol ⊗denotes the usual tensor product of abelian Lie
+algebras. Then we have
+M(H⊕K) =M(H)⊕M(K)⊕(H/H2⊗K/K2).
+At this point we may give a short proof of [1, Theorem 1] as foll ows.
+Theorem 2.2. LetAandBbe ﬁnite dimensional Lie algebras. Then
+dim(M(A⊕B)) = dim( M(A))+dim( M(B))+dim( A/A2⊗B/B2).
+Proof.Use the K¨ unneth Formula above mentioned.
+The following result is proved in [4, Theorem 2.5.5 (ii)] for groups.
+Corollary 2.3. LetLbe a ﬁnite dimensional Lie algebra, Kan ideal of L
+andH=L/K. Then
+dim(M(L))+dim(L2∩K)≤dim(M(H))+dim(M(K))+dim(H/H2⊗K/K2).
+Proof.From Theorem 2.2 it is enough to prove that dim( M(L))+dim( L2∩
+K)≤dim(M(H⊕K)). From Proposition 2.1,
+dim(M(L))+dim(L2∩K) = dim( M)+dim(J/M) = dim( J) = dim( ǫ(M(H)))
+for a suitable epimorphism ǫof Lie algebras. Since ǫsends systems of
+generators in systems of generators, dim( ǫ(M(H))≤dim(M(H⊗K)), as
+claimed.
+Now we mention three results from [1, 2, 3, 5] to convenience o f the
+reader.
+Lemma 2.4. (See[2, Example 3] and[5, Theorem 24] ).
+(i)dim(M(H(1))) = 2 .
+(ii)dim(M(H(m))) = 2m2−m−1for allm≥2.
+3Lemma 2.5. (See[1, Lemma 3] ).A Lie algebra Lof dimension nis abelian
+if and only if dim(M(L)) =1
+2n(n−1).
+Proposition 2.6. (See[3, Proposition 1] ).A nilpotent Lie algebra Lof di-
+mension nhasdim(L2)+dim(M(L))≤1
+2n(n−1).
+Hardy and others declare in [3] that they were working on high er values
+oft(L) (namely, the case t(L)≥9 is still open). Their investigations come
+from the bound in Proposition 2.6.
+3 Main Theorem
+Thefollowing resultprovides aboundwhich is less than theb oundinPropo-
+sition 2.6 except for the case L∼=H(1).
+Theorem 3.1. LetLbe a nilpotent Lie algebra of dim(L) =nanddim(L2) =
+m(m≥1). Then
+dimM(L)≤1
+2(n+m−2)(n−m−1)+1.
+Moreover, if m= 1, then the equality holds if and only if L∼=H(1)⊕A,
+whereAis an abelian Lie algebra of dim(A) =n−3.
+Proof.Assume dim( L2) = 1. Then L/L2is an abelian Lie algebra of
+dim(L/L2) =n−1. Since L2⊆Z(L), we may consider a complement
+H/L2ofZ(L)/L2inL/L2. So we have L=H+Z(L) andL2=H2. On the
+other hand, H∩Z(L)⊆Hand soZ(H) =L2. SinceL2⊆Z(L),L2must
+have a complement KinZ(L). LetL2⊕K=Z(L) so we have L∼=K⊕H.
+By Theorem 2.2,
+dim(M(K⊕H)) = dim( M(K))+dim( M(H))+dim( K/K2⊗H/H2).
+SinceHis a Heisenberg algebra and Kis abelian, two cases should be
+considered.
+Case 1. Assume dim( H) = 2m+1 form≥2. By Lemmas 2.4 and 2.5,
+dim(M(H)) = 2m2−m−1,
+dim(M(K)) =1
+2(n−2m−1)(n−2m−2),
+dim(K⊗H/H2) = dim( K)·dim(H/H2) = (n−2m−1)(2m).
+4and we deduce that
+dim(M(K⊕H)) =1
+2(n−2m−1)(n−2m−2)+(2m2−m−1)+(n−2m−1)(2m)
+=1
+2n(n−3)<1
+2(n−1)(n−2)+1.
+Case 2. Assume m= 1 and H∼=H(1). By Lemmas 2.4 and 2.5,
+dim(M(H)) = 2,
+dim(M(K)) =1
+2(n−3)(n−4),
+dim(K⊗H/H2) = dim( K)·dim(H/H2) = (n−3)·(2)
+and we deduce that
+dim(M(K⊕H)) =1
+2(n−3)(n−4)+2+2( n−3)
+=1
+2n(n−3)+2.
+Now we proceed by induction on m.
+Letm >1. Since 0 /negationslash=L2∩Z(L), there exists an ideal Kof dimension 1
+contained in L2∩Z(L). By induction hypothesis and Lemma 2.3, we have
+1+dim( M(L))≤dim(M(L/K))+dim( M(K))+dim( L/L2⊗K)
+and so
+dim(M(L))≤1
+2(n+m−4)(n−m−1)+1+ n−m−1
+=1
+2(n+m−2)(n−m−1)+1,
+as claimed.
+References
+[1] P. Batten, K. Moneyhun and E. Stitzinger, On characteriz ing nilpotent
+Lie algebras by their multipliers, Comm. Algebra 24(1996), 4319–4330.
+[2] P. Batten and E. Stitzinger, On covers of Lie algebras, Comm. Algebra
+24, (1996), 4301–4317.
+5[3] P. Hardy and E. Stitzinger, On characterizing nilpotent Lie algebras by
+their multipliers t(L) = 3,4,5,6,Comm. Algebra 26(1998), 3527–3539.
+[4] G. Karpilovsky, The Schur multiplier , London Math. Soc. Monogr.
+(N.S.) 2, London, 1987.
+[5] K. Moneyhun, Isoclinisms in Lie algebras, Algebras Groups Geom. 11
+(1994), 9–22.
+[6] P. Niroomand, On the order of Schur multiplier of non-abe lianp–
+groups,J. Algebra 322(2009), 4479–4482.
+[7] J. Rotman, An Introduction to Homological Algebra , Academic Press,
+San Diego, 1979.
+[8] I. Schur, Untersuchungen ber die Darstellung der endlic hen Gruppen
+durch gebrochene lineare Substitutionen, J. Reine Angew. Math. 132
+(1907), 85--137
+[9] X. Zhou, Ontheorder oftheSchurmultiplier ofﬁnite p–groups, Comm.
+Algebra22(1994), 1–8.
+6

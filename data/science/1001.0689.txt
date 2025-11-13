@@ -1,0 +1,419 @@
+arXiv:1001.0689v1  [nlin.CD]  5 Jan 2010INTERACTION AND CHAOTIC DYNAMICS OF THE
+CLASSICAL HYDROGEN ATOM IN AN ELECTROMAGNETIC
+FIELD
+M. Alaburda, V. Gontis and B. Kaulakys
+Institute of Theoretical Physics and Astronomy, A. Goštaut o 12, 2600 Vilnius, Lithuania
+Expressions for energy and angular momentum changes of the h ydrogen atom
+due to interaction with the electromagnetic ﬁeld during the period of the
+electron motion in the Coulomb ﬁeld are derived. It is shown t hat only
+the energy change for the motion between two subsequent pass ings of the
+pericenter is related to the quasiclassical dipole matrix e lement for transitions
+between excited states.
+1 Introduction
+Classical hydrogen atom in a monochromatic electromagneti c ﬁeld is one of the simplest
+real nonlinear system which dynamics may be regular or chaot ic [1, 2], depending on the
+relative ﬁeld strength and frequency. Even one-dimensiona l classical model of highly excited
+atom yields results suﬃciently close to the experimental ﬁn dings. For theoretical analysis
+approximate mapping equations of motion, rather than diﬀer ential equations, are most con-
+venient [2–7]. Here a two-dimensional map (for the scaled en ergy and for relative phase of
+the ﬁeld) is generalized for two-dimensional hydrogen atom , i.e. we calculate energy and
+angular momentum changes of the atom interacting with the el ectromagnetic ﬁeld.
+2 One-dimensional atom in monochromatic ﬁeld
+The Hamiltonian of the hydrogen atom in a linearly polarized monochromatic electromag-
+netic ﬁeld (in atomic units) is [4, 7]
+H=1
+2/parenleftbigg
+P+1
+cA/parenrightbigg2
+−1
+r. (1)
+HerePis the generalized momentum, cis the light velocity,
+A=−cF
+ωsin(ωt+ϑ) (2)
+is the vector potential of the ﬁeld, F,ωandϑare the ﬁeld strength amplitude, ﬁeld fre-
+quency and phase, respectively. The change of the electron e nergy can be obtained from the
+Hamiltonian equations of motion [8]
+˙E=−r·Fcos(ωt+ϑ). (3)
+One can introduce the scaled energy Es=E/ω2/3and the scaled ﬁeld strength Fs=
+F/ω4/3. However, it is convenient [2–7] to introduce the positive s caled energy ε=−2Es
+and the relative ﬁeld strength F0=Fs/ε2
+0, withε0being the initial scaled energy.
+1Integration of eq. (3) over the period of time between two sub sequent passages of the
+electron at the apocenter results in the change of the electr on energy [3, 4]
+εj+1=εj−πF0ε2
+0h(εj+1)sinϑj, (4)
+where
+h(εj+1) =4
+εj+1J′
+sj+1(sj+1). (5)
+Heres=ε−3/2=ω/(−2E)3/2is the relative frequency of the ﬁeld, i.e. the ratio of the ﬁe ld
+frequency to the electron Kepler orbital frequency and J′
+s(s)is the derivative of the Anger
+function. Introducing a generating function G(εj+1,ϑj)[9, 10] one can calculate the phase
+ϑchange over the period
+ϑj+1=ϑj+2πε−3/2
+j+1−πF0ε2
+0η(εj+1)cosϑj, (6)
+where
+η(εj+1) =dh(εj+1)
+dεj+1. (7)
+Figure 1. Trajectories (ε,ϑ)for the map (4) and (6) with the parameter πF0ε2
+0= 0.0035and initial condi-
+tionsϑ0=π,ε0= 0.3−0.003i(i= 0,1,2,...).
+Equations (4) and (6) describe the changes of the energy and p hase in time. This map
+greatly facilitates numerical investigation of dynamics a nd ionization process. In ﬁgures 1
+and ﬁgure 2 results of the numerical analysis of map (4) - (6) a re presented.
+3 Two-dimensional atom in monochromatic ﬁeld
+For calculation of the energy change of the arbitrary orient ated two-dimensional atom in the
+electromagnetic ﬁeld according to equation (3) one should p erform the transformation of the
+coordinates (ﬁgure 3). The change of the angular momentum of the atom it follows from the
+Hamiltonian equations of motion
+˙M=−∂H
+∂α=−rFsin(α+ϕ)cos(ωt+ϑ). (8)
+20,0 0,2 0,4 0,6 0,8 1,0 1,2 1,4 1,60,000,020,040,060,080,100,120,14
+ 1
+ 2
+F0c
+s0
+1 2 3 4 50,0150,0200,0250,0300,0350,0400,0450,050
+ 1
+ 2
+F0c
+s0
+Figure 2. Ionization threshold ﬁeld dependence on the relative frequ encys0. Continuous curve represents
+results calculated with variation of the initial phase ϑ0, while dotted curve is for ϑ0= 0.
+By analogy with the scaled energy one can introduce the scale d angular momentum
+µ= 2Ms= 2Mω1/3. Moreover, it is convenient to introduce the parametric equ ations of
+motion for the Coulomb potential [6–8].
+Integration of equations (3) and (8) for the half of the perio d of the electron motion, i.e.
+for transition from apocenter to pericenter yield the scale d energy and angular momentum
+changes in the linearly polarized electromagnetic ﬁeld
+εj+1=εj+2πF0ε2
+0
+εj+1{−[J′
+s(z)sinϑj+E′
+s(z)cosϑj]cosϕ
++√
+1−e2
+e/bracketleftbigg/parenleftbigg
+Js(z)−sin(sπ)
+sπ/parenrightbigg
+cosϑj−/parenleftbigg
+Es(z)−1−cos(sπ)
+sπ/parenrightbigg
+sinϑj/bracketrightbigg
+sinϕ/bracerightbigg
+(9)
+3Figure 3. Two-dimensional atom in the electromagnetic ﬁeld.
+and
+µj+1=µj+2πF0ε2
+0
+εj+1/braceleftbigg√
+1−e2
+e/bracketleftbigg/parenleftbigg
+Js(z)−sin(sπ)
+sπ/parenrightbigg
+sinϑj
++/parenleftbigg
+Es(z)−1−cos(sπ)
+sπ/parenrightbigg
+cosϑj/bracketrightbigg
+cosϕ+/bracketleftbigg/parenleftbigg
+−J′
+s(z)+(1+e)sin(sπ)
+π/parenrightbigg
+cosϑj
++/parenleftbigg
+E′
+s(z)+(1+e)cos(sπ)
+π+1−e
+π/parenrightbigg
+sinϑj/bracketrightbigg
+sinϕ/bracerightbigg
+.(10)
+HereEs(z)is the Weber function, z=esand e is the eccentricity of the ellipsis. By
+analogy or from equations (9) and (10) choosing appropriate initial phases of the ﬁeld one can
+calculate the energy and angular momentum changes for the el ectron motion from pericenter
+to apocenter as well as for the complete period with diﬀerent initial conditions.
+So, for motion between two subsequent passages at the apocen ter we have generalization
+of eq. (4) for the energy change
+εj+1=εj+4πF0ε2
+0
+εj+1/braceleftbigg
+−J′
+s(z)sinϑjcosϕ+√
+1−e2
+e/bracketleftbigg
+Js(z)−sin(sπ)
+sπ/bracketrightbigg
+cosϑjsinϕ/bracerightbigg
+(11)
+and the angular momentum change
+µj+1=µj+4πF0ε2
+0
+εj+1/braceleftbigg√
+1−e2
+e/bracketleftbigg
+Js(z)−sin(sπ)
+sπ/bracketrightbigg
+sinϑjcosϕ
++/bracketleftbigg
+−J′
+s(z)+(1+e)sin(sπ)
+π/bracketrightbigg
+cosϑjsinϕ/bracerightbigg
+.(12)
+One can calculate the energy and angular momentum changes fo r the electron motion
+between two subsequent passages at the pericenter in the sim ilar way.
+43.1 Approximation for relatively high frequency s
+For relatively high frequency of the ﬁeld, s≫1, the asymptotic form of the Anger function
+Js(se)and its derivative J′
+s(se)may be used [7]. Then eq. (11) may be written in the form
+εj+1=εj+πF0ε2
+0/braceleftBigg
+(e−2)/bracketleftBigg
+4b−4a
+5εj+1−sin(ε−3/2
+j+1π)
+πε2
+j+1/bracketrightBigg
+sinϑjcosϕ
++√
+1−e2
+e/bracketleftBigg
+4aε−1/2
+j+1−2sin(ε−3/2
+j+1π)
+πε1/2
+j+1−2b
+35ε3/2
+j+1
++(e−1)/parenleftBigg
+4bε−3/2
+j+1−4a
+5ε−1/2
+j+1−sin(ε−3/2
+j+1π)
+πε1/2
+j+1/parenrightBigg/bracketrightBigg
+cosϑjsinϕ/bracerightBigg
+.(13)
+Introducing the generating function we can obtain the itera tive equation for the phase ϑjas
+a generalization of eq. (6)
+ϑj+1=ϑj+2πε−3/2
+j+1+πF0ε2
+0/braceleftBigg
+(2−e)/bracketleftBigg
+4a
+5−3cos(ε−3/2
+j+1π)
+2ε−1/2
+j+1
++2sin(ε−3/2
+j+1π)
+πεj+1/bracketrightBigg
+cosϑjcosϕ+√
+1−e2
+e/bracketleftBig
+2aε−3/2
+j+1−3cos(ε−3/2
+j+1π)ε−2
+j+1
++sin(ε−3/2
+j+1π)
+πε−1/2
+j+1+3b
+35ε1/2
+j+1+(e−1)/parenleftBig
+6bε−5/2
+j+1
+−2aε−3/2
+j+1−3cos(ε−3/2
+j+1π)
+2ε−2
+j+1+sin(ε−3/2
+j+1π)
+2πε−1/2
+j+1/parenrightBigg/bracketrightBigg
+sinϑjsinϕ/bracerightBigg
+.(14)
+Using mapping equations (13) and (14) we can represent the en ergy and phase dynamics
+(ﬁgure 4) and calculate numerically the relative threshold ﬁeld strength for the ionization of
+the two-dimensional hydrogen atom (ﬁgure 5).
+3.2 Limiting cases for energy and angular momentum changes
+3.2.1 Approximations for very extended orbits
+For very extended orbits, e→1, the expansions for the energy (11) and angular momentum
+(12) in powers of β=√
+1−e2≪1are
+εj+1=εj+4πF0ε2
+0
+εj+1/braceleftbig
+−/parenleftbig
+1+β2/parenrightbig
+J′
+s(s)sinϑjcosϕ
++β/bracketleftbigg
+Js(s)−sin(sπ)
+sπ/bracketrightbigg
+cosϑjsinϕ/bracerightbigg
+,(15)
+5Figure 4. Phase plane (ε,ϑ)of two-dimensional map (13) and (14) with parameter πF0ε2
+0= 0.0035, initial
+conditions ϑ0=π,ε0= 0.3−0.003i(i= 0,1,2,...) and orientation angle (a) ϕ= 0and (b)
+ϕ=π/6.
+µj+1=µj+4πF0ε2
+0
+εj+1/braceleftbigg
+β/bracketleftbigg
+Js(s)−sin(sπ)
+sπ/bracketrightbigg
+sinϑjcosϕ
++/bracketleftbigg
+−/parenleftbig
+1+β2/parenrightbig
+J′
+s(s)+/parenleftbig
+2−β2/parenrightbigsin(sπ)
+π/bracketrightbigg
+cosϑjsinϕ/bracerightbigg
+.(16)
+Fore= 1eq. (15) coincides with eq. (4) for the one-dimensional atom , while eq. (16)
+represents change of the angular momentum, resulting to tra nsition to the elliptic states with
+nonzero angular momentum.
+3.2.2 Approximations for almost circular orbits
+For almost circular orbits the eccentricity is small, e→0. Expansion of expressions (11)
+and (12) in powers of emay be obtained from equations (3) and (11). The results are
+62 4 6 8 100,0120,0140,0160,0180,020
+ 1
+ 2
+F0c
+s0
+Figure 5. Ionization threshold ﬁeld dependence on the relative frequ encys0for two-dimensional atom with
+the eccentricity e= 0.9and orientation angle ϕ= 0(curve 1) and ϕ=π/6(curve 2).
+εj+1=εj+4F0ε2
+0sin(sπ)
+εj+1/braceleftbigg/bracketleftbigge
+2+3
+4e2s2−1
+1−s2+1
+2es2
+4−s2−3
+4e2s2
+9−s2/bracketrightbigg
+sinϑjcosϕ
++s/bracketleftbigg1−1
+4e2(s2−4)
+1−s2−e
+4−s2+1
+4e2s2
+9−s2/bracketrightbigg
+cosϑjsinϕ/bracerightbigg
+,(17)
+µj+1=µj+4F0ε2
+0sin(sπ)
+εj+1
+×/braceleftbigg
+s/bracketleftbigg
+−e
+2+1−e2(1+1
+4s2)
+1−s2+e(1−1
+2s2)
+4−s2+1
+4e2s2
+9−s2/bracketrightbigg
+sinϑjcosϕ
++/bracketleftbigg3e
+2+s2(1
+2e2(1+1
+2s2)−1)
+1−s2−1
+2es2
+4−s2+1
+2e2s2(3−1
+2s2)
+9−s2/bracketrightbigg
+cosϑjsinϕ/bracerightbigg
+.(18)
+These expansions are not valid for s= 1,2,3,....
+4 Atom in the circularly polarized ﬁeld
+The equation for the energy change of the atom in the circular ly polarized ﬁeld is
+˙Ek=−eF(vxcos(ωt+ϑ)±vysin(ωt+ϑ)). (19)
+Here sign ”+”or”−”corresponds to the same and opposite directions of the elect ron and
+ﬁeld rotations, respectively.
+7For the electron, moving between two subsequent pericenter the energy and angular
+momentum changes are
+εj+1=εj−4πF0ε2
+0
+εj+1/braceleftbigg
+J′
+−s(z)±√
+1−e2
+e/bracketleftbigg
+J−s(z)−sin(sπ)
+sπ/bracketrightbigg/bracerightbigg
+sin(sπ+ϑj∓ϕ),(20)
+µj+1=µj+4πF0ε2
+0
+εj+1/braceleftbigg/bracketleftbigg√
+1−e2
+e/parenleftbigg
+J−s(z)−sin(sπ)
+sπ/parenrightbigg
+∓/parenleftbigg
+−J′
+−s(z)+(e−1)sin(sπ)
+π/parenrightbigg/bracketrightbigg
+sin(sπ+ϑj∓ϕ)
+±(1+1/e)cos(sπ)+1−1/e
+πcos(sπ+ϑj∓ϕ)/bracerightbigg
+.(21)
+It should be noted, that expression in the curly brackets in e q. (20) coincides with the
+expression in the quasiclassical radial dipole matrix elem ent in the velocity representation
+[6]
+D±
+p=1
+s/braceleftbigg
+J′
+−s(z)±√
+1−e2
+e/bracketleftbigg
+J−s(z)−sin(sπ)
+sπ/bracketrightbigg/bracerightbigg
+. (22)
+This correspondence, however, takes place only for interac tion of the hydrogen atom
+with the circularly polarized microwave ﬁeld and for integr ation of the equations of motion
+between two subsequent pericenters. In general, the energy [3, 7] and angular momentum
+changes depend on the integration interval. So, for motion o f the electron between two
+subsequent apocenters, i.e., the most distant from the nucl eus points, where the electron’s
+energy change is minimal, the energy change is described by t he expression similar to eq.
+(20) but instead of J−s(es)andJ′
+−s(es)we have the Anger function and its derivative of the
+positive order, Js(es)andJ′
+s(es). This interval has been used in [3, 4, 5] for derivation of
+the Kepler map for the one-dimensional hydrogen atom.
+5 Conclusion
+Analytical expressions for the energy and angular momentum changes of the two-dimensional
+hydrogen atom in linearly and circularly polarized electro magnetic ﬁelds are derived. It
+should be noted that in general the expressions are rather co mplicated. The approximate
+expressions for limiting cases of the parameters are more co nvenient for analytical and nu-
+merical analysis of the dynamics.
+The derived expressions are suitable for the three-dimensi on hydrogen atom as well, and
+may be generalized for analysis of the chaotic motion (due to the Jupiter perturbations) of
+comets and asteroids in the Sun system.
+References
+[1]N. B. Delone, V. P. Krainov and D. L. Shepelyansky , Usp. Fiz. Nauk 140, 355
+(1983) [Sov. Phys.-Usp. 26, 551 (1983)].
+8[2]P. M. Koch and K. A. H. van Leeuwen , Phys. Rep., V. 255 , 289 (1995).
+[3]V. Gontis and B. Kaulakys , J. Phys. B: At. Mol. Opt. Phys., V. 20, 5051 (1987).
+[4]B. Kaulakys and G. Vilutis , Phys. Scripta, V. 59, 251 (1999) .
+[5]B. Kaulakys, D. Grauzhinis and G. Vilutis , Europhys. Lett., V. 43, 123 (1998).
+[6]B. Kaulakys , J. Phys. B: At. Mol. Opt. Phys., V. 28, 4963 (1995).
+[7]B. Kaulakys , J. Phys. B: At. Mol. Opt. Phys., V. 24, 571 (1991).
+[8]L. D. Landau and E. M. Lifshitz ,Classical Field Theory (Pergamon, New York,
+1975).
+[9]A. J. Lichtenberg and M. A. Lieberman ,Regular and Stochastic Motion (Springer-
+Verlag, New York, 1983 and 1992).
+[10]G. M. Zaslavskii ,Stochastic Behavior of Dynamical Systems (Nauka, Moscow, 1984;
+Harwood, New York, 1985).
+9

@@ -1,0 +1,322 @@
+arXiv:1001.0008v2  [hep-th]  6 Jan 2010Multi-Stream Inﬂation: Bifurcations and Recombinations i n the Multiverse
+Yi Wang∗
+Physics Department, McGill University, Montreal, H3A2T8, Canada
+In this Letter, we brieﬂy review the multi-stream inﬂation s cenario, and discuss its implications in
+the string theory landscape and the inﬂationary multiverse . In multi-stream inﬂation, the inﬂation
+trajectory encounters bifurcations. If these bifurcation s are in the observable stage of inﬂation, then
+interesting observational eﬀects can take place, such as do main fences, non-Gaussianities, features
+and asymmetries in the CMB. On the other hand, if the bifurcat ion takes place in the eternal stage
+of inﬂation, it provides an alternative creation mechanism of bubbles universes in eternal inﬂation,
+as well as a mechanism to locally terminate eternal inﬂation , which reduces the measure of eternal
+inﬂation.
+I. INTRODUCTION
+Inﬂation [1] has become the leading paradigm for the
+very early universe. However, the detailed mechanism
+for inﬂation still remains unknown. Inspired by the pic-
+ture of string theory landscape [2], one could expect that
+the inﬂationary potential has very complicated structure
+[3]. Inﬂation in the string theory landscape has impor-
+tantimplicationsinbothobservablestageofinﬂationand
+eternal inﬂation.
+The complicated inﬂationary potentials in the string
+theory landscape open up a great number of interest-
+ing observational eﬀects during observable inﬂation. Re-
+searchesinvestigatingthecomplicatedstructureofthein-
+ﬂationary potential include multi-stream inﬂation [4, 5],
+quasi-single ﬁeld inﬂation [6], meandering inﬂation [7],
+old curvaton [8], etc.
+Thestringtheorylandscapealsoprovidesaplayground
+for eternal inﬂation. Eternal inﬂation is an very early
+stage of inﬂation, during which the universe reproduces
+itself, so that inﬂation becomes eternal to the future.
+Eternal inﬂation, if indeed happened (for counter ar-
+guments see, for example [9]), can populate the string
+theory landscape, providing an explanation for the cos-
+mological constant problem in our bubble universe by
+anthropic arguments.
+In this Letter, we shall focus on the multi-stream inﬂa-
+tion scenario. Multi-stream inﬂation is proposed in [4].
+And in [5], it is pointed out that the bifurcations can
+lead to multiverse. Multi-stream inﬂation assumes that
+during inﬂation there exist bifurcation(s) in the inﬂation
+trajectory. For example, the bifurcations take place nat-
+urally in a random potential, as illustrated in Fig. 1. We
+brieﬂy review multi-stream inﬂation in Section II. The
+details of some contents in Section II can be found in
+[4]. We discuss some new implications of multi-stream
+inﬂation for the inﬂationary multiverse in Section III.
+∗wangyi@hep.physics.mcgill.ca
+FIG. 1. In this ﬁgure, we use a tilted random potential to
+mimic a inﬂationary potential in the string theory landscap e.
+One can expect that in such a random potential, bifurcation
+eﬀects happens generically, as illustrated in the trajecto ries
+in the ﬁgure.
+FIG. 2. One sample bifurcation in multi-stream inﬂation.
+The inﬂation trajectory bifurcates into AandBwhen the
+comoving scale k1exits the horizon, and recombines when
+the comoving scale k2exits the horizon.
+II. OBSERVABLE BIFURCATIONS
+In this section, we discuss the possibility that the bi-
+furcation of multi-stream inﬂation happens during the
+observable stage of inﬂation. We review the production
+of non-Gaussianities, features and asymmetries [4] in the2
+FIG. 3. In multi-stream inﬂation, the universe breaks up
+into patches with comoving scale k1. Each patch experienced
+inﬂation either along trajectories AorB. These diﬀerent
+patches can be responsible for the asymmetries in the CMB.
+CMB, and investigate some other possible observational
+eﬀects.
+To be explicit, we focus on one single bifurcation, as
+illustrated in Fig. 2. We denote the initial (before bifur-
+cation) inﬂationary direction by ϕ, and the initial isocur-
+vature direction by χ. For simplicity, we let χ= 0 before
+bifurcation. When comoving wave number k1exits the
+horizon, the inﬂation trajectory bifurcates into Aand
+B. When comoving wave number k2exits the horizon,
+the trajectories recombines into a single trajectory. The
+universe breaks into of order k1/k0patches (where k0de-
+notes the comoving scale of the current observable uni-
+verse), each patch experienced inﬂation either along tra-
+jectories AorB. The choice of the trajectories is made
+by the isocurvature perturbation δχat scale k1. This
+picture is illustrated in Fig. 3.
+We shall classify the bifurcation into three cases:
+Symmetric bifurcation . If the bifurcation is symmetric,
+in other words, V(ϕ,χ) =V(ϕ,−χ), then there are two
+potentially observable eﬀects, namely, quasi-single ﬁeld
+inﬂation, and a eﬀect from a domain-wall-like objects,
+which we call domain fences.
+As discussed in [4], the discussion of the bifurcation
+eﬀect becomes simpler when the isocurvature direction
+has mass of order the Hubble parameter. In this case,
+except for the bifurcation and recombination points, tra-
+jectoryAand trajectory Bexperience quasi-single ﬁeld
+inﬂation respectively. As there are turnings of these tra-
+jectories, the analysis in [6] can be applied here. The
+perturbations, especially non-Gaussianities in the isocur-
+vature directions are projected onto the curvature direc-
+tion, resultingin a correctionto the powerspectrum, and
+potentially large non-Gaussianities. As shown in [6], the
+amount of non-Gaussianity is of order
+fNL∼P−1/2
+ζ/parenleftbigg1
+H∂3V
+∂χ3/parenrightbigg/parenleftBigg˙θ
+H/parenrightBigg3
+, (1)
+whereθdenotes the angle between the true inﬂation di-
+rection and the ϕdirection.
+As shown in Fig. 3, the universe is broken into patches
+during multi-stream inﬂation. There arewall-likebound-
+aries between these patches. During inﬂation, theseboundaries are initially domain walls. However, after
+the recombination of the trajectories, the tensions of
+these domain walls vanish. We call these objects domain
+fences. As is well known, domain wall causes disasters
+in cosmology because of its tension. However, without
+tension, domain fence does not necessarily cause such
+disasters. It is interesting to investigate whether there
+are observational sequences of these domain fences.
+Nearly symmetric bifurcation If the bifurcation is
+nearly symmetric, in other words, V(ϕ,χ)≃V(ϕ,−χ),
+but not equal exactly, which can be achieved by a spon-
+taneous breaking and restoring of an approximate sym-
+metry, then besides the quasi-single ﬁeld eﬀect and the
+domain fence eﬀect, there will be four more potentially
+observable eﬀects in multi-stream inﬂation, namely, the
+features and asymmetries in CMB, non-Gaussianity at
+scalek1and squeezed non-Gaussianity correlating scale
+k1and scale kwithk1< k < k 2.
+The CMB power asymmetries are produced because,
+as in Fig. 3, patches coming from trajectory AorBcan
+have diﬀerent power spectra PA
+ζandPB
+ζ, which are de-
+termined by their local potentials. If the scale k1is near
+to the scale of the observational universe k0, then multi-
+stream inﬂation provides an explanation of the hemi-
+spherical asymmetry problem [10].
+The features in the CMB (here feature denotes extra
+large perturbation at a single scale k1) are produced as
+a result of the e-folding number diﬀerence δNbetween
+two trajectories. From the δNformalism, the curvature
+perturbation in the uniform density slice at scale k1has
+an additional contribution
+δζk1∼δN≡ |NA−NB|. (2)
+These features in the CMB are potentially observable
+in the future precise CMB measurements. As the addi-
+tional ﬂuctuation δζk1does not obey Gaussian distribu-
+tion, there will be non-Gaussianity at scale k1.
+Finally, there are also correlations between scale k1
+and scale kwithk1< k < k 2. This is because the ad-
+ditional ﬂuctuation δζk1and the asymmetry at scale k
+are both controlled by the isocurvature perturbation at
+scalek1. Thus the ﬂuctuations at these two scales are
+correlated. As estimated in [4], this correlation results in
+a non-Gaussianity of order
+fNL∼δζk1
+ζk1PA
+ζ−PB
+ζ
+PA
+ζP−1/2
+ζ. (3)
+Non-symmetric bifurcation If the bifurcation is not
+symmetric at all, especially with large e-folding number
+diﬀerences (of order O(1) or greater) along diﬀerent tra-
+jectories, the anisotropy in the CMB and the large scale
+structure becomes too large at scale k1. However, in
+this case, regions with smaller e-folding number will have
+exponentially small volume compared with regions with
+larger e-folding number. Thus the anisotropy can behave
+in the form of great voids. We shall address this issue in
+more detail in [11]. Trajectories with e-folding number3
+diﬀerence from O(10−5) toO(1) in the observable stage
+of inﬂation are ruled out by the large scale isotropy of
+the observable universe.
+At the remainderof this section, we would like to make
+several additional comments for multi-stream inﬂation:
+The possibility that the bifurcated trajectories never re-
+combine. In this case, one needs to worry about the do-
+main walls, which do not become domain fence during
+inﬂation. These domain walls may eventually become
+domain fence after reheating anyway. Another prob-
+lem is that the e-folding numbers along diﬀerent tra-
+jectories may diﬀer too much, which produce too much
+anisotropies in the CMB and the large scale structure.
+However, similar to the discussion in the case of non-
+symmetric bifurcation, in this case, the observable eﬀect
+could become great voids due to a large e-folding number
+diﬀerence. The case without recombination of trajectory
+also has applications in eternal inﬂation, as we shall dis-
+cuss in the next section.
+Probabilities for diﬀerent trajectories . In [4], we con-
+sidered the simple example that during the bifurcation,
+the inﬂaton will run into trajectories AandBwith equal
+probabilities. Actually, this assumption does not need to
+be satisﬁed for more general cases. The probability to
+run into diﬀerent trajectories can be of the same order
+of magnitude, or diﬀerent exponentially. In the latter
+case, there is a potential barrier in front of one trajec-
+tory, which can be leaped over by a large ﬂuctuation of
+theisocurvatureﬁeld. Alargeﬂuctuationoftheisocurva-
+ture ﬁeld is exponentially rare, resulting in exponentially
+diﬀerent probabilities for diﬀerent trajectories. The bi-
+furcation of this kind is typically non-symmetric.
+Bifurcation point itself does not result in eternal inﬂa-
+tion. As is well known, in single ﬁeld inﬂation, if the
+inﬂaton releases at a local maxima on a “top of the hill”,
+a stage of eternal inﬂation is usually obtained. However,
+at the bifurcation point, it is not the case. Because al-
+though the χdirection releases at a local maxima, the ϕ
+direction keeps on rolling at the same time. The inﬂa-
+tiondirectionisacombinationofthesetwodirections. So
+multi-stream inﬂation can coexist with eternal inﬂation,
+but itself is not necessarily eternal.
+III. ETERNAL BIFURCATIONS
+In multi-stream inﬂation, the bifurcation eﬀect may ei-
+ther take place at an eternal stage of inﬂation. In this
+case, it provides interesting ingredients to eternal inﬂa-
+tion. These ingredients include alternative mechanism to
+producediﬀerentbubble universesandlocalterminations
+for eternal inﬂation, as we shall discuss separately.
+Multi-stream bubble universes . The most discussed
+mechanisms to produce bubble universes are tunneling
+processes, such as Coleman de Luccia instantons [12] and
+Hawking Moss instantons [13]. In these processes, the
+tunneling events, which are usually exponentially sup-
+pressed, create new bubble universes, while most parts
+FIG. 4. Cascade creation of bubble universes. In this ﬁgure,
+we assume trajectory Ais the eternal inﬂation trajectory, and
+trajectory Bis the non-eternal inﬂation trajectory.
+of the spatial volume remain in the old bubble universe
+at the instant of tunneling.
+If bifurcations of multi-stream inﬂation happen dur-
+ing eternal inﬂation, two kinds of new bubble universes
+can be created with similar probabilities. In this case,
+at the instant of bifurcation, both kinds of bubble uni-
+verseshavenearlyequalspatialvolume. Withachangeof
+probabilities, the measures for eternal inﬂation should be
+reconsideredformulti-streamtype bubble creationmech-
+anism.
+If the inﬂation trajectories recombine after a period of
+inﬂation, the diﬀerent bubble universes will eventually
+have the same physical laws and constants of nature. On
+the other hand, if the diﬀerent inﬂation trajectories do
+not recombine, then the diﬀerent bubble universes cre-
+ated by the bifurcation will have diﬀerent vacuum ex-
+pectation values of the scalar ﬁelds, resulting to diﬀerent
+physical laws or constants of nature. It is interesting
+to investigate whether the bifurcation eﬀect is more ef-
+fective than the tunneling eﬀect to populate the string
+theory landscape.
+Note that in multi-stream inﬂation, it is still possi-
+ble that diﬀerent trajectorieshaveexponentiallydiﬀerent
+probabilities, as discussed in the previous section. In this
+case, multi-stream inﬂation behaves similar to Hawking
+Moss instantons during eternal inﬂation.
+Local terminations for eternal inﬂation . It is possible
+that during multi-stream inﬂation, a inﬂation trajectory
+bifurcates in to one eternal inﬂation trajectory and one
+non-eternal inﬂation trajectory with similar probability.
+Inthiscase,theinﬂatonintheeternalinﬂationtrajectory
+frequently jumps back to the bifurcation point, resulting
+in a cascade creation of bubble universes, as illustrated
+in Fig. 4. This cascade creation of bubble universes, if4
+realized, is more eﬃcient in producing reheating bubbles
+than tunneling eﬀects. Thus it reduces the measure for
+eternal inﬂation.
+There are some other interesting issues for bifurcation
+in the multiverse. For example, the bubble walls may
+be observable in the present observable universe, and the
+bifurcations can lead to multiverse without eternal inﬂa-
+tion. These possibilities are discussed in [5].
+IV. CONCLUSION AND DISCUSSION
+To conclude, webrieﬂy reviewedmulti-stream inﬂation
+during observable inﬂation. Some new issues such as do-main fences and connection with quasi-single ﬁeld inﬂa-
+tion are discussed. We also discussed multi-stream inﬂa-
+tion in the context of eternal inﬂation. The bifurcation
+eﬀect in multi-stream inﬂation provides an alternative
+mechanism for creating bubble universes and populating
+the string theory landscape. The bifurcation eﬀect also
+provides a very eﬃcient mechanism to locally terminate
+eternal inﬂation.
+ACKNOWLEDGMENT
+We thank Yifu Cai for discussion. This work was sup-
+ported by NSERC and an IPP postdoctoral fellowship.
+[1] A. H. Guth, Phys. Rev. D 23, 347 (1981). A. D. Linde,
+Phys. Lett. B 108, 389 (1982). A. J. Albrecht and
+P. J. Steinhardt, Phys. Rev. Lett. 48, 1220 (1982).
+[2] R. Bousso and J. Polchinski, JHEP 0006, 006 (2000)
+[arXiv:hep-th/0004134]. S. B. Giddings, S. Kachru
+and J. Polchinski, Phys. Rev. D 66, 106006 (2002)
+[arXiv:hep-th/0105097]. S. Kachru, R. Kallosh, A. Linde
+and S. P. Trivedi, Phys. Rev. D 68, 046005 (2003)
+[arXiv:hep-th/0301240]. M. R. Douglas, JHEP 0305, 046
+(2003) [arXiv:hep-th/0303194].
+[3] Q. G. Huang and S. H. Tye, arXiv:0803.0663 [hep-th].
+[4] M. Li and Y. Wang, JCAP 0907, 033 (2009)
+[arXiv:0903.2123 [hep-th]].
+[5] S. Li, Y. Liu and Y. S. Piao, arXiv:0906.3608 [hep-th].
+[6] X. Chen and Y. Wang, arXiv:0909.0496 [astro-ph.CO].
+X. Chen and Y. Wang, arXiv:0911.3380 [hep-th].
+[7] S. H. Tye and J. Xu, arXiv:0910.0849 [hep-th].
+[8] J. O. Gong and M. Sasaki, JCAP 0901, 001 (2009)
+[arXiv:0804.4488 [astro-ph]]. J. O. Gong, C. Lin andY. Wang, arXiv:0912.2796 [astro-ph.CO].
+[9] V. F. Mukhanov, L. R. W. Abramo and R. H. Bran-
+denberger, Phys. Rev. Lett. 78, 1624 (1997)
+[arXiv:gr-qc/9609026]. Y. F. Cai and Y. Wang,
+JCAP0706, 022 (2007) [arXiv:0706.0572 [hep-th]].
+Q. G. Huang, M. Li and Y. Wang, JCAP 0709,
+013 (2007) [arXiv:0707.3471 [hep-th]]. Y. Wang,
+arXiv:0805.4520 [hep-th].
+[10] H. K. Eriksen, F. K. Hansen, A. J. Banday, K. M. Gorski
+and P. B. Lilje, Astrophys. J. 605, 14 (2004) [Erratum-
+ibid.609, 1198 (2004)] [arXiv:astro-ph/0307507].
+A. L. Erickcek, M. Kamionkowski and S. M. Carroll,
+Phys. Rev. D 78, 123520 (2008) [arXiv:0806.0377
+[astro-ph]].
+[11] N. Afshordi, A. Slosar and Y. Wang, in preparation.
+[12] S. R. Coleman and F. De Luccia, Phys. Rev. D 21, 3305
+(1980).
+[13] S. W. Hawking and I. G. Moss, Phys. Lett. B 110, 35
+(1982).

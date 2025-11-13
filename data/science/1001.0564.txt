@@ -1,0 +1,198 @@
+arXiv:1001.0564v1  [astro-ph.IM]  4 Jan 2010Title : will be set by the publisher
+Editors : will be set by the publisher
+EAS Publications Series, Vol. ?, 2018
+A DIFFERENT GLANCE TO THE SITE TESTING ABOVE
+DOME C
+Elena Masciadri1, Franck Lascaux1, Jeﬀrey Stoesz1, Susanna Hagelin1
+and Kerstin Geissler2
+Abstract. Due to the recent interest shown by astronomers towards the
+Antarctic Plateau as a potential site for large astronomica l facilities,
+we assisted in the last years to a strengthening of site testi ng activities
+in this region, particularly at Dome C. Most of the results co llected
+so far concern meteorologic parameters and optical turbule nce mea-
+surements based on diﬀerent principles using diﬀerent inst ruments. At
+present we have several elements indicating that, above the ﬁrst 20-30
+meters, the quality of the optical turbulence above Dome C is better
+than above whatever other site in the world. The challenging question,
+crucial to know which kind of facilities to build on, is to est ablish how
+much better the Dome C is than a mid-latitude site. In this con tri-
+bution we will provide some complementary elements and stra tegies of
+analysis aiming to answer to this question. We will try to con centrate
+the attention on critical points, i.e. open questions that s till require
+explanation/attention.
+1 Introduction
+Most of the site testing done so far above Dome C has been carried o ut with mea-
+surements taken with diﬀerent instruments and based on diﬀerent techniques. Our
+approach to the site testing in this context is diﬀerent. We intend to estimate the
+optical turbulence ( C2
+N) with the employment of atmospherical models at meso-
+scale, more precisely we plan to use the Meso-Nh model (Masciadri & Jabouille
+2001, Masciadri, Avila & Sanchez 2004 , Masciadri & Egner 2006). Th is approach
+provides the possibility to reconstruct 3D C2
+Nmaps (not only vertical proﬁles)
+and to forecast the optical turbulence. The ﬂexible scheduling and optimization
+of scientiﬁc observational programs for new class of ground-bas ed telescopes pass
+1INAF-Osservatorio Astroﬁsico di Arcetri, Firenze, Italy; e-mail: masciadri@arcetri.astro.it
+2European Southern Observatory, Alonso de Cordova 3107, San tiago, Chile
+c/circlecopyrtEDP Sciences 2018
+DOI: (will be inserted later)2 Title : will be set by the publisher
+necessarily by the forecast of the optical turbulence; this topic is therefore strictly
+correlated to the success and the survival of the ground-based astronomy of next
+decades. We recently set-up a research group at the Osservato rio Astroﬁsico di
+Arcetri (Florence)1whose aim is to carry out a project (FOROT) centered on the
+characterization and forecast of the Optical Turbulence. The co re project includes
+the study of two sites: the Mt. Graham, site of the Large Binocular Telescope
+(LBT) and the Internal Antarctic Plateau (Dome C, South Pole and Dome A).
+The ﬁnal goal of our work is to employ this technique to other sites in the world
+mainly for application to the ELTs. The orographicmaps ofthe Inter nal Antarctic
+Plateau, as reconstructed by the Meso-Nh model, is shown in Fig.1. Simulations
+will be carried out with diﬀerent horizontal resolution depending on s ite and sci-
+entiﬁc goals that we intend to reach.
+Why Antarctica ?
+•Because the whole International Community showed great interes t with re-
+spect to this site.
+•Because several site testing campaigns are on-going and this mean s that a
+large number of measurements will be soon available. This means a pos si-
+bility to constrain models outputs.
+•Because we will have the possibility to answer to critical scientiﬁc que stions
+among those: (1) ability of meso-scale models in discriminating betwee n
+sites located on the same plateau but characterized by diﬀerent tu rbulence
+features, (2) characterizationof an uncontaminated site such a s Dome A, (3)
+ability of meso-scale models in forecasting the optical turbulence.
+2 Challenges at Dome C
+We can summarize the promising potentialities of Dome C for future As tronomy
+in this Antarctic Continent with the following statement: at Dome C, above
+20-30 m the quality of the atmosphere is better than above wha tever
+other site at mid-latitude. What does it mean ? Above a good mid-latitude
+site, the free atmosphere seeing εFA(by deﬁnition for h≥1 km) is typically
+larger than 0.4 arcsec. Above Dome C, the free atmosphere seeing is≤0.4 arcsec
+and the thickness of the boundary layer is as thin as a few tens of me ters (∼30
+m). An exact estimate of such a thickness is obviously important but we would
+like to highlight that it has been shown (Ragazzoni et al. 2004) that, using 2 DMs
+opportunely conjugated in the low part of the atmosphere, it is pos sible to correct
+the ﬁrst 200 m reaching 15 arcmin FOV with reasonable good Strehl R atio. This
+already does of Dome C an extremely interesting site. The residual t urbulence in
+the free atmosphere, that is not corrected with the system desc ribed by Ragazzoni
+1http://forot.arcetri.astro.itGive a shorter title using \runningtitle 3
+Fig. 1.Orographic map centred above South Pole and extended on 3000 km×3000 km.
+et al. (2004), is critical to assure the predicted performances. F or this reason we
+think that the main priority in a list of studies to be carried out, is to co nﬁrm the
+upper limit for εFAmeasured so far. As we will explain in the next section, these
+results need to be conﬁrmed.
+3 The diﬀerent “glance”
+Fundamental requirement for our study is to collect as many as pos sible elements
+(included measurements) to constrain simulations. Here we list a few critical
+points telling us that we still need further studies in the ﬁelds of site t esting and
+a diﬀerent strategic approaches in the organization of site testing campaigns.
+(1)The vertical proﬁlers: MASS, SSS and Balloons never ran contempo ra-
+neously. We can not, at present, know the dispersion between inst ruments. (2)
+Some instruments, such as the SSS, are prototypes and need car eful validation.
+A comparison made on statistical base between measurements fro m SSS and an-
+other proﬁler taken as a reference need to be done. Results publis hed so far only
+concern the comparison between one C2
+Nproﬁle from SSS and balloon. (3)Mea-
+surements show discrepancies sometimes. In Agabi et al. (2006), for example, the
+median isoplanatic angle measured by the DIMM and the Balloons is resp ectively
+2.7 and 4.7 arcsec. This corresponds to a discrepancy of ∼50%. What we suspect
+is that most of the balloons measurements reach the height of 12 km and above
+this height the turbulence is not measured due to balloons explosion. As a conse-4 Title : will be set by the publisher
+quence, the isoplanatic angle measured by balloons is larger than the isoplanatic
+angle measured by a DIMM.
+To supply further elements that might comply with our needs we decid ed to
+followadiﬀerentapproach: tostudytheanalysesprovidedbytheE uropeanCenter
+for Medium Weather Forecasts (ECMWF) General Circulation Models . These are
+vertical proﬁles of absolute and potential temperature, wind spe ed and direction
+extracted in the grid point (75◦S, 123◦E), horizontal resolution 0.5◦, extended
+up to 0.1 hPa, 60 vertical levels with resolution decreasing with height . Data
+have been treated statistically on the 2003-2004 period at heights h≥30 m. The
+scientiﬁc goals of this study are: (1) to provide a yearly meteorolog ic parameters
+analysis, (2) to calculate the probability to trigger optical turbulen ce in diﬀerent
+slabs of atmosphere and in diﬀerent periods of the year and (3) to e stimate the
+quality of ECMWF analyses in perspective to use these data to initialise Meso-Nh.
+Analyses reliability has been proved in Geissler & Masciadri (2006). In that
+paper the main results of this study are extensively described. Figu re 2 shows
+the median wind speed in summer and winter time above 2 sites: Dome C a nd
+San Pedro M´ artir. The latter has been selected as representativ e of a mid-latitude
+site. It is possible to observe that above Dome C the wind speed is par ticularly
+weak in summer time on the whole troposphere; a peak appears at ar ound 5 km
+above the ground (tropopause). In winter time the wind speed incr eases mono-
+tonically above 10 km above the ground reaching 30 m/sec above 20 k m. Such
+a strong wind speed should be considered with attention for at least 2 reasons.
+Firstly it might trigger dynamic instabilities in the high free atmosphere , secondly
+it might aﬀect the wavefront coherence time τ0. This parameter indeed scales as
+C2
+N(h)·|V(h)|5/3, i.e. is particularly sensitive to large wind speed values.
+Fig.3 shows the median wind speed vertical proﬁle in winter time (June a nd July)
+above South Pole and the median wind speed vertical proﬁle in winter t ime above
+Dome C. Both results are retrieved by statistical estimates of ECM WF analyses.
+It is interesting to note that the wind speed at high altitudes is much w eaker at
+South Pole than at Dome C.
+How we can connect meteorological and astroclimatic parameters ? The study of
+the Richardson number Ri=Ri(∂θ/∂h,∂V/∂h), parameter indicating the proba-
+bility to triggerturbulence, shows(Geissler& Masciadri2006,Fig.14 )amonotonic
+increasingof the turbulence activity above 15km from summer towa rdsand across
+the winter time. One would expect therefore a more intense turbule nce activity at
+high altitudes during the winter than during the summer time. The tre nd iden-
+tiﬁed by the Richardson maps is conﬁrmed by measurements of θ0obtained with
+the same instrument in summer and winter time. θ0is much larger in summer
+time (6.8 arcsec - Aristidi et al. (2005)) than in winter time (2.7 arcse c - Agabi
+et al. (2006)). This means that turbulence at high altitudes is weake r in summer
+than in winter time. We should therefore increase the statistic of me asurements
+in August, September and October to better characterize this ph enomenon.
+A further result related to the seeing in the free atmosphere ( εFA) requiringGive a shorter title using \runningtitle 5
+Fig. 2.Comparison between the median wind speed proﬁle estimated d uring the winter
+time (full bold line) and summer time (dashed line line) (200 3) above Dome C and the
+median wind speed proﬁle estimated above the San Pedro M´ art ir Observatory in summer
+(dotted line) and winter (full thin line) time. San Pedro M´ a rtir is taken as representative
+of a mid-latitude site.
+Fig. 3.ECMWF analyeses estimates. Left: median wind speed vertica l proﬁle in winter
+time (June and July) above South Pole (dotted line). Right: m edian wind speed vertical
+proﬁle in winter time above Dome C (dotted lines are ﬁrst and t hird quartiles). See
+Geissler & Masciadri (2006) for further details.
+attention and careful veriﬁcation is the following. We can retrieve f rom the Fig.5
+(Agabi et al. 2006) that seeing measured by a DIMM placed at 20 m ab ove the
+ground grows in a monotonic way reaching values greater than 1 arc sec in August.
+Where this turbulence come from if the seeing above 30 m has been es timated not
+greater than 0.4 arcsec during the winter time ? One could think that this is the
+contribution associated to the thin layer between 20 and 30 m. If we look at the
+typicalC2
+Nvalues at 20-30 meters (10−14≤C2
+N≤5×10−14) (Fig.3, Agabi et
+al. 2006), we calculate the correspondent seeing in the 20-30 m slab and we ﬁnally6 Title : will be set by the publisher
+subtract2the result from the seeing reported in Fig.5, we ﬁnd a seeing in the ran ge
+0.45 - 0.92 arcsec (at h ≥30 m). We therefore obtain a seeing above 30 m that
+is greater than the 0.4 arcsec indicated by preliminary results. This e xhorts us in
+pushing on further studies of seeing in this region of the atmospher e.
+4 Conclusion
+We summarize the main points discussed in this contribution: (1)We indicated
+an alternative method (ECMWF analyses) to check measurements, to constrain
+simulations and characterize climatology above Dome C. (2)Further optical tur-
+bulence measurements are necessary to carry out all scientiﬁc pr ograms related
+to site testing. However it would be suitable that future site testing campaigns
+are planned conjointly with all teams working on site testing taking int o account
+requirements of all scientiﬁc programs. This is the only way to maximiz e the
+scientiﬁc outputs of activities supported by an international logist ic (IPEV and
+PNRA) and funded by national and international structures such as the EC. (3)
+We recommend to run the SSS in contemporary way to the DIMM (N◦1) adapted
+to isoplanatic angle measurements placed at the same height than SS S (8 m) and
+to the DIMM (N◦2) placed at 20 m. It would be fundamental to collect a large
+statistic employing this instruments conﬁguration. In this way we will have3 inde-
+pendent ways to measure the free atmosphere and it will be able to c ross-correlate
+results in this particular critical region of the atmosphere. This app roach is par-
+ticularly important for the FOROT activities and also, as explained in Se ction 2,
+to design the future of Astronomy at Dome C.
+5 Acknowledgments
+This work has been funded by the Marie Curie Excellence Grant (FORO T) -
+MEXT-CT-2005-023878
+References
+Aristidi, E., Agabi, K., Fossat, E., Azouit, M., Martin, F., Sadibekova, T., Travouillon,
+T., Vernin, J., Ziad, A. 2005c, A&A, 444, 2, 651
+Agabi, K., Aristidi, E., Azouit, M., Fossat, E., Martin, F., Sadibekova, T., Vernin, J.,
+Ziad, A. 2006, PASP, 118, 344
+Geissler, K. & Masciadri, E. 2006, PASP, 118, 845, 1048
+Masciadri & Jabouille, 2001, A&A, 2001, 376, 727
+Masciadri, E., Avila, R., Sanchez, L., 2004, RMxAA, 40, 3
+Masciadri, E. & Egner, S., 2006, PASP, 118, 848, 1604
+Ragazzoni et al. 2004, 16 April 2004 - Workshop at LUAN, Nice, France
+2The seeing subtraction is done following the/parenleftbig/summationtext
+(εi)5/3/parenrightbig3/5rule.

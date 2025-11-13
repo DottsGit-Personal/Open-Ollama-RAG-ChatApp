@@ -165,7 +165,6 @@ cython_debug/
 # Default Chroma DB folder
 chroma/
 
-data/*
 document_tracker.json
 *.sqlite3
 chroma_dbs/*

@@ -1,0 +1,242 @@
+arXiv:1001.0518v2  [hep-ph]  7 Jan 2010b→sℓ+ℓ−inthehigh q2regionattwo-loops
+VolkerPilipp∗, ChristofSchüpbach
+Albert EinsteinCenterforFundamentalPhysics
+InstituteforTheoreticalPhysics,Universityof Bern,Sid lerstrasse5,3012Bern,Switzerland
+E-mail:volker.pilipp@itp.unibe.ch ,christof.schuepbach@itp.unibe.ch
+We report on the ﬁrst analytic NNLL calculation for the matri x elements of the operators O1
+andO2for the inlusive process b→Xsl+l−in the kinematical region q2>4m2
+c, whereq2is the
+invariantmasssquaredofthelepton-pair.
+RADCOR 2009- 9thInternationalSymposiumonRadiativeCorr ections(ApplicationsofQuantumField
+Theoryto Phenomenology)
+October25-302009
+Ascona,Switzerland
+∗Speaker.
+c/circlecopyrtCopyrightownedbytheauthor(s)underthetermsoftheCreat ive CommonsAttribution-NonCommercial-ShareAlikeLicen ce. http://pos.sissa.it/b→sℓ+ℓ−inthehighq2regionattwo-loops VolkerPilipp
+1. Introduction
+Inthe Standard Model, the ﬂavor-changing neutral current p rocessb→Xsl+l−only occurs at
+the one-loop level and is therefore sensitive to new physics . In the kinematical region where the
+lepton invariant mass squared q2is far away from the c¯c-resonances, the dilepton invariant mass
+spectrum and the forward-backward asymmetry can be precise ly predicted using large mbexpan-
+sion, where the leading term isgiven by the partonic matrix e lement of the effective Hamiltonian
+Hef f=−4GF√
+2V∗
+tsVtb10
+∑
+i=1Ci(µ)Oi(µ). (1.1)
+We neglect the CKM combination V∗
+usVuband the operator basis is deﬁned as in [1]. In [2] we
+published the ﬁrst analytic NNLL calculation of the high q2region of the matrix elements of the
+operators
+O1=(¯sLγµTacL)(¯cLγµTabL),O2=(¯sLγµcL)(¯cLγµbL), (1.2)
+whichdominate theNNLLamplitudenumerically. Earlierthe seresultswereonlyavailable analyt-
+ically in the region of low q2[3, 4]. Using equations of motion the NNLL matrix elements of the
+effective operators take theform
+/angbracketleftsℓ+ℓ−|Oi|b/angbracketright2-loops=−/parenleftBigαs
+4π/parenrightBig2/bracketleftBig
+F(7)
+i/angbracketleftO7/angbracketrighttree+F(9)
+i/angbracketleftO9/angbracketrighttree/bracketrightBig
+, (1.3)
+whereO7=e/g2
+smb(¯sLσµνbR)FµνandO9=e2/g2
+s(¯sLγµbL)∑l(¯lγµl).
+2. Calculations
+b s
+c
+a)O1,2
+b s
+c
+b)O1,2b s
+c
+c)O1,2
+b s
+c
+d)O1,2b s
+c
+e)O1,2
+b s
+c
+f)O1,2
+Figure 1: Diagrams that have to be taken into account at order αs. The circle-crosses denote the possible
+locationswherethevirtualphotonisemitted(seetext).
+Thediagrams contributing at order αsare shown inFigure 1. Weset ms=0and deﬁne
+ˆs=q2
+m2
+bandz=m2
+c
+m2
+b, (2.1)
+2b→sℓ+ℓ−inthehighq2regionattwo-loops VolkerPilipp
+whereqis the momentum of the virtual photon. After reducing occurr ing tensor-like Feynman
+integrals [5]theremaining scalar integrals canbefurther reduced tomaster integrals using integra-
+tion by parts (IBP) identities [6]. Considering the region ˆ s>4z, we expanded the master integrals
+inzand kept the full analytic dependence in ˆ s.
+For power expanding Feynman integrals we use a combination o fmethod of regions [7] and
+differential equation techniques [8,9]: Consider aset of Feynmanintegrals I1,...,Independing on
+the expansion parameter zand related by a system of differential equations obtained b y differenti-
+atingIαwith respect to zand applying IBPidentities:
+d
+dzIα=∑
+βhαβIβ+gα, (2.2)
+wheregαcontainssimplerintegralswhichposenoseriousproblems. Expandingbothsidesof(2.2)
+inε,zand lnz
+Iα=∑
+i,j,kI(j,k)
+α,iεizj(lnz)k,hαβ=∑
+i,jh(j)
+αβ,iεizj,gα=∑
+i,j,kg(j,k)
+α,iεizj(lnz)k,(2.3)
+and inserting (2.3) into (2.2) weobtain algebraic equation s for the coefﬁcients I(j,k)
+α,i
+0=(j+1)I(j+1,k)
+α,i+(k+1)I(j+1,k+1)
+α,i−∑
+β∑
+i′∑
+j′h(j′)
+αβ,i′I(j−j′,k)
+β,i−i′−g(j,k)
+α,i. (2.4)
+This enables us to recursively calculate higher powers of zonce the leading powers are known. In
+practice thismeansthat weneed the I(0,0)
+α,iandsometimes alsothe I(1,0)
+α,iasinitial condition to(2.4).
+These initial conditions can becomputed using method of reg ions. Anon trivial check isprovided
+by the fact that the leading terms containing logarithms of zcan be calculated by both method of
+regions and the recurrence relation (2.4).
+The summation index jin (2.3) can take integer or half-integer values, depending on the
+speciﬁc set of integrals Iα. In order to determine the possible powers of zand ln(z)we used the
+algorithm described in[9]. Agiven D-dimensional L-loopFeynmanintegral I(z)readsinFeynman
+parameterization
+I(z)=(−1)N/parenleftbiggi
+(4π)D/2/parenrightbiggL
+Γ(N−LD/2)/integraldisplay
+dNxδ(1−N
+∑
+n=1xn)UN−(L+1)D/2
+(zF1+F2)N−LD/2,(2.5)
+whereU,F1andF2are polynomials in xn. Using Mellin-Barnes representation (2.5) can be cast
+into thefollowing form
+I(z)=(−1)N/parenleftbiggi
+(4π)D/2/parenrightbiggL1
+2πi/integraldisplayi∞
+−i∞dszsΓ(−s)Γ(s+N−LD/2)
+×/integraldisplay
+dNxδ(1−N
+∑
+n=1xn)UN−(L+1)D/2Fs
+1F−s−N+LD/2
+2. (2.6)
+By closing the integration contour over sto the right hand side the poles on the positive real axis
+turn into powers of z. If we apply the technique of sector decomposition [10] to (2.6) we end up
+with terms of the following form
+N
+∑
+l=1∑
+k/integraldisplay1
+0dN−1t/parenleftBigg
+N−1
+∏
+j=1tAj−Bjε−Cjs
+j/parenrightBigg
+UN−(L+1)D/2
+lkFs
+1,lkF−s−N+LD/2
+2,lk, (2.7)
+3b→sℓ+ℓ−inthehighq2regionattwo-loops VolkerPilipp
+whereUlk,F1,lkandF2,lkcontain terms that are constant in /vectort. From (2.7) we can read off that the
+poles insarelocated at:
+sjn=1+n+Aj−Bjε
+Cj, (2.8)
+wheren∈N0.
+Additionally, theproceduredescribedaboveallowsustoev aluatethecoefﬁcientsoftheexpan-
+sioninznumerically whichweusedtoagaintesttheinitial conditio ns ofthedifferential equations.
+3. Results
+In order to get accurate results we keep terms up to z10. Our results agree with the previous
+numerical calculation [11] within less than 1% difference. To demonstrate the convergence of the
+power expansions, we show in Figure 2 the form factors deﬁned in (1.3) as functions of ˆ s, where
+weinclude allordersupto z6,z8andz10. Weuseasdefault value z=0.1suchthat the c¯c-threshold
+islocated at ˆ s=0.4. Oneseesfromtheﬁguresthat far awayfrom the c¯c-threshold, i.e.for ˆ s>0.6,
+the expansions for all form factors arewell behaved.
+Theimpact of our results onthe perturbative part of the high q2-spectrum [3]
+R(ˆs)=1
+Γ(¯B→Xce−¯νe)dΓ(¯B→Xsℓ+ℓ−)
+dˆs(3.1)
+isshowninFigure3(left), whereweusedthesameparameters asin[2]. Theﬁnitebremsstrahlung
+corrections calculated in [4] are neglected. From Figure 3 ( left) we conclude that for µ=mbthe
+contributions of our results lead to corrections of the orde r 10%−15%. Integrating R(ˆs)over the
+high ˆsregion, wedeﬁne
+Rhigh=/integraldisplay1
+0.6dˆsR(ˆs). (3.2)
+Figure3(right)showsthedependence oftheperturbativepa rtofRhighontherenormalization scale.
+Weobtain
+Rhigh,pert=(0.43±0.01(µ))×10−5, (3.3)
+where we determined the error by varying µbetween 2 GeV and 10 GeV. The corrections due to
+our results lead toadecrease of the scale dependence to 2%.
+Acknowledgments
+ThisworkispartiallysupportedbytheSwissNationalFound ation,byEC-ContractMRTNCT-
+2006-035482 (FLAVIAnet) and by the Helmholtz Association t hrough funds provided to the vir-
+tual institute ”Spin and strong QCD” (VH-VI-231). The Alber t Einstein Center for Fundamental
+Physics is supported by the ”Innovations- und Kooperations projekt C-13 of the Schweizerische
+Universitätskonferenz SUK/CRUS”.
+4b→sℓ+ℓ−inthehighq2regionattwo-loops VolkerPilipp
+-0.88-0.86-0.84-0.82-0.8-0.78-0.76
+0.4 0.5 0.6 0.7 0.8 0.9 1ℜF(7)
+1
+ˆs-0.5-0.4-0.3-0.2-0.100.1
+0.4 0.5 0.6 0.7 0.8 0.9 1ℑF(7)
+1
+ˆs
+-50-40-30-20-1001020
+0.4 0.5 0.6 0.7 0.8 0.9 1ℜF(9)
+1
+ˆs-70-60-50-40-30-20
+0.4 0.5 0.6 0.7 0.8 0.9 1ℑF(9)
+1
+ˆs
+4.54.64.74.84.955.15.25.3
+0.4 0.5 0.6 0.7 0.8 0.9 1ℜF(7)
+2
+ˆs-0.500.511.522.5
+0.4 0.5 0.6 0.7 0.8 0.9 1ℑF(7)
+2
+ˆs
+810121416182022
+0.4 0.5 0.6 0.7 0.8 0.9 1ℜF(9)
+2
+ˆs-30-20-10010
+0.4 0.5 0.6 0.7 0.8 0.9 1ℑF(9)
+2
+ˆs
+Figure 2: Real and imaginaryparts of the formfactors F(7,9)
+1,2as functionsof ˆ s. To demonstratethe conver-
+gence of the expansion in zwe included all orders up to z6,z8andz10in the dotted, dashed and solid lines
+respectively. We put µ=mbandusedthedefaultvalue z=0.1.
+5b→sℓ+ℓ−inthehighq2regionattwo-loops VolkerPilipp
+00.511.522.533.5
+0.6 0.65 0.7 0.75 0.8 0.85 0.9R(ˆs)[10−5]
+ˆs0.350.40.450.50.55
+1 2 3 4 5 6 7 8 9 10Rhigh[10−5]
+µ[GeV]
+Figure 3: Perturbative part of R(ˆs)(left) and Rhigh(right) at NNLL. The solid lines represents the NNLL
+result, whereas in the dotted lines the order αscorrections to the matrix elements associated with O1,2are
+switchedoff. Intheleftﬁgureweuse µ=mb. See textfordetails.
+References
+[1] C. Bobeth,M. MisiakandJ.Urban, Nucl.Phys. B574,291(2000).
+[2] C. Greub,V. PilippandC. Schüpbach,JHEP 0812,040(2008).
+[3] H.H. Asatryan,H. M.Asatrian,C. GreubandM. Walker, Phy s.Rev.D65,074004(2002).
+[4] H.H. Asatryan,H. M.Asatrian,C. GreubandM. Walker, Phy s.Rev.D66,034009(2002).
+[5] G.PassarinoandM.J. G.Veltman, Nucl.Phys. B160,151(1979).
+[6] K.G. ChetyrkinandF. V. Tkachov, Nucl.Phys. B192,159(1981);F. V. Tkachov, Phys.Lett. B100,
+65(1981).
+[7] M.BenekeandV.A. Smirnov, Nucl.Phys. B522,321(1998);S.G. Gorishnii, Nucl.Phys. B319,633
+(1989);V. A.Smirnov, Commun.Math.Phys. 134,109(1990);V. A.Smirnov, SpringerTractsMod.
+Phys.177,1(2002).
+[8] R.Boughezal,M.CzakonandT.Schutzmeier, JHEP 09,072(2007);A.V.Kotikov, Phys.Lett. B254,
+158(1991);V. Pilipp, Nucl.Phys. B794,154(2008);E.Remiddi, NuovoCim. A110,1435(1997).
+[9] V. Pilipp, JHEP 09,135(2008).
+[10] T.BinothandG.Heinrich,Nucl.Phys.B 585,741(2000).
+[11] A.Ghinculov,T.Hurth,G. IsidoriandY.P. Yao, Nucl.Ph ys.B685,351(2004).
+6

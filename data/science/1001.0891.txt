@@ -1,0 +1,277 @@
+arXiv:1001.0891v3  [hep-ph]  9 Jan 2010Some Characteristic Parameters of Proton from the Bag Model
+Z. G. Tan,1,∗L. Y. Huang,1and C. B. Yang2
+1Department of Electronics and Communication Engineering,
+Changsha University,Changsha, 410003,P.R.China
+2Institute of Particle Physics, Hua-Zhong Normal University , Wuhan, 430079, China
+We treat the mass of a proton as the total static energy which c an be separated into two parts
+that come from the contribution of quarks and gluons respect ively. We adopt the essential of the bag
+model ofhadrontodiscuss thestructure ofaprotonand ﬁndth atthe calculated temperature, proton
+radius, the bag constant are compare well with QCD results if a proton is a thermal equilibrium
+system of quarks and gluons.
+PACS numbers: 12.39.Ba, 14.20.Dh
+I. INTRODUCTION
+Exploring proton structure [1–3] is still one of most
+important subjects for more profound enhancement of
+human knowledge on strong interactions. It is also very
+helpful for people to search for a new matter state–quark
+gluon plasma (QGP) which is the deconﬁned state of
+strongly interacting matter. Most theoretical investi-
+gations focus on Quantum Chromodynamics (QCD) [4].
+However,there are a few phenomenological models about
+nucleon structure and interactions. The classical string
+model describesmesons asstringsegmentsexecuting lon-
+gitudinal expansion and contraction [5]. The bag model
+describes quarks being conﬁned inside a hadron [6]. In
+high energy collisions, the string model represents the
+process of particle production in the fragmentation of
+a stretching string by creating pairs of quark and anti-
+quark. It worked well [7] for elementary collisions where
+strings can be formed among the few initial partons and
+breakup toformthe softﬁnalstatehadrons. However,in
+relativistic heavy ion collisions (RHIC), there are thou-
+sands initial partons. It is intractable to pair partons
+and have a string for each pair. Even if the strings are
+formed, they must be modiﬁed by the presence of many
+other color charges. The independent fragmentation ap-
+proach [7], though valid for high Q2partonic processes
+in the vacuum, cannot explain experimentally observed
+largep/πratio in central Au+Aucollisions at RHIC [8].
+Another possible hadronization mechanism, the decon-
+ﬁned quark (ﬂed out from the bag) recombinationmodel,
+has been able to reproduce spectra for almost all stable
+particles for diﬀerent colliding systems. It provides a
+natural explanation for the baryon/meson ratio and the
+nuclear suppression factor observed at RHIC[9].
+A natural mechanism for quark conﬁnement is given
+by the bag model [6]. While the bag model has a few
+diﬀerent versions, we shall in this paper keep the essen-
+tial characteristics of the phenomenology of quark con-
+ﬁnement. The gluons are mediate bosons which transfer
+∗tanzg@iopp.ccnu.edu.cnthe interactions between quarks . Their eﬀect can be re-
+placed by the bag pressure which conﬁnes the quarks in
+a hadron. On the other hand, if all interactions among
+partonsin the bagare neglected, we assume that the par-
+tons might be treated as a thermally equilibrated system
+with a given volume. Then properties of a hadron can be
+investigated and some characteristic parameters for the
+hadron can be obtained in the bag model.
+The organization of this paper is as follows. In Sec.II,
+we will discuss some features about a thermally equili-
+brated QGP system. Then in Sec.III, we get an estimate
+of the maximum kinetic energy of a conﬁned quark in a
+spherical cavity of radius R. Combining the discussions
+in section II and III by assuming its origin from the con-
+tribution of gluons, the magnitude of the hadronic bag
+pressure is discussed in Sec.IV. The last section is for
+conclusions and discussions.
+II. FREE EQUILIBRATED QGP
+Let us ﬁrst consider a thermally equilibrated quark-
+gluon plasma (QGP) system at ﬁrst. When its temper-
+atureTand volume Vare given, the total energy and
+particle number can be calculated:
+E=Nf/summationdisplay
+i=−Nfgi
+(2π¯h)3/integraldisplay
+fi(T)p0dΓ
+=Nf/summationdisplay
+i=−NfgiV
+2π2¯h3/integraldisplay
+fi(T)p0|p|2dp, (1)
+N=Nf/summationdisplay
+i=−Nfgi
+(2π¯h)3/integraldisplay
+fi(T)dΓ
+=Nf/summationdisplay
+i=−NfgiV
+2π2¯h3/integraldisplay
+fi(T)|p|2dp, (2)
+whereNfis the number of ﬂavors and gi=NcNsis
+the degeneracy number for a parton and equals to the
+product of quantum numbers of quark’s color and spin.
+fiis the distribution function which is of Fermi-Dirac for2
+0.06 0.08 0.1 0.12 0.14 0.16 0.180.511.52R (fm)
+T (GeV)R = 0.0524 T −4/3
+FIG. 1: The relation between the radius of a proton and its
+temperature when take its mass as the total energy. The
+numerical simulative formula is given on the legend as well.
+quarks and Bose-Einstein for gluons
+fi=1
+1+e(p0∓µq)/T’-’ for quark, (3)
+’+’for anti-quark
+fi=1
+ep0/T−1for gluon. (4)
+Hereµqis the quark’s chemical potential. For the case
+when the number density of the quarks is the same as
+that of the anti-quarks, µq= 0.
+For a massless quark gas with zero chemical potential
+µq= 0, Eqs.(1,2) can be solved analytically. For example
+for the case with only two ﬂavors, we get the densities
+for energy and quark number as (¯ h= 1)
+ǫ=E
+V=7
+4(gq+g¯q)π2
+30T4+ggπ2
+30T4
+=37
+30π2T4, (5)
+n=N
+V=3ζ(3)
+2π2(gq+g¯q)T3+ggΓ(3)ζ(3)
+2π2T3
+=34×1.202
+π2T3. (6)
+Now if we treat a proton as a free equilibrated QGP
+system asuse the aboveresults, we canget the relationof
+the proton radius and temperature. The result is shown
+in Fig. (1).
+From Fig.(1), we can see, the radius of a proton is
+decreased with its internal temperature. The numerical
+simulative formula is
+RT4/3= 0.0524 (7)
+If the temperature is 100 MeV, the corresponding radius
+ofprotonis about 1fm. Ifa proton is compressedto have
+a radius of 0.6 fm, the inner temperature will be about
+170 MeV, which is close to the critical temperature, sothat a proton may break and quarks may ﬂee out from
+the bag.
+III. QUARKS CONFINED IN A HADRON BAG
+Let’s give some discussions about quark wave-function
+from theory. We assume the quarks are conﬁned in a
+spherical cavity of radius R, they are free fermions in-
+side it but cannot ﬂy out because all contributions from
+gluons are attributed to the bag constant. Then the sur-
+face of the sphere bag becomes the maximum range that
+quarks can arrive. On the bag boundary where the cur-
+rent of fermion must be zero. A hadron’s wave-function
+is then product of those for quarks.
+The Dirac equation for a free massless fermion in the
+bag is
+(iγµ∂µ−m)ψ= 0 with m= 0, (8)
+where∂µ= (p0,p). We will in this paper use the Dirac
+representation
+γ0=/parenleftbigg
+I0
+0−I/parenrightbigg
+,
+and
+γi=/parenleftbigg
+0σi
+−σi0/parenrightbigg
+,
+whereIis a 2×2 unit matrix and σiare the Pauli matri-
+ces. We write the four-component wave function for the
+massless fermion ψas
+ψ=/parenleftbiggψ+
+ψ−/parenrightbigg
+where both ψ+andψ−are two dimensional spinors.
+Eq.(8) becomes
+/parenleftbigg
+p0−σ·p
+σ·p−p0/parenrightbigg/parenleftbiggψ+
+ψ−/parenrightbigg
+= 0 (9)
+The lowest energy solution for the above equation is the
+s1/2state given by[10]
+ψ+(r,t) =Ne−ip0tj0(p0r)χ+
+ψ−(r,t) =Ne−ip0tσ·ˆ rj1(p0r)χ−,
+wherejlis the spherical Bessel function which can be
+expressed by an elementary function
+jl(x) = (−1)lxl/parenleftbigg1
+xd
+dx/parenrightbigglsinx
+x, (10)
+χ±aretwo-dimensionalspinors,and Nisanormalization
+constant. The conﬁnement of the quarks is equivalent
+to the requirement that the normal component of the
+vector current Jµ=¯ψγµψvanishes at the surface. This3
+condition is the same as the requirement that the scalar
+density¯ψψof the quark vanishes at the bag surface r=
+R. This leads to
+¯ψψ/vextendsingle/vextendsingle
+r=R= [j0(p0R)]2−σ·ˆ rσ·ˆ r[j1(p0R)]2= 0
+or
+[j0(p0R)]2−[j1(p0R)]2= 0 (11)
+From Eq.(10), solution of the above equation is given by
+p0
+mR= 2.04,orp0
+m=2.04
+R. (12)
+This result means that in order to keep the bag from
+being broken, the kinetic energy of any quark can not
+larger than p0
+mdetermined by the radius of the bag.
+IV. BAG PRESSURE
+Takep0
+masthe upper limit, we can separatethe energy
+of quarks from the total of a proton
+Eq=(gq+g¯q)V
+2π2¯h3/integraldisplayp0
+m
+0p3dp
+1+ep/T(R).(13)
+For simplicity, we have neglected the chemical poten-
+tial, and treat the quarks as massless. Then gq=g¯q=
+NcNsNf= 3×2×2 = 12.
+The energy from gluon contribution provides the pres-
+sure eﬀect directed from the region outside the bag
+B=M−Eq
+V. (14)
+HereMis the mass of the hadron.
+From Eq.(14), we can easily learn that the the bag
+pressure will change with radius as shown in Fig.(2). We
+also give the numerical formula
+B1/4= 0.17R−0.65. (15)
+The average kinetic energy of each quark can be calcu-
+lated as
+¯Eq=Eq
+Nq=/integraltextp0
+m
+0p3dp
+1+ep/T(R)
+/integraltextp0m
+0p2dp
+1+ep/T(R). (16)The energy carried by the valence quarks in a proton
+is then 3 ×¯Eq. So that contributions from gluons and
+sea quarks to the energy is M−3¯Eq. The bag pressure
+decreases with the radium. This may be used to explain
+why the resonance particle (which has large radius thus
+smallbagpressure)is usuallyunstablebecause theirbags
+are more fragile.
+0.8 11.2 1.4 1.6 1.8 2100110120130140150160170180190200
+B1/4 = 0.17 R−0.65
+R (fm)B1/4 (MeV)
+FIG. 2: The bag pressure change with the radium of proton.
+The open circle is calculated with Eq.(14), and the line is
+its numerical simulation results, while the star is with the
+scenario that three quarks are surrounded by gluons.
+V. CONCLUSION
+In this work we have discussed some feature of a pro-
+ton from the bag model. Especially, we got the relations
+between temperature and the radius of the proton when
+a proton is treated as a non-interacting thermal equilib-
+rium QGP system. The bag pressure comes from the
+contribution of gluons.
+Acknowledgments
+We are grateful to the ﬁnancial support from China
+ChangSha University under grant No.SF080101. We also
+thank Prof. A. Bonasera for stimulating discussions and
+comments.
+[1] Marc Vanderhaeghen, Nucl. Phys.A 805:210-220,2008.
+[2] J. Sowinski, Nucl.Phys.A 790:485-488,2007,
+[3] A. Bhattacharya, S. N. Banerjee, B.Chakraborti, S.
+Banerjee, Nucl. Phys. Proc. Suppl. 142 (2005) 13-15
+[4] F. Wilczek, Ann. Rev. Nucl. and Part. Sci. 32, 177(1982)
+[5] X. Artru and G. Mennessier, Nucl. Phys. B70,
+93(1974),B.Andersson, G. Gustafson and B. S¨ oderberg,
+Z. Phys. C20,317(1983)[6] C. D. Detar and J. F. Donoghue, Ann. Rev. Nucl. Part.
+Sci. 33,235(1983)
+[7] Torbj¨ orn Sj¨ ostrand, Leif L¨ onnblad, Stephen Mrenna, Pe-
+ter Skrands, JHEP 0605(2006) 026
+[8] R. C. Hwa and C. B. Yang, J. Phys. G30(2004) S1117-
+S1120
+[9] C. B. YANG,Int. J. Mod. Phys. E 16, No. 10, 3148(2007)
+[10] C. Y. Wong, Introduction to High-Energy Heavy ion Col-4
+lisions, World Scientiﬁc Co., Singapore,1994.
+[11] Z. G. Tan, S. Terranova and A. Bonasera, Int. J. Mod.
+Phys. E17 No 8(2008)1577-1589;[12] Z. G. Tan, A. Bonasera, C. B. Yang, D. M. Zhou and
+S. Terranova. Int. J. Mod. Phys. E16, Nos.7&8 (2007)
+2269-2275

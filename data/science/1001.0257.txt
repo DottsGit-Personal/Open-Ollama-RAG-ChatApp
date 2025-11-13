@@ -1,0 +1,320 @@
+arXiv:1001.0257v1  [math.FA]  1 Jan 2010On the maximal monotonicity of the sum
+of a maximal monotone linear relation
+and the subdifferential operator
+of a sublinear function
+Heinz H. Bauschke∗, Xianfu Wang†, and Liangjin Yao‡
+January 1, 2010
+Abstract
+ThemostimportantopenprobleminMonotoneOperatorTheory concernsthemaximal
+monotonicity of the sum of two maximal monotone operators pr ovided that Rockafel-
+lar’s constraint qualiﬁcation holds.
+Inthisnote, weprovideanewmaximalmonotonicityresultfo rthesumofamaximal
+monotone relation and the subdiﬀerential operator of a prope r, lower semicontinuous,
+sublinear function. The proof relies on Rockafellar’s form ula for the Fenchel conjugate
+of the sum as well as some results on the Fitzpatrick function .
+2000 Mathematics Subject Classiﬁcation:
+Primary 47A06, 47H05; Secondary 47B65, 49N15, 52A41, 90C25
+Keywords: Constraint qualiﬁcation, convex function, convex set, Fenchel c onjugate, Fitz-
+patrick function, linear relation, maximal monotone operator, mult ifunction, monotone op-
+erator, set-valued operator, subdiﬀerential operator, subline ar function, Rockafellar’s sum
+theorem.
+∗Mathematics, Irving K. Barber School, UBC Okanagan, Kelowna, Br itish Columbia V1V 1V7, Canada.
+E-mail:heinz.bauschke@ubc.ca .
+†Mathematics, Irving K. Barber School, UBC Okanagan, Kelowna, Br itish Columbia V1V 1V7, Canada.
+E-mail:shawn.wang@ubc.ca .
+‡Mathematics, Irving K. Barber School, UBC Okanagan, Kelowna, Br itish Columbia V1V 1V7, Canada.
+E-mail:ljinyao@interchange.ubc.ca .
+11 Introduction
+Throughout this paper, we assume that Xis a real Banach space with norm /bardbl·/bardbl, thatX∗
+is the continuous dual of X, and that XandX∗are paired by /an}bracketle{t·,·/an}bracketri}ht. LetA:X⇒X∗be
+aset-valued operator (also known as multifunction) from XtoX∗, i.e., for every x∈X,
+Ax⊆X∗, and let gra A=/braceleftbig
+(x,x∗)∈X×X∗|x∗∈Ax/bracerightbig
+be thegraphofA. Recall that A
+ismonotone if
+(1)/parenleftbig
+∀(x,x∗)∈graA/parenrightbig/parenleftbig
+∀(y,y∗)∈graA/parenrightbig
+/an}bracketle{tx−y,x∗−y∗/an}bracketri}ht ≥0,
+andmaximal monotone ifAis monotone and Ahas no proper monotone extension (in
+the sense of graph inclusion). We say Ais alinear relation if graAis a linear subspace.
+Monotone operators have proven to be a key class of objects in mo dern Optimization and
+Analysis; see, e.g., the books [8, 9, 10, 13, 18, 19, 17, 26] and the r eferences therein. (We also
+adopt standard notation used in these books: dom A=/braceleftbig
+x∈X|Ax/ne}ationslash=∅/bracerightbig
+is thedomain
+ofA. Given a subset CofX, intCis theinteriorofC, andCis theclosureofC. We set
+C⊥:={x∗∈X∗|(∀c∈C)/an}bracketle{tx∗,c/an}bracketri}ht= 0}andS⊥:={x∗∗∈X∗∗|(∀s∈S)/an}bracketle{tx∗∗,s/an}bracketri}ht= 0}for a
+setS⊆X∗. Theindicator function ofC, written as ιC, is deﬁned at x∈Xby
+ιC(x) :=/braceleftBigg
+0,ifx∈C;
+∞,otherwise .(2)
+Givenf:X→]−∞,+∞], we set dom f=f−1(R) andf∗:X∗→[−∞,+∞] :x∗/mapsto→
+supx∈X(/an}bracketle{tx,x∗/an}bracketri}ht −f(x)) is the Fenchel conjugate off. Iffis convex and dom f/ne}ationslash=∅, then
+∂f:X⇒X∗:x/mapsto→/braceleftbig
+x∗∈X∗|(∀y∈X)/an}bracketle{ty−x,x∗/an}bracketri}ht+f(x)≤f(y)/bracerightbig
+is thesubdiﬀerential
+operator off. Recall that fissublinear iff(0) = 0,f(x+y)≤f(x)+f(y), andf(λx) =
+λf(x) for all x,y∈domfandλ >0. Finally, the closed unit ball inXis denoted by
+BX:=/braceleftbig
+x∈X| /bardblx/bardbl ≤1/bracerightbig
+.) Throughout, we shall identify Xwith its canonical image in
+the bidual space X∗∗. Furthermore, X×X∗and (X×X∗)∗=X∗×X∗∗are likewise paired
+via/an}bracketle{t(x,x∗),(y∗,y∗∗)/an}bracketri}ht=/an}bracketle{tx,y∗/an}bracketri}ht+/an}bracketle{tx∗,y∗∗/an}bracketri}ht, where ( x,x∗)∈X×X∗and (y∗,y∗∗)∈X∗×X∗∗.
+LetAandBbemaximalmonotoneoperatorsfrom XtoX∗. Clearly, the sum operator A+
+B:X⇒X∗:x/mapsto→Ax+Bx=/braceleftbig
+a∗+b∗|a∗∈Axandb∗∈Bx/bracerightbig
+is monotone. Rockafellar’s
+[16, Theorem 1] guarantees maximal monotonicity of A+Bunder the classical constraint
+qualiﬁcation domA∩intdomB/ne}ationslash=∅whenXis reﬂexive. The most famous open problem
+concerns the behaviour in nonreﬂexive Banach spaces. See Simons ’ monograph [19] for a
+comprehensive account of the recent developments.
+Now we focus on the special case when Ais alinear relation andBis the subdiﬀerential
+operator of a sublinear function f. We show that the sum theorem is true in this setting.
+Recently, linear relations have increasingly been studied in detail; see , e.g., [1, 2, 3, 4, 5, 6,
+7, 14, 21, 23, 24, 25] and Cross’ book [11] for general backgrou nd on linear relations.
+2The remainder of this paper is organized as follows. In Section 2, we c ollect auxiliary
+results for future reference and for the reader’s convenience. The main result (Theorem 3.1)
+is proved in Section 3.
+2 Auxiliary Results
+Fact 2.1 (Rockafellar) (See [15, Theorem 3], [19, Corollary 10.3 and Theorem 18.1], or
+[26, Theorem 2.8.7(iii)].)
+Letf,g:X→]−∞,+∞]be proper convex functions. Assume that there exists a point
+x0∈domf∩domgsuch that gis continuous at x0. Then for every z∗∈X∗, there exists
+y∗∈X∗such that
+(3) ( f+g)∗(z∗) =f∗(y∗)+g∗(z∗−y∗).
+Furthermore, ∂(f+g) =∂f+∂g.
+Fact 2.2 (Fitzpatrick) (See [12, Corollary 3.9].) LetA:X⇒X∗be maximal monotone,
+and set
+(4)FA:X×X∗→]−∞,+∞] : (x,x∗)/mapsto→sup
+(a,a∗)∈graA/parenleftbig
+/an}bracketle{tx,a∗/an}bracketri}ht+/an}bracketle{ta,x∗/an}bracketri}ht−/an}bracketle{ta,a∗/an}bracketri}ht/parenrightbig
+,
+which is the Fitzpatrick function associated with A. Then for every (x,x∗)∈X×X∗, the
+inequality /an}bracketle{tx,x∗/an}bracketri}ht ≤FA(x,x∗)is true, and equality holds if and only if (x,x∗)∈graA.
+Fact 2.3 (Simons) (See [19, Theorem 24.1(c)].) LetA,B:X⇒X∗be maximal monotone
+operators. Assume/uniontext
+λ>0λ[PX(domFA)−PX(domFB)]is a closed subspace, where PX:
+(x,x∗)∈X×X∗→x. If
+(5) ( x,x∗)is monotonically related to gra(A+B)⇒x∈domA∩domB,
+thenA+Bis maximal monotone.
+Fact 2.4 (Simons) (See[19, Lemma 19.7andSection 22].) LetA:X⇒X∗be a monotone
+linear relation such that graA/ne}ationslash=∅. Then the function
+(6) g:X×X∗→]−∞,+∞] : (x,x∗)/mapsto→ /an}bracketle{tx,x∗/an}bracketri}ht+ιgraA(x,x∗)
+is proper and convex.
+3Fact 2.5 (Simons) (See [20, Lemma 2.2].) Letf:X→]−∞,+∞]be proper, lower
+semicontinuous, and convex. Let x∈Xandλ∈Rbe such that inff < λ < f (x)≤+∞,
+and set
+K:= sup
+a∈X,a/ne}ationslash=xλ−f(a)
+/bardblx−a/bardbl.
+ThenK∈]0,+∞[and for every ε∈]0,1[, there exists (y,y∗)∈gra∂fsuch that
+/an}bracketle{ty−x,y∗/an}bracketri}ht ≤ −(1−ε)K/bardbly−x/bardbl<0. (7)
+Fact 2.6 (See [26, Therorem 2.4.14].) Letf:X→]−∞,+∞]be a sublinear function.
+Then the following hold.
+(i)∂f(x) ={x∗∈∂f(0)| /an}bracketle{tx∗,x/an}bracketri}ht=f(x)},∀x∈domf.
+(ii)∂f(0)/ne}ationslash=∅⇔fis lower semicontinuous at 0.
+(iii)Iffis lower semicontinuous, then f= sup/an}bracketle{t·,∂f(0)/an}bracketri}ht.
+Fact 2.7 (See [13, Proposition 3.3 and Proposition 1.11].) Letf:X→]−∞,+∞]be a
+lower semicontinuous convex and intdomf/ne}ationslash=∅. Thenfis continuous on intdomfand
+∂f(x)/ne}ationslash=∅for every x∈intdomf.
+Lemma 2.8 Letf:X→]−∞,+∞]be a sublinear function. Then domf+ intdom f=
+intdomf.
+Proof. The result is trivial when intdom f=∅so we assume that x0∈intdomf. Then
+there exists δ >0 such that x0+δBX⊆domf. By sublinearity, ∀y∈domf, we have
+y+x0+δBX⊆domf. Hence
+y+x0∈intdomf.
+Then dom f+ intdom f⊆intdomf. Since 0 ∈domf, intdom f⊆domf+ intdom f.
+Hence dom f+intdom f= intdom f. /squaresolid
+Lemma 2.9 LetA:X⇒X∗be a maximal monotone linear relation, and let z∈X∩(A0)⊥.
+Thenz∈domA.
+Proof. Suppose to the contrary that z /∈domA. Then the Separation Theorem provides
+w∗∈X∗such that
+/an}bracketle{tz,w∗/an}bracketri}ht>0 and w∗∈domA⊥. (8)
+4Thus, (0,w∗) is monotonically related to gra A. SinceAis maximal monotone, we deduce
+thatw∗∈A0. By assumption, /an}bracketle{tz,w∗/an}bracketri}ht= 0, which contradicts (8). Hence, z∈domA./squaresolid
+The proof of the next result follows closely the proof of [19, Theore m 53.1].
+Lemma 2.10 LetA:X⇒X∗be a monotone linear relation, and let f:X→]−∞,+∞]
+be a proper lower semicontinuous convex function. Suppose t hatdomA∩intdom∂f/ne}ationslash=∅,
+(z,z∗)∈X×X∗is monotonically related to gra(A+∂f), and that z∈domA. Then
+z∈dom∂f.
+Proof. Letc0∈Xandy∗∈X∗be such that
+c0∈domA∩intdom∂fand (z,y∗)∈graA. (9)
+Takec∗
+0∈Ac0, and set
+M:= max/braceleftbig
+/bardbly∗/bardbl,/bardblc∗
+0/bardbl/bracerightbig
+, (10)
+D:= [c0,z], andh:=f+ιD. By (9), Fact 2.7 and Fact 2.1, ∂h=∂f+∂ιD. Set
+H:X→]−∞,+∞] :x/mapsto→h(x+z)−/an}bracketle{tz∗,x/an}bracketri}ht. It remains to show that
+0∈dom∂H. (11)
+If infH=H(0), then (11) holds. Now suppose that inf H < H(0). Letλ∈Rbe such that
+infH < λ < H (0), and set
+Kλ:= sup
+H(x)<λλ−H(x)
+/bardblx/bardbl. (12)
+We claim that
+Kλ≤M.
+By Fact 2.5, we have Kλ∈]0,∞[ and∀ε∈]0,1[, by gra ∂H= gra∂h−(z,z∗) there exists
+(x,x∗)∈gra∂hsuch that
+/an}bracketle{tx−z,x∗−z∗/an}bracketri}ht ≤ −(1−ε)Kλ/bardblx−z/bardbl<0. (13)
+Since∂h=∂f+∂ιD, there exists t∈[0,1] withx∗
+1∈∂f(x) andx∗
+2∈∂ιD(x) such that
+x=tc0+(1−t)zandx∗=x∗
+1+x∗
+2. Then/an}bracketle{tx−z,x∗
+2/an}bracketri}ht ≥0. Thus, by (13),
+/an}bracketle{tx−z,x∗
+1−z∗/an}bracketri}ht ≤ /an}bracketle{tx−z,x∗
+1+x∗
+2−z∗/an}bracketri}ht ≤ −(1−ε)Kλ/bardblx−z/bardbl<0. (14)
+Asx=tc0+(1−t)zandAis a linear relation, we have ( x,tc∗
+0+(1−t)y∗)∈graA. Since
+(z,z∗) is monotonically related to gra( A+∂f), by (10),
+/an}bracketle{tx−z,x∗
+1−z∗/an}bracketri}ht ≥ −/an}bracketle{tx−z,tc∗
+0+(1−t)y∗/an}bracketri}ht ≥ −M/bardblx−z/bardbl. (15)
+5Combining (15) and (14), we obtain
+−M/bardblx−z/bardbl ≤ −(1−ε)Kλ/bardblx−z/bardbl<0. (16)
+Hence, (1 −ε)Kλ≤M. Letting ε↓0, we deduce that Kλ≤M. Then, by (12) and letting
+λ↑H(0), we get
+H(y)+M/bardbly/bardbl ≥H(0),∀y∈X. (17)
+By [19, Example 7.1], 0 ∈dom∂H. Hence (11) holds and thus z∈dom∂f. /squaresolid
+3 Main Result
+Theorem 3.1 LetA:X⇒X∗be a maximal monotone linear relation, let f:X→
+]−∞,+∞]be a proper lower semicontinuous sublinear function, and su ppose that domA∩
+intdom∂f/ne}ationslash=∅. ThenA+∂fis maximal monotone.
+Proof. Let (z,z∗)∈X×X∗and suppose that
+(18) ( z,z∗) is monotonically related to gra( A+∂f).
+By Fact 2.2, dom A⊆PX(FA) and dom ∂f⊆PX(F∂f). Hence,
+/uniondisplay
+λ>0λ/parenleftbig
+PX(domFA)−PX(domF∂f)/parenrightbig
+=X. (19)
+Thus, by Fact 2.3, it suﬃces to show that
+(20) z∈domA∩dom∂f.
+We have
+/an}bracketle{tz,z∗/an}bracketri}ht−/an}bracketle{tz,x∗/an}bracketri}ht−/an}bracketle{tx,z∗/an}bracketri}ht+/an}bracketle{tx,x∗/an}bracketri}ht+/an}bracketle{tx−z,y∗/an}bracketri}ht
+=/an}bracketle{tz−x,z∗−x∗−y∗/an}bracketri}ht ≥0,∀(x,x∗)∈graA,(x,y∗)∈gra∂f. (21)
+By Fact 2.6(ii), ∂f(0)/ne}ationslash=∅. By (21),
+inf[/an}bracketle{tz,z∗/an}bracketri}ht−/an}bracketle{tz,A0/an}bracketri}ht−/an}bracketle{tz,∂f(0)/an}bracketri}ht]≥0.
+Thus,
+z∈X∩(A0)⊥. (22)
+6Then, by Fact 2.6(iii),
+/an}bracketle{tz,z∗/an}bracketri}ht ≥f(z).
+Thus,
+z∈domf. (23)
+By (22) and Lemma 2.9, we have
+z∈domA. (24)
+By Fact 2.6(i), y∗∈∂f(0) asy∗∈∂f(x). Then/an}bracketle{tx−z,y∗/an}bracketri}ht ≤f(x−z),∀y∗∈∂f(x). Thus,
+by (21), we have
+/an}bracketle{tz,z∗/an}bracketri}ht−/an}bracketle{tz,x∗/an}bracketri}ht−/an}bracketle{tx,z∗/an}bracketri}ht+/an}bracketle{tx,x∗/an}bracketri}ht+f(x−z)≥0,∀(x,x∗)∈graA,x∈dom∂f. (25)
+LetC:= intdom f. Then by Fact 2.7, we have
+/an}bracketle{tz,z∗/an}bracketri}ht−/an}bracketle{tz,x∗/an}bracketri}ht−/an}bracketle{tx,z∗/an}bracketri}ht+/an}bracketle{tx,x∗/an}bracketri}ht+f(x−z)≥0,∀(x,x∗)∈graA,x∈C. (26)
+Setj:= (f(·−z)+ιC)⊕ιX∗and
+(27) g:X×X∗→]−∞,+∞] : (x,x∗)/mapsto→ /an}bracketle{tx,x∗/an}bracketri}ht+ιgraA(x,x∗).
+By Fact 2.4, gis convex. Hence,
+(28) h:=g+j
+is convex as well. Let
+(29) c0∈domA∩C.
+By Lemma 2.8 and(23), z+c0∈intdomf. Then there exists δ >0 such that z+c0+δBX⊆
+domfandc0+δBX⊆domf. By (24), z+c0∈domAsince dom Ais a linear subspace.
+Thus there exists b∈1
+2δBXsuch that z+c0+b∈domA∩intdomf. Letv∗∈A(z+c0+b).
+Sincec0+b∈intdomf,
+(z+c0+b,v∗)∈graA∩/parenleftbig
+intC∩intdomf(·−z)×X∗/parenrightbig
+= domg∩intdomj/ne}ationslash=∅. (30)
+7By Fact 2.1 and Fact 2.7, there exists ( y∗,y∗∗)∈X∗×X∗∗such that
+h∗(z∗,z) =g∗(y∗,y∗∗)+j∗(z∗−y∗,z−y∗∗)
+=g∗(y∗,y∗∗)+ι{0}(z−y∗∗)+sup
+x∈C[/an}bracketle{tx,z∗−y∗/an}bracketri}ht−f(x−z)]
+≥g∗(y∗,y∗∗)+ι{0}(z−y∗∗)+ sup
+x∈z+C[/an}bracketle{tx,z∗−y∗/an}bracketri}ht−f(x−z)] (by Lemma 2.8 and (23))
+=g∗(y∗,y∗∗)+ι{0}(z−y∗∗)+/an}bracketle{tz,z∗−y∗/an}bracketri}ht+sup
+y∈C[/an}bracketle{ty,z∗−y∗/an}bracketri}ht−f(y)]
+=g∗(y∗,y∗∗)+ι{0}(z−y∗∗)+/an}bracketle{tz,z∗−y∗/an}bracketri}ht+ sup
+{y∈C,k>0}[/an}bracketle{tky,z∗−y∗/an}bracketri}ht−f(ky)]
+=g∗(y∗,y∗∗)+ι{0}(z−y∗∗)+/an}bracketle{tz,z∗−y∗/an}bracketri}ht+ sup
+{y∈C,k>0}k[/an}bracketle{ty,z∗−y∗/an}bracketri}ht−f(y)]
+≥g∗(y∗,y∗∗)+ι{0}(z−y∗∗)+/an}bracketle{tz,z∗−y∗/an}bracketri}ht.(31)
+By (26), we have, for every ( x,x∗)∈graA∩(C×X∗),/an}bracketle{t(x,x∗),(z∗,z)/an}bracketri}ht−h(x,x∗) =/an}bracketle{tx,z∗/an}bracketri}ht+
+/an}bracketle{tz,x∗/an}bracketri}ht−/an}bracketle{tx,x∗/an}bracketri}ht−f(x−z)≤ /an}bracketle{tz,z∗/an}bracketri}ht. Consequently,
+(32) h∗(z∗,z)≤ /an}bracketle{tz,z∗/an}bracketri}ht.
+Combining (31) with (32), we obtain
+(33) g∗(y∗,y∗∗)+/an}bracketle{tz,z∗−y∗/an}bracketri}ht+ι{0}(z−y∗∗)≤ /an}bracketle{tz,z∗/an}bracketri}ht.
+Therefore, y∗∗=z. Henceg∗(y∗,z) +/an}bracketle{tz,z∗−y∗/an}bracketri}ht ≤ /an}bracketle{tz,z∗/an}bracketri}ht. Sinceg∗(y∗,z) =FA(z,y∗), we
+deduce that FA(z,y∗)≤ /an}bracketle{tz,y∗/an}bracketri}ht. By Fact 2.2,
+(34) ( z,y∗)∈graA
+Hence
+z∈domA.
+Apply Lemma 2.10 to obtain z∈dom∂f. Thenz∈domA∩dom∂f. Hence A+Bis
+maximal monotone. /squaresolid
+Remark 3.2 Verona and Verona (see [22, Corollary 2.9(a)] or [19, Theorem 53.1]) showed
+the following: “Let f:X→]−∞,+∞] be proper, lower semicontinuous, and convex, let
+A:X⇒X∗be maximal monotone, and suppose that dom A=X. Then∂f+Ais maximal
+monotone.” Note that Theorem 3.1 cannot be deduced from this res ult because dom Aneed
+not have full domain.
+8Acknowledgment
+Heinz Bauschke was partially supported by the Natural Sciences an d Engineering Research
+Council of Canada and by the Canada Research Chair Program. Xian fu Wang was partially
+supported by the Natural Sciences and Engineering Research Cou ncil of Canada.
+References
+[1] H.H. Bauschke and J.M. Borwein, “Maximal monotonicity o f dense type, local maximal mono-
+tonicity, and monotonicity of the conjugate are all the same for continuous linear operators”,
+Paciﬁc Journal of Mathematics , vol. 189, pp. 1–20, 1999.
+[2] H.H. Bauschke, J.M. Borwein, and X. Wang, “Fitzpatrick f unctions and continuous linear
+monotone operators”, SIAM Journal on Optimization , vol. 18, pp. 789–809, 2007.
+[3] H.H. Bauschke, X. Wang, and L. Yao, “Autoconjugate repre senters for linear monotone oper-
+ators”,Mathematical Programming (Series B) , to appear;
+http://arxiv.org/abs/0802.1375v1 , February 2008.
+[4] H.H. Bauschke, X. Wang, and L. Yao, “Monotone linear rela tions: maximality and Fitzpatrick
+functions”, Journal of Convex Analysis , vol. 16, pp. 673–686, 2009.
+[5] H.H. Bauschke, X. Wang, and L. Yao, “An answer to S. Simons ’ question on the maximal
+monotonicity of the sum of a maximal monotone linear operato r and a normal cone operator”,
+Set-Valued and Variational Analysis , vol. 17, pp. 195-201, 2009.
+[6] H.H. Bauschke, X. Wang, and L. Yao, “Examples of disconti nuous maximal monotone linear
+operators and the solution to a recent problem posed by B.F. S vaiter”, submitted;
+http://arxiv.org/abs/0909.2675v1 , September 2009.
+[7] H.H. Bauschke, X. Wang, and L. Yao, “On Borwein-Wiersma D ecompositions of monotone
+linear relations”, submitted;
+http://arxiv.org/abs/0912.2772v1 , December 2009.
+[8] J.M. Borwein and J.D. Vanderwerﬀ, Convex Functions , Cambridge University Press, 2010.
+[9] R.S. Burachik and A.N. Iusem, Set-Valued Mappings and Enlargements of Monotone Opera-
+tors, Springer-Verlag, 2008.
+[10] D. Butnariu and A.N. Iusem, Totally Convex Functions for Fixed Points Computation and
+Inﬁnite Dimensional Optimization , Kluwer Academic Publishers, 2000.
+[11] R. Cross, Multivalued Linear Operators , Marcel Dekker, 1998.
+9[12] S. Fitzpatrick, “Representing monotone operators by c onvex functions”, in Work-
+shop/Miniconference on Functional Analysis and Optimizat ion (Canberra 1988) , Proceedings
+of the Centre for Mathematical Analysis, Australian Nation al University, vol. 20, Canberra,
+Australia, pp. 59–65, 1988.
+[13] R.R. Phelps, Convex functions, Monotone Operators and Diﬀerentiability , 2nd Edition,
+Springer-Verlag, 1993.
+[14] R.R. Phelps and S. Simons, “Unbounded linear monotone o perators on nonreﬂexive Banach
+spaces”, Journal of Convex Analysis , vol. 5, pp. 303–328, 1998.
+[15] R.T. Rockafellar, “Extension of Fenchel’s duality the orem for convex functions”, Duke Math-
+ematical Journal , vol. 33, pp. 81–89, 1966.
+[16] R.T. Rockafellar, “On the maximality of sums of nonline ar monotone operators”, Transactions
+of the American Mathematical Society , vol. 149, pp. 75–88, 1970.
+[17] R.T. Rockafellar and R.J-B Wets, Variational Analysis , 2nd Printing, Springer-Verlag, 2004.
+[18] S. Simons, Minimax and Monotonicity , Springer-Verlag, 1998.
+[19] S. Simons, From Hahn-Banach to Monotonicity , Springer-Verlag, 2008.
+[20] S. Simons, “The least slope of a convex function and the m aximal monotonicity of its subdif-
+ferential”, Journal of Optimization Theory and Applications , vol. 71, pp. 127–136, 1991.
+[21] B.F. Svaiter, “Non-enlargeable operators and self-ca ncelling operators”, Journal of Convex
+Analysis, vol. 17, 2010, to appear;
+http://arxiv.org/abs/0807.1090v2 , July 2008.
+[22] A. Verona and M.E. Verona, “Regular maximal monotone op erators and the sum theorem”,
+Journal of Convex Analysis , vol. 7, pp. 115–128, 2000.
+[23] M.D. Voisei, “The sum theorem for linear maximal monoto ne operators”, Mathematical Sci-
+ences Research Journal , vol. 10, pp. 83–85, 2006.
+[24] M.D. Voisei and C. Z˘ alinescu, “Linear monotone subspa ces of locally convex spaces”,
+http://arxiv.org/abs/0809.5287v1 , September 2008.
+[25] L. Yao, “The Br´ ezis-Browder Theorem revisited and pro perties of Fitzpatrick functions of
+ordern”, submitted;
+http://arxiv.org/abs/0905.4056v1 , May 2009.
+[26] C. Z˘ alinescu, Convex Analysis in General Vector Spaces , World Scientiﬁc Publishing, 2002.
+10

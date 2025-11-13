@@ -1,0 +1,427 @@
+arXiv:1001.0288v2  [gr-qc]  28 Jun 2010Dynamical Horizon Entropy Bound Conjecture in Loop Quantum Cosmology
+Li-Fang Li and Jian-Yang Zhu∗
+Department of Physics, Beijing Normal University, Beijing 100875, China
+The covariant entropy bound conjecture is an important hint for the quantum gravity, with
+several versions available in the literature. For cosmolog y, Ashtekar and Wilson-Ewing ever show
+the consistence between the loop gravity theory and one vers ion of this conjecture. Recently, S.
+He and H. Zhang proposed a version for the dynamical horizon o f the universe, which validates
+the entropy bound conjecture for the cosmology ﬁlled with pe rfect ﬂuid in the classical scenario
+when the universe is far away from the big bang singularity. H owever, their conjecture breaks down
+near big bang region. We examine this conjecture in the conte xt of the loop quantum cosmology.
+With the example of photon gas, this conjecture is protected by the quantum geometry eﬀects as
+expected.
+PACS numbers: 04.60.Pp,04.60.-m, 65.40.gd
+I. INTRODUCTION
+The thermodynamical property of spacetime is an im-
+portant hint for the quantization of gravity. Start-
+ing from Hawking’s discovery of black hole’s radiation
+[1], a theory of thermodynamics of spacetime is be-
+ing constructed gradually. Recently, the second law of
+this thermodynamics was generalized to the covariant
+entropy bound conjecture [3]. It states that the en-
+tropy ﬂux Sthrough any null hypersurface generated
+by geodesics with non-positive expansion, emanating or-
+thogonallyfrom atwo-dimensional(2D) spacelikesurface
+of areaA, must satisfy
+S
+A≤1
+4l2p, (1)
+wherelp=√
+/planckover2pi1is the Planck length. Here and in what
+follows, we adopt the units c=G=kB= 1. Soon,
+Flanagan, Marolfand Wald [4] proposed a new versionof
+the entropybound conjecture. Ifone allowsthe geodesics
+generating the null hypersurface from a 2D spacelike sur-
+face of area Ato terminate at another 2D spacelike sur-
+face of area A′before coming to a caustic, boundary or
+singularity of spacetime, one can replace the above con-
+jecture with
+S
+A′−A≤1
+4l2p. (2)
+More recently, He and Zhang related these conjectures
+to dynamical horizon and proposed a covariant entropy
+bound conjecture on the cosmological dynamical horizon
+[5]: Let A(t) be the area of the cosmological dynami-
+cal horizon at cosmological time t, then the entropy ﬂux
+Sthrough the cosmological dynamical horizon between
+∗Author to whom correspondence should be addressed; Electro nic
+address: zhujy@bnu.edu.cntimetandt′(t′> t) must satisfy
+S
+A(t′)−A(t)≤1
+4l2p, (3)
+if the dominant energy condition holds for matter.
+As a non-perturbative and background-independent
+quantization of gravity, the loop quantum gravity (LQG)
+developed rapidly in recent years. Its cosmological ver-
+sion, the loop quantum cosmology (LQC) achieved many
+successes, including resolution of the classical singularity
+[6, 7], quantum suppression of classical chaotic behavior
+near singularities [8, 9], generic phase of inﬂation [10–
+12] and more (for example [13]). Since it has been sug-
+gested that the holographic principle is a powerful hint
+and should be used as an essential building block for any
+quantum gravitytheory [2], it is important and tempting
+to investigate the covariant entropy bound conjecture in
+the framework of the LQC, which is a successful applica-
+tion of the non-perturbative quantum gravity scheme—
+the LQG. The authors of [17] investigated the Bousso’s
+covariant entropy bound [2, 3] with a cosmology ﬁlled
+with photon gas and found that the conjecture is vio-
+lated near the big bang in the classical scenario. But
+they found the LQC can protect this conjecture even in
+the deep quantum region. In [5], He and Zhang proposed
+a new version of the entropy bound conjecture for the
+dynamical horizon in cosmology and validated it through
+a cosmology ﬁlled with adiabatic perfect ﬂuid, governed
+by the classical Einstein equation when the universe is
+far away from the big bang singularity. But when the
+universe approaches the big bang singularity, the strong
+quantum ﬂuctuation does break down their conjecture.
+In analogy to Ashtekar and Wilson-Ewing’s result [17],
+one may wonder if He and Zhang’sconjecture can also be
+protected by the quantum geometry eﬀect of the LQG.
+Following [17], we use photon gas as an example to
+investigate this problem. As expected, we ﬁnd that the
+loop quantum eﬀects can indeed protect the conjecture.
+Besidestheresultof[17], ourresultpresentsonemoreev-
+idence for the consistence between the loop gravity and
+the covariantentropyconjecture. Thispaper isorganized2
+as follows. In Sec. II, we brieﬂy review the framework
+of the eﬀective LQC and describe the covariant entropy
+bound conjecture proposed by He and Zhang [5]. Then
+in Sec. III, we test this conjecture with cosmology ﬁlled
+with photon gas, and show that the LQC is able to pro-
+tect the conjecture in all. We conclude the paper in Sec.
+IV and discuss the implications.
+II. THE EFFECTIVE FRAMEWORK OF LQC
+AND COVARIANT ENTROPY BOUND
+CONJECTURE
+To a good degree of approximation, the universe can
+be described by the well-known Friedmann-Robertson-
+Walker (FRW) metric,
+ds2=−dt2+a2(t)/parenleftbiggdr2
+1−kr2+r2dΩ2/parenrightbigg
+,(4)
+which describes a homogeneous and isotropic universe.
+Here the spatial curvature k=−1,0,1 correspond to
+open, ﬂat and closed universes respectively, and ais the
+scale factor of the universe. For simplicity we focus on a
+ﬂat universe in this paper. In the LQC, the phase space
+for a ﬂat universe is spanned by the coordinates c=γ˙a,
+being the gravitational gauge connection, and p=a2,
+being the densitized triad. γ= 0.2375 is the Barbero-
+Immirzi parameter [14]. Then the eﬀective Hamiltonian
+in the LQC is given by [15, 16]
+Heff=−3
+8πγ2¯µ2√psin2(¯µc)+HM.(5)
+The variable ¯ µcorresponds to the dimensionless length
+of the edge of the elementary loop and is given by
+¯µ=ξpλ, (6)
+whereξ >0 andλdepend on the particular scheme in
+the holonomy corrections. In this paper we take the ¯ µ-
+scheme, which gives
+ξ2= 2√
+3πγl2
+p (7)
+andλ=−1/2. With this eﬀective Hamiltonian, we have
+the canonical equation
+˙p={p,Heff}=−8πγ
+3∂Heff
+∂c, (8)
+or,
+˙a=sin(¯µc)cos(¯µc)
+γ¯µ. (9)
+Combining with the constraint on the Hamiltonian,
+Heff= 0, we obtain the modiﬁed Friedmann equation,
+H2=8π
+3ρ/parenleftbigg
+1−ρ
+ρc/parenrightbigg
+, (10)in terms of the Hubble rate H≡˙a
+a, whereρ:=HM
+p3/2and
+ρc=3
+8πγ2¯µ2p=√
+3
+16π2γ2/planckover2pi1.ρcis the critical energy density
+coming from the quantum eﬀect in the LQC. It is a large
+quantity and when it goes to inﬁnity all the quantum
+eﬀects disappear.
+According to [5], the cosmological dynamical horizon
+[2] is deﬁned geometrically as a three-dimensional hyper-
+surface foliated by spheres, where at least one orthogonal
+null congruence with vanishing expansion exists. For a
+sphere characterized by any value of ( t,r), there are two
+future directed null directions
+ka
+±=1
+a/parenleftbigg∂
+∂t/parenrightbigga
+±1
+a2/parenleftbigg∂
+∂r/parenrightbigga
+, (11)
+satisfying geodesic equation kb∇bka= 0. The expansion
+of these null directions is
+θ:=▽aka
+±=2
+a2/parenleftbigg
+˙a±1
+r/parenrightbigg
+, (12)
+where the dot denotes diﬀerential with respect to t, and
+the sign +( −) represents the null direction pointing to
+larger (smaller) values of r. For an expanding universe,
+i.e. ˙a >0,θ= 0determinesthelocationofthedynamical
+horizon, rH= 1/˙a, bythedeﬁnitionofdynamicalhorizon
+givenabove. The LQC replacesthe big bang with the big
+bounce, so the universe is symmetric with respect to the
+point of the bounce, expanding on one side of the bounce
+andcontractingontheotherside. Thedynamicalhorizon
+in the contracting stage of the LQC corresponds to rH=
+−1/˙a, andalloftherelationsaresimilartothe onesgiven
+here. In this paper we only consider the expanding stage
+for the LQC, but note that the contracting stage is the
+same.
+Since the area of the dynamical horizon is A=
+4πa2r2
+H= 4πH−2, the covariant entropy bound conjec-
+ture in our question becomes
+l2
+pS≤π/bracketleftbig
+H−2(t′)−H−2(t)/bracketrightbig
+, (13)
+whereSis the entropy ﬂux through the dynamical hori-
+zon between cosmological time tandt′(t′> t), andHis
+the Hubble parameter. Considering that the cosmology
+model discussed here is isotropic and homogeneous, we
+can write the entropy current vector as
+sa=s
+a3/parenleftbigg∂
+∂t/parenrightbigga
+, (14)
+wheresis the ordinary comoving entropy density, inde-
+pendent of space. If the entropy current of the perfect
+ﬂuid is conserved, i.e., ∇asa= 0,swill be independent
+oftas well. For simplicity we restrict ourselves to this
+special case. The entropy ﬂux through the dynamical
+horizon (shown in Fig.1) is given by
+S=/integraldisplay
+CDHsaǫabcd=4πs
+3/parenleftbig
+r3
+H(t′)−r3
+H(t)/parenrightbig
+(15)3
+whereǫabcd=a3r2sinθ(dt∧dr∧dθ∧dφ)abcdis the
+spacetime volume 4-form. So the conjecture is reduced
+to
+H−2(t′)−4
+3l2
+ps˙a−3(t′)≥H−2(t)−4
+3l2
+ps˙a−3(t), t′> t.
+(16)
+/s65/s40/s116/s39/s41
+/s67/s68/s72/s67/s68/s72
+/s65/s40/s116/s41/s115/s97
+FIG. 1: A schematic of the entropy current ﬂowing across the
+cosmological dynamical horizon. The thick solid line marke d
+by “CDH” is the cosmological dynamical horizon. The thin
+solid line is the region enclosed by the CDH at time tandt′
+respectively. The dashed lines are the entropy current.
+III. CONJECTURE TEST FOR A COSMOLOGY
+FILLED WITH PERFECT FLUID
+Given that the FRW universe is ﬁlled with photon gas,
+the energy momentum tensor can be expressed as
+Tab=ρ(t)(dt)a(dt)b+P(t)a2(t){(dr)a(dr)b
++r2[(dθ)a(dθ)b+sin2θ(dφ)a(dφ)b]/bracerightbig
+.(17)
+The pressure Pand the energy density ρsatisfy a ﬁxed
+equation of state
+P=ωρ, (18)
+where the constant ω=1
+3. From∇aTab= 0, we have the
+conservation equation
+˙ρ+3H(ρ+P) = 0. (19)
+The comoving entropy density sis given by
+s=a3ρ+P
+T=a3(1+ω)ρ
+T, (20)andρdepends only on the temperature T,
+ρ=Kol−2−1+ω
+ωpT1+ω
+ω, (21)
+whereKois a dimensionless constant depending on
+the density of energy state of the perfect ﬂuid. For
+photon gas Ko=π2
+15. Plugging above thermody-
+namics relation into equation (20) we get s= (1 +
+ω)Kω
+1+ωol−1−2ω
+1+ωpρ1
+1+ωa3. Written the above conservation
+equation as
+˙ρ+3(1+ω)ρ˙a
+a= 0, (22)
+we have an integration constant C=ρ1
+1+ωa3. Thens=
+(1+ω)Kω
+1+ωol−1−2ω
+1+ωpC. Combining our equation of state
+Eq. (18) with the above conservation equation, we get
+the relationship between ρand the Hubble parameter,
+H=−1
+3(1+ω)˙ρ
+ρ. (23)
+Substituting the above relation (23) into the modiﬁed
+Friedmann equation (10), we can get
+ρ=1
+6π(t+C1)2(1+ω)2+1
+ρc(24)
+whereC1is an integration constant without direct phys-
+ical signiﬁcance, and we can always drop it by resetting
+the time coordinate. Setting C1= 0 gives
+H=4πt(1+ω)
+6πt2(1+ω)2+1
+ρc. (25)
+With the deﬁnition of the Hubble parameter, we can in-
+tegrate once again to get
+a(t) =C1/3/bracketleftbigg
+6πt2(1+ω)2+1
+ρc/bracketrightbigg1
+3(1+ω)
+.(26)
+Whenρcgoes to inﬁnity, all of the above solutions be-
+come the same as the classical ones [18] presented in [5].
+In the classical scenario,
+H−2−4
+3l2
+ps˙a−3
+=9
+4t2(1+ω)2−9Kω
+1+ωol1−2ω
+1+ωp
+2(6π)1/(1+ω)t3−2
+1+ω(1+ω)4−2
+1+ω.
+(27)
+Whent≪1,H−2−4
+3l2
+ps˙a−3∼ −t3−2
+1+ω=−t3/2whichis
+a decreasing function of t, so the conjecture breaks down
+when the universe approaches the big bang singularity.
+We introduce a new variable τ=√2πρc(1 +ω)tfor
+the LQC to simplify the above expressions to
+H=/radicalbig
+2πρc2τ
+3τ2+1, (28)
+a=C1/3ρ−1
+3(1+ω)
+c/parenleftbig
+3τ2+1/parenrightbig1
+3(1+ω), (29)
+˙a=aH= 2τC1/3ρ−1
+3(1+ω)
+c/radicalbig
+2πρc/parenleftbig
+3τ2+1/parenrightbig1
+3(1+ω)−1.
+(30)4
+/s48 /s50 /s52 /s54 /s56 /s49/s48/s48/s49/s50/s51/s52/s53/s54/s55/s56
+/s48/s46/s48/s49/s48/s46/s49/s49/s49/s48/s49/s48/s48
+/s32/s100/s101/s114/s105/s118/s97/s116/s105/s118/s101
+/s32/s32/s108/s111/s103/s97/s114/s105/s116/s104/s109/s32/s111/s102/s32/s100/s101/s114/s105/s118/s97/s116/s105/s118/s101/s32/s102/s117/s110/s99/s116/s105/s111/s110/s32/s105/s116/s115/s101/s108/s102
+/s32/s102/s117/s110/s99/s116/s105/s111/s110/s32/s105/s116/s115/s101/s108/s102/s32
+FIG. 2: Function H−2−4
+3l2
+ps˙a−3and its derivative respect to
+τfor photon gas.
+Then
+H−2−4
+3l2
+ps˙a−3
+=1
+2πρc/bracketleftBigg/parenleftbigg3
+2τ+1
+2τ/parenrightbigg2
+−(1+ω)
+6√
+2πKω
+1+ωo(√
+3
+16π2γ2)1
+1+ω−1
+2/parenleftbig
+3τ2+1/parenrightbig3−1
+(1+ω)
+τ3
+.
+(31)
+It is obvious that the necessary and suﬃcient condition
+for meeting the covariant entropy bound conjecture is
+that the above expression increases with τ. In order to
+investigate the monotone property of above function, we
+plotH−2−4
+3l2
+ps˙a−3itself and its derivative respect to τin Fig.2. The minimal value of the derivative is about
+1.16>0. The covariant entropy bound conjecture for
+dynamicalhorizonin cosmologyisfully protectedbyloop
+quantum eﬀect.
+IV. CONCLUSION AND DISCUSSION
+The covariant entropy bound conjecture comes from
+the holographic principle and is an important hint for
+the quantum gravity theory. In the recent years we have
+witnessed more and more success of the loop quantum
+gravity, especially for the problem of the big bang singu-
+larity in cosmology. The entropy bound conjecture usu-
+ally breaks down in the strong gravity region of space-
+time where the quantum ﬂuctuation is strong, and one
+would expect the loop quantum correction to protect the
+conjecture from the quantum ﬂuctuation. And Ashtekar
+and Wilson-Ewing do ﬁnd a result in [17] which is consis-
+tent with above expectation. In this paper, we general-
+izedthecovariantentropyconjectureforthe cosmological
+dynamical horizon proposed in [5] to the loop quantum
+cosmology scenario. We found that the quantum geom-
+etry eﬀects of the loop quantum gravity can also protect
+the conjecture. Our result gives out one more evidence
+for the consistence of covariant entropy conjecture and
+loop quantum gravity theory. This adds one more en-
+couraging result of loop quantum gravity theory besides
+previous ones.
+Acknowledgments
+The work was supported by the National Natural Sci-
+ence of China (No.10875012) and the Scientiﬁc Research
+Foundation of Beijing Normal University.
+[1] S. W. Hawking, Commun. Math. Phys. 43, 199 (1975).
+[2] R. Bousso, Rev. Mod. Phys. 74, 825 (2002).
+[3] R. Bousso, JHEP 07(1999)004.
+[4] E. Flanagan, D. Marolf and R. Wald, Phys. Rev. D 62,
+084035 (2000).
+[5] S. He and H. Zhang, JHEP 10(2007)077.
+[6] M. Bojowald, Phys. Rev. Lett. 86, 5227 (2001).
+[7] M. Bojowald, Class. Quantum Grav. 20, 2595 (2003).
+[8] M. Bojowald, and G. Date, Phys. Rev. Lett. 92, 071302
+(2004).
+[9] M. Bojowald, Class. Quantum Grav. 21, 3541 (2004).
+[10] M. Bojowald, Phys. Rev. Lett. 89, 261301 (2002).
+[11] G. Date and G. Hossain, Phys. Rev. Lett. 94, 011301
+(2005).
+[12] Hua-Hui Xiong and Jian-Yang Zhu, Phys. Rev. D 75,
+084023 (2007).[13] Li-Fang Li and Jian-Yang Zhu, Phys. Rev. D 79, 044011
+(2009); Phys. Rev. D 79, 124011 (2009); Advances in
+High Energy Physics, doi:10.1155/2009/905705.
+[14] A. Ashtekar, J. Baez, A. Corichi, and K. Krasnov, Phys.
+Rev. Lett. 80, 904 (1998).
+[15] A. Ashtekar, T. Pawlowski, and P. Singh, Phys. Rev. D
+73, 124038 (2006); 74, 084003 (2006).
+[16] J. Mielczarek, T. Stachowiak, M. Szydlowski, Phys. Rev .
+D77, 123506 (2008).
+[17] A. Ashtekar and E. Wilson-Ewing, Phys. Rev. D 78,
+064047 (2008).
+[18] Note that the original result in [5] used conformal time
+η, while we use universe time tin this paper. ηcan be
+negative which divides the discussion into two cases. tis
+always positive and makes the discussion simpler.

@@ -1,0 +1,428 @@
+arXiv:1001.0622v1  [math.CV]  5 Jan 2010In the name of Allah, the Beneﬁcent, the Merciful
+A radius of absolute convergence for power series in many var iables
+Ural Bekbaev
+Turin Polytechnical University in Tashkent,
+INSPEM, Universiti Putra Malaysia.
+e-mail: bekbaev@science.upm.edu.my
+Abstract
+In this paper for power series in many (real or complex)varia bles a radius of (absolute) convergence is
+oﬀered. This radius can be evaluated by a formula similar to C auchy-Hadamard formula and in one variable
+case they are same.
+Mathematics Subject Classiﬁcation: 32A05, 15A60.
+Key words: multiindex, power series in many variables.
+In [1] a matrix representation of polynomial maps was oﬀered and by the use of a new product of matrices the
+matrix representation of composition of polynomial maps wa s given. In this paper an application of this product to
+power series in many (real or complex)variables is presente d. Namely, by the use of this product power series in many
+variables are presented in the form of power series in one var iable. Then by the use of ρ-norm (deﬁned in [1]) and the
+Cauchy-Hadamard type formula a radius of (absolute) conver gence for such series is introduced and investigated. In one
+variable case it is the same Cauchy-Hadamard formula for rad ius of convergence of power series in one variable.
+Here are some deﬁnitions and results related to the new produ ct introduced in [1].
+For a positive integer nletInstand for all row n-tuples with nonnegative integer entries with the followin g linear
+order:β= (β1,β2,...,βn)< α= (α1,α2,...,αn) if and only if |β|<|α|or|β|=|α|andβ1> α1or|β|=|α|,β1=α1
+andβ2> α2etcetera, where |α|stands for α1+α2+...+αn.
+It is clear that for α,β,γ∈Inone has α < βif and only if α+γ < β+γ. We write β≪αifβi≤αifor all
+i= 1,2,...,n,/parenleftBigg
+α
+β/parenrightBigg
+stands forα!
+β!(α−β)!,α! =α1!α2!...αn!.
+In future nandn′are assumed to be any ﬁxed positive integers. Let Fstand for the ﬁeld of real or complex numbers.
+For any nonnegative integer numbers p,p′letMn,n′(p,p′;F) =M(p,p′;F) stand for all ” p×p′” size matrices
+A= (Aα,α′)|α|=p,|α′|=p′(αpresents row, α′presents column and α∈In,α′∈In′) with entries from F. Over such kind
+matrices in addition to the ordinary sum and product of matri ces we consider the following ”product”/circledottext
+as well:
+Deﬁnition 1. IfA∈M(p,p′;F) andB∈M(q,q′;F) thenA/circledottext
+B=C∈M(p+q,p′+q′;F) that for any |α|=p+q,
+|α′|=p′+q′, whereα∈In,α′∈In′,
+Cα,α′=/summationdisplay
+β,β′/parenleftBigg
+α
+β/parenrightBigg
+Aβ,β′Bα−β,α′−β′
+, where the sum is taken over all β∈In,β′∈In′, for which |β|=p,|β′|=p′,β≪αandβ′≪α′.
+Let us agree that h(H,v,V) stands for any element of M(0,1;F) (respect. M(0,p;F),M(1,0;F),M(p,0;F) ,
+wherepmay be any nonnegative integer). We use Ekfor ”k×k” size ordinary unit matrix from Mn,n(k,k;R). For the
+sake of convenience it will be assumed that Aα,α′= 0 (α! =∞) whenever α /∈Inorα′/∈In′(respect. α /∈In).
+Proposition 1. For the above deﬁned product the following are true.
+11.A/circledottext
+B=B/circledottext
+A.
+2. (A+B)/circledottext
+C=A/circledottext
+C+B/circledottext
+C.
+3. (A/circledottext
+B)/circledottext
+C=A/circledottext
+(B/circledottext
+C)
+4. (λA)/circledottext
+B=λ(A/circledottext
+B) for any λ∈F
+5.A/circledottext
+B= 0 if and only if A= 0 orB= 0.
+6.A(B/circledottext
+H) = (AB)/circledottext
+H
+7. (Ek/circledottext
+V)A=A/circledottext
+V
+In future A(m)means the mth power of the matrix Awith respect to the new product.
+Proposition 2. Ifh= (h1,h2,...,hn)∈M(0,1;F),v= (v1,v2,...,vn)∈M(1,0;F), then
+(h(m))0,α′=/parenleftBigg
+m
+α′/parenrightBigg
+hα′,(v(m))α,0=m!vα
+, wherehαstands for hα1
+1hα2
+2...hαnn
+In future let ρ≥1 be any ﬁxed real number and ̺stand for the real number for which1
+ρ+1
+̺= 1. We consider the
+following ρ-norm of elements A∈M(p,p′;F):
+Deﬁnition 2.
+/bardblA/bardbl=/bardblA/bardblρ= (/summationdisplay
+α,α′|Aα,α′|ρ
+α!(p!p′!)ρ−1)1/ρ
+In the case of ρ=∞theρ-norm is deﬁned by
+/bardblA/bardbl=/bardblA/bardbl∞=supα,α′|Aα,α′|
+p!p′!
+Theorem 1. 1. IfA,B∈Mat(p,p′;F) andλ∈Fthen
+a)/bardblA/bardbl= 0 if and only if A= 0,
+b)/bardblλA/bardbl=|λ|/bardblA/bardbl,
+c)/bardblA+B/bardbl ≤ /bardblA/bardbl+/bardblB/bardbl.
+2. For any nonnegative integer numbers p,p′,qandq′there is such a positive number λ(p,p′,q,q′) that for any
+A∈Mat(p,p′;F),B∈Mat(q,q′;F) the following inequality is valid:
+λ(p,p′,q,q′)/bardblA/bardbl/bardblB/bardbl ≤ /bardblA/circledotdisplay
+B/bardbl ≤ /bardblA/bardbl/bardblB/bardbl
+Proof.Here is a proof of part 2. First let us show the inequality /bardblA/circledottext
+B/bardbl ≤ /bardblA/bardbl/bardblB/bardbl.
+Due to the H¨ older inequality for A/circledottext
+B=Cone has
+|Cα,α′|=|/summationdisplay
+β≪α,β′≪α′/parenleftBigg
+α
+β/parenrightBigg
+Aβ,β′Bα−β,α′−β′| ≤α!/summationdisplay
+β≪α,β′≪α′|Aβ,β′Bα−β,α′−β′|
+(β!(α−β)!)1/ρ1
+(β!(α−β)!)1/̺≤
+α!(/summationdisplay
+β≪α,β′≪α′|Aβ,β′Bα−β,α′−β′|ρ
+β!(α−β)!)1/ρ(/summationdisplay
+β≪α,β′≪α′(1
+(β!(α−β)!)1/̺)̺)1/̺=
+α!(/summationdisplay
+β≪α,β′≪α′|Aβ,β′|ρ
+β!|Bα−β,α′−β′|ρ
+(α−β)!)1/ρ(/summationdisplay
+β≪α1
+β!(α−β)!/summationdisplay
+β′≪α′1)1/̺≤
+α!(/summationdisplay
+β≪α,β′≪α′|Aβ,β′|ρ
+β!|Bα−β,α′−β′|ρ
+(α−β)!)1/ρ(/parenleftBigg
+p+q
+p/parenrightBigg
+1
+α!/parenleftBigg
+p′+q′
+p′/parenrightBigg
+)1/̺
+2as far as according to Proposition 1 one has/summationtext
+β≪α1
+β!(α−β)!=/parenleftBigg
+p+q
+p/parenrightBigg
+1
+α!and/summationtext
+β′≪α′1≤/parenleftBigg
+p′+q′
+p′/parenrightBigg
+. Therefore
+/bardblC/bardbl= (/summationdisplay
+α,α′|Cα,α′|ρ
+α!((p+q)!(p′+q′)!)ρ−1)1/ρ≤
+(/summationdisplay
+α,α′1
+α!((p+q)!(p′+q′)!)ρ−1(α!)ρ/summationdisplay
+β≪α,β′≪α′|Aβ,β′|ρ
+β!|Bα−β,α′−β′|ρ
+(α−β)!(/parenleftBigg
+p+q
+p/parenrightBigg
+1
+α!/parenleftBigg
+p′+q′
+p′/parenrightBigg
+)ρ/̺)1/ρ=
+(/summationdisplay
+ββ′|Aβ,β′|ρ
+β!(p!p′!)ρ−1)1/ρ(/summationdisplay
+γγ′|Bγγ′|ρ
+γ!(q!q′!)ρ−1)1/ρ=/bardblA/bardbl/bardblB/bardbl
+due toρ/̺=ρ−1
+To show the inequality λ(p,p′,q,q′)/bardblA/bardbl/bardblB/bardbl ≤ /bardblA/circledottext
+B/bardbllet us consider
+X={(A,B) :A∈Mat(p,p′;F),/bardblA/bardbl= 1,B∈Mat(q,q′;F),/bardblB/bardbl= 1}
+, which is a compact set in the corresponding ﬁnite dimension al vector space, and the continuous map ( A,B)/mapsto→A/circledottext
+B.
+The image of X, with respect to this map, is a compact set which doesn’t cont ain zero vector due to Proposition 1.
+Letλ(p,p′,q,q′)>0 stand for the distance between zero vector and this image se t with respect to the corresponding ρ-
+norm. So λ(p,p′,q,q′)≤ /bardblA/circledottext
+B/bardblfor any ( A,B)∈Xand due to Proposition 1 one has
+λ(p,p′,q,q′)/bardblA/bardbl/bardblB/bardbl ≤ /bardblA/circledotdisplay
+B/bardbl
+for anyA∈Mat(p,p′;F),B∈Mat(q,q′;F)
+Remark. It would be nice if one could oﬀer an expression for
+λ(p,p′,q,q′) = inf
+/bardblA(p,p′)/bardbl=/bardblB(q,q′)/bardbl=1/bardblA/circledotdisplay
+B/bardblρ
+in terms of n,n′,p,p′,q,q′andρ.
+With respect to the ordinary product of matrices a result sim ilar to/bardblA/circledottext
+B/bardbl ≤ /bardblA/bardbl/bardblB/bardblis not valid. But one can
+have the following result.
+Proposition 3. The following inequality
+/bardblA(p,q)B(q,q′)/bardbl ≤(q!)2−1/ρ(q′!)2/ρ−1/bardblA/bardbl/bardblB/bardbl̺
+is true.
+Proof.Indeed due to the H¨ older inequality one has
+/bardblA(p,q)B(q,q′)/bardblρ=/summationdisplay
+α,α′1
+α!(p!q′!)ρ−1|/summationdisplay
+βAα,βBβ,α′|ρ≤/summationdisplay
+α,α′1
+α!(p!q′!)ρ−1/summationdisplay
+β|Aα,β|ρ(/summationdisplay
+γ|Bγ,α′|̺)ρ/̺=
+/summationdisplay
+α,β|Aα,β|ρ
+α!(p!q!)ρ−1(/summationdisplay
+γ,α′|Bγ,α′|̺
+γ!(q!q′!)̺−1γ!)ρ/̺(q!)ρ(q′!)2−ρ≤ /bardblA/bardblρ/bardblB/bardblρ
+̺(q!)2ρ−1(q′!)2−ρ
+as far as γ!≤q!.
+In particular case the following estimation is also true.
+Proposition 4. For any nonnegative integer numbers m,k,q′andh∈Matn,n(0,1;F),
+A∈Matn,n′(m+k,q′;F) the following inequality
+/bardbl(h(m)
+m!/circledotdisplay
+Ek)A/bardbl ≤/parenleftBigg
+m+k
+k/parenrightBigg
+/bardblh/bardblm
+̺/bardblA/bardbl
+3is valid.
+Proof.Indeed
+/bardbl(h(m)
+m!/circledotdisplay
+Ek)A/bardblρ=/summationdisplay
+α,α′1
+α!(k!q′!)ρ−1|((h(m)
+m!/circledotdisplay
+Ek)A)α,α′|ρ=/summationdisplay
+α,α′1
+α!(k!q′!)ρ−1|/summationdisplay
+β(h(m)
+m!/circledotdisplay
+Ek)α,βAβ,α′|ρ=
+/summationdisplay
+α,α′1
+α!(k!q′!)ρ−1|/summationdisplay
+βhβ−α
+(β−α)!1/̺Aβ,α′
+(β−α)!1/ρ|ρ
+as far as
+(h(m)
+m!/circledotdisplay
+Ek)α,β=hβ−α
+(β−α)!
+Due to the H¨ older inequality
+(/summationdisplay
+β|hβ−α
+(β−α)!1/̺Aβ,α′
+(β−α)!1/ρ|)ρ≤/summationdisplay
+β|Aβ,α′|ρ
+(β−α)!(/summationdisplay
+β|h̺(β−α)|
+(β−α)!)ρ/̺=/summationdisplay
+β|Aβ,α′|ρ
+(β−α)!(/bardblh/bardblm̺
+̺
+m!)ρ/̺
+Therefore
+/bardbl(h(m)
+m!/circledotdisplay
+Ek)A/bardblρ≤/summationdisplay
+β,α′|Aβ,α′|ρ
+β!((m+k)!q′!)ρ−1/parenleftBigg
+m+k
+k/parenrightBiggρ−1/summationdisplay
+α/parenleftBigg
+β
+α/parenrightBigg
+/bardblh/bardblmρ
+̺=
+/summationdisplay
+β,α′|Aβ,α′|ρ
+β!((m+k)!q′!)ρ−1/parenleftBigg
+m+k
+k/parenrightBiggρ
+/bardblh/bardblmρ
+̺=/bardblA/bardblρ/parenleftBigg
+m+k
+k/parenrightBiggρ
+/bardblh/bardblmρ
+̺
+Corollary. Foranynonnegative integer number m,q′,A∈Matn,n′(m,q′;F)andhi∈Matn,n(0,1;F),i= 1,2,...,m
+the following inequality
+/bardblh1/circledottext
+h2/circledottext
+.../circledottext
+hm
+m!A/bardbl ≤ /bardblh1/bardbl̺/bardblh2/bardbl̺.../bardblhm/bardbl̺/bardblA/bardbl
+is valid.
+Fromnowletusassumethat x1,x2,...,xnarevariablesover F,q′isaﬁxednonnegativeintegerand x= (x1,x2,...,xn)∈
+Mn,n(0,1;F[x]).
+Nowwearegoingtoconsideranapplicationofthenewproduct topowerseries/summationtext
+α∈Inxαaα, whereaα∈Mat(0,q′;F).
+To do it we represent the power series/summationtext
+α∈Inxαaαin the form/summationtext∞
+m=0x(m)
+m!A(m), where A(m)∈M(m,q′;F).
+It is well known that all ρ-norms deﬁne the same topology in Fn. Therefore one can speak about convergence of the
+above power series without refereing to any particular ρ-norm.
+Deﬁnition 3. A power series/summationtext∞
+m=0x(m)
+m!A(m) is said to be absolute convergent at h∈Fnif its each component is
+absolute convergent at h∈Fne.i. for each α′∈In′,|α′|=q′, the positive series/summationtext
+α∈In|hα
+α!A(m)α,α′|converges.
+Due to the inequality
+|h(m)
+m!A(m)| ≤ /bardblh/bardblm
+̺/bardblA(m)/bardbl
+(Proposition 4) the power series
+∞/summationdisplay
+m=0x(m)
+m!A(m) (1)
+absolutely converges whenever /bardblx/bardbl̺< R=1
+r, wherer=limm→∞/bardblA(m)/bardbl1
+mρ.
+Theorem 2. Power series (1) is absolute convergent at h∈Fnwhenever /bardblh/bardbl̺< Rand for any R1> Rnρ−1
+ρthere
+exists such h∈Fnthat/bardblh/bardbl̺=R1and power series (1) is not absolute convergent at h
+Proof.
+IfR=∞there is nothing to prove. Assume that 1 ≤ρ <∞,R <∞,R1> Rnρ−1
+ρand for any h∈Fnfor which
+/bardblh/bardbl̺=R1power series (1) is absolute convergent at h. Due to convergence of the series
+4/summationtext∞
+m=0/summationtext
+|α|=m|hα
+α!A(m)α,α′|for big enough mone has
+|hα
+α!A(m)α,α′| ≥ |hα
+α!A(m)α,α′|ρ≥ |hα|ρ|A(m)α,α′|ρ
+α!(m!q′!)ρ−1
+and therefore the series/summationdisplay
+|α′|=q′∞/summationdisplay
+m=0/summationdisplay
+|α|=m|hα|ρ|A(m)α,α′|ρ
+α!(m!)ρ−1
+should converge whenever h∈Fnand/bardblh/bardbl̺=R1. Consider this series for h= (R1n−1
+̺,R1n−1
+̺,...,R 1n−1
+̺)∈Fnfor
+which/bardblh/bardbl̺=R1.
+/summationdisplay
+|α′|=q′∞/summationdisplay
+m=0/summationdisplay
+|α|=m|hα|ρ|A(m)α,α′|ρ
+α!(m!q′!)ρ−1=∞/summationdisplay
+m=0(R1n−1
+̺)mρ/summationdisplay
+|α|=m,|α′|=q′|A(m)α,α′|ρ
+α!(m!q′!)ρ−1=∞/summationdisplay
+m=0(R1n−1
+̺)mρ/bardblA(m)/bardblρ
+But the radius of convergence of the ordinary number series/summationtext∞
+m=0tm/bardblA(m)/bardblρequalsRρand (R1n−1
+̺)ρ> Rρthis
+contradiction indicates that the Theorem is true in this cas e.
+Let us consider now the ρ=∞case. Assume that R1> Rnand power series (1) is absolute convergent at any
+h∈Fnfor which /bardblh/bardbl1=R1. In particular for any α′∈In′,|α′|=q′andh= (R1n−1
+̺,R1n−1
+̺,...,R 1n−1
+̺)∈Fn, for
+which/bardblh/bardbl1=R1, the series
+∞/summationdisplay
+m=0/summationdisplay
+|α|=m|hα
+α!A(m)α,α′|=∞/summationdisplay
+m=0(R1
+n)m/summationdisplay
+|α|=m|A(m)α,α′
+α!|
+is convergent. In this case the series
+∞/summationdisplay
+m=0(R1
+n)m/summationdisplay
+|α|=m,|α′|=q′|A(m)α,α′
+m!q′!|
+is convergent as well. Due to the equality/summationtext
+|α|=m1 =/parenleftBigg
+m+n−1
+n−1/parenrightBigg
+the following inequality
+/bardblA(m)/bardbl∞≤/summationdisplay
+|α|=m,|α′|=q′|A(m)α,α′
+m!q′!| ≤ /bardblA(m)/bardbl∞/parenleftBigg
+m+n−1
+n−1/parenrightBigg/parenleftBigg
+q′+n′−1
+n′−1/parenrightBigg
+is clear. It implies that the radius of convergence of the pow er series/summationtext∞
+m=0tm/summationtext
+|α|=m,|α′|=q′|A(m)α,α′
+m!q′!|is the same
+R. But in our caseR1
+n> Rand/summationtext∞
+m=0(R1
+n)m/summationtext
+|α|=m,|α′|=q′|A(m)α,α′
+m!q′!|converges. This contradiction indicates that the
+Theorem is true in this case as well.
+Due to this result if for power series (1) the radius of conver genceRis zero then in any neighborhood of zero one can
+ﬁnd a point where (1) is not absolute convergent. This theore m indicates also a privileged position of 1-norm among all
+ρ-norms as far as in this case Rnρ−1
+ρ=Rand forρ >1 power series (1) has a solid layer
+{h∈Fn:R≤ /bardblh/bardbl̺≤Rnρ−1
+ρ}
+of indeterminacy. Investigation the behavior of power seri es (1)in this layer of indeterminacy could be interesting. I t is
+hoped that the emergence of a layer of indeterminacy is not a d efect of our approach.
+Question 1. Let/summationtext
+αaαxαbe any series for which/summationtext∞
+m=0Hm(x), where Hm(x) =/summationtext
+|α|=maαxα, is absolute
+convergent in some neighborhood of zero. Does it imply that t he original series/summationtext
+αaαxαis also absolute convergent in
+some neighborhood of zero as well?
+Question 2. Consider power series (1), for each nonnegative mmultilinear map
+(Fn)m−→Fn′: (h1,h2,...,hm)/mapsto−→(h1/circledotdisplay
+h2/circledotdisplay
+.../circledotdisplay
+hm)A(m)
+5and its norm /bardblA(m)/bardbl([2]) deﬁned by
+/bardblA(m)/bardbl= sup
+/bardblh1/bardbl̺=/bardblh2/bardbl̺=...=/bardblhm/bardbl̺=1/bardbl(h1/circledotdisplay
+h2/circledotdisplay
+.../circledotdisplay
+hm)A(m)/bardblρ
+According to the above Corollary for each mthe inequality /bardblA(m)/bardbl ≤ /bardblA(m)/bardblρis true. Is it true that
+limm→∞/bardblA(m)/bardbl1
+m=limm→∞/bardblA(m)/bardbl1
+mρ
+References
+[1] U.Bekbaev. A matrix representation of composition of po lynomial maps. arXiv:math 0901.3179v3
+[2] H.Cartan. Calcul diﬀ´ erntiel. Forms diﬀ´ erentielles. Hermann. Paris, 1967.
+6

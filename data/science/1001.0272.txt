@@ -1,0 +1,173 @@
+arXiv:1001.0272v1  [hep-ex]  2 Jan 2010A systematicstudyofthestronginteractionwith
+¯PANDA
+JohanMesschendorp∗forthe¯PANDA collaboration
+KVI, University ofGroningen,TheNetherlands
+E-mail:messchendorp@kvi.nl
+The theoryof QuantumChromoDynamics(QCD) reproducesthe s tronginteractionat distances
+much shorter than the size of the nucleon. At larger distance scales, the generation of hadron
+massesandconﬁnementcannotyetbederivedfromﬁrstprinci plesonbasisofQCD.The ¯PANDA
+experiment at FAIR will address the origin of these phenomen a in controlled environments.
+Beams of antiprotons together with a multi-purpose and comp act detection system will provide
+uniquetoolstoperformstudiesofthestronginteraction. T hiswillbeachievedviaprecisionspec-
+troscopy of charmonium and open-charm states, an extensive search for exotic objects such as
+glueballsandhybrids,in-mediumandhypernucleispectros copy,andmore. Anoverviewisgiven
+ofthephysicsprogramofthe ¯PANDAcollaboration.
+EuropeanPhysicalSocietyEurophysicsConferenceonHighE nergyPhysics,EPS-HEP2009,
+July 16- 222009
+Krakow, Poland
+∗Speaker.
+c/circlecopyrtCopyrightownedbytheauthor(s)underthetermsoftheCreat ive CommonsAttribution-NonCommercial-ShareAlikeLicen ce. http://pos.sissa.it/Stronginteractionstudieswith ¯PANDA JohanMesschendorp
+1. Introduction
+The fundamental building blocks of QCD are the quarks which i nteract with each other by
+exchanging gluons. QCD is well understood at short-distanc e scales, much shorter than the size
+of a nucleon ( <10−15m). In this regime, the basic quark-gluon interaction is suf ﬁciently weak.
+In fact, many processes at high energies can quantitatively be described by perturbative QCD.
+Perturbation theory fails when the distance among quarks be comes comparable to the size of the
+nucleon. Asaconsequenceofthestrongcoupling,weobserve therelativelyheavymassofhadrons,
+such as protons and neutrons, which is two orders of magnitud e larger than the sum of the masses
+of the individual quarks. This quantitatively yet-unexpla ined behavior is related to the effect of
+chiral symmetry breaking.
+The physics program of the ¯PANDA (anti-Proton ANnihilation at DArmstadt) collaborat ion
+will address various questions related to the strong intera ctions by employing a multi-purpose de-
+tector system [1, 2, 3] at the High Energy Storage Ring for ant i-protons (HESR) of the upcoming
+Facility for Anti-proton and Ion Research (FAIR) [4]. The ¯PANDA collaboration aims to connect
+the perturbative and the non-perturbative QCD regions, the reby providing insight in the mecha-
+nisms of mass generation and conﬁnement. For this purpose, a large part of the program will be
+devoted to charmonium spectroscopy; gluonic excitations, e.g. hybrids and glueballs; open and
+hiddencharminnuclei. Inaddition, variousotherphysicst opicswillbestudiedwith ¯PANDAsuch
+as the hyperon-nucleon and hyperon-hyperon interactions v iaγ-ray spectroscopy of hypernuclei;
+CP violation studies exploiting rare decays in the D and/or Λsectors; studies of the structure of
+the proton by measuring Generalized Parton Distributions ( Drell-Yan and Virtual-Compton Scat-
+tering), "spin" structure functions using polarized anti- protons, and electro-magnetic form factors
+in the time-like region.
+2. The experimental facility
+The key ingredient for the ¯PANDA physics program is a high-intensity and a high-resolu tion
+beam of antiprotons in the momentum range of 1.5 to 15 GeV/c. S uch a beam gives access to
+a center-of-mass energy range from 2.2 to 5.5 GeV/c2in ¯ppannihilations. In this range, a rich
+spectrum of hadrons with various quark conﬁgurations can be studied. In particular, hadronic
+states which contain charmed quarks and gluon-rich matter b ecome experimentally accessible.
+The¯PANDA detector will be installed at the High Energy Storage R ing, HESR, at the fu-
+ture Facility for Antiproton and Ion Research, FAIR. FAIR pr ovides a storage ring for beams of
+phase-space cooled antiprotons withunprecedented qualit y and intensity [15]. Antiprotons will be
+transferred to the HESR where internal-target experiments in the beam momentum range of 1.5 –
+15GeV/ccanbeperformed. Electronandstochastic phase spa cecooling willbeavailable toallow
+for experiments with either high momentum resolution of abo ut∼10−5at reduced luminosity or
+with high luminosity up to2 ×1032cm−1s−1with anenlarged momentum spread of ∼10−4.
+The¯PANDA detector is designed as a large acceptance multi-purp ose setup. The experiment
+will use internal targets. It is conceived to use either pell ets of frozen H 2or cluster jet targets for
+the ¯ppreactions, and wiretargets for the ¯ pAreactions.
+2Stronginteractionstudieswith ¯PANDA JohanMesschendorp
+Toaddress thedifferent physics topics, the detector needs tocope withavariety of ﬁnal states
+and a large range of particle momenta and emission angles. At present, the detector is being de-
+signedtohandlehighratesof107annihilations/s ,withgoodparticle identiﬁcation andmom entum
+resolution for γ,e,µ,π,K, andpwith the ability to measure D,K0
+S, andΛwhich decay at
+displaced vertices. Furthermore, the detector will have an almost 4πdetection coverage both for
+charged particles and photons. This is an essential require ment for an unambiguous partial wave
+analysis of resonance states. Various design and physics pe rformance studies [16] are ongoing,
+partly making use of adedicated computing framework for sim ulations and data analysis.
+3.¯PANDAphysicstopics
+Thelevelschemeoflower-lyingbound ¯ ccstates,charmonium,isverysimilartothatofpositro-
+nium. Thesecharmoniumstatescanbedescribedfairlywelli ntermsofheavy-quarkpotentialmod-
+els. Precision measurements of the mass and width of the char monium spectrum give, therefore,
+access to the conﬁnement potential in QCD.Extensive measur ements of the masses and widths of
+the 1−Ψstates have been performed at e+e−machines where they can be formed directly via a
+virtual-photon exchange. Otherstates,whichdonotcarryt hesamequantumnumberasthephoton,
+cannot be populated directly, but only via indirect product ion mechanisms. This is in contrast to
+the ¯ppreaction, which can form directly excited charmonium state s of all quantum numbers. Asa
+result, theresolution inthemassandwidthof charmonium st ates isdetermined bytheprecision of
+thephase-space cooled beam momentum distribution andnot b ythe(signiﬁcantly poorer) detector
+resolution. Theneed for such atool becomes evident by revie wing the many open questions inthe
+charmonium sector. For example, our understanding of the st ates above the D¯Dthreshold is very
+poor and needs to be explored in more detail. Recent experime ntal evidences (see review [5]) hint
+at awhole series of surprisingly narrow states with masses a nd properties which, so-far, cannot be
+interpreted consistently by theory. Besides the spectrosc opy of charmonium states, ¯PANDA will
+alsoprovidethecapabilitytoperformopen-charmspectros copy astheanalogofthehydrogenatom
+inQED(heavy-light system). Strikingdiscrepancies ofrec entlydiscovered DsJstatesbyBaBar[6]
+andCLEO[7]withmodel calculations havebeenobserved. Pre cisionmeasurements ofthemasses
+and widths of these states using antiprotons and by performi ng near-threshold scans are needed to
+shed light on these open problems.
+The self-coupling of gluons in strong QCD has an important co nsequence, namely that QCD
+predictshadronicsystemsconsistingofonlygluons,glueb alls,orboundsystemsofquark-antiquark
+pairs with a strong gluon component, hybrids. These systems cannot be categorized as "ordinary"
+hadrons containing valence q¯qorqqq. The additional degrees of freedom carried by gluons allow
+glueballs and hybrids to have spin-exotic quantum numbers, JPC, that are forbidden for normal
+mesons and other fermion-antifermion systems. States with exotic quantum numbers provide the
+best opportunity to distinguish between gluonic hadrons an dq¯qstates. Exotic states with con-
+ventional quantum numbers can be identiﬁed by measuring an o verpopulation of the meson spec-
+trum and by comparing properties, like masses, quantum numb ers, and decay channels, with - for
+instance - predictions from Lattice Quantum Chromodynamic s (LQCD) calculations. The most
+promising energy range to discover unambiguously hybrid st ates and glueballs is in the region of
+3-5 GeV/c2,inwhichnarrow states areexpected tobesuperimposed onas tructureless continuum.
+3Stronginteractionstudieswith ¯PANDA JohanMesschendorp
+In this region, LQCD predicts an exotic 1−+¯cc-hybrid state with a mass of 4.2-4.5 GeV/c2and
+a glueball state around 4.5 GeV/c2with an exotic quantum number of JPC=0+−[8, 9]. The ¯ pp
+production cross section of these exotic states are similar to conventional states and in the order
+of 100 pb. All other states with ordinary quantum numbers are expected to have cross sections of
+about 1µb.
+One of the challenges in nuclear physics is to study the prope rties of hadrons and the modi-
+ﬁcation of these properties when the hadron is embedded in a n uclear many-body system. Only
+recently it became experimentally evident that the propert ies of mesons, such as masses of π,K,
+andωmesons, change in adense environment [10, 11, 12, 13]. The ¯PANDAexperiment provides
+a unique possibility to extend these studies towards the hea vy-quark sector by exploiting the ¯ pA
+reaction. For instance, an in-medium modiﬁcation of the mas s of theDmeson would imply a
+modiﬁcation of the energy threshold for the production of Dmesons, compared to a free mass. In
+addition, a lowering of the D-meson mass could cause charmonium states which lie just bel ow the
+D¯Dthreshold for the ¯ ppchannel to reside above the threshold for the ¯ pAreaction. In such a case,
+the width of the charmonium state will drastically increase , which can experimentally be veriﬁed.
+Although this is intuitively a simple picture, in practice t he situation is more complicated since
+the mass of various charmonium states might also change insi de the nuclear medium. Besides the
+indirect in-medium studies as described above, ¯PANDA will be capable to directly measure the
+in-medium spectral shape of charmonium states. This can be a chieved by measuring the invariant
+mass of thedi-lepton decay products. For the Ψ(3770), for instance, models predict mass shifts of
+the order of –100 MeV[14],which are experimentally feasibl e to observe.
+So far, this paper has concentrated on only a few of the topics which will be addressed by the
+¯PANDA collaboration. There exists, however, a large variet y of other physics topics which can
+ideally be studied with the ¯PANDA setup at the antiproton facility at FAIR. For example, there is
+growinginterest withinthe ¯PANDAcollaboration tomakeuseofelectro-magnetic probes , photons
+and leptons, in antiproton-proton annihilation. These pro bes will be used to study the structure
+of the proton by measuring Generalized Parton Distribution s (GPDs), to determine quark distribu-
+tion functions via Drell-Yan processes, and to obtain time- like electro-magnetic form factors by
+exploiting the ¯ pp→e+e−reaction with an intermediate massive virtual photon. Furt hermore, the
+¯PANDAcollaboration hastheambitiontoperformhypernucle i experiments, whichenablesastudy
+of the hyperon-nucleon and hyperon-hyperon interactions. Finally, plans for symmetry violation
+experiments with ¯PANDAwillopenawindowontophysicsbeyondtheStandardMod elofparticle
+physics.
+4. Summary
+The¯PANDA experiment at FAIR will address a wide range of topics i n the ﬁeld of QCD, of
+whichonlyasmallpartcouldbepresentedinthispaper. Thep hysicsprogramwillbeconductedby
+using beams of antiprotons together with a multi-purpose de tection system, which enables experi-
+mentswithhighluminositiesandprecisionresolution. Thi scombinationprovidesuniquepossibili-
+tiestostudyhadronmatterviaprecisionspectroscopy ofth echarmonium systemandthediscovery
+of new hadronic matter, such as charmed hybrids or glueballs , as well as by measuring the prop-
+erties of hadronic particles in dense environments. New ins ights in the structure of the proton will
+4Stronginteractionstudieswith ¯PANDA JohanMesschendorp
+beobtained byexploiting electromagnetic probes. Further more, thenextgeneration ofhypernuclei
+spectroscopy will be conducted by the ¯PANDA collaboration and at the J-PARC facility in Japan.
+Tosummarize, ¯PANDAhastheambitiontoprovidevaluableandnewinsightsi ntheﬁeldofhadron
+physics which would bridge our present knowledge obtained i nthe ﬁeldof perturbative QCDwith
+that of non-perturbative QCDand nuclear structure.
+Acknowledgments
+Theauthor acknowledges the ﬁnancial support from the Unive rsity of Groningen and the GSI
+Helmholtzzentrum für Schwerionenforschung GmbH,Darmsta dt.
+References
+[1] PANDA Collaboration,TechnicalProgressReportfor ¯PANDA,FAIR-ESAC2005,
+http://www-panda.gsi.de
+[2] PANDA Collaboration,TechicalDesignReportforthePAN DA SolenoidandDipoleSpectrometer
+Magnets, arXiv:0907.0169 .
+[3] PANDA Collaboration,TechicalDesignReportforthePAN DA ElectromagneticCalorimeter(EMC),
+arXiv:0810.1216 .
+[4] http://www.gsi.de/fair/index.html
+[5] T.Barnes, hep-ph/0608103 .
+[6] B. Aubert et al.,Phys.Rev.Lett. 90,242001(2003).
+[7] D.Besson et al.,Phys.Rev. D68,032002(2003).
+[8] C. MorningstarandM.Peardon, Phys.Rev. D60,034509(1999).
+[9] G.S.Bali, Eur.Phys.J. A19,1(2004).
+[10] K.Suzuki et al.,Phys.Rev.Lett. 92,072302(2004).
+[11] R. Barth et al.,Phys.Rev.Lett. 78,4007(1997).
+[12] F. Laue etal.,Phys.Rev.Lett. 82,1640(1999).
+[13] D.Trnka etal.,Phys.Rev.Lett. 94,192303(2005).
+[14] S.H.Lee, nucl-th/0310080 .
+[15] TheHighEnergyStorageRing,http://www.fz-juelich. de/ikp/hesr/
+[16] PANDA Collaboration,PhysicsPerformanceReportforP ANDA,arXiv:0903.3905 .
+5

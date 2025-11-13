@@ -1,0 +1,166 @@
+arXiv:1001.0039v1  [astro-ph.IM]  30 Dec 2009Astronomical Data Analysis Software and Systems XIX P45
+ASP Conference Series, Vol. XXX, 2009
+Y. Mizumoto, K.-I. Morita, and M. Ohishi, eds.
+TGCat, The Chandra Transmission Grating Catalog and
+Archive: Systems, Design and Accessibility
+Arik W. Mitschang1, David P. Huenemoerder2, Joy S. Nichols1
+Abstract. The recently released Chandra Transmission Grating Catalog and
+Archive, TGCat, presents a fully dynamic on-line catalog allowing users to
+browse and categorize Chandra gratings observations quickly and easily, gen-
+erate custom plots of resulting response corrected spectra on- line without the
+need for special software and to download analysis ready product s from multi-
+ple observations in one convenient operation. TGCathas been registered as
+a VO resource with the NVO providing direct access to the catalogs in terface.
+The catalog is supported by a back-end designed to automatically fe tch newly
+public data, process , archive and catalog them, At the same time ut ilizing an
+advanced queue system integrated into the archive’s MySQL datab ase allowing
+large processing projects to take advantage of an unlimited numbe r of CPUs
+across a network for rapid completion. A unique feature of the cat alog is that
+all of the high level functions used to retrieve inputs from the Chan dra archive
+and to generate the ﬁnal data products are available to the user in an ISIS writ-
+ten library with detailed documentation. Here we present a structu ral overview
+of the Systems, Design, and Accessibility features of the catalog a nd archive.
+1. Introduction
+TGCataims to be the deﬁnitive end-user source for all Chandra HETG S and
+LETGS observations. In order to achieve this goal the catalo g must both have
+the absolute best processed and calibrated data, as well as h ave an interface
+which makes it easy for users to ﬁnd, review and download thei r observations
+of choice. The science requirements for accurately process ing gratings data are
+discussed elsewhere ( Huenemoerder et. al. 2010 ). This writ ing will focus on
+the automated system that collects and processes new public data, the interfaces
+used for administrative review, and the interfaces and syst ems provided for user
+access.
+2. Database, Archive, and Subsystems
+TheTGCatprocessing system is comprised of three major components:
+•MySQL database storing meta-data
+•File archive
+•Processing Software
+1Smithsonian Astrophysical Observatory, Cambridge, MA, US A
+2MIT Kavli Institute for Space Research, Cambridge, MA
+12 MITSCHANG, HUENEMOERDER, NICHOLS
+Figure 1. TGCatdata ﬂow
+These components are described in the context of TGCatprocessing in this
+section.
+Tables: Thetables relevant toprocessingincludetheextractions, source, spec-
+tral properties, ﬁles, and queue tables. The extractions ta ble has one entry per
+processed extraction, where extraction is taken to mean a si ngle source in a
+uniqueChandra observation ID (ObsID). Any one ObsIDcan have many sources
+and any one source can be in many ObsIDs, the extractions tabl e will store one
+entry for each combination thereof. In order to consolidate all extractions of a
+single source, there is a source table indexed on SIMBAD1identiﬁer, a TGCat
+identiﬁer, and coordinates, that associates entries in the extractions table. The
+ﬁles table tracks processing output products and summary im ages allowing the
+webpagestoeasily displayinformation onﬁlesavailable fo rdownload. Thespec-
+tral properties table stores and indexes spectral properti es in several diﬀerent
+wavebands, these data are also available in a ﬁts table for do wnload.
+Data Flow: The ﬂow of data through the system is rather simple, as illus-
+trated in Figure 1. A bash script run via cronat regular intervals downloads a
+list of gratings observations from the public chandra archi ve2and compares with
+the list of ObsIDs that have been submitted to TGCat. Any not in TGCat
+will be added to the queue table to be processed in line. Daemo n processes,
+written in python, run on any number of network connected hos ts continuously
+requesting entries from the queue in a FIFOmanner, the ﬁrst process to ask
+entries from the queue table will retrieve the ﬁrst entry ( by time of creation
+). They then parse the queue entry which can contain a number o f custom
+processing parameters, setup work spaces and logging, fork oﬀ the processing
+which is implemented in ISIS ( Houck & Denicola 2000 ) interac tive library
+functions, which are available for download3and custom use, and ﬁnally ingest
+1http://simbad.u-strasbg.fr/simbad
+2http://cda.harvard.edu/chaser/
+3http://space.mit.edu/cxc/analysis/tgcatTGCat 3
+data into the database and archive. During the ingest step, s everal checks are
+done to evaluate whether or not the resultant processed data are a complete
+set and worth being manually reviewed by TGCatscientists. If so, meta data
+are added to the database’s main extractions table which ret urns a unique iden-
+tiﬁer that is then used to tag the ﬁle based products. At this t ime linking is
+done between the source table and extractions table. If not, the queue entry is
+marked as an error and notiﬁcation sent. TGCatoperators have the choice to
+investigate the existing processing workspace or simply re -evaluate parameters
+and re-queue the extraction as new.
+Validation and Veriﬁcation: Each extraction available for browsing has
+been reviewed by a member of the TGCatscience team in order to conﬁrm
+zeroth order placement, proper masking, etc. This is done vi a an internal web-
+site nearly mimicking the public interface for reviewing ex tractions but with
+the addition of forms for queueing processing and for markin g the extraction as
+“good”, “bad”, or “warning” and optional comment ﬁelds whic h are available
+for review by the end user. “bad” extractions are never shown on the public
+site and administrators have the option of rejecting any oth er extraction for
+whatever reason. Because each extraction is tagged with the date of processing,
+the version of TGCatused for processing, and a so called group ID which is
+unique per group of extractions intended to be of the same obj ect for a single
+ObsID, keeping track of accepted sources and avoiding dupli cates is made easy.
+3. Access
+TGCathas several interfaces for data access. Currently three are operational
+includingthewebbrowserinterface, andtwoVirtualObserv atoryaccessprotocol
+interfaces. Each oftheseaccess interfaces areimplemente dasa“plug-in”written
+in php. Plug-in functions to create output are called by a cat alog independent
+generalized query library written in php under TGCatdevelopment dubbed
+“queryLib”. This modular approach makes it trivial to add ac cess interfaces to
+TGCat.
+queryLib: queryLib stores state and type information of an individual query
+in a database table. Each time a query is performed, ﬁelds in t his table such as
+awhereclause, sort ﬁelds, indexed IDs and columns are populated wi th infor-
+mation speciﬁc to that query. As a user interacts with the par ticular interface,
+information in this table entry are updated to reﬂect the new state of the query
+through object method calls. queryLib initialized a query b y creating a new en-
+try in the table with two unique IDs: one is the primary key ide ntiﬁer assigned
+at creation and can be used to reference the query, the other i s created on the ﬂy
+using a combination of the primary key and a random hash strin g that is very
+unlikely to be guessed. This is done so that a malicious user c annot change the
+state of anyone’s query by simply guessing an ID. The queryLi b speeds up the
+process of redrawing a table of results by storing the indexe d primary keys of
+all entries selected rather than having to rerun a potential ly complicated where
+clause.4 MITSCHANG, HUENEMOERDER, NICHOLS
+Web Catalog Interface: The web interface4toTGCatallows users browse
+extraction and object entries in a way that is most suitable t o the catalog data
+structure. Each extraction has an associated preview page w here a set of stan-
+dard plots produced at the time of processing is available fo r viewing. A table
+of spectral properties providing quick general categoriza tion, and a table of each
+individual ﬁle available for the extraction along with a lin k to download that ﬁle
+are provided. Perhaps one of the most important features of t he web interface
+is the interactive plotting of individual or combined spect ra directly on the site.
+This is implemented server side by taking the POST request fo r plotting param-
+eters along with a unique ﬁle name, creating a small script of the commands for
+loading data and plotting, and piping this script into an ISI S process. Malicious
+useisprevented by checking all parameter inputsfor approp riatevalues, running
+the ISIS process as an unprivileged user, and checking the te mp ﬁle name for
+validity before piping. Since the ﬁle name is known at the tim e of the request,
+the page simply needs to reload to show the new plot. The comma nds, any error
+output, and an ASCII dump of the plot data are available for do wnload as well.
+Virtual Observatory: TGCatis a registered VO service providing both
+the Simple Cone Search5and Simple Image Access6Protocols. These are both
+implemented as an XML output plug-ins taking input from a php script that
+provides appropriate GET parameters, then creates a query o bject after parsing
+the input data, ﬁnally running the query in exactly the same w ay as for the web
+and ASCII interfaces. Error handling is done by the calling s cript and meta
+data is provided by running a query with parameters known to h ave no catalog
+entries ( indexed ID=0 ). VO queries, and any other type, can b e tracked in
+the query table using the type column. In this way we can track statistics on
+requests coming from services such as datascope7.
+Data Package Downloads: Generally, users will want to download more
+than one ﬁle at a time for analysis, such as such as spectra and responses or
+productsfrom multiple extractions of the same target. To th is endTGCatruns
+apackager processthatparsesaqueuetablemuchlikethepro cessingqueuetable
+described above. Requested packages are added to the packag e queue table,
+validated and read by the packager which then fetches data to a temp space
+placing them in a directory hierarchy tagged with ObsID and TGCatID. The
+entire hierarchy is then tarred, compressed and provided to the user along with
+ﬁle checksums via HTTP.
+Acknowledgements. We would like to thank Dan Dewey for extensive input
+on data organization and interface layout, and Mike Nowak fo r ISIS plotting
+routines and advice on the interactive plotting interface. This work is supported
+4http://tgcat.mit.edu
+5http://tgcat.mit.edu/tgCli.php?OUTPUT=V
+6http://tgcat.mit.edu/tgSia.php
+7http://heasarc.gsfc.nasa.gov/cgi-bin/vo/datascope/i nit.plTGCat 5
+by the Chandra X-ray Center (CXC) NASA contract NAS8-03060. DPH was
+supportedby NASA through the Smithsonian Astrophysical Ob servatory (SAO)
+contract SV3-73016 for the Chandra X-Ray Center and Science Instruments.
+References
+Huenemoerder, et. al. 2010, ( in preparation )
+Houck, J. C., Denicola, L. A. 2000, in ASP Conf. Ser. 216, ADASS IX, ed. N. Manset,
+C. Veillet, & D. Crabtree (San Francisco: ASP), 591
+Williams, Roy, Hanisch, Robert, Szalay, Alex, Plante, Ray 2009, Simple Cone Search
+Version1.03,http://www.ivoa.net/Documents/REC/DAL/ConeSea rch-20080222.html
+Tody, Doug & Plante, Ray 2009, Simple Image Access Speciﬁcation Ve rsion 1.0,
+http://www.ivoa.net/Documents/SIA/20091008/PR-SIA-1.0-20 091008.html

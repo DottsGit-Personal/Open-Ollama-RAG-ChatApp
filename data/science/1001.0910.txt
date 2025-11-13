@@ -1,0 +1,432 @@
+arXiv:1001.0910v2  [math.AP]  6 Jun 2011Partial Diﬀerential Equations
+Barenblatt proﬁles for a nonlocal porous medium equation
+Piotr Bilera, Cyril Imbertb, Grzegorz Karcha
+aInstytut Matematyczny, Uniwersytet Wroc/suppress lawski, pl. Grun waldzki 2/4, 50–384 Wroc/suppress law, Poland
+bUniversit´ e Paris-Dauphine, CEREMADE (UMR CNRS 7534), Pla ce de Lattre de Tassigny, 75775 Paris Cedex 16, France
+Received ... ; accepted after revision ... .
+Presented by ...
+Abstract
+We study a generalization of the porous medium equation invo lving nonlocal terms. More precisely, explicit self-
+similar solutions with compact support generalizing the Ba renblatt solutions are constructed. We also present a
+formal argument to get the Lpdecay of weak solutions of the corresponding Cauchy problem .
+R´ esum´ e
+Solutions auto-similaires pour une ´ equation des milieux p oreux non locale
+Cettenoteestconsacr´ ee` al’´ etuded’uneg´ en´ eralisati on nonlocale del’´ equationdesmilieuxporeux.Pluspr´ eci s´ ement,
+on obtient des formules explicites de solutions auto-simil aires ` a support compact qui ressemblent fortement aux solu -
+tions de type Barenblatt. On donne aussi un argument formel q ui permet d’obtenir des estimations Lpdes solutions
+faibles du probl` eme de Cauchy.
+Version fran¸ caise abr´ eg´ ee
+Nous consid´ erons le probl` eme de Cauchy pour l’´ equation non loc ale suivante
+∂tu−∇·/parenleftbig
+u∇α−1/parenleftbig
+|u|m−1/parenrightbig/parenrightbig
+= 0, (1)
+avecm >1,x∈Rd,α∈(0,2),t >0, ` a laquelle on ajoute une condition initiale u(0,x) =u0(x). Ici∇βest
+un op´ erateur int´ egral singulier g´ en´ eralisant le gradient usuel (β= 1) et li´ e au laplacien fractionnaire.
+Le r´ esultatprincipal de cette note sont des formules explicites de solutions auto-similairesqui se propagent
+` a une vitesse ﬁnie.
+Th´ eor` eme 1 (Solutions auto-similaires)
+La fonction
+u(t,x) =Ct−d
+d(m−1)+α/parenleftbigg/parenleftBig
+R2−|x|2t−2
+d(m−1)+α/parenrightBigα
+2
++/parenrightbigg1
+m−1
+(ainsi que ses translations en x) est une solution auto-similaire de l’´ equation (1) pour R >0quelconque et
+une constante C >0convenable.
+Email addresses: biler@math.uni.wroc.pl (Piotr Biler), imbert@ceremade.dauphine.fr (Cyril Imbert),
+karch@math.uni.wroc.pl (Grzegorz Karch).
+Preprint submitted to the Acad´ emie des sciences 26 octobre 2018Ensuite, nous pr´ esentons un calcul formel qui permet d’obtenir des estimations en norme Lp(Rd) des
+solutions faibles du probl` eme de Cauchy, en particulier celles const ruites par Caﬀarelli et V´ azquez [3] dans
+le casm= 2 et telle que |u0(x)| ≤Ce−c|x|pour deux constantes Cetc.
+Calcul formel 1 (Asymptotique du probl` eme de Cauchy)
+´Etant donn´ ee une fonction 0≤u0∈L1(Rd)∩L∞(Rd), les normes Lp(Rd),1≤p <∞, des solutions faibles
+utendent vers 0quandt→ ∞avec le taux alg´ ebrique suivant
+/ba∇dblu(t)/ba∇dblp≤C(d,α,m,p )/ba∇dblu0/ba∇dblα+d(m−1)/p
+α+d(m−1)
+1 t−d
+d(m−1)+α(1−1/p)for allt >0.
+1. Introduction
+We study a nonlocal generalization of the porous medium equation
+∂tu−∇·/parenleftbig
+u∇α−1/parenleftbig
+|u|m−1/parenrightbig/parenrightbig
+= 0, (1)
+wherem >1,α∈(0,2),x∈Rd,t >0, supplemented with an initial condition
+u(0,x) =u0(x). (2)
+The pseudodiﬀerential (vector-valued) operator ∇βin (1) is deﬁned via the Fourier transform as ∇βu=
+F−1(iξ|ξ|β−1Fu). This deﬁnition is consistent with the usual gradient: ∇1=∇; the components of ∇0
+are the Riesz transforms; moreover we have ∇ · ∇α−1=∇α
+2· ∇α
+2=−(−∆)α
+2, where ( −∆)α
+2denotes the
+fractional Laplace operator: ( −∆)α
+2u=F−1(|ξ|αFu). It can also be deﬁned by real analysis tools as follows
+∇α−1u=∇I2−αu, whereIβforβ∈(0,d) is an integral smoothing operator, called the Riesz potential (see
+[12, Ch. V])
+Iβ(u)(x) =−Cβ/integraldisplayu(x+z)
+|z|d−βdz
+with some Cβ>0. Note that then ∇α−1u(x) =∇I2−α(u)(x) = (d+α−2)C2−α/integraltext
+(u(x+z)−u(x))z
+|z|d+αdz,
+α∈(0,2).
+Eq. (1) can be interpreted as a transport equation of the type ∂tu=∇·(uv) for some velocity vectorﬁeld
+vwhich is a potential; more precisely, v=∇pwherep=I2−α(|u|m−1). It can be interpreted as a nonlocal
+pressure in the case of nonnegative initial data. Then, of course ( −∆)2−α
+2p=|u|m−1, see [3], [4] for that
+notation.
+Notice that for α= 2 and nonnegative initial data we recover the Boussinesq equation (m= 2), and the
+usual porous media equation ( m >1):∂tu=∇·/parenleftbig
+u∇/parenleftbig
+um−1/parenrightbig/parenrightbig
+,t >0,x∈Rd.
+Recently, L. Caﬀarelli and J. L. V´ azquez ([3], [4]) studied equation ( 1) in the case m= 2. They proved
+the existence of weak solutions for nonnegative bounded integrab le initial data with exponential decay at
+inﬁnity. They also treat the case of bounded and compactly suppor ted initial data, which propagate with
+ﬁnite speed. It is shown in [3] that self-similar solutions can be constr ucted by considering an obstacle
+problem for the fractional Laplace operator. In this note, we con tribute to those results constructing explicit
+compactly supported self-similar solutions . Moreover, we show a kind of hypercontractivity estimates, i.e.
+the optimal decay in Lpof general solutions with u0∈L1(Rd).
+Results on equation (1) in this note are multidimensional generalizatio ns of those obtained in [1] for
+a model of the dynamics of dislocations in crystals (for the integral ofuwhend= 1 and m= 2). The
+structure of (1) suggests that it should enjoy the conservation of mass and some comparison properties as
+was shown in [1]. For an analysis of a related nonlocal equation, see [7].
+Complete proofs of all results announced in this note will be published in [2].
+2. Self-similar solutions
+The equation (1) has the following scaling property:
+2ifu(t,x) is a solution ,so isℓdλu(ℓt,ℓλx)
+for each ℓ >0 andλ=1
+d(m−1)+α. We look for nonnegative solutions that are invariant under that sc aling,
+i.e.of the following form
+u(t,x) =1
+tdλΦα,m/parenleftBigx
+tλ/parenrightBig
+,whereλ=1
+d(m−1)+α, (3)
+for a function Φ α,m:Rd→R+satisfying the following nonlinear and nonlocal equation in Rd
+−λ∇·(yΦα,m) =∇·/parenleftbig
+Φα,m∇α−1Φm−1
+α,m/parenrightbig
+. (4)
+Before stating our main result, we recall the deﬁnition of weak solut ions for (1) introduced in [3] in the case
+m= 2.
+Deﬁnition 2.1 (Weak solutions) A function u: (0,T)×Rd→Ris aweak solution of (1) in QT=
+(0,T)×Rdsubmittedto the initial condition u(0,x) =u0(x)ifu∈L1(QT),I2−α(|u|m−1)∈L1(0,T;W1,1
+loc(Rd)),
+u∇I2−α(|u|m−1)∈L1(QT)and
+/integraldisplay /integraldisplay
+u(ϕt−∇I2−α(|u|m−1)·∇ϕ)dxdt+/integraldisplay
+u0(x)ϕ(0,x)dx= 0 (5)
+for each test function ϕ∈C1(QT)such that ϕhas compact support in the space variable x, and vanishes
+neart=T.
+Theorem 2.2 (Self-similar solutions) For each α∈(0,2],m >1andR >0, the function
+Φα,m(y) =/parenleftBig
+k(R2−|y|2)α
+2
++/parenrightBig1
+m−1withk=/parenleftbiggd
+d(m−1)+α/parenrightbigg/parenleftBigg
+Γ/parenleftbigd
+2/parenrightbig
+2αΓ/parenleftbig
+1+α
+2/parenrightbig
+Γ/parenleftbigd+α
+2/parenrightbig/parenrightBigg
+(6)
+is a solution of (4). Consequently, the function
+u(t,x) =t−d
+d(m−1)+α/parenleftbigg
+k/parenleftBig
+R2−|x|2t−2
+d(m−1)+α/parenrightBigα
+2
++/parenrightbigg1
+m−1
+(7)
+is a weak solution of (1), satisﬁes the equation in the pointw ise sense for |x| /negationslash=Rt1
+d(m−1)+α, and is
+min/braceleftBig
+α
+2(m−1),1/bracerightBig
+-H¨ older continuous at the interface |x|=Rt1
+d(m−1)+α.
+Whenα= 2, we recover the classical Kompaneets–Zel’dovich– Barenblatt –Pattleformulas, see, e.g., [13].
+Note also that given M >0 there exists a unique R >0 such that/integraltext
+Φα,m(y)dy=M.
+Remark 2.3 As mentioned above, self-similar solutions of (1 ) have been proved to exist in [3] by studying
+the following obstacle problem for the fractional Laplacia n
+P≥Φ, V= (−∆)α
+2P≥0,eitherP= Φ or V= 0,
+withα∈(0,2)andΦ(y) =C−a|y|2. The novelty of our approach is that we exhibit the explicit s olution of
+this obstacle problem: P(y) =Iα(Φα,2)(y), whereIαis the Riesz potential, and Φα,2is deﬁned in (6) with
+m= 2and a suitable R >0.
+Those explicit self-similar solutions express one of the most importan t features of the porous medium
+equation: the property of ﬁnite propagation speed. In the case o f the classical porous medium equation
+(α= 2), this property is established using comparison with suitably large self-similar solutions, cf.[13].
+For the generalized porous medium equation (1) with m= 2, special supersolutions have been used for
+comparison, cf.[4].
+The proof of Theorem 2.2 is based on an application of the following fun damental technical fact.
+3Lemma 2.4 For allβ∈(0,2)andγ >0, we have
+Iβ/parenleftBig
+(1−|y|2)γ
+2
++/parenrightBig
+=
+
+Cγ,β,d×2F1/parenleftbiggd−β
+2,−γ+β
+2;d
+2;|y|2/parenrightbigg
+for|y| ≤1,
+˜Cγ,β,d|y|β−d×2F1/parenleftbiggd−β
+2,2−β
+2;d+γ
+2;1
+|y|2/parenrightbigg
+for|y| ≥1,(8)
+withCγ,β,d= 2−βΓ(γ
+2+1)Γ(d−β
+2)
+Γ(d
+2)Γ(β+γ
+2+1)and˜Cγ,β,d= 2−βΓ(γ
+2+1)Γ(d−β
+2)
+Γ(d
+4)Γ(d+γ
+2+1), where 2F1is the hypergeometric function.
+The veriﬁcation of (8) consists in passing to Fourier transforms an d calculating certain integrals (the so
+called (Sonine–)Weber–Schafheitlin integrals) involving Bessel and h ypergeometric functions 2F1,cf.[11].
+Proof of Theorem 2.2. Letφα(y) =/parenleftbig
+1−|y|2/parenrightbigα
+2
++. Observethat φα∈L1(Rd). We next show that I2−α(φα)∈
+W1,1
+loc(Rd). By Lemma 2.4 with γ=α∈(0,2),β= 2−α, and2F1(a,−1;c;z) = 1−a
+cz, we get
+I2−α(φα)(y) =
+
+Cα,2−α,d/parenleftbigg
+1−d+α−2
+d|y|2/parenrightbigg
+if|y| ≤1,
+˜Cα,2−α,d|y|2−(d+α)2F1/parenleftbiggd+α
+2−1,α
+2;d+α
+2;1
+|y|2/parenrightbigg
+if|y| ≥1,
+which is a locally integrable function. Recalling that ∇α−1=∇I2−α, we then deduce by the chain rule that
+fory∈B1,∇α−1(φα)(y) =−(dKα,d)−1ywhereKα,dis deﬁned in Corollary 2.5 below. For |y| ≥1, one
+uses∂
+∂z2F1(a,b;c;z) =ab
+c2F1(a+1,b+1;c+1;z), hence ∇α−1(φα) is locally integrable. To conclude, we
+remark that
+φ1
+m−1α(y)∇α−1φα(y) =−φ1
+m−1α(y)(Kα,dd)−1y,for ally∈Rd,
+becauseφα(y) = 0 for |y| ≥1.
+Hence, scaling the variables, we immediately obtain that the function Φα,mdeﬁned in (6) satisﬁes
+∇α−1(Φm−1
+α,m) =−λyfor|y|< R. Now, for all y∈Rdthe identity
+−λyΦα,m= Φα,m∇α−1Φm−1
+α,m
+follows because Φ α,m(y) = 0 for all |y| ≥R, so (4) holds with λ=1
+d(m−1)+αandk=dλKα,ddeﬁned in (6).
+It is straightforward to verify using (4) that ugiven by formula (7) is a weak solution of (1) in each strip
+(t0,T)×Rd, 0< t0< T <∞. Moreover, the H¨ older continuity is easy to check. /square
+The following known result (with an important probabilistic interpreta tion) proved by Getoor [6, Th.
+5.2], see also [9, App.] for a related calculation, is an immediate consequ ence of Lemma 2.4. For its proof, it
+suﬃces to use the relation ( −∆)α
+2= ∆I2−α.
+Corollary 2.5 For each α∈(0,2], the identity Kα,d(−∆)α
+2/parenleftBig/parenleftbig
+1−|y|2/parenrightbigα
+2
++/parenrightBig
+=−1 inB1holds with the
+explicit constant Kα,d=Γ(d
+2)
+2αΓ(1+α
+2)Γ(d+α
+2).
+3. The Cauchy problem and asymptotics
+We now brieﬂy discuss the questions of the existence of weak solutio ns and their uniqueness in the case
+m= 2. In [1], viscosity solutions have been considered which permitted t he authors to prove regularity and
+uniqueness of solutions to (1) in one space dimension. In higher dimen sions, a construction of mild solutions
+is achieved in [3] through a parabolic regularization of (1) with a suitab le cutoﬀ of the singular kernel of
+I2−α, and then a passage to the limit. The uniqueness of weak solutions an d,a fortiori , the validity of
+the full comparison principle seem to be diﬃcult questions, cf.a discussion in [3]. Another construction of
+weak solutions to (1) with m >1 as limits of mild solutions of parabolically perturbed equation (1) will be
+published in [2].
+4Formal computation 3.1 (Decay of solutions for the Cauchy pr oblem) Suppose that for 0≤u0∈
+L1(Rd)∩L∞(Rd). ThenLp(Rd)norms (1≤p <∞) of any suﬃciently regular and global in time nonnegative
+weak solution uof (1)–(2) such that/integraltext
+u(t,x)dx=/integraltext
+u0(x)dxdecay algebraically
+/ba∇dblu(t)/ba∇dblp≤C(d,α,m,p )/ba∇dblu0/ba∇dblα+d(m−1)/p
+α+d(m−1)
+1 t−d
+d(m−1)+α(1−1/p)for allt >0. (9)
+Our computation below can be applied, for example, to weak solutions constructed by Caﬀarelli and
+V´ azquez [3], who studied problem (1)–(2) with m= 2 and with initial conditions satisfying 0 ≤u0(x)≤
+Ce−c|x|for some constants c,Cand allx∈Rd.
+Formal proof of (9). In order to prove the announced Lpestimates of solutions (similar to those for degen-
+erated partial diﬀerential equations like the porous medium equatio n ine.g.[14], [5, Ch. 2]), we recall the
+Stroock–Varopoulos inequality for q≥1
+/integraldisplay
+|w|q−2w(−∆)α
+2wdx≥4(q−1)
+q2/integraldisplay/vextendsingle/vextendsingle/vextendsingle∇α
+2|w|q
+2/vextendsingle/vextendsingle/vextendsingle2
+dx (10)
+valid for each w∈Lq(Rd) such that ( −∆)α
+2w∈Lq(Rd). Note that the constant in (10) is the same as for
+the usual Laplacian operator −∆ (i.e.α= 2). The proof is given, e.g., in [10, Prop. 1.6] and [10, Th. 2.1
+combined with (1.7)].
+We will also need the following Nash inequality
+/ba∇dblv/ba∇dbl2(1+α
+d)
+2≤CN/ba∇dbl∇α
+2v/ba∇dbl2
+2/ba∇dblv/ba∇dbl2α
+d
+1 (11)
+valid for all functions vwithv∈L1(Rd),∇α
+2v∈L2(Rd) with a constant CN=C(d,α). The proof of (11)
+ford= 1 can be found in, e.g., [8, Lemma 2.2], and this extends easily to the general case d≥1.
+Moreover, we will need the Gagliardo–Nirenberg type inequality: for p >1 andp≥m−1,
+/ba∇dblu/ba∇dbla
+p≤CN/vextenddouble/vextenddouble∇α
+2|u|r
+2/vextenddouble/vextenddouble2
+2/ba∇dblu/ba∇dblb
+1 (12)
+witha=p
+p−1d(r−1)+α
+dandb=pα+d(m−1)
+d(p−1)andr=p+m−1. This inequality is a consequence of the Nash
+inequality (11) written for v=|u|r
+2,i.e./ba∇dblu/ba∇dblr(1+α
+d)
+r≤CN/vextenddouble/vextenddouble∇α
+2|u|r
+2/vextenddouble/vextenddouble2
+2/ba∇dblu/ba∇dblrα
+dr
+2, and two H¨ older inequalities for
+theLqnorms:/ba∇dblu/ba∇dblp≤ /ba∇dblu/ba∇dblγ
+r/ba∇dblu/ba∇dbl1−γ
+1and/ba∇dblu/ba∇dblr
+2≤ /ba∇dblu/ba∇dblδ
+p/ba∇dblu/ba∇dbl1−δ
+1,which hold with γ=p−1
+r−1r
+pandδ=r−2
+p−1p
+r.
+Combining the above three inequalities, we get (12).
+The computation, which lead to (9), consists in getting a diﬀerential inequality of the formd
+dt/integraltext
+|u|pdx≤
+−K/ba∇dblu/ba∇dbla
+p/ba∇dblu/ba∇dbl−b
+1for some positive constant Kand where aandbappear in (12).
+Multiply (1) by up−1withp >1, integrate by parts, and use the relation ∇·∇α−1=−(−∆)α
+2to get
+1
+pd
+dt/integraldisplay
+updx=−(p−1)/integraldisplay
+up−1∇u·∇α−1(um−1)dx
+=−p−1
+p/integraldisplay
+up(−∆)α
+2um−1dx
+≤−4(p−1)(m−1)
+(p+m−1)2/vextenddouble/vextenddouble/vextenddouble∇α
+2/parenleftBig
+up+m−1
+2/parenrightBig/vextenddouble/vextenddouble/vextenddouble2
+2
+after applying the Stroock–Varopoulos inequality (10) with w=um−1andq=p
+m−1+1. To estimate the
+right hand side of the above inequality, we use (12). We ﬁnally have:
+d
+dt/integraldisplay
+|u|pdx≤ −K/ba∇dblu/ba∇dbla
+p/ba∇dblu/ba∇dbl−b
+1
+5withK=1
+CN4p(p−1)(m−1)
+(p+m−1)2. The above inequality leads to the diﬀerential inequalityd
+dtf(t)≤ −KM−bf(t)a
+p
+for the function f(t) =/ba∇dblu(t)/ba∇dblp
+p,M=/ba∇dblu0/ba∇dbl1, anda/p >1, which immediately gives the algebraic decay of
+theLpnorms for p≥m−1:f(t)≤/parenleftBig
+K/parenleftBig
+a
+p−1/parenrightBig
+M−bt/parenrightBig−1a
+p−1. Finally, we obtain the desired estimate with
+C(d,α,m,p ) =/parenleftbigg
+K/parenleftbigga
+p−1/parenrightbigg/parenrightbigg−1
+a−p
+=/bracketleftbigg4(m−1)(d(m−1)+α)
+CNd×p
+(p+m−1)2/bracketrightbigg−d
+d(m−1)+α(1−1
+p)
+.
+Ofcourse,this issuﬃcienttogetthe conclusionofTheorem3.1fore ach1≤p <∞since1
+a
+p−1=d(p−1)
+d(m−1)+α,
+and interpolating between L1(Rd) andLp(Rd) withpsuﬃciently large. /square
+Remark 3.2 In our recent work [2], we present a more subtle ite rative argument, which allows us to show
+that also
+/ba∇dblu(t)/ba∇dbl∞≤C/ba∇dblu0/ba∇dblα
+d(m−1)+α
+1t−d
+d(m−1)+αfor allt >0.
+Acknowledgments. The preparation of this paper was supported by the Polish Ministry o f Science
+(MNSzW) grant N201 418839, and a PHC POLONIUM project 0185, 2 009–2010, and the Foundation
+for Polish Science operated within the Innovative Economy Operatio nal Programme 2007–2013 funded by
+European Regional Development Fund (Ph.D. Programme: Mathema tical Methods in Natural Sciences).
+The authors wish to thank Juan Luis V´ azquez, R´ egis Monneau and Jean Dolbeault for fruitful discussions
+they had together.
+References
+[1] P. Biler, G. Karch and R. Monneau, A nonlinear diﬀusion of dislocation density and self-similar solutions, Commun. M ath.
+Physics 294 (2010), 145–168.
+[2] P. Biler, C. Imbert, G. Karch, Nonlocal porous medium equ ation: Barenblatt proﬁles and other weak solutions, in
+preparation, 2011.
+[3] L. Caﬀarelli and J. L. V´ azquez, Nonlinear porous medium ﬂow with fractional potential pressure, preprint
+arXiv.1001.0410.v2, to appear in Arch. Rational Mech. Anal . DOI: 10.1007/s00205-011-0420-4.
+[4] L. Caﬀarelli and J. L. V´ azquez, Asymptotic behaviour of a porous medium equation with fractional diﬀusion, Discret e
+Cont. Dynam. Systems 29 (2011), 1393–1404.
+[5] J. A. Carrillo, A. J¨ ungel, P. A. Markowich, G. Toscani an d A. Unterreiter, Entropy dissipation methods for degenera te
+parabolic problems and generalized Sobolev inequalities, Monatsh. Math. 133, (2001), 1–82.
+[6] R. K. Getoor, First passage times for symmetric stable pr ocesses in space, Trans. Amer. Math. Soc. 101 (1961), 75–90.
+[7] C. Imbert and A. Mellet, A higher order non-local equatio n appearing in crack dynamics, preprint arXiv:1001.5105, 2 010.
+[8] G. Karch, C. Miao and X. Xu, On the convergence of solution s of fractal Burgers equation toward rarefaction waves, SIA M
+J. Math. Anal. 39 (2008), 1536–1549.
+[9] N. S. Landkof, Foundations of Modern Potential Theory, D ie Grundlehren der mathematischen Wissenschaften. Band 18 0.
+Berlin-Heidelberg-New York, Springer-Verlag, (1972).
+[10] V. A. Liskevich and Yu. A. Semenov, Some problems on Mark ov semigroups, Schr¨ odinger operators, Markov semigroups ,
+wavelet analysis, operator algebras, 163–217, Math. Top. 1 1, Akademie Verlag, Berlin, (1996).
+[11] W. Magnus, F. Oberhettinger, and R. P. Soni, Formulas an d theorems for the special functions of mathematical physic s,
+Third enlarged edition. Die Grundlehren der mathematische n Wissenschaften, Band 52, Springer-Verlag New York, Inc.,
+New York, (1966).
+[12] E. M. Stein, Singular Integrals and Diﬀerentiability P roperties of Functions, Princeton University Press, Princ eton, (1970).
+[13] J. L. V´ azquez, The Porous Medium Equation. Mathematic al Theory, Oxford Mathematical Monographs; Oxford Science
+Publications. Oxford, Oxford University Press, (2007).
+[14] J. L. V´ azquez, Smoothing and Decay Estimates for Nonli near Diﬀusion Equations. Equations of Porous Medium Type,
+Oxford Lecture Series in Mathematics and its Applications 3 3, Oxford University Press, Oxford, (2006).
+6

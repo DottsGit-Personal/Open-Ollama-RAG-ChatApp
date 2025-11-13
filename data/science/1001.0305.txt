@@ -1,0 +1,268 @@
+arXiv:1001.0305v1  [astro-ph.IM]  2 Jan 2010Preliminary Astrometric Results from Kepler
+David G. Monet
+U. S. Naval Observatory, Flagstaﬀ, AZ 86001
+Jon M. Jenkins
+SETI Institute, Mountain View, CA 94043
+Edward Dunham
+Lowell Observatory, Flagstaﬀ, AZ 86001
+Stephen T. Bryson
+NASA/Ames Research Center, Moﬀett Field, CA 94035
+Ronald L. Gilliland
+Space Telescope Science Institute, Baltimore, MD 21218
+David W. Latham
+Harvard-Smithsonian Center for Astrophysics, Cambridge MA 021 38
+William J. Borucki
+NASA/Ames Research Center, Moﬀett Field, CA 94035
+and
+David G. Koch
+NASA/Ames Research Center, Moﬀett Field, CA 94035
+Received ; accepted– 2 –
+ABSTRACT
+Although not designed as an astrometric instrument, Kepleris expected to
+produce astrometric results of a quality appropriate to support m any of the
+astrophysical investigations enabled by its photometric results. O n the basis of
+data collected during the ﬁrst few months of operation, the astro metric precision
+for a single 30 minute measure appears to be better than 4 milliarcsec onds (0.001
+pixel). Solutions for stellar parallax andproper motions await more ob servations,
+but the analysis of the astrometric residuals from a local solution in t he vicinity
+of a star have already proved to be an important tool in the proces s of conﬁrming
+the hypothesis of a planetary transit.
+Subject headings: astrometry — stars: fundamental parameters– 3 –
+1. Introduction
+The measurement of astrometric parameters, particularly the pa rallax, for Keplerstars
+is a critical component of computing the physical values for various stellar parameters
+using the relative values that are computed from the photometric a nalysis. If the Kepler
+data can be shown to have the necessary astrometric accuracy, then such a conversion can
+be included in the processing for most if not all Keplerstars. Although the discussion of
+Keplerastrometric accuracy must await more data and modeling, the very high precision
+ofKeplerpositions is already a powerful tool for understanding the photom etric variations
+of stars and the possible presence of planetary companions. Deta iled discussions of the
+Keplerspacecraft and mission are presented by Borucki et al. (2010) an d Koch et al.
+(2010). A short overview for the astrometric discussion is the follo wing. The Schmidt
+telescope has a 1.4-m primary and a 0.95-m corrector, and the phot ometer is a mosaic of
+42 charge coupled devices (CCDs). The boresight of the telescope remains constant for
+the mission, but the spacecraft rolls 90 degrees every three mont hs. Due to restrictions in
+memory and bandwidth, only the pixels associated with the target st ars are sent to the
+ground for processing. Target stars are deﬁned by software, a nd pixels not associated with
+targets are saved only infrequently. The basic integration time is 6.0 2 seconds, and the long
+cadence (LC) sequence (Jenkins et al. 2010) co-adds the target pixels for 29.4 minutes. The
+co-added pixel data are sent to the ground every month for proc essing and analysis. This
+strategy enables the extremely high signal-to-noise (SNR) observ ations needed to achieve
+the planetary detection mission.
+To obtain the large ﬁeld of view, the image sampling is very coarse comp ared to
+other astrometric assets. The Pixel Response Function (PRF) is d escribed in great detail
+by Bryson et al. (2010), but a quick summary is as follows. The images contain three
+components, a sharp spike in the middle that comes from optical diﬀr action (about 0.1– 4 –
+arcsecond), a wider component with a characteristic size of 5 or 6 a rcseconds set primarily
+by mechanical alignment tolerances of the CCD mosaic, and a much br oader scattering
+proﬁle. The intermediate component of the image proﬁle produces t he majority of the
+astrometric signal, and it contains about 70% of the light. The 43 day s of data available so
+far1have shown a remarkable astrometric precision, but the demonstr ation of astrometric
+accuracy is still a work in progress. Even if the centroiding process was fully understood,
+the short interval of available data precludes the lifting of the dege neracies between eﬀects
+of proper motion, parallax, and velocity aberration. No measured a strometric parameters
+are given here. Indeed, the entire range of observed image motion is about 0.2 pixels, and
+this is dominated by the spacecraft guiding precision.
+Various authors, including King (1983) and Kaiser et al. (2000), hav e developed
+theoretical expectations for the astrometric precision of an imag e. A simple approximation
+is
+precision =FWHM/ (2∗SNR) (1)
+where FWHM is the image full width at half maximum, and SNR is the photo metric
+signal-to-noise ratio of that star image. The diﬀerences in the theo retical derivations concern
+the exact value for which the approximate value of 2 is used above. T he observational
+conﬁrmation of this relationship has yet to be done, but essentially a ll ground- and
+space-based astrometric studies have demonstrated the validity of the scaling of this
+relationship. Improved astrometric precision is obtained for smaller image FWHM, higher
+SNR, or both assuming that adequate image sampling is available.
+Kepleroperates in a heretofore unstudied astrometric domain. The pixels are very
+1As described more fully by Caldwell at al. (2010), the spacecraft da ta are grouped by
+observing quarters as deﬁned by the mandatory rolls of the space craft itself. So far, data
+from Quarters 0 and 1 are available on the ground.– 5 –
+large, 3.98 arcseconds, as compared to other ground- and space -based astrometric assets,
+and the observed FWHM is approximately 5 to 6 arcseconds and depe nds on the location
+in the ﬁeld of view. (See Bryson et al. (2010) for further discussion and examples.) The
+eﬀects of undersampled image components are not captured by Eq . 1. However, Kepler
+was designed for extremely high SNR observations. The well capacit y of the 27-micron
+CCD pixels is more than a million electrons, and most of the stars are br ight. As more
+fully discussed by Caldwell at al. (2010), the onset of saturation in t he basic 6.02 second
+integration cycle is near the magnitude Kp= 11.3.2A single LC co-addition produces a
+SNR of about 10,000 for an bright, unsaturated, uncrowded star . There is no atmosphere to
+degrade the image quality, and the ﬂux is so large that eﬀects such a s sensor readout noise
+and dark current are unimportant for the brightest 2-3 magnitud es of unsaturated stars.
+2. Preliminary Astrometric Investigations
+The astrometric processing of Keplerdata is conceptually no diﬀerent than the
+traditional diﬀerential astrometric process of data from other g round- and space-based
+assets. There is no need to worry about the actual coordinates ( i.e., J2000 RA and Dec)
+of the stars. Essentially all Keplerstars are in the 2MASS catalog (Skrutskie et al. 2006),
+and most are in the UCAC-2 catalog (Zacharias, et al. 2004). Rathe r, the goal of the
+analysis is to measure the small changes in position associated with pr oper motion, parallax,
+perturbations from unseen companions, and blending with photome trically variable stars.
+The current astrometric pipeline involves three distinct steps: cen troids are computed from
+2TheKeplermagnitude Kpincludes a very wide passband and is similar to an astronom-
+icalRmagnitude in central wavelength.– 6 –
+the pixel data, transformations are computed from each channe l3of each LC co-addition
+into an intermediate coordinate system, and solutions for each sta r are computed using the
+intermediate coordinates and terms such as time, parallax factor, etc. Steps two and three
+are iterated a few times, and convergence is quite rapid. Details of e ach of these steps are
+presented in the following subsections.
+2.1. Centroids
+Most modern centroiding algorithms fall into three classes: moment analysis, ﬁts
+to analytic functions, and ﬁts to the instrumental point spread fu nction (PSF). So far,
+various algorithms from the ﬁrst two classes have been implemented and tested. The data
+processing pipeline of the Science Operations Center (SOC; Jenkins et al. (2010)) compute
+ﬂux-weighted means for all stars and Gaussian ﬁts and PSF ﬁts for a few stars. PSF ﬁtting
+of all stars remains a task for the future. In a separate eﬀort, s everal other centroiding
+algorithms based on ﬁtting the images to analytic functions have bee n evaluated, and
+centroids for all stars have been computed for many of these. Th e choice of centroiding
+algorithm requires special attention because of the properties of theKeplerimages discussed
+above. The eﬀect of the undersampled components of the images h as not been fully
+evaluated, and the number of pixels for each star has been minimized by the Optimal
+Aperture algorithm (Bryson et al. 2010) so that the maximum numbe r of stars can be
+transmitted in the ﬁxed spacecraft bandwidth. Because the best astrometric centroiding
+algorithm has not been identiﬁed yet, analysis is proceeding with para llel tracks to evaluate
+3As described more fully by Jenkins et al. (2010), each CCD is split into t wo channels by
+the ﬂight electronics. The astrometric veriﬁcation of the stability b etween the two channels
+of a single CCD has yet to be performed.– 7 –
+a few of the most promising algorithms.
+2.2. Transformation Coeﬃcients
+The current astrometric pipeline supports two diﬀerent coordinat e systems. For some
+investigations, working in a sky-based system seems appropriate. The tangent point is
+taken to be the nominal Keplerboresight ( α= 19h22m40s,δ= +44◦30′, J2000) and a simple
+tangent plane projection is computed from the nominal positions of the stars listed in the
+KeplerInput Catalog (KIC).4In this coordinate system, eﬀects such as diﬀerential velocity
+aberration and parallax are easy to visualize. For other investigatio ns, a channel-based
+coordinate system seems appropriate, and eﬀects arising from th e structure and behavior of
+CCD pixels are easier to visualize. Of particular importance are eﬀect s based on where the
+star falls with respect to the pixel grid, a term called “pixel phase”. In either coordinate
+system, a separate set of transformation coeﬃcients is compute d for the measures from each
+channel for each cadence. A sample of 1000 known distant giant st ars was included in the
+Keplerstar list, and are used during the ﬁrst iteration to generate a tran sformed coordinate
+system that is as close to inertial as possible.
+2.3. Astrometric Coeﬃcients
+The tasks of computing the centroids and the transformation coe ﬃcients for the Kepler
+data are similar to their counterparts for traditional ground- and space-based assets. It
+is the modeling of the measured positions for each star that involves special attention,
+and this ﬂows from the extremely high SNR of the data. The simplest s olutions based on
+4http://archive.stsci.edu/kepler/kepler fov/search.php– 8 –
+computing only the mean positions from the data currently available s how an astrometric
+precision near 20 milliarcseconds (about 0.005 pixels). This value and t hose presented below
+refer to the uncertainty in a single measure of a single axis (row or co lumn) for a single star
+from a single LC co-addition. Because these solutions are local and c ontain only a small
+number of measures, they should be construed as estimators of t he astrometric precision
+and not of the overall astrometric accuracy of the spacecraft a nd photometer. Adding terms
+that model the diﬀerential velocity aberration across the Keplerﬁeld reduces this error to
+about 4 milliarcseconds (about 0.001 pixels), and adding terms arising from the pixel phase
+reduce the errors to about 2 milliarcseconds (about 0.0005 pixels). These pixel phase terms
+are empirical ﬁts, and are not derived from detailed modeling of the im age formation and
+sampling processes.
+During the ﬁrst 33.5 days of science operations that followed the en d of commissioning,
+the number of stars was increased to 156,000. The volume of data f or this number of stars
+observed every 29.4 minutes is large, and the data from the 84 chan nels are diverse. Thus
+it is diﬃcult to characterize the entirety of the astrometric solution with a single number.
+Again, much development in the astrometric processing is needed be cause every Kepler
+star is important. Although only preliminary measures of astrometr ic precision have been
+obtained, it is reassuring to see that the observed errors follow th e prediction based on the
+ﬂux of the stars involved. Fig. 1 shows the errors for stars in a sing le channel as a function
+of the measured Kp, and demonstrates that the error rises as the SNR decreases.
+3. Local Astrometric Solutions and the “Rain” Plots
+A special case of the astrometric solutions described above can be computed in the
+vicinity of individual stars. Under the assumptions of small parallax a nd adequate removal
+of diﬀerential velocity aberration, the equations for the apparen t place of a star can be– 9 –
+linearized. Simple trend analysis produces a robust estimator for th e mean position of
+a star, and residuals from each measurement are computed. This e nables astrometric
+processing to contribute to the understanding of the Keplerstars. As more fully discussed
+by Batalha et al. (2010), what appears to be a single object can be t wo or more stars,
+and each can have photometric variability. Such astrations can mimic the photometric
+properties of a transiting planet, and adding astrometry to the ve tting procedure can assist
+in the conﬁrmation or denial process. Fig. 2 shows astrometric res iduals for two stars.
+The upper star is a blend of a variable star and one or more constant stars while the lower
+shows residuals that are typical for a bright, constant star. The astrometric amplitude of
+the variable star is huge - almost 0.02 pixels.
+The astrometric behavior of an image composed of an unknown numb er of stars each
+of which having unknown photometric variations is complicated. Howe ver, the simple case
+of two stars, a small photometric variation, and centroids comput ed from ﬂux-weighted
+means provides much insight. Where ∆ sis the true separation of the stars, δsis the small
+measured astrometric shift, Fis the small relative brightness of the fainter B component
+compared to the brighter A component, and fis the small relative change in total brightness
+due to a transit or stellar variability, the observed astrometric shif t assuming that the A
+component is variable is given by
+δs=Ff∆s (2)
+If the B component has the photometric variation, the observed s hift is
+δs=f∆s (3)
+When the Keplerobservations of δsandfare combined with high resolution imagery that
+can measure ∆ s,F, and other characteristics such as stellar colors, then the model of the
+composite image can be improved.
+On the basis of its photometric signature alone, the KeplerObject of Interest (KOI-)– 10 –
+15 might involve a transiting planet. The analysis of the combined phot ometric and
+astrometric residuals denies this hypothesis. Fig. 3. shows the time series astrometric and
+photometric residuals for KOI-15 after they have been high-pass ﬁltered so as to emphasize
+signals with shorter timescales. A diﬀerent visualization of the same d ata is called a “Rain
+Plot”, and is shown in Fig. 4. Clearly, the astrometric and photometr ic residuals for
+KOI-15 are strongly correlated, and these correlations are the s ignature of an astration that
+includes one or more relatively constant stars and a background ec lipsing binary. Indeed,
+the secondary eclipse is more apparent in the astrometric residuals than in the photometric
+residuals. A true transiting planet system should not show these co rrelations. As suggested
+by the Rain Plot, the pixel data were re-examined and the oﬀending v ariable star was
+identiﬁed as being about 11 arcseconds away from and about 4.8 Kpmagnitudes fainter
+than the brighter star.
+4. Conclusions
+Although based on just a small fraction of the data expected from the entire mission,
+the following conclusions can be drawn.
+a) Both the preliminary version of the full astrometric solution and t he locally
+linearized astrometric solution indicate that the precision of a single m easure of a typical
+star is about 0.004 arcsecond (about 0.001 pixel). Results such as t hose shown in Figs. 2
+and 3 suggest that the precision for some stars might be substant ially better.
+b) On the basis of the limited data available so far, many astrometric e ﬀects cannot be
+separated. The astrometric precision should enable the measurem ent of the proper motions
+of the known large motion stars in the star list, but as yet proper mo tion is indistinguishable
+from diﬀerential velocity aberration, pixel phase, and similar eﬀect s.– 11 –
+c) Because of the large pixel size, Keplerimages can often be blends of multiple stars. If
+one or more components of such a blend is a photometrically variable s tar, the astrometric
+position of the image can have a signiﬁcant motion. Tools such as the R ain Plot have
+already demonstrated the utility of combining astrometric and phot ometric processing in
+the evaluation of planetary transit candidates.
+d) Whereas the astrometric precision of Keplerdata has been demonstrated, the
+astrometric accuracy has yet to be evaluated.
+In summary, it is the extremely high SNR of the Keplerphotometer that enables
+the astrometric analysis of Keplerdata. Even with just the preliminary data, astrometric
+analysis is providing an important tool for the physical understand ing of the observations.
+Should the astrometric results continue to follow the theoretical e xpectation of improving
+with the SNR, then solutions for the parallax and proper motions of a ll stars will be
+computed.
+Funding for this Discovery mission is provided by NASA’s Science Mission Directorate.
+Many people have contributed to the success of the KeplerMission, and the authors wish
+to express their profound thanks to all.
+Facilities: The Kepler Mission.– 12 –
+Fig. 1.— Astrometric error as a function of Kpmagnitude for stars on Channel 2 in the
+Quarter 1 data collection.
+Fig. 2.— Astrometric residuals from a blended variable (top) and a non -variable star (bot-
+tom) taken from a solution for a single channel. Red symbols are from the columns and blue
+symbols are from the rows.– 13 –
+−1.5−1−0.500.51Relative Flux Residuals, pptA
+−14−12−10−8−6−4−202Row Residuals, mpixB
+4965 4970 4975 4980 4985 4990 4995−50510152025Column Residuals, mpix
+Time, JD−2450000C
+Fig. 3.— Time series residuals for the relative photometric ﬂux (A) in pa rts per thousand,
+and the relative astrometric row (B) and column (C) residuals in millipixe ls (1 pixel = 3.98
+arcseconds) for KOI-15. The observations have been ﬁltered to remove long-period trends.
+The strong correlation between these residuals is taken as evidenc e that this Keplerstar is
+actually an astration of one or more relatively constant stars and a background eclipsing
+binary.– 14 –
+−0.02 −0.01 00.01 0.02 0.03−1.5−1−0.500.51
+Centroid Shift, pixelsNormalized Flux Residuals, ppt  
+Fig. 4.— The Rain Plot for KOI-15. This visualization shows the correlat ion between
+the photometric and astrometric row (red X) and column (blue +) re siduals. The strong
+correlation between the position and brightness is evidence that th is is an astration of one
+or more relatively constant stars and a background eclipsing binary .– 15 –
+REFERENCES
+Batalha, N. M., et al. 2010, this issue
+Borucki, W. J. et al. 2010, Science, submitted
+Bryson, S. T., et al. 2010, this issue
+Caldwell, D. A., et al. 2010, this issue
+Jenkins, J. M., et al. 2010, this issue
+Kaiser, N., Tonry, J. L., Luppino, J. L. 2000, PASP112, 768
+King, I. R. 1983, PASP95, 163
+Koch, D. G., et al. 2010, this issue
+Skrutskie, M. J., et al. 2006, AJ131, 1163
+Zacharias N., et al. 2004, AJ127, 3043
+This manuscript was prepared with the AAS L ATEX macros v5.2.

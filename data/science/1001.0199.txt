@@ -1,0 +1,194 @@
+arXiv:1001.0199v1  [astro-ph.IM]  4 Jan 2010Astronomical Data Analysis Software and Systems XVII C.10
+ASP Conference Series, Vol. XXX, 2008
+J. Lewis, R. Argyle, P. Bunclarck, D. Evans, and E. Gonzales- Solares, eds.
+Planning and Executing Airborne Astronomy Missions for
+SOFIA
+Michael A. K. Gross and Ralph Y. Shuping
+Universities Space Research Association, NASA/Ames Resea rch Center,
+MS 211-3, Moﬀett Field, CA 94035 USA
+Abstract. SOFIA is a 2.5 meter airborne infrared telescope, mounted in
+a Boeing 747SP aircraft. Due to the large size of the telescope, only a few
+degrees of azimuth are available at the telescope bearing. This mean s the head-
+ing of the aircraft is fundamentally associated with the telescope’s o bservation
+targets, and the ground track necessary to enable a given mission is highly com-
+plex and dependent on the coordinates, duration, and order of ob servations to
+be performed. We have designed and implemented a Flight Managemen t In-
+frastructure (FMI) product in order to plan and execute such mis sions in the
+presence of a large number of external constraints (e.g. restric ted airspace, in-
+ternational boundaries, elevation limits of the telescope, aircraft performance,
+winds at altitude, and ambient temperatures). We present an over view of the
+FMI, including the process, constraints and basic algorithms used t o plan and
+execute SOFIA missions.
+1. Introduction
+The Flight Management Infrastructure (FMI) product is inte nded to keep the
+aircraft from interfering with preplanned observations on the sky. It predicts
+the ground tracks necessary to execute its mission, and corr ects the plan for
+actual conditions while airborne. To support this, it conta ins both a planning
+component that can run on the ground and in the air, and an exec ution com-
+ponent that runs in the air. The planning component manages a set of ordered
+observations and optional aircraft repositioning request s. The execution com-
+ponent compares the plan to actual conditions in ﬂight and re quests headings
+(indirectly) from the autopilot.
+SOFIA mission planning diﬀers from satellite or ground based observatory
+planning in a few key areas. Most importantly, the observato ry position is a
+function of observation target history, which prevents obs ervations from being
+considered as time-slots alone. Assignment of ﬂight dates i s also nontrivial
+— targets cannot be localized on the sky or the observatory wi ll always ﬂy
+in about the same direction (requiring nearly equivalent de ad time to return);
+this suggests entire ﬂight series should be considered at on ce, for greater target
+variety.
+Flight planning and execution diﬀers from conventional as we ll. All con-
+ventional aircraft ﬂy from point to point along speciﬁed pat hs on the ground,
+and “drift” the aircraft to compensate for winds. Typical dr ift angles (course
+- heading) exceed 3◦, and the worst possible case approaches 30◦, so SOFIA
+cannot necessarily observe in this manner. Expected winds c an be planned
+12 Gross and Shuping
+for using a weather forecast. Correcting course for unexpected winds can be
+accomplished by adjusting observation durations, by reloc ating the aircraft be-
+tween observations, or by “observation triage” as a last res ort. This requires
+an astronomically-aware airborne monitoring function to c ompare current con-
+ditions to plan. Aircraft capabilities are a strong functio n of fuel weight, which
+argues against simple parametrizing by time, in favor of fue l.
+2. External Constraints
+In addition to the geometrical and practical constraints de scribed above, the
+SOFIA ﬂight planning problem also has a number of external co nstraints, all of
+which prevent a truly automated, or even rigorously sequent ial, ﬂight planning
+process. Forinstance, specialuseairspace(SUA)incursio nsmayrequireexternal
+approval, and it cannot be known ahead of time whether such ap proval will be
+forthcoming in all cases. National airspace boundaries req uire international
+agreements. Over-ocean operations are prohibited for safe ty reasons for the ﬁrst
+ﬂights; forlaterﬂights, fairlycomplexfuelreserveconst raintsarerequired. Gross
+takeoﬀ weight has a hard limit of 700,000 pounds, which limit s the duration of
+SOFIA missions.
+Some science-driven constraints require interaction with scientists or de-
+tailed knowledge of the observations; especially, trading oﬀ water vapor over-
+burden estimates with altitude and duration, and for tradin g oﬀ observations
+against each other.
+3. SOFIA FMI
+Prior to any particular mission, several iterations of ﬂigh t planning are per-
+formed. This is expected to include fully integrated automa ted ﬂight planning
+(Frank, Gross, & K¨ urkl¨ u 2004), routinely. Manual choice o f observation (in-
+cluding order) will occur subsequently. Upon execution, re planning might oc-
+cur if conditions are suﬃciently diﬀerent from assumptions. Figure 1 shows a
+color-processed screenshot of a simulated ﬂight intended f or April, 2008, from
+Palmdale, CA. Actual conditions for the simulation shown di ﬀer from planned
+only by small timing errors of the order of several seconds be tween segments
+and at takeoﬀ.
+As mentioned earlier, it is advantageous to consider entire ﬂight series at
+once, in order to trade observations between ﬂights. The dat a structure sup-
+porting this is shown in Fig. 2.
+FMI requires substantial input data in order to accurately p redict a ﬂight
+track and its constraints. Weather forecast time-series ar e taken from the Na-
+tional Center for Environmental Prediction Global Forecas ting System, quadri-
+linearly interpolated. An alternative is required for date s more than several
+days in the future, since accurate forecasts are not availab le then; we use a
+set of stacked monthly means for 1997–2001 (the last years av ailable) from the
+European Center for Medium Ranger Weather Forcasting 40 Yea r Reanalysis
+(Uppala et. al. 2005) also quadrilinearly interpolated. Ai rcraft performance is
+interpolated from tables generated by Boeing INFLT runs, fo r cruising, thrust-
+limited climbs, and descents.Planning and Executing SOFIA Missions 3
+Figure 1. A sample ﬂight in southern California airspace, executing in
+a simulated environment. Coastlines and Arizona and Nevada border s are
+shown as coarsely dotted lines. Planned and actual tracks are sho wn as solid
+lines. Since actual conditions never exactly match plans, the remain der of the
+ﬂight is projected from the current actual location, shown as a da shed line.
+Oﬀshore polygons are warning zones; others are restricted airsp ace. The cur-
+rent position and heading is shown as an aircraft glyph, near Santa B arbara,
+CA.
+Flight
+series
+Flight
+plan
+Flight
+leg
+WaypointFlight
+leg
+trackingNot Tracking
+fixed target moving targetTrackingFuel loadFlight Plan:Start date/time
+Start airport/rwyWaypoint:lat/lon/UT
+altitude
+heading
+airspeed
+water vapor estimate
+telescope elevation
+moon angle
+sun elevation
+pitch angle
+telescope azimuth biascourse
+ground speed
+field rotation
+remaining fuelFlight Leg:Obs ID or
+RA/dec/dur or
+hdg/dur or
+lat/lon or
+ending airport/rwy;
+end altitude0..n
+0..n
+3..n
+Figure 2. Structure of a ﬂight series, corresponding to all ﬂights b etween a
+given instrument’s installation and its removal.
+Planned ﬂight track intersections with special use airspac e (SUA) bound-
+aries (including non-US zones, from the US National Imagery and Mapping
+Agency) are evaluated using a quadtree-based search on the 8 000+ SUA bound-
+aries for each ﬂight segment. Observation segments are trea ted as initial value
+problems in Cartesian coordinates, others may be boundary o r initial problems,
+as appropriate. Desired headings are calculated during exe cution from planned
+(not actual) sky coordinates and actual position; direct st eering by the telescope
+cannot be allowed for safety reasons.4 Gross and Shuping
+In order to test FMI components and integrate other systems, as well as for
+training purposes, we use a simulation environment. This in cludes a medium-
+ﬁdelity aircraft simulator, an automated pilot simulator, a method to set the
+time arbitrarily, and a telescope simulator (Br¨ uggenwirt h, Gross, Nelbach, &
+Shuping 2008).
+Leg constructor
+(API)
+Manual
+flight
+plannerSolved
+flight
+series(API)flight plannerAutomated
+Obs
+plans
+Flight
+executor
+(backend)Leg target
+order,
+duration
+Leg target
+order,
+duration
+Flight
+seriesWinds, water vapor,
+temperature,
+aircraft performance,
+airspace
+MCCS ProxyMD or
+operatorTweaks
+ResponsesSCL
+SCL
+subscribesMCCS (PIS)HousekeepingA/C Position, attitude, etc.
+Figure3. Dataﬂowwithin the airborneconﬁgurationforearlyﬂights . Later
+ﬂights will have direct connections to the data acquisition system (M CCS),
+rather than through a proxy.
+While airborne, the FMI software components interact with t he airborne
+data acquisition software to acquire the aircraft’s positi on and attitude. While
+on the ground, the planner portion of FMI interacts with obse rvers’ planning
+software and must support multiple simultaneous planning s essions. The air-
+borneconﬁgurationisshowninFig. 3; thegroundconﬁgurati onissimilar, except
+thereis noﬂight executor norMCCS data(except in testing co nﬁgurations), and
+there is a connection to the Observation Planning Database.
+4. Conclusion
+SOFIA presents a unique ﬂight planning problem due to the nat ure of astro-
+nomical observation. FMI provides a connection between sci entiﬁc needs of an
+observatory with the practical constraints of operating an aircraft, without in-
+troducing excessive safety considerations or pilot worklo ad, or planner eﬀort.
+Acknowledgments. The authors wish to thank the European Center for
+Medium Range Weather Forecasting for access to their reanal ysis data.
+References
+Br¨ uggenwirth, S., Gross, M. A. K., Nelbach, F. J., & Shuping, R. Y. 2 009, in ASP
+Conf. Ser. XXX, ADASS XVII, ed. J. Lewis, R. Argyle, P. Bunclark, D. Evans,
+& E. Gonzalez-Solares (San Francisco: ASP), 485
+Frank, J., Gross, M. A. K., & K¨ urkl¨ u, E. 2004, in Proc. 16th Conf . on Innovative Appli-
+cations of Artiﬁcial Intelligence, ed. D. L. McGuinness & G. Ferguso n (Boston:
+MIT Press), 828
+Uppala, S. M. et al. 2005, Quart. J. R. Meterol. Soc.,131, 2961

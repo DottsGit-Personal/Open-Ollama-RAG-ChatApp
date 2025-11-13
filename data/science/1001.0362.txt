@@ -1,0 +1,598 @@
+arXiv:1001.0362v1  [nucl-th]  3 Jan 2010Photodisintegration of3Hin athree dimensional faddeev approach
+S. Bayegan1,a, M.A. Shalchi1,andM.R. Hadizadeh2
+1DepartmentofPhysics,UniversityofTehran,P.O.Box14395 -547,Tehran,Iran
+2Instituto de F´ ısica Te´ orica, Universidade Estadual Paul ista, Rua Dr. Bento Teobaldo Ferraz 271, Bl. II, Barra Funda,
+01140-070,S˜ aoPaulo,Brazil
+Abstract. An interaction of a photon with3His invstigated based on a three dimensional Faddeev approac h.
+Inthis approach the three-nucleon Faddeevequations witht wo-nucleon interactions areformulated withconsid-
+eration of the magnitude of the vector Jacobi momenta and the angle between them with the inclusion of the
+spin-isospin quantum numbers, without employing a partial wave decomposition. In this formulation the two
+body t-matricesand tritonwave function are calculated int he three dimensional approach using AV18potential.
+Inthe ﬁrststepwe use the standard single nucleon current in thisarticle.
+1 Introduction
+Since the early days of the study of the nuclear physicsso
+manyeﬀortshavebeenperformedon3Nsystemsconsider-
+ingreal or virtualphotoninteractions[1]-[2].Also sever al
+studiesonthebehaviorof3Nboundstatesinrealorvirtual
+photon absorbtion have been reported[3]-[4]. Before six-
+ties variational approach was used for these calculations
+and works using this approach are still continuing. After
+introducing Faddeev formulation for three body systems
+[5]-[6], new eﬀorts using this scheme were started. As an
+example one can point out the early calculations of elec-
+trodisintegration [7] and photodisintegration[8] with3He
+and3H.Animprovementinthephotodisintegrationcalcu-
+lation of the bound and 3N continuum with the same 3N
+hamiltonianhavebeenperformed[9].Therearealso other
+approaches to calculate electromagnetic interactions wit h
+light nuclei such as Green-function-Monte-Carlo method
+[10],hypersphericalharmonicexpansions[11],andLorent z
+integraltransform(LIT)method[12].Thereis a verygood
+review of Faddeev calculations on the interaction of real
+or virtual photon with3He[13]. In this work like previ-
+ous calculations the partial wave decomposition has been
+used. In PW approach one should sum all PW to max-
+imum angular momentum where the calculation is con-
+verged. The problem is that in higher energies this max-
+imum angular momentum increases and we should solve
+morecomplicatedequations.Toavoidthiscomplexityone
+should use vector momentum as basis states [14]. To this
+aim in the past decade the main steps have been taken
+byOhio-Bochumcollaboration(Elster,Gl¨ ockle et al.) and
+Bayeganet al. to implementthe 3D approachin few-body
+bound and scattering calculations (see for examples Refs.
+[15]-[22]).Itshouldbeclearthatthebuildingblockstoth e
+few-bodycalculationswithoutangularmomentumdecom-
+ae-mail:bayegan@khayam.ut.ac.irposition are two-body o ﬀ-shell t-matrices, which depend
+on the magnitudesof the initial and ﬁnal Jacobi momenta
+and the angle between them. Fachruddin et al. have cal-
+culated the NN bound and scattering states in a 3D repre-
+sentation using the Bonn-B and the AV18 potentials [15]-
+[16]. Recentlythere hasbeene ﬀortsto dothe same calcu-
+lation using chiral potential [23]. our aim in this work is
+to formulate photodisintegration of3Hin a three dimen-
+sional Faddeev approach. In the ﬁrst step we ignore three
+bodyforcesandwejustusethesinglenucleoncurrent.We
+willuseAV18potentialandtritonwavefunctionwhichhas
+beencalculatedin ourpreviouswork[20].
+This manuscript has been organized as follow: in sec-
+tion 2 we explain our basic states and we evaluate all of
+the matrix elements in these basis. In section 3 we intro-
+duceoursingularityproblemandits solution.We ﬁnish in
+section4 witha summaryandoutlook.
+2 Integralequationofnuclearmatrix
+elementswithoutpartialwave
+decomposition
+Tocalculatethephotodisintegrationobservableweﬁrstne ed
+tocalculatenuclearmatrixelementsintheFaddeevscheme.
+Formoredetailssee Ref.[13].
+N=1
+2/an}bracketle{tφ0|(1+tG0)P|U/an}bracketri}ht (1)
+|U/an}bracketri}ht=(1+P)J|ψ/an}bracketri}ht+tG0P|U/an}bracketri}ht (2)
+Inaboveequations tisNNt-operatorwhichobeysLipmann-
+Schwinger equations, G0is free propagator, Pis permuta-
+tion operator,|ψ/an}bracketri}htis three body bound state and |U/an}bracketri}htis an
+axillarystate.Threebodyforceshavebeenignored. |φ0/an}bracketri}htisEPJWeb ofConferences
+a subsection of the fully antisymmetric free state, |Φ0/an}bracketri}ht, in
+whichnucleons2and3 areinsubsystem.
+|Φ0/an}bracketri}ht=(1+P)|φ0/an}bracketri}ht (3)
+|φ0/an}bracketri}htisalsoourbasicstatetosolvetheintegralequation
+(2) and is antisymmetric under permutation of nucleons 2
+and3.
+|φ0/an}bracketri}ht≡|pqm1m2m3ν1ν2ν3/an}bracketri}hta(4)
+In equation (4) pandqare jacobi momenta and m’s
+andν’s are the spin and isospin of the individualnucleons
+respectively.
+Orthonormalityandcompletenessrelationsoftheseba-
+sic statescanbeconsideredasbellow:
+a/an}bracketle{tpqm1m2m3ν1ν2ν3|p′q′m′
+1m′
+2m′
+3ν′
+1ν′
+2ν′
+3/an}bracketri}hta
+=1
+2{δ(p−p′)δm2m′
+2δm3m′
+3δν2ν′
+2δν3ν′
+3
+−δ(p+p′)δm2m′
+3δm3m′
+2δν2ν′
+3δν3ν′
+2}δ(q−q′)δm1m′
+1δν1ν′
+1(5)
+/summationdisplay
+m1m2m3
+ν1ν2ν3/integraldisplay
+d3pd3q|pqm1m2m3ν1ν2ν3/an}bracketri}hta
+×a/an}bracketle{tpqm1m2m3ν1ν2ν3|≡1 (6)
+Considering these properties we can rewrite the integral
+equations(1)and(2)inourbasicstats.
+N=1
+2a/an}bracketle{tpqm1m2m3ν1ν2ν3|(1+tG0)P|U/an}bracketri}ht
+=1
+2a/an}bracketle{tpqm1m2m3ν1ν2ν3|P|U/an}bracketri}ht
++1
+2a/an}bracketle{tpqm1m2m3ν1ν2ν3|tG0P|U/an}bracketri}ht (7)
+a/an}bracketle{tpqm1m2m3ν1ν2ν3|U/an}bracketri}ht
+=a/an}bracketle{tpqm1m2m3ν1ν2ν3|(1+P)J|ψ/an}bracketri}ht
++a/an}bracketle{tpqm1m2m3ν1ν2ν3|tG0P|U/an}bracketri}ht (8)
+The eﬀect of permutation operator on our basic states
+canbeconsideredasfollow:
+/an}bracketle{tpqm1m2m3ν1ν2ν3|P|p′q′m′
+1m′
+2m′
+3ν′
+1ν′
+2ν′
+3/an}bracketri}ht
+=δ(p+1
+2p′+3
+4q′)δ(q−p′+1
+2q′)
+×δm1m′
+2δm2m′
+3δm3m′
+1δν1ν′
+2δν2ν′
+3δν3ν′
+1
++δ(p+1
+2p′−3
+4q′)δ(q+p′+1
+2q′)
+×δm1m′
+3δm2m′
+1δm3m′
+2δν1ν′
+3δν2ν′
+1δν3ν′
+2
+=δ(p+π2)δ(p′−π1)
+×δm1m′
+2δm2m′
+3δm3m′
+1δν1ν′
+2δν2ν′
+3δν3ν′
+1
++δ(p−π2)δ(p′+π1)
+×δm1m′
+3δm2m′
+1δm3m′
+2δν1ν′
+3δν2ν′
+1δν3ν′
+2(9)Where:
+π1=q+1
+2q′π2=1
+2q+q′(10)
+Now with respect to aboverelation and symmetry consid-
+erationswe canevaluateequations(7)and(8)asfollow:
+N=1
+2{/an}bracketle{t−1
+2p−3
+4q,p−1
+2qm2m3m1ν2ν3ν1|U/an}bracketri}ht
+/an}bracketle{t−1
+2p+3
+4q,−p−1
+2qm3m1m2ν3ν1ν2|U/an}bracketri}ht}
++/summationdisplay
+m′
+2m′
+3ν′
+2ν′
+3/integraldisplay
+d3qa/an}bracketle{tpm2m3ν2ν3|t|1
+2q+q′,m′
+2m′
+3ν′
+2ν′
+3/an}bracketri}hta
+1
+E−q2+q′2+q·q′
+m/an}bracketle{t−1
+2q′−q,q′m′
+2m′
+3m1ν′
+2ν′
+3ν1|U/an}bracketri}ht(11)
+/an}bracketle{tpq,m1m2m3ν1ν2ν3|U/an}bracketri}ht
+=/an}bracketle{tpq,m1m2m3ν1ν2ν3|(1+P)J|ψ/an}bracketri}ht
++/summationdisplay
+m′
+2m′
+3ν′
+2ν′
+3/integraldisplay
+d3qa/an}bracketle{tpm2m3ν2ν3|t|1
+2q+q′,m′
+2m′
+3ν′
+2ν′
+3/an}bracketri}hta
+1
+E−q2+q′2+q·q′
+m/an}bracketle{t−1
+2q′−q,q′m′
+2m′
+3m1ν′
+2ν′
+3ν1|U/an}bracketri}ht(12)
+Theﬁrstermintheequation(12)canbeevaluatedas:
+a/an}bracketle{tpq,m1m2m3ν1ν2ν3|(1+P)J|ψ/an}bracketri}ht
+=/summationdisplay
+m′,ν′/integraldisplay
+d3p′d3q′
+a/an}bracketle{tpq,m1m2m3ν1ν2ν3|(1+P)J|p′q′,m′
+1m′
+2m′
+3ν′
+1ν′
+2ν′
+3/an}bracketri}hta
+×a/an}bracketle{tp′q′,m′
+1m′
+2m′
+3ν′
+1ν′
+2ν′
+3|ψ/an}bracketri}ht (13)
+Nowweconcentrateontheelementsoftheseequationsi.e.
+current,two-bodyt-matrix and triton wave function,more
+precisely.
+2.1 current
+Consideringthesymmetrypropertieswehave:
+a/an}bracketle{tpq,m1m2m3ν1ν2ν3|(1+P)JSN|ψ/an}bracketri}ht
+=3a/an}bracketle{tpq,m1m2m3ν1ν2ν3|(1+P)JSN(1)|ψ/an}bracketri}ht
+(14)
+Matrixelementsofsinglenucleoncurrentcanbeevaluated
+asfollow:
+a/an}bracketle{tpq,m1m2m3ν1ν2ν3|J(1)|p′q′,m′
+1m′
+2m′
+3ν′
+1ν′
+2ν′
+3/an}bracketri}ht
+=δ(q′−q+2
+3Q)
+×1
+2[δ(p−p′)δm2m′
+2δm3m′
+3δν2ν′
+2δν3ν′
+3
+−δ(p+p′)δm2m′
+3δm3m′
+2δν2ν′
+3δν3ν′
+2]×Jm1m′
+1ν1ν′
+1(Q,q)
+(15)19thInternationalIUPAP ConferenceonFew-BodyProblemsinPhy sics
+Inaboveequation Qisthemomentumofphoton.We need
+to rewrite the single nucleon current operator in a form
+which is suitable for our basic states. The current opera-
+torwhichwewill use is:
+J=GE(Q)k1+k′
+1
+2mN+i
+2mNGM(Q)σ×(k1−k′
+1) (16)
+Which is summation of convection current and spin cur-
+rent.GE(Q)andGM(Q)areelectricandmagneticformfac-
+torsrespectively.Fortheconvectionpartwehave:
+k1+k′
+1=2q+Q+2
+3K (17)
+As we will show we have to choose coordinate system in
+which the zaxis is along the Qvector and we also need
+tensor component of current so the second and the third
+terms of the right hand side of equation(17) will vanish.
+Thusforthe convectioncurrentwehave:
+Jconvec
+±1=GE(Q)q±1
+mN(18)
+Andthetensorcomponentofspinpartcanalsobeeval-
+uatedas:
+JSpin
+±1=−√
+2Q
+2mNGM(Q)S± (19)
+2.2 two-body t-matrix
+Two body t-matrices can be related to the one which cal-
+culatedinhelicitybasis:
+a/an}bracketle{tpm1m2nν1ν2|t|p′m1m2ν′
+1ν′
+2/an}bracketri}hta=1
+4δ(ν1+ν2),(ν′
+1+ν′
+2)
+ei(Λ0φp−Λ′
+0φ′
+p)/summationdisplay
+πst(1−ηπ)C(1
+21
+2t,ν1ν2)C(1
+21
+2t,ν′
+1ν′
+2)
+C(1
+21
+2S,m1m2Λ0)C(1
+21
+2S,m′
+1m′
+2Λ′
+0)
+/summationdisplay
+ΛΛ′dS
+Λ0Λ(θp)dS
+Λ′
+0Λ′(θ′
+p)/summationtexteiN(φp−φ′
+p)dS
+NΛ(θp)dS
+NΛ′(θ′
+p)
+dS
+Λ′Λ(θpp′)
+tπSt
+ΛΛ′(p,p′,cosθpp′,z) (20)
+In the above relation z=E−3q2
+4mis the energy of subsys-
+tem. As we know two-body function has a singularity in
+the energyof deuteron, z=Ed. To removethis singularity
+we shouldconsidert-operatorasfollow:
+a/an}bracketle{tpm1m2nν1ν2|t|p′m1m2ν′
+1ν′
+2/an}bracketri}hta
+=a/an}bracketle{tpm1m2nν1ν2|ˆt|p′m1m2ν′
+1ν′
+2/an}bracketri}hta
+z−Ed(21)
+Twobodyt-matrixinhelicitybasishasbeencalculated
+before[15].tπSt
+Λ′Λ/parenleftbigp′,p,cosθ/parenrightbig=VπSt
+Λ′Λ/parenleftbigp′,p,θ/parenrightbig
++1
+2/integraldisplay
+dp′′p′′21/integraldisplay
+−1d/parenleftbigcosθ′′/parenrightbigvπSt,Λ
+Λ′1/parenleftbigp′,p′′,θ′,θ′′/parenrightbigG0/parenleftbigp′′/parenrightbig
+tπSt
+1Λ/parenleftbigp′′,p,θ′′/parenrightbig
++1
+2/integraldisplay
+dp′′p′′21/integraldisplay
+−1d/parenleftbigcosθ′′/parenrightbigvπSt,Λ
+Λ′0/parenleftbigp′,p′′,θ′,θ′′/parenrightbigG0/parenleftbigp′′/parenrightbig
+tπSt
+0Λ/parenleftbigp′′,p,θ′′/parenrightbig(22)
+Where
+vπSt,Λ
+Λ′Λ′′(p′,p′′,θ′,θ′′)=2π/integraldisplay
+0dφ′′e−iΛ(φ′−φ′′)VπSt
+Λ′Λ′′/parenleftbigp′,p′′/parenrightbig
+(23)
+2.3 tritonwave function
+For evaluating the Triton wave function we need to make
+a relationbetweenthiswavefunctioninourbasicstatesto
+theonewhichhasbeencalculatedinthefollowingbasis[20] :
+/an}bracketle{tpq(s1
+2)SmS(t1
+2)TmT|ψ/an}bracketri}ht=/an}bracketle{tpq,Xpq,α|ψ/an}bracketri}ht(24)
+Wecanrelatethesestatestoourfreespinandisospinstates
+with Clebsch-Gordancoe ﬃcients.
+gγα=/an}bracketle{tγ|α/an}bracketri}ht (25)
+Where
+|α/an}bracketri}ht=|(s1
+2)SmS,(t1
+2)TmT/an}bracketri}ht
+|γ/an}bracketri}ht=|m1m2m3ν1ν2ν3/an}bracketri}ht (26)
+It is very important to mention that the spin of the nucle-
+ons is quantized in the direction of the zaxis which in the
+calculationofwavefunctionithasbeenchosentobeinthe
+directionof q.Butwehavetoconsiderthe zaxisalongthe
+direction of incident photon Q. So we should ﬁrst rotate
+the spin of the nucleons in our basis to be settled in the
+direction of qaxis. Then we should use Clebsch-Gordan
+coeﬃcients to obtain the wave function in the calculated
+basismentionedin theequation(24):
+/an}bracketle{tpqm1m2m3ν1ν2ν3|ψ/an}bracketri}ht
+=/summationdisplay
+m′
+1m′
+2m′
+3/summationdisplay
+αDm1m′
+1(θq,φq)Dm2m′
+2(θq,φq)Dm3m′
+3(θq,φq)gγα
+×/an}bracketle{tpq,Xpq,α|ψ/an}bracketri}ht (27)EPJWeb ofConferences
+3 Singularity problem
+Inordertoconsiderthesingularityproblemwecanrewrit-
+ten the equation (11) an (12) in a uniﬁed form ignoring
+isospindependentwhichissimilarto spindependent.
+Um1m2m3(p,q,Q)=U′
+m1m2m3(p,q,Q)
++/summationdisplay
+m′
+2m′
+3/integraldisplay
+d3q′′Um′
+2m′
+3m1(π2,q′′,Q)
+E−q2+q′′2−q·q′′
+mˆta
+m2m3m′
+3m′
+3(p,π1,z)
+E+iǫ−Ed−3q2
+4m
+(28)
+Tosolvethisintegralequationweshouldevaluatesingular -
+ity in the denominator of the propagator which is a func-
+tion ofq′′and angle between q′′andq. So instead of sin-
+gularpointwehavearegionofsingularityin q−q′′plane.
+There is a solution to this moving singularity in Ref.[24].
+For using this method we have to put zaxis along the q.
+But because of simpliﬁcation in current operatorand ﬁnal
+cross section we should choose the zaxis in the direction
+ofthemomentumofthephoton, Q.Soinordertoevaluate
+the singularitywe shoulduse another methodwhich is in-
+troducedin Ref.[25]. Therefore one should separate angle
+partofdeltafunctionsasfollow:
+δ(p′+π1)δ(p′′−π1)=δ(p′−π1)
+p′2δ(p′′−π1)
+p′′2
+δ(ˆp′+ˆπ1)δ(ˆp′′−ˆπ1)
+δ(p′−π1)δ(p′′+π1)=δ(p′−π1)
+p′2δ(p′′−π1)
+p′′2
+δ(ˆp′−ˆπ1)δ(ˆp′′+ˆπ1) (29)
+Andthenthe integralequationcanbe rewriteasfollow:
+Um1m2m3(p,q,Q)=U′
+m1m2m3(p,q,Q)
++/summationdisplay
+m′
+2m′
+3/integraldisplay
+d3q′′dp′dp′′
+Um′
+2m′
+3m1(π2,q′′,Q)
+E−1
+m(p′′2+3
+4q′′2)ˆta
+m2m3m′
+3m′
+3(p,π1,z)
+E+iǫ−Ed−3q2
+4m
+(30)
+After some simpliﬁcation the integralequationtransforms
+tothisequation:
+Um1m2m3(p,q,Q)=U′
+m1m2m3(p,q,Q)
++2
+q/summationdisplay
+m′
+2m′
+3∞/integraldisplay
+0dp′p′ 1
+E+iǫ−1
+m(p′2+3
+4q2)
+q/2+p′/integraldisplay
+|q/2−p′|dq′′q′′¯G(q,q′′,p′)/integraldisplay
+dˆq′′δ(x′′−x0)
+Um′
+2m′
+3m1(p′′ˆπ2,q′′,Q)ˆta
+m2m3m′
+3m′
+3(p,p′ˆπ1,z)
+−2
+q/summationdisplay
+m′
+2m′
+3∞/integraldisplay
+0dq′′q′′ 1
+E+iǫ−Ed−3q2
+4mq/2+q′′/integraldisplay
+|q/2−q′′|dp′p′¯G(q,q′′,p′)/integraldisplay
+dˆq′′δ(x′′−x0)
+Um′
+2m′
+3m1(p′′ˆπ2,q′′,Q)ˆta
+m2m3m′
+3m′
+3(p,p′ˆπ1,z) (31)
+Intheaboveequation ¯Gwhichisalwayspositiveisdeﬁned
+as:
+¯G(q,q′′,p′)=1
+−Ed−3q′′2
+4m+1
+m(p′2+3
+4q2)(32)
+x′′=cosθ′′indicatesthe angle between qandq′′and
+x0isintroducedasfollow:
+x0=1
+qq′′(p′2−1
+4q2−q′′2)=1
+qq′′(p′′2−1
+4q′′2−q2)
+(33)
+4 Summaryandoutlook
+InthispaperwehaveformulatedtheFaddeevintegralequa-
+tions for calculating the photodisintegrationobservable of
+triton in a three dimensional approach.To this aim we in-
+troduced our basic states which contains jacobi momenta
+in vector forms as well as individual spin and isospin of
+each nucleon. So we have avoided to decompose angle
+states in terms of angular momentum states (partial wave
+approach)whichistraditionallyusedtosolvethesekindof
+equations.Theﬁnalintegralequationsarelesscomplicate d
+than the PW ones and are unique in number of the equa-
+tions in all energies. We have also explained about over-
+comingofthemovingsingularityin ourwork.
+The calculation of this observable using the AV18 po-
+tential isunderwayandtheresultswill be publishedsoon.
+Adding two and three body currents as well as three
+bodyforcesinourcalculationsareotherfuturemajorworks .
+The same calculation for radiative capture is also under
+consideration.
+Acknowledgments
+Thisworkwassupportedbycenterofexcellenceonstruc-
+tureofmatter,DepartmentofPhysics,UniversityofTehran .
+References
+1. E.Wigner,Phys.Rev. 43,(1993)252.
+2. E.Gerjuoy,J. Schwinger,Phys.Rev. 61(1942)138.
+3. H.Collardet al.,Phys.Rev.Lett. 11,(1963)132.
+4. L.I. Schiﬀ, H. Collard, R. Hofstadter, A. Johansson,
+M.R.Yearian,Phys.Rev.Lett 11(1963)387.
+5. L.D.Faddeev,Zh.Eksp.Theor.Fiz. 39(1960)1459
+6. E.O. Alt, P. Grassberger, W. Sandhas, Nucl. Phys. B2
+(1967)167
+7. D.R.Lehman,Phys.Rev.Lett. 23(1969)133919thInternationalIUPAP ConferenceonFew-BodyProblemsinPhy sics
+8. I.R. Barbour, A.C. Phillips, Phys. Rev. Lett. 19
+(1967)1388
+9. B. F. Gibson and D. R. Lehman, Phys. Rev. C11
+(1975)29
+10. J. Carlson,Phys.Rev. C36(1987)2026
+11. M. Viviani, A. Kievsky, L.E. Marcucci, S. Rosati, R.
+Schiavilla,Phys.Rev. C61(2000)064001.
+12. V.D. Efros, W. Leidemann, G. Orlandini, Phys. Lett.
+B338
+13. J.Golaket al., Phys.Rept. 415(2005)89
+14. R. A. Rice,Y. E.Kim,Few-BodySyst. 14(1993)127
+15. I. Fachruddin, Ch. Elster, Gl¨ ockle, Phys. Rev. C 62
+(2000)044002.
+16. I.Fachruddin,Ch.Elster,W.Gl¨ ockle,Phys.Rev. C63
+(2001)054003
+17. I. Fachruddin, Ch. Elster, W. Gl¨ ockle, Phys. Rev. C
+68(2003)054003
+18. I.Fachruddin,W.Gl¨ ockle,Ch.Elster,A.Nogga,Phys.
+Rev.C 69(2004)064002
+19. M. R. Hadizadeh and S. Bayegan, Eur. Phys. J. A 36
+(2008)201
+20. S. Bayegan, M. R. Hadizadeh, and M. Harzchi, Phys.
+Rev.C 77(2008)064005
+21. S. Bayegan, M. R. Hadizadeh, and W. Gl¨ ockle, Prog.
+Theor.Phys. 120(2008)887
+22. S. Bayegan, M. Harzchi and M. R. Hadizadeh, Nucl.
+Phys.A 814(2008)21
+23. S. Bayegan, M. A. Shalchi, M. R. Hadizdeh, Phys.
+Rev.C79(2009)057001
+24. H.Liu,Ch.Elster,W.Gloeckle,Phys.Rev. C72(2005)
+054003
+25. Ch. Elster, W. Gl¨ ockle, H. Witala, Few Body Syst. 45
+(2009)1

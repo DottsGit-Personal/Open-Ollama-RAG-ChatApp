@@ -1,0 +1,270 @@
+arXiv:1001.0613v1  [hep-ph]  5 Jan 2010Sensitivity of the parameters measured in pp collisions
+on the gluon PDF.
+E. Cuautle,∗A. Ortiz,†and G. Pai´ c‡
+Instituto de Ciencias Nucleares, Universidad Nacional Aut ´ onoma de M´ exico
+Apartado Postal 70-543, M´ exico Distrito Federal 04510, M´ exico.
+(Dated: November 17, 2018)
+The sphericity distribution in minimum bias events obtaine d with PYTHIA event generator, in-
+corporating diﬀerent parton distribution functions is pre sented. The results show that for minimum
+bias pp collisions the sphericity distribution for diﬀeren t parameters like the mean transverse mo-
+mentum and multiplicity exhibit strong sensitivity on the p arton distribution function used. The
+results indicate that early data at the LHC could be used in th is type of analysis to ﬁx the gluon
+distribution function in the proton.
+PACS numbers: 24.85.+p, 12.38.-t
+I. INTRODUCTION
+The calculation of the production cross sections at
+hadron colliders relies upon a knowledge of the distribu-
+tion of the momentum fraction xof the partons (quarks
+and gluons) in a proton in the relevant kinematic range,
+and the corresponding fragmentation functions. Most
+probably, at LHC, we will be confronted with a copious
+production of jets what will severely limit the exclusive
+analysis of individual jets. It seems therefore interesting
+to separate the events in function of their multi-jetiness
+and to study the parameters of the collisions e.g.mean
+pt, mean multiplicity, etc., in function of diﬀerent par-
+ton distribution functions (PDF’s) present on the mar-
+ket, which as quoted by the CTEQ group allows for an
+uncertainty of about 10-20% [1]. Obviously this uncer-
+taintywillreﬂectsinthe quantiﬁcationofthe kinematical
+processes. The PDF’s are of importance to analyze stan-
+dard model processes at LHC energies [2], and the usual
+leading order event generators use the PDF’s as an input
+to evaluate hard subprocess matrix elements. In those
+calculations the multiple parton interactions that make
+up the bulk of the underlying event, require extensive
+tuning which depends strongly on the details of the in-
+put parton distributions.
+The Event Shape Analysis (ESA) has been applied suc-
+cessfully to the restricted acceptance experiments at
+RHIC and ALICE to survey the possibilities of the
+method to analyze and isolate speciﬁc jet topology
+events [3]. In the present paper we are investigating the
+bulk properties of the event shape variables obtained in
+minimum bias pp events: the sensitivity obtained at dif-
+ferent collisions energies focussing to minimum bias col-
+lisions, corresponding to the minimum x-Bjorken (xB)
+achievable. The article is organized as follows: in the
+section II we give the relation for the sphericity and re-
+∗Electronic address: ecuautle@nucleares.unam.mx
+†Electronic address: antonio.ortiz@nucleares.unam.mx
+‡Electronic address: guypaic@nucleares.unam.mxcoil distributions; in the section III we discuss the parton
+distribution functions used and the way the simulations
+were done in the framework of minimum bias PYTHIA.
+The results are presented in section IV and ﬁnally, in
+section V the conclusion are drawn.
+II. EVENT SHAPE VARIABLES
+Event shape variables allow us to measure geometrical
+properties of QCD ﬁnal state [4]. Those variables has
+been used to analyze dijet production in hadron-hadron
+collisions and to study the sensitivity of physical param-
+eters [4]. The shape variables at hadron colliders are
+deﬁned over particles within the acceptance of the detec-
+tor. The thrust ( T) is deﬁned in the transverse plane as
+follows:
+T≡max/bracehtipupleft/bracehtipdownright/bracehtipdownleft/bracehtipupright
+− →nt/summationtext
+i|− →pt,i·− →nt|/summationtext
+i|− →pt,i|(1)
+where the sum runs over all particles in the ﬁnal state
+withintheacceptance,− →pt,irepresentthetransversecom-
+ponent of the momenta of emitted particles and− →ntis
+the transverse vector that maximizes the ratio. In the
+literature it is more common to ﬁnd the quantity 1 −T
+related to the transverse sphericity of the event. In the
+present work we do reference to this as sphericity. The
+range of sphericity is between 0 (for events with narrow
+back-to-backjets) and 1 −2/π(for events with a uniform
+momentum distribution).
+Another interesting observable is the recoil, deﬁned as:
+R≡1/summationtext
+i|− →pt,i||/summationdisplay
+i− →pti|. (2)
+It is an indirect measurement for the radiation which re-
+mains undetected for acceptance eﬀects (high inbalance:
+R→1, small inbalance: R→0).2
+TABLE I: The xBvalues for low ptproduction at diﬀerent en-
+ergies. The evaluation was done at central rapidity, assumi ng
+pt= 500 MeV/c.
+√s x B Collider
+200 GeV ∼5×10−3RHIC
+900 GeV ∼10−3TEVATRON/LHC
+10 TeV ∼10−4LHC
+III. THE PARTON DISTRIBUTION
+FUNCTIONS
+The QCD factorization theorem provides us with a
+framework where distinct parameters can be indepen-
+dently studied in order to interpret the experimental re-
+sults. Prominent among them we ﬁnd the parton distri-
+bution functions whichcorrespondto the momentum dis-
+tributions of partons inside a proton. The extraction of
+the parton distribution function from experimental data
+andtheoreticalapproachisacomplicatedtask[1,5]. The
+uncertaintiesgrowwith diminishing xBand aregenerally
+very much larger for gluons than for quarks. At the LHC
+(Large Hadron Collider) energies, the gluons will play
+an important role to understand the new physics. Some
+QCD analysis of parton distribution has been done [1].
+At this energies, one will be able to explore regions of
+smallxBas shown in Table I for minimum bias events.
+IV. RESULTS ON EVENT SHAPE VARIABLES
+AND PDF OF GLUONS
+In order to describe the recoil and sphericity variables
+and their behavior as function of the parton distribu-
+tion function of the gluon used, we generated a sample of
+PYTHIA 6.214 minimum bias events [6]. The generation
+incorporates some parameters proposed as ATLAS tune ,
+based onreference [7]. This tuning parameterswereﬁxed
+to describe the experimental minimum bias data of UA5
+and CDF experiments. The pseudorapidity and trans-
+verse momenta distribution were the ﬁrst variables ﬁtted
+in this tuning. Setting from these ﬁts after that, predic-
+tion of the properties of minimum bias and underlying
+event at LHC energy were scaled.
+We have used this version of PYTHIA to implant two
+diﬀerent parton distribution functions: ZEUS2005 [8]
+and CTEQ5L [9]. The latter PDF was extracted from
+a global analysis to several experimental data while the
+former is extracted only from HERA data. Plotting the
+ratio of the two gluon distribution as we have done in
+Fig. 1, we see that at diﬀerent energies and Qvalues
+they diﬀer substantially, the lowest values of xshowing
+the largest diﬀerence.
+In Fig. 2 we show in the top panel the mean multi-
+plicity variation with the sphericity variable obtained at
+central pseudorapidity. We observe an interesting depen-
+dence on the PDF used: the mean multiplicity at highx-510-410-310-210-110)2(x,Q
+CTEQ)/xf2(x,QZEUSxf
+0.40.50.60.70.80.911.11.21.31.4
+ = 200 GeV )s Q = 6.3 GeV  ( 
+ = 900 GeV )s Q = 20.0 GeV  ( 
+ = 10 TeV )s Q = 142.1 GeV  ( 
+FIG. 1: Ratio of the gluon contributions for the ZEUS and
+CTEQ5L parton distribution functions, the ratio is shown
+for diﬀerent Q values corresponding to the mean Q values
+obtained from the simulations at 0.2, 0.9 and 10 TeV, respec-
+tively
+sphericities is much higher for the CTEQ5L PDF than
+for the ZEUS one. The phenomenon is the most accen-
+tuated in the case of the 10 TeV collisions where the xB
+value reached is also the smallest. The bottom part of
+Fig. 2 illustrates this fact, it shows the behavior of the
+ratio of the mean multiplicities for the three cases as a
+function of sphericity.
+The studies displayed here are within the reach of all
+the LHC experiments, though we have done the simula-
+tion for the case of a relatively small acceptance detec-
+tor which has the capability to detect low charged par-
+ticle momenta. We consider only primary tracks within
+|η| ≤0.9 andpt≥0.5 GeV/c deﬁned according to refer-
+ence [10]. In this context they are the particles produced
+in the collision, including products of strong and electro-
+magnetic decays, but excluding feed-down products from
+strange weak decays and particles produced in secondary
+interactions.
+In Fig. 3 we show the ratio of the sphericity distri-
+butions obtained for the three energies. One observes
+that in all cases the diﬀerence between the two PDF’s
+increases with growing spheriﬁcity but much more so in
+the case of the 10 TeV simulations. This is due to the
+smallerxBinthatcase,wherethediﬀerencesbetweenthe
+two PDF’s are the largest. The strong slope in case of 10
+TeV data demonstrate the sensitivity of the approach.
+Next, the recoil variable is computed according to
+Eq. 2, the results are shown in Fig. 5 where a charac-
+teristic behavior of the ratio of the mean R values is ob-
+served for the 3 energies. Namely, The ZEUS PDF has a
+larger momentum inbalance than CTEQ5L. We explain
+the feature by the fact that, due to the smaller rise of the
+gluon PDF in ZEUS one is confronted with an emission
+of particles resulting from collisions of partons of diﬀer-
+ent momenta, while in the case of the more peaky gluon3
+1-T0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4chmean N
+024681012141618202224
+200 GeV, CTEQ5L
+200 GeV, ZEUS
+900 GeV, CTEQ5L
+900 GeV, ZEUS
+10 TeV, CTEQ5L
+10 TeV, ZEUS
+x0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4CTEQch / mean NZEUSchmean N
+0.40.50.60.70.80.911.11.2
+ = 200 GeVs
+ = 900 GeVs
+ = 10 TeVs
+FIG. 2: top: Mean multiplicity in the pseudo rapidity range
+±0.9 obtained at the three energies and the two PDFs in
+function of the sphericity variable. Bottom: ratio of the me an
+multiplicities for the two PDF’s used for the three energies ,
+again in function of the sphericity variable.
+1-T0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4Ratio
+00.20.40.60.811.21.4 = 200 GeVs
+ = 900 GeVs
+ = 10 TeVs
+FIG. 3: Ratio of sphericity distributions at diﬀerent energ ies1-T0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4CTEQ)
+t,j p
+j∑/mean (
+ZEUS)
+t,i p
+i∑mean (
+0.40.50.60.70.80.911.11.21.31.4
+ = 200 GeVs
+ = 900 GeVs
+ = 10 TeVs
+FIG. 4: Ratio of mean total transverse momenta for the two
+PDFs versus sphericity calculated for 3 energies
+1-T0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4CTEQ/mean (Recoil)
+ZEUSmean (Recoil)
+0.50.60.70.80.911.11.21.31.41.5
+ = 200 GeVs
+ = 900 GeVs
+ = 10 TeVs
+FIG. 5: Ratio of the mean recoil values for two PDF’s versus
+sphericity calculated for 3 energies.
+distribution of CTEQ5L the chance of getting a collision
+of two partons of similar momentum is more probable,
+hence resulting in a larger probability that the resulting
+jets be contained within the acceptance.
+V. CONCLUSION
+The bulk sphericity distributions of several parameters
+exhibit marked dependence on the gluon PDF used for
+the computation. As the PDFs for low xBhave a larger
+uncertainty we believe that the present results point to
+a possibility to further reﬁne gluon PDFs at low xB
+using the approach presented. In the course of this
+work we have also tried to check the dependence of the
+parameters on diﬀerent fragmentation functions used.
+The results however do not demonstrate a similar depen-
+dence as for the PDFs. As one can expect, varying the
+fragmentation functions one aﬀects slightly the absolute4
+value of the parameter dependence on sphericity but not
+the shape.
+In summary, the sphericity distributions of several pa-
+rameters are found to be highly sensitive on the details
+of the gluon PDF. This opens an interesting possibility
+to compare the existing gluon PDFs with the experimen-
+tal results using a small sample of minimum bias data
+in pp collisions. The Pb Pb collisions, we are currently
+studying [11] in the same framework will beneﬁt verymuchfromthepresentanalysistodeterminetheexpected
+gluon saturation at low xB.
+Acknowledgments
+Support for this work has been received in part by
+DGAPA-UNAM under PAPIIT grants IN115808 and
+IN116508 as well as by the HELEN program.
+[1] Pavel, M. Nodolsky, et. al., Phys. Rev. D 78,013004
+(2008).
+[2] H-L. Lai, et. al., Parton Distribution for Event Genera-
+tors arXiv:0910.4183
+[3] A. Ayala et. al., Eur.Phys.J. C62535, (2009). A. Ortiz,
+G. Pai´ c, ALICE-INT-2009-015 (hep-ex/0912.0909).
+[4] A. Banﬁ et. al., JHEP 0408, 062 (2004).
+[5] W. K. Tung Perturbative QCD and the parton structure
+of the nucleon In *Shifman, M. (ed.): At the frontier of
+particle physics, Vol. 2, 887-971 (2001) .[6] T. Sj¨ ostrand, M. Bengtsson, Comput. Phys. Commun. 43
+(1987) 367.
+[7] A. Morales, et. al., Eur.Phys.J.C , 50:435-466, (2007).
+[8] (ZEUS Collaboration), Eur.Phys.J.C , 42-1:1-16, (2005).
+[9] H. L. Lai et. al., Eur.Phys.J.C , 12-3:375-392, (2000).
+[10] J. F. Grosse-Oetringhaus and C. Ekman, ALICE-INT-
+2007-005.
+[11] E. Cuautle, A. Ortiz, G. Pai´ c, work in progress

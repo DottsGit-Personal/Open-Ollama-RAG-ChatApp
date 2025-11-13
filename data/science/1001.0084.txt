@@ -1,0 +1,374 @@
+arXiv:1001.0084v1  [gr-qc]  31 Dec 2009The Schr¨ odinger picture of standard cosmology
+N. Barbosa-Cendejas and M.A. Reyes
+Departamento de F´ ısica, Universidad de Guanajuato,Apdo. Postal E143, 37150 Le´ on,Gto., M´ exico
+November 4, 2018
+We consider a time independent Schr¨ odinger type equation d erived from the equa-
+tions of motion that drives a single scalar ﬁeld in a standard cosmology model for
+inﬂation in a ﬂat space-time with a Friedman-Robertson-Wal ker (FRW) metric with
+a cosmological constant. We ﬁnd that all the 1-dimensional b ound state solutions of
+quantum mechanics lead to at least one exact solution for the dynamical equations
+of standard cosmology, and that these solutions resemble th e most recurrent inﬂa-
+tionary solutions found in the literature. The analogies de rived from this approach
+may be used to realize a deeper understanding of the dynamics of the model.
+Keywords : Cosmology; Inﬂation; FRW; Schr¨ odinger.
+PACS: 02.30.Hq; 03.65.-w; 11.30.Pb
+1 Introduction
+The current approach of inﬂation is that it occurs at some stage in t he early universe and
+that its source is one or several scalar ﬁelds [1]-[2]. The diﬀerent mod els of inﬂationary
+cosmology consider as a general feature a rapid growth of the size of the universe at
+some stage in the early universe [3]-[5], this simple deﬁnition of inﬂation may set the
+initial conditions for the large scale structure of the universe. In t his approach one must
+consider an arbitrary functional form for the scalar ﬁeld (SF) pot entialV(φ), since there
+is no unique prescription or phenomenology that could help to determ ine it.
+Following this approach, let us consider a homogeneous and isotropic Universe, i.e., a
+model in a FRW background with a scalar homogenous ﬁeld φ(t) minimally coupled to
+gravity and nonzero cosmological constant
+/integraldisplay
+d4x√−g/bracketleftbigg
+R+Λ+1
+2(∇φ)2+V(φ)/bracketrightbigg
+, (1)
+where (∇φ)2=gµν∂µ∂νandV(φ) is the potential energy of the ﬁeld. In order to describe
+the dynamics of the scalar ﬁeld during inﬂation the usual treatment is performed [1]-[6],
+ﬁnally leading to the pair of equations
+3H2=1
+2˙φ2+V(φ)+Λ (2)
+¨φ+3H˙φ=−dV(φ)
+dφ, (3)
+where dot means derivative with respect to time, and we set MPl= 1, ¯h=c= 1. The
+time derivative of eq.(2) is related to eq.(3) through the momentum e quation
+˙H=−1
+2˙φ2. (4)
+1With the use of eqs. (3) and (4) the dynamics of the model may be de scribed by the
+single equation:
+3H2+˙H=V(φ)+Λ. (5)
+which canberecognizedasaRiccatiequationfortheHubbleparame terH(t). TheRiccati
+equation has been one of the most useful equations of mathematic al physics, specially
+in supersymmetric quantum mechanics (SUSY QM.) Its appearance h ere immediately
+suggests a QM approach to inﬂationary cosmology based on the sec ond order diﬀerential
+equation derived from it. This has been proposed earlier, the ansat z being to replace xfor
+tand to assign a(t) =ψ(x), however leading to a nonlinear Schr¨ odinger equation [7]. In
+this article we propose an alternative transformation which leads to a linear Schr¨ odinger
+equation, where the SF potential V(φ) can be easily interpreted as the QM potential
+U(x), a simple scheme whose consequences seem not to have been explo red up to now.
+By simple algebraic comparisons we end up with a powerful method to d erive particular
+exact solutions that may be useful for understanding the inﬂation ary period. A similar
+approach for the case of cosmology with a perfect ﬂuid has been pr oposed earlier, but in
+the context of classical mechanics ([11, 12].) However, the fact th at in our approach no
+restriction is made on the form of the SF potential allows us to probe a deeper connection
+between QM and inﬂationary cosmology.
+2 The Schr¨ odinger picture of Standard Cosmology
+2.1 A Schr¨ odinger type equation for inﬂation
+By deﬁning ψ(t) through
+H≡1
+3˙ψ(t)
+ψ(t), (6)
+theRiccatiequation(5)canbetransformedintotheonedimension alSchr¨ odinger equation
+/bracketleftBigg
+−d2
+dt2+3V(t)/bracketrightBigg
+ψ(t) =−3Λψ(t), (7)
+we shall consider solutions to eq.(7) based only on the fact that the Hubble parameter
+H(t) cannot be a singular function, implying that ψ(t) has to be an at least C1class
+function without zeros, but without any other restriction. For ex ample, we may consider
+all ground state solutions of known exactly solvable bound state pr oblems in QM as
+solutions to eq.(7). Hence, an immediate equivalence arises between the SF potential
+V(φ) and the cosmological constant Λ, with the QM potential U(x) and ground state
+energy eigenvalue Eg,1respectively,
+3V(φ(t))+3Λ↔2U(x)−2Eg (8)
+1For simplicity we shall use m= 1 for the Schr¨ odinger particle.
+2This is indeed a very simple proposal, which shows that all the known ex actly solvable
+stationary problems of 1-dimensional QM must provide at least one e xact solution to the
+cosmological Schr¨ odinger type equation. The general algebraic p rocedure is very simple:
+for any given QM problem, use the ground state eigenfunction ψg(x) and eq.(6) to ﬁnd
+H(t); then, use eq.(4) to ﬁnd φ(t), which together with eq.(8) deﬁnes V(φ).
+For example, in the QM case of the simple harmonic oscillator (SHO), wh ereU(x) =
+ω2x2/2, the Schr¨ odinger equation
+/bracketleftBigg
+−d2
+dx2+2/parenleftBiggω2
+2x2−En/parenrightBigg/bracketrightBigg
+ψn(x) = 0. (9)
+has the wave functions and energy eigenvalues given by
+ψn(x) =/radicalBigg
+1
+2nn!/radicalbiggω
+πe−w
+2x2Hn(√ωx)En=/parenleftbigg
+n+1
+2/parenrightbigg
+ω (10)
+whereHn(y) are the Hermite polynomials. In the case n= 0, the Hermite polynomial is
+H0(√ωx) = 1, with energy and wave function
+E0=1
+2ω ψ 0(x) =4/radicalbiggω
+πe−ω
+2x2. (11)
+To construct the corresponding cosmological variables, we replac exbytin eq.(11), and
+use eq.(6) to ﬁnd the associated Hubble’s parameter
+H(t) =−ω
+3t (12)
+and with the use of eq.(4) we obtain the expression of the scalar ﬁeld
+φ(t) =/radicalBigg
+2w
+3t (13)
+Finally, we use eqs.(8) and (13) to ﬁnd the SF potential V(φ) and the constant Λ,
+V(φ) =λφ2,Λ =−2
+3λ (14)
+whereλ=ω
+2. As one can see, the scalar ﬁeld potential derived from the SHO pot ential
+turns out to be λφ2. Surprisingly, one of the most useful and basic potentials of QM
+transforms into one of the most useful potentials in this cosmologic al model (see [1], [13],
+and references there in.) It is even more surprising that other typ ical QM potentials
+resemble typical scalar ﬁeld potentials in standard cosmology; for e xample, compare the
+results in [8] and [14] to the ones obtained in Table 1.
+32.2 Inﬂationary solutions from QM central force problems
+In Table 1 we have left some free parameters which can be used to ﬁx the cosmological
+variables strength, even though their overall behavior is alreadyd etermined. For example,
+the cosmological solutions above may be set to correspond to the h alf plane solutions of
+the Schr¨ odinger problem, with the initial condition a(0)∝negationslash= 0 ift= 0 whenx= 0, and
+it is not possible to have as initial condition a= 0. Since in the half plane not only the
+QM ground state function is nodeless, but also the ﬁrst excited sta te function is, we end
+up with two exact standard cosmology solutions with diﬀerent initial c onditions derived
+from each 1-dimensional QM problem in the half plane t≥0, the second one with the
+initial condition a(0) = 0.
+Following this discussion, it is obvious that all ground state solutions t o the radial
+problem
+−d2unl
+dr2+2/bracketleftBigg
+U(r)+l(l+1)
+2r2−Enl/bracketrightBigg
+unl= 0 (15)
+are useful to derive exact solutions to the SF equations. Moreove r, since all eigenfunc-
+tions of the radial problems with angular momentum l=n−1 are nodeless, we end up
+with an inﬁnity of exact solutions to the SF dynamics equations, para temeterized by a
+cosmological constant that belongs to the discrete set Λ n=−1
+3En, with the SF potential
+always including the centrifugal barrier term n(n−1)/t2, and with the initial condition
+a(0) = 0.
+As an example, let us consider the Hydrogen like potential U(r) =−Zq2/rwere all
+the nodeless eigenfunctions are given by
+un,n−1(r)∝rne−Zαr/n.
+where the ﬁne structure constant αand the atom number Z, are constants only used to
+determine the strength of the cosmological variables. For the gro und state ( n= 1) the
+cosmological variables are
+H(t) =1
+3t−Zα
+3
+φ(t) =/radicalBigg
+2
+3lnt (16)
+V(φ) =−λe−√
+3/2φ
+Λ =λZ
+2
+whereλ= 2Zα2/3, while for n>1, they become
+H(t) =n
+3t−Zα
+3n
+φ(t) =/radicalBigg
+2n
+3lnt (17)
+4Schr¨ odinger picture Standard Cosmology
+ψ0(x) =4/radicalBig
+ω
+πe−ω
+2x2H(t) =−2λ
+3t,φ(t) = 2/radicalBig
+λ
+3t
+SHO E0=1
+2ω Λ =−2
+3λ
+U(x) =1
+2ω2x2V(φ) =λφ2,λ=ω
+2
+ψ0(x) = 8e−2e−αxe−3
+2αxH(t) =32
+3/radicalBig
+λ
+3/parenleftbigg
+e−16/radicalbig
+λ
+3t−3
+4/parenrightbigg
+,φ(t) =−4√
+3e−4/radicalbig
+λ
+3t
+MOR E0=−9
+8α2Λ = 16λ
+U(x) = 2α2(e−2αx−2e−αx) V(φ) =λφ4−32
+3λφ2,λ=3α2
+64
+ψ0(x) =1
+2λcosλ(αx) H(t) =−αλ
+3tan(αt),φ(t) =/radicalBig
+2λ
+3ln/radicalbigg
+1+sin(αt)
+1−sin(αt)
+PTT E0=α2λ2
+2Λ =−λ2α2
+3
+U(x) =α2
+2λ(λ−1)
+cos2(αx)V(φ) =α2
+3λ(λ−1)cosh2/parenleftBig/radicalBig
+3
+2λφ/parenrightBig
+ψ0(x) =1
+coshαxH(t) =−α
+3tanh(αt),φ(t) =/radicalBig
+2
+3arcsin(tanh( αt))
+PTH E0=−α2
+2Λ =α2
+3
+U(x) =−α2
+cosh2(αx)V(φ) =−2α2
+3cos2/parenleftBig/radicalBig
+3
+2φ/parenrightBig
+un,n−1(r) =(2α)3/2√
+2n4(2n−1)!/parenleftBig
+2αr
+n/parenrightBigne−αr/nH(t) =n
+3t−α
+3n,φ(t) =/radicalBig
+2n
+3lnt
+HA En=−α2
+2n2 Λ =α2
+3n2
+Ueff(r) =−α
+r+n(n−1)
+2r2 V(φ) =n(n−1)
+3/bracketleftbigg
+e−2/radicalbig
+3
+2nφ−2α
+n(n−1)e−/radicalbig
+3
+2nφ/bracketrightbigg
+Table 1: Standard Cosmology exact solutions from six Schr¨ odinger problems: simple
+harmonic oscillator (SHO), Morse potential (MOR), Trigonometric P ¨ oschl Teller (PTT),
+Hyperbolic P¨ oschl Teller (PTH), and Hydrogen Atom (HA).
+V(φ) =n(n−1)
+3/bracketleftBigg
+e2√
+3/2nφ−2Zα
+n(n−1)e−√
+3/2nφ/bracketrightBigg
+Λ =Z2α2
+3n2
+Hence, for n= 1 the SF potential becomes an exponential potential, while for n >1,
+if we choose Zα=n(n−1) it becomes a Morse potential. The appearance of this
+Morse potential is a very interesting feature of this model, since th is potential is very
+slowly varying for t→ ±∞, has a very soft minimum, and later exponentially grows for
+t→ ∓∞, the sign depending on the parameters. Therefore, this potentia l has all the
+desired features to allow a SF φ(t) slowly roll to the minimum of the SF potential V(φ)
+[9]. All these results are also included in Table 1.
+52.3 QM and Standard Cosmology analogies
+Looking at Table 1, the Schr¨ odinger picture of standard cosmolog y seems to be a fruitful
+approach to the construction of exact solutions to the inﬂationar y equations (2,3), since
+all potentials fromthese known QM problems resemble known SF pote ntials. It may seem
+that there must exist further analogies between these two models of the micro and macro
+cosmos than just an algebraic resemblance.
+In the present analogy ψ(t) =a3(t) describes the way the universe volume is expand-
+ing since in the Schr¨ odinger picture, ψ(x) is related to probability conservation, hence
+the equivalence proposed here points to energy density conserva tion in this expanding
+universe. On the other hand, the only constant term in the QM prob lem is the energy E,
+which therefore determines the cosmological constant Λ of eq.(7) , which could be associ-
+ated with the vacuum energy density. Therefore, the sign of Λ is co mpletely determined
+by the corresponding QM problem from which the SF solution is derived , becoming an
+immediate check for the dynamical characteristics that one wants to determine with the
+proposed SF potential.
+With respect to the scalar ﬁeld φ(t), following eqs.(4), (5) and (8), we can see that
+wherever ˙a(t)≃0,
+φ(t)≃/integraldisplayt
+dy/radicalBig
+2(E−U(y)) (18)
+which resembles the action S(x) of the quantum theory.
+2.4 Slow Roll and WKB approximations
+One further analogy deserves special attention. Beginning with th e slow roll approxima-
+tion condition /vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingleV′
+V/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle2
+<1
+where we should do the substitution V→V+Λ to comply with eq.(5), we can see that
+since ¨a/a>0 implies that V+Λ>˙φ2, we have that
+/vextendsingle/vextendsingle/vextendsingle˙V/vextendsingle/vextendsingle/vextendsingle2=/vextendsingle/vextendsingle/vextendsingle˙φV′/vextendsingle/vextendsingle/vextendsingle2<|V+Λ||V′|2<|V+Λ|3
+In our QM analogy, we would have to do the substitutionsdV
+dt→dU
+dxand|V+Λ| →
+|E−U|, giving/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingledU
+dx/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle2
+<|E−U|3
+which is just the WKB approximation
+/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingled2W
+dx2/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle</vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingledW
+dx/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle2
+of the stationary problem, where W(x) =±/radicalBig
+2(E−U) is Hamilton’s principal function.
+63 An ever expanding universe
+All the QM problems considered here lead to two possible initial conditio ns for the scale
+factor,a(0) = 0 or a(0)>0, but with only one ﬁnal condition, a(t)→0 ast→ ∞,
+if eqs.(2,3) may be used for all the half plane t≥0. If this Big Crunch could not be
+attainable, as observations seem to predict, our simple approach m ay still be useful to
+describe the expected dynamics.
+Ifa(t) is always increasing, then a QM bound state is not the right solution. However,
+as is depicted in Ref.[10], the Schr¨ odinger equation (7) has an inﬁnite number of wave
+functions that diverge to ±∞ast→ ∞, for the continuum set of energies E, with
+En<E <E n+1, as is depicted in Fig.(1) for the case of the SHO.
+ta/LParen1t/RParen1
+Figure 1: Diﬀerent forms of a(t) obtained from one QM problem.
+In Fig.(1) the dashed curves correspond to a(t) obtained from the ground state and
+ﬁrst excited state eigenfunctions, ψ0(x) andψ1(x). These two curves have a(t)→0 as
+t→ ∞. On the other hand, the solid curves draw the scale factor for thr ee diﬀerent
+cosmological constants, derived from the energy eigenvalues, E<E 0,E0<E<E 1and
+E1<E< E 2, whose wave functions diverge to + ∞,−∞and +∞again, the ﬁrst one
+without nodes and the other with increasing number of nodes. Ther efore, only the wave
+function with E <E 0could lead to a physical solution a(t)>0 for allt, describing a
+cosmological solution for an ever expanding universe.
+4 Conclusion
+In this article we present a simple ansatz that links two completely sep arate models, one
+being a cosmological model for inﬂation of the macrocosmos, and th e other a quantum
+model for the microcosmos. Surprisingly, we have found that the m ost common potential
+functions in these two models map from one to the other, with proba bility conservation in
+7QM reﬂecting into energy density conservation in the cosmological m odel, a cosmological
+constant determined by the energy eigenvalue in the former, and t he WKB approximation
+reﬂecting into the slow roll approximation. All these analogies deﬁne deep connection
+between the two models, with respect to their dynamical behaviors . Finally, our initial
+proposal was to look at the bound state solutions of the QM problem s to describe a non
+singular Hubble variable for the cosmological model, but since presen t observations seem
+to indicate that the universe is not receding but on the contrary ac celerates with time,
+we may have to recur to the unbounded solutions of the Schr¨ oding er problem, supporting
+even more the validity of the simple analogy developed in this work.
+5 Acknowledgements
+We would like to thank M. Sabido for useful comments. We also ackwole dge support from
+CONACYT of Mexico, through a scholarship for NBC, and through gr ant No. SEP-2003-
+C0245364.
+References
+[1] Bruce A. Bassett, Shinji Tsujikawa, David Wands, Rev. Mod. Phys. 78(2006) 536.
+[2] Edmund J. Copeland, M. Sami and Shinji Tsujikawa, Int. J. Mod. Phys. D. 15
+(2006) 1753-1936.
+[3] Andrew R. Liddle and David H. Lyth, “Cosmological Inﬂation and Large Scale
+Structure” , Cambridge University Press (2000).
+[4] Andrei Linde, “Particle Physics and Inﬂationary Cosmology” , Harwood Academic
+Publishers, (1990).
+[5] Edmund J. Copeland, Edward W. Kolb Andrew R. Liddle and James E. Lidsey,
+Phys. Rev. D 48(1993) 2529-1993.
+[6] Andrew R. Liddle, Paul Parsons and John D. Barrow, Phys. Rev. D. 50(1994)
+7222-7232.
+[7] Rachael M. Hawkins and James E. Lidsey, Phys. Rev. D. 66(2002) 023523.
+[8] V. V.Kiselev andS. A.Timofeev,“Quasi-attractor dynamics of λ−φ4−inflation ,”
+arXiv:0801.2453 [gr-qc].
+[9] M. A. Reyes, “On exact solutions to the scalar ﬁeld equations in st andard cosmol-
+ogy,” arXiv:0806.2292 [gr-qc].
+[10] B. Mielnik and M. A. Reyes, J. Phys. A 29, 6009 (1996).
+8[11] J. A. S. Lima, J. A. M. Moreira and J. Santos, Gen. Rel. Grav. 30, (1998) 425 .
+[12] J. A. S. Lima, Am. J. Phys. 69(2001) 1245
+[13] L. A. Urena-Lopez and M. J. Reyes-Ibarra, Int. J. Mod. Phy s. D18, 621 (2009).
+[14] T. Matos, J. R. Luevano, I. Quiros, L. A. Urena-Lopez and J. A. Vazquez, Phys.
+Rev. D80, 123521 (2009).
+9

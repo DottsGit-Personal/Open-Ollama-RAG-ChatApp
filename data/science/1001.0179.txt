@@ -1,0 +1,215 @@
+arXiv:1001.0179v1  [math.SG]  31 Dec 2009Deformations of Poisson structures
+by closed 3-forms1
+O. I. Mokhov
+Abstract
+We prove that an arbitrary Poisson structure ωij(u) and an arbitrary closed 3-
+formTijk(u) generate the local Poisson structure Aij(u,ux) =Mi
+s(u,ux)ωsj(u),where
+Mi
+s(u,ux)(δs
+j+ωsp(u)Tpjk(u)uk
+x) =δi
+j, on the corresponding loop space. We obtain also
+a special graded ε-deformation of an arbitrary Poisson structure ωij(u) by means of an
+arbitrary closed 3-form Tijk(u).
+In this paper we prove that an arbitrary Poisson structure ωij(u) and an arbitrary
+closed 3-form Tijk(u) generate the local Poisson structure
+Aij(u,ux) =Bi
+s(u,ux)ωsj(u), (1)
+where
+Bi
+s(u,ux)Ms
+j(u,ux) =δi
+j, Ms
+j(u,ux) =δs
+j+ωsp(u)Tpjk(u)uk
+x, (2)
+i.e., the matrix operator Aij(u,ux) gives the Poisson bracket
+{I,J}=/integraldisplayδI
+δui(x)Aij(u,ux)δJ
+δuj(x)dx (3)
+on the space of functionals on the corresponding loop space.
+LetMNbe an arbitrary smooth N-dimensional manifold with the local coordinates
+u= (u1,...,uN). By the loop space ΩMof the manifold MNwe mean, in this paper,
+the space of all smooth parametrized mappings of the circle S1intoMN,γ:S1→MN,
+γ(x) ={ui(x)}, x∈S1. The tangent space TγΩMof the loop space Ω Mat the point γ
+consist of all smooth vector ﬁelds ξ={ξi,1≤i≤N}, deﬁned along the loop γwith
+ξ(γ(x))∈Tγ(x)M,∀x∈S1, whereTγ(x)Mis a tangent space of the manifold Mat the
+1The work was supported by the Max-Planck-Institut f¨ ur Mathem atik (Bonn, Germany), by the
+Russian Foundation for Basic Research (project no. 08-01-0046 4) and by the programme “Leading
+Scientiﬁc Schools” (project no. NSh-1824.2008.1).
+1pointγ(x). All closed 2-forms (presymplectic structures) on the loop spac e ΩMthat
+are given by matrix operators of the form ωij(u,ux,...,u (k)), i.e., all closed 2-forms of
+the form
+ω(ξ,η) =/integraldisplay
+S1ξiωij(u,ux,...,u (k))ηjdx, (4)
+whereξ,η∈TγΩM, were completely described in [1] (see also descriptions of various
+diﬀerential-geometric classes of symplectic (presymplectic) and Po isson structures in
+[2]–[9]).
+Theorem 1 [1]. A bilinear form (4)is a closed skew-symmetric 2-form (a presym-
+plectic structure )on the loop space ΩMif and only if
+ωij(u,ux,...,u (k)) =Tijk(u)uk
+x+Ωij(u), (5)
+whereTijk(u)is anarbitrary closed3-formonthe manifold MNandΩij(u)is anarbitrary
+closed 2-form on MN.
+If the matrix ωij(u,ux,...,u (k)) is nondegenerate, det( ωij(u,ux,...,u (k)))/ne}ationslash= 0, then
+the corresponding presymplectic form (4), (5) is symplectic and th e inverse matrix
+ωij(u,ux,...,u (k)),ωis(u,ux,...,u (k))ωsj(u,ux,...,u (k)) =δi
+j, gives the Poisson struc-
+ture
+{I,J}=/integraldisplayδI
+δui(x)ωij(u,ux,...,u (k))δJ
+δuj(x)dx (6)
+on the loop space Ω M, i.e., the bracket (6) is skew-symmetric and satisfy the Jacobi
+identity. Therefore Theorem 1 gives the complete description of all nondegenerate
+Poisson structures on the loop space Ω Mthat are given by matrix operators of the
+formωij(u,ux,...,u (k)), i.e., all the nondegenerate Poisson brackets of the form (6),
+det(ωij(u,ux,...,u (k)))/ne}ationslash= 0 (such nondegenerate Poisson structures were studied by As-
+tashov and Vinogradov in [9], see also [7]–[8] and [1]–[6]). We note that if t he closed
+2-form Ω ij(u) is nondegenerate, det(Ω ij(u))/ne}ationslash= 0, i.e, the form Ω ij(u) is symplectic on
+MN, then the 2-form (5) is a nondegenerate form on Ω Mfor any closed 3-form Tijk(u)
+on the manifold MNsince it is obvious that in this case det( Tijk(u)uk
+x+ Ωij(u))/ne}ationslash= 0.
+Thus we can deﬁne, on the loop space of an arbitrary symplectic man ifoldMN, the
+Poisson bracket
+{I,J}=/integraldisplayδI
+δui(x)ωij(u,ux)δJ
+δuj(x)dx, (7)
+where
+ωli(u,ux)(Tijk(u)uk
+x+Ωij(u)) =δl
+j, (8)
+IandJbeing arbitrary functionals on Ω M. The Poisson bracket (7), (8) is a par-
+tial case of the bracket (1)–(3), namely, the case when the Poiss on structure ωij(u) is
+nondegenerate, det( ωij(u))/ne}ationslash= 0,ωij(u) = Ωij(u),Ωis(u)Ωsj(u) =δi
+j,since
+ωij(u,ux) =Ci
+s(u,ux)Ωsj(u), (9)
+2where
+Cl
+s(u,ux)(δs
+j+Ωsi(u)Tijk(u)uk
+x) =δl
+j. (10)
+The case of degenerate Poisson structures ωij(u), det(ωij(u)) = 0, is much more com-
+plicated. We note that in contrast to the case of all closed 2-forms (presymplectic
+structures) of the form (4) (Theorem 1) the problem of descript ion of all degenerate
+Poisson structures of the form (6) is a very complicated and unsolv ed problem.
+Theorem 2. An arbitrary Poisson structure ωij(u)and an arbitrary closed 3-form
+Tijk(u)give the local Poisson bracket (1)–(3).
+First of all, we note that obviously the matrix operator Aij(u,ux) (1), (2) is skew-
+symmetric.
+Lemma. A skew-symmetric matrix operator Aij(u,ux) (1)gives a Poisson bracket
+(3)if and only if the following relations hold:
+ωij(u)ωrp(u)∂Ms
+r
+∂uix=ωis(u)ωrj(u)∂Mp
+r
+∂uix, (11)
+ωij(u)ωrp(u)∂Ms
+r
+∂ui−ωij(u)d
+dx/parenleftbigg∂Ms
+r
+∂ui
+xωrp(u)/parenrightbigg
++∂ωij
+∂urωrp(u)Ms
+i(u)+
++ωis(u)ωrj(u)∂Mp
+r
+∂ui+d
+dx/parenleftbig
+ωis(u)/parenrightbig∂Mp
+r
+∂uixωrj(u)+∂ωis
+∂urωrj(u)Mp
+i(u)+
++ωip(u)ωrs(u)∂Mj
+r
+∂ui+d
+dx/parenleftbig
+ωip(u)/parenrightbig∂Mj
+r
+∂ui
+xωrs(u)+∂ωip
+∂urωrs(u)Mj
+i(u) = 0.(12)
+IfMi
+s(u,ux) =δs
+j+ωsp(u)Tpjk(u)uk
+x, then relations (11), (12) hold for an arbitrary
+Poisson structure ωij(u) and an arbitrary closed 3-form Tijk(u).
+Let us add an arbitrary parameter εin the formula for our Poisson structure:
+Aij(ε,u,ux) =Bi
+s(ε,u,ux)ωsj(u), (13)
+where
+Bi
+s(ε,u,ux)(δs
+j+εωsp(u)Tpjk(u)uk
+x) =δi
+j. (14)
+We can now expand the Poisson structure Aij(ε,u,ux) in series in ε:
+Aij(ε,u,ux) =ωij(u)−εωis(u)Tsrk(u)ωrj(u)uk
+x+···. (15)
+This expansion give an ε-deformation of an arbitrary Poisson structure ωij(u) by means
+of an arbitrary closed 3-form Tijk(u).
+We note that this ε-deformation of an arbitrary Poisson structure ωij(u) belongs to a
+special class of graded ε-deformations of Poisson structures (see, for example, [10], [11]) .
+3Acknowledgements. The work was supported by the Max-Planck-Institut f¨ ur
+Mathematik (Bonn, Germany), by the Russian Foundation for Basic Research (project
+no. 08-01-00464) and by a grant of the President of the Russian F ederation (project no.
+NSh-1824.2008.1).
+References
+[1] O. I. Mokhov, “Symplectic and Poisson geometry on loop spaces o f manifolds and
+nonlinearequations”, In: TopicsinTopologyandMathematicalPhys ics, Ed. S.P.Novikov,
+Amer. Math. Soc., Providence, RI, 1995, pp. 121–151;
+http://arXiv.org/hep-th/9503076 (1995).
+[2] O. I. Mokhov, “Poisson and symplectic geometry on loop spaces o f smooth man-
+ifolds”, In: Geometry from the Paciﬁc Rim, Proceedings of the Paciﬁ c Rim Geometry
+Conference held at National University of Singapore, Republic of Sin gapore, December
+12–17, 1994, Eds. A.J.Berrick, B.Loo, H.-Y.Wang, Walter de Gruyter , Berlin, 1997, pp.
+285–309.
+[3] O. I. Mokhov, “Diﬀerential geometry of symplectic and Poisson s tructures onloop
+spaces of smooth manifolds, and integrable systems”, Trudy Mate m. Inst. Akad. Nauk,
+Vol. 217, Moscow, Nauka, 1997, pp. 100–134; English translation in Proceedings of the
+Steklov Institute of Mathematics (Moscow), Vol. 217, 1997, pp. 9 1–125.
+[4] O. I. Mokhov, “Symplectic and Poisson structures on loop space s of smooth
+manifolds, and integrable systems”, Uspekhi Matematicheskikh Na uk, Vol. 53, No. 3,
+1998, pp. 85–192; English translation in Russian Mathematical Surv eys, Vol. 53, No.
+3, 1998, pp. 515–622.
+[5] O. I. Mokhov, “Symplectic and Poisson geometry on loop spaces o f smooth man-
+ifolds and integrable equations”, Moscow–Izhevsk, Institute of C omputer Studies, 2004
+(In Russian); English version: Reviews in Mathematics and Mathemat ical Physics, Vol.
+11, Part 2, Harwood Academic Publishers, 2001; Second Edition: Re views in Math-
+ematics and Mathematical Physics, Vol. 13, Part 2, Cambridge Scien tiﬁc Publishers,
+2009.
+[6] O. I. Mokhov, “Symplectic forms on loop space and Riemannian geo metry”,
+Funkts. Analiz i Ego Prilozh., Vol. 24, No. 3, 1990, pp. 86–87; English translation in
+Functional Analysis and its Applications, Vol. 24, No. 3, 1990, pp. 24 7–249.
+[7] A. M. Astashov, “Normal forms of Hamiltonian operators in ﬁeld t heory”, Dokl.
+Akad. Nauk SSSR, Vol. 270, No. 5, 1983, pp. 363–368; English tran slation in Soviet
+Math. Dokl., Vol. 27, No. 3, 1983, pp. 685–689.
+[8] A. M. Vinogradov, “Hamiltonian structures in ﬁeld theory”, Dokl. Akad. Nauk
+SSSR, Vol. 241, No. 1, 1978, pp. 18–21; English translation in Soviet Math. Dokl., Vol.
+19, No. 4, 1978, pp. 790–794.
+4[9] A. M. Astashov and A. M. Vinogradov, “On the structure of Ham iltonian op-
+erators in ﬁeld theory”, J. Geom. Phys., Vol. 3, No. 2, 1986, pp. 78 1–785; English
+translation in Soviet Math. Dokl., Vol. 27, 1983, pp. 263–287.
+[10] B. Dubrovin and Y. Zhang, “Normal forms of hierarchies of inte grable PDEs,
+Frobenius manifolds and Gromov - Witten invariants”; arXiv:math/01 08160 (2001).
+[11] B. Dubrovin, S.-Q. Liu and Y. Zhang, “On Hamiltonian perturbatio ns of hyper-
+bolic systems of conservation laws, I: Quasi-triviality of bi- Hamiltonia n perturbations,”
+Comm. Pure Appl. Math., Vol. 59, 2006, 559 - 615; arXiv:math/04100 27 (2004).
+O. I. Mokhov
+Centre for Nonlinear Studies,
+L.D.Landau Institute for Theoretical Physics,
+Russian Academy of Sciences,
+Kosygina str., 2,
+Moscow, 117940, Russia;
+Department of Geometry and Topology,
+Faculty of Mechanics and Mathematics,
+M.V.Lomonosov Moscow State University,
+Moscow, 119992, Russia
+E-mail: mokhov@mi.ras.ru; mokhov@landau.ac.ru; mokhov@bk.ru
+5

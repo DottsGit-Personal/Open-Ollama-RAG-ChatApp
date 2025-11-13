@@ -1,0 +1,373 @@
+arXiv:1001.0468v1  [quant-ph]  4 Jan 2010Wave and particle in molecular interference lithography
+Thomas Juﬀmann,1Stefan Truppe,1Philipp Geyer,1Andr´ as G. Major,1,∗
+Sarayut Deachapunya,1,2Hendrik Ulbricht,1,3and Markus Arndt1
+1Faculty of Physics, University of Vienna, Boltzmanngasse 5 , 1090 Vienna, Austria
+2Department of Physics, Faculty of Science, Burapha Univers ity, Chonburi 20131, Thailand
+3School of Physics and Astronomy, University of Southampton , SO17 1BJ, UK
+(Dated: May 28, 2018)
+The wave-particle duality of massive objects is a cornersto ne of quantum physics and a key prop-
+erty of many modern tools such as electron microscopy, neutr on diﬀraction or atom interferometry.
+Here we report on the ﬁrst experimental demonstration of qua ntum interference lithography with
+complex molecules. Molecular matter-wave interference pa tterns are deposited onto a reconstructed
+Si(111)7 ×7 surface and imaged using scanning tunneling microscopy. T hereby both the particle
+and the quantum wave character of the molecules can be visual ized in one and the same image.
+This new approach to nanolithography therefore also repres ents a sensitive new detection scheme
+for quantum interference experiments.
+PACS numbers: 01.55.+b,03.65.-w, 03.65.Ta,03.75.-b
+The de Broglie wave nature of massive particles has
+always been an essential ingredient in the conceptual de-
+velopmentofquantum mechanics[1,2]. First demonstra-
+tions ofthe electron wavenature[3, 4] were soonfollowed
+byexperimentsonthe diﬀractionofheliumatomsandH 2
+molecules [5] as well as neutrons [6, 7]. The build-up of
+quantum interference patterns from single particles was
+shown in particularly nice demonstrations with individ-
+ualphotons[8]andelectrons[9,10]. Withtheavailability
+of laser and nanofabrication technologies, atom interfer-
+ometry and coherent lithography have become rapidly
+developing ﬁelds of research [11–14]. Recently, quan-
+tum interference experiments have also been extended
+to composite nanoparticles, such as fullerenes [15], He
+clusters [16] or large ﬂuorinated molecules [17, 18].
+Our present demonstration complements these earlier
+studies as it represents the ﬁrst realization of quantum
+interferencelithographywith molecules. It therebycloses
+two gaps that so far existed in the ﬁeld of macromolecule
+interferometry: On the one hand, previous experiments
+had not been able to visualize the individual particles
+that traversed the interferometer. Further, it has also
+been discussed by several authors that ionizing detectors
+are ineﬃcient already for medium-sized organic materi-
+als [19, 20]. Being sensitive to single molecules, our
+new lithographic interference detection scheme provides,
+for the ﬁrst time, the opportunity to visualize both the
+quantum wave features and the composite particle na-
+ture of individual molecules in one and the same image
+and experiment. On the other hand, we show that near-
+ﬁeld interferometry is a very natural approach to gen-
+erating surface-deposited and immobilized nanopatterns
+with particles that can, in principle, be regarded as func-
+tional entities by themselves. Our experiment thus oper-
+ates at the interface between matter-wave interferometry
+and surface nanoscience.
+A schematic illustration of the setup is shown in Fig-ure 1. The experiment is sectioned into ﬁve diﬀerentially
+pumped vacuum chambers, which comprise three logical
+compartments: the source, the interferometric nanode-
+position and the detector. The supplementary vacuum
+chambers are required for diﬀerential pumping as well as
+for the preparation and transfer of the detection surface.
+A Knudsen cell at T=1070K forms the molecular beam
+which is selected within a transmitted velocity band of
+∆v/v= 0.05(FWHM) to account for the fact that dif-
+ferent velocities correspond to diﬀerent de Broglie wave-
+lengths, λdB=h/mv, and to varying interaction times
+with the gratings.
+Two alternative methods have been used for select-
+ing the molecular speed: First, a gravitational velocity
+selection scheme exploits the molecular free-fall trajecto-
+ries in the Earth’s gravitational ﬁeld. This established
+method [21, 22] allows to work without any vibrating or
+rotating element. The interference fringe contrast of the
+molecular deposit varies, however, with the vertical po-
+sition on the sample and scattering at the slit edges may
+spoil the selection quality.
+Second, interferograms were also recorded using a
+home-built helical velocity selector which is a minia-
+turized version of devices known from neutron scatter-
+ing [23]. Grooves of 300 µm width were milled along he-
+lical trajectories into an aluminum cup of 40mm length.
+The aspect ratio of length and width of the grooves de-
+ﬁnes the transmitted velocity bandwidth. Their pitch
+and angular speed deﬁnes the center of the distribution.
+The selector is held by UHV compatible bearings and
+driven by a motor outside of the chamber. A magneto-
+ﬂuidic seal allows the mechanical transduction of the ro-
+tational motion at frequencies in excess of 100Hz. An
+acceleration sensor at the mechanical base of the inter-
+ferometer quantiﬁed typical oscillation amplitudes to be
+as small as 2nm.
+This method was chosen for the experiment presented2
+here. Its advantage lies in the fact that all transmitted
+particles arrive with the same speed and the nanostruc-
+ture has the same contrast across the entire surface that
+is illuminated by the molecular beam. Being indepen-
+dent of gravitation the selection scheme can be used in
+any orientation of the experiment.
+About 110cm behind the source, the molecules en-
+counter the ﬁrst diﬀraction grating G1of a near-ﬁeld
+interferometer [22, 24, 25]. Diﬀraction at each of the in-
+dividual slits within G1expands the molecular coherence
+function to an extent that it covers several slits of the
+second grating G2. Diﬀraction at G2, coherent evolution
+and interference subsequently generate a molecular den-
+sity pattern, which we accumulate on the detector screen
+D.
+The SiN xgratings were fabricated by Dr.Savas at
+MIT, Cambridge [26] with a highly accurate period of
+d= 257.40(1)nm and with open slit windows as small
+as 75nm in G 1and 150nm in G 2. In our symmetri-
+cal setup, the separation Lbetween the two gratings is
+equal to the distance between G 2andD. The molecu-
+lar distribution on the detector is then an approximate
+self-image of the transmission function of G2, if the Tal-
+bot condition is met, i.e. if L=d2/λdBin the absence
+of any external potentials. Although the nanomechani-
+cal gratings are fabricated with a rectangular transmis-
+sion proﬁle, interference and phase shifts in the gratings
+lead to a near-sinusoidal molecular density pattern on
+the screen. The fringe visibility can then be extracted
+asV= (Smax−Smin)/(Smax+Smin), where S(x) is the
+local molecular surface density at position x.
+The detector screen is a thermally reconstructed
+Si(111)7 ×7 surface. Silicon is known to capture and
+bind fullerenes exceptionally well [27] and it is also the
+naturalchoiceforinterfacingmoleculardepositstofuture
+electronic readout or control. The atomically clean and
+ﬂat surface immobilizes the incident molecules and it al-
+lows us to operate the experiment at room temperature.
+It requires, however, a proper surface cleaning, preheat-
+ing and ﬂash-heating in the read-out chamber which also
+containsthe variabletemperature scanningtunneling mi-
+croscope(RHK STM UHV700).
+For a grating separation of L= 13.2mm we expect
+the maximum interference contrast of the ﬁrst Talbot
+order for a de Broglie wavelength of 5pm, i.e. for C 60
+with a mean velocity of 111m/s. The van der Waals
+interaction between the molecule and the grating wall
+reduces the eﬀective grating opening and shifts the the-
+oretical fringe visibility. At a mean molecular velocity
+ofv= 115m/s we expect a maximum contrast of about
+V= 60%. If the molecules were classical billiard balls,
+i.e. following trajectories of Newtonian physics, theory
+would predict a nearly ﬂat molecular distribution at the
+detector, i.e. avanishingfringevisibilityofonly V= 1%.
+This comparison of visibilities underlines the importance
+of the molecular quantum wave nature for the emergenceSource & selectionInterference & lithography
+Si(111)  7x7
+Transfer
+Analysis
+Transfer rodWobble sticksLoad lockBellow
+Motor
+Velocity selectorp~10 mbar-777K baffleG1G2
+L
+STM
+d
+STM control & displayp~10 mbar-10
+p < 10 mbar-10zx
+yD
+FIG. 1: Molecular interference lithography combines coher ent
+molecule wave propagation with surface deposition and scan -
+ning probe microscopy. The furnace emits a thermal fulleren e
+beam, velocity selected to ∆ v/v= 5%, which passes two SiN
+gratings ( d= 257.40nm) separated by L= 12.5mm. A
+prepared silicon sample is placed in distance LbehindG2.
+The molecular deposit is imaged with single molecule resolu -
+tion using scanning tunneling microscopy in a separate UHV
+chamber.
+of high-contrast patterns in this kind of lithography.
+Thetotalexperimentalsequenceisasfollows: Asilicon
+surface is thermally reconstructed, characterized in the
+STM and then transferred into the interferometer. The
+angular frequency of the helical velocity selector is set to
+transmit the velocity class v= 115±5m/s. The molec-
+ular exposure lasts about 30min and we deposit about
+0.001 molecular monolayers (ML) on the target. This
+low coverage is required to maintain the single-particle
+character in the quantum demonstration. The exposed
+sample is then transferred into the detector chamber.
+The STM surface scan of Figure2 clearly reveals the
+individual silicon substrate atoms as well as several im-
+mobilized single C 60molecules. The surface binding of
+the fullerenes is so strong that we could not observe any
+clustering, even over two weeks. High-resolution tunnel-
+ing microscopy at low temperatures even allows us to
+get a glimpse on the internal structure of the deposited
+fullerenes [28], as shown in the inset of Figure2.
+In order to see the interference pattern we probe an
+area of 2 µm2at a resolution that still allows to identify
+the individual molecules. This scan takes about thirty
+minutes and returns 106data points. We identify the
+molecules by their height: if a recorded pixel (i,j) is 0.5-
+0.9nm higher than the average of the neighboring pixels
+(i±3,j±3) it is identiﬁed as a fullerene molecule. The
+analog images are thus converted into a binary matrix,
+where the presence of a molecule is represented by the3
+2nm 5nm
+FIG. 2: STM image of a reconstructed Si (111) 7 ×7 sur-
+face, covered with immobilized individual fullerenes. Are a of
+this image: 33 ×36nm2; tunneling current I=0.2nA; sam-
+ple bias voltage U=+2V; temperature T=30K. A close up on
+two fullerenes (see inset) gives a glimpse on the internal ri ng
+structure of C 60(see also [28]).
+digit one, whereas all other pixels are set to zero. The
+result of this procedure is shown in Figure3a, where the
+bright dots represent the molecules. For a better visu-
+alization, the pixels were later binned in 5 ×5 boxes.
+The resulting image reveals ﬁve interference fringes in
+the chosen section.
+In order to quantify the fringe contrast we perform
+a vertical sum (along the y-direction) over all rows and
+arrive at the one-dimensional interference curve. Since
+the statistical ﬂuctuations are still rather high, with only
+1166 molecules per µm2, we sum over twenty horizontal
+points (along the x-direction) to obtain Figure3b. The
+data are well represented by a numerical ﬁt of the form
+F(x) =Asin(2πx/d+φ0)+B, from which we extract a
+fringe visibility of V=A/B= 36±3%. The statisti-
+cal error is computed from a Levenberg-Marquardt algo-
+rithm which is weighted with the Poissonian uncertainty
+of each individual column in the picture. A similar inter-
+ference contrast was found in the gravitational velocity
+selection scheme. This value is lower than the theoreti-
+cal expectation, but already a linear drift of 2.5nm per
+minute of either one grating or the surface is suﬃcient to
+explain this observation. In future experiments, thermal
+drifts can be further reduced by replacing the interfer-
+ometer support structure by materials of lower thermal
+expansion.
+The recorded lattice has a period of 267(3)nm which
+diﬀers slightlyfrom the expected 257nm. The 4% period
+mismatch is consistent with a linear thermal drift rate,
+now in the STM instead ofthe interferometer, as small as
+0.4nm per minute. The experiment was repeated several
+times, yielding an interference pattern equally close to
+Position (nm)Position (µm)
+# of molecules
+0 200 400 600 800 1000 120002040608000.51.01.5
+a)
+b)
+FIG. 3: a) The processed STM image (see text) reveals both
+the particle-nature and the quantum wave-nature of the sur-
+face deposited fullerene molecules in one and the same image .
+b) A vertical sum over (a) yields the interference curve. The
+fringe visibility amounts to 36%. The error bars represent t he√
+N-noise related to the small number Nof particles per bin.
+the expected period and orientation.
+The observed fringe contrast exceeds the classical
+moir´ eexpectation in the presence of van der Waals forces
+by more than a factor of thirty, and the experiment is
+oﬀset from the classical result by ten standard devia-
+tions. Quantumdelocalizationandinterferencearethere-
+foreneeded forcreatinghighcontrastmolecularnanopat-
+terns using non-contact mask imaging. Surface adsorp-
+tion and imaging is also an intuitive tool in experiments
+on the foundations of physics, as it allows to visualize
+the localized but random particle positions within a de-
+terministic fringe pattern that is prescribed by the free
+evolution of the delocalized matter wave (Figure 3). The
+surfaceprobe technique is capableof detecting individual
+moleculesanditiswell-suitedforfutureexperimentswith
+velocity selected, monodisperse beams of much largerob-
+jects in diﬀerent interferometer conﬁgurations [26].
+Single molecules may be regarded as functional ele-
+ments. They may serve as immobilized single-photon
+emitters [29], organic switches [30], nanomachines [31,
+32], transistor components [33] or as nucleation cores for
+the catalysis of molecular growth. Positioning them on
+surfaces might thus be crucial in future applications in
+nanotechnology. Our molecule lithography scheme works
+at a de Broglie wavelength comparable to that prevail-
+ing in high-energy electron beam writing. The kinetic
+energy E kin=0.1eV and the velocity v= 100m/s can,
+however, be many orders of magnitude smaller than that
+of the electrons. It therefore combines the potential of
+high resolution with minimal damage to the surface.4
+Future experiments shall explore how to build more
+complex molecular patterns in this non-contact, con-
+structive and parallel way. High-contrast interference
+provides the possibility to exclude molecules with cer-
+tainty from some surface areas. The positioning within
+an interference maximum is, however, still aﬀected by
+the probabilistic character of the quantum wavefunction.
+The combination of interferometric prestructuring with
+local self-organization or STM postprocessing [34] ap-
+pearsto be awaytowardsdeterministic molecularnanos-
+tructures [35]. Our present proof-of-principle demonstra-
+tion shows the interferometric generation of molecular
+lines. Using two-dimensional cross gratings and either
+electric deﬂectometry [36] or motorized gratings it will
+be possible to write periodic arrays of more complex pat-
+terns, too [37]. In an asymmetric Talbot-Lau interferom-
+eter the exploitation of the fractional Talbot eﬀect shall
+further allow writing of structures smaller than the grat-
+ing period [38], eventuallysmaller than all features in the
+lithography masks.
+This work has been supported by the FWF within the
+Wittgenstein project Z149-N16. A.M. acknowledges sup-
+port by the FWF Lise-Meitner program M887-N02. We
+acknowledge support by the ESF EUROCORE Program
+EUROQUASAR MIME.
+∗Current address: Carl Zeiss SMC AG, Rudolf-Eber-
+Straße 2, 73447 Oberkochen, Germany
+[1] L. de Broglie, Nature 112, 540 (1923).
+[2] E. Schr¨ odinger, Annalen der Physik 79, 361 (1926).
+[3] C. Davisson and L. Germer, Nature 119, 558 (1927).
+[4] G. P. Thomson, Nature 120, 802 (1927).
+[5] I. Estermann and O. Stern, Z. Phys. 61, 95 (1930).
+[6] H. von Halban and P. Preiswerk, C. R. Hebd. S´ eances
+Acad.203, 73 (1936).
+[7] H. Rauch and A. Werner, Neutron Interferometry:
+Lessons in Experimental Quantum Mechanics (Oxford
+Univ. Press, 2000).
+[8] G. I.Taylor, Proc. Cambridge Phil. Soc. 15, 114 (1909).
+[9] A. Tonomura, J. Endo, T. Matsuda, T. Kawasaki, and
+H. Ezawa, Am. J. Phys. 57, 117 (1989).
+[10] F. Hasselbach, Scanning Microscopy 11, 345 (1997).
+[11] P. R. Berman, Atom Interferometry (Acad. Press, New
+York, 1997).
+[12] F. Shimizu and J. Fujita, Phys. Rev. Lett 88, 123201
+(2002).
+[13] M. Oberthaler and T. Pfau, J. Phys. Condensed Matter
+15, R233 (2003).[14] A. D. Cronin, J. Schmiedmayer, and D. E. Pritchard,
+Rev. Mod. Phys. 81, 1051 (2009).
+[15] M. Arndt, O. Nairz, J. Voss-Andreae, C. Keller, G. V.
+der Zouw, and A. Zeilinger, Nature 401, 680 (1999).
+[16] R. Bruehl, R. Guardiola, A. Kalinin, O. Kornilov,
+J. Navarro, T. Savas, and J. P. Toennies, Phys. Rev.
+Lett.92, 185301 (2004).
+[17] L. Hackerm¨ uller, S. Uttenthaler, K. Hornberger,
+E. Reiger, B. Brezger, A. Zeilinger, and M. Arndt, Phys.
+Rev. Lett. 91(2003).
+[18] S. Gerlich, M. Gring, H. Ulbricht, K. Hornberger,
+J. T¨ uxen, M. Mayor, and M. Arndt, Angew. Chem. Int.
+Ed.47, 6195 (2008).
+[19] M. Marksteiner, P. Haslinger, H. Ulbricht, M. Sclafani ,
+H. Oberhofer, C. Dellago, and M. Arndt, J. Am. Soc.
+Mass. Spectrom. 19, 1021 (2008).
+[20] L. Hanley and R. Zimmermann, Analytical Chemistry
+81, 4174 (2009).
+[21] O. Nairz, B. Brezger, M. Arndt, and A. Zeilinger, Phys.
+Rev. Lett. 87, 160401 (2001).
+[22] B. Brezger, L. Hackerm¨ uller, S. Uttenthaler,
+J. Petschinka, M. Arndt, and A. Zeilinger, Phys.
+Rev. Lett. 88, 100404 (2002).
+[23] R. Miller and P. Kusch, Phys. Rev. 99, 1314 (1955).
+[24] J. F. Clauser and S. Li, Phys. Rev. A 49, R2213 (1994).
+[25] S. Nimmrichter and K. Hornberger, Phys. Rev. A 78,
+023612 (2008).
+[26] S. Gerlich, L. Hackerm¨ uller, K. Hornberger, A. Stibor ,
+H. Ulbricht, M. Gring, F. Goldfarb, T. Savas, M. M¨ uri,
+M. Mayor, et al., Nature Phys. 3, 711 (2007).
+[27] D. Chen and D. Sarid, Surf. Sci. 318, 74 (1994).
+[28] J. G. Hou, Y. Jinlong, W. Haiqian, L. Qunxiang,
+Z. Changgan, L. Hai, B. Wang, D. M. Chen, and Z. Qing-
+shi, Phys. Rev. Lett. 83, 3001 (1999).
+[29] B. Lounis and M. Orrit, Rep. Prog. Phys. 68, 1129
+(2005).
+[30] C. Joachim, J. K. G. &, and A. Aviram, Nature 408, 541
+(2000).
+[31] N. Koumura, R. Zijlstra, R. van Delden, N. Harada, and
+B. Feringa, Nature 401, 152 (1999).
+[32] W. Browne and B. Feringa, Nat. Nanotech. 1, 25 (2006).
+[33] H. Park, J. Park, A. K. L. Lim, E. H. Anderson, A. P.
+Alivisatos, and P. L. McEuen, Nature 407, 57 (2000).
+[34] P. H. Beton, A. W. Dunn, and P. Moriarty, Appl. Phys.
+Lett.67, 1075 (1995).
+[35] J. V. Barth, G. Costantini, and K. Kern, Nature 437,
+671 (2005).
+[36] M. Berninger, A. St´ efanov, S. Deachapunya, and
+M. Arndt, Phys. Rev. A 76, 013607 (2007).
+[37] K. Patorski, in Progress in Optics XXVII , edited by
+E. Wolf (Elsevier, Amsterdam, 1989), pp. 2–108.
+[38] B. Brezger, M. Arndt, and A. Zeilinger, J. Opt. B: Quan-
+tum Semiclass. Opt. 5, S82 (2003).

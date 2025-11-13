@@ -1,0 +1,109 @@
+arXiv:1001.0283v1  [physics.gen-ph]  2 Jan 2010Reply to the comments of Karami on the
+Interacting holographic dark energy model
+and generalized second law of
+thermodynamics in a non-ﬂat universe
+M.R. Setare∗
+Department of Physics, University of Kurdistan, Pasdaran A ve., Sanandaj, Iran
+Abstract
+In [2] K. Karami commented on my publication [1] and claimed t hat my result
+would be invalid. In fact he found an error in calculation of t he entropy of cold dark
+matter in section 3 of my article, which is, however, a rather trivial one. It is shown
+that my discussion in section 3 of my paper works correctly if we take the value of
+free parameter b2>0.264.
+∗E-mail: rezakord@ipm.ir
+11 Reply
+The comment of author [2] is based onan error in the sign of ﬁrst ter m in Eq.(35) of paper
+[1]. Due to this error the result of equations (37) and (38) also will ch ange. The correct
+form is given by Eq.(4) in [2]. But this correction do not change my resu lt in paper [1].
+In the paper [1] I have claimed that the generalized second law (GSL) of thermodynamics
+can be satisfy in non-ﬂat universe enclosed by the event horizon me asured fromthe sphere
+of the event horizon L. In my formula (41), or in Eq.(6) of [2] which is correct version of
+(41) due the correction on eq.(35), there are some parameters, Ωk, ΩΛ, cosy,c, andb2.
+The holographic dark energy model has been tested and constrain ed by various astronom-
+ical observations, in both ﬂat and non-ﬂat cases. These observa tional data include type
+Ia supernovae, cosmic microwave background, baryon acoustic o scillation, and the X-ray
+gas mass fraction of galaxy clusters. According to the analysis of t he observational data
+for the holographic dark energy model, we ﬁnd that generally c <1. Here we summarized
+the main constraint results as follows:
+1. For ﬂat universe, using only the SN data to constrain the hologra phic dark energy
+model, we get the ﬁt results: c= 0.21+0.41
+−0.12, Ωm0= 0.47+0.06
+−0.15, with the minimal
+chi-square corresponding to the best ﬁt χ2
+min= 173.44 [3]. When combining the
+information from SN Ia [5], CMB [4] and BAO [6], the ﬁtting for the hologr aphic
+dark energy model gives the parameter constraints in 1 σ:c= 0.81+0.23
+−0.16, Ωm0=
+0.28±0.03, with χ2
+min= 176.67 [3].
+2. Also for the ﬂat case, the X-ray gas mass fraction of rich cluste rs, as a function
+of redshift, has also been used to constrain the holographic dark e nergy model [7].
+The main results, i.e. the 1 σﬁt values for cand Ω m0are:c= 0.61+0.45
+−0.21and
+Ωm0= 0.24+0.06
+−0.05, with the best-ﬁt chi-square χ2
+min= 25.00 [7].
+3. For the non-ﬂat universe, the authors of [8] used the data com ing from the SN and
+CMB to constrain the holographic dark energy model, and got the 1 σﬁt results:
+c= 0.84+0.16
+−0.03, Ωm0= 0.29+0.06
+0.08, and Ω k0= 0.02±0.10, with the best-ﬁt chi-square
+χ2
+min= 176.12.
+Due to these result, and such as [1] we can assume the value of Ω k, ΩΛ, cosy, andcin
+present time respectively as, 0 .01, 0.73, 0.99, and 1. In the other hand bis a dimensionless
+coupling constant, which is a free parameter, where appear in Eq.(2 1) in [1]. If we
+substitute thementioned values forΩ k, ΩΛ, cosy,c= 1inEq.(6) of[2]we obtainfollowing
+relation
+d
+dx(SΛ+Sm+SL) =π2M2
+p
+H2(3.38−2.86−10.732+38.63b2) (1)
+easily one can see if we take the value of b2>0.264, then we obtaind
+dx(SΛ+Sm+SL)>0.
+It should be stressed that evidence was recently provided by the A bell Cluster A586 in
+support of the interaction between dark energy and dark matter [9]. However, despite the
+fact that numerous works have been performed till now, there ar e no strong observational
+bounds on the strength of this interaction [10]. This weakness to se t stringent (observa-
+tional or theoretical) constraints on the strength of the coupling between dark energy and
+dark matter stems from our unawareness of the nature and origin of dark components of
+2the Universe. It is therefore more than obvious that further wor k is needed to this direc-
+tion. In any case may be we can said that for the validity of GSL in the f ramework of
+our model, the coupling constant between dark energy and cold dar k matter must satisfy
+b2>0.264 in present time.
+So in contrast to the claim of author [2], the essential conclusion of [1 ] is true and the
+GSL can be valid for the present time for the interacting holographic dark energy with
+cold dark matter in a non-ﬂat universe enveloped by the event horiz on measured from the
+sphere of the horizon named L.
+Finally it should be mentioned that recently we have investigated the v alidity of the gen-
+eralized second law of thermodynamics, in the cosmological scenario where dark energy
+interacts with both dark matter and radiation [11]. Then we have sho wn that the gen-
+eralized second law is always and generally valid, as long as one consider s the apparent
+horizon as the universe “radius” (the use of other choices, such is the future event horizon,
+leads to conditional validity only), independently of the speciﬁc inter action form, of the
+ﬂuids equation-of-state parameters and of the background geo metry.
+References
+[1] M. R. Setare, J. Cosmol. Astropart. Phys. 01, 023 (2007).
+[2] K. Karami, arXiv:0911.4808 [physics.gen-ph].
+[3] X. Zhang and F. Q. Wu, Phys. Rev. D 72, 043524 (2005) [astro-ph/0506310].
+[4] D. N. Spergel et al.[WMAP Collaboration], Astrophys. J. Suppl. 148, 175 (2003)
+[astro-ph/0302209];
+D. N. Spergel et al., astro-ph/0603449.
+[5] A. G. Riess et al.[Supernova Search Team Collaboration], Astrophys. J. 607, 665
+(2004) [astro-ph/0402512].
+[6] D. J. Eisenstein et al.[SDSS Collaboration], Astrophys. J. 633, 560 (2005) [astro-
+ph/0501171].
+[7] Z. Chang, F. Q. Wu and X. Zhang, Phys. Lett. B 633, 14 (2006) [astro-ph/0509531].
+[8] Y. G. Gong, B. Wang and Y. Z. Zhang, Phys. Rev. D 72, 043510 (2005) [hep-
+th/0412218].
+[9] O. Bertolami, F. Gil Pedro and M. Le Delliou, Phys. Lett. B 654, 165 (2007)
+[arXiv:astro-ph/0703462]; M. Le Delliou, O. Bertolami and F. Gil Pedr o, AIP Conf.
+Proc. 957, 421 (2007) [arXiv:0709.2505 [astro-ph]].
+[10] L.Amendola, G.CamargoCamposandR.Rosenfeld, Phys. Rev. D75, 083506(2007)
+[arXiv:astro-ph/0610806]; Z. K. Guo, N. Ohta and S. Tsujikawa, Ph ys. Rev. D 76,
+023508 (2007) [arXiv:astroph/ 0702015]; C. Feng, B. Wang, Y. Gon g and R. K. Su,
+JCAP 0709, 005 (2007) [arXiv:0706.4033 [astro-ph]]; E. Abdalla, L. R. W. Abramo,
+L. . J. Sodre and B. Wang, arXiv:0710.1198 [astro-ph].
+3[11] M. Jamil, E. N. Saridakis, M. R. Setare, arXiv:0910.0822v1 [hep-t h], accepted for
+publication in Phys. Rev. D (2010).
+4

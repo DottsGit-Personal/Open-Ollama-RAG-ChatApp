@@ -1,0 +1,361 @@
+arXiv:1001.0431v1  [cond-mat.supr-con]  4 Jan 2010The single-ion anisotropy in LaFeAsO
+Ren-Gui Zhu
+College of physics and electronic information, Anhui Normal Univers ity, Wuhu,
+241000, P. R. China
+E-mail:rgzhu@mail.ahnu.edu.cn
+Abstract. We use Green’s function method to study the Heisenberg model of
+LaFeAsO with the striped antiferromagnetic collinear spin structur e. In addition to
+the intra-layer spin couplings J1a,J1b,J2and the inter-layer coupling Jc, we further
+consider the contributions of the single-ion anisotropy Js. The analytical expressions
+for the magnetic phase-transition temperature TNand the spin spectrum gap ∆ are
+obtained. According to the experimental temperature TN= 138K and the previous
+estimations of the coupling interactions, we make a further discuss ion about the
+magnitude and the eﬀects of the single-ion anisotropy Js. We ﬁnd that the magnitudes
+ofJsandJccan compete. The dependences of the transition temperature TN, the
+zero-temperature average spin and the spin spectrum gap on the single-ion anisotropy
+are investigated. We ﬁnd they both increase as Jsincreases. The spin spectrum gap
+at low temperature T→0 is calculated as a function of Js, the result of which is a
+useful reference for the future experimental researches.R G Zhu 2
+1. Introduction
+It was recently discovered that aniron-basedmaterial LaFeAsO s hows high-temperature
+superconductivity when O atomsarepartially substituted by F atom s[1]. This discovery
+has triggered great research interest on the FeAs-based pnictid es superconductors and
+their undoped compounds. It has been theoretically and experimen tally conﬁrmed
+that these pure FeAs-based compounds have a ground state with collinear stripe-like
+antiferromagnetic(AF) spin order formed by Fe atoms[2, 3, 4, 5, 6 , 7, 8, 9, 10, 11]. Thus
+to establish an eﬀective spin Hamiltonian for them and to elucidate the corresponding
+antiferromagnetism are helpful in understanding the underlying me chanism to make
+them superconducting upon doping.
+For undoped LaFeAsO and other similar parent compounds, a Heisen berg exchange
+model was suggested to explain their AF structure[2, 4, 12, 13], an d was used to explore
+theirmagneticproperties[14,15,16]. Figure1showstheunitcellof theorthorhombicAF
+spin structure of the Fe lattice. This orthorhombic structure exis ts below a structure
+transition temperature TS, which is 15 ∼20K higher than the magnetic transition
+temperature TN[6, 17]. Usually the nearest neighbor (NN) coupling J1(including J1a
+andJ1b), and the next-nearest neighbor (NNN) coupling J2in FeAs layers are dominant
+and must be considered. The NN coupling Jcbetween spins on neighboring layers is
+regarded to be much smaller than the in-plane couplings[2, 4]. Howeve r,Jcwas found
+to be essential for the existence of a non-zero magnetic transitio n temperature TN[15].
+A further consideration can include the single-ion anisotropy Js. It was estimated to
+be even much smaller than Jcin the model of SrFe 2As2, but a spin spectrum gap was
+found to be produced by it[14]. For LaFeAsO, so far there is no res earch report about
+the magnitude or the eﬀects of the single-ion anisotropy.
+In this paper, we use Green’s function method[18] to study the Heis enberg model
+of FeAs-based pure parent compounds. The Hamiltonian of this mod el in a detailed
+form is
+H=1
+2J1a/summationdisplay
+/angbracketleftij/angbracketrightS1i·S1j+1
+2J1a/summationdisplay
+/angbracketleftij/angbracketrightS2i·S2j+J1b/summationdisplay
+/angbracketleftij/angbracketrightS1i·S2j
++J2/summationdisplay
+/angbracketleft/angbracketleftij/angbracketright/angbracketrightS1i·S2j+Jc/summationdisplay
+/angbracketleftij/angbracketrightS1i·S2j−Js/summationdisplay
+i[(Sz
+1i)2+(Sz
+2i)2],(1)
+where the spin coupling Jcbetween layers and the single-ion anisotropy Jsare both
+considered. The subscripts 1 and 2 mean the sublattices 1 and 2 res pectively. /angbracketleftij/angbracketright
+means NN spin pairs, and /angbracketleft/angbracketleftij/angbracketright/angbracketrightmeans NNN spin pairs. The self-consistent equations
+for the average sublattice spin will be derived. An analytical expres sion for the magnetic
+transition temperature TNwill be obtained. For LaFeAsO, according to the recent
+estimations of the strengths J1a,J1b,J2andJc[15] with the experimental temperature
+TN= 138K[6, 17], we shall make afurther estimation ofthe single-ionanis otropyJs. We
+ﬁnd that the magnitude of Jscan compete with Jc, and in some situations even bigger
+thanJc. The eﬀects of the single-ion anisotropy on the transition tempera tureTN, the
+zero-temperature average spin /angbracketleftSz/angbracketright0and the spin spectrum gap are investigated. WeR G Zhu 3
+xyz
+abc
+aJ1
+bJ12JcJ
+Figure 1. A unit cell of the orthorhombic Fe spin lattice. a,b,care the three base
+vectors. The lattice consists of two sublattices (distinguished by t he color gray and
+black).
+ﬁnd they all increase as Jsincreases. In section 2, we shall give our analytical results
+derived from the Green’s function method. In section 3, we shall pr esent our numerical
+results. Finally a conlusion is given in section 4.
+2. Green’s function derivation
+According to the general scheme of Green’s function method to so lve an
+antiferromagnetic spin model with two sublattices, we construct t he following Green’s
+functions:
+G1k,1l(ω) =/angbracketleft/angbracketleftS+
+1k;S−
+1l/angbracketright/angbracketright, G2k,1l(ω) =/angbracketleft/angbracketleftS+
+2k;S−
+1l/angbracketright/angbracketright. (2)
+The equation of motion is
+ω/angbracketleft/angbracketleftA;S−
+1l/angbracketright/angbracketright=/angbracketleft[A,S−
+1l]/angbracketright+/angbracketleft/angbracketleft[A,H];S−
+1l/angbracketright/angbracketright, (3)
+whereArepresents the spin operator S+
+1korS+
+2k. The commutator [ A,H] can be derived
+using Hamiltonian (1) and the basic commutation relations of spin oper ators:[S+
+i,S−
+j] =
+2Sz
+iδij, [Sz
+i,S±
+j] =∓S±
+iδij, whereS±
+i=Sx
+i±iSy
+i.
+In order to close the system of equations, the so-called PRA or Tya blikov
+decoupling[18] is adopted for the terms stemming from the exchang e couplings:
+/angbracketleft/angbracketleftSz
+iS+
+j;S−
+l/angbracketright/angbracketright ≈ /angbracketleftSz
+i/angbracketright/angbracketleft/angbracketleftS+
+j;S−
+l/angbracketright/angbracketright, i/negationslash=j. (4)
+While for the terms stemming from the single-ion anisotropy, we adop t the Anderson-
+Callen(AC) decoupling[19]:
+/angbracketleft/angbracketleftSz
+iS+
+i+S+
+iSz
+i;S−
+j/angbracketright/angbracketright ≈2/angbracketleftSz
+i/angbracketrightΘ(z)
+i/angbracketleft/angbracketleftS+
+i;S−
+j/angbracketright/angbracketright, (5)
+where
+Θ(z)
+i= 1−1
+2S2[S(S+1)−/angbracketleftSz
+iSz
+i/angbracketright]. (6)
+The AC decoupling has been demonstrated to be most adequate for the single-ion
+anisotropy much small compared to the exchange interactions[20 , 21].R G Zhu 4
+In order to write the decoupled equations of motion in the kspace, we take the
+following Fourier transformation:
+Gk,l(ω) =1
+N/summationdisplay
+kG(k,ω)eik·(Rk−Rl), (7)
+whereNis the number of sites in either sublattice, and the summation over kis
+restricted to the ﬁrst Brillouin zone of the sublattice. At the same t ime, the equation
+δij=1
+N/summationtext
+keik·(Ri−Rj)is also used.
+Because of the translation invariant, we have /angbracketleftSz
+1k/angbracketright=/angbracketleftSz/angbracketright,/angbracketleftSz
+2k/angbracketright=−/angbracketleftSz/angbracketrightand
+Θ(z)
+1k= Θ(z)
+2k= Θ(z)= 1−1
+2S2[S(S+ 1)− /angbracketleftSzSz/angbracketright]. Finally, we obtain the decoupled
+equations of the two Green’s function in kspace:
+[ω−/angbracketleftSz/angbracketrightAk]G11(k,ω)−/angbracketleftSz/angbracketrightBkG21(k,ω) = 2/angbracketleftSz/angbracketright, (8)
+and
+[ω+/angbracketleftSz/angbracketrightAk]G21(k,ω)+/angbracketleftSz/angbracketrightBkG11(k,ω) = 0, (9)
+where
+Ak= 2J1acos(kxa)−2J1a+2J1b+4J2+2Jc+2JsΘ(z), (10)
+and
+Bk= 2J1bcos(kyb)+4J2cos(kxa)cos(kyb)+2Jccos(kzc), (11)
+in which a,b,care the three lattice constants. Solving equations (8) and (9), we obtain
+the Green’s function:
+G11(k,ω) =/angbracketleftSz/angbracketright
+ωk/bracketleftBiggAk/angbracketleftSz/angbracketright+ωk
+ω−ωk−Ak/angbracketleftSz/angbracketright−ωk
+ω+ωk/bracketrightBigg
+, (12)
+and the spin spectrum:
+ωk=/angbracketleftSz/angbracketright/radicalBig
+A2
+k−B2
+k. (13)
+Whenk→0, we obtain a expression for the spectrum gap:
+∆ = 2/angbracketleftSz/angbracketright/radicalBig
+JsΘ(z)[2J1b+4J2+2Jc+JsΘ(z)], (14)
+which is similar with the expression given in ref[14] derived from the spin -wave theory,
+expect for the factor Θ(z). From this expression for the gap, one see that the single-ion
+anisotropy is essential for the existence of the spectrum gap.
+Then following the process of solving the average spin, we derive the correlation
+function /angbracketleftS−S+/angbracketrightusing the spectrum theorem:
+/angbracketleftS−S+/angbracketright=−1
+Nπ/summationdisplay
+k/integraldisplay∞
+−∞dωImG11(k,ω+iǫ)
+eβω−1
+=/angbracketleftSz/angbracketright
+N/summationdisplay
+k
+Ak/radicalBig
+A2
+k−B2
+kcothβωk
+2−1
+, (15)
+in which the equation1
+x+iǫ=P(1
+x)−iπδ(x)(P(···) means taking the principle value)
+has been used to obtain the imaginary part of G11(ω+iǫ), andβ=1
+kBT,kBis the
+Boltzmann constant, Tis the temperature.R G Zhu 5
+According to the theory of Callen[22], the average spin for arbitrar yScan be
+calculated using the following equation:
+/angbracketleftSz/angbracketright=(S−Φ)(1+Φ)2S+1+(S+1+Φ)Φ2S+1
+(1+Φ)2S+1−Φ2S+1, (16)
+where
+Φ =/angbracketleftS−S+/angbracketright
+2/angbracketleftSz/angbracketright
+=1
+2N/summationdisplay
+k
+Ak/radicalBig
+A2
+k−B2
+kcothβωk
+2−1
+. (17)
+On the other hand, the correlation function /angbracketleftSzSz/angbracketrightcan be calculated from the equation
+/angbracketleftSzSz/angbracketright=S(S+1)−(1+2Φ)/angbracketleftSz/angbracketright. Using equation (6), we can relate Θ(z)to Φ by
+Θ(z)= 1−/angbracketleftSz/angbracketright
+2S2(1+2Φ). (18)
+Now the equations (16)(17)(18) can be solved self-consistently t o obtain the average
+spin at any given temperature, provided we know the values of the e xchange couplings
+J1a,J1b,J2,Jcand the single-ion anisotropy Js.
+When the temperature Tapproaches zero, we obtain coth(βωk
+2)→1. The equation
+(17) is reduced to
+Φ|T→0=1
+2N/summationdisplay
+k
+Ak/radicalBig
+A2
+k−B2
+k−1
+. (19)
+The zero-temperature average spin /angbracketleftSz/angbracketright0can be obtained by self-consistently solving
+the equations (16)(18)(19).
+When the temperature Tapproaches the magnetic transition temperature TN, the
+average spin /angbracketleftSz/angbracketrightas well as the spectrum ωkwill approach zero. Expanding coth(βωk
+2)
+in the equation (17), we obtain
+Φ|T→TN≈Γ
+β/angbracketleftSz/angbracketright−1
+2, (20)
+where Γ =1
+N/summationtext
+kAk
+A2
+k−B2
+k. Inserting (20) into (16), and expanding the terms in the
+denominator and the numerator as the series of /angbracketleftSz/angbracketright, we ﬁnally derive
+/angbracketleftSz/angbracketright ≈/radicaltp/radicalvertex/radicalvertex/radicalbt12(ΓkBTN)2
+S(2S−1)/parenleftbigg
+1−T
+TN/parenrightbigg
+, (21)
+where
+TN=S(S+1)
+3kBΓ. (22)
+On the other hand, inserting (20) into (18), and using the equation (22), we obtain the
+reduced expression for Θ(z)near the temperature TN:
+Θ(z)|T→TN≈2S−1
+3S. (23)R G Zhu 6
+00.0005 0.001 0.0015 0.002 0.0025 0.003
+JS/Slash1J1 b0.2150.220.2250.230.2350.240.245TN/Slash1/LParen1J1 b/Slash1kB/RParen1
+Figure 2. The transition temperature TNas a function of the single-ion anisotropy
+JsforJ1a= 0.98,J2= 0.52 andJc= 0.0004 in the unit of J1b= 50 meV. The black
+point correspond to the experimental temperature TN= 0.238 in the unit of J1b/kB.
+3. Numerical results and discussions
+So far there is no consensus on the magnitudes of the exchange co uplingsJ1a,J1b,J2and
+Jc, because of the unclear microscopic origin of the observed AF spin s tructure. Here
+we prefer the estimations in ref[15], which gave J1b= 50±10 meV, J1a= 49±10 meV,
+J2= 26±5 meV and Jc= 0.020±0.015 meV by using the experimental transition
+temperature TN= 138K of pure LaFeAsO. The main purpose of this paper is to
+investigate the magnitude and the eﬀects of the single-ion anisotro pyJsin LaFeAsO.
+Through out our numerical calculation, we take J1b= 50 meV, J1a= 49 meV, J2= 26
+meV and the spin S= 1. The result J1b∼50meV are obtained from the ﬁrst-principle
+calculating[4, 23]. In the present systems of units, the Boltzmann c onstant is taken as
+kB= 0.086 meV/K.
+Figure 2 shows the eﬀect of the single-ion anisotropy Json the transition
+temperature TN. We can see that TNincreases as Jsincreases. This means that the
+single-ion anisotropy term is in favor of the AF spin structure. It ca n be understood
+from the expression of the single-ion anisotropy term in the Hamilton ian (1). Increasing
+the magnitude of Jswill make the spins incline to alignalong the zaxis, andgive a lower
+total energy, which make the system more stable. To one’s surpris e, the magnitude of Js
+corresponding to theexperimental transitiontemperature TNisabout 0 .00143J1b, which
+is much bigger than the magnitude of the exchange coupling Jc= 0.0004J1bestimated
+in ref[15]. Furthermore, we see from ﬁgure 3 that the variation ran ge of/angbracketleftSz/angbracketright0withJs
+varying from 0 to 0.1 is almost the same as the one produced by Jcin ref[15]. All these
+results imply that the magnitude of Jsis probably not much small compared with Jc.
+So the estimation of Jcmaybe need to be adjusted if the single-ion anisotropy term is
+considered. As to the estimations of the other exchange couplings J1a,J1bandJ2, we
+think there are still reasonable.R G Zhu 7
+0 0.02 0.04 0.06 0.08 0.1
+JS/Slash1J1 b0.70.720.740.760.78/LessSz/Greater0
+Figure 3. The zero-temperatureaveragespin asafunction ofthe single-ion anisotropy
+JsforJ1a= 0.98,J2= 0.52 andJc= 0.0004 in the unit of J1b= 50 meV.
+0 0.0002 0.0004 0.0006 0.0008 0.001
+Jc/Slash1J1 b0.00050.0010.00150.0020.0025JS/Slash1J1 b
+Figure 4. The competing relation of JcandJs. The curve is depicted by using the
+equation (22) for TN= 0.238(J1b/kB),J1a= 0.98J1bandJ2= 0.52J1b.
+Figure4 shows the competing relation of JcandJswhen thetransition temperature
+is ﬁxed at the experimental value. The increase of Jcis accompanied by the decrease
+ofJs, and vice vera. From ﬁgure 4, we can see that the ranges of their c orresponding
+variations are at the same magnitude, which implies they probably hav e the same status
+in the viewpoint of theoretical study. As to revealing the actual ma gnitudes of the two
+parameters JcandJs, we think it is not enough to use only the experimental transition
+temperature TN.
+Figure 5 shows the eﬀect of the single-ion anisotropy Json the spectrum gap at
+low temperature. The gap vanishes as Jsvanishes, and increases as Jsincreases. We
+ﬁnd the eﬀect of Jcon the gap is very trivial. The curves for diﬀerent values of Jc
+between (0 .0001,0.01) are almost the same, while the single-ion anisotropy aﬀects the
+gap apparently. Considering the gap can be obtained from inelastic n eutron-scatteringR G Zhu 8
+0 0.02 0.04 0.06 0.08 0.1
+Js/Slash1J1 b00.10.20.30.40.50.6/CapDelta/Slash1J1 bJc= 0.01
+❅❅ ❘
+Jc= 0.0001❅❅ ■
+Figure 5. The spin spectrum gaps at low temperature T→0 as functions of the
+single-ion anisotropy JsforJ1a= 0.98J1b,J2= 0.52J1bandJc= 0.0001J1b(the below
+curve),Jc= 0.01J1b(the above curve).
+experiment[14], we suggest that the magnitude of the single-ion anis otropy be estimated
+fromthefutureexperimentalresultsofthespectrumgap. Fore xample, if Jc= 0.0004J1b,
+we obtain Js= 0.00143J1bfrom the experimental transition temperature TN= 138K.
+Then calculating the spectrum gap with Js= 0.00143J1b, we obtain the magnitude of
+the gap ∆ ≈3.4 meV, which can be compared with the future experimental result.
+4. Conclusion
+We use Green’s function method to study the Heisenberg model (1) of LaFeAsO with
+the striped AF spin structure as shown in ﬁgure 1. The main purpose of this paper is to
+investigate the magnitude and the eﬀects of the single-ion anisotro pyJs. We derive the
+self-consistent equations for the average spin, and obtained the analytical expressions
+for the spin spectrum gap ∆, and the magnetic transition temperat ureTN. We ﬁnd
+that the transition temperature TN, the zero-temperature average spin /angbracketleftSz/angbracketright0and the
+spin spectrum gap ∆ are all increasing functions of the single-ion anis otropyJs. From
+our numerical results by using TN= 138K and the previous estimations of J1a,J1b,J2
+andJcin ref[15], we ﬁnd that the magnitude of Jsis probably not much small compared
+withJc. Because the single-ion anisotropy is essential for the existence o f the spin
+spectrum gap, we suggest using the experimental result of the sp in spectrum gap to ﬁx
+the magnitude of the single-ion anisotropy Jsin the future.
+References
+[1] Kamihara Y, Watanabe T, Hirano M and Hosono H 2008 J. Am. Chem. Soc. 1303296
+[2] Yildirim T 2008 Phys. Rev. Lett. 101057010
+[3] Cao C, Hirschfeld P J and Cheng H P 2008 Phys. Rev. B77220506(R)
+[4] Ma F and Lu Z Y 2008 Phys. Rev. B78033111R G Zhu 9
+[5] Dong J et al2008Europhys. Lett. 8327006
+[6] de la Cruz C et al2008Nature453899
+[7] Chen Y et al2008Phys. Rev. B78064515
+[8] Huang Q et al2008Phys. Rev. Lett. 101257003
+[9] Zhao J et al2008Phys. Rev. B78140504(R)
+[10] Goldman A I et al2008Phys. Rev. B78106506(R)
+[11] McGuire M A et al2008Phys. Rev. B78094517; arXiv:0804.0796
+[12] Si Q and Abrahams E 2008 Phys. Rev. Lett. 101076401
+[13] Fang C et al2008Phys. Rev. B77224509
+[14] Zhao J et al2008Phys. Rev. Lett. 101167203
+[15] Liu G B and Liu B G 2009 J. Phys.:Condens. Matter 21195701
+[16] Yao D X and Carlson E W 2008 Phys. Rev. B72052507
+[17] Klauss H H et al2008Phys. Rev. Lett. 101077005
+[18] Tyablikov S V 1959 Ukr. Mat. Zh. 11289; S. V. Tyablikov 1967 Methods in the Quantum Theory
+of Magnetism (New York: Plenum Press)
+[19] Anderson F B and Callen H B 1964 Phys. Rev. 136A1068
+[20] Fr¨ obrich P, Jensen P J and Kuntz P J 2000 Eur. Phys. J. B13477
+[21] Henelius P, Fr¨ obrich P, Kuntz P J et al2002Phys. Rev. B66094407
+[22] Callen H B 1963 Phys. Rev. 130890
+[23] Yin Z P et al2008Phys. Rev. Lett. 101047001

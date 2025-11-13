@@ -1,0 +1,167 @@
+arXiv:1001.0100v1  [math.NT]  3 Jan 2010THE QUADRATIC CHARACTER OF 1+√
+2AND AN
+ELLIPTIC CURVE
+YU TSUMURA
+Abstract. Whenp≡1 (mod 8), we have a criterion of the qua-
+dratic character of 1 +√
+2, which is related to the class number
+ofQ(√−p). In this paper, we obtain a similar criterion using an
+elliptic curve, which contrasts to the proof using algebraic number
+theory for the old one.
+1.Introduction.
+Letp≡1 (mod 8) be a prime number. Then by the quadratic
+reciprocity law, 2 is a square mod p, hence there exists√
+2∈Fp. Also
+we know that p≡1 (mod 8) can be expressed as p=c2+8d2, where
+c,dare integers.
+In1969, Pierre Barrucand and Harvey Cohn provided the criterion
+of quadratic character of 1+√
+2. Let/parenleftBig
+∗
+p/parenrightBig
+be the Jacobi symbol mod
+p. Then they proved the following.
+Theorem 1.1. Letp=c2+ 8d2be a prime number, where c,dare
+integers. Then we have
+/parenleftBigg
+1+√
+2
+p/parenrightBigg
+= 1⇐⇒d≡0 (mod 2) ⇐⇒h(−4p)≡0 (mod 8) ,
+whereh(−4p)denotes the class number of Q(√−p).
+Proof.See [1] and Proposition 5.15 in [2]. /square
+This was proved by the method of algebraic number theory. In this
+article, we provide a slightly diﬀerent criterion with a diﬀerent taste
+proof using properties of an elliptic curve deﬁned by E:y2=x3−x.
+This proof is simple and more accessible than the old one for those who
+are familiar with the basics of elliptic curves.
+2010Mathematics Subject Classiﬁcation. Primary 11G20; Secondary 11E25.
+12 YU TSUMURA
+2.A new criterion
+Again let p≡1 (mod 8) be a prime number. Then we can write
+p=a2+b2, wherea,bare integers. Further we can assume that ais
+odd,bis even and a+b≡1 (mod 4). Then we show the following.
+Theorem 2.1. Let notation be as above. Then we have
+/parenleftBigg
+1+√
+2
+p/parenrightBigg
+= 1⇐⇒(a−1)2+b2≡0 (mod 32)
+Proof.LetE(Fp) be an elliptic curve deﬁned by y2=x3−xover a
+ﬁnite ﬁeld Fp. We know that # E(Fp) = (a−1)2+b2. (See Theorem
+4.23, page 115 in [3].)
+Sincep≡1 (mod 4), −1 is a square mod pby the quadratic reci-
+procity law. So let i∈Fpbe a square root of −1. Then the action of i
+on a point ( x,y)∈E(Fp) deﬁned by [ i]·(x,y) = (−x,iy) is easily seen
+to bea homomorphism. Actually, E(Fp) has complex multiplication by
+Z[i]. (See Example 10.2 in [3].) Let us denote η= 1+i. We describe
+the action of ηexplicitly. Let η·(x,y) = (x0,y0). We have
+η·(x,y) = [1+i]·(x,y) = (x,y)+[i]·(x,y) = (x,y)+(−x,iy).
+Hereiin they-coordinate is a square root of −1 inFp. Then by the
+elliptic curve addition, it is equal to
+(2.1)/parenleftBigg/parenleftbigg(1−i)y
+2x/parenrightbigg2
+,y0/parenrightBigg
+(2.2) =/parenleftbiggx2−m
+2ix,y0/parenrightbigg
+,
+wherey0=/parenleftBig
+(1−i)y
+2x/parenrightBig
+(x−x0)−y. Note that by the equation (2.1), the
+x-coordinate x0ofη·(x,y) is a square. Also by the equation (2.2),
+we have deg( η) = 2, hence it is easy to see that ker( η) ={∞,(0,0)},
+where∞denotes the point at inﬁnity (the identity).
+Letx(S),S⊂E(Fp) be the set of x-coordinate of ( x,y)∈S\{∞}.
+Now, using (2.2), we see that x(η−1(∞)) ={0},x(η−2(∞)) ={±1},
+x(η−3(∞)) ={±i},x(η−4(∞)) ={±1±√
+2}.
+Now we prove a claim that ( x0,y0)∈E(Fp) has a preimage by ηin
+E(Fp) if and only if x0is a square mod Fp. Suppose x0is a square
+modp, then we solve equation (2.2). Comparing x-coordinate we have
+x0= (x2−m)/(2ix). Solving for x, we have x=x0i+/radicalbig
+m−x2
+0. SinceTHE QUADRATIC CHARACTER OF 1+√
+2 AND AN ELLIPTIC CURVE 3
+/parenleftBig
+x0
+p/parenrightBig
+= 1, we have
+/parenleftbiggm−x2
+0
+p/parenrightbigg
+=/parenleftbigg−y2
+0x−1
+0
+p/parenrightbigg
+=/parenleftbigg−1
+p/parenrightbigg/parenleftbiggy2
+0
+p/parenrightbigg/parenleftbiggx0
+p/parenrightbigg
+= 1.
+Hence√m−x0∈Fpand therefore, we have x∈Fp. Now comparing
+y-coordinate, we have y=y0/braceleftbig/parenleftbig1−i
+2x/parenrightbig
+(x−x0)−1/bracerightbig−1∈Fp. Then we
+haveη·(x,y) = (x0,y0) for (x,y)∈E(Fp).
+The converse follows from the equation (2.1).
+We ﬁnish the consideration of the action of ηand now we move to
+prove the theorem. Suppose/parenleftBig
+1+√
+2
+p/parenrightBig
+= 1. Then since
+(2.3)/parenleftBigg
+1+√
+2
+p/parenrightBigg/parenleftBigg
+1−√
+2
+p/parenrightBigg
+=/parenleftbigg−1
+p/parenrightbigg
+= 1,
+we have/parenleftBig
+1−√
+2
+p/parenrightBig
+= 1. Hence all points whose x-coordinate is one of
+±1±√
+2 have preimages by ηinE(Fp) by the above claim. Hence
+η−5(∞) is a subgroup of E(Fp). Since # η−5(∞) = 32 (note that
+#ker(η) = 2), we have 32 |#E(Fp) = (a−1)2+b2, hence we have
+(a−1)2+b2≡0 (mod 32).
+Conversely, suppose ( a−1)2+b2≡0 (mod 32). Since 32 |#E(Fp) =
+(a−1)2+b2andE(Fp) is in general cyclic or a product of two cyclic
+groups, we have an element P∈E(Fp) of order 8. Then the x-
+coordinate of η(P) orη2(P) is one of ±1±√
+2, say it is Q. Hence
+Qhas a preimage of η. As we saw in the above claim, this means
+that the x-coordinate of Qis a square mod p. So one of ±1±√
+2 is
+a square. Hence by (2.3), all of them are squares. Especially, we ha ve/parenleftBig
+1+√
+2
+p/parenrightBig
+= 1.
+/square
+Comparing these two theorems, we immediately get the following,
+which seems to diﬃcult to prove elementarily.
+Corollary 2.2. Letp≡1 (mod 8) be a prime number. Let p=a2+
+b2=c2+ 8d2, wherea,b,c,dare integers and ais odd,bis even and
+a+b≡1 (mod 4) . Then
+(a−1)2+b2≡0 (mod 32) ⇐⇒d≡0 (mod 2) .
+References
+1. PierreBarrucandandHarveyCohn, Note on primes of type x2+32y2, class num-
+ber, and residuacity , J. Reine Angew. Math. 238(1969), 67–70. MR MR0249396
+(40 #2641)4 YU TSUMURA
+2. Franz Lemmermeyer, Reciprocity laws , Springer Monographs in Mathematics,
+Springer-Verlag, Berlin, 2000, From Euler to Eisenstein. MR MR1761 696
+(2001i:11009)
+3. Lawrence C. Washington, Elliptic curves , second ed., Discrete Mathematics and
+its Applications (Boca Raton), Chapman & Hall/CRC, Boca Raton, FL, 2008,
+Number theory and cryptography. MR MR2404461 (2009b:11101)
+Department of Mathematics, Purdue University 150 North Uni ver-
+sity Street, West Lafayette, Indiana 47907-2067
+E-mail address :ytsumura@math.purdue.edu

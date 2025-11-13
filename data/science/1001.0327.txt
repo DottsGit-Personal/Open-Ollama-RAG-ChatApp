@@ -1,0 +1,199 @@
+arXiv:1001.0327v1  [nucl-th]  2 Jan 2010Is chiral symmetry manifested in nuclear structure?
+R.J. Furnstahl1and A. Schwenk2,3,4
+1Department of Physics, The Ohio State University, Columbus, OH 43 210, USA
+2TRIUMF, 4004 Wesbrook Mall, Vancouver, BC, V6T 2A3, Canada
+3ExtreMe Matter Institute EMMI, GSI, 64291 Darmstadt, German y
+4Institut f¨ ur Kernphysik, TU Darmstadt, 64289 Darmstadt, Ger many
+E-mail:furnstahl.1@osu.edu, schwenk@triumf.ca
+Abstract. Spontaneously broken chiral symmetry is an established property of low-
+energy quantum chromodynamics, but ﬁnding direct evidence for it from nuclear
+structure data is a diﬃcult challenge. Indeed, phenomenologically su ccessful energy-
+density functional approaches do not even have explicit pions. Are there smoking guns
+for chiral symmetry in nuclei?
+1. Challenge
+Spontaneously broken chiral symmetry is a key property of quant um chromodynamics
+(QCD) at low energies. It gives rise to pseudo-scalar Goldstone bos ons, the pions, which
+because of non-zero light quark masses are not massless, but are much lighter than other
+hadrons. Fornuclear forces, theimmediate consequence istheon e-pion-exchange (OPE)
+potential with its long range and characteristic tensor structure . In more detail there
+are constraints on the form of interactions in eﬀective low-energy Lagrangians [1, 2, 3].
+Since nuclear structure is ultimately determined by low-energy QCD a nd the nuclear
+Fermi momentum is comparable to 2 mπ, one might expect stark evidence from data for
+the ﬁngerprint of chiral symmetry. Thus we pose the question: Ca n we ﬁnd smoking
+guns for chiral symmetry in nuclei?
+Because calculations based on chiral symmetry consequences (un derstood broadly
+to range from including OPE to full consistency with chiral symmetry constraints in
+low-energy Lagrangians) are becoming increasingly able to describe nuclear structure,
+one might think the question is moot. But we are not asking here whet her theories
+or models consistent with chiral symmetry are suﬃcient to describe data, but whether
+the experimental data says this physics is necessary. This is a more diﬃcult question
+and one with some counterexamples to the need for explicit chiral sy mmetry. At one
+extreme, pionless eﬀective ﬁeld theory (EFT) describes few-body scattering at very low
+energies and nuclear binding up to at least the alpha particle [1, 4]. At the other
+extreme, energy-density functional approaches to medium and h eavy nuclei (such as
+Skyrme) have wide phenomenological success without explicit pions [5 ].Is chiral symmetry manifested in nuclear structure? 2
+In trying to identify manifestations of chiral symmetry, it is importa nt to make the
+distinction between long-range chiral physics and short-range ph ysics, which may be
+free of chiral symmetry constraints. Nuclear structure will in gen eral have contributions
+from both. To ﬁnd a smoking gun, one will likely need to identify observ ables (or
+combinations of observables) that are sensitive to the long-range parts.
+Because it is spontaneously broken, chiral symmetry most directly relates processes
+with diﬀerent numbers of pions. Clear signatures of chiral symmetr y, even of the most
+basic pion properties (such as OPE), can become a more subtle ques tion for processes
+with no pions in the initial or ﬁnal state, which include nuclear structu re properties
+such as binding energies and spectra. The signatures can be partic ularly obscured for
+bulk properties, where the pion eﬀects at the mean-ﬁeld level may b e washed out by
+spin and isospin averaging.
+2. Smoking guns for chiral symmetry in other contexts
+For our challenge to ﬁnd smoking guns in nuclear structure we adopt a broad deﬁnition
+of evidence for chiral symmetry, which encompasses the quantita tive implications of a
+lightpionanditsquantumnumbers (such asOPE)aswell asthemores ubtle eﬀectsthat
+constrain low-energy chiral Lagrangians. Such smoking guns for s pontaneously broken
+chiral symmetry are readily found in data from other strong intera ction contexts. The
+spectrum of mesons is the most obvious, where m2
+π≪m2
+ρmanifests the approximate
+Goldstone boson nature of the pion and would-be parity doublets (e .g., theρanda1) are
+split in mass. The physics of low-energy π–πandπ–Nscattering, which is governed by
+chiral physics, provide many other examples. Here the successes of chiral perturbation
+theory closely tie experiment and theory through chiral symmetry [6, 7].
+For nucleon-nucleon (NN) interactions, the situation is more subtle . For example,
+the unnaturally large NN scattering lengths are not related to chira l symmetry, but
+dominate the physics at very low energies. However, a compelling pro totype for the sort
+of direct evidence for chiral symmetry we seek from nuclear struc ture data can be found
+in the partial-wave analyses of NN scattering by the Nijmegen group and collaborators.
+This example also lets us deﬁne more concretely what we are looking fo r. Simply an
+improved χ2for a ﬁt to NN data using interactions with an input one-pion exchang e
+potential (or two-pion exchange) is not the strong and direct evid ence we prefer. (After
+all, it is possible to ﬁt this data accurately with inverse scattering pot entials with no
+pion exchange component.) Rather it is the unbiased extraction thr ough the ﬁtting
+process of pion parameters that we call a smoking gun.
+As part of the analysis described in Ref. [8], the masses of the charg ed and neutral
+pions were used as ﬁt parameters. The extracted values agreed w ith experiment within
+estimated one percent errors. At the same time the pion-nucleon c oupling was obtained
+from the ﬁt and found consistent with extracted values from π–Nscattering [8, 9]. The
+data provides very clear signals for this coupling; indeed, the ppπ0coupling is said to
+be determined from each individual partial wave except for1S0[8].Is chiral symmetry manifested in nuclear structure? 3
+Subsequent studies looked at the partial wave analysis with a ﬁner m icroscope and
+founddirectevidence oftwo-pionexchange(TPE) physics[10,11]. Fittingthepionmass
+again but now as a parameter in the TPE potential gave agreement w ith experiment
+at the ten percent level. Other evidence includes consistency of th ecicouplings of the
+sub-leading TPE with determinations from π–Nscattering. It is worth noting that
+the sub-leading TPE provides the long-range part of three-nucleo n (3N) forces. Finding
+smoking gunsforchiral symmetry innuclear structure maytheref orebetiedtoincluding
+3N interactions.
+In the example of NN phase shifts, the sensitivity to pion physics can be enhanced
+by concentrating on the peripheral partial waves (e.g., G-waves a nd higher are fully
+explained by pion exchanges). This isolates the long-distance physic s, which is chiral
+physics. Even so, a careful analysis of statistical and systematic errors together with a
+large database was required to cleanly extract the direct evidence for sub-leading chiral
+eﬀects. This highlights the diﬃculty in meeting the challenge for nuclea r structure,
+where the chiral origin of mid-range physics from TPE may be diﬃcult t o resolve.
+3. Opportunities
+There aremany opportunitiesto buildonexisting eﬀortsinthesearc h for chiral smoking
+guns. The growing applications of chiral EFT to nuclear structure t hrough no-core
+shell model, coupled cluster, and lattice EFT calculations are building f oundations
+for the desired evidence from data and for investigations similar to t he NN partial-
+wave analyses. We emphasize again that while phenomenological succ ess starting from
+microscopic theories incorporating chiral symmetry is gratifying, t his type of indirect
+evidence is not what we are looking for. As the accuracy improves, h owever, we can
+ask whether distinctions that point to pions and then more subtle ch iral symmetry
+constraints will become apparent (as with TPE in the prototype par tial-wave analysis).
+For nuclear structure evidence, many-body force contributions from long-range TPE
+may be key.
+Other possibilities for smoking guns are in shell-model calculations tha t start
+from interactions including pion physics, with monopole (or more) adj ustments ﬁt to
+reproduce spectra and binding energies in a major shell. Do the ﬁts o f shell-model
+interactions favor pion exchanges for the long-range parts? If s o, is it possible to isolate
+data that are most sensitive to the long-range parts (e.g., to cons train their sub-leading
+contributions)?
+A third category may provide the greatest challenge to ﬁnding explic it chiral
+symmetry: energy-density functionals (EDF). Accurate calculat ions of binding energies
+and other properties are made across the mass table by EDF’s such as Skyrme or Gogny,
+which do not have explicit pions. Relativistic EDF’s in principle start with p ions but
+they do not contribute at the mean-ﬁeld level used in relativistic phe nomenology. Naive
+dimensional analysis for ﬁt parameters in EDF’s (Skyrme or covarian t) is suggestive of
+chiral signatures [12, 13] but is not quantitative enough to be conc lusive. We expectIs chiral symmetry manifested in nuclear structure? 4
+generalized EDF’s will be needed to ﬁnd smoking guns.
+There have been many studies that hint at a special role for chiral s ymmetry in
+nuclear structure. These include a wide array of models that impleme nt a partial
+restoration of chiral symmetry at ﬁnite density, in-medium QCD sum rules, and Brown-
+Rho scaling (see for example Refs. [14, 15]). None of these rise as ye t to the level of a
+smokinggunfornuclearstructure; thechallengeistomakethemsu ﬃcientlyquantitative
+and predictive based on data (rather than model input).
+Other direct possibilities for ﬁnding smoking guns of chiral symmetry may lie with
+in-medium chiral EFT, which has been under recent development (se e Refs. [3, 16]
+and references therein). There are open questions, such as the convergence of the
+perturbative approach, but it has the explicit chiral ingredients ne eded. We can ask: are
+there unique predictions from long-range pion physics? These may b e diﬃcult to ﬁnd,
+as illustrated by the subtleties in pinning down the origin of the spin-or bit splittings in
+nuclei. One might hope for the same type ﬁtting as in NN phase shifts. A possibility
+already being considered is the ﬁtting of energy-density functiona ls that have been
+supplemented with long-range chiral EFT physics. This would mean let ting the pion
+parameters ﬂoat in the ﬁts in the same way as in the Nijmegen phase s hift analyses.
+The answer is as yet unknown to even the most basic question: Do me dium and heavy
+nuclei know the pion mass and coupling?
+What can we say in general about where one should look for chiral sy mmetry
+signatures? Searching in bulk properties will be diﬃcult because of th e averaging
+of pion contributions and the important role of short-range physic s. The task is to
+identify observables (analogous to peripheral partial waves) tha t isolate contributions
+from long-range pion physics. Past suggestions have included single -particle energies,
+where the pion tensor force may be isolated; isotopechains, where small diﬀerences from
+the isospin dependence due to pion exchanges including long-range 3 N forces may be
+ampliﬁed; collective excitations with pionic quantum numbers; electro weak axial-charge
+transitions and properties of pionic atoms (see for example Refs. [1 6, 17, 18]).
+4. Final comments
+Our challenge to nuclear structure theorists is to search for directmanifestations
+of chiral symmetry in nuclei. Success in this quest will help to unify des criptions
+of strong-interaction phenomena, identify sensitivities that can s uggest proﬁtable
+new experiments, guide microscopic calculations of nuclear propert ies toward greater
+precision, and foreshadow what to expect under extreme conditio ns. It can also lead to
+ties to lattice QCD, whose growing successes give rise to dreams of d irect calculations
+of the lightest nuclei, enabling new insights to chiral symmetry in nucle ar structure.
+However, the challenge to ﬁnd smoking guns can also be constructiv ely answered in a
+negative way, by showing that explicit chiral symmetry is notnecessary for particular
+nuclear structure observables. So an alternative question to pos e is: where are eﬀective
+ﬁeld theories of nuclei without pionic degrees of freedom applicable?Is chiral symmetry manifested in nuclear structure? 5
+Acknowledgments
+This work was supported in part by the National Science Foundation under Grant
+No. PHY–0653312, the UNEDF SciDAC Collaboration under DOE Grant DE-FC02-
+07ER41457, the Natural Sciences and Engineering Research Coun cil of Canada
+(NSERC), and by the Helmholtz Alliance Program of the Helmholtz Asso ciation,
+contract HA216/EMMI “Extremes of Density and Temperature: C osmic Matter in the
+Laboratory”. TRIUMF receives federal funding via a contribution agreement through
+the National Research Council of Canada.
+References
+[1] P. F. Bedaque and U. van Kolck. Eﬀective ﬁeld theory for few-nu cleon systems. Ann. Rev. Nucl.
+Part. Sci. , 52:339, 2002.
+[2] E. Epelbaum. Few-nucleon forces and systems in chiral eﬀective ﬁeld theory. Prog. Part. Nucl.
+Phys., 57:654, 2006.
+[3] E. Epelbaum, H.-W. Hammer, and U.-G. Meißner. Modern theory of nuclear forces. Rev. Mod.
+Phys., 81:1773, 2009.
+[4] L. Platter. Few-body systems and the pionless eﬀective ﬁeld the ory. arXiv:0910.0031.
+[5] M. Bender, P.-H. Heenen, and P.-G. Reinhard. Self-consistent m ean-ﬁeld models for nuclear
+structure. Rev. Mod. Phys. , 75:121, 2003.
+[6] J. Gasser and H. Leutwyler. Chiral perturbation theory to one loop.Ann. Phys. , 158:142, 1984.
+[7] V. Bernard and U.-G. Meißner. Chiral perturbation theory. Ann. Rev. Nucl. Part. Sci. , 57:33,
+2007.
+[8] V. G. J. Stoks, R. Timmermans, and J. J. de Swart. On the pion–n ucleon coupling constant.
+Phys. Rev. C , 47:512, 1993.
+[9] U. van Kolck, M. C. M. Rentmeester, J. L. Friar, J. T. Goldman, a nd J. J. de Swart.
+Electromagneticcorrectionsto the one-pion-exchangepotentia l.Phys. Rev. Lett. , 80:4386,1998.
+[10] M. C. M. Rentmeester, R. G. E. Timmermans, J. L. Friar, and J. J. de Swart. Chiral two-pion
+exchange and proton-proton partial-wave analysis. Phys. Rev. Lett. , 82:4992, 1999.
+[11] M. C. M. Rentmeester, R. G. E. Timmermans, and J. J. de Swart . Determination of the chiral
+coupling constants c3andc4in new proton-proton and neutron-proton partial-wave analyses .
+Phys. Rev. C , 67:044001, 2003.
+[12] J. L. Friar, D. G. Madland, and B. W. Lynn. QCD scales in ﬁnite nuc lei.Phys. Rev. C , 53:3085,
+1996.
+[13] R. J. Furnstahl. Neutron radii in mean-ﬁeld models. Nucl. Phys. A , 706:85, 2002.
+[14] U. Mosel. Chiral symmetry in nuclei – Theoretical expectations and hard facts. Mod. Phys. Lett.
+A, 23:2371, 2008.
+[15] M. C. Birse. Chiral symmetry in nuclei: Partial restoration and it s consequences. J. Phys. G ,
+20:1537, 1994.
+[16] W. Weise. Yukawa’s pion, low-energy QCD and nuclear chiral dyna mics.Prog. Theor. Phys.
+Suppl., 170:161, 2007.
+[17] G. E. Brown and M. Rho. On the manifestation of chiral symmetr y in nuclei and dense nuclear
+matter. Phys. Rept. , 363:85, 2002.
+[18] T. Otsuka, T. Suzuki, J. D. Holt, A. Schwenk, and Y. Akaishi. Th ree-body forces and the limit
+of oxygen isotopes, arXiv:0908.2607.

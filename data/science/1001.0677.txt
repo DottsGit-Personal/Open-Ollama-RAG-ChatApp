@@ -1,0 +1,138 @@
+SPATIAL AND FREQUENCY DEPENDENCIES OF LOCAL PHOTORESPONSE OF 
+HTS STRIP-LINE RESONATOR IN THE REGIME OF TWO-TONE MICROWAVE 
+INTERMODULATION EXCITATION  
+ 
+ 
+Alexander P. Zhuravel 
+B. Verkin Institute for Low temperature Physics & Engineering, NAS of Ukraine 
+Address: 47 Lenin Avenue, Kharkov, 61103, Ukraine 
+Tel.: +38(057)341-0907, Fax: +38(057)340-3370, E-mail: zhuravel@ilt.kharkov.ua  
+Steven M. Anlage 
+Center for Nanophysics and Advanced Materials, Department of Physics, University of Maryland 
+Address: College Park, MD 20742-4111 USA 
+Tel.: (301) 405-7321, Fax: (301) 405-3779, E-mail:anlage@umd.edu 
+Alexey V. Ustinov 
+Physikalisches Institut, Karlsruhe  Institute of Technology (KIT) 
+Address: Wolfgang-Gaede-Str. 1, D-76131, Karlsruhe, Germany 
+Tel.: +49-721-608-3455, Fax: +49-721-608-6103, E-mail: ustinov@physik.uni-karlsruhe.de 
+  
+High-T
+c superconducting (HTS) films have been widely a pplied in passive microwave electronics including 
+high-Q resonators for mobile telephony. One of the crucial problems in applying such HTS devices remains their nonlinear (NL) response with respect to pumping power. This manifests itself as global  intermodulation product 
+distortion (IMD) when two or more high-frequency (HF) signals are NL mixed in the resonant frequency band. A predominately local  origin of NL sources through global  NL media motivates the development of spatially 
+resolved methods to identify the dominant mechanisms of NL response. We have previously shown [1] that by using different imaging contrast modes of low-temperat ure (LT) laser scanning microscopy (LSM) one can solve 
+this problem with great success. Additionally, a new paradigm of HF frequency-dependent singularity of LSM 
+images was developed to spatial describe (i) local changes in surface resistance 
+δRs(x, y) and (ii) HF current 
+density distribution JHF(x, y) as a function of resonator ( x, y) surface coordinates by using a method of spatially-
+resolved complex impedance partition [2]. Here, we pr opose a new phenomenological approach to spatially-
+resolved research of NL microwave properties of operating thin-film superconducting resonators. The approach is based on frequency and spatial uniqueness of LSM images that can be extracted from a set of 2-D patterns representing x-y distribution of the LSM photoresponse, PR
+f(x, y), at fixed third-order IMD frequencies 2 f1-f2 and 
+2f2-f1 as a result of two-tone resonator microw ave excitation at equidistant frequencies f1 and f2 relative to the 
+fundamental resonance, f0. We show that similar to what is described in [2] manipulation of LSM images at 2 f1-f2 
+and 2 f2-f1 can be used to present NL components of IMD LSM PR(x, y) in terms of its independent spatial 
+variations of ( i) inductive PR IMD,X (x, y) and ( ii) resistive PR IMD,R(x, y) contributions. In particular the realistic 
+spatial coherence between such IMD components and JHF(x, y) flow, so crucial for determining the NL properties 
+of the device, have not been investigated. 
+The tested device was a half wave YBa 2Cu3O7-δ (YBCO) microstrip (with thickness d = 1 μm) resonator on 
+a 500 μm LaAlO 3 (εr=24.2) substrate (LAO) designed for operation at f0=1.85 GHz with Q~1230 at T=78 K. The 
+resonator was connected to the IMD scheme of a tw o-tone excitation centered with 1 MHz spacing around f0. For 
+LSM imaging, the device was x-y scanned by a 4 μm diameter thermal probe produced by a 1.1 μm diameter 
+focused laser beam that is amplitude modulated with a frequency of about 100 kHz on the sample surface. Position of the LSM raster was centered not far from the peak of the standing wave current pattern near the YBCO strip edge to investigate an area with maximum J
+HF(x, y) gradient that is the most suitable for the 
+following spatially-resolved analysis. All LSM images were acquired at T=78 K and at Pf1=Pf2=9 dBm using 
+step-by-step scanning of the sample by the laser probe with equal distance between steps of about 0.4 μm along 
+both x and y direction. The linear components of HF LSM PR f(x, y) were measures at f1 and f2 to make spatial 
+separation between inductive PR X(x, y) and dissipative PR R(x, y) contribution as explained by [2]. The derived 
+PR X(x, y) was used to present LSM image of JHF(x, y) calibrated in real units by using a procedure described in 
+[1]. Changes in δRs(x,y) were estimated as PR R(x,y)/PR X(x,y) considering that PR R(x, y)~ J2
+HF(x, y)*δRs(x, y) and 
+PR R(x, y)~ J2
+HF(x, y). 
+Additionally, two LSM PR 2f1-f2(x, y) and PR 2f2-f1(x, y) images were measured in the same area of the 
+resonator at combinational frequencies 2 f1-f2 and 2 f2-f1 of IMD harmonics. The spectral dependence of IMD 
+photoresponse was estimated by using an expression for global IMD power PIMD=Q4(P2
+f1Pf2)(1/P2
+c)[1+( ΔR/QΔL)2] that has been developed in [3]. Here, Pc=2πfL0I2
+IMD/ΔL is the 
+characteristic power, L0 and R0 are the linear parts,  ΔL and ΔR are the nonlinearity coefficients in changes of the 
+inductance  L=L0+ΔL(I/IIMD)2 and resistance  R=R0+ΔR(I/IIMD)2 per unit length of the microstrip related to the case 
+when jIMD is on order of the critical current density Jc. We considered the frequency dependence of thermally 
+induced modulation in PIMD in terms of the temperature derivative δPIMD(f)= (dPIMD/dT)δT, where  separate 
+contributions from PR IMD,X (x, y) and PR IMD,R(x, y) can be deduced through partial derivatives related to f0 and 
+1/Q, correspondingly: 
+ 0
+0() (1 / )
+( 1 / ) () ( ) ()IMD IMD IMD
+IMDf PP P QPRTQ T f T∂ ∂∂ ∂ ∂∝= +∂∂ ∂ ∂ ∂ (1) 
+One can make sure that at frequencies very close to the fundamental resonance ( f ~ f 0) dissipative and 
+inductive components of LSM PR may be presented as: 
+3
+, 422
+0(1 / )
+(1 / ) 4( / 1) (1/ )IMD
+IMD RPQPRQ ff Q∂−=∝∂ ⎡ ⎤ −+⎣ ⎦   (2a) 
+2
+0
+, 42200(/ 1 ) (1 / )
+() 4( / 1) (1/ )IMD
+IMD Xff P QPRff ff Q− ∂=∝∂ ⎡ ⎤ −+⎣ ⎦  (2b) 
+As evident from Eq. (2a), the spectrum of PR IMD,R(f) is approximated well by a symmetric (relative to f0) 
+Lorentzian-like curve of the same (negative) sign having equal magnitudes PR IMD,R(2f1-f2)= PR IMD,R(2f2-f1) at 
+equidistant IMD frequencies 2 f1-f2 and 2 f2-f1 around f0.  In contrast, the curve of PR IMD,X (f) dependence (see Eq. 
+(2b)) crosses “0” at f = f0 and has opposite signs i.e. PR IMD,X (2f1-f2)= (-) PR IMD,X (2f2-f1) there. By virtue such an f-
+singularity of PR IMD(f), one can present LSM images of NL media as independent distributions of inductive and 
+resistive NL sources by using the following transformations: 
+12 21
+,(2 ) (2 )(, )2IMD IMD
+IMD XPRf f P Rf fPR x y−− −=  (3 а) 
+12 21
+,(2 ) (2 )(, )2IMD IMD
+IMD RPRf f P Rf fPR x y−+ −=  (3b) 
+For the experimental verification of these statements, the same 40x20 μm2 area of the resonator was 
+visualized in different imaging modes of LSM contrast. In Fig. 1. 
+ 
+ 
+Fig.1. Set of LSM images that were analyzed and 
+discussed in the text. Fig.2. (a) Sketch of the sample cross section along x-
+scan and (b) profiles of LSM response there. 
+ 
+In Fig. 1(a) we have pictured an optical reflectiv ity LSM (false-color) map of the scanned area where the 
+surface quality of the YBCO film as well as the twinned structure of the LAO substrate is clearly visible. The 
+YBCO strip edge has a chamfered profile producing a darker YBCO reflectivity image within a t = 4 μm strip. 
+Top (P1 in Fig. 2(a)) and bottom (P2 in Fig. 2(a)) edge s of the chamfer are placed along two dashed white lines 
+in Fig. 2(b) where an LSM image of JHF(x, y) is shown. The brightest area there coincides with maximum amplitude of JHF(x, y) ~ 109A/m2 while the darkest ones correspond to zero current density. Spatial coherence 
+between (i) JHF(x, y), nonlinear (ii) inductive PR IMD,X (x, y) and (iii) resistive PR IMD,R(x, y) components of LSM 
+PR as well as (iv) δRs(x,y) is evident as one can see through comparison of all images presented in Fig. 1(b-e).  
+Fig. 2(b) shows typical profiles of different IMD and HF components of LSM PR(x, y = 4) together with 
+their exponential fit that were measured along a single x-scan (see dashed line numbered as ‘4’ in Fig. 4(a)) at fixed y(=4 lines)-cross-section. Similar profiles were used in Fig. 3 for log-log plotting of both local PR
+IMD,R and 
+PR IMD,X  responses as a function of local circulating HF power  that can be approximated by the linear term of 
+inductive LSM PR. As seen all four cross-sections (4, 18, 32 and 100 from Fig. 4(a)) of the resonator demonstrate a similar tendency for a linear increasing of PR
+IMD,X  and square-low growth of PR IMD,R with respect 
+to PR HF,X that is linked directly to IMD components through the same position of the laser probe. Also, the 
+dominant contribution of PR IMD,X  to the total IMD PR is seen at small JHF(x, y) closer to YBCO center. However 
+at peak values of HF current density near the HTS film edge those amplitudes of NL response are almost equal. 
+We believe that IMD LSM PR originates from a small laser-probe induced modulation δPIMD(x, y). of 
+intermodulation power. In this case, PR IMD,X (x, y) and PR IMD,R(x, y) components show local NL properties of the 
+microwave device in terms of corresponding local derivatives δPIMD,X (x, y) and δPIMD,R(x, y). Spatial integration 
+(see Fig. 4(b)) shows that below Jc(x, y) (see, for example data in Fig. 3(c) below P1), the power of real 
+(dissipative) NL sources follows a classical cubic dependence PIMD,R ~ P3
+IN on input HF power. There were no 
+changes in local values of the surface resistance found at all JRF(x, y) < Jc(x, y). Surprisingly, local sources of 
+imaginary (inductive) IMD response show almost a square-law power dependence (see Fig. 4(b)) even below J
+c(x, y) except very close to JRF(x, y) ~ 0. This contradicts previously published data considering Jc(x, y) as the 
+correct scale for the lower limit of NLs. 
+ 
+Fig.3. Log-log plots of IMD components of LSM photoresponse as a function of linear inductive one.  The line cuts in parts (a) – (d) correspond to those shown in Fig. 4. Fig.4. (a) LSM image of PR
+IMD,R(x, y) 
+showing line-scans analyzed in Fig. 3 and (b) restored P
+IMD(P) dependencies. 
+ 
+The authors acknowledge the support of the Fundamental Researches State Fund of Ukraine  and German 
+International Bureau of the Federal Ministry of Education and Research (BMBF) under grant project UKR08/011 and a NASU program on “nanostructures, materials and technologies”. 
+References 
+1. A.P. Zhuravel, A.G. Sivakov, O.G. Turutanov, A.N. Omelyanchouk, S. M. Anlage, A. Lukashenko, A.V. 
+ Ustinov, D. Abraimov, “Laser scanning microscopy of HTS films and devices (Review Article)”, Low  Temp. Phys., Vol. 32, Issue 6, , pp. 592-607, 2006. 
+2. A.P. Zhuravel, S.M. Anlage, A.V. Ustinov, “Measurement of local reactive and resistive photoresponse of a  superconducting microwave device”, Appl. Phys. Lett ., Vol. 88, p. 212503, 2006. 
+3. T. Dahm,  D J. Scalapino, B.A. Willemsen, “Phenomenological Theory of Intermodulation in HTS Resonators  and Filters”, Journal of Superconductivity, Vol. 12, No. 2,  pp. 339-342, 1999.  

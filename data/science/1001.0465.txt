@@ -1,0 +1,388 @@
+arXiv:1001.0465v1  [hep-ph]  4 Jan 2010CPC(HEP & NP), 2009, 33(X): 1—4 Chinese Physics C Vol. 33, No. X, Xxx, 2009
+The lowest-lying spin-1/2 and spin-3/2 baryon magnetic
+moments in chiral perturbation theory
+L.S. Geng1;1)J. Martin-Camalich1;2)L. Alvarez-Ruso2;3)M. J. Vicente-Vacas1;4)
+1 ( Departamento de F´ ısica Te´ orica and IFIC, Universidad d e Valencia-CSIC, E-46071 Valencia, Spain)
+2 (Centro de F´ ısica Computacional, Departamento de F´ ısic a, Universidade de Coimbra, P3004-516 Coimbra, Portugal)
+Abstract We review some recent progress in our understanding of the lo west-lying spin-1/2 and spin-3/2
+baryon magnetic moments (MMs) in terms of Chiral Perturbati on Theory (ChPT). In particular, we show that
+at next-to-leading-order ChPT can describe the MMs of the oc tet baryons quite well. We also make predictions
+for the decuplet MMs at the same chiral order. Among them, the MMs of the ∆++and ∆+are found to agree
+well with data within the experimental uncertainties.
+Key words magnetic moments, octet baryons, decuplet baryons, chiral perturbation theory
+PACS 13.40.Em, 14.20.-c, 12.39.Fe
+1 Introduction
+The magnetic moments (MMs) of the octet
+baryons have long been related to those of the proton
+and neutron, i.e., the celebrated Coleman-Glashow
+(CG) relations[1]. These relations are a result of (ap-
+proximate) global SU(3) ﬂavor symmetry. Of course,
+weknowthatSU(3)ﬂavorsymmetryisbroken,ascan
+also be clearly seen by comparing the predicted MMs
+with the corresponding experimental values (see Ta-
+ble 1). How to implement SU(3) breaking in a model-
+independent and systematic way has been pursued
+since then.
+Chiralsymmetryanditsbreakingpattern,incom-
+bination with the concept ofeﬀective ﬁeld theory ﬁrst
+systematically put forwardby Weinberg[2], has led to
+a low-energy eﬀective theory of QCD–Chiral Pertur-
+bation Theory (ChPT)[3–10]. It has long been re-
+alized that ChPT may be employed to study SU(3)
+breakingeﬀects on the MMs of the baryonoctet. The
+ﬁrst eﬀort was undertaken by Caldi and Pagels in
+1974[11], evenbeforeChPTasweknowtodaywasfor-
+mulated. It was found that at next-to-leading-order
+(NLO), SU(3) breaking eﬀects are so large that the
+description of the octet baryon MMs by the CG rela-tions tends to deteriorate, which was later conﬁrmed
+by the calculations performed in Heavy Baryon (HB)
+ChPT[12–15]andInfrared(IR) ChPT[16]. Thisappar-
+ent failure has often been used to question the valid-
+ity of SU(3) ChPT in the one-baryon sector. In order
+to solve this problem, diﬀerent approaches have been
+suggested, including reorderingthe chiral series[17]or
+using a cutoﬀ to reduce the loop contributions, i.e.,
+the so-called long-range regularization[18].
+We will show in this talk that the above-
+mentioned apparent failure of baryon SU(3) ChPT is
+causedby the power-counting-restoration(PCR) pro-
+cedureused in removingthe power-counting-breaking
+(PCB) terms, which are due to the large non-zero
+baryon masses in the chiral limit[5]. The HB, the IR,
+and the extended-on-mass-shell(EOMS)∗approaches
+all remove the PCB terms, but the HB and IR ap-
+proaches achieve this by also removing nominally
+higher-order terms in such a way that relativity and
+analyticity of the loop results are lost. These ques-
+tions have been discussed quite extensively in the lit-
+erature, e.g., see Refs.[10, 19, 20]. Once the relativity
+and analyticity of the loop results are properly con-
+served, e.g., in the EOMS regularization scheme, it
+wasfound that baryonSU(3) ChPTat NLOimproves
+Received 15 December 2009
+1)E-mail:lsgeng@iﬁc.uv.es
+2)E-mail:camalich@iﬁc.uv.es
+3)E-mail:alvarez@teor.ﬁs.uc.pt
+4)E-mail:vicente@iﬁc.uv.es
+∗It is necessary to stress that the EOMS regularization schem e is nothing but a MSprocedure with an additional subtraction
+removing the ﬁnite power-counting-breaking pieces, if the y exist.
+c/circlecopyrt2009Chinese Physical Society and the Institute of High Ener gy Physics of the ChineseAcademy of Sciences and the Institu te
+of Modern Physics of the Chinese Academy of Sciences and IOP P ublishing LtdNo. X L. S. Geng et al: The lowest-lying spin-1/2 and spin-3/2 baryon magnetic moments in chiral perturbation theory 2
+the CG relations[20], contrary to the conclusions of
+most previous ChPT studies performed at this order.
+B B B B' BB' B'M M Mγ γ
+Bγ
+(c) (a) (b)B
+Fig. 1. Feynman diagrams contributing to the
+octet baryon magnetic moments up to NLO.
+It has often been argued that diﬀerent regular-
+ization schemes should yield the same results since
+the diﬀerence between them is of nominal higher or-
+der. One must notice, however, that in order for this
+to be true, the regularization procedure should not
+break the analyticity of the loop results, which is cer-
+tainly not true in certain cases for the HB and IR
+schemes, asdemonstratedin Refs.[10, 19]. Atacertain
+order, one scheme can converge faster than the other
+schemes. From a practical point of view, one should
+better choose the one that conserves the analyticity
+of the loop results, is covariant, and, meanwhile, con-
+vergesfaster. Amongthe HB,IR,andEOMSregular-
+ization schemes, the EOMS scheme has been found to
+satisfy the above criteria. Therefore, we have chosen
+the EOMS regularization scheme in all the calcula-
+tions presented in this work.
+2 The octet baryon magnetic mo-
+ments
+2.1 Dynamical octet baryon contributions
+In the following, we discuss the results for the
+octet baryon magnetic moments at NLO without
+considering the contributions of dynamical decuplet
+baryons,whichwillbestudiedinthenextsub-section.
+We will not show the detailed formalism here,
+which can be found in Ref.[20]. Up to NLO, one has
+the diagrams shown in Fig. 1. The tree-level coupling
+(a)gives the leading-order (LO) result
+κ(2)
+B=αBbD
+6+βBbF
+6, (1)
+where the coeﬃcients αBandβBfor each of the
+octet baryons are listed in Table I of Ref.[20]. This
+lowest-order contribution is nothing but the SU(3)-
+symmetric prediction leading to the CG relations
+[1, 12].
+TheO(p3) diagrams (b)and(c)account for
+the leading SU(3)-breaking corrections that are in-
+duced by the corresponding degeneracy breaking inthe masses of the pseudoscalar meson octet. Their
+contributions to the anomalous magnetic moment of
+a given member of the octet Bcan be written as
+κ(3)
+B=1
+8π2F2
+φ/parenleftBigg/summationdisplay
+M=π,Kξ(b)
+BMH(b)(mM)
++/summationdisplay
+M=π,K,ηξ(c)
+BMH(c)(mM)/parenrightBigg
+(2)
+with the coeﬃcients ξ(b,c)
+BMlisted in Table I of Ref.[20].
+The loop-functions, which are convergent, read
+H(b)(m) =−M2
+B+2m2+m2
+M2
+B(2M2
+B−m2)log/parenleftbiggm2
+M2
+B/parenrightbigg
++2m(m4−4m2M2
+B+2M4
+B)
+M2
+B/radicalbig
+4M2
+B−m2arccos/parenleftbiggm
+2MB/parenrightbigg
+,
+H(c)(m) =M2
+B+2m2+m2
+M2
+B(M2
+B−m2)log/parenleftbiggm2
+M2
+B/parenrightbigg
++2m3(m2−3M2
+B)
+M2
+B/radicalbig
+4M2
+B−m2arccos/parenleftbiggm
+2MB/parenrightbigg
+.(3)
+One immediately notices that they contain pieces
+∼M2
+Bthat contribute at O(p2) to the MMs, which
+break the naive PC.
+Diﬀerent regularizationschemesdiﬀer inhowthey
+remove the PCB terms: HB performs a dual expan-
+sionwhile IRsubtractsfromthe full resultthe regular
+part. The underlying reason that one can perform a
+regularization on the results shown in Eq. (3) lies in
+the fact that ChPT includes all symmetry allowed
+terms such that the PCB terms can be absorbed by
+the correspondinglow-energy-constants(LECs). One
+can easily see that the PCB terms ( ∼M2
+B) can be
+absorbed by redeﬁning bD
+6andbF
+6. This is how one
+performs the regularization in the EOMS scheme. In
+the HB and IR schemes, one also removes higher or-
+der analytic terms while those LECs corresponding
+to these nominally higher-order terms are not explic-
+itly taken into account in the NLO calculation. One
+should also notice that in order for the EOMS argu-
+ment to be totally true, one has to use a common
+decay constant Fφfor pions, kaons, and etas, because
+one has only two LECs at his disposal at this order,
+whichcan nottakecareofhigher-ordereﬀects leading
+to diﬀerent values for Fφ.
+In Table 1, we show the LO and NLO results ob-
+tained in the EOMS scheme[20]. For the sake of com-
+parison, we also show the NLO results obtained by
+using the HB and IR schemes. To compare with the
+results of earlier studies, we deﬁne
+˜χ2=/summationdisplay
+(µth−µexp)2, (4)No. X L. S. Geng et al: The lowest-lying spin-1/2 and spin-3/2 baryon magnetic moments in chiral perturbation theory 3
+whileµthandµexpare theoretical and experimental
+MMs of the octet baryons. The results shown in Ta-
+ble 1 are obtained by minimizing ˜ χ2with respect to
+the two LECs ˜bD
+6and˜bF
+6, renormalized bD
+6andbF
+6. Itis clear that the HB and IR results spoil the CG rela-
+tions, as found in previous studies, while the EOMS
+results improve them.
+Table 1. The baryon-octet magnetic moments (in nuclear magn etons) up to O(p3) obtained in diﬀerent χPT
+approaches in comparison with data.
+p n Λ Σ−Σ+Σ0Ξ−Ξ0ΛΣ0˜χ2
+O(p2)
+Tree level 2.56 -1.60 -0.80 -0.97 2.56 0.80 -1.60 -0.97 1.38 0 .46
+O(p3)
+HB 3.01 -2.62 -0.42 -1.35 2.18 0.42 -0.70 -0.52 1.68 1.01
+IR 2.08 -2.74 -0.64 -1.13 2.41 0.64 -1.17 -1.45 1.89 1.86
+EOMS 2.58 -2.10 -0.66 -1.10 2.43 0.66 -0.95 -1.27 1.58 0.18
+Exp. 2.793(0) -1.913(0) -0.613(4) -1.160(25) 2.458(10) — - 0.651(3) -1.250(14) ±1.61(8)
+ 0 0.5 1 1.5 2 2.5
+ 0  0.2  0.4  0.6  0.8  1χ ~ 2
+xEOMS
+HB
+IR
+Fig. 2. SU(3)-breaking evolution of the mini-
+mal ˜χ2in theO(p3)χPT approaches under
+study. The shaded bands are produced by
+varyingMBfrom 0.8 to 1.1 GeV.
+The diﬀerence between the EOMS, HB, and IR
+approaches can also be seen from Fig. 2, where we
+show the evolution of the minimal ˜ χ2as a function of
+x=MM/MM,phys, whileMM,MM,physare the masses
+ofthe pion, kaon, etausedinthe calculationand their
+physical values. It is clear that at x= 0, the chiral
+limit, all the results are identical to the CG relations.
+Asxapproaches 1, where the meson masses equal to
+the physical values, only the EOMS results show a
+proper behavior, while both the HB and IR results
+rise sharply. This shows clearly that relativity and
+analyticity of the loop results play an important role
+in the present case.
+2.2 Dynamical decuplet baryon contribu-
+tions
+Chiral perturbation theory relies on the assump-
+tion that there exists a natural cutoﬀ such that high-
+energy degreesof freedom can be integrated out, with
+their eﬀects approximated by the LECs. In the case
+of baryon SU(3) ChPT, the average mass gap be-
+tween the baryon octet and the baryon decuplet isonly 0.231 GeV, similar to the pion mass and even
+smaller than the kaon mass. Therefore, in baryon
+SU(3) ChPT, one has to be careful about the contri-
+butions of the decuplet baryons.
+It must be pointed out that description of spin-
+3/2 baryons in a fully consistent quantum ﬁeld the-
+ory framework is an unsolved problem, see e.g.
+Refs.[21, 22]and references therein.
+Using the “consistent coupling” scheme to de-
+scribe the self-interaction of spin-3/2 baryons and
+their interaction with spin-1/2 baryons, we have
+showninRef.[22]thattheinclusionofdynamicalspin-
+3/2 baryons has only a small eﬀect on our description
+oftheoctetbaryonMMsasdescribedabove. It isalso
+shown that this conclusion is stable with respect to
+all of the model parameters within their uncertain-
+ties[22].
+3 The decuplet baryon magnetic mo-
+ments
+In recent years, there have been increasing inter-
+est from both the experimental side and the lattice
+QCD community to study the magnetic moments of
+the lowest-lying decuplet baryons, particularly those
+of the ∆(1232)’s. Encouraged by the success of the
+baryonChPTindescribingtheoctetbaryonmagnetic
+moments, we have extended the same framework to
+study the decuplet baryon magnetic moments. De-
+tails of this study can be found in Ref.[23].
+In Table 2, we show our EOMS ChPT NLO re-
+sults[23]in comparison with those of a number of
+theoretical models and available data. We have ﬁtted
+the only LEC at this order by reproducing the MM
+of the Ω. It can be clearly seen that our results for
+the ∆++and ∆+agree quite well with data within
+the experimental uncertainties.No. X L. S. Geng et al: The lowest-lying spin-1/2 and spin-3/2 baryon magnetic moments in chiral perturbation theory 4
+Table 2. Decuplet magnetic dipole moments (in nuclear magne tons) obtained in covariant ChPT up to O(p3),
+in comparison with those obtained in other theoretical appr oaches and data.
+∆++∆+∆0∆−Σ∗+Σ∗0Σ∗−Ξ∗0Ξ∗−Ω−
+SU(3)-symm. 4.04 2.02 0 -2.02 2.02 0 -2.02 0 -2.02 -2.02
+NQM[24]5.56 2.73 -0.09 -2.92 3.09 0.27 -2.56 0.63 -2.2 -1.84
+RQM[25]4.76 2.38 0 -2.38 1.82 -0.27 -2.36 -0.60 -2.41 -2.35
+χQM[26]6.93 3.47 0 -3.47 4.12 0.53 -3.06 1.10 -2.61 -2.13
+χQSM[27]4.85 2.35 -0.14 -2.63 2.47 -0.02 -2.52 0.09 -2.40 -2.29
+QCD-SR[28]4.1(1.3) 2.07(65) 0 -2.07(65) 2.13(82) -0.32(15) -1.66(73 ) -0.69(29) -1.51(52) -1.49(45)
+lQCD[29]6.09(88) 3.05(44) 0 -3.05(44) 3.16(40) 0.329(67) -2.50(29 ) 0.58(10) -2.08(24) -1.73(22)
+lQCD[30]5.24(18) 0.97(8) -0.035(2) -2.98(19) 1.27(6) 0.33(5) -1.8 8(4) 0.16(4) -0.62(1) —
+largeNc[31]5.9(4) 2.9(2) — -2.9(2) 3.3(2) 0.3(1) -2.8(3) 0.65(20) -2.3 0(15) -1.94
+HBχPT[32]4.0(4) 2.1(2) -0.17(4) -2.25(19) 2.0(2) -0.07(2) -2.2(2) 0 .10(4) -2.0(2) -1.94
+ChPT[23]6.04(13) 2.84(2) -0.36(9) -3.56(20) 3.07(12) 0 -3.07(12) 0 .36(9) -2.56(6) -2.02
+Expt.[33]5.6±1.9 2 .7+1.0
+−1.3±1.5±3 — — — — — — — -2.02 ±0.05
+4 Summary and conclusions
+EOMS SU(3) baryon ChPT provides a successful
+description of the SU(3) breaking eﬀects on the octet
+baryon MMs. It has been found in this particular
+case that the relativity and analyticity of the loop re-
+sults play an important role. We have also studied
+the dynamical decuplet contributions and found that
+their inclusion only has a small eﬀect on the SU(3)
+breaking eﬀects on the MMs of the octet baryons.
+Encouraged by the success of the EOMS ap-
+proach, we have studied the decuplet baryon MMs.
+Fitting our only LEC at this order to reproduce the
+MM of the Ω, we have been able to predict the MMs
+of the other members of the baryon decuplet. In par-
+ticular, those of the ∆++and ∆+seem to agree well
+with data within the experimental uncertainties.
+This approach has also been employed to study
+the SU(3) breaking corrections to the hyperon vec-
+tor coupling f1(0)[34], which plays a decisive role in
+the extraction of VUSfrom hyperon semi-leptonic de-
+cay (HSD) data. It will also be interesting to apply
+the same approach to study the hyperon axial-vector
+couplings, which could provide us vital information
+about the spin structure of the baryons.
+This work was partially supported by the MEC
+grant FIS2006-03438 and the European Community-
+Research Infrastructure Integrating Activity Study of
+Strongly Interacting Matter (Hadron-Physics2, Grant
+Agreement 227431) under the Seventh Framework
+Programme of EU. L.S.G. acknowledges support from
+the MICINN in the Program “Juan de la Cierva.”
+J.M.C. acknowledges the same institution for a FPU
+grant.
+References
+1 S. R. Coleman and S. L. Glashow, Phys. Rev. Lett. 6, 423
+(1961).
+2 S. Weinberg, Physica A 96, 327 (1979).
+3 J. Gasser and H. Leutwyler, Annals Phys. 158, 142 (1984).
+4 J. Gasser and H. Leutwyler, Nucl. Phys. B 250, 465 (1985).
+5 J. Gasser, M. E. Sainio and A. Svarc, Nucl. Phys. B 307,779 (1988).
+6 V. Bernard, N. Kaiser and U. G. Meissner, Int. J. Mod.
+Phys. E 4, 193 (1995).
+7 A. Pich, Rept. Prog. Phys. 58, 563 (1995).
+8 S. Scherer, Adv. Nucl. Phys. 27, 277 (2003).
+9 V. Bernard, Prog. Part. Nucl. Phys. 60, 82 (2008).
+10 S. Scherer, Prog. Part. Nucl. Phys. 64, 1 (2010).
+11 D. G. Caldi and H. Pagels, Phys. Rev. D 10, 3739 (1974).
+12 E. E. Jenkins, M. E. Luke, A. V. Manohar and M. J. Sav-
+age, Phys. Lett. B 302, 482 (1993), [Erratum-ibid. B 388
+(1996) 866].
+13 L. Durand and P. Ha, Phys. Rev. D 58(1998) 013010.
+14 S. J. Puglia and M. J. Ramsey-Musolf, Phys. Rev. D 62,
+034010 (2000).
+15 U. G. Meissner and S. Steininger, Nucl. Phys. B 499, 349
+(1997).
+16 B. Kubis and U. G. Meissner, Eur. Phys. J. C 18, 747
+(2001).
+17 M. Mojzis and J. Kambor, Phys. Lett. B 476, 344 (2000).
+18 J. F. Donoghue, B. R. Holstein and B. Borasoy, Phys. Rev.
+D59, 036002 (1999).
+19 V.Pascalutsa, B.R.Holsteinand M.Vanderhaeghen, Phys.
+Lett. B600, 239 (2004).
+20 L. S. Geng, J. Martin Camalich, L. Alvarez-Ruso and
+M. J. V. Vacas, Phys. Rev. Lett. 101, 222002 (2008).
+21 V. Pascalutsa, M. Vanderhaeghen and S. N. Yang, Phys.
+Rept.437, 125 (2007).
+22 L. S. Geng, J. Martin Camalich and M. J. Vicente Vacas,
+Phys. Lett. B 676, 63 (2009).
+23 L. S. Geng, J. Martin Camalich and M. J. Vicente Vacas,
+Phys. Rev. D 80, 034027 (2009).
+24 K. Hikasa et al.[Particle Data Group], Phys. Rev. D 45,
+S1 (1992) [Erratum-ibid. D 46, 5210 (1992)].
+25 F. Schlumpf, Phys. Rev. D 48, 4478 (1993).
+26 G. Wagner, A. J. Buchmann and A. Faessler, J. Phys. G
+26, 267 (2000).
+27 T. Ledwig, A. Silva and M. Vanderhaeghen,
+arXiv:0811.3086 [hep-ph].
+28 F. X. Lee, Phys. Rev. D 57, 1801 (1998).
+29 D. B. Leinweber, T. Draper and R. M. Woloshyn, Phys.
+Rev. D46, 3067 (1992).
+30 F. X. Lee, R. Kelly, L. Zhou and W. Wilcox, Phys. Lett. B
+627, 71 (2005).
+31 M. A. Luty, J. March-Russell and M. J. White, Phys. Rev.
+D51, 2332 (1995).
+32 M. N. Butler, M. J. Savage and R. P. Springer, Phys. Rev.
+D49, 3459 (1994).
+33 W. M. Yao et al.[Particle Data Group], J. Phys. G 33, 1
+(2006).
+34 L. S. Geng, J. Martin Camalich and M. J. Vicente Vacas,
+Phys. Rev. D 79, 094022 (2009).

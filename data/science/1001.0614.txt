@@ -1,0 +1,528 @@
+arXiv:1001.0614v2  [cond-mat.stat-mech]  7 Jan 2010Correlation functions for the three state
+superintegrable chiral Potts spin chain of ﬁnite
+lengths
+Klaus Fabricius∗
+Physics Department, University of Wuppertal, 42097 Wuppertal, G ermany
+Barry M. McCoy†
+C.N.Yang Institute for Theoretical Physics,
+State University of New York, Stony Brook, NY 11794-3840
+October 27, 2018
+Abstract
+Wecomputethecorrelation functionsofthethreestatesupe rintegrable
+chiral Potts spin chain for chains of length 3,4,5. From thes e results
+we present conjectures for the form of the nearest neighbor c orrelation
+function.
+1 Introduction
+The free energy of the Ising model was ﬁrst solved by Onsager [1] in 1944
+who invented a method of solution based on what is now known as “Ons ager’s
+algebra”. This algebra is generated from operators A0andA1which form a
+Hamiltonian
+H=A0+λA1 (1)
+where
+[A0,[A0,[A0,A1]]] =const[A0,A1] (2)
+and from A0andA1the full algebra is generated as [2]
+[Aj,Ak] = 4Gj−k
+[Gm,Al] = 2Al+m−2Al−m
+[Gj,Gk] = 0 (3)
+∗e-mail Fabricius@theorie.physik.uni-wuppertal.de
+†e-mail mccoy@max2.physics.sunysb.edu
+1For 41 years the Ising model was the only known model which satisﬁe d this al-
+gebra but in 1985von Gehlen and Rittenberg [3] made the remarkab le discovery
+that the Hamiltonian (1) with
+A0=−N/summationdisplay
+j=1N−1/summationdisplay
+r=1eiπ(2r−N)/(2N)
+sinπr/NZr
+jZ†r
+j+1 (4)
+A1=−N/summationdisplay
+j=1N−1/summationdisplay
+r=1eiπ(2r−N)/(2N)
+sinπr/NXr
+j (5)
+whereZjandXjare direct product matrices
+Zj=I⊗···⊗Z⊗···⊗I (6)
+Xj=I⊗···⊗X⊗···⊗I (7)
+Iis theN×Nidentity matrix, the N×Nmatrices ZandXare in the jth
+position in the product and have the matrix elements
+Zj,k=ωjδj,k (8)
+Xj,k=δj,k+1 (9)
+with
+ω=e2πi/N(10)
+is also a representation of Onsager’s algebra (3). The Hamiltonian (1 ) withA0
+andA1given by (4) and (5) is called the Nstate superintegrable chiral Potts
+spin chain. When N= 2 the Hamiltonian of the superintegrable chiral Potts
+spin chain reduces to the Hamiltonian studied by Onsager [1].
+It was discovered in [4] by means of explicit computations on chains of small
+length that the eigenvalues of the superintegrable chiral Potts Ha miltonian are
+all of the form
+E=A+Bλ+Nm/summationdisplay
+j=1±(1+λ2+ajλ)1/2(11)
+This form was proven to follow directly from Onsager’s algebra by [5, 6 , 7]. The
+parameters aj,A,Bin (11) have been computed by the method of functional
+equations [8, 9, 10, 11] where it is found, for λsuitably less than unity, that in
+the thermodynamic limit the ground state energy per site is
+e0(λ) = lim
+N→∞1
+NE0(λ;N) =−(1+λ)N−1/summationdisplay
+l=1F(−1
+2,l
+N;1;4λ
+(1+λ)2) (12)
+whereF(a,b;c;z) is the hypergeometric function.
+In this paper we extend these ﬁnite chain computations from the eig envalues
+of the Hamiltonian to the correlation functions in the ground state /an}bracketle{tZr
+0Z†r
+R/an}bracketri}ht.
+2There are several constraints these correlations must satisfy. One such con-
+straint is the obvious requirement that
+/an}bracketle{tZ(N−r)
+0Z†(N−r)
+1/an}bracketri}ht=/an}bracketle{tZr
+0Z†r
+1/an}bracketri}ht∗(13)
+Furthermore in thermodynamic limit N → ∞ the correlation is related to the
+order parameter by
+M2
+r= lim
+R→∞/an}bracketle{tZr
+0Z†r
+R/an}bracketri}ht (14)
+ForN= 2 the order parameter is the spontaneous magnetization of the I sing
+model
+M= (1−λ2)1/8(15)
+which was reported by Onsager [12] in 1948 and proven by Yang [13] in 1952.
+For theNstate superintegrable chiral Potts spin chain it was conjectured b y
+Albertini, McCoy, Perk and Tang [4] in 1988 and proven by Baxter [14 ] in 2005
+that
+Mr= (1−λ2)r(N−r)/2N2(16)
+The order parameter of the Ising model (15) may be computed [15] by use
+of Szeg˝ o’s theorem applied to the representation of the correlat ion function
+/an}bracketle{tZ0Z†
+R/an}bracketri}htas a determinant [16] which is derived using free fermion methods ﬁrs t
+invented by Kaufmann [17]. However, the chiral Potts order param eter (16) is
+computed by Baxter [14] by functional equation methods which do n ot extend
+to a computation of the correlation functions /an}bracketle{tZr
+0Z†r
+R/an}bracketri}ht
+Because the superintegrable chiral Potts model is a generalization of the
+Ising model with the same underlying Onsager algebra there must be structure
+of the Ising correlations which generalizes to superintegrable chira l Potts. How-
+ever, because the Ising correlations have been computed by mean s of free Fermi
+methods and not by use of Onsager algebra this structure remains unknown.
+Recently Au-Yang and Perk [18, 19, 20, 21] and Nishino and Deguch i [22]
+have initiated the study of the eigenvectors of the superintegrab le chiral Potts
+spin chain by use of the Onsager algebra. These important studies a re the
+necessary foundation for the computation of the correlation fun ctions from the
+point of view of the Onsager algebra.
+The purpose of this paper is to provide insight into the correlation fu nc-
+tions of the superintegrable chiral Potts spin chain by explicitly calcu lating the
+correlations /an}bracketle{tZr
+0Z†r
+R/an}bracketri}htfor the three state case N= 3 for chains of ﬁnite length
+N= 3,4,5 which extends to correlation functions the study of [4] of the gro und
+state energy E0(λ,N). For any value of Nthe nearest neighbor correlations
+satisfy a sum rule coming from the ground state energy E0(λ;N). This sum
+rule is presented and discussed in sec. 2. In sec. 3 we present the r esults of our
+ﬁnite chain computations and we conclude in sec. 4 with a discussion of the
+implications which the results for ﬁnite chains have for the correlatio ns in the
+thermodynamic limit.
+32 Sum rule
+There is an elementary result known as Feynman’s theorem that for any Hamil-
+tonian which depends on a parameter λthat
+∂
+∂λ/an}bracketle{tH(λ)/an}bracketri}ht=∂
+∂λE0(λ) (17)
+where/an}bracketle{tO/an}bracketri}htdenotes the expectation value of the operator Oin the ground state
+andE0(λ) denotes the ground state energy as a function of λ. Therefore it fol-
+lows from (17) that for the superintegrable chiral Potts Hamiltonia n (1),(4),(5)
+the expectation /an}bracketle{tXr
+0/an}bracketri}htsatisﬁes the sum rule
+−NN−1/summationdisplay
+r=1eiπ(2r−N)/(2N)
+sinπr/N/an}bracketle{tXr
+0/an}bracketri}ht=∂E0(λ;N)
+∂λ
+=B−Nm/summationdisplay
+j=1λ+aj/2
+(1+λ2+ajλ)1/2(18)
+and/an}bracketle{tZr
+0Z†r
+1/an}bracketri}htsatisﬁes
+−NN−1/summationdisplay
+r=1eiπ(2r−N)/(2N)
+sinπr/N/an}bracketle{tZr
+0Z†r
+1/an}bracketri}ht=E0(λ;N)−λ∂E0(λ;N)
+∂λ
+=A−Nm/summationdisplay
+j=11+λaj/2
+(1+λ2+ajλ)1/2(19)
+3 Correlations for N= 3andN= 3,4,5
+We will explicitly consider the three state case N= 3 where the Hamiltonian
+(1) is explicitly written as
+H=−N/summationdisplay
+j=1/parenleftbigg
+(1−i√
+3)(ZjZ†
+j+1+λXj)+(1+i√
+3)(Z2
+jZ†2
+j+1+λX2
+j)/parenrightbigg
+(20)
+and using (13) the sum rule (19) is
+(1−i√
+3)/an}bracketle{tZ0Z†
+1/an}bracketri}ht+(1+i√
+3)/an}bracketle{tZ0Z†
+1/an}bracketri}ht∗=−A
+N+N
+Nm/summationdisplay
+j=11+ajλ/2
+(λ2+1+ajλ)1/2(21)
+It is known from [10] that for small λthe ground state is in the sector P= 0
+andQ= 0 where Pis the momentum of the state and
+ei2πQ/3=N/productdisplay
+k=1Xk (22)
+4For the ground state
+A=B=−Pa,forN ≡ −Pamod 3Pa= 0,1,2 (23)
+and
+aj=2(1+t3
+j)
+1−t3
+j(24)
+andtjare the roots of the polynomial equation
+0 =t−Pa{(t−1)N(tω2−1)Nω−Pa
++(tω−1)N(tω2−1)N+(t−1)N(tω−1)NωPa} (25)
+withω=e2πi/3. From computations of Galois groups done on Maple we see
+forN ≤12 that (25) can be explicitly solved in terms of radicals only for
+N= 3,4,5,6,9,12
+The eigenspace for the states with P=Q= 0 are of dimension 5 for N= 3,
+dimension 8 for N= 4 and dimension 17 for N= 5. The correlations may
+now be computed in principle by computing the normalized eigenvector s in
+the subspace P=Q= 0 and then explicitly computing the matrix elements
+ofZ0Z†
+R. In practice the algebra is too formidable to do by hand and the
+computation must be computerized. When this is done and expressio ns are
+simpliﬁed by removing common factor the results are as follows
+3.1N= 3
+From (24) and (25) we ﬁnd
+9a2−20 = 0 (26)
+and thus
+a1=−2√
+5
+3, a 2=2√
+5
+3(27)
+Thus deﬁning
+xj= (λ2+1+ajλ)1/2(28)
+we ﬁnd
+/an}bracketle{tZ0Z†
+1/an}bracketri}ht= (1−i√
+3)/parenleftbigg3
+40−3λ2−7
+40x1x2/parenrightbigg
++3
+8(1+i√
+3)/parenleftbigg1+a1λ/2
+x1+1+a2λ/2
+x2/parenrightbigg
+(29)
+From (29) we ﬁnd
+(1−i√
+3)/an}bracketle{tZ0Z†/an}bracketri}ht=−i4√
+3/parenleftbigg3
+40−3λ2−7
+40x1x2/parenrightbigg
++1
+2/parenleftbigg1+a1λ/2
+x1+1+a2λ/2
+x2/parenrightbigg
+(30)
+5and hence the sum rule (19) is obviously satisﬁed. For λ→0 (29) is expanded
+as
+/an}bracketle{tZ0Z†
+1/an}bracketri}ht= 1−2
+9λ2−17−i3√
+3
+54λ4+O(λ6) (31)
+and forλ→ ±∞
+/an}bracketle{tZ0Z†
+1/an}bracketri}ht=1
+3(1+i√
+3)|λ|−1+1
+6(1−i√
+3)λ−2+O(|λ|−3) (32)
+3.2N= 4
+ForN= 4
+27a2+36a−20 = 0 (33)
+and thus there are again two roots ajwhich are now given by
+a1=−2
+3+4
+9√
+6, a 2=−2
+3−4
+9√
+6 (34)
+We deﬁne xjas before (28) and obtain for /an}bracketle{tZ0Z†
+1/an}bracketri}htthe result
+/an}bracketle{tZ0Z†
+1/an}bracketri}ht=1
+4−(1−i√
+3)2λ−3
+40x1x2
++(1+a1λ/2)3
+320x1[36−√
+6+i√
+2(3+2√
+6)] (35)
++(1+a2λ/2)3
+320x2[36+√
+6−i√
+2(3−2√
+6]
+=3
+16(1+i√
+3)+1
+16(1−i√
+3)−(1−i√
+3)2λ−3
+40x1x2
++(1+a1λ/2)3
+320x1][30(1+i√
+3)+(6−√
+6)(1−i√
+3)]
++(1+a2λ/2)3
+320x2[30(1+i√
+3)+(6+√
+6)(1−i√
+3)] (36)
+We note that the coeﬃcients of 1+ i3−1/2and 1−i31/2are both real, that
+(1−i√
+3)/an}bracketle{tZ0Z†
+1/an}bracketri}ht
+=1
+4−i1
+4√
+3+i1√
+32λ−3
+10x1x2
++(1+a1λ/2)3
+320x1][40−i(6−√
+6)4√
+3]
++(1+a2λ/2)3
+320x2[40−i(6+√
+6)4√
+3] (37)
+6and thus the sum rule (19) is satisﬁed. For λ→0 (37) reduces to
+/an}bracketle{tZ0Z†
+1/an}bracketri}ht= 1−2
+9λ2+1+i√
+3
+162λ4+8√
+3i
+729λ5+O(λ6) (38)
+and forλ→ ±∞
+/an}bracketle{tZ0Z†
+1/an}bracketri}ht=1
+3(1+i√
+3)|λ|−1+1
+18(1−i√
+3)λ−2+4
+81(1−4i√
+3)|λ|−3+O(λ−4).(39)
+We also compute /an}bracketle{tZ0Z†
+2/an}bracketri}htand ﬁnd
+/an}bracketle{tZ0Z†
+2/an}bracketri}ht=1
+4−2λ−3
+10x1x2
++(1+a1λ/2)3(6−√
+6)
+80x1+(1+a2λ/2)3(6+√
+6)
+80x2(40)
+For small λthis reduces to
+/an}bracketle{tZ0Z†
+2/an}bracketri}ht= 1−2
+9λ2−1
+81λ4+O(λ5) (41)
+and forλ→ ±∞|
+/an}bracketle{tZ0Z†
+2/an}bracketri}ht=2
+9λ−2+20
+81|λ|−3+84
+729λ−4+O(λ−5) (42)
+3.3N= 5
+ForN= 5 there are three roots ajthat satisfy
+81a3+54a2−228a−88 = 0 (43)
+which are given by
+a1=−2
+9−2
+9(W++W−) (44)
+a2=−2
+9−2
+9(ω2W++ωW−) (45)
+a3=−2
+9−2
+9(ωW++ω2W−) (46)
+where
+W±=1
+17(7±i√
+19)/parenleftbigg5
+2/parenrightbigg1/3
+w± (47)
+with
+w±= (311±i9√
+19)1/3(48)
+We deﬁne xjas before (28) and obtain for /an}bracketle{tZ0Z†
+1/an}bracketri}htthe result
+7/an}bracketle{tZ0Z†
+1/an}bracketri}ht=3
+40(1+i√
+3)+37
+40·19(1−i√
+3)+9
+40(1+i√
+3)3/summationdisplay
+j=11+ajλ/2
+xj
++1
+23·52·19(1−i√
+3)3/summationdisplay
+j=191+bj−27aj/2−λ(67/3+7bj/3−7·9aj/2)
+xj
++1
+23·52·19(1−i√
+3)/summationdisplay
+1≤j<k≤3Pj,k
+xjxk(49)
+where
+b1= 1+/parenleftbigg5
+2/parenrightbigg1/3
+(w++w−)
+b2= 1+/parenleftbigg5
+2/parenrightbigg1/3
+(ω2w++ωw−)
+b3= 1+/parenleftbigg5
+2/parenrightbigg1/3
+(ωw++ω2w−),
+(50)
+and
+Pj,k= 164+81
+2(aj+ak)+7(bj+bk)
++λ
+3[−56+49·9
+2(aj+ak)+2(bj+bk)]
++/parenleftbiggλ
+3/parenrightbigg2
+[−504−13·81(aj+ak)−9·13(bj+bk)]
+(51)
+It is easy to see that (49) satisﬁes the sum rule (19). When λ→0 (49)
+reduces to
+/an}bracketle{tZ0Z†
+1/an}bracketri}ht= 1−2
+9λ2+1
+162(−9+i√
+3)λ4+56
+729λ5+O(λ6) (52)
+and forλ→ ±∞
+/an}bracketle{tZ0Z†
+1/an}bracketri}ht=1
+3(1+i√
+3)|λ|−1+1
+18(1−i√
+3)λ−2+4
+81(1+i√
+3)|λ|−3+O(λ−4) (53)
+4 Discussion
+From the results (29),(36) and (49) for N= 3 we conjecture for arbitrary N
+that/an}bracketle{tZ0Z†
+1/an}bracketri}hthas the form
+/an}bracketle{tZ0Z†
+1/an}bracketri}ht=P0+/summationdisplay
+jPj(λ)
+xj+(1−i√
+3)/summationdisplay
+j<kPj,k(λ)
+xjxk(54)
+8whereP0is a constant, Pj(λ) is a polynomial linear in λandPj,k(λ) is a poly-
+nomial at most quadratic in λwith real coeﬃcients. In the limit N → ∞ the
+correlation /an}bracketle{tZ0Z†
+1/an}bracketri}htwill be a double integral. For N= 2 this correlation is a
+single integral and thus we expect that for general Nthe correlation /an}bracketle{tZr
+0Zr†
+1/an}bracketri}ht
+will be an N−1 fold integral.
+We expect for arbitrary Nthat/an}bracketle{tZr
+0Zr†
+R/an}bracketri}htwill be a ( N−1)Rfold integral but
+the ﬁrst evidence for this for N= 3 can only come N= 6.
+We also conjecture from the result (41) for /an}bracketle{tZ0Z†
+2/an}bracketri}htandN= 4 that for all
+evenNthe correlation for N= 3/an}bracketle{tZ0Z†
+N/2/an}bracketri}htis real. In the limit N → ∞ we
+must have
+lim
+N→∞/an}bracketle{tZr
+0Z†r
+N/2/an}bracketri}ht= (1−λ2)r(N−r)/N2(55)
+Acknowledgement
+The bulk of this computation was only possible using the program FORM
+written by Prof. J.A.M. Vermaseren.
+References
+[1] L.Onsager, Crystal statistics,I. A two-dimensional model with a n order
+disorder transition, Phys. Rev. 65 (1944) 117–149.
+[2] J.H.H. Perk, Star-triangle equations, quantum Lax pairs and high er genus
+curves, Proc. Symp. Pure Math. 49, part 1, (Am. Math. Soc., Pro vidence.
+R.I., 1989), 341-354.
+[3] G. Von Gehlen and V. Rittenberg, Zn-symmetric quantum chain with an
+inﬁnite set of conserved charges and Znzero modes, Nucl. Phys. B257
+[FS14] (1985) 351–370.
+[4] G. Albertini, B.M. McCoy, J.H.H. Perk and S. Tang, Excitation spect rum
+and order parameter for the integrable N–state chiral Potts model, Nucl.
+Phys. B314 (1989) 741–763.
+[5] B. Davies, Onsager’s algebra and superintegrability. J.Phys. A 23 (1990)
+2245–2261.
+[6] B. Davies, Onsager’s algebra and the Dolan-Grady condition in the non-
+self-dual case, J. Math. Phys. 32 (1991) 2945–2950.
+[7] E.Date and S-S. Roan, The structure of quotients of the Onsag er algebra
+by closed ideal, J. Phys. A (2000) 3275–3296.
+[8] R.J. Baxter,The superintegrable chiral Potts model, Phys. Lett . 133A
+(1988) 185-189.
+9[9] G. Albertini, B.M. McCoy and J.H.H. Perk, Commensurate-
+incommensurate transition in the ground state of the superintegr able
+chiral Potts model, Phys. Lett. A 135 (1989) 159-170.
+[10] G. Albertini, B.M.McCoy and J.H.H. Perk, Eigenvalue spectrum of th e su-
+perintegrable chiral Potts model, in Advanced Studies in Pure Mathe mat-
+ics, Vol. 19 ed. M.Jimbo, T. Miwa and A. Tsuchiya, Kinokuniya-Academic
+Press, Tokyo, 1989, 1-55.
+[11] R.J.Baxter, V.V. BazhanovandJ.H.H.Perk, Functionalrelations fortrans-
+fermatricesofthechiralPottsmodel, Int.J.Mod.Phys.B4(199 0)803-870.
+[12] L.Onsager,discussion, Nuovo Cimento 6 Suppl. (1949) 261.
+[13] C.N.Yang, The spontaneous magnetization of the two dimensiona l Ising
+model, Phys. Rev. 85 (1952) 808–816.
+[14] R.J. Baxter, Order parameter of the chiral Potts model, J. St at. Phys. 120
+(2005) 1–36.
+[15] E.W. Montroll. R.B. Potts, and J.C. Ward, Correlations and spont aneous
+magnetization of the two dimensional Ising model, J.Math. Phys. 4 (1 963)
+308–322.
+[16] B. Kaufman and L. Onsager, Crystal statistics III. Short Ra nge order in a
+binary Ising lattice, Phys. Rev. 76 (1949) 1244-1252.
+[17] B. Kaufmann, Crystal statistics II. Partition function evalua ted by spinor
+analysis, Phys. Rev. 76 (1949) 1232-1243.
+[18] H. Au-Yang and J.H.H.Perk, Eigenvectors in the superintegrable model I.
+sl2generators, J. Phys. A 41 (2008) 275201 (10 pp).
+[19] H. Au-Yang and J.H.H.Perk, Eigenvectors in the superintegrable model II.
+Ground state sector, J.Phys. A 42 (2009) 375208 (16 pp)
+[20] H. Au-Yang and J.H.H.Perk, Identities for the superintegrable c hiral Potts
+model, J.Phys. A 43 (2010) 025203 (10 pp)
+[21] H. Au-Yang and J.H.H.Perk, Quantum loop subalgebra and eigenve ctors
+of the superintegrable chiral Potts transfer matrices, arXiv:090 70362.
+[22] A. Nishino and T. Deguchi, An algebraic derivation of the eigenspa ces
+associated with an ising-like spectrum of the superintegrable chiral Potts
+model, J. Stat. Phys. 133 (2008) 587–615.
+10

@@ -1,0 +1,296 @@
+arXiv:1001.0215v1  [astro-ph.HE]  1 Jan 2010Canthe excess intheFeXXVILy γlinefrom the GalacticCenter provide evidencefor17 keV ste rile
+neutrinos?
+D. A. Prokhorov∗
+Korea Astronomy and Space Science Institute, Hwaam-dong, Y useong-gu, Daejeon, 305-348, Republic of Korea
+Joseph Silk
+Astrophysics, Department of Physics, University of Oxford , Keble Road Ox1 3RH, Oxford, United Kingdom and
+Institut d'Astrophysique de Paris, 98bis Blvd Arago, Paris 75014, France
+The standard model of particle physics assumes that neutrin os are massless, although adding non-zeros is
+requiredbytheexperimentally establishedphenomenon ofn eutrino oscillationsrequires neutrinos tohave non-
+zeromass. Sterileneutrinos(orright-handedneutrinos)a reagoodwarmdarkmattercandidate. Weﬁndthatthe
+excessoftheintensityinthe8.7keVline(attheenergyofth eFeXXVILyγline)inthespectrumoftheGalactic
+center observed by the Suzaku X-ray mission cannot be explai ned by standard ionization and recombination
+processes. We suggest that the origin of this excess is via de cays of sterile neutrinos with a mass of 17.4 keV
+andestimatethevalueofthemixingangle. Theestimatedval ueofthemixinganglesin2(2θ)=(4.1±2.2)×10−12
+liesinthe allowedregion of the mixingangle of darkmatter s terileneutrino witha mass of 17-18 keV.
+I. INTRODUCTION
+Several astrophysical observations, such as the indicatio ns
+ofcentralcoresinlow-massgalaxies,thelownumberofsate l-
+lites observed around the Milky Way, and the near constant
+cores of the least luminous satellites, have revived intere st
+in sterile neutrinos as a warm dark matter candidate. Elec-
+troweak singlet right-handed (sterile) neutrinos with mas ses
+inthefewkeVrangenaturallyariseinmanyextensionsofthe
+Standard Model and could be produced in the early universe
+through the Dodelson-Widrow mechanism involving (non-
+resonant)oscillationswithactiveneutrinospecies[1]. T heex-
+perimentallyestablishedphenomenonofneutrinooscillat ions
+requires neutrinos to have non-zero mass, and sterile neutr i-
+nos(orright-handedneutrinos)areanaturalwarmdarkmatt er
+candidate.
+Direct constraints on masses and mixing angles are ob-
+tained both from the Lyman alpha forest power spectrumand
+X-ray observations of the radiative decay channel, the latt er
+providing a photon with energy E =msc2/2, where msis the
+sterile neutrino mass. Most recently, X-ray observations o f
+the local dwarf Wilman 1 have shown marginal evidence for
+a 5 keV sterile neutrino [2]. The inferred mixing angle lies
+ina narrowrangeforwhichneutrinooscillationscanproduc e
+all of the dark matter and for which sterile neutrino emissio n
+fromcoolingneutronstarscanexplainpulsarkicks.
+In fact if sterile neutrinosprovidea signiﬁcantfraction( al-
+though not necessarily all, see [3],) of the dark matter, the
+GalacticCenterprovidesanevenmoreattractiveenvironme nt
+to search for radiative decay signals. If the sterile neutri no
+massisindeedaround17keV,weexpectaX-raylinenear8 .5
+keV. ThediﬀuseX-rayemissionfromthe GalacticCenter us-
+ing the X-ray imaging spectrometer on Suzaku was analyzed
+by[4],whodetectthe8.7keVlinecorrespondingtheFeXXVI
+Lyγ. We have reanalysed the data on hydrogen-likeiron line
+∗phdmitry@gmail.comstrengths and ﬁnd that there is an unexpected excess in the
+8.7 keV line from the Galactic center in the Suzakudata. We
+demonstratethat thisexcesscannotbe explainedby meansof
+standardionizationandrecombinationprocesses. Wepropo se
+an explanation of the excess in the 8.7 keV line in terms of
+17.4keVneutrinodecays.
+II. THE EXCESSIN THE8.7 KEVLINEFROMTHE
+GALACTIC CENTERANDITSORIGIN
+X-rayemissionfromtheGalacticcenterhasbeenobserved
+for almost 30 years. A component of the di ﬀuse emission
+is thermal and is produced by a high temperature plasma in
+the inner 20 parsecs of the Galactic Center ( ∼8 keV). The
+most pronounced features in the emission lines are Fe I K α
+at 6.4 keV, and the K-shell lines 6.7 and 6.9 keV from the
+helium-like (FeXXV K α) and hydrogen-like (FeXXVI Ly α)
+ions of iron, respectively. An analysis of the ratio of the 6. 7
+keV to 6.9 keV lines is an interesting test of plasma com-
+ponents (see, e.g. [5], [6]). For the ﬁrst time, the FeXXVI
+Lyγat8.7keVwasdetectedbytheSuzakuX-raymission[4].
+The observed line intensities by Suzaku are listed in Table 2
+of [4]. For convenience, we list below the most important
+lines(forouranalysis)takenfromthepaperby[4]. Themea-
+sured intensities of the lines of the hydrogen-like iron ion s
+are:ILyα=1.66+0.09
+−0.11×10−4ph/(cm2s),ILyβ=2.29+1.35
+−1.31×10−5
+ph/(cm2s),andILyγ=1.77+0.62
+−0.56×10−5ph/(cm2s). Theerrors
+areat 90%conﬁdencelevel[4].
+The measured ratio of the FeXXVI Ly βto FeXXVI Lyα
+iron lines equals≈0.138±0.059 and is in agreement with
+the theoretical value of ≈0.14 in the gas temperature range
+between5and15keV(see linelist [7]; fora review,see [8]).
+We note that the measuredintensity of the FeXXVI Ly γ=
+1.77+0.62
+−0.56×10−5ph/(cm2s) iron line has an signiﬁcant ex-
+cess above the value derived from the theoretical model [7]
+andthemeasuredintensity ILyαofthe FeXXVILyαironline.
+The ratio of the the FeXXVI Ly γto FeXXVI Lyαiron lines
+equaled 0.038 in the gas temperature range between 5 and2
+15 keV is from the theoretical model (see, [7]). Therefore
+the expectedvalue of the intensity in the FeXXVI Ly γline is
+0.038×ILyα=6.3+0.4
+−0.4×10−6ph/(cm2s) and is much smaller
+than the measuredintensityby Suzaku. Therefore,the exces s
+oftheintensityinthe8.7keVlineequals ≈(1.1±0.6)×10−5
+ph/(cm2s).
+Todemonstratethatthisexcesscannotbeexplainedbyion-
+izationandrecombinationprocesses,wecalculatetherati oof
+the fully stripped (FeXXVII) ionic fraction to the hydrogen -
+like iron ionic fraction using the ratio of the intensities o f the
+FeXXVILyγtoLyαlinesasa functionoftemperature T.
+Theratio rγαofthe FeXXVILyγto FeXXVI Lyαironline
+intensitiesis givenby
+rγα=Eγ(T)NFeXXVI+Rγ(T)NFeXXVII
+Eα(T)NFeXXVI+Rα(T)NFeXXVII(1)
+whereEγandEαare the impact excitation rate coe ﬃcients,
+andRγandRαare the rate coeﬃcients for the contribution
+from recombination to the Ly γand Lyαspectral lines, re-
+spectively. Excitation and recombinationrate coe ﬃcients are
+takenfrom[8].
+FromEq. (1)theratioofthefullystripped(FeXXVII)ionic
+fractiontothe hydrogen-likeironionicfractionis
+NFeXXVII
+NFeXXVI=Eγ(T)−rγαEα(T)
+rγαRα(T)−Rγ(T)(2)
+Note that we do not use the assumption of collisional ioniza-
+tionequilibrium.
+For the best ﬁt value of the intensity ratio of the Ly γto
+Lyαiron lines (1.77×10−5/(1.66×10−4)≈0.107) foundby
+[4], we ﬁnd that the ratio of the fully stripped(FeXXVII) ion
+fractiontothehydrogen-likeironionfractionliesinther ange
+(−40,−20) when the electron temperature is in the range (5
+keV, 15 keV). Since the ratio of the fullystripped (FeXXVII)
+to hydrogen-like(FeXXVI) ion fractionsshould not be nega-
+tive, we concludethat the excess cannotbe explainedby ion-
+ization and recombination processes. A more physically ac-
+ceptable explanation of the excess is that of sterile neutri no
+decays, under the assumption that sterile neutrinosconsti tute
+a signiﬁcant fraction of dark matter. In the next section, we
+calculate the mixing angle using our inferred value of the in -
+tensityexcessin the8.7keV line.
+III. RADIATIVEDECAYSOFSTERILENEUTRINOS
+Thesterileneutrinopossessesaradiativedecaychannelde -
+caying to an active neutrino and a photon with energy E=
+msc2/2. Since the excessin the 8.7 keV line correspondsto a
+sterile neutrino mass of 17 .4 keV, in this section we estimate
+themixinganglesin2(2θ)anddecayrateforsuchasterileneu-
+trino.
+Using the excess in the 8.7 keV line intensity equal to
+Iexcess≈(1.1±0.6)×10−5ph/(cm2s) and the deﬁnition of
+the energy ﬂux Fs=Iexcess×E, we ﬁnd that the value of the
+energy ﬂux excess in the 8.7 keV line equals (9 .6±5.2)×
+10−5keV/(cm2s).Decays of sterile neutrinos in the dark matter halo of the
+Milky Way are a promising way to explain the excess in the
+8.7keVline. Theamountdarkmatterwithintheﬁeldofview
+of the Suzaku observation(see Fig. 1 of [4]) is only a minute
+fractionof thetotal massof thedarkmatterhaloof theMilky
+Way. We consider the model of the Milky Way dark halo
+presented in [9] and used to derive constraints on the steril e
+neutrino parameters by [10]. The Milky Way halo density is
+describedbythe Navarro-Frenk-White(NFW)proﬁle
+ρNFW(r)=Mvir
+4πα1
+r(rs+r)2, (3)
+where the dark matter halo parameters of preferred models
+obtained in [9] correspond to Mvir=1012M⊙,rs=21.5 kpc
+and numerical constant α≃1.64 (see [10]). A mass within
+the ﬁeld of view of Mfov≃2.5×106M⊙is derived from this
+model.
+Thedecayﬂuxintoasolidangle Ω(withintheﬁeldofview)
+isgivenby(see,e. g. [11])
+Fs=/integraldisplay
+ΩρNFW(/vectorr)
+4π(/vectorr0−/vectorr)2Γc2
+2d3/vectorr, (4)
+where|/vectorr0|=8.5kpcisthedistancetotheGalacticcenter. The
+decayrateΓisgivenby(e.g. [11]andreferencestherein)
+Γ=1.38×10−22sin2(2θ)/parenleftbiggms
+1keV/parenrightbigg5
+s−1.(5)
+Toestimatethevalueofthemixingangle,weusetheinferred
+valueofms=17.4keVandthevalueoftheenergyﬂuxexcess.
+Then,fromEqs. (4),(5)thevalueofthemixingangleisgiven
+by
+sin2(2θ)=(4.1±2.2)×10−12. (6)
+Using Eq. (5) we derive the following constraint on the
+decayrate:
+Γ=(9.0±4.8)×10−28s−1. (7)
+Note that the derived values of the mixing angle of
+sin2(2θ)=(4.1±2.2)×10−12anddecayrateofΓ=(9.0±4.8)×
+10−28s−1lieintheallowedregionforadarkmattersterileneu-
+trino with a mass of 17-18keV (see [12]). Such a neutrino is
+capable of accounting for a substantial fraction, if not all , of
+thedarkmatter.
+Anadditionalcontributionofcomparablestrengthcomesin
+apoint-likesourceifacuspofdarkmatterdevelopsaroundt he
+centar black hole. The dark matter cusp mass is constrained
+observationally by stellar orbit measurements and is taken to
+be3×106M⊙withinthecentral0.001pc. Thisiscomparable
+to the mass of the central black hole. Such a cusp is natu-
+rallyproducedviaadiabaticcontractionofdarkmatteraro und
+the black hole within its sphere of inﬂuence, about 3 pc for
+theMilkyWayblackhole[13],[14]. Typicallyaboutasmuch
+massiscapturedinthespikeasisinthecentralblackholean d
+with a density proﬁle of ρ∝r−9/4or even steeper. Dynami-
+cal historiesof mergingcomplicatethispicture. In partic ular,3
+binary black hole mergers, had they occurred, would destroy
+sucha spike(see[15],[16],[17]).
+However an alternative and more conservative scenario is
+cuspregeneration. Thiscannotoccurdirectlyinthedarkma t-
+ter because its relaxation time is extremely long. However,
+thisisnotthecaseforthecentralstars,andonceacuspform s
+in the stars, scattering of dark matter particleso ﬀof stars can
+redistribute the dark matter in phase space on a time scale of
+orderthe relativelyshortstar-star relaxationtime [18], result-
+inginaρ∝r−3/2densitycuspinthecentralparsecofthedark
+matter[19].
+Sterile neutrinos would form such a dark matter cusp, al-
+thoughthe spike density is limited by phase space considera -
+tions for non-degenerateneutrinos(see, [20]). Using the v al-
+ues of the velocity dispersion for the Milky Way of 100 km /s
+[21]andasterileneutrinomassof17.4keV,weﬁndalimiton
+the densityρcr<1.4×109M⊙/(pc3). This would guaranteea
+point-likesourceif thereis indeedacusp.
+IV. CONCLUSIONS
+We havefoundthatthereisanexcessintheintensityinthe
+8.7 keV line observed from the Galactic center over the the-
+oretical value expected for the intensity in the FeXXVI Ly γ
+line. Thisintensityexcessequals(1 .1±0.6)×10−5ph/(cm2s),
+wheretheerrorsareatthe90%conﬁdencelevel. Weshowthat
+this excess cannot be explained by means of standard ioniza-
+tion and recombination processes, since the ratio of the ful ly
+stripped (FeXXVII) to FeXXVI ion fractions becomes (un-
+physically) negative in the temperature range of (5 keV, 15
+keV), when the observed ratio of FeXXVI Ly γto FeXXVI
+Lyαironlinesisapplied.
+We suggest that a physically acceptable explanation of the
+intensity excess in the 8.7 keV line is due to decays of ster-
+ile neutrinos that that are in a halo of dark matter around
+the Milky Way. The dark matter density proﬁle we adopt
+is obtained by numerical simulations [9]. The dark matter
+mass from the Milky Way dark matter halo within the ﬁeld
+of view of the Suzaku observation is small compared withthe total mass of the dark halo ≃1012M⊙, however it suﬃces
+≃2.5×106M⊙toproduceasigniﬁcantﬂux(1 .1±0.6)×10−5
+ph/(cm2s)viadecaysofsterile neutrinos.
+Nearbylowsurfacebrightnessdwarfgalaxieshaveacentral
+dark matter density as high as ∝angbracketleftρ∝angbracketright∼5M⊙/pc3(200GeV/cm3)
+and are consistent with a common mass scale of ∼107M⊙
+[22] and even a universal dark matter proﬁle with a limiting
+centraldarkmattersurfacedensityoflog(r 0ρ0)=2.15±0.2,in
+unitsoflog(M ⊙/pc2).[23]. Thecorrespondingdensityiswell
+withinthephasespaceconstraintsfor17keVsterileneutri nos.
+Oneexplanationofthecommonmassscaleisthatdarkmat-
+ter haloes do not exist at lower masses. Warm dark matter
+particleshavelargeenoughfreestreaminglengthstoerase all
+densityﬂuctuationsthat might have formedlower mass halos
+if the mass of the warm dark matter particle is approximately
+5 keV for a minimum halo mass of 107M⊙. In the present
+case, the massof suchsterile neutrinosis 2 ×8.7=17.4keV.
+Theminimumhalomassscaleisapproximately105M⊙. Note
+thattheactualdwarfmassescouldextendtolowervaluestha n
+evaluatedatthe300pcscale by[22].
+We estimated the mixing angle of sin2(2θ)=(4.1±2.2)×
+10−12from the excess in the intensity and the decay rate is
+found to be decay rate: Γ =(9.0±4.8)×10−28s−1.These
+valueslieintheallowedregionofthemixingangleanddecay
+rate parameter space for a dark matter sterile neutrino with a
+mass of 17-18keV (see [12]). Sterile neutrinosin this regio n
+of mass, decay rate and mixing angle parameter space can
+contribute signiﬁcantly to dark matter. Such neutrinoswou ld
+be virtuallyindistinguishablefromcolddarkmatter excep tin
+thelowestmassdwarfgalaxieswherecoreswouldbeformed.
+High resolution x-ray observations should reveal a point-l ike
+line source of comparable strength to the Suzaku line excess
+ifa cuspispresentaroundthecentralblackhole.
+ACKNOWLEDGMENTS
+We are grateful to Kwang-il Seon and Vladimir Dogiel for
+valuablediscussions.
+[1] S. Dodelson and L. M. Widrow, L. M., Phys. Rev. Let. 72, 17
+(1994)
+[2] M.Loewenstein and A.Kusenko, (2009), astro-ph /0912.0552
+[3] A.Palazzoet al.,Phys.Rev. D 76, 103511 (2007)
+[4] K.Koyama et al.,PASJ59, 245 (2007)
+[5] V.A. Dogiel etal.,PASJ61, 1099 (2009)
+[6] D.A.Prokhorov et al.,A&A 496, 25(2009)
+[7] http://www.sron.nl/divisions/hea/spex/version1.10/line/index.html
+[8] R.MeweandE.H.B.M.Gronenschild, A&ASS45, 11(1982)
+[9] A.Klypin,H.Zhao, andR.S.Somerville,ApJ573,597(200 2)
+[10] A. Boyarsky, A. Neronov, and O.Ruchayskiy et al.,Phys. Rev.
+Let.97, 1302 (2006)
+[11] A.Boyarsky, O.Ruchayskiy, andM.Markevitch, ApJ673, 752
+(2008)
+[12] J.-W. den Herder, A. Boyarsky, and O. Ruchayskiy, (2009 ),arXiv:0906.1788
+[13] Gondolo, P.and Silk,J.,Phys. Rev. Let.83, 1719 (1999)
+[14] H. Zhaoand J.Silk,Phys.Rev. Let.95, 011301 (2005)
+[15] P. Ullio, H. Zhao, and M. Kamionkowski, Phys. Rev. D 64,
+043504 (2001)
+[16] D. Merrittet al.,Phys.Rev. Let.88, 191301 (2002)
+[17] G. Bertone and D.Merritt,Phys.Rev. D 72(2005) 103502
+[18] D. Merritt,Phys.Rev. Let.92, 201304 (2004)
+[19] D. Merritt, S. Harfst, and G. Bertone, Phys. Rev. D 75, 04 3517
+(2007)
+[20] S.Tremaine andJ. E.Gunn, Phys.Rev. Let.42, 407(1979)
+[21] D. Merrittand L.Ferrarese,ApJ 547, 140(2001)
+[22] L.E. Strigari,etal.,Nature 454, 1096
+[23] M. G. Walkeret al.,ApJ, 704, 1274 (2009)

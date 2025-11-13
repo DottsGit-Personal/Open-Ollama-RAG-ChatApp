@@ -1,0 +1,288 @@
+arXiv:1001.0475v1  [gr-qc]  4 Jan 2010November25, 2018 19:7 WSPC/INSTRUCTION FILE ppg6˙ijmpd˙DE-Gt
+International Journal of Modern Physics D
+c/circlecopyrtWorld Scientiﬁc Publishing Company
+Higher Dimensional Dark Energy Investigation with Variabl e Λ and G
+UTPAL MUKHOPADHYAY
+Satyabharati Vidyapith, North 24 Parganas, Kolkata 700 126 , West Bengal, India
+e-mail: utpal1739@gmail.com
+PARTHA PRATIM GHOSH
+Department of Physics, A. J. C. Bose Polytechnic, Date: 26.1 1.09 Berachampa, North 24
+Parganas, West Bengal, India
+e-mail: parthapapai@gmail.com
+SAIBAL RAY
+Department of Physics, Government College of Engineering a nd Ceramic Technology, Kolkata
+700 010, West Bengal, India∗
+e-mail: saibal@iucaa.ernet.in
+Received Day Month Year
+Revised Day Month Year
+Time variable Λ and Gare studied here under a phenomenological model of Λ through
+an (n+2) dimensional analysis. The relation of Zeldovich21|Λ|= 8πG2m6
+p/h4between
+Λ andGis employed here, where mpis the proton mass and his Planck’s constant. In
+the present investigation some key issues of modern cosmolo gy, viz. the age problem,
+the amount of variation of Gand the nature of expansion of the Universe have been
+addressed.
+Keywords : Higher dimension; variable Λ; variable G.
+1. Introduction
+The inception of the idea of a possible time variation of the gravitation al constant
+Gby Dirac1and subsequent supportive works, both at theoretical2,3,4,5,6,7,8and
+observational9,10,11,12,13,14,15,16,17,18level opened up a new pathway in cosmo-
+logical research. Numerous works in this direction have been done b y taking Gas a
+variable. After the discovery of the scenario of accelerating Unive rse19,20, investi-
+gations within the framework of variable Gis also not uncommon in the literature.
+One of the techniques of dark energy investigation is to include a Λ te rm in the
+ﬁeld equations of Einstein. Since a constant Λ is handicapped by the w ell known
+Cosmological Constant Problem and Coincidence Problem, so it is not u nnatural
+∗Corresponding address
+1November25, 2018 19:7 WSPC/INSTRUCTION FILE ppg6˙ijmpd˙DE-Gt
+2U. Mukhopadhyay, P. P. Ghosh and S. Ray
+to consider Λ as a variable quantity. When the Λ term is placed in the rig ht hand
+side of the ﬁeld equations and is considered as a part of the energy- momentum ten-
+sor, then instead of Tµν, the total energy-momentum tensor Tµν+(Λ/8πG)gµνis
+conserved. On the other hand, as an extension of Dirac’s Large Nu mber Hypothesis
+(LNH), Zeldovich21established a connection (to be shown explicitly afterwards)
+between the cosmological parameter Λ and the gravitational cons tantGby consid-
+ering Λ as the gravitational energy of the vacuum. So, variability of Λ admits the
+variability of Galso provided one considers the other quantities of the relation of
+Zeldovich21as constant.
+As a part of dark energy investigation, Ray et al.22considered Λ models in four
+dimensional space-time by taking Gas time-dependent. So, it is not unnatural to
+make an attempt for exploring new physical features by venturing into dimensions
+higher than the usual 4 D. This is the motivation behind the present work where
+a (n+ 2) dimensional study of time-dependent Λ model has been done wit hin
+the framework of variable G. We have addressed here some key issues of modern
+cosmology, viz. the age problem, the amount of variation of Gand the nature of
+expansion of the Universe. The scheme of the study is as follows: Se ction 2 deals
+with ﬁeld equations and their solutions while some physical features a rising out of
+this investigation are described in diﬀerent subsections of Section 3 . Finally, some
+concluding remarks are made in Section 4.
+2. Field Equations and Their Solutions
+The (n+2) dimensional metric for homogeneous and isotropic Universe is giv en by
+ds2=dt2−a2(t)[dr2+r2(dxn)2], (1)
+wherea(t) is the scale factor and
+(dxn)2=dθ2+sin2θ1dθ2
+2+......+sin2θ2
+1sin2θ2
+2....sin2dθ2
+n. (2)
+For a ﬂat ( k= 0) Universe, the above metric yields the ﬁeld equations given by
+n(n+1)
+2/parenleftbigg˙a
+a/parenrightbigg2
+= 8πGρ+Λ (3)
+and
+n¨a
+a+n(n−1)
+2/parenleftbigg˙a
+a/parenrightbigg2
+=−8πGp+Λ, (4)
+where Λ ≡Λ(t) andG≡G(t).
+The barotropic equation of state is given by
+p=ωρ, (5)
+where the barotropic index ω, assumed to be constant here, can take the values 0,
+1/3,1 and−1for pressurelessdust, electromagneticradiation,stiﬀ (Zeldovic h) ﬂuid
+and vacuum ﬂuid respectively. Some other limits on ωcoming from SN Ia data23November25, 2018 19:7 WSPC/INSTRUCTION FILE ppg6˙ijmpd˙DE-Gt
+Higher Dimensional Dark Energy Investigation with Variabl eΛandG3
+and a combination ofSN Ia data with CMB anisotropyand galaxycluste ring statis-
+tics24are given by −1.67< ω <−0.62 and−1.3< ω <−0.79 respectively.
+Now, the relation of Zeldovich21between Λ and Gis given by
+|Λ|=8πG2m6
+p
+h4, (6)
+wherempis the proton mass and his Planck’s constant.
+From equation (6) we can write
+G=C√
+Λ, (7)
+whereC=h2//radicalbig
+(8π)m3
+p= constant.
+Let us use the ansatz
+Λ = 3αH2, (8)
+whereαis a parameter.
+Then from (3) we have
+ρ=/bracketleftbiggn(n+1)−6α
+16πB√α/bracketrightbigg
+H, (9)
+where ˙a/a=HandB=√
+3C.
+Using equations (9) and (5) and remembering that ¨ a/a=˙H+H2we get
+from (4),
+n˙H= (1+ω)/bracketleftbigg6α−n(n+1)
+2/bracketrightbigg
+H2. (10)
+Solving equation (10) we get our solution set as
+a(t) =C1t2n
+(1+ω)[n(n+1)−6α], (11)
+H(t) =2n
+(1+ω)[n(n+1)−6α]t−1, (12)
+ρ(t) =n
+8πB(1+ω)√αt−1, (13)
+G(t) =2nB√α
+(1+ω)[n(n+1)−6α]t−1, (14)
+Λ(t) =12n2α
+(1+ω)2[n(n+1)−6α]2t−2, (15)
+whereC1is a constant.
+It is interesting to note that in four dimensional case (i.e. n= 2), expressions
+fora(t),H(t) and Λ( t) become identical with that of Ray et al.22for the same
+Λ model and under the same assumptions, i.e. by taking both Λ and Gas time-
+dependent but without choosing any particular expression for G. Moreover, here
+G∝1/tas obtained earlier also by Dirac1as well as by Ray et al.22. Here, for
+physical validity, αcannot be equal to 1 in four dimensional case and can, in no
+way, be negative.November25, 2018 19:7 WSPC/INSTRUCTION FILE ppg6˙ijmpd˙DE-Gt
+4U. Mukhopadhyay, P. P. Ghosh and S. Ray
+3. Physical Features of the Present Model
+3.1.Age of the Universe
+From equation (12) we ﬁnd that if α= 0 (i.e. Λ = 0), then in four dimensional case
+for pressureless dust,
+t=2
+3H. (16)
+It is clear from equation (16) that for the present accepted value of the Hubble
+parameter, which is (72 ±8) kms−1Mpc−125, the present age of the Universe
+becomes lessthan the ageofthe globularclusters whichlies in the ran ge9.6Gyr8to
+12.5±1.5 Gyr26,27. This means that dark energy models without Λ suﬀer from
+low age problem. This justiﬁes the necessity for including the Λ term in the ﬁeld
+equations as also mentioned by Sahni and Starobinsky28.
+Again, for n= 2 and α= 1/3,Ht= 1. This implies that for pressureless dust,
+we can get the exact age of the present Universe which lies in the ran ge (14±
+0.5) Gyr29,30,31,32. It may be mentioned here that Ray and Mukhopadhyay33
+obtained the exact age of the Universe for stiﬀ ﬂuid (i.e. ω= 1) for the same Λ
+modelwithconstant G.Butstiﬀﬂuidmodelisnotanacceptedmodelforthepresent
+Universe. So, in that respect the present work has been success ful in solving the so
+called age problem ofthe Universewithout any unrealistic assumption . Moreover,it
+is easy to see that, with proper tuning of α, the exact value of the present Universe
+can be obtained from equation (12) in dust case irrespective of the dimension.
+For instance, in ﬁve dimension (i.e. n= 3), the accepted value of the age can be
+obtained for α= 1. Also for obtaining the exact age, the value of α= 1 has to be
+increased with the number of dimension and for each dimension the mo del suﬀers
+from low-age problem if we discard Λ, i.e. if we put α= 0.
+3.2.Rate of change of G
+From equation (14) we get,
+˙G
+G=−1
+t. (17)
+Equation (17) tells us that the rate of change of Gis of the order of t−1. If we
+take the present age of the Universe as 14 Gyr, then (since 1 Gyr is nearly 4×1017
+seconds and 1 year is about 3 ×107seconds) the value of ˙G/Gis of the order of
+10−11per year which is supported by various theoretical and observatio nal results
+(a comprehensivelist in this regardis providedin Ref. 22). Moreover ,˙G/Gdoes not
+depend on n,α, mass of proton and Planck’s Constant. This means that the rate o f
+change of Gis independent of the space-time dimension, the parameter associa ted
+with dark energy and two constants of microscopic world. This resu lt justiﬁes the
+claim that dark energy does not exhibit any gravitational eﬀect like c lustering and
+gravity is fundamentally diﬀerent from other types of forces of na ture.November25, 2018 19:7 WSPC/INSTRUCTION FILE ppg6˙ijmpd˙DE-Gt
+Higher Dimensional Dark Energy Investigation with Variabl eΛandG5
+3.3.Calculation of the deceleration parameter
+The deceleration parameter qis given by
+q=−a¨a
+˙a2=−/parenleftBigg
+1+˙H
+H2/parenrightBigg
+. (18)
+Then, using equation (12), we get from equation (18),
+q=−/bracketleftbiggn(1+ω)+(1+ω)(6α−n2)
+2n/bracketrightbigg
+. (19)
+Then, for pressureless dust ( ω= 0) we get from equation (19),
+q=/parenleftbiggn2−n−6α
+2n/parenrightbigg
+. (20)
+It has been already shown that in four dimensional case ( n= 2) we can get the
+exact age of the Universe, so far as observationalresults are co ncerned, for α= 1/3.
+Now, for n= 2 and α= 1/3 we get q= 0 which means that the Universe expands
+with a uniform velocity. So, we are not getting an accelerating Univer se what the
+present cosmological scenario demands. Another interesting poin t is, corresponding
+to every value of αfor which we get the exact age, we get the value of qas zero
+whatever may be the spatial dimension. This means that the Univers e expands
+with uniformly in every dimension. This situation can be compared with t he so
+called ‘hesitation period’ (when the quasars were supposed to be fo rmed) of the
+Eddington-Lemaˆ ıtr´ e model. While in the Eddington-Lemaˆ ıtr´ e mod el the Universe
+behaves like de-Sitter model for large t, here the Universe expands uniformly for
+all the time. However, an accelerating Universe can be obtained fro m this model
+also under proper tuning of α. For example, in four dimensional case ( n= 2) with
+pressureless dust, qbecomes −0.1 forα= 0.4 and in that case the age of the
+Universe comes out as 14 .9 Gyr which is not an unreasonable estimate. Similar
+is the case for all other dimensions.It may be mentioned here that Kh adekar and
+Butey34also obtained q= 0 forN= 1 where under the assumption ρm=γ/RN,
+γandN(>0) being constants It is interesting to note here that for all those tuned
+values of αwhich give us the exact age of the Universe, the scale factor increa ses
+linearly. It may be mentioned here that linear expansion in a Robertso n-Walker
+Universe is shown to be possible also by Usmani et al.35for the Λ model ˙Λ∼H3.
+4. Conclusions
+In the present work, some new features of an widely used Λ-dark e nergy model has
+been explored through an ( n+2) dimensional analysis with variable Λ and variable
+G. Recently Khadekar and Butey34have studied a similar higher dimensional
+cosmologicalmodelwherebothΛand Garevariable.While KhadekarandButey34
+havechosen GbyfollowingEddington-Weinbergempiricalrelation36andSingh37,
+here in the present case a particular relation of Zeldovich’s21in connection toNovember25, 2018 19:7 WSPC/INSTRUCTION FILE ppg6˙ijmpd˙DE-Gt
+6U. Mukhopadhyay, P. P. Ghosh and S. Ray
+the cosmological parameter is used for obtaining an expression for the so-called
+gravitationalconstant.Theapproachofthepresentworkisalso completelydiﬀerent
+from that of Khadekar and Butey34.
+In the present investigation we have been addressed, by using a we ll known Λ
+model, some key issues of modern cosmology, viz. the age problem, t he amount of
+variation of Gand the nature of expansion of the Universe. The results we have
+shown are as follows:
+(i) For any dimension, the accepted age of the present Universe ca n be attained
+under proper tuning of the parameter α.
+(ii) The amount of variation of the gravitational constant is shown t o be com-
+patible with theoretically and observationally established values witho ut any prior
+assumption on the value of the parameter α. This is an improvement over the work
+of Ray and Mukhopadhyay33where the ﬁne-tuning of the parameters were essen-
+tial for obtaining the currently accepted values so far as the amou nt of variation of
+Gis concerned. But, here no such precondition is required.
+(iii) The present model has been successful in obtaining both negat ive and
+zero values of the deceleration parameter qwhich correspond to accelerating and
+uniformly expanding Universe respectively.
+Finally, it should be mentioned that although in the present work emph asis is
+given on the zero value of the equation of state parameter ω, but the present model
+also admits negative values of ωwith the restriction 0 < ω <−1.
+Acknowledgments
+One of the authors (SR) is thankful to the authority of Inter-Un iversity Centre
+for Astronomy and Astrophysics, Pune, India for providing Visiting Associateship
+under which a part of this work was carried out.
+References
+1. P. A. M. Dirac, Nature139(1937) 323 .
+2. C. Brans and R. H. Dicke, Phys. Lett. B 124(1961) 925.
+3. F. Hoyle and J. V. Narlikar, Mon. Not. R. Astron. Soc. 155(1972) 323.
+4. P. A. M. Dirac, Proc. R. Soc. Lond. A 333(1973) 403.
+5. W. J. Marciano, Phys. Rev. Lett. 52(1984) 489.
+6. C. M. Will, in 300 Years of Gravitation (Cambridge Univ. Press, Cambridge, p. 80,
+1987).
+7. I. Goldman, Phys. Lett. B 281(1992) 219.
+8. O. Bertolami et al., Phys. Lett. B 311(1993) 27.
+9. R. D. Reasemberg, Phil. Trans. R. Soc. Lond. A 310(1983) 227.
+10. R. W. Hellings, in Problems in Gravitation , ed Melinkov V. (Moscow State Univ.
+Press, Moscow, p. 46, 1987).
+11. V. M. Kaspi, J. H. Taylor and M. Ryba, Astrophys.J. 428(1994) 713.
+12. Z. Arzoumanian, Ph. D. thesis (Princeton University Pre ss, Princeton, New Jersey,
+USA, 1995).
+13. D. B. Guenther et al., Astrophys. J. 498(1998) 871.November25, 2018 19:7 WSPC/INSTRUCTION FILE ppg6˙ijmpd˙DE-Gt
+Higher Dimensional Dark Energy Investigation with Variabl eΛandG7
+14. E. Gaztanaga, E. Garcia-berro, J. Isern, E. Bravo and I. D ominguez, Phys. Rev. D
+65(2001) 023506.
+15. S. G. Turyshev et al., gr-qc/0311039.
+16. I. H. Stairs, Living Rev. Relativ. 6(2003) 5 .
+17. M. Biesiada and B. Malec, Mon. Not. R. Astron. Soc. 350(2004) 644.
+18. O. G. Benvenuto, E. Garcia-Berro and J. Isern, Phys. Rev. D 69(2004) 082002.
+19. S. Perlmutter et al., Nature517(1998) 565.
+20. A. G. Riess et al., Astron. J. 116(1998) 1009.
+21. Ya. B. Zeldovich, Usp. Nauk 95(1968) 209.
+22. S. Ray, U. Mukhopadhyayand S. B. DuttaChoudhury Int. J. Mod. Phys. D 16(2007)
+1791.
+23. R. Knop et al., Astrophys. J. 598(2003) 102.
+24. M. Tegmark et al., Astrophys. J. 606(2004) 70.
+25. G. Altavilla et al., Mon. Not. R. Astron. Soc. 349(2004) 1344.
+26. O. Y. Gnedin, O. Lahav and M. J. Rees, astro-ph/0108034.
+27. R. Cayrel et al., Nature409(2001) 691.
+28. V. Sahni and A. Starobinsky, Int. J. Mod. Phys. D 9(2000) 373.
+29. D. N. Spergel et al., Astrophys. J. Suppl. 148(2003) 175.
+30. R. P. Kirshner Science300(2003) 5627.
+31. M. Kunz, P. S. Corasaniti, D. Parkinson and E. J. Copeland ,Phys. Rev. D 70(2004)
+041301.
+32. M. Tegmark et al., Phys. Rev. D 69(2003) 103501.
+33. S. Ray and U. Mukhopadhyay Gravit. Cosmol. 13(2007) 46.
+34. G. S. Khadekar and B. P. Butey Int. J. Theor. Phys. 48(2009) 2618.
+35. A. A. Usmani,P. P. Ghosh, U. Mukhopadhyay, P. C. Ray and S. RayMon. Not. R.
+Astron. Soc. 386(2008) L 92.
+36. G. A. Marugan and S. Carneiro Phys. Rev. D 65(2002) 087303.
+37. C. P. Singh Int. J. Theor. Phys. 45(2006) 531.

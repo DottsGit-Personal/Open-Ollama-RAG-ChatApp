@@ -1,0 +1,202 @@
+arXiv:1001.0878v1  [cond-mat.mtrl-sci]  6 Jan 2010Enhancement of semiconducting single-wall carbon
+nanotubes photoluminescence
+Etienne Gaufr` es1, Nicolas Izard2+, Laurent Vivien1∗, Sa¨ ıd Kazaoui2, Delphine
+Marris-Morini1and Eric Cassan1
+1: Institut d’Electronique Fondamentale, CNRS-UMR 8622, U niversit´ e Paris-Sud 11,
+91405 Orsay, France
+2: National Institute of Advanced Industrial Science and Te chnology (AIST), 1-1-1 Higashi,
+Tsukuba, Ibaraki 305-8565, Japan
++: Currently at Institut d’Electronique Fondamentale
+laurent.vivien@u-psud.fr
+Photoluminescence propertiesofsemiconducting singlewall carbon nanotubes
+(s-SWNT) thin ﬁlms with diﬀerent metallic single wall carbon nanotubes
+(m-SWNT) concentrations are reported. s-SWNT puriﬁed samples are ob-
+tained by polymer assisted selective extraction. We show that a few m-SWNT
+in the sample generates a drastic quenching of the emission. Theref ore,
+highly puriﬁed s-SWNT ﬁlms are a strongly luminescent material and a g ood
+candidate for future applications in photonics, such as near infrar ed emitters,
+modulators and detectors. c/circlecopyrt2018 Optical Society of America
+OCIS codes: 160.2540, 160.4236, 160.4760, 260.2510, 300.6280
+Single wall carbon nanotube (SWNT) is a unique monodimensional mate rial, exhibiting
+unusual electronic and optical properties, making it an ideal candid ate for future opto-
+electronic [1] and all-optical devices [2]. The nanotube structure, deﬁned by the so-called
+(n,m) chiral index, ﬁxes all the nanotubes properties, such as met allic or semiconducting
+behavior. Semiconducting nanotubes (s-SWNT) are of particular in terest in photonics for
+their direct band-gap, allowing near-IR luminescence (PL) from elec tron-hole recombination.
+In the last few years, numerous impressive results have been obta ined on the photolumines-
+cence properties of SWNT, where luminescence arise from well-isolat ed s-SWNT, either in
+solution by wrapping with surfactant [3–5], or dispersion in gelatin mat rix [6,7]. Recently,
+photoluminescent composite gels have also been demonstrated [8]. I ndeed, s-SWNT are ex-
+tremely sensitive to their environment. An incomplete isolation, resu lting in small bundles
+1or metallic nanotubes (m-SWNT) in contact with s-SWNT, will lead to th e creation of
+alternative non-radiative de-excitation paths and ultimately an eﬀe ctive quenching of the
+photoluminescence. It has been estimated that only around 10 % of the s-SWNT embedded
+in gelatin matrix eﬀectively participate in the ﬂuorescence, the rema inder being quenched
+by left-over m-SWNT, bundles or impurities [7]. The direct inﬂuence of m-SWNT removal
+on the nanotubes optical properties was never really studied. Sev eral approaches have been
+explored in the past few years for optimizing the diameter and chiralit y selection of SWNTs,
+such as chemical functionalization, DNA, polymer wrapping and dens ity gradient centrifuga-
+tion techniques [9–14]. The possibility to achieve chiral speciﬁc SWNT e xtraction is indeed
+very promising for future photonic applications. Recently, we demo nstrated that the use of
+poly-9,9-di-n-octyl-ﬂuorenyl-2,7-diyl (PFO) in toluene as an extra cting agent followed by
+ultracentrifugation allows to obtain quasi metallic-free SWNT [15]. U sing sample with a
+constant concentration in s-SWNT but diﬀerents concentrations in m-SWNT, we show in
+this paper that the presence of even a few metallic nanotubes quen che the strong intrinsic
+photoluminescence properties of s-SWNT.
+Samples were prepared as previously described [15]. First, SWNT pow der (as-prepared
+HiPco, Carbon Nanotechnologies Inc.), poly-9,9-di-n-octyl-ﬂuore nyl-2,7-diyl (PFO) (Sigma-
+Aldrich) and toluene were mixed in the ratio of SWNT (5mg):PFO (20mg) :toluene (30ml)
+and homogenized by sonication (for 1 h using a water-bath sonicato r and 15 min using
+a tip sonicator). Then this mixture was centrifugated for 5-60 min u sing either a desktop
+centrifuge (anglerotortype, 10.000g)oranultracentrifuge (sw ing rotortype, 150.000g),after
+which the upper 80 % of the supernatant solution was collected. We s hall focus on two types
+of SWNT solution: solution centrifugated at 10.000g for 15 min (labele d L) and solution
+centrifugated at 150.000 g for 2 hours (labeled S). We also consider the non centrifugated
+solution (labeled R) for comparison purpose. At this stage, the con centration of solutions R
+and L were adjusted by dilution to match the most intense absorptio n peak around 1200 nm
+(1.03 eV) of sample S to assure the same amount of s-SWNTs in all oﬀ t he solutions (cf.
+Figure 1a). Solutions were then spin coated several times onto glas s substrate at 500 RPM
+for 60 s to achieve a layer thickness around 200 nm [16]. Lastly, sam ples were annealed at
+150oC for 15 min.
+Absorption spectra of R, L and S samples in toluene are presented in Figure 1a. Sharp
+peaks in the range of 1050-1400 nm (1.18-0.89 eV, labeled E 11) and 600-900 nm (2.07-
+1.38 eV, E 22) are the optical absorption bands corresponding respectively to the ﬁrst and
+second transitions between Van Hove singularities in the s-SWNT den sity of states. Peaks
+in the range of 500-600 nm (2.48-2.07 eV, M 11) correspond to the absorption bands of m-
+SWNTs [17]. Peak intensities gradually diminished and eventually vanishe d when all the m-
+SWNTs were removed by ultracentrifugation in sample S. The absorp tion background also
+2drastically reduced after the ﬁrst low gravity (G) centrifugation. Indeed, the centrifugation
+step permits the eﬀective removal of amorphous carbon and cata lyst impurities initially
+present in the HiPCO SWNT powder. Raman spectra for samples L and S were recorded at
+514.5nm (2.41eV) and theradial breathing mode (RBM) andtangent ial mode (TM) regions
+are reported in Figure 1 b and c, respectively. Raman spectroscop y is a resonant process for
+SWNT, and the RBM peak at 190 cm−1is speciﬁc to s-SWNT while the RBM peak at
+270 cm−1is speciﬁc to m-SWNT [18]. We observed that m-SWNT peaks present in sample
+L completely vanished in sample S. This is coherent with the TM regions, where the broad
+asymmetric line shape between 1400 and 1600 cm−1of sample L, characteristic of a metallic
+behavior, completely disappears in sample S. Further electric measu rements presented in
+reference [15] conﬁrm the absence of m-SWNT in sample S. Accordin g to absorption and
+Raman measurements, the ﬁrst low G centrifugation step (sample L ) eﬀectively remove the
+initially present amorphous carbon and catalyst impurities, but also r emove some m-SWNT.
+The high G centrigugation step (sample S) remove all the remaining m- SWNT. Thus, the
+composition of samples L and S diﬀer only by the presence of m-SWNT in sample L.
+The PL excitation-emission maps of each samples were obtained using a Titane Sapphire
+(Ti:Sa) laser pumped by a cw Ar laser. Ti:Sa laser delivers continuous ligh t at a wavelength
+rangefrom 700nm to 840nm (1.77 to 1.48 eV). Photoluminescence sig nal is then recorded at
+room temperature using a monochromator (JobinYvon 550) couple d with a cooled InGaAs
+detector with a 3 nm step. Emission intensity as a function of both ex citation (from 700
+to 840 nm / 1.77 to 1.48 eV) and emission wavelength (from 1000 to 160 0 nm / 1.24 to
+0.78 eV) was recorded. The experimental values were corrected b y taking into account the
+system response. Results are presented in Figure 2a, b and c, eac h map being normalized by
+themaximal intensity. Figure2dshowsthechirality mapforthephot oluminescent nanotubes
+from raw nanotubes in sample R and PFO puriﬁed s-SWNT in sample S. We discovered, as
+previously observed by Chen et al. [13], a chiral selectivity of PFO poly mer. Indeed, chirality
+in the starting material were evenly distributed inside the measuring range, with chiral
+angle ranging from 3.96◦in (12,1) tube to 27.8◦in (8,7) tubes. In contrast, PFO-extracted
+nanotubes consist of only two tubes in the measuring range, 73 % of (8,6) and 27 % of (8,7)
+nanotubes [19]. Those two nanotubes possess near armchair stru cture with high chiral angles
+above 25◦. The exact mechanism of PFO’s high chiral selectivity is still unknown, but the
+aromatic structure of the polymer may play a major role in the wrapp ing interaction with
+nanotubes [14].
+In order to determine the inﬂuence of the puriﬁcation process, SW NT photoluminescence
+intensity for an excitation energy of 1.7 eV is displayed in Figure 3. Par ticular care was given
+to obtain the three samples with roughly the same concentration of (8,6) s-SWNT as shown
+on Figure 1a, which permit a comparison of the photoluminescence int ensity level. Further-
+3more, photoluminescence intensity of S and L samples were correct ed by the absorption peak
+intensity at 1.7 eV after background substraction. It was not pos sible to properly remove
+all background contribution in R sample; uncorrected photolumines cence intensities of all
+three samples are presented in the inset of Figure 3. The most strik ing feature is the impres-
+sive increase of (8,6) nanotube photoluminescence intensity with th e degree of puriﬁcation.
+Indeed, while sample R presents a rather low signal, samples L and S ex hibit PL signal
+enhancement. An increase by a factor of 3 is observed in the PL inte nsity of (8,6) nanotube
+for sample S as compared to L. PL intensities of L and S samples increa se by a factor of 2
+and 6 respectively compared to sample R (unpuriﬁed). An analog incr ease was also observed
+for the intensity of the (8,7) nanotube, but as the relative concen tration in (8,7) nanotube
+change between samples, the comparison is not as straightforwar d. It is remarkable that even
+if the concentration of (8,7) tube is higher in the starting material, t he photoluminescence
+intensity is still 3 times higher in the PFO selectively extracted materia l. As the number
+of quenching centers constituted by m-SWNT decreases, most of the exciton recombination
+occurring in the (8,6) nanotubes likely contribute to the luminescenc e phenomenon, leading
+to an intensity increase of S sample by factor of 3 and 6 as compared to L and R samples,
+respectively.
+In conclusion, we have studied the photoluminescence of pure semic onducting SWNT thin
+ﬁlms, extracted by the PFO centrifugation technique. We found th at the removal of m-
+SWNTs leads to an enhancement of the photoluminescence propert ies. Indeed, after removal
+of m-SWNT, the same quantity of (8,6) s-SWNT displays a 6-fold incre ase in photolumines-
+cence intensity. The use of PFO as a matrix leads to the formation of well isolated nanotube
+thin ﬁlms. These results are of major importance for the future us e of s-SWNT thin ﬁlm
+matrix in photonic applications.
+N. Izard thanks the Japan Society for the Promotion of Science fo r ﬁnancial support.
+References
+1. P. Avouris, M. Freitag and V. Perebeinos, Carbon-nanotube photonics and optoelectron-
+ics, Nature Photonics 2, 341 (2008)
+2. S. Yamashita, Y. Inoue, S. Maruyama, Y. Murakami, H. Yaguchi, M. Jablonski, S.Y. Set,
+Saturable absorbers incorporating carbon nanotubes direc tly synthesized onto substrates
+and ﬁbers and their application to mode-locked ﬁber lasers ,OpticsLetters 29,1581(2004)
+3. M.J. O’Connel, S.M. Bachilo, C.B. Huﬀman, V.C. Moore, M.S. Strano, E .H. Haroz,
+K.L. Rialon, P.J. Boul, W.H. Noon, C. Kittrell, J. Ma, R.H. Hauge, R.B. Weis man and
+R.E. Smalley, Band Gap Fluorescence from Individual Single-Walled Carbo n Nanotubes ,
+Science297, 593 (2002)
+4. S.M. Bachilo, M.S. Strano, C. Kittrel, R.H. Hauge, R.E. Smalley and R.B . Weisman,
+4Structure-Assigned Optical Spectra of Single-Walled Carb on Nanotubes , Science 298,
+2361 (2002)
+5. M.S. Arnold, J.E. Sharping, S.I. Stupp, P. Kumar and M.C. Hersam, Band Gap Photo-
+bleaching in Isolated Single-Walled Carbon Nanotubes , Nano Lett. 3, 1549 (2003)
+6. F. Wang, G. Dukovic, L.E. Brus and T.F. Heinz, The Optical Resonances in Carbon
+Nanotubes Arise from Excitons , Science 308. 838 (2005)
+7. S. Berger, C. Voisin, G. Cassabois, G. Delalande and P. Roussigno l,Temperature De-
+pendence of Exciton Recombination in Semiconducting Singl e-Wall Carbon Nanotubes ,
+Nano Lett. 7, 398 (2007)
+8. C. Zamora-Ledezma, L. Anez, J. Primera, P. Silva, S. Etienne-C alas and E. Anglaret,
+Photoluminescent single wall carbon nanotubesilica compo site gels, Carbon 46, 1253
+(2008)
+9. C. M´ enard-Moyon, N. Izard, E. Doris and C. Mioskowski, Separation of Semiconducting
+from Metallic Carbon Nanotubes by Selective Functionaliza tion with Azomethine Ylides ,
+J. Am. Chem. Soc. 128, 6552 (2006)
+10. L. Zhang, S. Zaric, X. Tu, X. Wang, W. Zhao and H. Dai, Assessment of Chemically
+Separated Carbon Nanotubes for Nanoelectronics , J. Am. Chem. Soc. 130, 2686 (2008)
+11. M.S. Arnold, A.A. Green, J.F. Hulvat, S.I. Stupp and M.C. Hersam, Sorting carbon
+nanotubes by electronic structure using density diﬀerenti ation, Nature Nanotech. 1, 60
+(2006)
+12. A. Nish, J.-Y. Hwang, J. Doig and R.J. Nicholas, Highly selective dispersion of single-
+walled carbon nanotubes using aromatic polymers , Nature Nanotech. 2, 640 (2007)
+13. F. Chen, B. Wang, Y. Chen and L.-J. Li, Toward the Extraction of Single Species of
+Single-Walled Carbon Nanotubes Using Fluorene-Based Poly mers, Nano Lett. 7, 3013
+(2007)
+14. J.-Y. Hwang, A. Nish, J. Doig, S. Douven, C.-W. Chen, L.-C. Chen and R.J. Nicholas,
+Polymer Structure and Solvent Eﬀects on the Selective Dispe rsion of Single-Walled Car-
+bon Nanotubes , J. Am. Chem. Soc. 130, 3543 (2008)
+15. N. Izard, S. Kazaoui, K. Hata, T. Okazaki, T. Saito, S. Iijima an d N. Minami,
+Semiconductor-enriched single wall carbon nanotube netwo rks applied to ﬁeld eﬀect tran-
+sistors, Appl. Phys. Lett. 92, 243112 (2008)
+16. Layer thickness was estimated from ellipsometry spectroscop y and direct proﬁlometer
+measurement.
+17. I.W. Chiang, B.E. Brinson, A.Y. Huang, P.A. Willis, M.J. Bronikowski, J .L. Margrave,
+R.E. Smalley and R.H. Hauge, Puriﬁcation and Characterization of Single-Wall Car-
+bon Nanotubes (SWNTs) Obtained from the Gas-Phase Decompos ition of CO (HiPco
+Process), J. Phys. Chem. B 105, 8297 (2001)
+518. J.-L. Sauvajol, E. Anglaret, S. Rols and L. Alvarez, Phonons in single wall carbon nan-
+otube bundles , Carbon 40, 1697 (2002)
+19. Determined using method described in Ref. [13]
+6Fig. 1. (color online) (a) The optical absorption spectra in toluene, (b) and (c) the RBM and
+TM Raman spectra at 2.41 eV of R, L and S samples. Arrows indicates r espectively position
+of the Raman laser probe (left) and where the concentration adju stment was performed
+(right).
+7Fig.2.(coloronline) Photoluminescence map(emissionwavelength vs excitationwavelength)
+of PFO- embedded SWNT thin ﬁlm spin-coated onto glass substrate. The layer thickness
+is around 200 nm. (a) Sample R, (b) sample L and (c) sample S. (d) Chir al map showing
+the wrapping preference of PFO (in blue / dark gray) as compared t o raw HiPCO SWNT
+sample (in yellow / light gray).
+80.90 0.95 1.00 1.05 1.10 1.15 1.20
+Transition energy (eV)024681012Photoluminescence (a.u.)(8,6)
+(8,7)S
+L
+0.9 1.0 1.1 1.204812
+S
+L
+R
+Fig. 3. (color online) Photoluminescence intensities of samples L and S which diﬀer in m-
+SWNT concentration. Intensity was normalized taking into account the net intensity of light
+absorbed in s-SWNT at the pumping enegy (1.7eV). Inset: Photolum inescence intensities of
+L and S samples compared to R sample, without normalization.
+9

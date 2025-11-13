@@ -1,0 +1,445 @@
+arXiv:1001.0066v2  [gr-qc]  7 Apr 2010A matter dominated navigation Universe in accordance with t he Type Ia supernova
+data
+Xin Li1,3∗
+1Institute of Theoretical Physics, Chinese Academy of Scien ces, 100190 Beijing, China
+Zhe Chang2,3†and Minghua Li2,3‡
+2Institute of High Energy Physics, Chinese Academy of Scienc es, 100049 Beijing, China
+3Theoretical Physics Center for Science Facilities, Chines e Academy of Sciences
+We investigate a matter dominated navigation cosmological model. The inﬂuence of a possi-
+ble drift (wind) in the navigation cosmological model makes the spacetime geometry change from
+Riemannian to Finslerian. The evolution of the Finslerian U niverse is governed by the same gravi-
+tational ﬁeld equation with the familiar Friedmann-Robert son-Walker one. However, the change of
+space geometry from Riemannian to Finslerian supplies us a n ew relation between the luminosity
+distant and redshift. It is shown that the Hubble diagram bas ed on this new relation could account
+for the observations on distant Type Ia supernovae.
+PACS numbers: 02.40.-k,98.80.-k
+INTRODUCTION
+Einstein’sgeneralrelativityenablesustocomeup with
+a testable theory of the Universe. Hubble[1] ﬁrst found
+that the galaxies are receding from us not long after the
+birth of general relativity. The Hubble’s observation in-
+dicates that our Universe is expanding. Over the past
+decade, two groups [2, 3] observing supernovae reported
+that the luminosity distance can not be explained by a
+matter dominated Universe. If one accepts the convinci-
+ble assumption of homogeneity and isotropy of the Uni-
+verse which is approximately true on large scales, then
+the general relativity tells us that we now live in a dark
+energy dominated Universe and the Universe is acceler-
+ated expanding. Dark energy, which has the property of
+negative pressure, is diﬀerent from the classical matter
+and the found particles. A great amount of models have
+been proposed to study the possible candidates of dark
+energy and their dynamics [4]. The most famous and
+acceptable candidate is the cosmological constant. How-
+ever, the magnitude of cosmological constant 10−3eV4
+is much smaller than the energy density of vacuum in
+quantum ﬁeld theory.
+The theory of dark energy [5] dominates the modern
+cosmologyin the past decade. This situation is similar to
+theraiseofthetheoryofether, whichhasbeenconsidered
+as direct evidence of the aberration of starlight, an im-
+portant astronomical eﬀect known since eighteenth cen-
+tury. Although the rapid progress in technology makes
+the astronomical observations more and more accurate,
+up to now, there is no direct evidence indicate what the
+dark energy it is. Since the theory of dark energy is con-
+trived, which requires ﬁne tuning and apparently cannot
+be tested in the laboratory or solar system, several mod-
+iﬁed theories of general relativity have been developed as
+the alternative source of cosmological acceleration [6].Einstein ﬁrst used the Riemann geometry to describe
+the theory of gravitation. In this Letter, we suppose that
+the spacetime in large scale may be described by other
+geometry instead of Riemann geometry. To preserve re-
+deeming feature of general relativity, this geometry must
+take Riemann geometry as its special case. Fortunately,
+Paul Finsler proposed a natural generation of Riemann
+geometry-Finsler geometry.
+Finsler geometry as a more general geometry could
+provide new sight on modern physics. It is of great
+interest for physicists to investigated the violation of
+Lorentz symmetry [7]. An interesting case of Lorentz
+violation, which was proposed by Cohen and Glashow[8],
+is the model of Very Special Relativity (VSR) character-
+ized by a reduced symmetry SIM(2). In fact, Gibbons,
+Gomis and Pope[9] showed that the Finslerian line ele-
+mentds= (ηµνdxµdxν)(1−b)/2(nρdxρ)bis invariant un-
+der the transformations of the group DISIM b(2). In the
+framework of Finsler geometry, modiﬁed dispersion rela-
+tion has been discussed[10, 11]. Also, the model based
+on Finsler geometry could explain the recent astronom-
+ical observations which Einstein’s gravity could not. A
+list includes: the ﬂat rotation curves of spiral galaxies
+can be deduced naturally without invoking dark mat-
+ter [12]; the anomalous acceleration[13] in solar system
+observed by Pioneer 10 and 11 spacecrafts should corre-
+spond to Finsler-Randers space [14]; the secular trend in
+the astronomical unit[15, 16] and the anomalous secular
+eccentricity variation of the Moon’s orbit[17] should be
+correspondtothe eﬀect ofthe length changeofunit circle
+in Finsler geometry[18].
+In this Letter, we present a matter dominated navi-
+gation model. The inﬂuence of a possible drift (wind)
+in the navigation cosmolgical model makes the expand-
+ing Universe “accelerated”. It is remarkable that the
+navigation cosmological model is described in the frame-
+work of Finsler geometry. We ﬁnd that the predictions2
+of the navigation cosmological model could account for
+the observations of Riess and Perlmutter[2, 3] on distant
+supernovae.
+FORMULISM
+Instead of deﬁning an inner product structure over the
+tangent bundle in Riemann geometry, Finsler geometry
+is based on the so called Finsler structure Fwith the
+property F(x,λy) =λF(x,y) for all λ >0, where x
+representsposition and yrepresentsvelocity. The Finsler
+metric is given as[19]
+gµν≡∂
+∂yµ∂
+∂yν/parenleftbigg1
+2F2/parenrightbigg
+. (1)
+In Finsler manifold, there exists a unique linear connec-
+tion - the Chern connection[20]. It is torsion freeness and
+almost metric-compatibility,
+Γα
+µν=γα
+µν−gαλ/parenleftBigg
+AλµβNβ
+ν
+F−AµνβNβ
+λ
+F+AνλβNβ
+µ
+F/parenrightBigg
+,
+(2)
+whereγα
+µνis the formal Christoﬀel symbols of the sec-
+ond kind with the same form of Riemannian connec-
+tion,Nµ
+νis deﬁned as Nµ
+ν≡γµ
+ναyα−Aµ
+νλγλ
+αβyαyβand
+Aλµν≡F
+4∂
+∂yλ∂
+∂yµ∂
+∂yν(F2) is the Cartan tensor (regarded
+as a measurement of deviation from the Riemannian
+Manifold). In terms of Chern connection, the curvature
+of Finsler space is given as
+Rλ
+κ µν=δΓλ
+κν
+δxµ−δΓλ
+κµ
+δxν+Γλ
+αµΓα
+κν−Γλ
+ανΓα
+κµ,(3)
+whereδ
+δxµ=∂
+∂xµ−Nν
+µ∂
+∂yν. The notion of Ricci ten-
+sor in Finsler geometry was ﬁrst introduced by Akbar-
+Zadeh[21]
+Ricµν=∂2/parenleftbig1
+2F2R/parenrightbig
+∂yµ∂yν, (4)
+whereR=yµ
+FRκ
+µ κνyν
+F. And the scalar curvature in
+Finsler geometry is given as S=gµνRicµν.
+In standard cosmology, following the cosmological
+principle, one gets the Friedmann-Robertson-Walker
+(FRW) metric[22]. In another word, the spatial part of
+theUniverseisaconstantsectionalcurvaturespace. Here
+comes our major assumption, the gravity in large scale
+should be described in terms ofFinsler geometry. In light
+of the cosmological principle, the Finsler structure of the
+Universe should be written in such form
+¯F2=dt2−R2(t)F2, (5)
+whereR(t) is scale factor with cosmic time t, the struc-
+tureFis a constant ﬂag curvature space. By makinguse of the geometrical terms we mentioned above, one
+obtains the components of Ricci tensor
+Ric00=−3¨R
+Rg00, (6)
+Ricij=−/parenleftBigg¨R
+R+2˙R2
+R2+2K
+R2/parenrightBigg
+gij,(7)
+where the dot denotes a derivative with respect to t.
+Thegravitationalﬁeld equationin Finslerspaceshould
+reduce to the Einstein’s gravitationalﬁeld equation while
+the Finsler space reduce to the Riemannian space. Thus,
+the symmetrical tensor Gµν≡Ricµν−1
+2gµνSshould in-
+volve in the gravitational ﬁeld equation in Finsler space.
+In general, Finsler space is an anisotropic space. There-
+fore, it has less Killing vectors than the Riemannian
+space, and it breaks the Lorentz symmetry[23]. It means
+the angular momentum in Finsler space is not a conser-
+vative quantity. This fact implies that the energy mo-
+mentum tensor is not symmetrical in Finsler space. For
+these reasons, the gravitational ﬁeld equation in Finsler
+space should be taken in such form
+Gµν+Aµν= 8πG(Ts
+µν+Ta
+µν), (8)
+whereAµνis an asymmetrical tensor and Ts
+µν,Ta
+µνare
+symmetrical part and asymmetrical part of energy mo-
+mentum tensor respectively. This general form is agree
+with the result of Asanov, its gravitational ﬁeld equa-
+tion contains the asymmetrical term in Finsler space of
+Landsberg type[24]. Dealing with ﬁeld equation in the
+anisotropicandinhomogeneouscosmologyisnotasimple
+staﬀ, and it is hard to ﬁnd an exact solution of gravita-
+tional ﬁeld equation while its energy momentum tensor
+involves the non diagonal terms[25]. At ﬁrst glance, we
+just deal with the symmetrical part of ﬁeld equation (8)
+Gµν= 8πGTµν. (9)
+By making use of the equations (6) and (7), the solu-
+tion of equation (9) is the same with the Einstein’s ﬁeld
+equation deduced by FRW metric. Taking the energy-
+momentum tensor Tµνto be the form of perfect ﬂuid,
+one can see that the evolution of scale factor R(t) is the
+same with the Riemannian case. However, since the lu-
+minosity distant is related to the spatial geometry of the
+Universe, one may expect that it is diﬀerent from the
+Riemannian luminosity distant.
+Unlike Riemann space, a complete classiﬁcation of the
+constant ﬂag curvature spaces remain an unsolved prob-
+lem. However, by making use of the Zermolo navigation
+on Riemannian space, Bao et al. [26] gave a complete
+classiﬁcation of Finsler-Randers space [27] of constant
+ﬂag curvature. The Zermelo navigation problem [28]
+aims to ﬁnd the paths of shortest travel time in a Rie-
+mannian manifold ( M,h) under the inﬂuence of a drift
+(“wind”) represented by a vector ﬁeld W. In standard3
+cosmology, our Universe is very ﬂat now. We may imag-
+ine that the Universe is a ﬂat Riemannian manifold with
+ﬂat Friedmann metric
+ds2=dt2−R2
+h(t)(dx2+dy2+dz2),(10)
+and it inﬂuenced by the “wind” W. The relationbetween
+the Riemannian manifold ( M,h) and the Randers metric
+Fis
+F=1
+λ/parenleftbigg/radicalBig
+λhijyiyj+(Wiyi)2−Wiyi/parenrightbigg
+,(11)
+whereWi=hijWjandλ= 1−h(W,W). One should
+notice that there is a map between the Riemannian
+space which inﬂuence by the “wind” and the Randers-
+Finsler space[29]. It means the eﬀect of “wind” already
+accounted in the gravitational ﬁeld equation in Finsler
+space. The theorem[26] of the classiﬁcation supplies an
+interesting case where the Randers metric Fhas con-
+stant ﬂag curvature K: forK=−1
+16σ2<0 andhis
+ﬂat. And σsatisﬁes the constraint LWh=−σh,Lde-
+notes Lie diﬀerentiation. We set the vector ﬁeld to be
+radialW=ǫ(t)(x1∂x1+x2∂x2+x3∂x3). Then the ﬂag
+curvature of Randers metric is K=−1
+4ǫ2. After doing
+coordinate change and taking spherical coordinate, we
+get the Randers metric as
+F=/radicalbigg
+dr2
+1+ǫ2r2+r2(dθ2+sin2θdφ2)−ǫrdr
+1+ǫ2r2.(12)
+After scale change r→2r/ǫ, the metric Fchanges as
+F=/radicalbigg
+dr2
+1+4r2+r2(dθ2+sin2θdφ2)−2rdr
+1+4r2,(13)
+and the cosmic scale factor changes as R(t) =2Rh(t)
+ǫ(t).
+Taking the spatial part of the Finsler structure (5) to be
+of the form (13), we get metric of the Universe in the
+framework of Finsler geometry, and the space curvature
+of the Universe is −1. One can deduce directly from such
+metric that the relation between the redshift zand the
+scale factor R(t) is the same with the Riemannian case
+1+z=R0
+R(t)=1
+a(t), (14)
+where the subscript zero denotes the quantities given at
+thepresentepoch. Sincethenon-radialpartofthemetric
+(13) isthe samewith FRWmetric, the luminosity distant
+in the navigation cosmological model is given as dL=
+R0r(1+z). However, the proper distant is not the case,
+and it is given as
+dp=/integraldisplayr
+0/parenleftbigg1√
+1+4r2−2r
+1+4r2/parenrightbigg
+dr
+=sinh−12r
+2−1
+4ln(1+4r2). (15)The light traveling along the radial direction satisﬁes the
+geodesic equation
+¯F2=dt2−R2(t)/parenleftbigg1√
+1+4r2−2r
+1+4r2/parenrightbigg2
+dr2= 0.(16)
+Then, we obtain
+dp=1
+R0/integraldisplay1
+(1+z)−1da
+a˙a(17)
+The equations (9) and (17) can be solved. Supposing
+the Universe is matter dominated (no more cosmological
+constant and dynamical dark energy), we obtain
+dp= log(/radicalBig
+1+Ω(0)
+mz−/radicalBig
+1−Ω(0)
+m)(1+/radicalBig
+1−Ω(0)
+m)
+(/radicalBig
+1+Ω(0)
+mz+/radicalBig
+1−Ω(0)
+m)(1−/radicalBig
+1−Ω(0)
+m),
+(18)
+whereH0is the Hubble constant and Ω mis the density
+parameter for matter and satisﬁes
+1−Ω(0)
+m=1
+H2
+0R2
+0. (19)
+Substituting the equation (18) into (15), we obtain the
+relation between luminosity distant and redshift in the
+navigation cosmological model
+H0dL=1+z
+2/radicalBig
+1−Ω(0)
+m|e2dp−1|
+edp√
+2−e2dp.(20)
+NUMERICAL RESULT
+Here, we present numerical result for the relation be-
+tweenluminositydistantandredshift inthe frameworkof
+the navigation cosmological model. The best ﬁt curve is
+shown in Fig.1 with the matter density parameter taken
+as Ω(0)
+m= 0.92. And the average value of Chisquare is
+1.077588. Thus, our prediction could account for exper-
+iment data given by Riess et al.[2]. It should be noticed
+that the Hubble constant H0we took is diﬀerent from
+the Hubble constant Hh0measured in ﬂat space. The
+relation for HandHhis
+H=Hh−˙ǫ
+ǫ. (21)
+By making use of the value of the Hubble constant mea-
+sured in ﬂat space Hh0= 73±0.3km·s−1·Mpc−1[31],
+we have
+Hǫ0≡˙ǫ0
+ǫ0= 5.42km·s−1·Mpc−1(22)
+This geometrical parameter Hǫ0represents an “acceler-
+ated” eﬀect provided by the vector ﬁeld W.4
+/s48/s46/s48 /s48/s46/s50 /s48/s46/s52 /s48/s46/s54 /s48/s46/s56 /s49/s46/s48 /s49/s46/s50 /s49/s46/s52 /s49/s46/s54/s45/s50/s46/s48/s45/s49/s46/s53/s45/s49/s46/s48/s45/s48/s46/s53/s48/s46/s48/s48/s46/s53/s108/s111/s103
+/s49/s48/s40/s72
+/s48/s100
+/s76/s47/s99/s41
+/s122
+FIG. 1: The luminosity distant Log10(H0dL/c) versus the
+redshift zfor the navigational cosmological model. The
+data comes from Riess et al.[2] and Hubble Space Telescope
+(HST)[30]. And the value of Hubble constant is set as
+H0= 67.88km·s−1·Mpc−1.
+CONCLUSION
+Our Letter initiates an exploration of the possibility
+that the empirical success of the observations of Type Ia
+supernovae can be regarded as the inﬂuence of a naviga-
+tional wind. The particles move on Riemnnian manifold
+and inﬂuenced by a vector ﬁeld (the “wind”) which pro-
+portiontothe curvature −ǫ2
+4ofthe spaceofthe Universe.
+Its geodesicindeed isaFinsleriangeodesic. Thus, the ob-
+servations of Riess et al.[2] on distant supernovae may be
+explained by the eﬀect of the “wind”. Our numerical
+result could account for astronomical observations. At
+last, we point out that the age of the Universe is about
+9.76Gyr in our model. This is contradicted with the age
+(13.5±2Gyr) of Globular clusters in the MilkyWay[32].
+Inthe navigationcosmologicalmodel, weonlyinvolvethe
+radial “wind”. The non-radial “wind” should be taken
+into account in future work, we expect that the eﬀect of
+the non-radial “wind” may supply us a reasonable age of
+the Universe.
+We would like to thank Prof. C. J. Zhu and X. H. Mo
+for useful discussions. The work was supported by the
+NSF of China under Grant No. 10525522 and 10875129.
+∗Electronic address: lixin@itp.ac.cn†Electronic address: zchang@ihep.ac.cn
+‡Electronic address: limh@ihep.ac.cn
+[1] E. Hubble, Proceedings of the National Academy of Sci-
+ences of the United states of America 15, 168 (1929).
+[2] A. G. Riess et al., Astron. J. 116, 1009 (1998); Astron.
+J.117, 707 (1999).
+[3] S. Perlmutter, et al., Astrophys J. 517, 565 (1999).
+[4] E. J. Copeland, M. Sami and S. Tsujikawa, Int. J. Mod.
+Phys. D 15, 1753 (2006).
+[5] T. Padmanabhan, Phys. Rept. 380, 235 (2003).
+[6] S. Bludman, arXiv:astro-ph/0605198.
+[7] D. Colladay and V. A. Kostelecky, Phys. Rev. D55,
+6760 (1997); V. A. Kostelecky, Phys. Rev. D 69, 105009
+(2004).
+[8] A. G. Cohen and S.L. Glashow, Phys. Rev. Lett. 97,
+021601 (2006).
+[9] G. W. Gibbons, J. Gomis and C. N. Pope, Phys. Rev. D
+76, 081701 (2007).
+[10] F. Girelli, S. Liberati and L. Sindoni, Phys. Rev. D 75,
+064015 (2007).
+[11] Z. Chang and X. Li, Phys. Lett. B 663, 103 (2008).
+[12] Z. Chang and X. Li, Phys. Lett. B 668, 453 (2008).
+[13] J. D. Anderson et al., Phys. Rev. Lett. 812858, (1998);
+Phys. Rev. D 65, 082004 (2002); Mod. Phys. Lett. A 17,
+875 (2002).
+[14] X. Li and Z. Chang, arXiv:gr-qc/0909.3713.
+[15] G. A.Krasinsky andV.A.Brumberg, Celest. Mech. Dyn.
+Astrn.90, 267 (2004).
+[16] E. M. Standish, Proc. IAU Colloq. 196, 163 (2005).
+[17] J. G. Williams and D. H. Boggs, in Proceedings of
+16th International Workshop on Laser Ranging, ed. S.
+Schillak, (Space Research Centre, Polish Academy of Sci-
+ences), 2009.
+[18] X. Li and Z. Chang, arXiv:gr-qc/0911.1890.
+[19] D. Bao, S. S. Chern and Z. Shen, An Introduction to
+Riemann–Finsler Geometry , Graduate Texts in Math-
+matics200, Springer, New York, 2000.
+[20] S. S. Chern, Sci. Rep. Nat. Tsing Hua Univ. Ser. A 5, 95
+(1948); or Selected Papers, vol. II, 194, Springer 1989.
+[21] H. Akbar-Zadeh, Acad. Roy. Belg. Bull. Cl. Sci. (5) 74,
+281 (1988).
+[22] S. Weinberg, Gravitation and Cosmology: Principles and
+Applications of the General Theory of Relativity , Wiley,
+New York, 1972.
+[23] X. Li, Z. Chang and X. H. Mo, arXiv:hep-th/1001.2667.
+[24] G. S. Asanov, Reports on Mathematical Physics 59, 111
+(2007).
+[25] C. W. Misner, K, S, Thorne and J. A. Wheeler, Gravita-
+tion, Freeman, San Francisco, 1973.
+[26] D. Bao, C. Robles and Z. Shen, J. Diﬀ. Geom. 66, 377
+(2004); arXiv:math/0311233.
+[27] G. Randers, Phys. Rev. 59, 195 (1941).
+[28] E. Zermelo, Z. Angew. Math. Mech. 11(2), 114 (1931).
+[29] G. W. Gibbons, et al., Phys. Rev. D 79, 044022 (2009).
+[30] M. Kowalski et al., Astrophys. J. 686, 749 (2008).
+[31] D. N. Spergel et al., Astrophys. J. Supp. 170, 377 (2007).
+[32] R. Jimenez, P. Thejll, U. Jorgensen, J. MacDonald and
+B. Pagel, MNRAS 282, 926 (1996).

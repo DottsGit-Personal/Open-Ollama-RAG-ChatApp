@@ -1,0 +1,382 @@
+arXiv:1001.0138v1  [math.DG]  31 Dec 2009The Euler-Savary Formula for One-Parameter
+Planar Hyperbolic Motion
+Soley ERSOY, Murat TOSUN
+Department of Mathematics, Faculty of Arts and Sciences
+Sakarya University, 54187 Sakarya/TURKEY
+March 17, 2009
+Abstract
+One-parameter hyperbolic planar motion was ﬁrst studied by S. Y¨uce
+and N. Kuruo˜ glu. Moreover, they analyzed the relationships between the
+absolute, relative and sliding velocities of one-paramete r hyperbolic pla-
+nar motion as well as the related pole curves, [14]. One-para meter planar
+motions in the Euclidean plane E2and the Euler-Savary formula in one-
+parameter planar motions were given by M¨ uller, [9]. In the present article,
+one hyperbolic plane moving relative to two other hyperboli c planes, one
+moving and the other ﬁxed, was taken into consideration and t he relation
+between the absolute, relative and sliding velocities of th is movement was
+obtained. In addition, a canonical relative system for one- parameter hy-
+perbolic planar motion was deﬁned. Euler-Savary formula, w hich gives
+the relationship between the curvature of trajectory curve s, was obtained
+with the help of this relative system.
+Mathematics Subject Classiﬁcation (2000). : 53A17, 11E88.
+Keywords : Kinematics, hyperbolicmotion, hyperbolicnumbers, Eule r-
+Savary formula.
+1 Preliminaries
+Before proceeding any further, we require a deﬁnition for the set of hyperbolic
+number and assume the existence of any number jwhich has the property
+j/ne}ationslash=±1 . In terms of the standard basis {1,j}, the hyperbolic number can be
+written as
+z=x+jy
+wherej/parenleftbig
+j2= 1/parenrightbig
+is the unipotent (hyperbolic) imaginary unit and the reel num-
+bersxandyare called the real and unipotent (or hallucinatory) parts of the
+hyperbolic number z, respectively, [2]-[4],[6]-[8],[10], [11]. The set of the hyper-
+bolic numbers is
+H=R[j] =/braceleftbig
+z=x+jy|x,y∈,j2= 1/bracerightbig
+1In just the same way C=R[i] are the complex numbers extended to include
+the imaginary i/parenleftbig
+i2=−1/parenrightbig
+number [12], the hyperbolic numbers are the real
+numbers extended to include the unipotent jnumber.
+The hyperbolic numbers are also called perplex numbers [6], split-com plex num-
+bers [1] or double numbers [1],[7],[10]. The hyperbolic number systems se rve as
+the coordinatesin the Lorentzianplanein the same wayasthe comple x numbers
+serve as coordinates in the Euclidean plane. The role played by the co mplex
+numbers in Euclidean space is played by the hyperbolic number system s in the
+pseudo-Euclidean space, [11].
+Addition and multiplication of the hyperbolic numbers are as follows:
+(x+jy)+(u+jv) = (x+u)+j(y+v),
+(x+jy)(u+jv) = (xu+yv)+j(xv+yu).
+This multiplication is commutative, associative and distributes over ad dition.
+The hyperbolic conjugate of z=x+jyis deﬁned by z=x−jy. The hyperbolic
+inner product is
+/an}bracketle{tz,w/an}bracketri}ht= Re(zw) = Re(zw) =xu−yv
+where;z=x+jyandw=u+jv. Hyperbolic numbers zandware hyperbolic
+(Lorentzian) orthogonal if /an}bracketle{tz,w/an}bracketri}ht= 0. Hyperbolic modulus of z=x+jyis
+/bardblz/bardblh=/radicalbig
+|/an}bracketle{tz,z/an}bracketri}ht|=/radicalbig
+|zz|=/radicalbig
+|x2−y2|
+and it is the hyperbolic distance of the point zfrom the origin. This is the
+Lorentz invariant of two-dimensional special relativity and their un imodular
+multiplicative group (the group composed of quadratic matrices det erminant
+of which equals to 1) is the special relativity Lorentz group, [13]. The se rela-
+tions have been used to extend special relativity. Furthermore, b y using the
+functions of the hyperbolic variable, two-dimensional special relat ivity has been
+generalized, [3]. These applications make the hyperbolic numbers app ropriate
+for physics and the application of hyperbolic numbers is similar to the a pplica-
+tion of complex numbers to the Euclidean plane geometry, [13]. Note t hat the
+pointsz/ne}ationslash= 0 on the lines y=xare isotropic in the sense that they are nonzero
+vectors with /bardblz/bardblh= 0. By this way, the hyperbolic distance creates Lorentzian
+geometry in R2. This is diﬀerent from the usual Euclidean geometry of the
+complex plane, where /bardblz/bardblh= 0 only if z= 0 in the complex plane. The set of
+all points in the hyperbolic plane that satisfy the equation /bardblz/bardblh=r >0 is a
+four-branched hyperbola of hyperbolic radius r, [11].
+The hyperbolic number z=x+jycan be written as follows:
+While the hyperbolic number zis on H-I or H-III plane, then
+z=±r(coshϕ+jsinhϕ) =±rejϕ,
+While the hyperbolic number zis on H-II or H-IV plane, then
+z=±r(sinhϕ+jcoshϕ) =±rjejϕ,
+[See Figure1.1.]
+2Figure 1.1. Hyperbolic Plane
+This formula can be derived by a power series expansion due to the fa ct that
+cosh has only even powers whereas sinh has odd powers. For all rea l values of
+the hyperbolic angle ϕ, the hyperbolic number ejϕhas norm 1 and lies on the
+right branch of the unit hyperbola, [11].
+A hyperbolic rotation deﬁned by ejϕcorresponds to multiplication by the ma-
+trix, [11];/bracketleftbiggcoshϕsinhϕ
+sinhϕcoshϕ/bracketrightbigg
+.
+Another property of the hyperbolic inner product is
+/angbracketleftbig
+zejϕ,wejϕ/angbracketrightbig
+=/an}bracketle{tz,w/an}bracketri}ht.
+In addition, a vector multiplied by jis a hyperbolic orthogonal vector, [11].
+This is similar to the role played by the multiplication i=ei(π/2)in the complex
+plane.
+2 Planar Hyperbolic Motion
+Let’s consider an Aplane which moves with regard to HandH′hyperbolic
+planes, ﬁrst one moving and the second one ﬁxed. Let’s examine the motion
+of the coordinate system {B;a1,a2}which deﬁnes hyperbolic plane A, and
+hyperbolic planes HandH′with regard to the coordinate systems {O;h1,h2}
+and{O′;h′1,h′2}. [See Figure 2.1. and 2.2.] If the vector− − →OBis deﬁned by
+the hyperbolic number b=b1+jb2, by applying the hyperbolic inner product,
+b2
+1−b2
+2>0 orb2
+1−b2
+2<0 can be obtained. As seen in Figure 2.1. and Figure 2.2.
+3respectively,thevector− − →OBcanbeontheplaneH-IorH-IIinhyperbolicmotion.
+Figure2.1.− − →OBvector is on H-I plane
+Figure2.2.− − →OBvector is on H-II plane
+4The rotation angles of the one-parameter planar hyperbolic motion A/Hand
+A/H′areϕandψ, respectively. If the origin points of O, BandO′, Bare
+coincident, then there exists following relations;
+a1= coshϕh1+sinhϕh2
+a2= sinhϕh1+coshϕh2
+and
+a1= coshψh′1+sinhψh′2
+a2= sinhψh′1+coshψh′2
+respectively [See Figure 2.3. and 2.4.].
+If we denote the vectors− − →BX,− − →OBand− − →OB′with the hyperbolic numbers ˜ x=
+x1+jx2,b=b1+jb2andb′=b′
+1+jb′
+2on the moving coordinate system of A,
+respectively; then we have
+x= (b+˜ x)ejϕ(2.1)
+and
+x′= (b+˜ x)ejψ(2.2)
+where, the hyperbolic numbers xandx′denote the point Xwith respect to the
+coordinate systems of HandH′, respectively.
+Let’s ﬁnd the velocities of the one-parameter motion with the help of the dif-
+ferentiation of the equations (2.1) and (2.2). By diﬀerentiating equ ation (2.1),
+we get
+dx= (σ+jτ˜ x+d˜ x)ejϕ(2.3)
+in which
+σ=σ1+jσ2=db+jbdϕ , τ =dϕ (2.4)
+and the relative velocity vector of X(with respect to H) isVr=dx
+dt.
+If we assume the diﬀerentiation of the equation (2.2),
+d′x= (σ′+jτ′˜ x+d˜ x)ejψ(2.5)
+can be obtained along with the equation
+σ′=σ′
+1+jσ′
+2=d′b+jb′dψ , τ′=dψ (2.6)
+5Also, the absolute velocity vector, that is, the velocity vector of Xwith respect
+toH′, isVa=d′x
+dt.
+Here,σi, σ′
+i,(i= 1,2), τ, τ′are linear diﬀerential forms of tand are
+called Lorentzian Pfaﬃan forms of one-parameter hyperbolic motio n. The real
+parametertrepresents time.
+IfVr=0andVa=0, the pointXis ﬁxed on the hyperbolic planes HandH′,
+respectively. Thus, the conditions of Xbeing ﬁxed on the HandH′planes are
+d˜ x=−σ−jτ˜ x (2.7)
+and
+d˜ x=−σ′−jτ′˜ x (2.8)
+respectively. If the equation (2.7) is substituted into equation (2.5 ),
+dfx= [(σ′−σ)+j(τ′−τ)˜ x]ejψ(2.9)
+can be obtained, where the sliding velocity vector of the point XisVf=dfx
+dt.
+Thus, following can be easily obtained:
+d′x=dfx+dx (2.10)
+Just to avoid translation, it is assumed that ˙ ϕ/ne}ationslash= 0 and ˙ψ/ne}ationslash= 0. The rotation
+pole of the motion H/H′is characterized by the sliding velocity Pbeing 0.
+For that reason, if dfx=0, from the equation (2.9), the pole point Pof the
+one-parameter planar hyperbolic motion is obtained as
+p=jσ′−σ
+τ−τ′(2.11)
+and if Lorentzian coordinates are preferred on the condition that− − →BP=p=
+p1+jp2, it can be written
+p1=σ′
+2−σ2
+τ−τ′, p2=σ′
+1−σ1
+τ−τ′(2.12)
+which is given in [5].
+In theH/H′one-parameter planar hyperbolic motion, moving and ﬁxed pole
+curves determine the geometric locus of the point PinHandH′planes, re-
+spectively. In other words; ( P) and (P′) are the representation of the moving
+and ﬁxed pole curves, respectively. Also, the pole tangents can be either on the
+plane H-I or H-II [See Figure 2.5. and 2.6.].
+6Let’s ﬁrst choose the pole tangents of the pole curves ( P) and (P′) on the plane
+H-II because the same results would be obtained by following similar op erations
+on the plane H-I.
+3 The Euler-Savary Formula for One-Parameter
+Planar Hyperbolic Motion
+Let’schoosethemovingplane A, representedbythecoordinatesystem {B;a1,a2},
+in such way to meet the following conditions:
+i)The origin of the system Bcoincides with the instantaneous rotation pole P
+ii)The axis {B;a2}is the pole tangent, that is, it coincides with the common
+tangent of the pole curves ( P) and (P′) (on the plane H-II) [See Figure 3.1.].
+Figure 3.1.
+When the condition (i) is considered: by using the equation (2.12),
+σ1=σ′
+1, σ2=σ′
+2 (3.1)
+7are obtained. From the equations (2.4) and (2.6),
+db= (db+jbdϕ)ejϕ=σejϕ
+d′b= (db′+jb′dψ)ejψ=σ′ejψ (3.2)
+arefound. Iftheequation(3.1)andthelastequationaretookinto consideration:
+dp=d′p=db=d′b (3.3)
+is found.
+Thus, the moving pole curve ( P), the pole tangent of which is given, and the
+ﬁxed pole curves ( P′) are rolling on each other without sliding.
+The second condition, that is, the condition that the pole tangent c oincides
+witha2, requires the coeﬃcient of a1to be zero. Here, σ1=σ′
+1= 0 and
+σ=jσ2=jσ′
+2can be written. Consequently, the derivative equations of the
+canonical relative system {P;a1,a2}are
+da1=τa2=jτejϕ, da2=τa1=−τejϕ, dp=jσ2a1=σejϕ(3.4)
+and
+d′a1=τ′a2=jτ′ejψ, d′a2=τ′a1=jτ′ejψ, d′p=jσ′
+2a1=σejψ
+(3.5)
+Hereσ=dsis the scalar arc element of the pole curves ( P) and (P′).τis
+the hyperbolic cotangent angle, that is, two neighboring tangent a ngles of (P).
+Thus, the curvature of ( P) on the point Pis represented byτ
+σ=dϕ
+ds.
+Similarly, the curvature of the hyperbolic cotangent angle τ′-that is, the ﬁxed
+pole curve ( P′) on the point P- isτ′
+σ=dψ
+ds.
+The inverse values of these ratios
+r=σ
+τ(3.6)
+and
+r′=σ
+τ′(3.7)
+give the curvature radius of the pole curves ( P) and (P′), respectively.
+Whendν=τ′−τis the inﬁnitesimal small hyperbolic instantaneous rotation
+angle, the movinghyperbolic plane H, with respect to the ﬁxed plane H′, rotates
+around the rotation pole Pas much as this hyperbolic angle in the dttime scale.
+Thus, the hyperbolic angular velocity of the rotational motion of Hwith respect
+toH′is
+τ′−τ
+dt=dν
+dt=•ν. (3.8)
+From the equations (3.6), (3.7), and the last equation, the following can be
+written:
+τ′−τ
+dt=dν
+dt=1
+r′−1
+r. (3.9)
+Let the direction of the unit tangent vector a2be in the direction determined
+by time-based pole curves ( P) and (P′). Let’s choose the vector a2in such
+8way to ensure thatds
+dt>0. In this case, r >0 as the curvature center of the
+moving pole ( P) curve is at the right side of the directed pole tangent {P;a2}.
+Similarly,r′>0.
+Accordingtothecanonicalrelativesystem, thediﬀerentiation x-thecoordinates
+of which are x1, x2- with respect to the planes HandH′are
+dx= [(τx2+dx1)+j(σ2+τx1+dx2)]ejϕ= (σ+jτx+dx)ejϕ(3.10)
+and
+d′x= [(τ′x2+dx1)+j(σ′
+2+τ′x1+dx2)]ejϕ= (σ+jτ′x+dx)ejϕ(3.11)
+respectively. If
+dx1=τx2anddx2=−σ2−τx1 (3.12)
+then the point Xis ﬁxed on the hyperbolic plane H. Similarly, if
+dx1=τ′x2anddx2=−σ′
+2−τ′x1 (3.13)
+then the point Xis ﬁxed on the hyperbolic plane H′. Also, the sliding velocity
+Vfof the movement H/H′corresponds to the diﬀerentiation
+dfx=j(τ′−τ)(x1+jx2)ejϕ=j(τ′−τ)xejϕ(3.14)
+Now, let’s examine the curvature centers of the trajectory curv es drawn on
+their ﬁxed plane by the points of moving planes in the motion of H/H′. In the
+canonical relative system, the points X,X′having the coordinates x1,x2and
+x′
+1,x′
+2, respectively, are situated, -together with the instantaneous r otation pole
+Pin everytmoment on the instantaneous trajectory normal, which belongs to
+X. Moreover,this curvaturecenter can be consideredas the limit of the meeting
+point of the normals of the two neighboring points on the curve. Thu s,
+− − →PX=x1+jx2=x− − →PX′=x′
+1+jx′
+2=x′(3.15)
+vectors have the same direction which passes through P. Then, for the points
+XandX′, the equation is
+x
+x′=x1+jx2
+x′
+1+jx′
+2=λ∈R. (3.16)
+If the diﬀerential of this last equation is taken,
+(x′
+1dx1+x′
+2dx2−x1dx′
+1−x2dx′
+2)+j(x′
+1dx2+x′
+2dx1−x1dx′
+2−x2dx′
+1) = 0.
+(3.17)
+If the conditions that the point Xbe ﬁxed on the plane Hand the point X′be
+ﬁxed on the plane H′are provided, then
+jσ2[(x1+jx2)−(x′
+1+jx′
+2)]+j(x1+jx2)(x′
+1+jx′
+2)(τ′−τ) = 0
+9can be obtained, that is,
+σ[x−x′]+jxx′(τ′−τ) = 0 (3.18)
+As the vectors− − →PX,− − →PX′are on the plane H-II ,
+x=ajejα(3.19)
+and
+x′=a′jejα. (3.20)
+That is,aanda′, respectively, represent the distance of the points XandX′
+on the plane H-II from the rotation pole P. Also, the angle αis bounded by
+the pole curves− − →PX=− − →PX′, [See Figure 3.2.]
+Figure 3.2.
+If the equations (3.19) and (3.20) are substituted into equation (3 .18), then
+jσ(a−a′)+jaa′ejα(τ′−τ) = 0 (3.21)
+can be obtained, and if the equation (3.9) is considered together wit h this last
+equation,
+dν
+ds=1
+r′−1
+r= (1
+a−1
+a′)e−jα(3.22)
+is found. Here, randr′are the radii of curvature of the pole curves Pand
+P′, respectively. dsrepresents the scalar arc element and dνrepresents the
+inﬁnitesimal hyperbolic angle of the motion of the pole curves.
+10The equation (3.22) is called the Euler-Savary formula for one-para meter plane
+hyperbolic motion.
+Consequently, the following theorem can be given.
+Theorem 3.1 LetHandH′be the moving and ﬁxed hyperbolic planes, respec-
+tively. A point X, assumed on H, draws a trajectory whose instantaneous center
+of curvature is X′on the plane H′in one-parameter planar motion H/H′. In
+the inverse motion of H/H′, a pointX′assumed on H′draws a trajectory whose
+center of curvature is Xon the plane H. The relation between the points Xand
+X′is given by the Euler-Savary formula given in the equation (3 .22).
+Remark Let’s choose the moving plane Arepresented by the coordinate system
+{B;a1,a2}in such way to meet following conditions:
+i)The origin of the system Band the instantaneous rotation pole Pcoincide
+with each other, i.e. B=P, [See Figure 4.1.]
+ii)The axis {B;a1}is the pole tangent, that is, it coincides with the common
+tangent of the pole curves ( P) and (P′) (on the plane H-I)
+Figure 4.1.
+Thus, if the operations in III. section are performed considering t he conditions
+i) and ii), the Euler-Savaryformula for one-parameter planar hype rbolic motion
+remains unchanged, that is, it is the same as in the equation (3.22)[Se e Figure
+4.2.]
+11Figure 4.2.
+References
+[1] D. Alfsmann, On families of 2Ndimensional Hypercomplex Algebras suit-
+able for digital signal Processing. Proc. EURASIP 14thEuropean Signal
+Processing Conference (EUSIPCO 2006), Florence, Italy, 2006.
+[2] F. Catoni, R. Cannata, V. Catoni and P. Zampetti, Hyperbolic Tr igonome-
+try in two-dimensional space-time geometry. N. Cim. B 118 B (2003) , 475-
+491.
+[3] F. Catoni and P. Zampetti, Two-dimensional space-time symmet ry in hy-
+perbolic functions. N. Cim. B 115 B no. 12 (2000), 1433-1440.
+[4] J. Cockle, On a new imaginary in algebra. Phil. Mag. 3 no. 34 (1847), 37-47.
+[5] M. Erg¨ ut, A. P. Aydin, N. Bildik, The Geometry of the Canonical Relative
+System and One-Parameter Motions in 2-Lorentzian Space, The Jo urnal of
+Firat University, 1988 3(1) 113-122.
+[6] P. Fjelstad, Extending special relativity via the perplex numbers . Amer. J.
+Phys. 54 no. 5 (1986), 416-422.
+[7] P. Fjelstad and S.G. Gal, n-dimensional hyperbolic complex number s. Adv.
+Appl. Cliﬀord Algebr. 8 no. 1 (1998), 47-68.
+12[8] P. Fjelstad and S.G. Gal, Two-dimensional geometries, topologies ,
+trigonometries and physics generated by complex-type numbers. Adv. Appl.
+Cliﬀord Algebr. 11 no.1 (2001), 81-107.
+[9] H.R. M¨ uller, Kinematik, Sammlung G¨ oschen, Walter de Gruyter, Berlin
+(1963).
+[10] D. Rochon and M. Shapiro, On algebraic properties of bicomplex a nd hy-
+perbolic numbers. Anal. Univ. Oradea, fasc. math. 11 (2004), 71- 110.
+[11] G. Sobczyk, The Hyperbolic Number Plane, The College Math. J. 2 6 no.
+4 (1995), 268-280.
+[12] I.M. Yaglom, Complex numbers in geometry. Academic Press, New York,
+1968.
+[13] I.M. Yaglom, A simple non-Euclidean geometry and its Physical Bas is.
+Springer-Verlag, New York, 1979.
+[14] S. Y¨ uce and N. Kuruo˜ glu, One-parameter plane hyperbolic Motions. Adv.
+Appl. Cliﬀord Algebras, 18 no. 2 (2008), 279-285.
+13

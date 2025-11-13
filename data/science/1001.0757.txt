@@ -1,0 +1,219 @@
+arXiv:1001.0757v3  [hep-th]  20 Jun 2010On thenon-relativistic limit ofcharge
+conjugation inQED
+B.Carballo P ´erez∗andM. Socolovsky†
+Instituto de Ciencias Nucleares, Universidad Nacional Aut ´ onoma deM´ exico,
+Circuito exterior, Ciudad Universitaria, 04510, M´ exico D .F.,M´ exico
+Abstract
+Even if at the level ofthe non-relativisticlimitof full QED ,Cis not a symmetry,
+the limit of this operation does exist for the particular cas e when the electromag-
+neticﬁeldisconsideredaclassicalexternalobjectcouple dtotheDiracﬁeld. This
+result extends the one obtained when fermions are described by the Schr¨ odinger-
+Pauliequation. We givetheexpressionsforboththe Cmatrixand the ˆCoperator
+for galilean electrons and positrons interacting with the e xternal electromagnetic
+ﬁeld. Theresultisrelevantinrelation torecent experimen tswithantihydrogen.
+Keywords: charge conjugation;non-relativisticlimit;QED
+∗brendacp@nucleares.unam.mx
+†socolovs@nucleares.unam.mx1 Introduction 2
+1 Introduction
+It is very common to talk about P (parity or space inversion) a nd T (time
+inversion) symmetries, not only in the non-relativistic qu antum mechanics, but
+also in classical mechanics. Nevertheless, the existence o f the galilean limit of C
+(charge conjugation) is nowadays controversial ([1] vs [2] ). Despite the fact that
+some authors [1] consider that the C transformation does not have an equivalent
+in the non-relativistictheory, others [2] reach up to deﬁne theˆCoperator in non-
+relativisticquantummechanics,buttheydonotgiveanexpl icitexpressionforthis
+operator. It is generally believedthat the antiparticleco ncept can only be deﬁned
+in the context of relativisticquantum mechanics, because i t is only in this regime
+that we obtain solutions for free particles with negative en ergy ﬂying backward
+intime,whoseabsenceisinterpretedasparticlesofopposi temoment,chargeand
+energy, ﬂying forward in time: antiparticles. As thecharge conjugationoperation
+makes the particle-antiparticle operation, is believed th at this operator only takes
+placeinthiscontext.
+What is clear is that the C invariance in relativistic theory should not neces-
+sarily remain in the galilean limit because the transition f rom Lorentz group to
+Galileangroup isnotcontinuous.
+The existence of the charge conjugationoperation in the non -relativisticlimit
+wasdemonstratedin2006[3,4],i.e.,inthecontextofgalil eanrelativity. Thisfact
+is different from the idea that C exists only in the context of relativistic physics,
+withtheLorentz-Poincar´ e groupas thesymmetryofspace-t ime.
+The Dirac equation interacting with a classical external el ectromagnetic ﬁeld
+was considered in [3], as the ﬁrst step for ﬁnding this limit. For this purpose, the
+authorstookintoaccount thefollowingfacts:
+•Cdoesnotbelongto theLorentzgroup O(3,1).
+•We can give ad hocdeﬁnitions for C, not only in the non-relativisticquan-
+tum mechanics, but also in the classical lorentzian and gali lean mechanics
+[2].
+•Thereisasymmetrybetweenparticlesandantiparticlesint hequantumrel-
+ativistic theory. For the equations of both particles and an tiparticles, it is
+possibleto ﬁnd a non-relativisticwell deﬁned limit, witho utany contradic-
+tion between them. If we have electrons of low energies (slow electrons),
+wecanexpecttohavepositronsoflowenergies(slowpositro ns)[5],related
+bythechargeconjugationoperation.2 Onthe non-relativisticlimitofC inQED 3
+For consistency, any prescription in the non relativistica pproximation should
+be derived from the relativistic theory as the limiting case |β|<<1, whereβis
+theparticle”velocity”( c=1). ThatiswhythepositronSchr¨ odinger-Pauliequation
+was obtained in [3] from the positron Dirac equation, making the substitution
+ψC=eimt∼
+ψCand taking,then,thenon-relativisticlimitoftheresulti ngequation.
+It was found thus a natural deﬁnition for the charge conjugat ionmatrix in the
+non-relativisticlimit,
+/parenleftBigg∼
+ψ1
+∼
+ψ2/parenrightBigg
+C−→/parenleftBigg
+−∼
+ψ∗
+2∼
+ψ∗
+1/parenrightBigg
+:=Cnr/parenleftBigg∼
+ψ1
+∼
+ψ2/parenrightBigg
+, (1)
+where:
+Cnr=K/parenleftbigg0−1
+1 0/parenrightbigg
+, (2)
+withK, thecomplexconjugationoperation.
+Takingintoaccounttheworks[3,4],andalsosomepreviouss tudiesaboutthe
+non-relativisticlimitinquantumﬁeldtheory,likethenon -relativisticlimitof λΦ4
+theory [6], we are going to study the non-relativisticlimit of charge conjugation,
+getting a little closer to reality, that is, in the case of the quantum Dirac ﬁeld
+coupledto anexternal electromagneticﬁeld.
+2 Onthenon-relativisticlimitof Cin QED
+From the QEDlagrangiandensity:
+LQED=¯ψ(x)(iγµ∂µ−qγµAµ(x)−m)ψ(x)−1
+4Fµν(x)Fµν(x);(3)
+the equations for the coupled Dirac and electromagnetic ﬁel ds are deduced ([7],
+p. 84):
+(iγµ∂µ−qγµˆAµ(x)−m)ˆψ(x) = 0, (4)
+∂ˆFµν(x)
+∂xν=qˆ¯ψγµˆψ(x). (5)
+Inequations(4)and(5), ˆAµ(x)isnotconsideredexternalandispartofthedy-
+namicsofthesystem. Ifwemakeintheseequations ˆψ(x)−→ˆψC(x)(equivalent3 Thecaseofanexternal electromagnetic ﬁeld 4
+heretochange qto−q),thenchanging ˆAµ(x)−→ −ˆAµ(x)thechargeconjugation
+operationiscompleted,showingtheCinvarianceofquantum electrodynamics.
+If we want now to take the non-relativistic limit of full QED, we must estab-
+lish this limit both for ˆψ(x)andˆAµ(x). The problem is that it is not possible to
+establisha non-relativisticlimitfor ˆAµ(x)because thephotonmassiszero.
+It isdiscardedfrom herethat,when weconsiderelectrons,p ositronsand pho-
+tons together, makes sense to talk about the charge conjugat ion operation in the
+non-relativistic limit. As we can not establish the non-rel ativistic limit for QED,
+fromthispointon,wewillforgettheequation(5)andwillas sumethattheelectro-
+magneticﬁeld in (4) is now a classical external object, with perfectly determined
+valueˆAµ(x) =Aµ. That is, we are going to study the charge conjugation opera-
+tioninthecontextoftheDiracﬁeldcoupledtoaclassicalex ternalelectromagnetic
+ﬁeld.
+3 Thecaseofan externalelectromagneticﬁeld
+Whatwasdeterminedin[3]and[4]wastheexpressionforthe Cmatrixinthe
+non-relativisticlimitoftheDiracequationcoupledtoane xternalelectromagnetic
+ﬁeld. It is also necessary to ﬁnd now the ˆCoperator, which represents the charge
+conjugationoperationintheHilbertspaceanditisrelated totheCmatrixthrough
+Cˆ¯ψT(x) =ˆC†ˆψ(x)ˆC, in thecontextofthenon-relativisticlimitoftheDirac ﬁe ld
+coupledtooto aclassicalexternal electromagneticﬁeld.
+Thecreationandannihilationoperatorsintermsoftheﬁeld operatorsaregiven
+by:
+ˆb(p,r) =/integraldisplayd3x
+(2π)3/2/radicalbiggm
+Ep−u(p,r)ˆψ(x)eip·x, (6)
+ˆd†(p,r) =/integraldisplayd3x
+(2π)3/2/radicalbiggm
+Ep−v(p,r)ˆψ(x)e−ip·x, (7)
+ˆb†(p,r) =/integraldisplayd3x
+(2π)3/2/radicalbiggm
+Epˆ−
+ψ(x)u(p,r)e−ip·x, (8)
+ˆd(p,r) =/integraldisplayd3x
+(2π)3/2/radicalbiggm
+Epˆ−
+ψ(x)v(p,r)eip·x. (9)3 Thecaseofanexternal electromagnetic ﬁeld 5
+At low speeds (|p|
+c−→0)the creation and annihilation operators ( ˆb†,ˆd†,ˆb,ˆd)
+willcontinuecreatingorannihilatingparticlesandantip articles. Thus,inthenon-
+relativistic limit, the form of the equations (6), (7), (8) a nd (9) will be the same;
+withthedifferencesthatinthiscasetheterm/radicalbiggm
+Epwillbeequalto 1,ˆψandˆ−
+ψwill
+besolutionsoftheSchr¨ odinger-Pauliequationsandthesp inorswillbereducedto:
+u(p,1) =/parenleftbigg1
+0/parenrightbigg
+, u(p,2) =/parenleftbigg0
+1/parenrightbigg
+,
+−u(p,1) =/parenleftbig
+1,0/parenrightbig
+,−u(p,2) =/parenleftbig
+0,1/parenrightbig
+, (10)
+and
+v(p,1) =/parenleftbigg
+1
+0/parenrightbigg
+, v(p,2) =/parenleftbigg
+0
+1/parenrightbigg
+,
+−v(p,1) =/parenleftbig
+−1,0/parenrightbig
+,−v(p,2) =/parenleftbig
+0,−1/parenrightbig
+. (11)
+TheˆCoperator corresponding to the Dirac ﬁeld, as a function of th e creation
+and annihilationoperators isgivenby[8]:
+ˆC0=exp(iπ
+2/integraldisplay
+d3p2/summationdisplay
+r=1(ˆd†(p,r)ˆb(p,r)+ˆb†(p,r)ˆd(p,r)
+−ˆb†(p,r)ˆb(p,r)−ˆd†(p,r)ˆd(p,r))); (12)
+while in the presence of interactions, the charge conjugati on operator at time tis
+givenby ([7], p. 111):
+ˆC(t) =eiˆHTtˆC0e−iˆHTt, (13)
+whereˆHTisthetotalhamiltonian(Diracﬁeldcoupledtotheexternal electromag-
+neticﬁeld)and ˆC0satisﬁes(12),keepingtheoperators ˆb†,ˆd†,ˆb,ˆdintheHeisenberg
+picture.
+By taking the non-relativistic limit, the form of the operat orˆC(t), given by
+(13), does not change; but then, the operators ˆb†,ˆd†,ˆb,ˆdwill be those for low
+speeds,and ˆHTwillbetheSchr¨ odinger-Pauli hamiltonian.
+Summarizing,inarelativisticcontextthechargeconjugat ionoperationisequiv-
+alenttochange ˆψ(x)−→ˆψC(x)andˆAµ(x)−→ −ˆAµ(x),bothfor ˆAµ(x)dynam-
+ics and for ˆAµ(x) =Aµclassical external. This is equivalent to say that, in a4 Conclusions 6
+relativistic context, the electron move in a ﬁeld ˆAµ(x)like the positron does in a
+ﬁeld−ˆAµ(x).
+Inthenon-relativisticlimit,thechargeconjugationoper ationonlymakessense
+forAµclassicalexternalanditisreducedonlytochange ˆψ(x)−→ˆψC(x). Inthis
+lastcase,tomakealsothechange Aµ−→ −AµdonotturntheSchr¨ odinger-Pauli
+equationforthepositronintotheSchr¨ odinger-Pauliequa tionfortheelectron.
+4 Conclusions
+Even if it is not possible to establish the charge conjugatio n operation in the
+non-relativistic limit of full quantum electrodynamics, a s is not possible to take
+this limit for the electromagnetic ﬁeld because the photon m ass is zero, we can
+talkaboutthenon-relativisticlimitofchargeconjugatio nforthecaseoftheDirac
+ﬁeld in the presence of a classical external electromagneti c ﬁeld and give the ex-
+pressions,forboth the Cmatrixand the ˆCoperator, in thiscase.
+Regarding whether the process of renormalization could mod ify the above
+analysis,weshouldtakeintoaccountthatwearenotstudyin gtheelementsofthe
+dispersion matrix in each approximation of perturbation th eory. Instead, we are
+talkingaboutthenon-relativisticlimitofthehamiltonia n,withwhichispossibleto
+calculatethedispersionmatrix. Thus,renormalizationdo es not affect theprocess
+oftakingthelimit.
+5 Acknowledgment
+This work was partially support by the project PAPIIT IN 1186 09-2, DGAPA-
+UNAM, M´ exico. B. Carballo P´ erez also acknowledges ﬁnanci al support from
+CONACyT,M´ exico.
+References
+[1] L. D. Landau y E. M. Lifshitz , 1997 , Quantum Electrodynamics, Volume
+IV(Butterworth-Heinemann).
+[2] I. I. Bigi,A. I. Sanda, 2000, CP Violation (Cambridg eUniversityPress).REFERENCES 7
+[3] A. Cabo, D.B. Cervantes, H. P´ erez Rojas y M. Socolovsky, 2006,Remark
+on charge conjugation in the non relativistic limit , International Journal of
+TheoreticalPhysics, 45,1989-2000;arXiv: hep-th/0504223.
+[4] M.Socolovsky,2006, Chargeconjugationinthegalileanlimit ,Electromag-
+neticPhenomena, 6,No. 10,132-135(2006); arXiv: hep-th/0603137.
+[5] M.Amorettietal., 2002,Nature 419,456-459.
+[6] M. A. B. B´ eg, R. C. Furlong , 1985 , λΦ4in the nonrelativistic limit , Phys.
+Rev.D,31,No. 6,1370-1373.
+[7] J. D. Bjorken and S. D. Drell, 1965, RelativisticQuantum Fields , McGraw-
+Hill,New York.
+[8] W.Greiner, J. Reinhardt, 1993, FieldQuantization (Springer), 314.

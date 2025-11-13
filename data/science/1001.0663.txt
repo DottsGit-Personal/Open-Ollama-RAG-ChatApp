@@ -1,0 +1,377 @@
+arXiv:1001.0663v2  [cond-mat.dis-nn]  28 May 2010Self-organized chaos through polyhomeostatic optimizati on
+D. Markovic and Claudius Gros
+Institute for Theoretical Physics, Johann Wolfgang Goethe University, Frankfurt am Main, Germany
+(Dated: June 19, 2018)
+The goal of polyhomeostatic control is to achieve a certain t arget distribution of behaviors, in
+contrast to homeostatic regulation which aims at stabilizi ng a steady-state dynamical state. We con-
+sider polyhomeostasis for individual and networks of ﬁring -rate neurons, adapting to achieve target
+distributions of ﬁring rates maximizing information entro py. We show that any ﬁnite polyhomeo-
+static adaption rate destroys all attractors in Hopﬁeld-li ke network setups, leading to intermittently
+bursting behavior and self-organized chaos. The importanc e of polyhomeostasis to adapting behav-
+ior in general is discussed.
+Introduction. – Homeostatic regulation plays a central
+role in all living, as well as in many technical applica-
+tions. Biological parameters, like the blood sugar level,
+the heart beating frequency or the average ﬁring rates of
+neurons need to be maintained within certain ranges in
+order to guarantee survival. The same holds in the tech-
+nical regime for the rotation speed of engines and the
+velocity of airplanes, to give a few examples.
+Homeostasic control in the brain goes beyond the reg-
+ulation of scalar variables like the concentration of pro-
+teins and ions, involving the functional stability of neu-
+ral activity both on the individual as well as on a net-
+work level [1–3]. We use here the term ‘polyhomeosta-
+sis’ for self-regulating processes aimed at stabilizing a
+certain target distribution of dynamical behaviors. Poly-
+homeostasisisanimportantconceptusedhithertomostly
+implicitly and not yet well studied from the viewpoint
+of dynamical system theory. Polyhomeostasis is present
+whenever the goalof the autonomouscontrolis the stabi-
+lization of a non-trivial distribution of dynamical states,
+polyhomeostatic control hence generalizes the concept of
+homeostasis. The behavior of animals on intermediate
+time scales, to give an example, may be regarded as
+polyhomeostatic, aiming at optimizing a distribution of
+qualitatively diﬀerent rewards, like food, water and pro-
+tection; animals are not just trying to maximize a single
+scalarrewardquantity. Aconceptlooselyrelatedtopoly-
+homeostasis is homeokinesis, proposed in the context of
+closed-loop motion learning [4], having the aim to sta-
+bilize non-trivial but steady-state movements of animals
+and robots.
+Here we study generic properties of dynamical systems
+governed by polyhomeostatic self-regulation using a pre-
+viouslyproposedmodel[5,6]forregulatingtheﬁring-rate
+distribution of individual neurons based on information-
+theoretical principles. We show that polyhomeostatic
+regulation,aimingatstabilizingaspeciﬁctargetdistribu-
+tion of neural activities gives rise to non-trivial dynami-
+calstateswhenrecurrentinteractionsareintroduced. We
+ﬁnd, in particular, that the introduction of polyhomeo-
+static controlto attractornetworksleads to a destruction
+ofallattractorsresultingforlargenetworks,asafunction
+of the average ﬁring rate, in either intermittent burstingbehavior or self-organized chaos, with both states being
+globally attracting in their respective phase spaces.
+Firing-rate distributions. – We considera discrete-time,
+rate encoding artiﬁcial neuron with input x∈[−∞,∞],
+outputy∈[0,1] and a transfer function g(z),
+y(t+1) =g/parenleftbig
+a(t)x(t)+b(t)/parenrightbig
+, g(z) =1
+e−z+1.(1)
+The gain a(t) and the threshold −b(t)/a(t) in (1) are
+slow variables, their time evolution being determined by
+polyhomeostatic considerations.
+Information is encoded in the brain through the ﬁring
+states of neurons and it is therefore plausible to postu-
+late [5], that polyhomeostatic adaption for the internal
+parameters a(t) andb(t) leads to a distribution p(y) for
+the ﬁring rate striving to encode as much information
+as possible given the functional form (1) of the transfer
+function g(z). The normalized exponential distribution
+pλ(y) =λe−λy
+1−e−λ, µ=1
+λeλ−1−λ
+eλ−1,(2)
+maximizes the Shannon entropy [7], viz the information
+content, on the interval y∈[0,1], for a given expecta-
+tion value µ. A measure for the closeness of the two
+probability distributions p(y) andpλ(y) is given by the
+Kullback-Leibler divergence [7]
+Dλ(a,b) =/integraldisplay
+p(y)log/parenleftbiggp(y)
+pλ(y)/parenrightbigg
+dy , (3)
+which is, through (1), a function of the internal parame-
+tersaandb. The Kullback-Leibler divergence is strictly
+positive and vanishes only when the two distributions are
+identical. By minimizing Dλ(a,b) with respect to aand
+bone obtains [6] the stochastic gradient rules
+∆a=ǫa/parenleftBig
+1/a+x∆˜b/parenrightBig
+∆b=ǫb∆˜b,∆˜b= 1−(2+λ)y+λy2(4)
+which have been called ‘intrinsic plasticities’ [1]. The re-
+spective learning rates ǫaandǫbare assumed to be small,
+viz the time evolution of the internal parameters aandb
+is slow compared to the evolution of both xandy. For2
+0.2 0.4 0.6 0.8 1 µ 4812
+a
+stable fixpointsy
+xa, b
+FIG. 1: (color online) Left: As a function of the average
+ﬁring rate µ, the region of stability (shaded area) of the ﬁx-
+point (y∗,b∗), see Eq. (7) of the one-neuron network in the
+quasistatic limit. Right: A self-coupling neuron with inte rnal
+parameters a(t) andb(t).
+any externally given time series x(t) for the input, the
+adaption rules (4) will lead to a distribution of the out-
+put ﬁring rates y(t) as close as possible, given the spec-
+iﬁcation (1) for the transfer function, to an exponential
+with given mean µ.
+Attractor relics. – In deriving the stochastic gradient
+rules (4) it has been assumed that the input x(t) is sta-
+tistically independent of the output y(t) (but not vice
+versa). This is not any more the case when a set of poly-
+homeostatically adapting neurons are mutually intercon-
+nected, forming a recurrent network, Here we will show
+that networks based on polyhomeostatic principles will
+generically show spontaneous and continuously ongoing
+activity.
+In a ﬁrst step we analyze systematically the smallest
+possible network, viz the single-site loop, obtained by
+feeding the output back to the input, see Fig. 1, a setup
+which has been termed in a diﬀerent context ‘autapse’
+[8]. We use the balanced substitution x→y−1/2 in
+Eqs. (1) and (4), the complete set of evolution rules for
+the dynamical variables y(t), a(t) andb(t) is then
+y(t+1) = g/parenleftbig
+a(t)[y(t)−1/2]+b(t)/parenrightbig
+b(t+1) = b(t)+ǫb∆˜b(t) (5)
+a(t+1) = a(t)+ǫa/parenleftBig
+1/a(t)+[y(t)−1/2]∆˜b(t)/parenrightBig
+with
+∆˜b(t) = 1−(2+λ)y(t+1)+λy2(t+1).(6)
+Note, that ∆ ˜b(t) in (6) depends on y(t+ 1), and not
+ony(t), as one can easily verify when going through the
+derivation of the rules (4) for the intrinsic plasticity. The
+evolution equations (5) are invariant under y↔(1−y),
+b↔(−b),a↔aandλ↔(−λ), the later corresponding
+to the interchange of µ↔(1−µ).
+We ﬁrst consider the quasistatic limit ǫa≪ǫb, viz
+a(t)≃ais approximatively constant. The ﬁxpoint
+(y∗,b∗) in the ( y,b) plane is then determined by
+0 =λ(y∗)2−(2+λ)y∗+1
+b∗=g−1(y∗)−a[y∗−1/2]
+= log(y∗/(1−y∗))−a[y∗−1/2](7)1000 2000 3000t0123y(t), b(t), a(t)-4a(t)-4
+b(t)
+y(t)
+FIG. 2: (color online) The time dependence of y(t) (red stars)
+b(t) (solid line) and of a(t)−4 (dashed line) for the balanced
+one-site problem (5). ǫa=ǫb=ǫ= 0.01 andµ= 0.28; the
+horizontal dotted lines are guides to the eye. The gain a(t) is
+initially small and the system relaxes, since ǫ≪1, fast to a
+ﬁxpoint of y=g(a[y−1/2]+b). Oncea(t) surpasses a certain
+threshold, compare Fig. 1, the ﬁxpoint becomes unstable and
+the system starts to spike spontaneously.
+A straightforward linear stability analysis shows, that
+the ﬁxpoint ( y∗,b∗) remains stable for small gains aand
+becomes unstable for large gains, see Fig. 1. We now
+go beyond the quasistatic approximation and consider
+a small but ﬁnite polyhomeostatic adaption rate ǫafor
+the gain. Starting with a small gain awe see, compare
+Eq. (5), that the gain necessarily grows until it hits the
+boundary towards instability; for small ∆ ˜bthe growths
+of the gain is a(t)∼√
+t.
+In other words, a ﬁnite adaption rate ǫafor the gain
+turns the ﬁxpoint attractor ( y∗,b∗) into an attractor
+relic and the resulting dynamics becomes non trivial and
+autonomously self-sustained. This route towards au-
+tonomous neural dynamics is actually an instance of a
+more general principle. Starting with an attractor dy-
+namical system, viz with a system governed by a ﬁnite
+number of stable ﬁxpoint, one can quite generally turn
+these ﬁxpoints into unstable attractor ruins by coupling
+locally to slow degree of freedoms [10, 11], in our case the
+slow local variables are a(t) andb(t). Interestingly, there
+are no saddlepoints present in attractor relic networks in
+general, and in (5) in particular, and hence no unstable
+heteroclines, as in a proposed alternative route to tran-
+sient state dynamics via heteroclinic switching. [12, 13]
+In Fig. 2 the time evolution is illustrated for λ= 3.017,
+which corresponds to µ= 0.28, see Eq. (2), and ǫa=
+ǫb=ǫ= 0.01. The system remains in the quasistation-
+ary initial regime until the gain asurpasses a certain
+threshold. The initial quasistationary ﬁxpoint becomes
+therefore unstable via the same mechanism discussed an-
+alytically above, see Eq. (7), for the regime ǫa→0, com-
+pare Fig. 1. The output activity y(t) oscillates fast be-
+tween two transient ﬁxpoints of y=g(a[y−1/2] +b),
+having a high and a low value respectively. This spiking
+behavior of the neural activity is driven by spontaneous
+oscillations in the threshold −b(t)/a(t), shifting the in-
+tersection of g(a[y−1/2]+b) withyforth and back.3
+0 1000 2000 3000t-1012y(t), a(t) - 4, b(t) + 2a(t)-4
+y(t)
+b(t)+2
+FIG. 3: (color online) The time dependence of y(t) (red stars)
+b(t)+2 (solid line) and of a(t)−4 (dashed line) for the one-
+site problem with inhibitory self-coupling x→1/2−y,ǫa=
+ǫb=ǫ= 0.01 andµ= 0.28. A Hopf-bifurcation occurs for the
+outputy(t) when the initial quasistationary ﬁxpoint becomes
+unstable, giving place to a new ﬁxpoint of period two.
+Evaluating the local Lyapunov exponents we ﬁnd that
+thetrajectoryisstableagainstperturbationsforthetran-
+sient states close to one of the transient ﬁxpoints of
+y=g(a[y−1/2]+b) and sensitive to perturbations and
+external modulation during the fast transition periods,
+an instantiation of the general notion of transient state
+dynamics [10, 11].
+Inhibitory self-coupling. – So far we discussed, see (5)
+and Fig. 2, a neuron having its output y(t) coupled back
+excitatorily to its input via x→y−1/2. The dynam-
+ics changes qualitatively for an inhibitory self-coupling
+x→1/2−y, see Fig. 3. There is now only a single
+intersection of g(a[−y+1/2]+b) withy. This intersec-
+tion corresponds to a stable ﬁxpoint for small gains a. A
+Hopf-bifurcation [14] occurs when a(t) exceeds a certain
+threshold and a new ﬁxpoint of period two becomes sta-
+ble. The coordinates of this ﬁxpoint of period two slowly
+drift, compare Fig. 3, due to the residual changes in a(t)
+andb(t). Interestingly, the dynamics remains non-trivial,
+as a consequence of the continuous adaption, even in the
+case of inhibitory self-coupling.
+Self organized chaos. – We have studied numerically
+fully connected networks of i= 1,..,Npolyhomeostat-
+ically adapting neurons (4), coupled via
+xi(t) =/summationtext
+j/negationslash=iwijyj(t). (8)
+The synaptic strengths are wij=±1/√
+N−1, with in-
+hibition/excitation drawn randomly with equal proba-
+bility. The adaption rates are ǫa=ǫb= 0.01. We con-
+sider homogeneous networks where all neurons have the
+identical µfor the target output distributions (2), with
+µ= 0.15,0.28 andµ= 0.5.
+The activity patterns presented in the inset of Fig. 4
+are chaoticfor the µ= 0.28networkand laminarwith in-
+termittent bursting for the network with µ= 0.15. This
+behavior is typical for a wide range of network geome-
+tries, distributions of the synaptic weights and for all ini-
+tial conditions sampled. The respective Kullback-Leibler
+divergences Dλdecrease with time passing, as shown in50000 55000 60000
+t00.51y(t)49000 49500 5000000.51y(t)
+0 1 2t/1050123<Dλ(t)>N A
+B
+FIG. 4: (color online) Mean Kullback-Leibler divergence Dλ,
+forN= 500 networks, of the real and target output dis-
+tributions as a function of number of iterations t. The solid
+black, dashed-dottedredandthedashedbluelines correspo nd
+respectively to target ﬁring rates µ= 0.15,µ= 0.28, and
+µ= 0.5. Inset: Output activity of two randomly chosen neu-
+ronsfor targetaverageﬁringrates µ= 0.28(top)and µ= 0.15
+(bottom).
+Fig. 4, due to the ongoing adaption process (4). Dλbe-
+comes very small, though still ﬁnite, for long times in the
+self-organized chaotic regime ( µ= 0.28,0.5), remaining
+substantially larger in the intermittent bursting phase
+(µ= 0.15).
+We have evaluated the global Lyapunov exponent, [15]
+ﬁnding that two initial close orbits diverge until their
+distance in phase space corresponds, within the available
+phase space, to the distance of two randomly selected
+states, the tellmark sign of deterministic chaos. [14] The
+corresponding global Lyapunov exponent is about 5%
+per time-step for µ= 0.5 and initially increases with
+the decrease of µ, until the intermittent-bursting regime
+emerges, after which the global Lyapunov exponent de-
+clines with the decrease of µ.
+The system enters the chaotic regime, in close anal-
+ogy to the one-side problem discussed previously, when-
+ever the adaptive dynamics (4) has pushed the individ-
+ual gains ai(t), of a suﬃcient number of neurons, above
+their respective critical values. Hence, the chaotic state
+is self-organized. Chaotic dynamics is also observed in
+the non-adapting limit, with ǫa,ǫb→0, whenever the
+static values of aiare above the critical value, in agree-
+ment with the results of a large- Nmean ﬁeld analysis
+of an analogous continuous time Hopﬁeld network. [16]
+Subcritical static ailead on the other side to regular dy-
+namics controlled by point attractors.
+In Fig. 5 we present the distribution of the output ac-
+tivities for networks with target mean ﬁring rates µ=
+0.28 andµ= 0.5. Shown are in both cases the ﬁring rate
+distributions p(y) of the two neurons having respectively
+the largest and the smallest Kullback-Leibler divergence
+(3) with respect to the target exponential distributions
+(2). Also shown in Fig. 5 are the distributions of the
+network-averaged output activities.4
+0 0.5 100.010.020.030.04p(y)0 100.020.040.06A
+0 0.5 1y00.010.02p(y)0 100.020.040.06 B
+FIG. 5: (color online) Output distributions of the two neu-
+rons with highest (blue diamonds) and lowest (red circles)
+Kullback-Leibler divergence (3) compared to the mean out-
+put distribution (dashed green line) and the target exponen -
+tial output distribution (full black line). For a network wi th
+N= 500 neurons and a target output mean ﬁring rate (A)
+µ= 0.28 and (B) µ= 0.5 (identical for all neurons). Insets:
+For the same parameters the mean output distribution of the
+single self-coupled neuron, see Fig. 1.
+ThedatapresentedinFig.5shows,thatthepolyhome-
+ostatically self-organized state of the network results in
+ﬁring-rate distributions close to the target distribution.
+This result is quite remarkable. The polyhomeostatic
+adaption rules (4) are local, viz every neuron adapts its
+internal parameters aiandbiindependently on its own.
+Intermittency. – Interestingly, the neural activity pre-
+sented in the inset of Fig. 4 for µ= 0.15 shows inter-
+mittent or bursting behavior. In the quiet laminar peri-
+ods the neural activity y(t) is close to (but slightly be-
+low) the target mean of 0 .15, as one would expect for a
+homeostaticallyregulatedsystemandthelocalLyapunov
+exponent is negative. The target distribution of ﬁring
+rates (2) contains however also a small but ﬁnite weight
+for large values for the output y(t), which the system
+achieves through intermittent bursts of activity. In the
+laminar/bursting periods the gain a(t) is below/above
+threshold, acting such as a control parameter [18].
+Both the intermittent and the chaotic regime are
+chaotic in terms of the global Lyapunov being positive in
+both regimes. A qualitative diﬀerence can be observed
+when considering the subspace of activities ( y1,...,y N).
+Evaluating the global Lyapunov exponent in this sub-
+space, viz the relative time evolution (∆ y1,...,∆yN) of
+diﬀerencesinactivities, weﬁndthisrestrictedglobalLya-
+punov to be negative in the intermittent and positive in
+the chaotic regime. Details on the evolution from inter-mittency to chaos as a function of µand system sizes will
+be given elsewhere.
+Conclusions. –It is well known [17], that individual and
+networks of spiking neurons may show bursting behav-
+ior. Here we showed, that networks of rate encoding
+neurons are intermittently bursting for low average ﬁr-
+ing rates, when polyhomeostatically adapting, entering a
+fully chaotic regime for larger average activity level. Au-
+tonomous and polyhomeostatic self-control of dynamical
+systems may hence lead quite in general to non-trivial
+dynamical states and novel phenomena.
+Polyhomeostaticoptimizationis ofrelevanceina range
+of ﬁelds. Here we have discussed it in the framework of
+dynamical system theory. Alternative examples are re-
+source allocation problems, for which a given limited re-
+source, like time, needs to be allocated to a set of uses,
+with the target distribution being the percentages of re-
+source allocated to the respective uses. These ramiﬁca-
+tions of polyhomeostatic optimization will be discussed
+in further studies.
+References
+[1] G.G. Turrigiano, Trends Neurosci 22, 221 (1999).
+[2] G.W. Davis, Annual review of neuroscience 29, 307
+(2006).
+[3] E. Marder, and J.M. Goaillard, Nature Reviews Neuro-
+science7, 563 (2006).
+[4] R. Der, U. Steinmetz, and F. Pasemann, in Computa-
+tional Intelligence for Modelling, Control, and Automa-
+tion, Concurrent Systems Engineering 55, 43 (1999).
+[5] M. Stemmler, C. Koch. Nature Neuroscience 2, 521
+(1999).
+[6] J. Triesch, in Proceedings of ICANN 2005 , W. Duch et
+al. (Eds.), LNCS 3696, 65 (2005).
+[7] T.M. Cover, J.A. Thomas, Elements of information the-
+ory, Wiley 2006.
+[8] H.S. Seung, D.D. Lee, B.Y. Reis, and D.W. Tank, J.
+Comp. Neuroscience 9, 171 (2000).
+[9] J.H. Steil, Neural Networks 20, 353 (2007).
+[10] C. Gros, New Journal of Physics 9, 109 (2007).
+[11] C. Gros, Cognitive Computation 1, 77 (2009).
+[12] M. Rabinovich et al, Phys. Rev. Lett. 87, 68102 (2001).
+[13] C. Kirst, andM.Timme, Phys.Rev.E 78, 065201(2008).
+[14] C. Gros, Complex and Adaptive Dynamical Systems, A
+Primer, Springer (2008).
+[15] R. Ding, and J. Li, Phys. Lett. A 364, 396 (2007).
+[16] H. Sompolinsky, A. Crisanti, and H.H. Sommers, Phys.
+Rev. Lett. 61259 (1988).
+[17] M.A. Arbib, The handbook of brain theory and neural
+networks , MIT Press (2002).
+[18] N. Platt, E.A. Spiegel, and C. Tresser, Phys. Rev. Lett.
+70, 279 (1993).

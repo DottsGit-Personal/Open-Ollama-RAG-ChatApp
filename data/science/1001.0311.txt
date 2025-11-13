@@ -1,0 +1,274 @@
+arXiv:1001.0311v2  [quant-ph]  13 Mar 2010Exact solutions of a particle in a box with a delta function
+potential: The factorization method
+Pouria Pedram∗
+Plasma Physics Research Center, Science and Research Campu s,
+Islamic Azad University, P.O. Box 14665–678, Tehran, Iran
+M. Vahabi
+Department of Physics, Shahid Beheshti University, G. C., E vin, Tehran 19839, Iran
+Abstract
+We use the factorization method to ﬁnd the exact eigenvalues and eigenfunctions for a particle
+in a box with the delta function potential V(x) =λδ(x−x0). We show that the presence of the
+potential results in the discontinuity of the correspondin g ladder operators. The presence of the
+delta function potential allows us to obtain the full spectr um in the ﬁrst step of the factorization
+procedure even in the weak coupling limit λ→0.
+1I. INTRODUCTION
+The time-independent form of Schr¨ odinger’s equation in the prese nce of a potential V
+can be written as1
+−¯h2
+2m∇2ψ+Vψ=Eψ, (1)
+whereψis the wave function, mis the mass of the particle, and Eis the eigenenergy.
+Equation (1) can be solved exactly only for a few potentials. A partic le in a box and a
+particle in a delta function potential are two well-known and instruct ive examples.1The
+former can be used to describe quantum dots and quantum wells at lo w temperatures,2,3
+and the latter can be used as a model for atoms and molecules.4
+The solution for a particle in a box with a delta function potential has b een investigated
+using a perturbative expansion in the strength of the delta functio n potential λ.5Exact
+solutions have been obtained for the weak ( λ→0) and the strong (1 /λ→0) coupling
+limits.6
+In this paper we discuss the solution for a particle in a box with a delta f unction potential
+using the factorization method and show that the presence of the delta function simpliﬁes
+the factorization procedure. In this way we ﬁnd the full spectrum of the Hamiltonian in
+the ﬁrst step of the factorization method. We also show that this r esult applies in the weak
+coupling limit λ→0. Note that if we put λ= 0 from the beginning, we need to continue
+the factorization procedure to ﬁnd each eigenvalue in each step.
+II. PARTICLE IN A BOX WITH A DELTA FUNCTION POTENTIAL
+Consider a particle in a one-dimensional box of size awith the delta function potential
+V(x) =λδ(x−x0) =λδ(x−pa), where 0<p<1. In this case Eq. (1) takes the form
+−¯h2
+2md2ψn(x)
+dx2+λδ(x−pa)ψn(x) =Enψn(x), (2)
+whereψn(x) andEnare the corresponding eigenfunctions and eigenvalues, respectiv ely.
+Because of the boundary conditions, ψn(x) = 0 for x≤0 orx≥a, the form of the
+eigenfunctions inside the box is
+ψn(x) =
+
+Asin(knx) (0 ≤x≤pa)
+Bsin[kn(x−a)] (pa≤x≤a),(3)
+20.5 1 1.5 2 2.5 3x
+-1.5-1-0.50.511.5Ψ/LParen1x/RParen1
+Ψ1
+Ψ2Ψ3
+FIG. 1: First three stationary states ψn(x) for 2mλ/¯h2= 8,a= 3,A= 1, andp= 1/2.
+wherekn=√2mEn/¯h. The continuity condition of the wave function at x=pagives
+A/B= sin[(p−1)kna]/sin(pkna). Because the delta function is inﬁnite at x=pa, the
+ﬁrst derivative of the wave function is not continuous and the relat ion between the left and
+right derivatives of the wave function can be obtained by integratin g Eq. (2) over the small
+interval (x0−ǫ,x0+ǫ)
+dψn(x)
+dx|pa+ǫ−dψn(x)
+dx|pa−ǫ=2m
+¯h2/integraldisplaypa+ǫ
+pa−ǫV(x)ψn(x)dx (4a)
+=2mλ
+¯h2ψn(pa). (4b)
+We substitute the eigenfunctions in Eq. (3) in Eq. (4b) and obtain th e quantization
+condition5,6
+knsin(kna) =2mλ
+¯h2sin(pkna)sin[(p−1)kna]. (5)
+The solutions to Eq. (5) give the energy spectrum of the Hamiltonian ,En= ¯h2k2
+n/2m.
+Figure 1 shows the ﬁrst three stationary states for 2 mλ/¯h2= 8,a= 3,A= 1, andp= 1/2.
+III. THE FACTORIZATION METHOD
+To calculate the eigenvalues and eigenfunctions of a Hamiltonian oper atorH, we can
+use a general operational procedure called the factorization met hod. In this method the
+Hamiltonian is written as the product of two ladder operators plus a c onstant,H=a†a+E.
+These operators are used to obtain the eigenfunctions of the Ham iltonian. In contrast to
+the simple harmonic oscillator, one ladder operator is usually not suﬃc ient to form all the
+Hamiltonian’s eigenfunctions and another ladder operator is needed for each eigenfunction.
+3ThismethodwasﬁrstintroducedbySchr¨ odinger7–9andDirac10andwasfurtherdeveloped
+by Infeld and Hull11and Green.12The spirit of the factorization method is to write the
+second-order diﬀerential operator Has the product of two ﬁrst-order diﬀerential operators
+aanda†, plus a real constant E. The form of these operators depends on the form of the
+potentialV(x) and the factorization energy.
+The procedure for ﬁnding the ladder operators and the eigenfunc tions is as follows.13We
+ﬁnd operators a1,a2,a3,...and real constants E1,E2,E3,...from the recursive relations13
+a†
+1a1+E1=H, (6a)
+a†
+2a2+E2=a1a†
+1+E1, (6b)
+a†
+3a3+E3=a2a†
+2+E2,... . (6c)
+More generally
+a†
+n+1an+1+En+1=ana†
+n+En,(n= 1,2,...). (7)
+Also assume that there exists a null eigenfunction (root function) |ξn/an}b∇acket∇i}htwith zero eigenvalue
+for eachan, namely,
+an|ξn/an}b∇acket∇i}ht= 0. (8)
+Hence,Enis thenth eigenvalue of the Hamiltonian with the corresponding eigenfunctio n13
+(up to a normalization coeﬃcient)
+|En/an}b∇acket∇i}ht=a†
+1a†
+2...a†
+n−1|ξn/an}b∇acket∇i}ht. (9)
+Figure 2 shows a schematic diagram describing the relation between r oot functions, the
+stationary states, and the ladder operators. As can be seen fro m Eq. (6),a†
+1a1is equal toH
+except for a constant. Thus, a1must have a linear momentum term to be consistent with
+the kinetic energy part of the Hamiltonian. According to Eq. (7), ea ch of the annihilation
+operatorsanshould also have a a linear momentum term. Thus, ancan be written as
+an=1√
+2m[P+ifn(x)], (10)
+wherePis the momentum operator and fn(x) is a real function of x. Although these
+operators are not hermitian ( a†
+n=1√
+2m(P−ifn(x))/ne}ationslash=an), their product is hermitian
+a†
+nan=1
+2mP2+1
+2mf2
+n+¯h
+2mdfn
+dx. (11)
+4/1/2/1/3/1/4
+/5/2
+/5/3
+/5/4/1/6
+/5/6/7/8/7/8/7/8/7
+/7/8/7/8/7/8/7
+/7/8/7/8/7/8/7
+/7/8/7/8/7/8/7/7/8/7/8/7/8/7/9/10
+/6
+/9/10
+/4/11/6
+/9/10
+/4/9/10
+/6/9/10
+/6
+/9/10
+/2
+/9/2/9/6
+/9/3
+/9/4
+FIG. 2: A schematic diagram describing the relation between the root functions ξn, the stationary
+states Ψ n, and the ladder operators an,a†
+n.
+We are now ready to ﬁnd the ladder operators and eigenenergies fo r our problem. First,
+we consider Eq. (6) for n= 1
+a†
+1a1+E1=H. (12)
+From the form of the Hamiltonian (2) and Eq. (11) we can rewrite Eq. (12) as
+P2
+2m+1
+2mf2
+1+¯h
+2mdf1
+dx+E1=P2
+2m+λδ(x−pa), (13)
+or equivalently
+1
+2mf2
+1+¯h
+2mdf1
+dx+E1=λδ(x−pa). (14)
+Note that in contrast to Eq. (2), Eq. (14) is a nonlinear ﬁrst-orde r diﬀerential equation.
+To solve Eq. (14), we consider the left-hand and right-hand sides o f the delta function
+potential separately. For these regions, Eq. (14) reduces to
+1
+2mf2
+1+¯h
+2mdf1
+dx+E1= 0 (x/ne}ationslash=pa), (15)
+which has the solution
+f1(x) =/radicalbig
+2mE1cot[√2mE1
+¯h(x−b)], (16)
+5wherebis a constant of integration. We require that f1(x) be ﬁnite in the range 0 <x<a,
+where it is the solution for our problem. Because the singularities of t he cotangent function
+areπradian apart, we choose the points x= 0 andx=aas the singularity points of f1(x).
+At these points thepotential andhence the Hamiltonianareinﬁnite a ndf1(x) canbeinﬁnite
+at the boundaries. Hence, we have
+f1(x) =
+
+√2mE1cot[√2mE1
+¯hx],(x<pa)
+√2mE1cot[√2mE1
+¯h(x−b)],(x>pa),(17)
+where (√2mE1/¯h)(a−b) =π. To ﬁx the value of E1, we need to use the discontinuity
+relation of the ladder operators, which can be obtained by integrat ing Eq. (14) over a small
+interval (pa−ǫ,pa+ǫ)
+f1(pa+ǫ)−f1(pa−ǫ) =2mλ
+¯h. (18)
+Equation (18) shows that the presence of the delta function resu lts in the discontinuity of
+f1(x) atx=pa. We use Eq. (17) and b=a−π¯h√2mE1, to rewrite Eq. (18) as
+/radicalbig
+2mE1/braceleftbigg
+cot/bracketleftBig√2mE1
+¯h(pa+π¯h√2mE1−a)/bracketrightBig
+−cot/bracketleftBig√2mE1
+¯h(pa)/bracketrightBig/bracerightbigg
+=2mλ
+¯h.(19)
+Because cot( π+α) = cotα, Eq. (19) can be written in the form
+k1{cot[(p−1)k1a]−cot(pk1a)}=2mλ
+¯h2, (20)
+or
+k1sin(k1a) =2mλ
+¯h2sin(pk1a)sin[(p−1)k1a], (21)
+wherek1=√2mE1/¯h. Equation(20)issimilartoEq.(5). Notethat, althoughwecalculate d
+the ground state energy of the Hamiltonian in the ﬁrst step of the f actorization method, we
+found the full spectrum. This conclusion applies to the weak coupling limitλ→0. In this
+limit sin(k1a) = 0 from Eq. (21), which gives the full spectrum of a particle in a box with
+k1=nπ/a. This result has an interesting consequence. If we use the factor ization method
+to calculate the energy levels of a particle in a box with λ= 0, we cannot ﬁnd all of them
+in the ﬁrst step of the procedure. In fact, we should use the recu rsive relations to ﬁnd each
+eigenvalue in each step.13Thus, contrary to the Schr¨ odinger equation, the presence of t he
+delta function in the factorization method simpliﬁes the problem and r epeated application
+of the recursion relations is not necessary. We need only to replace the index 1 with nin
+Eqs. (17) and (21).
+6To obtain the root functions, we rewrite Eq. (8) as
+/parenleftbigg¯h
+id
+dx+i¯hkncot(knx)/parenrightbigg
+ξn(x) = 0,(x<pa), (22a)
+/parenleftbigg¯h
+id
+dx+i¯hkncot[kn(x−b)]/parenrightbigg
+ξn(x) = 0,(x>pa), (22b)
+whereξn(x)≡ /an}b∇acketle{tx|ξn/an}b∇acket∇i}ht. It can be easily checked that the following is a solution to Eq. (22)
+ξn(x) =
+
+Asin(knx), (x<pa),
+−Bsin[kn(x−b)],(x>pa).(23)
+Because in the ﬁrst step of the factorization procedure the root functionξ1(x) is equal
+to the ﬁrst eigenfunction ψ1(x) (see Eq. (9) and Fig. 2) and we have replaced the index
+1 byn, all the root functions are equal to the eigenfunctions of the Ham iltonian, that is,
+ξn(x) =ψn(x). This result is similar to Eq. (3) for x<pa. Moreover, because knb=kna−π,
+we have sin[ kn(x−b)] = sin[kn(x−a)+π] =−sin[kn(x−a)]. So, these eigenfunctions are
+equivalent to the solutions in Eq. (3).
+IV. SUGGESTED PROBLEMS
+Problem 1. Usetherecursive relations(6)toshowthat |En/an}b∇acket∇i}htinEq.(9)istheeigenfunction
+of the Hamiltonian with Enas its eigenvalue.
+Problem 2. Show that the eigenvalues E1,E2,E3,...form a monotonic increasing se-
+quence, that is, E1≤E2≤E3≤....
+Problem 3. Apply the factorization method to a particle in a box with no delta func tion
+potential. In the ﬁrst step show that k1=π/a. Continue the factorization procedure to
+ﬁnd all the eigenenergies and eigenfunctions. Hint: consider an=1√
+2m[P+icncot(dnx)],
+wherecnanddnare real constants.
+∗Electronic address: pouria.pedram@gmail.com
+1D. J. Griﬃths, Introduction to Quantum Mechanics (Prentice Hall, Upper Saddle River, NJ,
+2004).
+2B. I. Shklovskii and A. L. Efros, Electronic Properties of Doped Semiconductors (Springer, New
+York, 1984), Chap. 1.
+73P. Y. Yu and M. Cardona, Fundamentals of Semiconductors (Springer, New York, 2005), Chap.
+9.
+4I. R. Lapidus, “Relativistic one-dimensional hydrogen ato m,” Am. J. Phys. 51, 1036–1038
+(1983).
+5N. Bera, K. Bhattacharya, and J. K. Bhattacharjee, “Perturb ative and non-perturbative studies
+with the delta function potential,” Am. J. Phys. 76, 250–257 (2008).
+6Y. N. Joglekara, “Particle in a box with a δ-function potential: Strong and weak coupling
+limits,” Am. J. Phys. 77, 734–736 (2009).
+7E. Schr¨ odinger, “A method of determining quantum-mechani cal eigenvalues and eigenfunc-
+tions,” Proc. Roy. Irish Acad. Sect. A 46, 9–16 (1941).
+8E. Schr¨ odinger, “Further studies on solving eigenvalue pr oblems by factorization,” Proc. Roy.
+Irish Acad. Sect. A 46, 183–206 (1941).
+9E. Schr¨ odinger, “The factorization of the hypergeometric equation,” Proc. Roy. Irish Acad.
+Sect. A47, 53–54 (1941) or arXiv:physics/9910003.
+10P. M. Dirac, The Principles of Quantum Mechanics (Oxford University Press, Oxford, 1958).
+11I. Infeld and T. E. Hull, “The factorization method,” Rev. Mo d. Phys. 23, 21–68 (1951).
+12H. S. Green, Matrix Methods in Quantum Mechanics (Barnes & Noble, New York, 1968).
+13H. C. Ohanian, Principles of Quantum Mechanics (Prentice Hall, Englewood Cliﬀs, NJ, 1990).
+8

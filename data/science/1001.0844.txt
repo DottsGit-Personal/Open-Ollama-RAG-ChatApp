@@ -1,0 +1,464 @@
+arXiv:1001.0844v1  [quant-ph]  6 Jan 2010Dynamics of entanglement in the
+transverse Ising model
+Zhe Chang∗and Ning Wu†
+Institute of High Energy Physics
+Chinese Academy of Sciences
+P. O. Box 918(4), 100049 Beijing, China
+Abstract
+We study the evolution of nearest-neighbor entanglement in the one dimensional
+Ising model with an external transverse ﬁeld. The system is i nitialized as the so
+called “thermal ground state” of the pure Ising model. We ana lyze properties of
+generation of entanglement fordiﬀerentregions ofexternal transverseﬁelds. Weﬁnd
+that the derivation of the time at which the entanglement rea ches its ﬁrst maximum
+with respect to the reciprocal transverse ﬁeld has a minimum at the critical point.
+This is a new indicator of quantum phase transition.
+PACS numbers: 03.67.Bg, 75.10.Pq
+1 Introduction
+Entanglement has been recognized as an important resource for q uantum information and
+computation [1], and has been the subject of intense research ove r the past few years [2].
+Recently, there has been extensive analysis of entanglement in qua ntum spin models [3].
+Various models have been considered for entanglement generation , and their static [4, 5]
+as well as dynamical properties [6, 7, 8] have been investigated. Th e reason for this is
+that, many of these models can be realized in cold atomic gas in an optic al lattice [9, 10].
+A special one among these models is the anisotropic XY model. It can b e solved
+exactly by means of the Jordan-Wigner transformation [11]. A lot of works have been
+done on the dynamics of entanglement in this model. In Ref.[6], the time evolution of
+initial Bell states was studied. Ref.[7] investigated the dynamics of e ntanglement of a
+system prepared in a thermal equilibrium state, and the system sta rts evolving after the
+transverse ﬁeld was turned oﬀ.
+∗e-mail:changz@mail.ihep.ac.cn
+†e-mail:wun@mail.ihep.ac.cn
+1In this paper, we analyze a spin-1/2 transverse Ising chain with a pa rticular separable
+initial state, the so-called “thermal ground state” [4] for the cas e of zero ﬁeld. We study
+the generation of nearest-neighbor entanglement as a function o f the external transverse
+ﬁeld, and ﬁnd the time at which the entanglement reaches its ﬁrst ma ximum. It turns
+out that the derivation of this time with respect to the reciprocal t ransverse ﬁeld has a
+minimum at the critical point. This is a new indicator of quantum phase t ransition.
+2 Static correlations
+The anisotropic XY model is described by the Hamiltonian
+H=−λ
+4N/summationdisplay
+i=1[(1+γ)σx
+iσx
+i+1+(1−γ)σy
+iσy
+i+1]−1
+2N/summationdisplay
+i=1σz
+i, (1)
+whereσα
+iare the Pauli matrix of the spin at site iand we assume periodic boundary
+conditions. We have neglected a common factor and absorbed the e xternal ﬁeld into the
+reciprocal ﬁeld λ. The anisotropy parameter γconnects the quantum Ising model for
+γ= 1. In the range 0 < γ≤1, the model belongs to the Ising universality class and
+undergoes a quantum phase transition at the critical point λc= 1. We will consider the
+case ofγ= 1 in this paper, namely the transverse Ising model
+H=−1
+2N/summationdisplay
+i=1(λσx
+iσx
+i+1+σz
+i). (2)
+The Hamiltonian deﬁned in Eq.(2) can be mapped into a one-dimensional spinless
+fermion system with creation and annihilation operators c†
+iandcivia the Jordan-Wigner
+transformationσx
+i−iσy
+i
+2=/producttext
+j<i(1−2c†
+jcj)ci,σx
+i+iσy
+i
+2=c†
+i/producttext
+j<i(1−2c†
+jcj),σz
+i
+2=c†
+ici−1
+2. By
+making use of the transformation
+ηk=1√
+N/summationdisplay
+leikl(αkcl+iβkc†
+l) (3)
+further, with αk=Λk−(1+λcosk)√
+2[Λ2
+k−(1+λcosk)Λk], βk=λsink√
+2[Λ2
+k−(1+λcosk)Λk], we get the fermionic
+Hamiltonian ﬁnally
+H=/summationdisplay
+kΛk/parenleftbigg
+η†
+kηk−1
+2/parenrightbigg
+, (4)
+where the spectrum is Λ k=√
+1+λ2+2λcosk.
+The evolution of the system is governed by Eq.(2). In the Heisenber g picture, the time
+evolution of the spinless fermion operator ci(t) is [6]
+ci(t) =1
+N/summationdisplay
+k,l[cosk(l−i)A(k,t)cl+sink(l−i)B(k,t)c†
+l], (5)
+2whereA(k,t) =eiΛkt−2iβ2
+ksinΛkt,B(k,t) =−2iαkβksinΛkt.
+The dynamics of the system also depends on the initial state. We cho ose the “thermal
+ground state” ρ0=1
+2(|N+/an}bracketri}ht/an}bracketle{tN+|+|N−/an}bracketri}ht/an}bracketle{tN−|) of the pure Ising model (no transverse ﬁeld
+is applied) as the initial state. Here |N+/an}bracketri}ht=|→/an}bracketri}ht1...|→/an}bracketri}htN, and|N−/an}bracketri}ht=|←/an}bracketri}ht1...|←/an}bracketri}htN
+are the two degenerate ground states of the Ising model with all s pins pointing to the
+positive (negative) xdirection. Note that |N+/an}bracketri}htand|N−/an}bracketri}htare the ground states of the
+Hamiltonian (2) with λ→∞. When λis ﬁnite, they are even not eigenstates of the
+Hamiltonian. Thus, the evolution from this initial state must be nontr ivial for ﬁnite λ.
+Physically, this can be viewed as an instantaneous, i.e., idealized sudde n quench [8] in the
+reciprocal ﬁeld λ1→λ2withλ1→∞andλ2=λ.
+Due to the translational symmetry, we need only to consider avera ges of the form
+/an}bracketle{tc1.../an}bracketri}ht0. Namely, we choose site-1 as “the ﬁrst site”, where /an}bracketle{t.../an}bracketri}ht0denote the average over
+the initial state ρ0. We rewrite|N±/an}bracketri}htin the fermionic representation,
+|N±/an}bracketri}ht=/parenleftbigg1√
+2/parenrightbiggN
+(1±c†
+1)(1±c†
+2)...(1±c†
+N)|01,02,...,0N/an}bracketri}ht, (6)
+where|01,02,...,0N/an}bracketri}htdenotes the vacuum of the fermions, or the state for all spins dow n.
+Here we have to pay attention to the order of operators in this equ ation. We write (1 ±c†
+1)
+before operators on all other sites in order to be compatible with th e correlation/an}bracketle{tc1.../an}bracketri}ht0.
+In other words, if another site iis chosen as “the ﬁrst site”, we should write the state
+as|N±/an}bracketri}ht= (1√
+2)N(1±c†
+i)(1±c†
+i+1)...(1±c†
+i−1)|0i,0i+1,...,0i−1/an}bracketri}htto calculate averages like
+/an}bracketle{tci.../an}bracketri}ht0, due to the periodic boundary conditions.
+The only single-site averages are /an}bracketle{tc1/an}bracketri}ht0and/an}bracketle{tc†
+1c1/an}bracketri}ht0(or their complex conjugate). It is
+easy to see that/an}bracketle{tN+|c1|N+/an}bracketri}ht=1
+2=−/an}bracketle{tN−|c1|N−/an}bracketri}ht, so/an}bracketle{tc1/an}bracketri}ht0= 0. As to/an}bracketle{tc†
+1c1/an}bracketri}ht0, we have
+/an}bracketle{tN+|c†
+1c1|N+/an}bracketri}ht=1
+2/an}bracketle{t01|(1+c1)c†
+1c1(1+c†
+1)|01/an}bracketri}ht=1
+2. Similarly,/an}bracketle{tN−|c†
+1c1|N−/an}bracketri}ht=1
+2. So that,
+/an}bracketle{tc†
+1c1/an}bracketri}ht0=1
+2. We can also see this point from 0 = /an}bracketle{tσz
+1
+2/an}bracketri}ht0=/an}bracketle{tc†
+1c1−1
+2/an}bracketri}ht0.
+Next we consider two-point correlations of the form /an}bracketle{tc1cl/an}bracketri}ht0, l≥2. Forl= 2, we have
+/an}bracketle{tN+|c1c2|N+/an}bracketri}ht=/parenleftbigg1
+2/parenrightbigg2
+/an}bracketle{t01,02|(1+c2)(1+c1)c1c2(1+c†
+1)(1+c†
+2)|01,02/an}bracketri}ht
+=/parenleftbigg1
+2/parenrightbigg2
+/an}bracketle{t01|(1+c1)c1(1−c†
+1)|01/an}bracketri}ht·/an}bracketle{t02|(1+c2)c2(1+c†
+2)|02/an}bracketri}ht
+=−1
+4.
+Similarly/an}bracketle{tN−|c1c2|N−/an}bracketri}ht=−1
+4. So that/an}bracketle{tc1c2/an}bracketri}ht0=−1
+4. We can show that /an}bracketle{tc†
+1c2/an}bracketri}ht0=1
+4in
+the same manner. For l >2, whenclorc†
+lcrosses (1±c†
+2) to its right side, this will make
+it be (1∓c†
+2). But/an}bracketle{t02|(1±c2)(1∓c†
+2)|02/an}bracketri}ht= 0. So we have obtained all the two-point
+correlations
+/an}bracketle{tc†
+icj/an}bracketri}ht0=1
+4(δi+1,j+δi−1,j+2δi,j),
+/an}bracketle{tcicj/an}bracketri}ht0=1
+4(−δi+1,j+δi−1,j),
+/an}bracketle{tc†
+ic†
+j/an}bracketri}ht0=1
+4(δi+1,j−δi−1,j). (7)
+3By the same means one can check that the averages involving three fermion operators
+all vanish.
+3 Reduced density matrix and evolution of concur-
+rence
+Making use of the periodic boundary conditions, we can focus on the reduced density
+matrixρ12(t) at time tof the ﬁrst and second spins. In the {|↑↑/an}bracketri}ht,|↑↓/an}bracketri}ht,|↓↑/an}bracketri}ht,|↓↓/an}bracketri}ht}basis,
+the matrix elements reads,
+ρ12
+11(t) =/an}bracketle{t↑↑|ρ12(t)|↑↑/an}bracketri}ht
+=/an}bracketle{t↑↑|ρ12(t)S+
+1S−
+1S+
+2S−
+2|↑↑/an}bracketri}ht+/an}bracketle{t↑↓|ρ12(t)S+
+1S−
+1S+
+2S−
+2|↑↓/an}bracketri}ht
++/an}bracketle{t↓↑|ρ12(t)S+
+1S−
+1S+
+2S−
+2|↓↑/an}bracketri}ht+/an}bracketle{t↓↓|ρ12(t)S+
+1S−
+1S+
+2S−
+2|↓↓/an}bracketri}ht
+=tr12(ρ12(t)S+
+1S−
+1S+
+2S−
+2)
+=tr(ρ(t)S+
+1S−
+1S+
+2S−
+2)
+=/an}bracketle{tc†
+1c1c†
+2c2/an}bracketri}htt.
+Other matrix elements can be obtained similarly. Thus, we have
+ρ12(t) =
+/an}bracketle{tc†
+1c1c†
+2c2/an}bracketri}htt−/an}bracketle{tc†
+1c1c2/an}bracketri}htt/an}bracketle{tc†
+2c2c1/an}bracketri}htt/an}bracketle{tc2c1/an}bracketri}htt
+−/an}bracketle{tc†
+2c†
+1c1/an}bracketri}htt/an}bracketle{tc†
+1c1c2c†
+2/an}bracketri}htt−/an}bracketle{tc1c†
+2/an}bracketri}htt/an}bracketle{tc1c2c†
+2/an}bracketri}htt
+/an}bracketle{tc†
+1c†
+2c2/an}bracketri}htt−/an}bracketle{tc2c†
+1/an}bracketri}htt/an}bracketle{tc1c†
+1c†
+2c2/an}bracketri}htt/an}bracketle{tc1c†
+1c2/an}bracketri}htt
+/an}bracketle{tc†
+1c†
+2/an}bracketri}htt/an}bracketle{tc2c†
+2c†
+1/an}bracketri}htt/an}bracketle{tc†
+2c1c†
+1/an}bracketri}htt/an}bracketle{tc1c†
+1c2c†
+2/an}bracketri}htt
+, (8)
+All the elements can be equally evaluated in the Heisenberg picture, e .g.,ρ12
+11(t) =
+/an}bracketle{tc†
+1c1c†
+2c2/an}bracketri}htt=/an}bracketle{tc†
+1(t)c1(t)c†
+2(t)c2(t)/an}bracketri}ht0. We have mentioned that all the static averages in-
+volving three fermion operators equal zero. From Eq.(5), the fer mion operators in the
+Heisenberg picture are merely some linear superpositions of the sam e set of operators in
+the Schrodinger picture. So all matrix elements involving three oper ators in Eq.(8) also
+vanish. Using Wick’s theorem, one gets all non-vanishing elements of ρ12(t) as following
+ρ12
+11(t) =/an}bracketle{tc†
+1(t)c1(t)/an}bracketri}ht0/an}bracketle{tc†
+2(t)c2(t)/an}bracketri}ht0−/an}bracketle{tc†
+1(t)c†
+2(t)/an}bracketri}ht0/an}bracketle{tc1(t)c2(t)/an}bracketri}ht0−/an}bracketle{tc†
+1(t)c2(t)/an}bracketri}ht/an}bracketle{tc†
+2(t)c1(t)/an}bracketri}ht0,
+ρ12
+22(t) =ρ12
+33(t) =/an}bracketle{tc†
+1(t)c1(t)/an}bracketri}ht0−ρ12
+11(t),
+ρ12
+44(t) = 1−ρ12
+11(t)−2ρ12
+22(t),
+ρ12
+14(t) =ρ12∗
+41(t) =/an}bracketle{tc2(t)c1(t)/an}bracketri}ht0,
+ρ12
+23(t) =ρ12∗
+32(t) =−/an}bracketle{tc1(t)c†
+2(t)/an}bracketri}ht0. (9)
+4We see that if we can calculate /an}bracketle{tc†
+1(t)c1(t)/an}bracketri}ht0,/an}bracketle{tc†
+1(t)c2(t)/an}bracketri}ht0and/an}bracketle{tc1(t)c2(t)/an}bracketri}ht0, then the re-
+duced density matrix is totally determined.
+Using Eq.(5) and (7), we ﬁnd, in the thermodynamic limit, that
+/an}bracketle{tc†
+1(t)c1(t)/an}bracketri}ht=1
+8π/integraldisplayπ
+−πdksink(A∗(k)−A(k))(B(k)−B∗(k))+1
+4π/integraldisplayπ
+−πdk(|A(k)|2+|B(k)|2)
++1
+4π/integraldisplayπ
+−πdkcosk(|A(k)|2−|B(k)|2)
+=1
+π/integraldisplayπ
+0dkλsin2ksin2Λkt
+Λ2
+k+1
+2,
+/an}bracketle{tc†
+1(t)c2(t)/an}bracketri}ht=1
+8π/integraldisplayπ
+−πdk(1+cos2 k)(|A(k)|2−|B(k)|2)+1
+4π/integraldisplayπ
+−πdkcosk(|A(k)|2+|B(k)|2)
++1
+8π/integraldisplayπ
+−πdksin2k[A(k)−A∗(k)]B∗(k)
+=1
+π/integraldisplayπ
+0dkλcosksin2ksin2Λkt
+Λ2
+k+1
+4,
+/an}bracketle{tc1(t)c2(t)/an}bracketri}ht=1
+4π/integraldisplayπ
+−πdksin2kA(k)B(k)+1
+8π/integraldisplayπ
+−πdk[B(k)2−A(k)2](1−cos2k)
+=1
+2π/integraldisplayπ
+0dksin2k[isin2Λ kt
+Λk−cos2Λ kt−2λsin2Λkt
+Λ2
+k(cosk+λ)] (10)
+Note that/an}bracketle{tc†
+1(t)c2(t)/an}bracketri}htis indeed real, so that we have ρ12
+23(t) =ρ12
+32(t).
+For bipartite entanglement, a commonly used measure for arbitrar y states of two
+qubits is the so-called concurrence [12]. The concurrence is deﬁned as
+C(t) = max{0,2λmax(t)−tr/radicalbig
+ρ12(t)˜ρ12(t)}, (11)
+˜ρ12(t) =σy⊗σyρ12∗(t)σy⊗σy, (12)
+whereλmaxis the largest eigenvalue of the matrix/radicalbig
+ρ12(t)˜ρ12(t).
+In the present case,
+ρ12(t) =
+ρ12
+11(t) 0 0 ρ12
+14(t)
+0ρ12
+22(t)ρ12
+23(t) 0
+0ρ12
+23(t)ρ12
+22(t) 0
+ρ12∗
+14(t) 0 0 ρ12
+44(t)
+, (13)
+5Figure 1: The evolution of bipartite entanglement for the initial state being th e “thermal ground state”
+of the Ising model.
+the four eigenvalues of/radicalbig
+ρ12(t)˜ρ12(t) are of the form
+λ1(t) =||ρ12
+14(t)|+/radicalig
+ρ12
+11(t)ρ12
+44(t)|,
+λ2(t) =||ρ12
+14(t)|−/radicalig
+ρ12
+11(t)ρ12
+44(t)|,
+λ3(t) =|ρ12
+22(t)+ρ12
+23(t)|,
+λ4(t) =|ρ12
+22(t)−ρ12
+23(t)|. (14)
+In Fig.1, we give a plot of the evolution of entanglement as a function o f timetand
+parameter λ. At the beginning, the reduced density matrix is
+ρ12(0) =1
+4
+1 0 0 1
+0 1 1 0
+0 1 1 0
+1 0 0 1
+. (15)
+So that the concurrence equals zero. At any later ﬁxed instant, t he entanglement as a
+function of λmay have diﬀerent behaviors in diﬀerent time intervals. For times bef ore
+6Figure 2: (a): The concurrence at diﬀerent (b): The concurrence at diﬀer ent times
+timest= 0.5,1.0,1.5,2.0 as a function of λ, t= 4.0,5.0,6.0,7.0 as a function of λ,
+in the region of t <2.5, in the region of t >3.0.
+aboutt= 2.5 (Fig.2 (a)), the entanglement maintains its magnitude for large λwith
+slow oscillations. As λincreases, the height of each peak deceases gradually, and ﬁnally
+vanishes as λ→∞. This is easy to understand. For λ→∞, the Hamiltonian reduces to
+the pure Ising model, and the initial state is just the eigenstate of t he Ising model. Thus,
+only a phase factor contributes to the times evolving state, which d oes not change the
+entanglement. Physically, this corresponds to λ1=λ2=∞, hence no quench takes place.
+For the narrow band 2 .47< t <2.69, there is no entanglement at all for all λ. For times
+greater than around t= 3.0 (Fig.2 (b)), the entanglement emerges abruptly, but only has
+non-vanishing values for very short interval of λ. As the time increases, the generations of
+entanglement are diﬀerent fromeach other for diﬀerent λ. Forλis less than about λ= 0.8
+(Fig.3 (a)), the concurrence will encounter more than one maximum s. In a time region
+between the ﬁrst two maximums, no entanglement appear. Althoug h weak oscillations
+emerge after this region, the entanglement can last for a fairly long time with a not too
+small magnitude. For 0 .80< λ <1.07, there is only one maximum as the time increases.
+After a short time, the entanglement vanishes. For λ >1 (Fig. 3 (b)), strong oscillations
+emerge. The entanglement reaches its maximum fast, then sudden ly decreases to zero.
+Such a behavior will repeat again at later times, and ﬁnally the entang lement vanishes
+completely.
+For anyλ, there is a time Tm(λ) at which the entanglement reaches its ﬁrst maximum
+(Fig.4). This time is a monotonically decreasing function of λ. Taking its derivative
+with respect to λ, we ﬁnd that the derivativedTm(λ)
+dλhas a minimum at the critical point
+λ= 1. This interesting property maybe an indicator of the quantum ph ase transition at
+the critical point.
+7Figure 3: (a): The dynamics of entanglement (b): The dynamics of entanglem ent for
+for diﬀerent reciprocal ﬁelds λ= 0.2,0.4,0.6,0.8, diﬀerent reciprocal ﬁelds λ= 1.5,3.0,
+in the region of λ <0.8, in the region of λ >1.07.
+Figure 4: The time at which the entanglement reaches its ﬁrst maximum and its d erivative.
+84 Brief discussions and conclusions
+In this paper, we have studied the dynamics of the transverse Isin g chain prepared in
+the “thermal ground state” of the pure Ising model. For diﬀerent values of the reciprocal
+ﬁeld, the evolution of the entanglement has dramatic distinctions. W e also obtained the
+times at which the entanglement reaches its ﬁrst maximum, which is a m onotonically
+decreasing function of the parameter λ. The derivative of this quantity with respect to
+the reciprocal ﬁeld gets its minimum at the critical ﬁeld. This is a new ind icator of the
+quantum phase transition. Let us ﬁnally remark that the initial stat e we choose is simple
+to be prepared experimentally. One can ﬁrst cool the pure Ising sy stem down to near
+absolute zero, then turn on some desired transverse ﬁeld at t= 0 to generate the wanted
+entanglement.
+Acknowledgments
+We would like to thank X. Li for useful discussions. The work was sup ported partially by
+the NSF of China under Grant No. 10875129.
+References
+[1] M. A. Nielsen and I. L. Chuang, Quantum Computation and Quantum Information
+(Cambridage University Press, Cambridge, 2000).
+[2] R. Horodecki, P. Horodecki, M. Horodecki, and K. Horodecki, Re v. Mod. Phys. 81,
+865 (2009).
+[3] L. Amico, R. Fazio, A. Osterloh, and V. Vedral, Rev. Mod. Phys. 80, 517 (2008).
+[4] T. J. Osborne and M. A. Nielsen, Phys, Rev. A 66, 032110 (2002).
+[5] A. Osterloh, L. Amico, G. Falci, and R. Fazio, Nature (London) 416, 608 (2002).
+[6] L. Amico, A. Osterloh, F. Plastina, R. Fazio, and G. M. Palma, Phys , Rev. A 69,
+022304 (2004).
+[7] A. Sen(De), U. Sen, and M. Lewenstein, Phys, Rev. A 72, 052319 (2005).
+[8] H. Wichterich and S. Bose, Phys, Rev. A 79, 060302(R) (2009).
+[9] D. Jaksch, C. Bruder, J. I. Cirac, C. W. Gardiner, and P. Zoller, Phys, Rev. Lett.
+81, 3108 (1998).
+[10] O. Mandel, M. Greiner, A. Widera, T. Rom, T. W. Hansch, and I. B loch, Nature
+(London) 425, 937 (2003).
+[11] E. Lieb, T. Schultz, and D. Mattis, Ann. Phys. (N.Y.) 16, 407 (1961).
+[12] W. K. Wootters, Phys, Rev. Lett. 80, 2245.
+9

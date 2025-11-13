@@ -1,0 +1,272 @@
+arXiv:1001.0527v2  [nucl-th]  1 Apr 2013Squeezed correlations of strange
+particle-antiparticles
+Sandra S Padula1, Danuce M Dudek1and O Socolowski Jr2
+1Inst. F´ ısica Te´ orica - UNESP, C. P. 70532-2, 01156-970 S˜ ao Pa ulo, SP, Brazil
+2Departamento de F´ ısica, FURG, C. P. 474, 96201-900 Rio Grande, RS, Brazil
+E-mail:padula@ift.unesp.br
+Abstract. Squeezed correlations of hadron-antihadron pairs are predicted to appear
+if their masses are modiﬁed in the hot and dense medium formed in high e nergy heavy
+ion collisions. If discovered experimentally, they would be an unequivo cal evidence
+of in-medium mass shift found by means of hadronic probes. We discu ss a method
+proposed to search for this novel type of correlation, illustrating it by means of Ds-
+mesons with in-medium shifted masses. These particles are expecte d to be more easily
+detected and identiﬁed in future upgrades at RHIC.
+PACS numbers: 25.75.Gz, 25.75.-q, 21.65.Jk
+1. Introduction: The hadronic squeezed states
+About ten years ago, M. Asakawa, T. Cs¨ org˝ o and M. Gyulassy[1] ﬁnalized a
+model description for the eﬀects of in-medium hadronic mass modiﬁc ation leading to
+correlations of boson-antiboson pairs, also known as Back-to-Ba ck Correlations (BBC).
+This type of correlation between a particle and its own antiparticle wa s ﬁrst noted by
+R. Weiner et al.[2]. Within a short period after the ﬁnal proposition in Re f.[1], P. K.
+Panda et al.[3] showed that similar correlations between a fermion and a antifermion
+should appear, if their masses were shifted in the hot and dense med ia formed in high
+energy heavy ion collisions.
+Inboththebosonicandthefermioniccases, thein-mediumquasi-pa rticlesproduced
+in those collisions are related to the asymptotic, observed particles , by means of a
+Bogoliubov-Valatin (BV) transformation. This transformation links the creation and
+annihilation operators in both environments, i.e., the asymptotic ope ratorsaanda†, to
+their in-medium counterparts, bandb†. The corresponding Hamiltonians are given by
+H0andHm=H0+H′, whereH′contains the parameter expressing the mass-shift.
+The BV transformation relating the operators a(a†) tob(b†) are given by
+ak=ckbk+s∗
+−kb†
+−k;a†
+k=c∗
+kb†
+k+s−kb−k, whereck= cosh(fk) andsk= sinh(fk). The
+argument is the squeezing parameter , named in this way because the BV transformation
+isequivalenttoasqueezingoperation. Itiswrittenas fk=1
+2log/parenleftBig
+ωk
+Ωk/parenrightBig
+,withω2
+k=k2+m2,
+mbeing the asymptotic mass, Ω2
+k=k2+m2
+∗,m∗being the in-medium modiﬁed mass,Squeezed correlations of strange particle-antiparticles 2
+andkis the momentum. A constant mass-shift is considered here, homog eneously
+distributed over all the system, and related to the asymptotic mas s bym∗=m±δM.
+More generally, however, it could be a function of the coordinates in side the system
+and the momenta, δM=δM(|r|,|k|). Both the bosonic and the fermionic squeezed
+correlations are positive, have unlimited intensity, and are also desc ribed by similar
+formalisms[1,3]. ThisisillustratedinRef. [3]forthecaseof φφand ¯pppairs, evidencing
+the resemblance of the correlations for bosons and for fermions o f similar asymptotic
+masses. In the remainder of this paper, we will focus on the bosonic case.
+The eﬀects of the shifted mass on the squeezed particle-antipart icle correlations
+can be understood by analyzing the the joint probability for observ ing two particles,
+N2(k1,k2) =ωk1ωk2/bracketleftBig
+/angbracketlefta†
+k1ak1/angbracketright/angbracketlefta†
+k2ak2/angbracketright+/angbracketlefta†
+k1ak2/angbracketright/angbracketlefta†
+k2ak1/angbracketright+/angbracketlefta†
+k1a†
+k2/angbracketright/angbracketleftak2ak1/angbracketright/bracketrightBig
+, which
+results fromtheapplicationofageneralization ofWick’s theoremfor locallyequilibrated
+systems[4, 6]; /angbracketleft.../angbracketrightmeans thermal averages. In this expression, all three contribut ions
+could survive when the boson is its own antiparticle, as is the case of φ-mesons or π0’s.
+The last term is in general identically zero. However, if the particle’s m ass is shifted
+in-medium, it can contribute signiﬁcantly. It is identiﬁed with the squa re modulus of
+the squeezed amplitude, Gs(k1,k2) =√ωk1ωk2/angbracketleftak1ak2/angbracketright. The ﬁrst term corresponds to the
+product of the spectra of the two identical bosons, N1(ki)=ωkid3N
+dki=ωki/angbracketlefta†
+kiaki/angbracketright, and the
+second term, to the identical particle contribution, identiﬁed with t he square modulus
+of the chaotic amplitude, Gc(k1,k2) =√ωk1ωk2/angbracketlefta†
+k1ak2/angbracketright.
+The full two-particle correlation function for φφorπ0π0can be written as
+C2(k1,k2) = 1+|Gc(k1,k2)|2
+Gc(k1,k1)Gc(k2,k2)+|Gs(k1,k2)|2
+Gc(k1,k1)Gc(k2,k2). (1)
+In case of charged mesons, such as D±
+s, the terms in Eq.(1) would act independently,
+i.e., either the ﬁrst and the second terms together would contribut e to the HBT eﬀect
+(D±
+sD±
+s), or the ﬁrst and the last terms, to the BBC eﬀect ( D+
+sD−
+s).
+In Refs.[1, 3], an inﬁnite system was considered. Later, a ﬁnite expa nding
+system was studied, within a non-relativistic approach, assuming ﬂo w-independent
+squeezing parameter, which allowed for obtaining analytical solution s to the problem[7].
+Considering a hydrodynamical ensemble[1, 5, 7] the squeezed amplit ude results in
+Gs(k1,k2) =E1,2
+(2π)3
+2|c0||s0|/braceleftBig
+R3exp/bracketleftBig
+−R2
+2(k1+k2)2/bracketrightBig
++2n∗
+0R3
+∗exp/bracketleftBig
+−(k1−k2)2
+8m∗T/bracketrightBig
+×exp/bracketleftBig/parenleftBig
+−im/angbracketleftu/angbracketrightR
+2m∗T∗−1
+8m∗T∗−R2
+∗
+2/parenrightBig
+(k1+k2)2/bracketrightBig/bracerightBig
+, (2)
+and the spectrum in
+Gc(ki,ki) =Ei,i
+(2π)3
+2/braceleftBig
+|s0|2R3+n∗
+0R3
+∗(|c0|2+|s0|2)exp/parenleftBig
+−k2
+i
+2m∗T∗/parenrightBig/bracerightBig
+,(3)
+whereR∗=R/radicalbig
+T/T∗andT∗=T+m2/angbracketleftu/angbracketright2
+m∗[7]. For the sake of simplicity, the system
+was supposed to be Gaussian in shape, with a cross-sectional area of radius R, andT
+is the freeze-out temperature; R∗andT∗are, respectively, the ﬂow-modiﬁed radius and
+temperature. The ﬂow velocity, introduced before estimating the results in Eqs. (2)Squeezed correlations of strange particle-antiparticles 3
+and (3), was written as v=/angbracketleftu/angbracketrightr/R, where the values /angbracketleftu/angbracketright= 0,0.23 or 0.5 were used in
+the present work. For ﬁnite particle emissions, we considered a Lor entzian distribution,
+F(∆t) = [1 + ( ω1+ω2)2∆t2]−1, multiplying the third term in Eq. (1). We adopt here
+¯h=c= 1. The results in Eq.(2) and (3) are then introduced, respectively , in the third
+and ﬁrst terms of Eq.(1), leading to the squeezed correlation func tion.
+2. Illustrative results
+We previously applied the analytical results shown above to φ-meson squeezed
+correlations, and later, to K+K−pairs. We investigated the behavior of the squeezed
+correlation function for precise back-to-back pairs, i.e., for part icle-antiparticle pairs
+emitted with exactly opposite momenta, studying Cs(/vectork,−/vectork,m∗) as a function of |/vectork|and
+m∗. Preliminary results for those particles where shown in previous mee tings[7]-[13].
+Recent results considering φφpairs from simulation are in Ref. [14].
+Figure 1. Squeezed correlation function versus the shifted mass and the
+momenta of the particles for back-to-back D+
+sD−
+spairs.
+The analytical results can be applied to any other particles subject ed to in-medium
+mass-shift and compatible with the non-relativistic limit considered in t he formulation.
+Recently, STAR reconstructed D0+¯D0’s through their decay into K∓π±, by measuring
+the invariant mass distribution of those decay products[15]. The ide ntiﬁcation of D-
+mesons could be improved after the detector’s upgrade. Motivate d by this possibility,
+andconsideringthatchargedmesonsmaybeeasiertoobserve, we applythatformulation
+to the case of D+
+sD−
+spairs. Similar to what was previously done for φφandK+K−,
+we analyze the behavior of Cs(/vectork,−/vectork,m∗) forD+
+sD−
+spairs in the ( |/vectork|,m∗)-plane. Fig. 1
+shows that the intensity of Cs(k,−k,m∗) vs.|k|vs.m∗increases for decreasing freeze-
+out temperatures, which can be seen by comparing the two left plot s withT= 220
+MeV, with the bottom right plot with T= 140 MeV, in all of which ∆ t= 2 fm/c. Fig.
+1 also illustrates another striking feature, i.e., ﬁnite emission interva ls can dramaticallySqueezed correlations of strange particle-antiparticles 4
+reduce the strength of the squeezed correlation function. This c an be seen by comparing
+the two plots in the right panel: a Lorentzian emission distribution with ∆t= 2 fm/c
+has the eﬀect of reducing the signal by about three orders of mag nitude, as compared
+to the instantaneous emission (∆ t= 0). Finally, the left panel shows how the behavior
+ofCs(k,−k,m∗) is aﬀected by the presence of ﬂow. We see that the growth of the
+signal’s intensity for increasing values of |k|is faster in the static case than when
+< u >/negationslash= 0. Nevertheless, ﬂow seems to enhance the overall intensity of Cs(k,−k,m∗) in
+thewhole regionof |k|investigated. Naturally, at m∗=mDs∼1969MeV, thesqueezing
+disappears, i.e., Cs(k,−k,m∗)≡1.
+A panoramic view of the variation of Cs(k,−k,m∗) in the ( |k|,m∗)-plane can be
+better appreciated by contour plots of the previous results, as s hown in Fig. 2.
+0.20.40.60.81
+1.96 1.98
+0.20.40.60.81
+1.96 1.980.20.40.60.81
+1.8 2 2.2
+0.20.40.60.81
+1.8 2 2.2
+Figure 2. Contour plots of the results of Fig. 1, correspondi ng to the
+squeezed correlation functions vs. |k|andm∗.
+We can see that the location of the maxima of Cs(k,−k,m∗) forD+
+sD−
+spairs
+is shifted about ≈2−2.5% from the value of the particle’s asymptotic mass, either
+above or below it. A similar behavior could be observed in the case of φφpairs [8]-
+[14]. However, for K+K−pairs, the maximum was shifted about 30% from the K’s
+asymptotic mass [12, 13], perhaps signaling to the limit of applicability of the non-
+relativistic approximations considered in the model, in this case.
+The outcome properties shown above are important for understa nding the expected
+behavior ofthesqueezed correlationfunction, withintheapproxim ationsoftheproposed
+model. However, for practical purposes of searching for it exper imentally, the approach
+analyzed so far is not very helpful, since the modiﬁed mass of particle s is not
+a measurable quantity, existing only inside the hot and dense medium. Besides,
+the measurement of particle-antiparticle pairs with exactly back-t o-back momenta is
+unrealistic. Thus, a promising form to empirically search for the hadr onic squeezed
+correlation was proposed, in analogy with HBT [11]-[14], i.e., to measure the squeezedSqueezed correlations of strange particle-antiparticles 5
+correlation function in terms of the momenta of the particles combin ed asK12=
+1
+2(k1+k2), andq12= (k1−k2). Ina relativistic treatment, as proposed by M. Nagy[11],
+we should construct the momentum variable as Qµ
+back= (ω1−ω2,k1+k2) = (q0,2K).
+In fact, it is preferable to redeﬁne this variable as Q2
+bbc=−(Qback)2= 4(ω1ω2−KµKµ),
+whose non-relativistic limit is Q2
+bbc→(2K12)2, correctly recovering that variable.
+The results for Cs(2K12,q12) are shown in Fig. 3. In the plots on the left panel,
+the radius of the system was ﬁxed to be R= 4 fm, and on the right, to R= 7 fm. In
+both, it was assumed that the mass was shifted by the amount corr esponding to the
+lower maximum in Figs. 1 and 2, a relative reduction in the mass of about 2%.
+Figure 3. Squeezed correlation functions for R= 4fm (left panel) and
+R= 7fm (right panel), considering a reduction of the in-medium m ass to
+m∗= 1930MeV.
+From Fig. 3 we can see that radial ﬂow ( /angbracketleftu/angbracketright= 0.23) does have an eﬀect on
+Cs(2K12,q12), making it more intense if compared to /angbracketleftu/angbracketright= 0, in all the investigated
+region of the ( 2K12,q12)-plane, from about 40%, at low |q12|, to roughly 15%, at high
+|q12|. Fig. 3 also shows that the inverse width of Cs(2K12,q12) reﬂects the size of the
+squeezing region, being narrower for larger systems ( R= 7 fm) than for smaller ones
+(R= 4 fm). We also note that the intensity of the squeezed correlation function is high
+enough for stimulating its experimental search, even after applyin g the time reduction
+factor corresponding to an emission during a ﬁnite interval of ∆ t= 2 fm/c.
+3. Summary and conclusions
+The results of Fig. 1 and 2 showed that the squeezed correlation fu nction survives both
+ﬁnite system sizes and ﬂow, with measurable intensity. The ﬁnite emis sion process has
+a strong reduction eﬀect in its strength, even if it happens in a sudd en manner, as
+considered. The plots in the right panel of Fig. 1 show that the time m ultiplicative
+factor reduces Cs(k,−k,m∗) about three orders of magnitude, for D+
+sD−
+spairs. TheSqueezed correlations of strange particle-antiparticles 6
+left panel in Fig. 1 shows that, if the system is subjected to ﬂow, th is could enhance
+the squeezed correlation signal, facilitating its potential discovery in experiments. The
+freeze-out temperature is an essential ingredient, the lower the temperature, the higher
+the intensity of Cs(k,−k,m∗). The expectations are that Ds’s would decouple early.
+From Fig. 1 we can see that, even in a high temperature limit and subje cted to the
+time-reducing factor, the squeezed correlation function still has measurable intensity.
+We should remember that, if the shift in the mass is away from the valu e considered
+in the calculation leading to Fig. 3, Cs(2K12,q12) would attain smaller values than the
+ones shown, but the signal could still be high enough to be searched for. Another
+important point to emphasize is that it is crucial to accumulate high st atistics and look
+for the eﬀect in the 3 −Dconﬁguration shown in the plots, since projecting it into
+theK12-axis can drastically reduce the signal, making it more diﬃcult to discov er the
+hadronic squeezing eﬀect. Finally, comparing with previous results f orφφ[8]-[14] and
+K+K−[11, 12, 13]-[16, 17], we can conclude that, within this model, the stre ngth of
+squeezed correlation function seems to grow with the asymptotic m ass of the particles
+involved, making it even more promising to look for BBC’s for heavier pa rticles.
+Acknowledgments
+We are grateful to FAPESP and CAPES for the support to participa te in the SQM ’09.
+OSJ acknowledges funding from CNPQ.
+References
+[1] Asakawa M, Cs¨ org˝ o T and Gyulassy M 1999 Phys. Rev. Lett. 834013
+[2] Andreev I V, Pl¨ umer M and Weiner R M 1991 Phys. Rev. Lett. 673475
+[3] Panda P K, Cs¨ org˝ o T, Hama Y, Krein G and Padula Sandra S 2001 Phys. Lett B51249
+[4] Gyulassy M, Kauﬀmann S K and Wilson L W 1979 Phys. Rev. C 202267
+[5] Makhlin A and Sinyukov Yu 1987 Sov. J. Nucl. Phys. 46354
+[6] Sinyukov Yu 1994 Nucl. Phys. A566589c
+[7] Padula Sandra S, Hama Y, Krein G, Panda P K and Cs¨ org˝ o T 2006 Phys. Rev. C73044906
+[8] Padula Sandra S, Hama Y, Krein G, Panda P K and Cs¨ org˝ o T 2006 Proc. Quark Matter ’05
+(Budapest) Nucl. Phys. A 774, 615
+[9] Padula Sandra S, Hama Y, Krein G, Panda P K and Cs¨ org˝ o T 2006 Proc. Workshop on Particle
+Correlations and Femtoscopy (Kromeriz) AIP Conf. Proc. 828, 645
+[10] Cs¨ org˝ o T and Padula Sandra S 2007 Proc. WPCF 2006 (S˜ ao Paulo) Braz. J. Phys. 37949
+[11] Padula Sandra S, Socolowski Jr O, Cs¨ org˝ o T and Nagy M 2008 Proc. Quark Matter 2008 (Jaipur)
+J. Phys. G: Nucl. Part. Phys. 35, 104141
+[12] Padula Sandra S, Dudek Danuce M and Socolowski Jr O, 2009 Pro c. WPCF 2008 (Krakow) A.
+Phys. Pol. 40, N. 4, 1225
+[13] Padula Sandra S, Socolowski Jr O and Dudek Danuce M 2009 Proc. ISMD 2008 (Hamburg)
+DESYPROC170917 271 (arXiv:0812.1784v1 (nucl-th) and arXiv:0902 .0377 (hep-ph) p271)
+[14] Padula Sandra S, Socolowski Jr O 2009 Searching for squeezed particle-antiparticle correlations in
+high energy heavy ion collisions arXiv:1001.0126-v1 (nucl-th).
+[15] Abelev B I et al., STAR Collaboration arXiv:0805.0364 (nucl-ex).
+[16] Dudek Danuce M 2009 Master DissertationSqueezed correlations of strange particle-antiparticles 7
+[17] Padula Sandra S and Dudek Danuce M, in preparation.

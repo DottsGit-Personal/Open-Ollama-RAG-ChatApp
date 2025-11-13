@@ -1,0 +1,378 @@
+arXiv:1001.0297v2  [gr-qc]  8 Feb 2010Towards a more exact value of deﬂection of
+light due to static gravitational mass
+A. K. Sen
+Department of Physics, Assam University, Silchar 788011,
+India
+Email: asokesen@bsnl.com
+Abstract The deﬂection of a ray of light passing close to a gravitational
+mass, is generally calculated from the null geodesic which the light ray (
+photon) follows. However, there is an alternate approach, where the eﬀect
+of gravitation on the ray of light is estimated by considering the ray t o be
+passing through a material medium . Calculations have been done in this
+paper, following the later approach, to estimate the amount of deﬂ ection
+due to a static non-rotating mass. The refractive index of such a m aterial
+medium, has been calculated in a more rigorous manner in the present work
+andtheﬁnalexpressionfortheamountofdeﬂectioncalculatedhe reisclaimed
+to be more accurate than all other expressions derived so far usin gmaterial
+mediumapproach. Based on this expression, the amount of deﬂection for a
+sun grazing ray has been also calculated.
+1 Introduction
+The gravitational deﬂection of light is one of the important predictio ns of the
+General Theory of Relativity (GTR) proposed by Einstein, which play s a key
+role in understanding problems related to Astronomy, Cosmology, G ravita-
+tional Physics and other related branches.
+Newtons theory of universal gravitation had already predicted th at the
+path of any material particle moving at a ﬁnite speed is aﬀected by th e pull
+of gravity. By the late 18th century, it was possible to apply Newton s law
+to compute the deﬂection of light by gravity. Cavendish commented brieﬂy
+on the gravitational deﬂection of light in the late 1700s and Soldner g ave a
+detailed derivation in 1801.
+1Theidea ofbending oflightwasrevived byEinstein in1911andthequan -
+titative prediction for the amount of deﬂection of light passing near a large
+mass (M) was identical to the old Newtonian prediction, d= 2GM/(c2r/circledottext),
+wherer/circledottextis the closet distance of approach and in this case approximately
+the solar radius. It wasn’t until late in 1915, as Einstein completed th e
+general theory, he realized his earlier prediction was incorrect and the angu-
+lar deﬂection should actually be twice the size he predicted in 1911. Th is
+was subsequently conﬁrmed by Eddington in 1919 through an exper iment
+performed during the solar eclipse.
+The exact amount of deﬂection for a ray of light passing close to a gr avi-
+tational mass can be worked out from the null geodesic, which a ray of light
+follows [1,2,3].
+The deﬂection of a light ray passing close to a gravitational mass can be
+alternately calculated by following an approach, where the eﬀect of gravita-
+tion on the light ray is estimated by considering the light ray to be pass ing
+through a material medium with a value of refractive index decided by the
+value of gravitational ﬁeld [4].
+The concept of this equivalent material medium was discussed by Balazs
+[5] as early as in 1958, to calculate the eﬀect of a rotating body, on t he
+polarization of an electromagnetic wave passing close to it. Plebansk i [6]
+had also utilized this concept in 1960, to study the scattering of a pla ne
+electromagnetic wave by gravitational ﬁeld, where theauthor men tioned that
+this concept of equivalent material medium was ﬁrst pointed out by Tamm
+[7] in 1924. A general procedure for utilizing this concept, for deﬂe ction
+calculation has been worked out by Felice [8]. Later this concept was a lso
+usedbyMashoon[9,10],tocalculatethedeﬂectionandpolarizationdu etothe
+Schwarzschild and Kerr black holes. Fischbach and Freeman [11], der ived the
+eﬀective refractive index of the material medium and calculated the second
+order contribution to the gravitational deﬂection. In a similar way S ereno
+[12] has used this idea, for gravitational lensing calculation by drawin g the
+trajectory of the ray by Fermat’s principle. More recently Ye and L in [13],
+emphasized the simplicity of this approach and calculated the gravita tional
+time delay and the eﬀect of lensing.
+Ontheotherhand, thecalculationofhigher orderdeﬂectionterms , dueto
+Schwarzschild Blackhole, fromthenullgeodesic, hasbeenperform edrecently
+by Iyer and Petters ( [14] and references their in). Using null geod esics,
+gravitational lensing calculations have been done by a number of aut hors in
+2past [15,16].
+With the above background, in the present work, we follow the mate-
+rial medium approach, to calculate a more accurate value for the deﬂection
+term due to a non-rotating sphere ( Schwarzschild geometry ). It is claimed
+that the present calculated value will be more accurate than all oth er values
+calculated in past, using material medium concept.
+2 The eﬀective refractive index and the tra-
+jectory of light ray
+As discussed earlier, the gravitational ﬁeld inﬂuences the propaga tion of elec-
+tromagnetic radiation by imparting to the space an eﬀective index of refrac-
+tionn(r)[4].
+For a static and spherically symmetric gravitational ﬁeld, the solutio n of
+Einstein’s Field Equation was given by K. Schwarzschild in 1961, which is a s
+follows[4]:
+ds2= (1−rg
+r)c2dt2−r2(sin2θdφ2+dθ2)−dr2
+(1−rg
+r)(1)
+whererg=2km
+c2calledSchwarzschild Radius, whichcompletely deﬁnesthe
+gravitational ﬁeld in vacuum produced by any centrally-symmetric d istribu-
+tion of masses. The above equation can be expressed in an isotropic form by
+introducing a new radius co-ordinate ( ρ) with the following transformation
+equation [4]
+ρ=1
+2[(r−rg
+2)+r1/2(r−rg)1/2] (2)
+OR
+r=ρ(1+rg
+4ρ)2(3)
+The resulting isotropic form of Schwarzschild equation will be now:
+ds2= (1−rg/(4ρ)
+1+rg/(4ρ))2c2dt2−(1+rg
+4ρ)4(dρ2+ρ2(sin2θdφ2+dθ2)) (4)
+3Now in spherical co-ordinate system the quantity ( dρ2+ρ2(sin2θdφ2+
+dθ2)) has the dimension of square of inﬁnitesimal length vector d− →ρ.
+By setting ds= 0, the velocity of light can be identiﬁed from the ex-
+pression of the form ds2=f(ρ)dt2−d− →ρ2, asv(ρ) =/radicalBig
+f(ρ). Therefore the
+velocity of light in the present case ( characterized by Schwarzsch ild radius
+rg) can be expressed as :
+v(ρ) =(1−rg
+4ρ)c
+(1+rg
+4ρ)3(5)
+But this above expression of velocity of light is in the unit of length ρper
+unit time. We therefore write
+v(r) =v(ρ)dr
+dρ
+=v(ρ)[(1+rg
+4ρ)2−rg
+2ρ(1+rg
+4ρ)]
+= (rg−4ρ
+rg+4ρ)2c (6)
+Substituting the value of ρfrom Eqn (2) in Eqn.(6), we get:
+v(r) = (rg/2−2ρ
+rg/2+2ρ)2c
+= (rg/2−((r−rg
+2)+r1/2(r−rg)1/2)
+rg/2+((r−rg
+2)+r1/2(r−rg)1/2))2c
+= (rg−r−r1/2(r−rg)1/2
+r+r1/2(r−rg)1/2)2c
+=c(r−rg)
+r(7)
+Therefore the refractive index n(r) at a point with spherical polar co-
+ordinate ( r), can be expressed by the relation:
+n(r) =c
+v(r)=r
+r−rg(8)
+4At this stage the entire problem, can become a problem of geometric al
+optics, where we have to ﬁnd the trajectory of a light ray travelling in a
+medium, whose refractive index has spherical symmetry. The traj ectory of
+the light ray and the center of mass ( source of gravitational pote ntial) will
+together deﬁne a plane. The equation of such a ray inplane polar co- ordinate
+system (r,θ) can be written as [17]:
+θ=A./integraldisplay∞
+r/circledottextdr
+r√
+n2r2−A2(9)
+The trajectory is such that n(r).dalways remains a constant, wheredis
+the perpendicular distance between the trajectory of the light ra y from the
+origin and the constant is taken here as A[17]. In our present problem the
+lightiscomingfrominﬁnity( r=−∞)anditisapproachingthegravitational
+mass, which is placed at the originand characterized by Schwarzsch ild radius
+rg. The closest distance of approach, for the approaching ray is band the
+ray goes to r=∞, after undergoing certain amount of deﬂection ( △φ).
+Here, the parameter bcan be replaced by solar radius r/circledottext. When the
+light ray passes through the closest distance of approach (ie r=borr/circledottext),
+the tangent to the trajectory becomes perpendicular to the vec tor− →r( which
+is− →r/circledottext). Therefore, we can write A=n(r/circledottext)r/circledottext. The trajectory of the light
+ray had been already constructed before like this, by Ye and Lin [13] and the
+value of deﬂection ( △φ), can be written as :
+△φ= 2/integraldisplay∞
+r/circledottextdr
+r/radicalbigg
+(n(r).r
+n(r/circledottext).r/circledottext)2−1−π (10)
+However, Ye and Lin [13], had in our opinion used a value of refractive
+indexn(r) which was approximated and somewhat ad hoc. Fischbach and
+Freeman [11] also in their attempt to calculate a more accurate value of
+deﬂection, considered terms only up to second order in the expres sion for
+refractive index. However, in our attempt to do so we shall avoid ma king
+any such approximation in the following. We denote the above integra l in
+Eqn. (10) by Iand write
+5I=/integraldisplay∞
+r/circledottextdr
+r/radicalbigg
+(n(r).r
+n(r/circledottext).r/circledottext)2−1
+=n(r/circledottext)r/circledottext/integraldisplay∞
+r/circledottextdr
+r/radicalBig
+(n(r).r)2−(n(r/circledottext).r/circledottext)2
+=n(r/circledottext)r/circledottext/integraldisplay∞
+r/circledottextdr
+r/radicaltp/radicalvertex/radicalvertex/radicalbtr4
+(r−rg)2−r4/circledottext
+(r/circledottext−rg)2
+=n(r/circledottext)r/circledottext/integraldisplay∞
+r/circledottextdr
+r2/radicaltp/radicalvertex/radicalvertex/radicalbt1
+(1−rg
+r)2−r2/circledottextr−2
+(1−rg
+r/circledottext)2(11)
+Now we change the variable to x=rg
+rand introduce a quantity a=rg
+r/circledottext.
+We also denote n(r/circledottext) byn/circledottext. Accordingly we write:
+I=n/circledottextr/circledottext/integraldisplay0
+a−x−2rgdx
+r2/radicalBig
+1
+(1−x)2−x2
+(a(1−a))2
+=n/circledottextr/circledottext/integraldisplay0
+a−x−2rgdx
+xr2/radicalBig1
+(x(1−x))2−1
+(a(1−a))2
+=n/circledottextr/circledottext
+rg/integraldisplaya
+0dx
+x/radicalBig1
+(x(1−x))2−1
+(a(1−a))2
+=n/circledottextr/circledottext
+rg/integraldisplaya
+0(1−x)dx/radicalbigg
+1−(x(1−x))2
+(a(1−a))2(12)
+For our convenience we can denote the quantity 1 /(a(1−a)) byD. This
+also implies
+D=r2/circledottext
+rg(r/circledottext−rg)(13)
+6However, the Integral Ican not be solved as a standard integral at this
+stage. We split the above Integral, as a sum of two Integrals and pr oceed as
+follows:
+I= (n/circledottextr/circledottext
+rg)[/integraldisplaya
+0(1−2x)dx/radicalBig
+1−D2x2(1−x)2+/integraldisplaya
+0xdx/radicalBig
+1−D2x2(1−x)2]
+= (n/circledottextr/circledottext
+rg)/integraldisplaya
+0(1−2x)dx/radicalBig
+1−D2x2(1−x)2+(n/circledottextr/circledottext
+rg)/integraldisplaya
+0xdx/radicalBig
+1−D2x2(1−x)2
+= (n/circledottextr/circledottext
+rg)I1+(n/circledottextr/circledottext
+rg)I2 (14)
+whereI1andI2are used to denote the above two integrals. Now we can
+identify
+n/circledottextr/circledottext
+rg=1
+1−a.1
+a=1
+a(1−a)=D
+Changing the variable from xtoy=Dx(1−x), we can write D(1−2x)dx=
+dy. Accordingly the upper and lower limits x= 0 andx=achange to y= 0
+andy=Da(1−rg
+r/circledottext) =1
+a(1−a)a(1−a) = 1. Therefore for the ﬁrst part in
+Eqn (14) we can write :
+(n/circledottextr/circledottext
+rg)I1=/integraldisplaya
+0D(1−2x)dx/radicalBig
+1−D2x2(1−x)2
+=/integraldisplay1
+0dy√1−y2
+= [sin−1y]1
+0
+=π/2 (15)
+Therefore, from Eqn (10), one may write the amount of deﬂection as:
+△φ= 2/integraldisplay∞
+r/circledottextdr
+r/radicalbigg
+(n(r).r
+n(r/circledottext).r/circledottext)2−1−π
+7= 2(n/circledottextr/circledottext
+rg)I1+2(n/circledottextr/circledottext
+rg)I2−π
+=π+2(n/circledottextr/circledottext
+rg)I2−π
+= (2n/circledottextr/circledottext
+rg)/integraldisplaya
+0xdx/radicalBig
+1−D2x2(1−x)2(16)
+Thus the gravitational bending for a ray of light grazing the static g rav-
+itational mass ( with Schwarzschild radius rg) with the closest distance of
+approach r/circledottextcan be expressed as:
+△φ= 2D/integraldisplaya
+0xdx/radicalBig
+1−D2x2(1−x)2(17)
+The above expression for gravitational deﬂection has been obtain ed from
+the Schwarzschild Equation ( Eqn(1)), with out applying any approx imation
+at any stage. Owing to this, it is claimed that this expression of bendin g
+is more exact as compared to all other expressions derived till toda y, using
+equivalentmaterialmedium concept. However, theintegrationofthequantity
+in Eqn (17)), involves some complicated algebraic expressions conta ining
+Elliptical functions. Using Mathematica, we obtain the following expre ssion
+after integration :
+/integraldisplayxdx/radicalBig
+1−D2x2(1−x)2= 2(√
+D+√D−4)E−(2√D−4)F
+D(√
+D+4−√
+D−4)
+(18)
+whereE≡E(p,q2)istheEllipticIntegralofﬁrstkindand F≡F(−q,p,q2)
+is Incomplete Elliptic Integral of Third kind. The arguments p, q2,-q,p,q2are
+expressed by the following mathematical relations:
+p= arcsin/radicaltp/radicalvertex/radicalvertex/radicalbt(√
+D−4−√
+D+4)(√
+D−4+(2x−1)√
+D)
+(√
+D−4+√
+D+4)(√
+D−4−(2x−1)√
+D)
+(19)
+8q=(√
+D−4+√
+D+4)
+(√
+D−4−√
+D+4)
+(20)
+Finally we can write the expression for gravitational deﬂection ( △φ) of
+the light ray, due to a static mass ( rg) with the closest distance of approach
+r/circledottextas :
+△φ= 4/braceleftBigg(√
+D+√
+D−4)E−(2√
+D−4)F
+(√
+D+4−√
+D−4)/bracerightBiggx=a
+x=0(21)
+where the value of Dis given by Eqn.(13) as D=r2/circledottext
+rg(r/circledottext−rg)anda=
+rg/r/circledottext. Eqn. (21) is a general expression for bending of light, where r/circledottext
+can be replaced by the closest distance of approach of the light ray . This
+mathematical expression for deﬂection, derived here is claimed to b e more
+accurate than all other expressions derived so far using material medium
+approach and it is equally valid for strong ﬁeld. For a Sun grazing ray,
+we can take the closest distance of approach as equal to solar rad ius which
+isr/circledottext= 695,500 km and Schwarzschild radius corresponding to the mass
+of Sun as rg= 3 km. We, therefore, get a= (rg/r/circledottext) = 1/231,833 and
+D= 231,834. Finally, we get a value of △φ= 8.62690E10−6radians or
+1.77943arc sec. This value of gravitational deﬂection suﬀered by a Sun
+grazing ray, is claimed to be more accurate than all other values obt ained in
+past.
+Acknowledgments: Some of the calculations reported in this paper
+were done using Mathematica, at IUCAA, Pune, India. I sincerely ac knowl-
+edge this help and support.
+9References
+[1] C W Misner, K S Thorne and J A Wheeler, Graviation ,(W.
+H. Freeman and Company, Newyork 1972)
+[2] S. Weinberg, Principles and Applications of the General
+Theory of Relativity ,(John Wiley & Sons Inc. 1972)
+[3] P. Schneider, P. Ehlers, E. E. Falco, Gravitational Lenses ,
+(Springer, Berlin 1999)
+[4]The Classical Theory of Fields volume 2; J. L. D. Landau and
+E. M. Lifshitz (1st edition Pergamon Press, 1951; 4 th editio n’
+Butterworth-Heinemann 1980)
+[5] N. L. Balazs , Phys. Rev.110, No. 1, 236 (1958)
+[6] J. Plebanski, Phys. Rev. 118, No.5, 1396 (1960)
+[7] J. E. Tamm, J. Russ. Phys.-Chem. Soc. 56,2-3, 284 (1924)
+[8]F de Felice, Gen. Relativ. Gravit. 2, No. 4, 347 (1971)
+[9] B Mashhoon, Phys. Rev. D 7, No. 10, 2807 (1973)
+[10]B Mashhoon, Phys. Rev. D 11, No. 10, 2679 (1975)
+[11] E. Fischbach and B. S. Freeman, Phys. Rev. D 67, (1980)
+[12]M Sereno, Phys. Rev. D 67, (2003)
+[13] X-H. Ye and Q. Lin , Journal Mod. Opt. 55, Issue 7, 1119
+(2007)
+[14] S. V. Iyer and A. O. Petters, Gen. Relativ. Gravit. 39,
+1563 (2007)
+[15] K. S. Virbhadra and George F. R. Ellis, Phys. Rev. D 62,
+084003 (2000)
+[16] S. Frittelli, T.P. Kiling, and E.T. Newman, Phys. Rev. D .
+62, 064021 (2000)
+[17]M. Born and E wolf 1947, Principles of Optics (7th Edition,
+Cambridge University Press, Cambridge,1999)p121
+10

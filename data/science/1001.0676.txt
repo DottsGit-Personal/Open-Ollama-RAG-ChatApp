@@ -1,0 +1,109 @@
+arXiv:1001.0676v1  [astro-ph.HE]  5 Jan 2010Spectral/timing evolution of black-hole binaries
+TomasoM. Belloni
+INAF– OsservatorioAstronomicodi Brera,ViaE. Bianchi46, I-23807,Merate,Italy
+Abstract. I brieﬂy outline the state-paradigm that has emerged from th e study of black-hole
+binarieswithRossiXTE.Thisisthestartingpointofanumbe rofstudiesthataddresstheconnection
+betweenaccretionand jet ejection andthe physicalnatureo f thehard spectralcomponentsin these
+systems.
+Keywords: Accretionandaccretiondisks– blackholebinaries
+PACS:97.10.Gz,04.25.dg
+STATESANDSTATE-TRANSITIONS
+AlmostfourteenyearsintothelifeoftheRossiXTEmission( atthetimeofwriting),the
+existingdatabaseofoutburstsoftransientblack-holebin ariesisveryrichandconstitutes
+a unique laboratory to understand accretion onto black hole s. The dense coverage and
+high-ﬂexibility of RossiXTE are indeed unique and not likel y to be matched by new
+missions in the near future. A large amount of theoretical an d observational work has
+focused on the hard and soft states, in particular regarding the energy spectrum (see
+e.g. Gilfanov 2009). In the hard state (LHS), the energy spec trum shows a clear high-
+energy cutoff around ∼50–100 keV, while in the soft state (HSS) a cutoff was not
+observed up to ∼1 MeV (Grove et al. 1998). These spectra are interpreted as th e result
+of Comptonization from a combination of thermal and non-the rmal electrons (see e.g.
+Ibragimov et al. 2005). Different theoretical models diffe r in the details of the physical
+locationand combinationofthesecomponents.
+However,amoredynamicviewofthetimeevolutionoftheoutb urstsoftheseobjects
+is now possible. From this, it is possible to identify a small number of states, which in
+additiontothehardandsoftones,includeintermediatesta tes.Thesearerelativelyshort-
+livedandmarktransitionsbetweenhardandsoftandvice-ve rsa.Theirimportanceliesin
+anumberofaspects.First,thestudyofthetransitionbetwe entwoverydifferentstatesas
+thehardandsoftstate,whicharecharacterizedbyqualitat ivelydifferentenergyspectra,
+providesthe best opportunityto establishtheir nature. In simplewords: ifthe transition
+is between a thermal or hybrid Comptonization spectrum and a non-thermal spectrum,
+what happens in between? Second,it has been shown that some o f these transitions
+correspondtochangesintheinfrared/radioemission(seee .g.Homanetal.2005;Coriat
+et al. 2009) or to te ejection of relativistic jets (Fender, B elloni & Gallo 2004; Fender,
+Homan&Belloni2009;Fender 2009;Gallo2009).
+The basic tools used for RossiXTE data for approaching the ev olution of the X-
+ray emission of transient black hole binaries in outburst ar e the Hardness-Intensity
+Diagram (HID), where the total count rate is plotted as a func tion of hardness and
+the Hardness-Rms Diagram (HRD), where the fractional rms, i ntegrated over a broadFIGURE 1. Top panel: sketch of the main regions of the Hardness-Intens ity Diagram, corresponding
+todifferentsourcesstatesasidentiﬁedthroughvariabili typarameters.Thepathis anexampleofoutburst
+evolution. The black segment of the path correspondsto the i nterval covered by GX 339–4 in 2006 (see
+Motta,Homan&Belloni2009)andFig.2. Forthe deﬁnitionofQ POline,see text.
+rangeoffrequencies,isplottedversushardness.Bothdiag ramsareproducedwithX-ray
+photonsintheapprocimate3–20keV range. Youcan seesevera lexamplesinBelloni et
+al. (2005), Homan & Belloni (2005), Fender, Homan & Belloni ( 2009), Belloni (2009),
+Dunn et al. (2009). A schematic picture with the typical path of an outburst and the
+states and state transitions is shown in Fig. 1. The four stat es are Low/Hard (LHS),
+Hard-Intermediate (HIMS), Soft-Intermediate (SIMS) and H igh-Soft (HSS) (adapted
+fromBelloni2009).Theverticallinesmarkthestatetransi tions.
+State transitionsare sharp: althoughobviouslythe 3–20 ke V energy spectrum cannot
+be much different when crossing the vertical lines, detaile d analysis of the properties
+of fast aperiodic variability shows that indeed marked chan ges take place there (see
+Belloni 2009). Therefore, the positionof thetransition li nes is not at all arbitrary, but is0.10.20.30.40.50.60.70.80.940100300
+HardnessEcutoff (keV)
+FIGURE 2. High-energycutoff as a function of spectral hardnessfor th e 2006 data of GX 339–4 (see
+Motta et al. 2009). The lines mark state transitions (thick: LHS-HIMS; dashed: HIMS-SIMS, the QPO-
+line;dotted:HIMS-SIMS).
+ﬁxedbyobservations.Particularlyimportantisthetransi tionbetweenHIMSandSIMS,
+markedasQPOlineinFig.1asitinvolvestheappearanceofap articularQuasi-Periodic
+OscillationassociatedwiththeSIMS(seeBelloni2009;Cas ella,Belloni&Stella2005).
+CONNECTION TOJETEJECTION
+Inthepastfewyears,thankstoanincreasedobservationalr adio/X-rayactivity,apicture
+of the connection between accretion and ejection is also eme rging (see Fender 2009;
+Gallo 2009). In particular, it is now clear that while the LHS is associated to compact
+radio jets and the HSS to quenched radio emission, the major j et ejections take place
+duringintermediatestates.Fender, Belloni&Gallo(2004) identiﬁedtheQPO-linewith
+thepositioncorrespondingto theejectionoffast jets(the “Jet-line”). However,recently
+Fender, Homan & Belloni (2009) found that this association i s not perfect nor causal:
+thetwo linesarecrossed withina coupleofweeks fromeach ot her,in eithersequence.
+HIGH-ENERGY COMPONENTS
+Although across transitions the energy spectrum does not ch ange appreciably, once
+energies above 20 keV are considered the picture changes. In particular, recent results
+on GX 339–4 have shown that the high-energy cutoff of the hard spectral componentchangesinnon-monotonicwayacrossthetransition(Mottae tal.2009).Figure2shows
+the evolution of this parameter as a function of hardness, ov er the path sketched in
+black in Fig. 1. in the LHS, the high-energy cutoff decreases from 120 to 60 keV
+as the sources brightens (and softens), then the trend is rev ersed and in the HIMS
+there is a marked increase back to ∼100 keV. After the QPO-line, the cutoff energy
+is high, possibly not detected signiﬁcantly (see also Motta et al., this volume). This
+evolution is rather complex. Although the LHS behaviour is s imple to understand,
+as the simultaneous increased soft emission cools the elect rons responsible for the
+Comptonization. However, the trend reversal is still puzzl ing. The same behaviour was
+shownby othersources (seee.g. Joinetet al.2008;Mottaet a l. 2009).
+CONCLUSIONS
+Wenowhaveaclearphenomenologicalpictureoftheevolutio nofblack-holetransients,
+which can be compared to that of neutron-star binaries and ac tive galactic nuclei (see
+Belloni 2009). It is clear that state-transitions hold the k ey to a deeper understanding.
+Although they are transient and difﬁcult to observe, the dat a already existing show that
+thespectral evolutioniscomplexandstillneeds tobeunder stood.
+REFERENCES
+1. T.M.Belloni,“Statesandtransitionsinblack-holebina ries,”inTheJetParadigm-FromMicroquasars
+toQuasars,Lect. NotesPhys.794 ,editedbyT.Belloni,Springer,2009,inpress(arXiv:0909 .2474)
+2. T..M.Belloni,J. Homan,P.Casella, et al., A&A,2005,440,207
+3. P.Casella, T.M.,Belloni,L. Stella, ApJ,2005,629.403
+4. M.Coriat,S., Corbel,M.M. Buxton,etal., MNRAS,2009,400,123
+5. R. Dunn,R. P.Fender,E.Koerding,et al., MNRAS,2009,inpress(arXiv:0912.0142)
+6. R. P. Fender, “’Disc-jet’ coupling in black hole X-ray bin aries and active galactic nuclei,” in The Jet
+Paradigm - From Microquasars to Quasars, Lect. Notes Phys. 7 94, edited by T. Belloni, Springer,
+2009,in press(arXiv:0909.2572)
+7. R. P.Fender,T..M.Belloni,E.Gallo, MNRAS,2004,355,1105
+8. R. P.Fender,J. Homan,T..M.Belloni, MNRAS,2009,396,1370
+9. E. Gallo, “Radio emission and jets from microquasars,”in The Jet Paradigm - From Microquasars to
+Quasars,Lect.NotesPhys.794 ,editedbyT.Belloni,Springer,2009,in press(arXiv:0909 .2585)
+10. M. Gilfanov, “X-ray emission from black-hole binaries, ” inThe Jet Paradigm - From Microquasars
+toQuasars,Lect. NotesPhys.794 ,editedbyT.Belloni,Springer,2009,inpress(arXiv:0909 .2567)
+11. J. E.Grove,W. N.Johnson,R. A.Kroeger,et al., ApJ,1998,500,899
+12. J. Homan,T..M.Belloni, Ap&SS,2005,300,107
+13. J. Homan,M.Buxton,S. Markoff,etal., ApJ,2005,624,295
+14. A.A. Ibragimov,J. Poutanen,M.Gilfanov,et al., MNRAS,2005,362,1435
+15. A.Joinet,E.Kalemci,F. Senziani, ApJ,2008,679,655
+16. S.Motta,T..M. Belloni,J.Homan, MNRAS,2004,inpress(arXiv:0908.2451)

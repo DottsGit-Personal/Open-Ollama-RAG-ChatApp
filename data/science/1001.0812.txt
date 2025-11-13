@@ -1,0 +1,194 @@
+arXiv:1001.0812v1  [nucl-th]  6 Jan 2010EﬀectsoftheΛ(1405)ontheStructureofMulti-AntikaonicNuclei
+TakumiMutoa,ToshikiMaruyamab,ToshitakaTatsumic
+aDepartment of Physics, Chiba Institute ofTechnology, 2-1- 1 Shibazono,Narashino, Chiba 275-0023, Japan
+bAdvanced Science Research Center, Japan Atomic EnergyAgen cy, Tokai, Ibaraki 319-1195, Japan
+cDepartment ofPhysics, Kyoto University, Kyoto 606-8502, J apan
+Abstract
+TheeﬀectsoftheΛ(1405)(Λ∗)onthestructureofthemulti-antikaonicnucleus(MKN),in which
+severalK−mesons are embedded to form deeply bound states, are conside red based on chiral
+symmetry combined with a relativistic mean-ﬁeld theory. It is shown that additional attraction
+resulting from the Λ∗pole has a sizable contribution to not only the density proﬁl es for the
+nucleonsand K−mesonsbut also the groundstate energyof the K−mesonsandbindingenergy
+oftheMKN asthenumberoftheembedded K−mesonsincreases.
+Key words: multi-antikaonicnuclei,chiralsymmetry,kaoncondensat ion,subthreshold
+resonanceΛ(1405)
+PACS:21.85.+d,11.30.Rd,21.65.Jk,26.60.-c
+1. Introduction
+Exploringmulti-strangenesssystemsisanimportantaspec tofunderstandinghadrondynam-
+icsindensematter. Kaoncondensationinneutronstarsmaye xistasastrangeness-nonconserving
+system, where kaon condensatesare spontaneouslyproduced fromnormal matter throughweak
+processes, N+n→N+p+K−,N+e−→N+K−+νe(N=p,n)[1]. Recentlymulti-antikaonic
+nuclei(abbreviatedasMKN),whereseveralantikaons( K−mesons)areboundinthegroundstate
+of the nucleus,have beeninvestigated[2, 3], stimulatedby the proposalto exploredeeplybound
+kaonic nuclear states and subsequent theoretical and exper imental studies[4]. The MKN is a
+strangeness-conservingsystem and should be formedby embe ddingaK−meson in the nucleus
+through strong processes. Both the kaon-condensed state in neutron-star matter and the MKN
+formed in experiments are cold, dense objects originating f rom the common ¯K−Nand¯K−¯K
+interactionsin densematter,sothat theymaybecloselyrel atedwitheachother.
+WehaveconsideredpropertiesoftheMKNwithintheframewor kofarelativisticmean-ﬁeld
+theory (RMF) coupledwith the nonlineare ﬀectivechiral Lagrangian[2]. It has been shown that
+thelowest K−energy,ωK−,increasesasthenumberofembedded K−mesons,|S|,becomeslarge
+andthatitentersintothesubthresholdresonanceregionof theΛ(1405)(Λ∗),whereωK−≃mΛ∗−
+mN=467MeV.Thisisbecausethecontributiontotheenergyfromt herepulsive ¯K−¯Kinteraction
+becomes sizable with the increase in |S|as compared with the attractive ¯K−Ninteraction. In
+this paper,we take into account the Λ∗-pole contributionas well as range termsand study these
+eﬀectsonthestructureoftheMKN.
+Preprint submitted to Nuclear Physics A December 14, 20182. Formulation
+A spherical symmetry is assumed for the MKN, and the mass numb erA, the number of
+protonsZ, and the number|S|of embedded K−mesons with the lowest energy ωK−are kept
+ﬁxed. We start with the e ﬀective chiral Lagrangian, which incorporates s-wave interactions
+between the (nonlinear) ¯Kmesons and nucleons of the scalar type simulated by the KNsigma
+term,ΣKN,andofthevectortype(Tomozawa-Weinbergterm). Thenonli nearK−ﬁeldΣisgiven
+asΣ=exp[2i(K+T4+i5+K−T4−i5)/f], whereT4±i5(≡T4±iT5) is the SU(3) generatorand f(=
+93 MeV) the meson decayconstant. The K−ﬁeld is representedas K−(r)=fθ(r)/√
+2 withθ(r)
+beingthechiralangleinthecondensateapproximation[2]. These¯K−Ninteractionsarereplaced
+bythosegeneratedbythe σandω,ρmesons-exchanges,respectively,withintheRMF[2].
+Thethermodynamicpotential ΩfortheMKNisderivedunderalocaldensityapproximation
+for the nucleons[2]. The correction to the energy density, ∆ǫ(r), from theΛ∗is introduced
+throughthesecond-orderperturbationwithrespecttothea xialcurrentofhadrons, ˆAµ
+5=f∂µK−+
+···+(gΛ∗/2)(¯Λ∗γµp+h.c.)+···withgΛ∗beingthecouplingconstantfor K−pΛ∗vertex:
+∆ǫ=−i/integraldisplay
+d4z∝angb∇acketleftx|T/tildewideωK−ˆA0
+5(z)/tildewideωK−ˆA0
+5(0)|x∝angb∇acket∇ight×/parenleftigg
+−1
+2sin2θ/parenrightigg
+real part⇒ −1
+2f2/tildewideω2
+K−sin2θ/bracketleftigg
+ρs
+p/braceleftigg
+dp+g2
+Λ∗
+2f2mΛ∗−mN−ωK−
+(mΛ∗−mN−ωK−)2+γ2
+Λ∗/bracerightigg
++dnρs
+n/bracketrightigg
+,(1)
+where the smooth parts ∝dpρs
+p,dnρs
+nare the range terms with ρs
+p(r) (ρs
+n(r)) being the scalar
+density of the proton (neutron)and the pole contributionco mes from theΛ∗withγΛ∗being the
+width. Thesetermsareabsorbedintothee ﬀectivenucleonmasses. Wecallthesecontributionsto
+theenergythesecond-ordere ﬀects(SOE)[1]. InEq.(1), /tildewideωK−(r)[≡ωK−−VCoul(r)]isthelowest
+energyof the K−shifted in the presence of the Coulomb potential. The parame ters,dp,dn,gΛ∗,
+andγΛ∗are determinedso as to reproducethe on-shell s-waveK−Nscatteringlengths[5]. The
+classicalK−ﬁeld equationisgivenfrom δΩ/δθ=0 as
+∇2θ(r)=sinθ(r)/bracketleftigg
+m∗2
+K(r)−2/tildewideωK−(r)X0(r)−/tildewideω2
+K−(r)cosθ(r)
+−/tildewideω2
+K−(r)cosθ(r)/braceleftigg
+ρs
+p(r)dp+g2
+Λ∗
+2f2mΛ∗−mN−ωK−
+(mΛ∗−mN−ωK−)2+γ2
+Λ∗+dnρs
+n(r)/bracerightigg/bracketrightigg
+,(2)
+wherem∗2
+K(r) (=m2
+K−2gσKmKσ(r)) is the square of the e ﬀective mass of the K−, andX0(r) (=
+gωKω0(r)+gρKR0(r))representsthe ¯K−Nvectorinteraction. Inthesequantities, giK(i=σ,ω,ρ)
+are the coupling constants, while σ(r),ω0(r), andR0(r) are the mean ﬁelds of the σmeson and
+the time componentsof the ωandρmesons,respectively. Togetherwith Eq.(2) oneobtainsthe
+coupled equationsof motion (EOM) for the other mesons σ,ω,ρ, and the Poisson equation for
+the Coulombpotential VCoul(r):
+−∇2σ(r)+m2
+σσ(r)=−dU
+dσ(r)+gσN(ρs
+p(r)+ρs
+n(r))+2gσKmKf2(1−cosθ(r)),(3a)
+−∇2ω0(r)+m2
+ωω0(r)=gωN(ρp(r)+ρn(r))−2gωK/tildewideωK−(r)f2(1−cosθ(r)), (3b)
+−∇2R0(r)+m2
+ρR0(r)=gρN(ρp(r)−ρn(r))−2gρK/tildewideωK−(r)f2(1−cosθ(r)), (3c)
+∇2VCoul(r)=4πe2(ρp(r)−ρK−(r)), (3d)
+2whereρi(r) (i=p,n,K−) are the number densities and giN(i=σ,ω,ρ) the coupling constants.
+The coupled equations (2) and (3a) −(3d) are solved self-consistently, and the density distrib u-
+tionsρi(r)andotherquantitiesareobtainedasfunctionsofthe radia ldistance r.
+3. NumericalResults
+We take the15
+8O (A=15,Z=8) as a reference nucleus. The K−optical potential depth UKis
+chosentobe UK=−80MeV.
+3.1. Density proﬁles
+The density distributions of the protons, neutrons, and the distribution of the strangeness
+density[=−ρK−(r)]areshownfor|S|=4and8inFig.1. Thesolidlinesareforthepreviousresult
+without the SOE[2], and the dashed-dottedlines for the pres ent result with the SOE. Due to the
+0 1 2 3 4–0.50.00.5ρi ( fm−3 )|S|=4
+ρp
+ρn
+−ρK
+r (fm)0 1 2 3 4–0.50.00.5ρi ( fm−3 )|S|=8
+ρp
+ρn
+−ρK
+r (fm)
+Figure1: Thedensitydistributionsofprotons,neutrons,a ndthestrangenessdensity[ =−ρK−(r)]fortheMKNwith A=15,
+Z=8, and|S|=4, 8in thecase of UK=−80 MeV.
+SOE, the K−mesons and the protonsare attracted more to each other than t he case without the
+SOE,sinceintheformerthe K−liesbelowtheresonanceregionofthe Λ∗andfeelsanadditional
+attractionthroughcouplingwiththe Λ∗pole. Asaresult,thecentraldensitiesoftheprotonsand
+K−mesons become larger. On the other hand, neutrons are pushed outward from the center of
+the MKN due to the weakly repulsive e ﬀect from the range term ( ∝dnρs
+n,dn<0 in Eq. (2) ).
+These features become remarkable for a large value of |S|(Compare the cases of |S|=4 and 8).
+The central baryon density ρ(0)
+B(=ρp(r=0)+ρn(r=0)) becomesρ(0)
+B∼3.5ρ0withρ0=0.153
+fm−3for|S|∼8. Onecanseea “neutronskin”structurewitha thickness(1 −2)fmfor|S|∼8. In
+addition, for a larger |S|, the proton and K−density distributions tend to be more uniform near
+the center.
+3.2.|S|-dependenceof thelowest K−energyandbindingenergy
+In Fig. 2, the lowest energyof the K−,ωK−, is shownas a functionof |S|. The energydiﬀer-
+enceperunitofstrangeness,[ E(A,Z,|S|)−E(A,Z,0)]/|S|(=mK−B(A,Z,|S|)/|S|withB(A,Z,|S|)
+beingthebindingenergyoftheMKN),isshownasafunctionof |S|inFig.3. Intheseﬁguresthe
+solid lines are for the result without the SOE[2], and the das hed-dotted lines for the result with
+the SOE. FromFig. 2, the ωK−is shownto be loweredby ∼40 MeV fromthat withoutthe SOE
+duetotheadditionalattractionbroughtaboutfromthe Λ∗pole. Nevertheless, ωK−increaseswith
+30 5 10 15350400450500ωK−  ( MeV )mΛ(1405)−mNmK
+|S|unbound
+Figure 2: The lowest energy of the K−,ωK−, for the MKN
+withA=15,Z=8, and|S|=2,8 in thecase of UK=−80 MeV.0 5 10 15100200300400mK
+mΛ(1116)−mN
+|S|with 
+without range terms 
+and Λ(1405) ( MeV )
+B /|S|B /|S|
+Figure 3: The energy di ﬀerence per|S|, [E(A,Z,|S|)−
+E(A,Z,0)]/|S|as functions of|S|.B(A,Z,|S|) is the binding
+energy of the MKN.
+anincreasein|S|since therepulsive ¯K−¯Kinteractionoverwhelmstheattractive ¯K−Ninterac-
+tions at large|S|. For|S|≥12 (in the case of UK=−80 MeV), K−mesons become unbound,
+whereωK−/greaterorsimilarmΛ∗−mNabovetheΛ∗-resonanceregion.
+From Fig. 3, the B/|S|steadily increases with |S|in the case in which the SOE is included,
+whileitshowslittledependenceupon |S|withouttheSOE.Oneﬁndsthat mK−B/|S|>mΛ(1116)−
+mN, wheremΛ(1116)is the free mass of the lightest hyperon Λ(1116). Hence the MKN decays
+through strong processes such as K−NN→Λ(1116)N, so that it is not stable as a self-bound
+object. Thisresultqualitativelyagreeswiththatin Gazda et al.[3].
+4. Concludingremarks
+With regardto creating self-boundobjects for the MKN, hype ron-mixingeﬀects may be re-
+sponsibleforformationofmorestronglyboundstates. Itha sbeenshowninaliquid-droppicture
+that coexistenceofantikaonsandhyperonsleadstohighlyd enseself-boundobjects,whichmay
+decay only through weak processes[7]. There is a controvers y about the possible existence of
+such objects depending on the adopted models and approximat ions[6]. A realistic framework
+including antikaons and hyperons as well as nucleons beyond the local density approximation
+forbaryonsis necessaryforfurtherinvestigation.
+Acknowledgments
+ThisworkissupportedinpartbytheGrant-in-AidforScient iﬁcResearch(No.20028009).
+References
+[1] H. Fujii, T.Maruyama, T.Muto and T.Tatsumi, Nucl. Phys. A 597(1996) 645.
+[2] T.Muto, T.Maruyama and T.Tatsumi, Phys.Rev. C 79(2009) 035207.
+[3] D. Gazda, E.Friedman, A.Gal, and J.Mareˇ s, Phys.Rev. C 76(2007) 055204; Phys.Rev. C 77(2008) 045206.
+[4] For arecent review, A.Galand R.S.Hayano (Eds.),Nucl Ph ys.A 804(2008) 1.
+[5] A. D.Martin, Nucl. Phys. B 179(1981) 33.
+[6] D. Gazda, E.Friedman, A.Gal, and J.Mareˇ s, Phys.Rev. C 80(2009) 035205.
+[7] T.Muto, Nucl Phys. A 804(2008) 322.
+4

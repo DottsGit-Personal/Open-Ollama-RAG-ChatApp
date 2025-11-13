@@ -1,0 +1,264 @@
+arXiv:1001.0516v1  [astro-ph.EP]  4 Jan 2010Astronomy& Astrophysics manuscriptno.13065 c/circlecopyrtESO 2018
+November15,2018
+Lettertothe Editor
+The lunar phases of dustgrains orbiting Fomalhaut
+M.Min1, M.Kama2, C.Dominik2,3, and L.B.F.M.Waters2,4
+1Astronomical InstituteUtrecht, Universityof Utrecht,P. O.Box80000, NL-3508 TAUtrecht,The Netherlands
+2Astronomical InstituteAnton Pannekoek, Universityof Ams terdam, Kruislaan 403, 1098 SJAmsterdam, The Netherlands
+3Afdeling Sterrenkunde, Radboud UniversiteitNijmegen, Po stbus 9010, 6500 GLNijmegen, The Netherlands
+4Insituut voor Sterrenkunde, K.U.Leuven, Celestijnenlaan 200 D,B-3001 Leuven, Belgium
+Received August 5, 2009; accepted December 18, 2009
+Abstract
+Opticalimages of thenearby starFomalhaut show a ringof dus t orbitingthecentral star.Thisdust isinmany respects exp ectedtobe
+similartothezodiacal dustinthe solarsystem.Theringdis plays aclearbrightness asymmetry, attributedtoasymmetr ic scatteringof
+the centralstarlightby thecircumstellar dust grains.Rec ent measurements show thatthe bright side ofthe Fomalhaut r ingis oriented
+away from us. This implies that the grains in this system scat ter most of the light in the backward direction, in sharp cont rast to the
+forward-scatteringnatureofthegrainsinthesolarsystem .Inthisletter,weshowthatgrainsconsiderablylargertha nthosedominating
+the solar system zodiacal dust cloud provide a natural expla nation for the apparent backward scattering behavior. In fa ct, we see the
+phases of the dust grains inthe same way as we can observe the p hases of the Moon and other large solar system bodies. We outl ine
+how the theory of the scattering behavior of planetesimals c an be used to explain the Fomalhaut dust properties. This ind icates that
+the Fomalhaut dust ring is dominated by very large grains. Th e material orbiting Fomalhaut, which is at the transition be tween dust
+andplanetesimals, can, withrespect totheir optical behav ior, best be described as micro-asteroids.
+Key words. Keywords should be given
+1. Introduction
+Optical images of some nearby stars show the presence of
+orbiting solid material through the starlight it scatters ( e.g
+Kalasetal., 2005). This has been interpreted as evidence of an
+evolvingplanetarysystem.Collisionsbetweenlargebodie ssuch
+as asteroids are believed to be responsible for the producti on
+of these small solid particles. This is similar to our own so-
+lar system, in which interplanetary dust grains are found th at
+are thought to originate from asteroids and comets. The size
+and chemical composition of these grains determine the way i n
+which they reﬂect starlight. Laboratorymeasurementsand l ight
+scattering theoryshow that small solid particlesscatter m ost in-
+cident light in the forward direction, in agreement with ast ro-
+nomical observations. However, recent observations of the dust
+orbitingthe nearbystar Fomalhauthaveshown forthe ﬁrst ti me
+that the grains in this system scatter most of the light in the
+backward direction (LeBouquinet al., 2009). This is in shar p
+contrast with the current understanding of light scatterin g and
+challengesthe analogybetween interplanetarydust and the dust
+observedin Fomalhaut.In this paper, we show that an excelle nt
+matchtotheobservedbackscatteringbehaviorofthemateri alor-
+bitingFomalhautcanbeobtainedbyusingthetheoryofregol ith
+coveredsurfaces.
+2. Apparentbackward scattering
+The circumstellar ring of Fomalhaut as observedby the Hubbl e
+space telescope clearly shows a dark side and a bright side
+(Kalaset al., 2005). Regarding the orientation of the ring, the
+general forward scattering behavior of dust grains has led t o
+Send oﬀprint requests to : M. Min, e-mail:M.Min@uu.nlthe conclusion that the bright side of the ring should be the
+onetilted towardsthe observer.Using theVeryLargeTelesc ope
+Interferometer (VLTI), the rotation axis of the central sta r and
+subsequently the inclination axis of the system was inferre d
+(LeBouquinetal., 2009). This inclination is opposite to pr e-
+vious assumption in that the direction of scattering is reve rsed
+fromforward-dominatedtobackward-dominated.Thiscontr asts
+withthe currentconsensusintheﬁeld oflightscattering.
+Arelativelysimpleexplanationforthiscanbefoundbycon-
+sidering bodies much larger than interplanetary dust grain s. As
+an example let us take the Moon, which for all practical pur-
+posescan beconsidereda giganticdust grain.However,it is ev-
+ident that the Moon is bright when viewed in a backward scat-
+tering situation (full Moon) and it is dark in the forward sca t-
+tering case (new Moon). The question then arises: is the Moon
+truly backscattering?The answer is “no”. The apparentsurp rise
+that the Moon is forward scattering is caused by the sharp and
+in most cases invisible di ﬀraction peak it causes. For the Moon
+this diﬀraction spike, caused by interference e ﬀects due to the
+shadow of the Moon, is so narrowly forward peaked that it can
+onlybeseenintheforward-mostfractionofadegree1,i.e.when
+the Sunis rightbehindthe Moon.Forall practicalpurposes, the
+Moonappearsto bebackscattering,anddi ﬀractioncanbeomit-
+ted.
+For smaller grains, the di ﬀraction spike often dominatesthe
+overallscatteringbehavioroverabroaderrangeofscatter ingan-
+gles. It appears that the disk around Fomalhaut contains dus t
+grains that behave backward-reﬂecting like asteroidal bod ies.
+This must be because the grains are very large, making the
+diﬀraction spike so narrowly forward-peaked that it is outside
+1For objects the size of the Moon, the di ﬀracted energy at visible
+wavelengths isconﬁned towithinthe forward-most µ-arcsecond.2 M. Min etal.:The lunar phases of dust grains orbitingFomal haut
+Figure1. Angularscattering functionsforthe regolithparticles,
+showing the relative intensity scattered at a scattering an gleθ.
+The pure reﬂectance function (solid, black curve) is given, and
+diﬀractioneﬀectsare addedforparticleswith a narrowsize dis-
+tribution around 3µm grains (dashed curve). The exact scatter-
+ing function for this narrow size distribution of spheres as ob-
+tainedfromtheMietheoryisalso shown(solid,greycurve).
+theobservablerangeofangles.FortheFomalhautsystem,wh ich
+has an inclination of 25◦, the range of observablescattering an-
+gles is 25◦<θ<155◦. Kalasetal. (2005) already noted that
+the apparent single scattering albedo of the dust grains is i n the
+rangeof5−10%,whichislowforanykindofdustgrains.Such
+values are more typical for the geometric albedo of asteroid s.
+The geometric albedo of asteroids does not include the contr i-
+bution from diﬀraction. For large grains, it is easily shown that
+when diﬀraction is included, the single scattering albedo is al-
+ways larger than 50% (vande Hulst, 1957, Chapter 12). Thus,
+the true single scattering albedo of the grains, averaged ov er all
+angles and including di ﬀraction, must be much higher than the
+observedvalue, indicating that most of the scattered light is not
+detected.
+3. Modelingthescatteringfunctionofasteroidal
+bodies
+Below we treat the dust grains in the Fomalhaut system as
+micro-asteroids, meaning that we use the theory of reﬂectan ce
+by regolith-coveredasteroidal surfacesto computetheir s catter-
+ingbehavior.Forthereﬂectanceofasteroidalsurfaces,we usean
+analyticalmodelforthebidirectionalreﬂectance(Hapke, 1981).
+Forsimplicityweusethetheoryomittinge ﬀectsofmacroscopic
+roughness as discussed in Hapke (1984). This basically mean s
+that we set the macroscopic roughness parameter as discusse d
+in that paper to zero. In addition to this, we ignore the oppo-
+sition eﬀect. This mainly plays a role near backward-scattering
+and thus largely falls outside the range of scattering angle s that
+wehaveaccesstointheFomalhautsystem.Tointegrateovert he
+surfaceofthe body,weuse MonteCarlo raytracing.
+3.1. The regolithparticles
+Asinputinthesecomputations,weneedtoknowthealbedoand
+angular scattering function for the regolith particles tha t cover
+thesurfaceofthegrain.Notethatsincetheregolithpartic lesare
+closely packed, we need to know these parameters omitting th e
+contributionfromdi ﬀraction(Hapke,1981).Thecontributionof
+diﬀractioncan be separated when we computethe angular scat-
+tering function and single scattering albedo using geometr ical
+optics. More exact computational methods like the Mie theor y
+do not allow the separation of the contributionfrom di ﬀraction.
+Wethusassumetheregolithparticlesarelargeenoughsotha tge-ometricalopticscanbeapplied,andinadditionweonlycons ider
+surface reﬂections, i.e. transmitted rays are ignored. We r ealize
+that using geometrical optics is a rough approximation for t he
+grainsizes we areconsidering.Nevertheless,since we arei nter-
+estedonlyintheoverallshapeoftheangularscatteringfun ction
+mostly at intermediate scattering angles, the approximati on is
+not so bad for grain sizes a few times the wavelength of radia-
+tion, especially for particles with a considerable imagina ry part
+of the refractive index (Wielaardet al., 1997). In this appr oxi-
+mation the scattering propertiesof the particlesare indep endent
+oftheirsize andshapeaslongastheyhaveaconvexsurface.T o
+compute the reﬂections we need to specify the refractive ind ex
+of the regolith particles which we take to be m=1.6+0.1i,
+thought to be typical for cosmic materials. However, we ﬁnd
+that the ﬁnal result is hardly inﬂuenced by modest variation s
+in the refractive index (with the real part ∼1.5−1.8 and the
+imaginary part/lessorsimilar0.3). The angular scattering function for the
+regolithparticleswhichresultsfromthisisdominantlyfo rward-
+scattering, while their single scattering albedo is 11% (om itting
+diﬀraction). In Fig. 1 we show three di ﬀerent curves: the angu-
+lar scattering function omitting di ﬀraction (solid, black curve),
+the angular scattering function with added contribution fr om
+diﬀraction by a narrow size distribution of spheres with diam-
+etersaround3µm(dashedcurve),andthefullangularscattering
+functioncomputedusingtheMietheoryforthisnarrowsized is-
+tribution(solid,greycurve).All curvesare plottedasa fu nction
+ofthescatteringangle,i.e.0◦isforward-scatteringwhile180◦is
+backward-scattering. Note that the curve obtained using re ﬂec-
+tionplusdiﬀractionisquitesimilartothatobtainedusingthefull
+Mie theory.It can be argued that 3 µm is rather large for the re-
+golith particles coveringthe grains we discuss below. Howe ver,
+itdoesallowthegrainstobecoveredbyorcomposedoftheser e-
+golith particles. The parametersderivedaboveare used as i nput
+for the optical properties of the regolith particles in the H apke
+theory.
+3.2. The grainsasa whole
+Theresultingsinglescatteringpropertiesoftheregolith particles
+obtained in the previous paragraph are inserted into the Hap ke
+theory. Note that we use the theory in its most simple form, i. e.
+we ignore eﬀects of macroscopic roughness and the opposition
+eﬀect.In thatcase, theonlyremainingparametersare thesing le
+scattering albedo and the angular scattering function of th e re-
+golith particles obtained above.As we will show below, we ca n
+ﬁndanalmostperfectﬁtwithoutconsideringadditionalpar ame-
+tersonmacroscopicroughnessandoppositione ﬀect.Thismeans
+that using only the measurements available so far, we cannot
+constrainthemanddecidedtousethemostsimpleformthatca n
+still reproduce the observations. Much more accurate obser va-
+tions of the angular scattering function of the Fomalhaut gr ains
+areneededtocompareallHapkeparameterstothosederivedf or,
+forexample,theMoonorsolarsystem asteroids.
+In Fig. 2 we show the resulting angular scattering function
+of the model Fomalhaut dust grains. The curves show the rel-
+ative intensity scattered at an angle θ. The grey area indicates
+the observablerangeofscatteringanglesforthe Fomalhaut sys-
+tem.NotethatthegrainswesimulateusingtheHapketheorya p-
+pear to be predominantlybackward-scattering(we see the cr es-
+cents of the grains), while the small regolith particles cov ering
+the surface of these larger grains are predominantly forwar d-
+scattering, as discussed above. The angular scattering fun ction
+resultingfromonlyusingtheHapkereﬂectancetheory,i.e. with-
+out including diﬀraction, is shown by the long dashed line. ToM. Min etal.:The lunar phases of dust grains orbitingFomalh aut 3
+Figure2. Angularscatteringfunctionsforlargedustgrains,showin gtherelativeintensityscatteredatascatteringangle θ.Thepure
+reﬂectance function (long-dashed curve) is given, and di ﬀraction eﬀects are added for 10, 30 and 100 µm grains (dotted, dashed
+and solid curves). The empirical scattering function of the Fomalhaut disk grains from Kalasetal. (2005) is also shown ( thick
+grey curve, albedo chosen to match the computations). The gr ey area indicates the observable range of scattering angles for the
+Fomalhautsystem.
+simulate the ﬁnite size of the dust grains, we added the con-
+tribution from diﬀraction using a diameter of the grains of 10,
+30 and 100µm in dotted, dashed and solid lines, respectively.
+For the diﬀraction, we took simple Fraunhofer di ﬀraction by
+a spherical aperture. To get rid of the resonance structures as-
+sociated with Fraunhofer di ﬀraction, averaging was performed
+over a narrow size distribution (a ﬂat distribution from 0.8 to
+1.2 times the average size). Grains of 100 µm diameter clearly
+ﬁt the best to the empirical angular scattering function (sh own
+by the thickgrayline) in agreementwith Dentetal. (2000). F or
+theobservedscatteringfunctionofthegrainsorbitingFom alhaut
+we used the Henyey-Greenstein parameterization obtained b y
+Kalasetal. (2005), where we simply switched the forward and
+backwardscatteringdirections,i.e.switchingtheasymme trypa-
+rametergfrom+0.2to−0.2.Theangularscatteringfunctionob-
+tainedinthiswaywasmultiplicativelyscaledtomatchthec om-
+putations. This scaling factor gives the single scattering albedo
+ofthegrains.Wefoundthatwhenweintegratedtheangularsc at-
+tering function resulting from the Hapke theory over the ang les
+accessible in the Fomalhautsystem (the area indicated in gr ay),
+the albedo of the grains averaged over the observable range o f
+angles is 5%. This is consistent with the low albedo found by
+Kalasetal. (2005).
+If we consider the assumptions on the regolith particles and
+the Hapke theory it is clear that the model we present is quite
+rough.However,aﬁrmoutcomeofthemodelisthatfortherang e
+ofscatteringanglesweobservethescatteringisdominated byre-
+ﬂectionratherthanbydi ﬀraction.Thisimplies,asshownabove,
+thatthegrainsarelargerthan100 µmindiameter.Thisoutcome
+doesnotdependontheassumptionsinthemodelandistherefo re
+a solidconclusion.
+4. Conclusion
+We conclude that the scattering surface in the disk around
+Formalhautisdominatedbygrainsofatleast100 µminsize.Our
+ﬁndingsagreewiththefactthattheinfraredspectrumisfea ture-
+less (Stapelfeldtetal., 2004),indicatingthat grainssma llerthanafewmicronareheavilydepletedinthesystem.Also,Dentet al.
+(2000)ﬁndthatlargegrainsdominatethethermalemission. Itis
+remarkable that such large grains are observed directly in o pti-
+cal light in an astronomical object. The reason for this is th at
+while the dust mass in many systems is dominated by large
+grains (see e.g. Wilneretal., 2005; Testi etal., 2003), the y are
+normallyover-shonebyacomponentofsmallgrains.Thiscom -
+ponent,thoughlessmassive,dominatestheopticalcrossse ction,
+and therefore appearance, of the disk. The fact that very lar ge
+grains are so visible on a global scale in the Formalhaut disk
+meansthatsmallgrainshavebeencleanedoutfromthisdiske x-
+tremely eﬃciently, and that all there is left are these very large
+grains,directlyprobedbyreﬂectedstellar light.
+We concludethat we are observingthe transition part of pa-
+rameterspace,goingfromdustscatteringtoplanetesimalr eﬂec-
+tion. In fact, one might conclude that, almost 400 years afte r
+Galileo observed the crescent of Venus, we are seeing the cre s-
+centsofthelargedustgrainsin thediskaroundFomalhaut.
+Acknowledgements. We are indebted to the referee, Ludmilla Kolokolova, for
+constructive comments leading to asigniﬁcant improvement of the paper.
+References
+Dent, W. R. F., Walker, H. J., Holland, W. S., & Greaves, J. S. 2 000, MNRAS,
+314, 702
+Hapke, B.1981, J.Geophys. Res., 86, 3039
+Hapke, B.1984, Icarus, 59, 41
+Kalas, P.,Graham, J.R.,&Clampin, M. 2005, Nature, 435,106 7
+LeBouquin, J.-B.,Absil, O.,Benisty, M.,et al. 2009, A&A,4 98, L41
+Stapelfeldt, K.R.,Holmes, E.K.,Chen, C.,et al. 2004, ApJS ,154, 458
+Testi, L.,Natta, A.,Shepherd, D.S.,&Wilner, D.J.2003, A& A,403, 323
+vandeHulst,H.C.1957,LightScattering bySmallParticles (NewYork:Wiley)
+Wielaard, D. J., Mishchenko, M. I., Macke, A., & Carlson, B. E . 1997,
+Appl. Opt.,36, 4305
+Wilner, D. J., D’Alessio, P., Calvet, N., Claussen, M. J., & H artmann, L. 2005,
+ApJ,626, L109

@@ -1,0 +1,190 @@
+arXiv:1001.0365v1  [hep-ph]  3 Jan 2010J/ψandΥat high temperature
+I.M.Narodetskii, Yu.A.Simonov, and A.I.Veselov
+Institute of Theoretical and Experimental Physics, Moscow 117218, Russia
+Abstract
+We use the screened Coulomb potential with r-dependent coupling constant and the non–
+perturbative quark–antiquark potential derived within the Field Co rrelator Method (FCM)
+to calculate J/ψand Υ binding energies and melting temperatures in the deconﬁned ph ase
+of quark-gluon plasma.
+keywords: Quark-gluon plasma, non–perturbative potential, heavy mesons
+PACS:12.38Lg, 14.20Lq, 25.75Mq
+1 INTRODUCTION
+Since1986,thegold-platedsignatureofdeconﬁnement wasthoug httobeJ/ψsuppression[1].
+If Debye screening of the Coulomb potential above Tcis strong enough then J/ψproduction
+in A+A collisions will be suppressed. Indeed, applying the Bargmann co ndition [2] for the
+screened Coulomb potential
+VC(r) =−4
+3·αs(r)
+r·e−mdr, (1)
+wheremdis the Debye mass, we obtain the simple estimate for the number of, s ay,ccS–wave
+bound states
+n≤µc∞/integraldisplay
+0|VC(r)|rdr=4αs
+3·µc
+md, (2)
+whereµcis the constituent mass of the c-quark and for the moment we neglect the r-
+dependence of αs. Takingµc= 1.4 GeV and αs= 0.39 we conclude that if md≥0.7
+GeV, there is no J/ψbound state. Parenthetically, we note that no light or strange mes ons
+(µ∼300−500 MeV) survive. But this is not the full story.There is a signiﬁcant change of views on physical properties and und erlying dynamics of
+quark–gluon plasma (QGP), produced at RHIC, see e.g.[3] and references there in. Instead
+of behaving like a gas of free quasiparticles – quarks and gluons, the matter created in
+RHIC interacts much more strongly than originally expected. Also, t he interaction deduced
+from lattice studies is strong enough to support QQbound states. It is more appropriate
+to describe the non-perturbative (NP) properties of the QCD pha se close to Tcin terms
+remnants of the non–perturbative part of the QCD force rather than a strongly coupled
+Coulomb force.
+In the QCD vacuum, the NP quark-antiquark potential is V=σr. AtT≥Tc,σ= 0, but
+that does not mean that the NP potential disappears. In a recent paper [4] we calculated
+binding energies for the lowest QQandQQQeigenstates ( Q=c,b) aboveTcusing the NP
+QQpotential derived in the Field Correlator Method (FCM) [5] and the sc reened Coulomb
+potential with the strong coupling constant αs= 0.35 in Eq. (1). In this talk we extend our
+analysis to the case of the running αs(r).
+2 The Field Correlator Method as applied to ﬁnite T
+The NPQQpotential can be studied through the modiﬁcation of the correlato r functions,
+which deﬁne the quadratic ﬁeld correlators of the nonperturbativ e vaccuum ﬁelds
+<trFµν(x)Φ(x,0)Fλσ(0)>=Aµν;λσD(x)+Bµν;λσD1(x), (3)
+whereAµν;λσandBµν;λσare the two covariant tensors constructed from gµνandxµxν, Φ(x,0)
+is the Schwinger parallel transporter, xEuclidian.
+AtT≥Tc, one should distinguish the color electric correlators DE(x), DE
+1(x) and color
+magnetic correlators DH(x), DH
+1(x). AboveTc, the color electric correlator DE(x) that
+deﬁnes the string tension at T= 0 becomes zero [6] and, correspondingly, σE= 0. The color
+magnetic correlators DH(x) andDH
+1(x) do not produce static quark–antiquark potentials,
+they only deﬁne the spatial string tension σs=σHand the Debye mass md∝√σsthat
+grows with T.
+The main source of the NP static QQpotential at T≥Tcoriginates from the color–
+electric correlator function DE
+1(x)
+Vnp(r,T) =1/T/integraldisplay
+0dν(1−νT)r/integraldisplay
+0λdλDE
+1(x). (4)
+In the conﬁnement region the function DE
+1(x) was calculated in [7]
+DE
+1(x) =Bexp(−M0x)
+x, (5)
+whereB= 6αf
+sσfM0,αf
+sbeing the freezing value of the strong coupling constant to be
+speciﬁed later, σfis the sting tension at T= 0, and the parameter M0has the meaning of
+the gluelump mass. In what follows we take σf= 0.18 GeV2andM0= 1 GeV. Above Tcthe
+analytical form of DE
+1should stay unchanged at least up to T∼2Tc. The only change is
+2B→B(T) =ξ(T)B, where the factor ξ(T) =/parenleftBig
+1−0.36M0
+BT−Tc
+Tc/parenrightBig
+is determined by lattice
+data [9]. Integrating over λone obtains
+Vnp(r,T) =B(T)
+M01/T/integraldisplay
+0(1−νT)/parenleftBig
+e−νM0−e−√
+ν2+r2M0/parenrightBig
+dν=V(∞,T)−V(r,T) (6)
+Note thatV(∞,Tc)≈0.5 GeV that agrees with lattice estimate for the free quark-antiqua rk
+energy.
+In the framework of the FCM, the masses of heavy quarkonia are d eﬁned as
+MQ¯Q=m2
+Q
+µQ+µQ+E0(mQ,µQ), (7)
+E0(mQ,µQ) is an eigenvalue of the Hamiltonian H=H0+Vnp+VC,mQare the bare
+quark masses, µQare the auxiliary ﬁelds that are introduced to simplify the treatment of
+relativistic kinematics. The auxiliary ﬁelds are treated as c–number v ariational parameters
+to be found from the extremum condition imposed on MQ¯Qin Eq. (7). Such an approach
+allows for a very transparent interpretation of axiliary ﬁelds as the constituent masses that
+appear due to the interaction. Once mQis ﬁxed, the quarkonia spectrum is described. The
+dissociation points are deﬁned as those temperature values for wh ich the energy gap between
+V(∞,T) andE0disappears.
+3 Coulomb potential
+We use the perturbative screened Coulomb potential (1) with the r-dependent QCD cou-
+pling constant αs(r,T). Note that in the entire regime of distances for which at T= 0 the
+heavy quark potential can be described well by QCD perturbation t heoryαs(r,T) remains
+unaﬀected by temperature eﬀects at least up to T/lessorequalslant3Tcand agrees with the zero tempera-
+ture running coupling αs(r,0) =αs(r). For our purposes, we ﬁnd it convenient to deﬁne the
+r–dependent coupling constant in terms of the q2dependent constant αB(q2) calculated in
+the background perturbation theory (BPTh) [8]
+αs(r) =2
+π∞/integraldisplay
+0dqsinqr
+qαB(q2). (8)
+The formula for αB(q2) is obtained by solving the two-loop renormalization group equation
+for the running coupling constant in QCD:
+αB(q2) =4π
+β0t/parenleftbigg
+1−β1
+β02lnt
+t/parenrightbigg
+, t= lnq2+m2
+B
+Λ2
+V, (9)
+whereβiare the coeﬃcients of the QCD β-function.
+In Eq. (9) the parameter mB∼1 Gev has the meaning of the mass of the lowest
+hybrid excitation. The result can be viewed as arising from the intera ction of a gluon with
+3Table 1:J/ψabove the deconﬁnement region. V(∞,T) is the continuum threshold (a
+constant shift in the potential). Units are GeV or GeV−1.
+T/TcV(∞)µbE0−V(∞)r0MJ/ψ
+1 0.445 1.443 -0.011 8.23 3.235
+1.2 0.368 1.423 -0.003 10.07 3.171
+background vacuum ﬁelds. We employ the values Λ V= 0.36GeV, mB= 0.95GeV, which
+lie within the range determined in Ref. [10]. The result is consistent with the freezing of
+αB(r) with a magnitude 0.563 (see Table 4 of Ref. [11]. The zero temperat ure potential
+with the above choice of the parameters gives a fairly good descript ion of the quarkonium
+spectrum [10]. At ﬁnite temperature we utilize the information on mdin Eq. (1) from Ref.
+[12]. For pure-gauge SU(3) theory ( Tc= 275 MeV) mdvaries between 0.8 GeV and 1.4 GeV,
+whenTvaries between Tcand 2Tc.
+4 Results
+The solutions for the binding energy for the 1 S J/ψand Υ states are shown in Tables 1,
+2. In these Tables we present the constituent quark masses µQforccandbb, the diﬀerences
+εQ=E0−VQQ(∞), the mean squared radii r0=/radicalbig
+r2, and the masses of the QQmesons.
+We employ mc= 1.4 GeV and mb= 4.8 GeV. Note that, as in the conﬁnement region, the
+constituent masses µQonly slightly exceed bare quark masses mQthat reﬂect smallness of
+the kinetic energies of heavy quarks.
+AtT=Tcwe obtain the weakly bound ccstate that disappears at T∼1.3Tc. The
+charmonium masses lie in the interval 3.2 - 3.3 GeV, that agrees with th e results of Ref. [9].
+Note that immediately above Tcthe mass of the ccstate is about 0.2 GeV higher than that of
+J/ψ. As expected, the Υ state remains intact up to the larger tempera tures,T∼2.3Tc, see
+Table 2. The masses of the L = 0 bottomonium lie in the interval 9.7–9.8 G eV, about 0.2–0.3
+GeV higher than 9.460 GeV, the mass of Υ(1 S) atT= 0. AtT=Tcthebbseparationr0is
+0.25 fm that compatible with r0= 0.28 fm atT= 0. The 1S bottomoniium undergo very
+little modiﬁcation till T∼2Tc. The results agreewith those found previously for a constant
+αs= 0.35 [4]. We also mention that the melting temperatures for Ω cand Ωbcalculated in
+[4] practically coincide with those for J/ψand Υ.
+Our results for 1 S(J/ψ) are qualitatively agree with those of Refs. [13], [14] based on
+phenomenological QQpotentials identiﬁed with the free quark-antiquark energy measur ed
+on the lattice while our melting temperature for 1 S(Υ) is much smaller than T∼(4−6)Tc
+found in Ref. [14].
+This work was supported in part by RFBR Grants # 08-02-00657, # 0 8-02-00677, # 09-
+02-00629 and by the grant for scientiﬁc schools # NSh.4961.2008.2.
+4Table 2: 1S bbstate above the deconﬁnement region.
+T/TcV(∞,T)µbE0(T)−V(∞,T)r0Mbb
+1 0.445 4.948 -0.255 1.39 9.796
+1.3 0.332 4.922 -0.158 1.69 9.777
+1.6 0.237 4.894 -0.084 2.23 9.755
+2.0 0.134 4.854 -0.022 4.23 9.712
+2.2 0.090 4.831 -0.006 6.77 9.684
+2.3 0.070 4.821 -0.002 8.32 9.668
+References
+[1] T. Matsui and H. Satz, Phys. Lett. B178, 416 (1986)
+[2] V. Bargmann, Proc. Nat. Acad. Sci. (USA), 38961 (1952)
+[3] M. J. Tannenbaum, Rep. Prog. Phys. 69, 2005 (2006)
+[4] I. M. Narodetskiy, Yu. A. Simonov, A. I. Veselov, JETP Lett. 90, 232 (2009) [Pisma
+Zh. Eksp. Teor. Fiz. 90, 254 (2009)];
+[5] for a recent review see A. V. Nefediev, Yu. A. Simonov, M. A. Tru sov, Int. J. Mod.
+Phys.E18, 549 (2009) and references therein
+[6] Yu. A. Simonov, JETP Lett. 54, 249 (1991); Phys. At. Nucl. 58, 309 (1995)
+[7] Yu. A. Simonov, Phys. Lett. B 619, 293 (2005)
+[8] Yu. A. Simonov, Phys. Atom. Nucl. 58, 107 (1995), [Yad. Fiz. 58, 113 (1995)].
+[9] A. DiGiacomo, E. Meggiolaro, Yu. A. Simonov, and A. I. Veselov, Ph ys. Atom. Nucl.
+70, 908 (2007)
+[10] A. M. Badalian and D. S. Kuzmenko, Phys. Rev. D 65, 016004 (2002).
+[11] R. Ya. Kezerashvili, I. M. Narodetskiy, A. I. Veselov, Phys. Rev. D 79, 034003 (2009)
+[12] N. O. Agasian, Phys. Lett. B 562, 257 (2003), [arXiv:hep-ph/0303127].
+[13] D. Blaschke, O. Kaczmarek, E. Laermann, V. Yudichev, Eur. P hys. J. C 43, 81 (2005)
+[14] W. M. Alberico, A. Beraudo, A. De Pace, and A. Molinari, arXiv: he p-ph/0507084
+5

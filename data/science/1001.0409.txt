@@ -1,0 +1,120 @@
+arXiv:1001.0409v6  [math.HO]  15 Mar 2011COUNTING IRREDUCIBLE POLYNOMIALS OVER FINITE
+FIELDS USING THE INCLUSION-EXCLUSION PRINCIPLE
+SUNIL K. CHEBOLU AND J ´AN MIN ´AˇC
+Abstract. C. F. Gauss discovered a beautiful formula for the number of
+irreducible polynomials of a given degree over a ﬁnite ﬁeld. Using just very
+basic knowledge of ﬁnite ﬁelds and the inclusion-exclusion formula, we show
+how one can see the shape of this formula and its proof almost i nstantly.
+Why there are exactly
+1
+30(230−215−210−26+25+23+22−2)
+irreducible monic polynomials of degree 30 over the ﬁeld of t wo elements? In
+this note we will show how one can see the answer instantly usi ng just very basic
+knowledge of ﬁnite ﬁelds and the well-known inclusion-excl usion principle.
+To set the stage, let Fqdenote the ﬁnite ﬁeld of qelements. Then in general,
+the number of monic irreducible polynomials of degree nover the ﬁnite ﬁeld Fq
+is given by Gauss’s formula
+1
+n/summationdisplay
+d|nµ(n/d)qd,
+wheredruns over the set of all positive divisors of nincluding 1 and n, andµ(r)
+is the M¨ obius function. (Recall that µ(1) = 1 and µ(r) evaluated at a product
+of distinct primes is 1 or -1 according to whether the number o f factors is even
+or odd. For all other natural numbers µ(r) = 0.) This beautiful formula is
+well-known and was discovered by Gauss [2, p. 602-629] in the case when qis a
+prime.
+We will present a proof of this formula that uses only element ary facts about
+ﬁnite ﬁelds and the inclusion-exclusion principle. Our app roach oﬀers the reader
+a new insight into this formula because our proof gives a prec ise ﬁeld theoretic
+meaning to each summand in the above formula. The classical p roof [3, p. 84]
+which uses the M¨ obius’ inversion formula does not oﬀer this i nsight. Therefore
+we hope that students and users of ﬁnite ﬁelds may ﬁnd our appr oach helpful.
+It is surprising that our simple argument is not available in textbooks, although
+it must be known to some specialists.
+Date: March 17, 2011.2 SUNIL K. CHEBOLU AND J ´AN MIN ´AˇC
+Proof of Gauss’s formula Before we present our proof we collect some basic
+facts about ﬁnite ﬁelds that we will need. These facts and the ir proofs can be
+found in almost any standard algebra textbook that covers ﬁn ite ﬁelds. See for
+example [1, Chapter 14.3], [3, Chapter 7.1, 7.2], or [4, Chap ter 20.1].
+(1) A ﬁnite ﬁeld of order qexists if and only if qis a prime power. Moreover,
+such a ﬁeld is unique up to isomorphism, and is denoted by Fq.
+(2)Fqnis the splitting ﬁeld of any irreducible polynomial p(x) of degree n
+overFq. (This means p(x) factors into linear factors over Fqnbut not
+over any smaller subﬁeld of Fqn.)
+(3) The roots of an irreducible polynomial over Fqare always distinct.
+(4) No two distinct irreducible polynomials over Fqcan have a common root.
+(5)Fqa⊆Fqbif and only adividesb.
+Withthesebasicfactsunderourbeltweproceedtoshowthatt hetotal number
+of irreducible monic polynomials of degree noverFqis equal to
+1
+n/summationdisplay
+d|nµ(n/d)qd.
+The case n= 1 is easy because every degree one monic polynomial is irred ucible.
+In fact, the total number of degree one monic polynomials ove rFqis equal to q,
+and this is exactly what we get from the above formula when we p lug inn= 1.
+Therefore for the rest of the proof we will assume that n >1. LetPndenote
+the collection of all irreducible monic polynomials of degr eenoverFqand let
+Rnbe the union of all the roots of all the polynomials in Pn. Note that fact (2)
+ensures that the roots thus obtained are contained in Fqn. Moreover, using facts
+(3) and (4) we conclude that Rnis the disjoint union of n-element sets, one for
+each polynomial in Pn. Thus,
+|Rn|=n|Pn|.
+Therefore, it is enough to compute |Rn|. To this end, observe that
+Rn={αinFqn|[Fq(α):Fq] =n},
+={αinFqn|αis not contained in any proper subﬁeld of Fqn},
+={αinFqn|αis not contained in any maximal proper subﬁeld of Fqn}
+Letn=uavbwc···be the prime factorization of nwithrdistinct prime
+factors (recall that n >1). Then the maximal subﬁelds of Fqnby fact (4) are of
+the form
+Fu=Fqn
+u,Fv=Fqn
+v,Fw=Fqn
+w,···.
+Then by the third interpretation of Rngiven above, we have
+|Rn|=|(Fu∪Fv∪Fw···)c|COUNTING IRREDUCIBLE POLYNOMIALS OVER FINITE FIELDS 3
+where the complement is taken in the ﬁeld Fqn. Fact (4) implies that the lattice
+of subﬁelds of Fqnthat contain Fqis isomorphic to the lattice of divisors of n.
+Thus, we have Fu∩Fv=Fqn
+uvandFu∩Fv∩Fw=Fqn
+uvw, etc.
+The cardinality of Rncan now be computed using the inclusion-exclusion
+principle as follows.
+|Rn|=qn
+−qn
+u−qn
+v−qn
+w−···
++qn
+uv+qn
+uw+qn
+vw+···
+···
++(−1)rqn
+uvw···.
+Finally, the formula for |Pn|takes the desired form when we divide |Rn|byn
+and use the M¨ obius function.
+We end by pointing out that if one is interested in counting th e cardinality of
+all irreducible polynomials of degree n(not necessarily monic) over Fqthen we
+simply multiply |Pn|byq−1. This is because every such polynomial p(x) can
+be uniquely written as αr(x) whereαis a non-zero element of Fqandr(x) is an
+irreducible monic polynomial of the same degree.
+Acknowledgements. We would like to thank our students at Illinois State
+University and University of Western Ontario for their insp iration and insistence
+on penetrating mysteries of ﬁnite ﬁelds. We also would like t o thank Fusun
+Akman, Micheal Dewar, and Alan Koch for helping us improve th e exposition
+through their interesting and very encouraging comments on this paper. Finally,
+we would like to thank the anonymous referee for their sugges tions to improve
+the exposition.
+References
+[1] D.S. Dummit and R. M. Foote, Abstract algebra, third edit ion. John Wiley & Sons, Inc.,
+Hoboken, NJ, 2004.
+[2] C. F. Gauss, Untersuchungen ¨Uber H¨ ohere Arithmetik, second edition, reprinted, Chels ea
+publishing company, New York 1981.
+[3] K. Ireland and M. Rosen, A classical introduction tomode rn number theory, second edition,
+Springer-Verlag, GTM Vol 84 (second edition) 1990.
+[4] T. W. Judson, Abstract Algebra: Theory and Applications , PWS-Kent, Boston, 1994.
+Department of Mathematics, Illinois State University, Nor mal, IL 61790, USA
+E-mail address :schebol@ilstu.edu
+Department of Mathematics, University of Western Ontario, London, ON N6A
+5B7, Canada
+E-mail address :minac@uwo.ca

@@ -1,0 +1,164 @@
+arXiv:1001.0249v2  [math.HO]  11 Jan 2010On Taylor seriesexpansionof(1 +z)Afor|z|>1
+AkhilaRaman
+University ofCalifornia at Berkeley, CA-94720. Email: akh ila.raman@berkeley.edu. Ph: 510-540-5544
+Abstract
+ItiswellknownthattheTaylorseriesexpansionof(1 +z)Adoesnotconvergefor |z|>1where
+A is a realnumberwhichisnot equalto zeroora positiveinteg er. A limited seriesexpansionof
+thisexpressionisobtainedin thispaperfor |z|>1asaproductofconvergentseries.
+Keywords:
+1. Introduction
+Itiswell knownthattheTaylorseriesexpansionof(1 +z)Aisgivenby
+(1+z)A=∞/summationdisplay
+n=0/parenleftBiggA
+n/parenrightBigg
+zn(1)
+for|z|<1 where/parenleftBigA
+n/parenrightBig
+is the binomial choose function. It is well known that the ser ies ex-
+pansion does not converge for |z|>1 where A is a real number which is not equal to zero or a
+positiveinteger.
+We could obtain a limited series expansion for |z|>1 by writing the above expression as
+follows
+(1+z)A=(1+z
+2+z
+2)A=(1+z
+2)A(1+z
+2
+(1+z
+2))A=(1+z
+2)A(1+z
+z+2)A(2)
+The second term in the above equation has a convergent series representation, given that
+|z
+z+2|<1. If|z
+2|>1,we canwrite
+(1+z
+2)A=(1+z
+4)A(1+z
+z+4)A(3)
+Repeatingthis procedureiteratively,if m0is the minimumvaluefor which |z
+2m0|<1, we can
+write
+(1+z)A=(1+z
+2m0)Am0/productdisplay
+r=1(1+z
+z+2r)A(4)
+Eachofthetermsintheaboveproductoftermshasaconvergen tseriesrepresentation. Given
+that we can write the convergent series expansion for each of the terms above as (1 +z
+2m0)A=
+Preprint submitted to Number Theory November 15, 2018/summationtext∞
+n=0/parenleftBigA
+n/parenrightBig
+(z
+2m0)nand(1+z
+(z+2r))A=/summationtext∞
+m=0/parenleftBigA
+m/parenrightBig
+(z
+(z+2r))m,where/parenleftBigA
+n/parenrightBig
+representstheChoosefunction[1],
+we havethe seriesexpansionfor (1+z)Aexpressedasa productofconvergentseries, which
+convergesfor|z|>1 asfollows:
+(1+z)A=[∞/summationdisplay
+n=0/parenleftBiggA
+n/parenrightBigg
+(z
+2m0)n][m0/productdisplay
+r=1∞/summationdisplay
+m=0/parenleftBiggA
+m/parenrightBigg
+[z
+z+2r]m] (5)
+2. Section2
+Let us take the case of m0=1 for 1<|z|<2. Expanding the term1
+(z+2r)min the above
+equation5asTaylorseriesaroundapoint z=0, wehavefor m>0
+1
+(z+2r)m=∞/summationdisplay
+j=0b(j,r,m)zj(6)
+whereb(0,r,m)=1
+(2r)mandb(j,r,m)isgivenasfollowsfor j=1,2,3...
+b(j,r,m)=/parenleftBiggm+j−1
+j/parenrightBigg(−1)j
+(2r)m+j; (7)
+Form=0,1
+(z+2r)m=1. Nowwecanwritethetheseriesexpansionof(1 +z)Awhichconverges
+for1<|z|<2,asaproductoftermsexpandedin Taylorseriesasfollows:
+(1+z)A=[∞/summationdisplay
+n=0/parenleftBiggA
+n/parenrightBigg
+(z
+2)n][∞/summationdisplay
+m=0/parenleftBiggA
+m/parenrightBigg
+zm∞/summationdisplay
+j=0b(j,1,m)zj] (8)
+Forthecaseof m0>1 for|z|>2,wecanwrite asfollows:
+(1+z)A=[∞/summationdisplay
+n=0/parenleftBiggA
+n/parenrightBigg
+(z
+2m0)n][∞/summationdisplay
+m=0/parenleftBiggA
+m/parenrightBigg
+zm∞/summationdisplay
+j=0b(j,m0,m)zj][m0−1/productdisplay
+r=1∞/summationdisplay
+m=0/parenleftBiggA
+m/parenrightBigg
+zm[1
+z+2r]m] (9)
+Thelast termintheaboveequation(1
+z+2r)mcanbe expressedasfollows:
+(1
+z+2r)m=(z+2r)−m=2−r∗m(1+z
+2r)−m(10)
+The term(1+z
+2r)−mcan be recursively expanded using Eq.9 by substituting z→z
+2rand
+A→−mandm0→m0−rtoobtaintheseriesexpansionof(1 +z)Awhichconvergesfor |z|>1
+asa productoftermsexpandedinTaylorseries.
+3. Section3
+Letusconsiderthefollowingbinomialexpression
+2(x+y)A(11)
+whereAisarealnumberwhichisnotequaltozeroorapositiveintege randz=x
+yand|z|>1.
+Writing(x+y)A=(1+x
+y)AyA=(1+z)AyA, wecanwritetheseriesexpansionofthisexpression
+usingresultsobtainedin equations5 and9 asfollows:
+(x+y)A=yA∞/summationdisplay
+n=0/parenleftBiggA
+n/parenrightBigg
+(z
+2m0)nm0/productdisplay
+r=1∞/summationdisplay
+m=0/parenleftBiggA
+m/parenrightBigg
+[z
+z+2r]m(12)
+(x+y)A=yA[∞/summationdisplay
+n=0/parenleftBiggA
+n/parenrightBigg
+(z
+2m0)n][∞/summationdisplay
+m=0/parenleftBiggA
+m/parenrightBigg
+zm∞/summationdisplay
+j=0b(j,m0,m)zj][m0−1/productdisplay
+r=1∞/summationdisplay
+m=0/parenleftBiggA
+m/parenrightBigg
+zm[1
+z+2r]m] (13)
+4. Conclusion
+It has been shown that the Taylor series expansionof (1 +z)Acan be expandedas a product
+ofconvergentseries,for |z|>1whereAisa realnumberwhichisnotequalto zeroora positiv e
+integer.
+5. Acknowledgements
+The author would like to thank Michael Schlosser(Universit at Wien) for his constructive
+commentsonthepaper.
+6. References
+[1] Abramowitz, M. and Stegun, I. A. (Eds.). Handbook of Math ematical Functions with
+Formulas,Graphs,andMathematicalTables, 9thprinting. N ewYork: Dover,1972.
+3

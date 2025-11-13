@@ -1,0 +1,130 @@
+arXiv:1001.0530v1  [math.CV]  4 Jan 2010LOCALLY CONFORMALLY K ¨AHLER METRICS
+ON KATO SURFACES
+MARCO BRUNELLA
+Abstract. We show that every Kato surface admits a locally confor-
+mally K¨ ahler metric.
+In this note we shall prove the following theorem, which impr oves and
+completes our previous result [Bru].
+Theorem 1. Every Kato surface admits a locally conformally K¨ ahler met -
+ric.
+Wereferto[Bel]and[Bru], andreferencestherein, forsome backgroundon
+locally conformally K¨ ahler metrics on complex surfaces. W e just recall the
+followingfact, whichwillbeusedbelow: acomplexsurface Sadmitsalocally
+conformally K¨ ahler metric if and only if its universal cove ring/tildewideSadmits a
+K¨ ahler metric ωwhich transforms conformally under the action of the deck
+transformations ( g∗(ω) =cgω,cg∈R+, for every deck transformation g).
+In particular, we observe the following consequence of Theo rem 1.
+Corollary 2. The universal covering of a Kato surface is K¨ ahlerian.
+It would be interesting to know if this last statement holds f orevery
+compact complex surface. Note, however, that there are comp act complex
+surfaces which do not admit locally conformally K¨ ahler met rics [Bel], hence
+ageneralization of Corollary 2 to any compact complex surfa ceshouldfollow
+a diﬀerent path.
+The proof of Theorem 1 is based on a point of view already explo ited in
+[Bru,§2], but we shall not need the stability result proved in [Bru, §3].
+Kato surfaces. Let us brieﬂy recall the deﬁnition and the construction of
+Kato surfaces [Kat] [Dlo]. Let Brdenotes the (open) ball of radius rinC2,
+and setB=B1. Take a sequence of blow-ups
+π:/hatwideB−→B
+over the origin 0 ∈B, subject to the following constraint: at each step, we
+blow-up a point belonging to the exceptional divisor create d at the previous
+step. Take also a holomorphic (up to the boundary) embedding
+σ:B−→/hatwideB
+which sends the origin to a point belonging to the last except ional divisor
+created by π. Set
+W=/hatwideB\σ(B).
+1METRICS ON KATO SURFACES 2
+Wecangluetogetherthetwoboundarycomponentsof ∂W= (∂/hatwideB)∪(σ(∂B))
+using the real analytic CR-diﬀeomorphism
+σ◦π:∂/hatwideB−→σ(∂B).
+The result is a minimal compact complex surface S=Sπ,σ, with ﬁrst Betti
+numberequal to 1and second Betti numberequal to thenumbero f blow-ups
+inπ. It is called a Kato surface , or asurface with a global spherical shell .
+Of course, such a surface cannot be K¨ ahlerian, for its ﬁrst B etti number is
+odd.
+The following remark is very simple, yet of capital importan ce for our
+construction. For every r∈(0,1], the embedding σsendsBrinto/hatwideBr=
+π−1(Br): indeed, the composite map π◦σ:B→Bﬁxes the origin, and
+hence by Schwarz Lemma it maps BrinsideBr, for every r≤1, which
+precisely means that σ(Br)⊂π−1(Br). If we set
+Wr=/hatwideBr\σ(Br),
+then we can glue, as before, the two components of ∂Wrusingσ◦π. The
+result is the samecompact complex surface S. Indeed, the open subsets
+Wr,r∈(0,1], may be understood as diﬀerent fundamental domains in the
+same universal covering /tildewideSfor the same action of the deck transformations.
+This phenomenon is also at the origin of the fact that the clas siﬁcation of
+Kato surfaces can be reduced to the classiﬁcation of germsof contracting
+mappings of the type π◦σ[Dlo]. In fact, we may replace the balls Brwith
+any domain U⊂Bcontaining 0 and such that σ(U)⊂π−1(U).
+A K¨ ahler metric on /hatwideB.On/hatwideB, there obviously exists a K¨ ahler form ω0,
+smooth up to the boundary. In order to prove Theorem 1, we ﬁrst ly modify
+ω0on a neighbourhood of σ(0).
+Considerσ∗(ω0). It is a K¨ ahler form on B, which admits a potential:
+σ∗(ω0) = ddcϕ
+withϕsmooth and strictly plurisubharmonic on B. Up to adding an aﬃne
+(hencepluriharmonic)function,wemayassumethat ϕ(0) = 0and(d ϕ)(0) =
+0. The Taylor expansion of ϕat 0 has the form
+ϕ(z) =L(z,z)+ReM(z,z)+O(/bardblz/bardbl3)
+whereLis the Levi form at 0 and Mis a homogeneous polynomial of degree
+2. Because Re Mis pluriharmonic, we may replace ϕwithϕ−ReM, and
+we obtain in this way a new potential for σ∗(ω0), still denoted by ϕ, whose
+Taylorexpansionat0is L(z,z)+O(/bardblz/bardbl3). Thismeansthat ϕhasaminimum
+point at 0, of Morse type.
+We can choose λ>0 and 0<r<r′<1 such that the function
+ρ(z) =λ(1+/bardblz/bardbl2)
+is greater than ϕonBrand smaller than ϕon∂Br′. The function /tildewideϕonB
+deﬁned by /tildewideϕ=ϕonB\Br′and/tildewideϕ= regularized maximum between ϕandMETRICS ON KATO SURFACES 3
+ρonBr′is therefore smooth, strictly plurisubharmonic, and equal toρon
+some neighbourhood of Br.
+TheK¨ ahler form σ∗(ddc/tildewideϕ) onσ(B) glues toω0outsideσ(B), giving a new
+K¨ ahler form ω1on/hatwideB. By construction, this K¨ ahler form has the property:
+σ∗(ω1) = ddcρonBr.
+Another K¨ ahler metric on /hatwideBr.We now modify the previous ω1on a
+neighbourhood of ∂/hatwideBr. Chooses<rsuﬃciently close to r, so that /hatwideBsstill
+containsσ(Br), i.e. (π◦σ)(Br)⊂Bs.
+divisorB
+BsBrBrπ
+σB
+exceptional
+Take a potential ψfor the direct image π∗(ω1):
+π∗(ω1) = ddcψonB.
+Note thatψis necessarily singular at 0, but it doesn’t matter. We can
+choosec1∈R+andc2∈Rsuch that the function
+c1ρ+c2
+is greater than ψon∂Brand smaller than ψon∂Bs. The function /tildewideψ
+onBrdeﬁned by /tildewideψ=ψonBsand/tildewideψ= regularized maximum between
+ψandc1ρ+c2onBr\Bsis therefore smooth, strictly plurisubharmonic,
+equal toc1ρ+c2on some neighbourhood of ∂Brand equal to ψon some
+neighbourhood of Bs.
+By pulling-back /tildewideψwithπand taking ddc, we get on /hatwideBra new K¨ ahler
+formω2with the following two properties:
+(1)ω2=ω1on/hatwideBs⊃σ(Br), so thatσ∗(ω2) = ddcρonBr;
+(2)π∗(ω2) = ddc(c1ρ+c2) =c1ddcρon some neighbourhood of ∂Br.METRICS ON KATO SURFACES 4
+Conformal glueing. We can now complete the proof of Theorem 1. The
+glueing map σ◦π:/hatwideBr→σ(Br) satisﬁes the conformal property
+(σ◦π)∗(ω2|U) =1
+c1ω2|V
+whereU⊂σ(Br) andV⊂/hatwideBrare suitable neighbourhoods of σ(∂Br) and
+∂/hatwideBr. Because the Kato surface Sis obtained by identifying these two neigh-
+bourhoods via σ◦π, we get on Sa locally conformally K¨ ahler metric.
+Remark. Becausec1can be chosen arbitrarily large, we see also that, in
+the terminology of [Bru, Rem. 9], the open subset I(S)⊂(0,1) contains
+an interval (0 ,ε) (withε, in principle, depending on S). We do not know if
+I(S)isan interval.
+Remark. Theprevious construction can bedone parametrically: if {St}t∈D
+is a family of Kato surfaces, then, up to restricting the base D, we can ﬁnd
+a family of locally conformally K¨ ahler metrics {ωt}t∈D, smoothly depending
+ont. This is, however, slightly weaker than the stability resul t of [Bru],
+which states that everylocally conformally K¨ ahler metric ω0onS0extends
+to a family {ωt}t∈D.
+References
+[Bel] F. A. Belgun, On the metric structure of non-K¨ ahler complex surfaces , Math. Ann.
+317 (2000), 1–40
+[Bru] M. Brunella, Locally conformally K¨ ahler metrics on certain non-K¨ ahle rian surfaces ,
+Math. Ann. 346 (2010), 629–639
+[Dlo] G. Dloussky, Structure des surfaces de Kato , M´ em. Soc. Math. France (N.S.) No.
+14 (1984)
+[Kat] M. Kato, Compact complex manifolds containing “global” spherical s hells, in Proc.
+Int. Symp. on Algebraic Geometry (Kyoto, 1977), Kinokuniya (1978), 45–84
+Marco Brunella, Institut de Math ´ematiques de Bourgogne – UMR 5584 –
+9 Avenue Savary, 21078 Dijon, France

@@ -1,0 +1,594 @@
+arXiv:1001.0034v1  [math.NT]  4 Jan 2010NEW IDENTITIES INVOLVING q-EULER
+POLYNOMIALS OF HIGHER ORDER
+T. Kim AND Y. H. Kim
+Abstract. In this paper, we present new generating functions which are relat ed to
+q-Euler numbers and polynomials of higher order. From these genera ting functions, we
+give new identities involving q-Euler numbers and polynomials of higher order.
+§1. Introduction/ Preliminaries
+LetCbe the complex number ﬁeld. We assume that q∈Cwith|q|<1 and
+theq-number is deﬁned by [ x]q=1−qx
+1−qin this paper. The q-factorial is given by
+[n]q! = [n]q[n−1]q···[2]q[1]qand theq-binomial formulae are known that
+(x:q)n=n/productdisplay
+i=1(1−xqi−1) =n/summationdisplay
+i=0/parenleftbiggn
+i/parenrightbigg
+qq(i
+2)(−x)i,(see [3, 14, 15]) ,
+and
+1
+(x:q)n=n/productdisplay
+i=1/parenleftbigg1
+1−xqi−1/parenrightbigg
+=∞/summationdisplay
+i=0/parenleftbiggn+i−1
+i/parenrightbigg
+qxi,(see [3, 5, 14, 15]) ,
+where/parenleftbign
+i/parenrightbig
+q=[n]q!
+[n−i]q![i]q!=[n]q[n−1]q···[n−i+1]q
+[i]q!.
+The Euler polynomials are deﬁned by2
+et+1ext=/summationtext∞
+n=0En(x)tn
+n!, for|t|< π. In the
+special case x= 0,En(=En(0)) are called the n-th Euler numbers. In this paper, we
+consider the q-extensions of Euler numbers and polynomials of higher orde r. Barnes’
+multiple Bernoulli polynomials are also deﬁned by
+(1)
+tr
+/producttextr
+j=1(eajt−1)ext=∞/summationdisplay
+n=0Bn(x,r|a1,···,ar)tn
+n!,where|t|<max
+1≤i≤r2π
+|ai|, (see [1, 14]).
+Key words and phrases. : multiple q-zeta function, q-Euler numbers and polynomials, higher
+order q-Euler numbers, Laurent series, Cauchy integral.
+2000 AMS Subject Classiﬁcation: 11B68, 11S80
+The present Research has been conducted by the research Grant of Kw angwoon University in 2010
+Typeset by AMS-TEX
+1In one of an impressive series of papers (see [1, 6, 14]), Barn es developed the so-called
+multiple zeta and multiple gamma function. Let a1,···,aNbe positive parameters.
+Then Barnes’ multiple zeta function is deﬁned by
+ζN(s,w|a1,···,aN) =/summationdisplay
+m1,···,mN=0(w+m1a1+···+mNaN)−s,(see [1]),
+whereℜ(s)> N,ℜ(w)>0. Form∈Z+, we have
+ζN(−m,w|a1,···,aN) =(−1)mm!
+(N+m)!BN+m(w,N|a1,···,aN).
+In this paper, we consider Barnes’ type multiple q-Euler numbers and polynomials.
+The purpose of this paper is to present new generating functi ons which are related
+toq-Euler numbers and polynomials of higher order. From the Mel lin transformation
+of these generating functions, we derive the q-extensions o f Barnes’ type multiple
+zeta functions, which interpolate the q-Euler polynomials of higher order at negative
+integer. Finally, we give new identities involving q-Euler numbers and polynomials of
+higher order.
+§2.q-Euler numbers and polynomials of higher order
+In this section, we assume that q∈Cwith|q|<1. Letx,a1,... ,a rbe complex
+numbers with positive real parts. Barnes’ type multiple Eul er polynomialsare deﬁned
+by
+(2)2r
+/producttextr
+j=1(eajt+1)ext=∞/summationdisplay
+n=0E(r)
+n(x|a1,... ,a r)tn
+n!,for|t|<max
+1≤i≤rπ
+|wi|,(see [6]),
+andE(r)
+n(a1,... ,a r)(=E(r)
+n(0|a1,... ,a r)) are called the n-th Barnes’ type multiple
+Euler numbers. First, we consider the q-extension of Euler polynomials. The q-Euler
+polynomials are deﬁned by
+(3)Fq(t,x) =∞/summationdisplay
+n=0En,q(x)tn
+n!= [2]q∞/summationdisplay
+m=0(−q)me[m+x]qt,(see [8, 11, 13, 14, 15]) .
+From (3), we have
+En,q(x) =[2]q
+(1−q)nn/summationdisplay
+l=0/parenleftbiggn
+l/parenrightbigg(−1)lqlx
+(1+ql+1).
+In the special case x= 0,En,q(=En,q(0)) are called the n-thq-Euler numbers. From
+(3), we can easily derive the following relation.
+E0,q= 1,andq(qE+1)n+En,q= 0 ifn≥1,(see [8, 16, 17]) ,
+2where we use the standard convention about replacing EkbyEk,q.It is easy to show
+that
+lim
+q→1Fq(t,x) =2
+et+1ext=∞/summationdisplay
+n=0En(x)tn
+n!,(see [2, 3, 19-23]) ,
+whereEn(x) are the n-th Euler polynomials. For r∈N, the Euler polynomials of
+orderris deﬁned by
+(4)/parenleftbigg2
+et+1/parenrightbiggr
+ext=∞/summationdisplay
+n=0E(r)
+n(x)tn
+n!,for|t|< π.
+Now we consider the q-extension of (4).
+(5)F(r)
+q(t,x) = [2]r
+q∞/summationdisplay
+m1,...,m r=0(−q)m1+···+mre[m1+···+mr+x]qt=∞/summationdisplay
+n=0E(r)
+n,q(x)tn
+n!,
+whereE(r)
+n,q(x) are called the n-thq-Euler polynomials of order r(see [10-15]). From
+(5), we can derive
+(6) E(r)
+n,q(x) =[2]r
+q
+(1−q)nn/summationdisplay
+l=0/parenleftbiggn
+l/parenrightbigg(−1)lqlx
+(1+ql+1)r.
+By (5) and (6), we see that
+(7) F(r)
+q(t,x) = [2]r
+q∞/summationdisplay
+m=0/parenleftbiggm+r−1
+m/parenrightbigg
+(−q)me[m+x]qt.
+Thus, we note that lim q→1F(r)
+q(t,x) =/parenleftBig
+2
+et+1/parenrightBigr
+ext=/summationtext∞
+n=0E(r)
+n(x)tn
+n!.In the special
+casex= 0,E(r)
+n,q(=E(r)
+n,q(0)) are called the n-thq-Euler numbers of order r. By (5),
+(6) and (7), we obtain the following proposition.
+Proposition 1. Forr∈N, let
+F(r)
+q(t,x) = [2]r
+q/summationdisplay
+m1,...,m r=0(−q)m1+···+mre[m1+···+mr+x]qt=∞/summationdisplay
+n=0E(r)
+n,q(x)tn
+n!.
+Then we have
+E(r)
+n,q(x) =[2]r
+q
+(1−q)nn/summationdisplay
+l=0/parenleftbiggn
+l/parenrightbigg(−1)lqlx
+(1+ql+1)r= [2]r
+q∞/summationdisplay
+m=0/parenleftbiggm+r−1
+m/parenrightbigg
+(−q)m[m+x]n
+q.
+3From the Mellin transformation of F(r)
+q(t,x), we can derive the following equation.
+1
+Γ(s)/integraldisplay∞
+0F(r)
+q(−t,x)ts−1dt= [2]r
+q∞/summationdisplay
+m1,...,m r=0(−q)m1+···+mr
+[m1+···+mr+x]sq
+= [2]r
+q∞/summationdisplay
+m=0/parenleftbiggm+r−1
+m/parenrightbigg
+(−q)m1
+[m+x]sq, (8)
+wheres∈C,x/negationslash= 0,−1,−2,.... By (8), we can deﬁne the multiple q-zeta function
+related to q-Euler polynomials.
+Deﬁnition 2. Fors∈C,x∈Rwithx/negationslash= 0,−1,−2,..., we deﬁne the multiple q-zeta
+function related to q-Euler polynomials as
+ζq,r(s,x) = [2]r
+q∞/summationdisplay
+m1,...,m r=0(−q)m1+···+mr
+[m1+···+mr+x]sq.
+Note that ζq,r(s,x) is a meromorphic function in whole complex s-plane. From (8),
+we also note that
+ζq,r(s,x) = [2]r
+q∞/summationdisplay
+m=0/parenleftbiggm+r−1
+m/parenrightbigg
+(−q)m1
+[m+x]sq.
+By Laurent series and the Cauchy residue theorem in (5) and (8 ), we see that
+ζq(−n,x) =E(n)
+n,q(x),forn∈Z+.
+Therefore, we obtain the following theorem.
+Theorem 3. Forr∈N,n∈Z+, andx∈Rwithx/negationslash= 0,−1,−2,..., we have
+ζq(−n,x) =E(r)
+n,q(x).
+Letχbe the Dirichlet’s character with conductor f∈Nwithf≡1 (mod 2). Then
+the generalized q-Euler polynomial attached to χare considered by
+Fq,χ(x) =∞/summationdisplay
+n=0En,χ,q(x)tn
+n!= [2]q∞/summationdisplay
+m=0(−q)mχ(m)e[m+x]qt.
+From (3) and (9), we have
+En,χ,q(x) =[2]q
+[2]qff−1/summationdisplay
+a=0(−q)aχ(a)En,qf(x+a
+f).
+4In the special case x= 0,En,χ,q=En,χ,q(0) are called the n-th generated q-Euler
+number attached to χ.
+It is known that the generalized Euler polynomials of order rare deﬁned by
+(10) (2/summationtextf−1
+a=0(−1)aχ(a)eat
+eft+1)rext=∞/summationdisplay
+n=0E(r)
+n,χ(x)tn
+n!,
+for|t|<π
+f.
+We consider the q-extension of (10). The generalized q-Euler polynomials of order
+rattached to χare deﬁned by
+F(r)
+q,χ(t,x) = [2]r
+q∞/summationdisplay
+m1,...,m r=0(−q)m1+···+mr(r/productdisplay
+i=1χ(mi))e[m1+···+mr+x]qt
+=∞/summationdisplay
+n=0E(r)
+n,χ,q(x)tn
+n!,(see [14, 15]) . (11)
+Note that
+lim
+q→1F(r)
+q,χ(t,x) = (2/summationtextf−1
+a=0(−1)aχ(a)eat
+eft+1)r.
+By (11), we easily see that
+E(r)
+n,χ,q(x) =[2]r
+q
+(1−q)nn/summationdisplay
+l=0/parenleftbiggn
+l/parenrightbigg
+(−qx)lf−1/summationdisplay
+a1,...,ar=0(r/productdisplay
+j=1χ(aj))(−ql+1)/summationtextr
+i=1ai
+(1+q(l+1)f)r
+= [2]r
+q∞/summationdisplay
+m1,...,m r=0(−q)m1+···+mr(r/productdisplay
+i=1χ(mi))[m1+···+mr+x]n
+q.
+Fors∈C,x∈Rwithx/negationslash= 0,−1,−2,..., we have
+1
+Γ(s)/integraldisplay∞
+0F(r)
+q,χ(−t,x)ts−1dt
+= [2]r
+q∞/summationdisplay
+m1,...,m r=0(−q)m1+···+mr(/producttextr
+i=1χ(mi))
+[m1+···+mr+x]sq,(see [15]) . (12)
+From (12), we can consider the Dirichlet’s type multiple q-l-function as follows :
+Deﬁnition 4. Fors∈C,x∈Rwithx/negationslash= 0,−1,−2,..., we deﬁne the Dirichlet’s
+type multiple q-l-function as
+lq(s,x|χ) = [2]r
+q∞/summationdisplay
+m1,...,m r=0(−q)m1+···+mr(/producttextr
+i=1χ(mi))
+[m1+···+mr+x]sq,(see [15]) .
+By Laurent series and the Cauchy residue theorem in (11) and ( 12), we obtain the
+following theorem.
+5Theorem 5. Forn∈Z+, we have
+lq(−n,x|χ) =E(r)
+n,χ,q(x).
+Forh∈Zandr∈N, we consider the extended r-pleq-Euler polynomials.
+F(h,r)
+q(t,x) = [2]r
+q∞/summationdisplay
+m1,...,m r=0q/summationtextr
+j=1(h−j+1)mj(−1)/summationtextr
+j=1mje[m1+···+mr+x]qt
+=∞/summationdisplay
+n=0E(h,r)
+n,q(x)tn
+n!. (13)
+Note that
+lim
+q→1F(h,r)
+q(t,x) = (2
+et+1)rext=∞/summationdisplay
+n=0E(r)
+n(x)tn
+n!.
+From (13), we note that
+E(h,r)
+n,q(x) =[2]r
+q
+(1−q)nn/summationdisplay
+l=0/parenleftbiggn
+l/parenrightbigg(−qx)l
+(−qh−r+l+1:q)r
+= [2]r
+q∞/summationdisplay
+m=0/parenleftbiggm+r−1
+m/parenrightbigg
+q(−qh−r+1)m[m+x]n
+q. (14)
+By (14), we easily see that
+(15)F(h,r)
+q(t,x) = [2]r
+q∞/summationdisplay
+m=0/parenleftbiggm+r−1
+m/parenrightbigg
+q(−qh−r+1)me[m+x]qt,(see [11, 13, 14]) .
+Using the Mellin transform for F(h,r)
+q(t,x), we have
+1
+Γ(s)/integraldisplay∞
+0F(r)
+q(−t,x)ts−1dt
+= [2]r
+q∞/summationdisplay
+m1,...,m r=0(−1)m1+···+mrq/summationtextr
+j=1(h−j+1)mj
+[m1+···+mr+x]sq,(see [13, 14, 15]) ,(16)
+fors∈C,x∈Rwithx/negationslash= 0,−1,−2,.... Now we can deﬁne the extended q-zeta
+function associated with E(h,r)
+n,q(x).
+6Deﬁnition 6. Fors∈C,x∈Rwithx/negationslash= 0,−1,−2,..., we deﬁne the (h, q)-zeta
+function as
+ζ(h)
+q,r(s,x) = [2]r
+q∞/summationdisplay
+m1,...,m r=0(−1)m1+···+mrq/summationtextr
+j=1(h−j+1)mj
+[m1+···+mr+x]sq.
+Notethat ζ(h)
+q,r(s,x)isalsoa meromorphic function inwholecomplex s-plane. From
+(16) and (15), we note that
+(17) ζ(h)
+q,r(s,x) = [2]r
+q∞/summationdisplay
+m=0/parenleftbiggm+r−1
+m/parenrightbigg
+q(−qh−j+1)m1
+[m+x]sq.
+Using the Cauchy residue theorem and Laurent series in (16), we obtain the following
+theorem.
+Theorem 7. Forn∈Z+, we have
+ζ(h)
+q,r(−n,x) =E(h,r)
+n,q(x).
+We consider the extended r-ple generalized q-Euler polynomials as follows :
+F(h,r)
+q,χ(t,x)
+= [2]r
+q∞/summationdisplay
+m1,...,m r=0q/summationtextr
+j=1(h−j+1)mj(−1)/summationtextr
+j=1mj(r/productdisplay
+j=1χ(mj))e[m1+···+mr+x]qt(18)
+=∞/summationdisplay
+n=0E(h,r)
+n,χ,q(x)tn
+n!.
+By (18), we see that
+E(h,r)
+n,χ,q(x) =[2]r
+q
+(1−q)nf−1/summationdisplay
+a1,...,ar=0(−1)/summationtextr
+j=1aj(r/productdisplay
+j=1χ(aj))n/summationdisplay
+l=0/parenleftbiggn
+l/parenrightbigg(−1)lqlxq(h−j+l+1)aj
+(−q(h−r+l+1)f:qf)r
+=[2]r
+q
+[2]r
+qf[f]n
+qf−1/summationdisplay
+a1,...,ar=0(−1)/summationtextr
+j=1aj(r/productdisplay
+j=1χ(aj))q/summationtextr
+j=1(h−j+1)ajζ(h)
+qf,r(−n,x+/summationtextr
+j=1aj
+f).(19)
+Therefore, we obtain the following theorem.
+7Theorem 8. Forn∈Z+, we have
+E(h,r)
+n,χ,q(x)
+=[2]r
+q
+[2]r
+qf[f]n
+qf−1/summationdisplay
+a1,...,ar=0(−1)/summationtextr
+j=1aj(r/productdisplay
+j=1χ(aj))q/summationtextr
+j=1(h−j+1)ajζ(h)
+qf,r(−n,x+/summationtextr
+j=1aj
+f).
+From (18), we note that
+1
+Γ(s)/integraldisplay∞
+0F(h,r)
+q,χ(−t,x)ts−1dt
+= [2]r
+q∞/summationdisplay
+m1,...,m r=0q/summationtextr
+j=1(h−j+1)mj(/producttextr
+j=1χ(mj))(−1)m1+···+mr
+[m1+···+mr+x]sq, (20)
+wheres∈C,x∈Rwithx/negationslash= 0,−1,−2,....
+From (20), we deﬁne the Dirichlet’s type multiple ( h,q)-l-function associated with
+the generalized multiple q-Euler polynomials attached to χ.
+Deﬁnition 9. Fors∈C,x∈Rwithx/negationslash= 0,−1,−2,..., we deﬁne the Dirichlet’s
+type multiple q-l-function as follows :
+l(h)
+q(s,x|χ) = [2]r
+q∞/summationdisplay
+m1,...,m r=0q/summationtextr
+j=1(h−j+1)mj(/producttextr
+i=1χ(mi))(−1)m1+···+mr
+[m1+···+mr+x]sq.
+Note that l(h)
+q(s,x|χ) is a meromorphic function in whole complex plane. It is easy
+to show that
+l(h)
+q(s,x|χ)
+=[2]r
+q
+[2]r
+qf1
+[f]sqf−1/summationdisplay
+a1,...,ar=0(−1)/summationtextr
+j=1aj(r/productdisplay
+j=1χ(aj))q/summationtextr
+j=1(h−j+1)ajζ(h)
+qf,r(s,x+/summationtextr
+j=1aj
+f).
+By (19) and (20), we obtain the following theorem.
+Theorem 10. Forn∈Z+, we have
+l(h)
+q(−n,x|χ) =E(h,r)
+n,χ,q(x).
+Finally, we give the q-extension of Barnes’ type multiple Euler polynomials in (2 ).
+Forx,a1,... ,a r∈Cwith positive real part, let us deﬁne the Barnes’ type mutipl e
+8q-Euler polynomials in Cas follows :
+F(r)
+q(t,x|a1,... ,a r;b1,... ,b r)
+= [2]r
+q∞/summationdisplay
+m1,...,m r=0(−1)m1+···+mrq(b1+1)m1+···+(br+1)mre[a1m1+···+armr+x]t(21)
+=∞/summationdisplay
+n=0E(r)
+n,q(x|a1,... ,a r;b1,... ,b r)tn
+n!,
+whereb1,... ,b r∈Z. By (21), we see that
+E(r)
+n,q(x|a1,... ,a r;b1,... ,b r)
+=[2]r
+q
+(1−q)nn/summationdisplay
+l=0/parenleftbiggn
+l/parenrightbigg(−1)lqlx
+(1+qla1+b1+1)···(1+qlar+br+1)
+= [2]r
+q∞/summationdisplay
+m1,...,m r=0(−1)m1+···+mrq(b1+1)m1+···+(br+1)mr[a1m1+···+armr+x]n
+q.
+From (21), we note that
+1
+Γ(s)/integraldisplay∞
+0F(r)
+q(−t,x|a1,... ,a r;b1,... ,b r)ts−1dt
+= [2]r
+q∞/summationdisplay
+m1,...,m r=0(−q)m1+···+mrqb1m1+···+brmr
+[a1m1+···+armr+x]sq. (22)
+By (22), we deﬁne the Barnes’ type multiple q-zeta function as follows :
+ζq,r(s,x|a1,... ,a r;b1,... ,b r)
+= [2]r
+q∞/summationdisplay
+m1,...,m r=0(−q)m1+···+mrqb1m1+···+brmr
+[a1m1+···+armr+x]sq,
+wheres∈C,x∈Rwithx/negationslash= 0,−1,−2,.... By (21), (22) and (23), we obtain the
+following theorem.
+Theorem 11. Forn∈Z+, we have
+ζq,r(s,x|a1,... ,a r;b1,... ,b r) =E(r)
+n,q(x|a1,... ,a r;b1,... ,b r).
+Letχbe the Dirichlet’s character with conductor f∈Nwithf≡1 (mod 2). Then
+the generalized Barnes’ type multiple q-Euler polynomials attached to χare deﬁned
+9by
+F(r)
+q,χ(t,x|a1,... ,a r;b1,... ,b r)
+= [2]r
+q∞/summationdisplay
+m1,...,m r=0(−q)m1+···+mrqb1m1+···+brmr(r/productdisplay
+i=1χ(mi))e[a1m1+···+armr+x]qt(24)
+=∞/summationdisplay
+n=0E(r)
+n,χ,q(x|a1,... ,a r;b1,... ,b r)tn
+n!,
+From (24), we note that
+1
+Γ(s)/integraldisplay∞
+0F(r)
+q,χ(−t,x|a1,... ,a r;b1,... ,b r)ts−1dt
+= [2]r
+q∞/summationdisplay
+m1,...,m r=0(−q)m1+···+mrqb1m1+···+brmr(/producttextr
+i=1χ(mi))
+[a1m1+···+armr+x]sq. (25)
+By (25), we can deﬁne Barnes’ type multiple q-l-function in C. Fors∈C,x∈Rwith
+x/negationslash= 0,−1,−2,..., let us deﬁne the Barnes’ type multiple q-l-function as follows :
+l(r)
+q(s,x|a1,... ,a r;b1,... ,b r)
+= [2]r
+q∞/summationdisplay
+m1,...,m r=0(−q)m1+···+mrqb1m1+···+brmr(/producttextr
+i=1χ(mi))
+[a1m1+···+armr+x]sq. (26)
+Note that l(r)
+q(s,x|a1,... ,a r;b1,... ,b r) is a meromorphic function in whole complex
+s-plane. By (24), (25) and (26), we easily see that
+l(r)
+q(−n,x|a1,... ,a r;b1,... ,b r) =E(r)
+n,χ,q(x|a1,... ,a r;b1,... ,b r)
+forn∈Z+, (see [1-18]).
+References
+[1] E. W. Barnes, On the theory of multiple gamma function , Trans. Camb. Ohilos. Soc. A
+196(1904), 374-425.
+[2] I. N. Cangul,V. Kurt, H. Ozden, Y. Simsek, On the higher-order w-q-Genocchi numbers ,
+Adv. Stud. Contemp. Math. 19(2009), 39–57.
+[3] N. K.Govil, V. Gupta, Convergence of q-Meyer-Konig-Zeller-Durrmeyer operators , Adv.
+Stud. Contemp. Math. 19(2009), 97–108.
+[4] T. Kim, On aq-analogue of the p-adic log gamma functions and related integrals , J.Number
+Theory76(1999), 320–329.
+[5] T. Kim, q-Volkenborn integration , Russ. J. Math. Phys. 9(2002), 288–299.
+[6] T. Kim, On Euler-Barnes multiple zeta functions , Russ. J. Math. Phys. 10(2003), 261–267.
+10[7] T. Kim, Analytic continuation of multiple q-zeta functions and their values at negative
+integers, Russ. J. Math. Phys. 11(2004), 71–76.
+[8] T. Kim, The modiﬁed q-Euler numbers and polynomials , Adv. Stud. Contemp. Math. 16
+(2008), 161–170.
+[9] T. Kim, Note on the q-Euler numbers of higher order , Adv. Stud. Contemp. Math. 19
+(2009), 25–29.
+[10] T. Kim, Note on Dedekind type DC sums , Adv. Stud. Contemp. Math. 18(2009), 249–260.
+[11] T. Kim, Note on the Euler q-zeta functions , J. Number Theory 129(2009), 1798–1804.
+[12] T. Kim, A note on the generalized q-Euler numbers , Proc. Jangjeon Math. Soc. 12(2009),
+45–50.
+[13] T. Kim, Some identities on the q-Euler polynomials of higher order a nd q-stirling numbers
+by the fermionic p-adic integral on Zp, Russ. J. Math. Phys. 16(2009), 1061-9208.
+[14] T. Kim, Barnes type multiple q-zeta functions and q-Euler polynomials , arXiv:0912.5119v1.
+[15] T. Kim, Note on multiple q-zeta functions , to be appeared in Russ. J. Math. Phys.,
+arXiv:0912.5477v1.
+[16] T. Kim, On theq-extension of Euler and Genocchi numbers , J. Math. Anal. Appl. 326,
+1458–1465.
+[17] T. Kim, Onp-adicq-l-functions and sums of powers , J. Math. Anal. Appl. 329, 1472–1481.
+[18] T. Kim, Y. Simsek, Analytic continuation of the multiple Daehee q-l-functions associated
+with Daehee numbers , Russ. J. Math. Phys. 15(2008), 58–65.
+[19] Y. H. Kim, W. Kim, C. S. Ryoo, On the twisted q-Euler zeta function associated with
+twistedq-Euler numbers , Proc. Jangjeon Math. Soc. 12(2009), 93-100.
+[20] H.Ozden, I.N.Cangul, Y.Simsek, Remarks on q-Bernoulli numbers associated with Daehee
+numbers , Adv. Stud. Contemp. Math. 18(2009), 41-48.
+[21] K. Shiratani, S. Yamamoto, On ap-adic interpolation function for the Euler numbers and
+its derivatives , Mem. Fac. Sci., Kyushu University Ser. A 39(1985), 113-125.
+[22] Y. Simsek, Theorems on twisted L-function and twisted Bernoulli numbers , Advan. Stud.
+Contemp. Math. 11(2005), 205–218.
+[23] Z. Zhang, Y. Zhang, Summation formulas of q-series by modiﬁed Abel’s lemma , Adv. Stud.
+Contemp. Math. 17(2008), 119–129.
+Taekyun Kim
+Division of General Education-Mathematics, Kwangwoon Uni versity,
+Seoul 139-701, S. Korea e-mail: tkkim@kw.ac.kr
+Young-Hee Kim
+Division of General Education-Mathematics,
+Kwangwoon University,
+Seoul 139-701, S. Korea e-mail: yhkim@kw.ac.kr
+11

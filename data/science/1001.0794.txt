@@ -1,0 +1,291 @@
+arXiv:1001.0794v1  [astro-ph.IM]  6 Jan 2010Consequences of spectrograph illumination for the accuracy of
+radial-velocimetry
+Boisse, I.1,a, Bouchy,F.1,2,Chazelas,B.3,Perruchot,S.2,Pepe,F.3,Lovis,C.3,andH´ ebrard,G.1
+1Institut d’Astrophysique de Paris, Universit´ e Pierre et M arie Curie, UMR7095 CNRS, 98bis bd. Arago, 75014 Paris,
+France
+2ObservatoiredeHauteProvence,CNRS /OAMP, 04870St Michell’Observatoire,France
+3ObservatoiredeGen` eve,Universit´ ede Gen` eve,51Ch. des Maillettes, 1290Sauverny,Switzerland
+Abstract. Forﬁber-fedspectrographs witha stable external waveleng th source, scrambling properties of opti-
+cal ﬁbers and, homogeneity and stabilityof the instrument i llumination are important for the accuracy of radial-
+velocimetry. Optical cylindric ﬁbers are known to have good azimuthal scrambling. In contrast, the radial one
+is not perfect. In order to improve the scrambling ability of the ﬁber and to stabilize the illumination, optical
+doublescramblerareusuallycoupledtotheﬁbers.Despitet hat,ourexperience onSOPHIEandHARPShaslead
+to identiﬁed remaining radial-velocity limitations due to the non-uniform illumination of the spectrograph. We
+conductedtestsonSOPHIEwithtelescopevignetting,seein gvariationandcenteringerrorsontheﬁberentrance.
+We simulated the light path through the instrument in order t o explain the radial velocity variation obtained
+with our tests. We then identiﬁed the illumination stabilit y and uniformity has a critical point for the extremely
+high-precisionradialvelocityinstruments(ESPRESSO@VL T,CODEX@E-ELT).Testsonsquareandoctagonal
+section ﬁbers are now under development and SOPHIE will be us ed as a bench test to validate these new feed
+optics.
+1 Introduction
+High-precisionradial-velocimetry(RV)isstillamaintec h-
+nique in the search and characterization of planetary sys-
+tems.Uptodate,mostoftheknownextrasolarplanetshave
+been detected with this method. It will remain at the fore-
+front of exoplanet science for the coming years thanks to
+itseﬃciencyinﬁndinglow-massplanetssinceHARPShas
+reached an RV accuracy less than 1ms−1(ref. [7]). In the
+aim to reach Earth-type planets and, also measure the ex-
+pansion of the universe, new spectrographs in the visible
+are nowin studyto reacha precisionofonlyfew cms−1in
+the near future (ESPRESSO@VLT [8], CODEX@E-ELT
+[9]).
+To reach this level of accuracy, we must avoid a cer-
+tain number of limitations. Among these, one can quote
+the stellar noise (activity, pulsation, surface granulati on),
+thecontaminationbyexternalsources(moon,close-byob-
+jects,backgroundcontinuum),andwhatlightmayencounter
+duringitspath(e.g.atmosphericdispersion).Aspartofin -
+strumental factors, CCD cosmetics, charge transfer ine ﬃ-
+ciency(ref.[2]),wavelengthcalibration(refs.[5]and[1 2])
+shouldbementioned.Foranexhaustivediscussionofthese
+limitations,we refer to[10]. Theauthorshighlightthe im-
+pact of the spectrograph illumination as one of the main
+limiting factors, and the need to analyze and quantify it.
+In this proceeding, we then focus on the limitation due to
+ae-mail:iboisse@iap.frthe injection of light in the ﬁber-fed spectrograph. This
+work is based on our experiment on two high-resolution,
+high-precision ﬁber-fed spectrographs, SOPHIE@1.93m,
+Observatoire de Haute-Provence (OHP), France (refs. [3]
+and [11]) and HARPS@3.6m, EuropeanSouthernObser-
+vatory(ESO)-LaSilla, Chile (ref.[7]).
+Up to day, SOPHIE has a Doppler accuracy of about
+5 ms−1, as most of high-accuracy spectrographs involved
+in exoplanet survey. In service since November 2006, we
+identiﬁed that instrumental limitations mainly come from
+theoldCassegrainFiberAdaptater(developedforELODIE
+spectrograph).In order to reach the so far unique HARPS
+level of accuracy,we conductedtests that illustrate the in -
+complete ﬁber scrambling. Detected with SOPHIE, these
+eﬀectswerealsocharacterizedonHARPSatalowerlevel.
+Inthedevelopmentofthefutureinstruments,theoptimiza-
+tion ofSOPHIEis a benchtest forthe improvementofthe
+spectrographilluminationuniformityandstability.
+The proceedingis structured as followed. In a the sec-
+ondsection,weexposethepropertiesoftheﬁber-fedspec-
+trographsandthelightinjection.Thethirdsectionreview s
+the diﬀerent eﬀects that are detected in the RV due to the
+incompleteandimperfectscramblingobtainedwiththestan -
+dard ﬁbers. In the last section, we describe solutions pro-
+posedtooptimizetheﬁbersscrambling.EPJWeb ofConferences
+2 Fiber-fedspectrographs
+HARPS and SOPHIE are ﬁber-fed spectrographs with si-
+multaneousreferencecalibrations.Thestellarlightcoll ected
+by the telescope are lead to the instrument througha stan-
+dard step-index multi-mode cylindrical optical ﬁber. SO-
+PHIE has two observing mode using two di ﬀerent ﬁbers,
+the High-Resolution (HR) and the High-E ﬃciency mode
+(HE). In HR mode, the spectrograph is fed by a 40.5- µm
+slitsuperimposedontheoutputofthe100- µmﬁber,reach-
+ing a spectral resolution of λ/∆λ=75,000. In HE mode,
+thespectrographisdirectlyfedbythe100- µmﬁberwith a
+resolution power of 40,000. Both SOPHIE ﬁbers have an
+sky acceptance of 3-arcsec. HARPS has 70- µm ﬁber with
+a sky acceptance of 1-arcsec and a spectral resolution of
+110,000(seeTable1).
+Non-uniform illumination of the slit or output ﬁber at
+thespectrographentrancedecreasestheradial-velocityp re-
+cision.Indeed,variationsinseeing,focusandimageshape
+at the ﬁber entrance may induced non-uniform illumina-
+tioninside the pupilofthe spectrograph.Theoptical aber-
+rationsleadtovariationsinthecentroidsofthestellarli nes
+onthefocalplane.
+Optical ﬁbers are used to lead the light from the tele-
+scope to the entrance of the spectrograph. They have the
+propertiestoscramblertheatmospherice ﬀectsandguiding
+and centering errors discussed previously. But the scram-
+blingabilityofonemultimodeﬁberisnotperfectasshown
+inFig.1.Withaninputo ﬀaxesimage,theazimuthalscram-
+bling is good whereas it remains some e ﬀects in the ra-
+dial one. This pattern observed is bigger in far ﬁeld than
+in near ﬁeld. Near ﬁeld and far ﬁeld are respectively de-
+ﬁned as, the brightness distribution across the output face
+oftheﬁber,and,astheangulardistributionoflightofﬁber
+output beam. Therefore, changes in the input beam cause
+onlycircularsymmetricchangesintheﬁberoutputpattern.
+Incontrast,imperfectradialscramblingallowssmallzona l
+errorsto remain.
+HARPS and the SOPHIE HR modeare equippedwith
+optical double scramblers. It is used to increase and im-
+prove the uniformity and stabilization of the illumination
+of the spectrograph entrance (refs. [4] and [6]). The near
+ﬁeld of a circular ﬁber is observed to be better scramble
+than the far ﬁeld. In spite of only one ﬁber guiding the
+light from the telescope to the instrument, double scram-
+bler is composedof two ﬁbers coupledwith two doublets.
+The system is designed to inverse near ﬁeld and far ﬁeld
+in order to induce a better radial scrambling, although it
+causesﬂuxlosses(ref.[1]).
+Table 1. Comparison of parameters of ﬁber-fed spectrographs
+SOPHIEandHARPS .
+Instrument Doppler prec. 1 pixel Resol. ∆λ/λ
+HARPS/lessorequalslant1ms−1800 ms−1110,000
+SOPHIE(HR) ∼4ms−11400 ms−175,000
+SOPHIE(HE) ∼10ms−11400 ms−140,000
+Fig. 1.Illumination at the output of one cylindrical optical ﬁber
+in the near and the far ﬁeld. Sources are o ﬀaxes. A high degree
+ofazimuthalscramblingisobserved.Incontrast,itremain ssome
+eﬀects inthe radial one.
+3 RVeﬀectsof ﬁberimperfect scrambling
+3.1 Centering/Guiding onthe ﬁber entrance
+The degree of radial scrambling describes the stability of
+theoutputbeamastheinputimageismovedfromthecen-
+ter to the edge of the ﬁber. It is possible to detect in RV
+some variations due to the insu ﬃciency of radial scram-
+bling. The light from a stable star is movedwith the guid-
+ing/centeringsystemfromanedgetotheotheroftheﬁber.
+We compute the RV with the data reduction pipeline for
+diﬀerent positions of the star. The test was done for the
+two modes of SOPHIE and for HARPS. The results are
+computedinTable2.
+Because the scrambling of the ﬁber is not perfect, the
+movementofthe inputimagecorrespondstoa shiftonthe
+Table 2. Variation observed in RV as the input image (star) is
+moved from the center to the edge of the ﬁber. HARPS and SO-
+PHIEwithHigh-Resolutionﬁberusedadoublescramblerinst ead
+of the High-Eﬃciency mode of SOPHIE.
+Instrument ﬁb.diam. RVe ﬀect [ms−1]
+HARPS 1” ∼3
+SOPHIE(HR) 3” ∼13
+SOPHIE(HE) 3” ∼36Newtechnologiesforprobingthe diversityofbrowndwarfsa ndexoplanets
+Fig. 2.Schema illustrating how the vignetting of the telescope
+is translated at the output of the ﬁber HE in the far-ﬁeld, i.e . at
+theentranceofthespectrograph.Forexternaloccultation ,theRV
+decrease whereas, for internal occultationthe RV increase .
+detector.Weobservedﬁrstthat,wideristheﬁber,moreim-
+portant is the RV variations. Moreover,the value of meter
+per second per pixel vary as a function of the resolution
+power.Movingtheinputimagefromthecentertotheedge
+isthenexpectedtohavealowere ﬀectforahigherspectral
+resolution.Inaddition,weexpectthatthedoublescramble r
+improvetheradialscrambling,i.e. decreasetheRV e ﬀect.
+3.2 Vignetting telescope
+Thepupilofthetelescope,i.e.theentranceofthetelescop e
+orthefarﬁeldoftheinputlightisknowntobemorestable
+than the telescope image. We would like to test the e ﬀect
+in RV of variations of the far ﬁeld. For that, we vignette
+the telescope onday skywith the dome.We computedthe
+RV with the pipeline SOPHIE, estimating that the varia-
+tion of Barycentric Earth RV is not signiﬁcant during our
+measurements.We madethistest with the HE modein or-
+der that the variation of the far-ﬁeld of the telescope are
+projected on the grating (i.e. without double scrambler).
+WeremarkedthatthewayoftheRVvariationsdependson
+exteriororinteriorvignetting(Fig.2).
+3.3 Optical pathsimulations
+WesimulatedtheopticalpathintheSOPHIEspectrograph.
+We observed a displacement of the spectrum in function
+of wavelength on the focal plane when the input beam at
+the entrance of the spectrograph is center-illuminated or
+center-darked,correspondingrespectivelywhenvignetti ng
+external and internal part of the pupil in HE mode (cf.
+Sect.3.2). Variation of the slit or the optical ﬁber illumi-
+nationaredirectlytranslatedonthespectruminFig.3.We
+observed that the shift is more signiﬁcant for an external
+occultation. Because the e ﬀect is not symmetric along an
+order and not monitored by the calibration lamp, the ﬁnal
+computed RV vary. So, variations of the far-ﬁeld pattern
+projectedontothegratingcanintroduceradial-velocitys hifts
+at thedetectorloweringtheﬁnalprecisioninRV.
+Fig. 3.Displacement of the position of a nine wavelength as a
+function of a internal (green) or an external (red) occultat ion of
+the entrance of the spectrograph onthe CCDdetector.
+Fig.4.Whentheseeingisgood,thetelescopeimageislesswide.
+With the double scrambler in HR mode, near ﬁeld becomes far-
+ﬁeldandisprojectedonthecollimatorattheentranceofthe spec-
+trograph. Thepatterniscomparable tothat observed inHEwh en
+vignetting telescope (Fig.2)
+3.4 RVeffects due toseeingvariations
+Variations of the far-ﬁeld of the input beam in HE mode
+is equivalent to a variation of the telescope image in HR
+mode,duetothedoublescrambler.Variationsinseeingin-
+duce a variation of the input image as illustrate in Fig. 4.
+Theinputbeamattheentranceofthespectrographiscenter-
+illuminated(externaloccultation)whenatargetisobserv ed
+with a good seeing in HR mode. The previous tests and
+simulations explain a systematic e ﬀect observedwith SO-
+PHIE named as ”seeing e ﬀect”. For a sample of stars ob-
+servedathighsignaltonoiseratio(SNR)inHRmode,we
+observedadecreaseinRVcorrelatedwithanestimationof
+seeing. The value of the seeing is not monitored with SO-
+PHIE.We estimatedit with calculatingthe relativeﬂuxby
+unitofexposuretime :
+S=SNR2
+Texp10−MV/2.5(1)
+with SNR, the signal to noise ratio of the spectra, T expthe
+time exposure of the measurement, M Vthe visual magni-
+tude of the target. The seeing decrease when the seeing
+estimation Sincrease. With a lower seeing, the input im-
+age is smaller than the ﬁber width, and as shown in theEPJWeb ofConferences
+Seeing Estimation [arb.unit]
+Fig. 5.Radial-velocity measurements as a function of a seeing
+index (cf. text). The seeing decrease when the seeing estima tion
+Sincrease. As the seeingis lower,the RV decreases.
+simulations,inducedavariationofthefarﬁeldinputinthe
+spectrograph,due to the double scrambler. We expect and
+observed a decrease of RV when the value of the seeing
+decreaseasshowninFig.5.
+Moreover,whentheinputimageissmallerthanthedi-
+ameter of the ﬁber, we are more sensible to e ﬀect of guid-
+ing and centering system. The guiding and centering sys-
+tem may inducedvariationof the position of the inputim-
+ageontheslit ortheentranceoftheﬁber,andsointroduce
+RV variations. These RV variation are quite random, and
+addsomenoise.
+Whereas the seeing e ﬀect is directly related to the op-
+ticalpathinthespectrograph,it maybequantiﬁed.We are
+modeling this variations with our data in order to remove
+thisnoisewitha softwaretool.
+We note that the e ﬀect on HARPS is expected to be
+lower. The 1” width of the ﬁbers is smaller than the SO-
+PHIEandroughlyequivalenttothetypicalseeingatLaSilla .
+Furthemore the quality image provided by the 3.6-m tele-
+scopeiscloseto0.7arcsec.Hence,HARPSislesssensible
+tothevariationsofseeing.Moreover,theresolutionpower
+of the instrument is better and then the incomplete radial
+scramblinghasalowerimpactinRVasshowninSect.3.1.
+FurthermoretheopticalaberrationsonHARPSaresmaller
+thaninSOPHIE.
+4 Perspectivesandconclusions
+The CODEX experiment calls for a Doppler precision as
+low as 1 cms−1. This work shows that the future instru-
+ments need for better scrambling to reach this accuracy.
+New types of ﬁbers for feeding the telescope or new dou-
+ble scrambler are needed to improve the precision and to
+minimize the noise due to variationsof the illuminationat
+the entrance of the spectrograph. To remove the sphericalsymmetry of cylindrical ﬁbers, octagonal and square sec-
+tionopticalﬁbersaretheninstudyatGeneva,OHP-LAM,
+and ESO Garching. As ﬁrst results, very good scrambling
+properties are observed in the near ﬁeld, whereas strange
+patternsinfarﬁeldarenotwellunderstoodatthemoment.
+Itneedsfutureteststoimprovethemeasurements,tostudy
+its best used, on all the path or in a double scrambling
+mode. SOPHIE is then going to be a bench test for the
+futureinstruments.
+We note that additional solution is being installed on
+HARPS toreducetheguidingandcenteringlimitations.A
+tip-tilt mirror generate small-amplitude and high frequen -
+ciesvariationsin ordertoinducea spreadofthelight.
+AnewguidingcameraisnowinoperationonSOPHIE
+and allows a better guiding and centering and also allows
+to monitorthe exactseeing.
+References
+1. Bouchy&ConnesA&A,1999,Volume136,193
+2. Bouchy, F., Isambert, J., Lovis, C. Boisse, I. et al. EAS
+PublicationsSeries , Volume37,2009,pp.247-253
+3. Bouchy,F.,H´ ebrard,G.,Udry,S.,Delfosse,X.,Boisse,
+I.etal. A&A,Volume505,2009,pp.853
+4. Brown,T.M.1990,ASPC, 8,335B
+5. Lovis,C.& Pepe,F. 2007,A&A,468,1115L
+6. Hunter,T.D.&Ramsey,L.W. 1992,PASP, 104,1244
+7. Mayor, M., Udry, S., Lovis, C. et al. 2009, A&A, 493,
+639
+8. Pasquini, L., Manescau, A., Avila, G. et al. 2009,
+svlt.conf,411
+9. Pasquini, L., Avila, G., Dekker, H. et al. 2008,
+SPIE.7014E,51P
+10. Pepe,F. &Lovis,C., Phys.Scr. T130,(2008)014007
+11. Perruchot, S., Kohler, D., Bouchy, F. et al. 2008,
+SPIE.7014E,17P
+12. Wildi,F., Pepe,F., Lovis,C., Chazelas,B. et al. 2009,
+SPIE.7440E,19W

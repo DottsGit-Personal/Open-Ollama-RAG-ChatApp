@@ -1,0 +1,395 @@
+arXiv:1001.0570v1  [hep-ph]  4 Jan 2010Background magnetic ﬁeld stabilizes QCD string against bre aking
+M. N. Chernodub∗
+Laboratoire de Math´ ematiques et Physique Th´ eorique, Uni versit´ e Fran¸ cois-Rabelais Tours,
+F´ ed´ eration Denis Poisson - CNRS, Parc de Grandmont, 37200 Tours, France
+DMPA, University of Gent, Krijgslaan 281, S9, B-9000 Gent, B elgium
+(Dated: January 3, 2010)
+The conﬁnement of quarks in hadrons occurs due to formation o f QCD string. At large separation
+between the quarks the QCD string breaks into pieces due to li ght quark-antiquark pair creation.
+We argue that there exist a critical background magnetic ﬁel deB≃16m2
+π, above which the string
+breaking is impossible in the transverse directions with re spect to the axis of the magnetic ﬁeld.
+Thus, at strong enough magnetic ﬁeld a new, asymmetrically c onﬁning phase may form. The eﬀect
+– which can potentially be tested at LHC/ALICE experiment – l eads to abundance of u-quark rich
+hadrons and to excess of radially excited mesons in the nonce ntral heavy-ion collisions compared to
+the central ones.
+PACS numbers: 25.75.-q,12.38.Aw
+Motivation. Noncentral heavy-ion collisions create
+intense magnetic ﬁelds with the magnitude of the order
+of the QCD scale. According to [1] the strength of the
+emerging magnetic ﬁeld Bmay reach
+eBmax
+RHIC∼m2
+π, eBmax
+LHC∼15m2
+π (1)
+at the Relativistic Heavy Ion Collider (RHIC) and at
+the Large Hadron Collider (LHC). Here e=|e|is the
+absolute value of the electron charge.
+There are various potentially observable QCD eﬀects
+associated with the presence of the strong magnetic ﬁeld
+background. One can mention a CP-odd generation of
+an electric current of quarks along the axis of the mag-
+netic ﬁeld (“the chiral magnetic eﬀect”) [2] and enhance-
+ment of the chiral symmetry breaking (“the magnetic
+catalysis”) [3]. The latter is related to the fact that
+the background magnetic ﬁeld makes the chiral conden-
+sate larger [4]. Acting through the chiral condensate,
+the magnetic ﬁeld also shifts and strengthens the chiral
+transition [5].
+Recently, observation of certain signatures of the chi-
+ral magnetic eﬀect was reported by the STAR collabora-
+tion at the RHIC experimental facility [6]. Some eﬀects
+were also found in numerical simulations of lattice QCD.
+There exists numerical evidence in favor of existence of
+both the chiral magnetic eﬀect [7] and the enhancement
+of the chiral symmetry breaking [8]. In addition, a chi-
+ral magnetization of the QCD vacuum – discussed ﬁrst
+in Ref. [9] – was calculated numerically [10]. The lattice
+simulations have also revealed that due to CP-odd struc-
+ture of the QCD vacuum the quark’s magnetic dipole
+moment in a strong magnetic ﬁeld gets a large CP-odd
+piece, the electric dipole moment [11].
+In addition to the chiral properties, the background
+magnetic ﬁeld should also be important for conﬁning
+features of QCD despite the photons are not interact-
+ing with the gluons directly. A strong enough magnetic
+ﬁeld aﬀects the dynamics of the gluons through the in-ﬂuence on the quarks, because the quarks are coupled
+to the both gauge ﬁelds [12]. And, indeed, thermody-
+namicargumentsofRef.[13]suggestthatthebackground
+magnetic ﬁeld should shift and weaken the conﬁnement-
+deconﬁnementphasetransitionintheQCDvacuum. The
+conﬁninganddeconﬁningregionsatzerotemperatureare
+separated by a smooth crossover which is located at [13]
+eBcross[T= 0]∼(700MeV)2∼25m2
+π.(2)
+Due to the crossover nature of the transition, the diﬀer-
+ence between conﬁning and deconﬁning regions is some-
+what obscure. Therefore the conﬁning interaction be-
+tween the quarks may also be visible at the magnetic
+ﬁelds that are stronger than the crossover scale (2).
+Although in our paper we discuss QCD vacuum eﬀects
+ofthestrongmagneticﬁeldsbelowthecrossoverscale(2),
+it is interesting to mention that at stronger magnetic
+ﬁelds,eB/greaterorsimilar150m2
+πan exotic condensation of the u¯u
+pairs should occur [14]. Eﬀects induced by magnetic ﬁeld
+at ﬁnite quark density are also dramatic. For example,
+ateB/greaterorsimilar3m2
+πa stack of parallel π0domain walls should
+become more favorable (from an energy-related point of
+view) than nuclear matter at the same density [15].
+Conﬁnement and string breaking at B =0.The
+quark conﬁnement exists because the chromoelectric ﬂux
+(in, say, a test quark-antiquark pair) is squeezed into a
+stringlike structure, the QCD string, due to nonpertur-
+bative vacuum eﬀects. The QCD string has a nonzero
+tensionσ, and therefore the energy of the long enough
+string is proportional to its length R,
+Vstr(R) =σR, (3)
+In a quarkless QCD (i.e., in Yang-Mills theory) the en-
+ergy of the QCD string (3) rises inﬁnitely with the sepa-
+ration between test quark and antiquark. Inevitably, the
+unboundedness of the potential leads to the quark con-
+ﬁnement. However, in the real QCD the string breaks2
+into pieces above certain critical separation Rbrbecause
+of the light quark-antiquark pair creation. The pair cre-
+ation leads to the collapse of the string, and, as a con-
+sequence, to formation of mesonic heavy-light bounds
+states,
+Q¯Q→Q¯Q+q¯q→Q¯q+q¯Q. (4)
+Indeed, at large separations it is more favorable to create
+the light pair because of the energy-related considera-
+tions: the energy of unbroken state [given by the total
+mass 2mQof the two heavy (or, test) quark sources Q
+and¯Qand the energy of the string (3)] is larger com-
+pared to the energy of the broken string state (given by
+the mass 2 mQ¯qof the created light-heavy mesons Q¯qand
+¯Qq). The critical string-breakingdistance Rbris thus de-
+termined by the energy balance:
+2mQ+σRbr= 2mQ¯q (5)
+(here we neglect a weak Coulomb interaction between
+the quarks in the unbroken state and we also disregard
+exponentially suppressed van der Waals interaction be-
+tween the heavy-light mesons in the broken state). If
+R > R br, then the string breaks and light-heavy mesons
+areformed, Fig.1(weconsiderhereasimplestcaseignor-
+ing a multiple pair production via string fragmentation).
+FIG. 1. The conventional string breaking: the QCD string
+spanned between the static quark Qand the static antiquark
+¯Qbreaks due to light q¯qpair creation.
+The stringbreakingwasobservedin lattice simulations
+of QCD with two ﬂavors of equal-mass quarks [16]. An
+extrapolation of the lattice results to the real QCD gives
+the following string breaking distance [16]:
+Rbr≈1.13fm, (6)
+where statistical and systematical errors are of the order
+of 0.1fm each.
+QCD string breaking at nonzero magnetic ﬁeld.
+A suﬃciently strong background magnetic ﬁeld shouldmodify the dynamics ofthe quarks, aﬀecting not only the
+chiral features, but also inﬂuencing the conﬁning proper-
+ties of the system. An anisotropic eﬀect of the magnetic
+ﬁeld on the conﬁning scales of QCD was ﬁrst pointed out
+by Miransky and Shovkovy in Ref. [12].
+The energy spectrum of a freerelativistic quark in a
+uniform magnetic ﬁeld Bfollows a typical Landau pat-
+tern [17]:
+ωn,s/bardbl(p/bardbl) =±/radicalBig
+p2
+/bardbl+m2q+(2n+1−2sz)|eq|B,(7)
+wheremqandeqare, respectively, the mass and the elec-
+tric charge of the fermion, p/bardbl≡pzis the momentum
+of the fermion along the direction of the magnetic ﬁeld,
+ands/bardbl=±1/2 is the projection of the fermion’s spin
+onto the axis of the magnetic ﬁeld. The integer num-
+bern= 0,1,2,...labels the Landau levels. The signs
+“±” in front of the square root in Eq. (7) refer to, re-
+spectively, particle and antiparticle branches of the en-
+ergy spectrum. The electric charges of the light uandd
+quarks are, respectively:
+qu= +2e
+3, q d=−e
+3. (8)
+In a strong magnetic ﬁeld the lowest Landau level
+(LLL) with n= 0 and sz= 1/2 plays a dominant role
+in the quark’s motion because the excited states are too
+heavy. Indeed, forthe soft (low-momentum)fermionsthe
+spin ﬂips, sz→ −szand jumps to the higher states with
+n/greaterorequalslant1 are energetically suppressed by the typical gap
+δEq∼√
+2/lq, (9)
+where
+lq(B) = 1//radicalBig
+|eqB|, q=u,d (10)
+is the magnetic length of the quark q.
+Thus, at the LLL the motion of quarks becomes es-
+sentially (1+1) dimensional. The quark moves along the
+axis of the magnetic ﬁeld and the longitudinal dynamics
+ofafree quarkis governedbyone-dimensionalrelativistic
+dispersion relation:
+ωLLL(p/bardbl) =±/radicalBig
+p2
+/bardbl+m2q.
+The transverse dynamics (i.e., the motion of the quark in
+the plane orthogonal to the magnetic ﬁeld) is restricted
+to a region of a typical size of the order of the magnetic
+length (10),
+|δr|q/lessorsimilarlq(B). (11)
+In QCD the inﬂuence of the magnetic ﬁeld should be-
+come signiﬁcant when the magnetic length (10) becomes
+comparable with a typical QCD length scale Λ QCD∼
+1fm−1∼200MeV,
+lq(B)≃Λ−1
+QCD≃Rbr. (12)3
+Here we quoted the string breaking distance Rbrwhich
+was determined by the lattice simulations [16], Eq. (6).
+The condition (12) is satisﬁed at
+eBu≃6m2
+π, eB d= 12m2
+π, (13)
+foruanddquarks, respectively.
+Notice that the magnitude of the magnetic ﬁeld ex-
+pected to be created at noncentral heavy-ion collisions at
+ALICE/LHC(1) is evengreaterthan the thresholds(13),
+so that eﬀects of the transversequark localization may in
+principle be accessible in the LHC experiment. The lo-
+calization eﬀects should be much less visible at the RHIC
+experiment due to the much weaker magnetic ﬁelds (1).
+What is the eﬀect of the strong magnetic ﬁeld
+on the process of the QCD string breaking? The
+breaking occurs due to the light q¯qpair creation. In the
+absence of the magnetic ﬁeld the created light quark (an-
+tiquark) gets attracted to the heavy antiquark (quark)
+and the long string disappears completely, Fig. 1. How-
+ever, in a suﬃciently strong magnetic ﬁeld Bthe dis-
+tance between the light quark and antiquark in the B-
+transverse plane is limited by the B–dependent magnetic
+lengthlq, Eq. (11). Therefore if the string is located in
+theB-transverse plane, then the created q¯qpair cannot
+destroy the whole string, because the light quark and an-
+tiquark are bounded together by the magnetic ﬁeld at
+the mutual separation lq, Fig. 2.
+FIG. 2. The (partial) breaking of the QCD string in the back-
+ground magnetic ﬁeld. The distance between created quark
+qand antiquark ¯ qis restricted by the magnetic length (11).
+The axis of the magnetic ﬁeld is perpendicular to the plane.
+In principle, the distance between the light quark and
+the light antiquark can be increased in the transverse di-
+rections by jumping to higher Landau levels. This is,
+however, an energetically costly process because of the
+presence of the magnetic gap (9). Therefore the creation
+of theq¯qpair from the vacuum may only remove a piece
+of a suﬃciently long QCD string, Fig. (2). Moreover,
+due to the (1 + 1) dimensional character of the motionof the light quarks in the external magnetic ﬁeld, the q¯q
+pair creation leads to appearance of two nonlocal (elon-
+gated) heavy-light mesons, Fig. 2. On the contrary, in
+the absence of the background magnetic ﬁeld the string
+breaking leads to formation of the tightly-bound heavy-
+light mesons, Fig. 1.
+An increase in the magnetic ﬁeld causes a decrease
+in the length (11) of the string piece that can be “re-
+moved” by the pair creation. Thus, as the magnetic ﬁeld
+increases the system gets less gain in energy due to the
+string breaking. Intuitively it is clear that at certain
+strength of the magnetic ﬁeld the pair creation become
+energetically unfavorable.
+Let us estimate the critical magnetic ﬁeld which makes
+the string breaking impossible. Consider a static dis-
+tantly separated quark-antiquark pair Q¯Qin theB-
+transverse plane (i.e., with R≡R⊥andR/bardbl= 0). The
+energy of the unbroken state is
+Estring= 2mQ+σ(B)R, (14)
+where the string tension is, generally, a function of the
+strength of the magnetic ﬁeld B.
+The emerging q¯qpair removes a segment of the string
+of the length lq(B), and the energy of the broken state is
+Ebroken= 2mQ+2mq(B)+σ(B)[R−lq(B)],(15)
+wheremqis the mass of the light quark.
+The condition for the string breaking not to occur is
+given by the inequality Ebroken/greaterorequalslantEstring. Using Eqs.
+(14) and (15), one gets
+2mq(B)/greaterorequalslantσ(B)lq(B) [no string breaking] .(16)
+The equality in (16) deﬁnes the lowest possible magnetic
+ﬁeld (“critical no-breaking ﬁeld”) for which the string
+breaking does not occur.
+Let us consider the condition (16) at zero temperature.
+The dynamical masses of q=u,dquarks in the QCD
+vacuum without a background magnetic ﬁeld are
+mdyn
+q≃300MeV . (17)
+The external magnetic ﬁeld of the practical scale (1)
+makes negligible contribution to the quarks’ masses (a
+signiﬁcant contribution to the masses of the quarks is
+expected at the strength eB/greaterorsimilar(10TeV)2, Ref. [12]).
+Assuming that the critical no-breaking magnetic ﬁeld is
+lower than the crossover strength (2), and taking into
+account the fact that at the crossover all observables
+are smooth, we ignore an essentially nonperturbative B-
+dependence of the string tension. We set the string ten-
+sion to its phenomenological value at B= 0,
+σ(B)≈σ(B= 0) = (440MeV)2.(18)
+Using Eqs. (16), (17) and (18) one ﬁnds that the QCD
+string fails to break via creation of u¯uandd¯dpairs if the
+magnetic ﬁelds reach the following values, respectively
+eB(u)
+cr≃8m2
+π, eB(d)
+cr= 16m2
+π.(19)4
+The critical ﬁelds (19) belong to the conﬁnement region
+below the T= 0 crossover scale, Eq. (2), as anticipated.
+At the background magnetic ﬁeld 0 < B < B(u)
+crthe
+string breaking in the B-transverse plane may proceed
+via the creation of both uanddquarks. In the ﬁeld
+windowB(u)
+cr< B < B(d)
+crthe creation of the u¯upairs be-
+comes energetically unfavorable, while the string break-
+ing via the d¯dpair creation can still occur. At B > B(d)
+cr
+the QCD string cannot be broken neither by u¯u- or by
+d¯d-pair creation.
+The diﬀerence in the critical values (19) can be un-
+derstood as follows. According to Eqs. (8) and (10), the
+magnetic length ldof thed-quarkis√
+2 times longer then
+the magnetic length luof theu-quark. Consequently, the
+gain in the energy due to the d¯d-pair creation is larger
+compared to the energy gain achieved due to emergence
+of theu-quark pair. Thus, one needs a stronger magnetic
+ﬁeld to suppress the d¯d-pair creation compared to a ﬁeld
+neededtosuppressthecreationofa u¯u-pair,B(u)
+cr< B(d)
+cr.
+Proposal for numerical simulations. The eﬀect of
+“freezing” of the QCD string breaking can be tested in
+the lattice simulations of QCD with dynamical fermions.
+The magnetic ﬁelds of the order of (19) and higher were
+already achieved in the (quenched) lattice simulations [7,
+8, 10, 11]. There are no principal obstacles to extend
+these simulations to QCD with dynamical fermions and
+check the prediction (19).
+Possible experimental consequences. The freez-
+ing of the QCD string breaking in the magnetic ﬁeld may
+also have experimental consequences. Firstly, according
+to the estimation (1) of Ref. [1], the ﬁelds of the order of
+the critical value (19) may emerge in noncentral heavy-
+ion collisions at the LHC. However, our considerations
+do not apply to the ﬁrst moments of the created quark-
+gluon ﬁreball because the system stays in the deconﬁne-
+ment phase due to hot environment of the collision. As
+the plasma expands and cools down, it hadronizes in the
+presence of the decaying magnetic ﬁelds. The hadroniza-
+tion process in the magnetic ﬁeld background involves
+string breaking events which are more favorable for the
+uquarks compared to the dquarks. Thus, the ﬂavor-
+dependent freezing of the string breaking in the external
+magnetic ﬁeld leads to the u-quark-rich content of the
+hadrons created in noncentral heavy-ion collisions com-
+pared to the central ones.
+Secondly, the background magnetic ﬁeld stabilizes
+highly excited mesons by (i) freezing the quarks at the
+end-points of QCD string and (ii) suppressing the pro-
+cess of the light pair creation in the B-transverse plane.
+Since in the noncentral collisions the magnetic ﬁeld axis
+is perpendicular to the reaction plane, we expect that
+the magnetic ﬁeld reveals itself via abundance of radially
+excited mesons in the noncentral collisions compared to
+the central ones. The excited mesons should dominantly
+be polarized in the reaction plane, as the QCD stringin such mesons should tend to be perpendicular to the
+magnetic ﬁeld axis. In each noncentral collision the ori-
+entation of the reaction plane can easily be determined
+from the elliptic ﬂow of the emitted particles.
+Thus, we are coming to a qualitative prediction that
+can in principle be checked experimentally in the heavy-
+ion collision experiments. The long QCD strings should
+break into pieces by multiple q¯qpair creation leading to
+formation of generally unstable hadrons. These primary
+hadronslaterdecayintomorestablehadrons,leptonsand
+photons, eventually forming jets [18]. Since the particles
+in the jets come out essentially aligned along the original
+string axis, we expect that the ﬂavor-dependent freezing
+eﬀect of the magnetic ﬁeld on the QCD string breaking
+leads to an excess of the u-quark rich jets parallel to the
+reaction plane of the noncentral heavy-ion collisions.
+∗On leave of absence from ITEP, Moscow, Russia.
+[1] V. Skokov, A. Illarionov andV. Toneev, arXiv:0907.1396 .
+[2] D.E. Kharzeev, L.D. McLerran, and H.J. Warringa,
+Nucl. Phys. A 803, 227 (2008) [arXiv:0711.0950];
+K. Fukushima, D.E. Kharzeev, and H.J. Warringa, Phys.
+Rev. D78, 074033 (2008) [arXiv:0808.3382].
+[3] V.P. Gusynin, V.A. Miransky, I.A. Shovkovy, Phys. Rev.
+Lett.73, 3499 (1994); Phys. Rev. D 52, 4747 (1995);
+Nucl. Phys. B 462, 249 (1996); ibid.B563, 361 (1999).
+[4] I. A. Shushpanov and A. V. Smilga, Phys. Lett. B 402,
+351 (1997); T. D. Cohen, D. A. McGady and E. S. Wer-
+bos, Phys. Rev. C 76, 055201 (2007).
+[5] E. S. Fraga and A. J. Mizher, Phys. Rev. D 78, 025016
+(2008) [arXiv:0804.1452]; Nucl. Phys. A 820, 103C
+(2009) [arXiv:0810.3693].
+[6] B.I.Abelev et al.[STARCollaboration], Phys.Rev.Lett.
+103, 251601 (2009) [arXiv:0909.1739]; arXiv:0909.1717;
+see also a Viewpoint of B. M¨ uller, Physics 2, 104 (2009).
+[7] P. V. Buividovich et al, Phys. Rev. D 80, 054503 (2009)
+[arXiv:0907.0494 [hep-lat]]; M. Abramczyk, T. Blum,
+G. Petropoulos and R. Zhou, arXiv:0911.1348 [hep-lat].
+[8] P. V. Buividovich et al, Phys. Lett. B 682, 484 (2010)
+[arXiv:0812.1740 [hep-lat]].
+[9] B. L. Ioﬀe, A. V. Smilga, Nucl. Phys. B 232, 109 (1984).
+[10] P. V. Buividovich et al, Nucl. Phys. B 826, 313 (2010)
+[arXiv:0906.0488 [hep-lat]].
+[11] P. V. Buividovich et al, arXiv:0909.2350 [hep-ph].
+[12] V. A. Miransky and I. A. Shovkovy, Phys. Rev. D 66,
+045006 (2002) [arXiv:hep-ph/0205348].
+[13] N. O. Agasian and S. M. Fedorov, Phys. Lett. B 663, 445
+(2008) [arXiv:0803.3156 [hep-ph]].
+[14] D. N. Kabat, K. M. Lee and E. J. Weinberg, Phys. Rev.
+D66, 014004 (2002) [arXiv:hep-ph/0204120].
+[15] D. T. Son andM. A. Stephanov, Phys. Rev.D 77, 014021
+(2008) [arXiv:0710.1084 [hep-ph]].
+[16] B. Bolder et al., Phys. Rev. D 63, 074504 (2001);
+G. S. Bali et al.,ibid.D71, 114513 (2005).
+[17] M.H.Johnson, B.A.Lippmann, Phys.Rev. 77, 702(1950).
+[18] B. Andersson, G. Gustafson, G. Ingelman and T. Sjos-
+trand, Phys. Rept. 97, 31 (1983).

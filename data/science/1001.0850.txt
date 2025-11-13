@@ -1,0 +1,381 @@
+arXiv:1001.0850v1  [nucl-th]  6 Jan 2010Suppression of Charge Equilibration leading to the Synthes is of Exotic Nuclei
+Yoritaka Iwata1, Takaharu Otsuka2,3, Joachim A. Maruhn4, and Naoyuki Itagaki2
+1GSI Helmholtzzentrum f¨ ur Schwerionenforschung, D-64291 Darmstadt, Germany
+2Department of Physics, University of Tokyo, Hongo, Tokyo 11 3-0033, Japan
+3Center for Nuclear Study, University of Tokyo, Hongo, Tokyo 113-0033, Japan and
+4Institut f¨ ur Theoretische Physik, Universit¨ at Frankfur t, D-60325 Frankfurt, Germany
+(Dated: June 15, 2018)
+Charge equilibration between two colliding nuclei can take place in the early stage of heavy-ion
+collisions. A basic mechanism of charge equilibration is pr esented in terms of the extension of single-
+particle motion from one nucleus to the other, from which the upper energy-limit of the bombarding
+energy is introduced for signiﬁcant charge equilibration a t the early stage of the collision. The for-
+mulafor this limit is presented, and is compared to various e xperimental data. It is examined also by
+comparison to three-dimensional time-dependentdensity f unctional calculations. The suppression of
+charge equilibration, which appears in collisions at the en ergies beyond the upper energy-limit, gives
+rise to remarkable eﬀects on the synthesis of exotic nuclei w ith extreme proton-neutron asymmetry.
+PACS numbers: 21.10.Ft, 25.70.-z, 25.70.Hi
+Chargeequilibrationisarapidprocessduringthe early
+stageofheavy-ioncollisionswithatime scaleof10−22sec
+(for a review, see [1]). Despite many theoretical at-
+tempts, its mechanism has remained an open problem,
+where only the relation with the isovector giant dipole
+resonance (iv-GDR) was discussed in certain cases (for
+example, see [2–8]). The charge equilibration is quite
+important, because it naturally prevents the synthesis of
+exotic nuclei with extreme proton-neutron asymmetry.
+As there are and will be the 3rd generation RI-beam fa-
+cilities, it is an urgent question whether such synthesis
+can be enhanced with higher beam energies or not.
+In this Letter, we ﬁrst point out that there is an upper
+limitofthebombardingenergyforthefastandsigniﬁcant
+charge equilibration in the initial stage of the collision.
+Microscopic three-dimensional (time-dependent) density
+functional calculations are systematically performed for
+the purpose of examination. We actually employ Skyrme
+time-dependent Hartree-Fock (TDHF) theory, which is
+a rather unique presently feasible method for the treat-
+ment ofnon-perturbativeprocessessuchasmulti-nucleon
+transfers in a realistic framework.
+The suppression of charge equilibration brings about a
+favorable situation for the synthesis of exotic nuclei. The
+evaluation of the upper limit thus can have crucial sig-
+niﬁcance for experiments on nuclei with extreme proton-
+neutron asymmetry. We shall consider the collision of a
+target nucleus with mass number A1, neutron (proton)
+numberN1(Z1), with a projectile nucleus with A2,N2,
+andZ2. The total mass, neutron, and proton numbers
+are denoted by A,N,Z, respectively. We look at this
+problem from an intuitive and basic viewpoint. We begin
+with a picture that the charge equilibration takes place
+as wave functions of nucleons propagate from their orig-
+inal nucleus to the other nucleus in the initial stage of
+the collision. Namely, the regime of individual single-
+particle motion spreads out following the lowering of po-
+tential barrier between the two nuclei after the touching.Because this spreading occurs as a consequence of un-
+blocked single-particle motion, the process can be very
+fast; a particle travels into the other side within ∼10−22
+sec at a quarter of light velocity, which roughly corre-
+sponds to the Fermi energy of normal nuclear matter.
+On the other hand, this propagation can be prohibited
+by the Pauli principle, while the neutron (or proton) ex-
+cess weakens this eﬀect. Another important factor is the
+diﬀerence of velocities of the two nuclei. Because this
+spreading needs a certain time, it does not lead to charge
+equilibration in the initial stage if the relative velocity of
+the colliding nuclei is too large. In the charge equilibra-
+tion, protons and neutrons from both nuclei, particularly
+those near the Fermi levels, are mixed within a certain
+time after the touching.
+We can introduce an ansatz that, in order for the fast
+charge equilibration to occur, the relative velocity vrof
+thetwonucleiatthecollisionmustbebelowthevelocities
+corresponding to the proton or neutron Fermi momenta
+of both nuclei. By denoting the minimum of these four
+velocities as vmin
+F, the present eﬀect can be summarized
+by the statement that the upper limit of the bombarding
+energy for charge equilibration is determined by vr=
+vmin
+F. The upper limit of the energy in the laboratory
+frame for charge equilibration is expressed as the sum
+of the kinetic energy for velocity vmin
+Fand the Coulomb
+energy at touching:
+ECE,lab/A[MeV]
+=/planckover2pi12(3π2ρmin)2/3
+2m+e2Z1Z2
+4πǫ0r0A1+A2
+A1A2(A1/3
+1+A1/3
+2),(1)
+ρmin= min
+i/parenleftbig
+ρni,ρzi/parenrightbig
+= min
+i/parenleftBigg
+Ni/parenleftBig4πr0
+3A1/3
+i/parenrightBig−1
+(1−3¯ǫ)(1+¯δ),Zi/parenleftBig4πr0
+3A1/3
+i/parenrightBig−1
+(1−3¯ǫ)(1−¯δ)/parenrightBigg
+,(2)
+wherem,e,ǫ0, andr0are the nucleon mass, the charge2
+1.5 1.6 1.7 1.8 1.9 2.0 2.10255075
+1.5 1.6 1.7 1.8 1.9 2.0 2.1 1.5 1.6 1.7 1.8 1.9 2.0 2.1 1.5 1.6 1.7 1.8 1.9 2.0 2.1
+N/ZYields [%]
+5.0 MeV E     /A = cm   6.0 MeV E     /A = cm   7.0 MeV E     /A = cm   8.0 MeV E     /A = cm   
+FIG. 1: Yield distribution of ﬁnal fragments as a function of theirN/Zratios for the collisions of208Pb +132Sn (N/Zratio
+is discretized by 0.05) based on TDHF calculation (SLy4d). F our cases with diﬀerent Ecm/Avalues are presented. Columns
+corresponding to the equilibrium value of N/Z=1.58 are colored in blue, and connected by red lines. For ref erence, the N/Z
+ratios for208Pb and132Sn are 1.54 and 1.64, respectively.
+TABLE I: Ecm/Avalues [MeV] of the upper limit of charge
+equilibration obtained by TDHF calculations with SLy4d and
+SkM* parameters, compared to those by the proposed for-
+mula, eq. (1). For reference, the values obtained by the Ferm i
+gas model with standard parameters are shown.
+Collision TDHF TDHFEq. (1) Fermi
+(SLy4d) (SkM*) gas
+(i)208Pb +238U6.5±0.56.5±0.56.919.46
+(ii)208Pb +132Xe6.5±0.56.5±0.56.509.03
+(iii)208Pb +132Sn6.5±0.56.5±0.56.369.03
+(iv)208Pb +40Ca3.5±0.53.5±0.53.665.14
+(v)208Pb +24Mg2.5±0.52.5±0.52.363.52
+(vi)208Pb +24O2.5±0.52.5±0.52.183.52
+(vii)208Pb +16O1.5±0.51.5±0.51.752.50
+(viii)208Pb +4He<1.0<1.0 0.480.70
+(ix)24Mg +24O5.5±1.05.5±1.05.999.5
+unit, the vacuum permittivity, and the usual nuclear ra-
+dius parameter (1.2 fm), respectively. Here we express
+the minimum velocity by the corresponding minimum of
+the proton or neutron density of the two nuclei using the
+formula vmin
+F=/planckover2pi1(3π2ρmin)1/3/m. In Eq. (2), i= 1,2
+distinguishes the two initial nuclei, and ¯ ǫand¯δ(func-
+tions ofAi) are introduced based on the droplet model
+[9, 10] to take into account the eﬀect of neutron and pro-
+ton skins.
+In order to conﬁrm the validity of this picture, we
+perform three-dimensional TDHF calculations systemat-
+ically. Many TDHF events were obtained with diﬀerent
+values of impact parameter being incremented by 0.25
+fm. These events are summed over impact parameters
+with weights of geometric cross section, and elastic cases
+are discarded. By collecting TDHF events, we sort them
+in terms of N/Zratio with N/Zbeing discretized into
+bins of width 0.05. Figure 1 shows the yield distribu-
+tion of ﬁnal fragments for208Pb +132Sn reaction. Go-
+ing from low to high Ecm(total kinetic energy in the
+center-of-mass frame) of the collision, the peak energy
+of the yield distribution as a function of N/Zis almostconstant at the beginning, and is shifted later with the
+lowering of peak height. A clear decrease of the yield
+of charge-equilibrated fragments for Ecm/A≥7.0 MeV
+is noticed. On the other hand, very neutron-rich nuclei
+withN/Z∼2.0 simultaneously start to be produced. By
+takingE1as the energy at which the peak height starts
+to be lowered (6.0 MeV in this case), and E2as the en-
+ergy at which the yield of the equilibrated N/Zbecomes
+about50%(7.0MeVinthiscase),theupperenergy-limit
+is deﬁned in TDHF as ECE= (E1+E2)/2 (6.5 MeV in
+this case). The uncertainty from the energy bin value is
+(E2−E1)/2 (0.5 MeV in this case). Such TDHF results
+are summarized in the third and forth columns of Table
+I. TDHF calculations with two diﬀerent parameter-sets
+result in the same upper energy-limit. Note that a large
+value is obtained for24Mg +24O, implying that a sim-
+ple mass dependence (small values for reactions between
+light nuclei, and vice versa) cannot explain this, while
+the mass asymmetry plays a certain role.
+Let us have a comparison between the present upper-
+limit and the TDHF results. Figure 2 depicts how the
+upper limit given by Eq. (1) changes as functions of
+N/ZandA1/A2(orA2/A1). The upper energy-limit
+comes down signiﬁcantly low for higher mass asymme-
+try, while it depends only weakly on the total mass. Al-
+though charge equilibration can compete with Coulomb
+excitation particularly in collisions involving nuclei with
+largeZ, no evidence of a major change due to large Z
+is found in the results of Eq. (1) or those of TDHF cal-
+culations. However, non-negligible decrease of the upper
+energy-limit due to the proton-neutron asymmetry is no-
+ticed. The corresponding values obtained by the formula
+in Eq. (1) is shown in the ﬁfth column of Table I. For
+reference, the values obtained by the simple Fermi gas
+model (kF= 1.36 fm−1for both protons and neutrons)
+are shown in its sixth column. By comparing the re-
+sults of Eq. (1) with the TDHF results shown in the
+third and forth columns, the agreement is remarkable,
+including a high value in the last row. Comparison be-
+tween the results of Eq.(1) (blue circles) and the TDHF
+results (blue bars) is also made in Fig. 2. Consequently,3
+ N / Z  㻜㻡㻝㻜 A 1 / A2 =  1 
+ 10
+ 100
+㻜㻚㻡 㻝 㻝㻚㻡 㻞(i)
+(ix)
+(viii)(vii)(ii)(iii)
+(iv)
+(v)(vi)E   /A [MeV] FP 
+FIG. 2:N/Zdependence of the upper energy-limit of charge
+equilibration based on Eq. (1) in the center-of-mass frame,
+whereA1> A2is assumed without loss of generality. Values
+with diﬀerent total masses A= 100, 200, 300, 400, and 500
+are plotted for each A1/A2, which correspond to black lines
+from bottom to top in each group (values are too crowded to
+distinguish the total mass diﬀerence, for the cases of A1/A2=
+10 and 100), and lines are drawn to guide eyes. Each TDHF
+calculation is shown as a blue bar, where the central points
+correspond to the value obtained by Eq. (1) for each reaction ,
+and Roman numbers distinguish reactions shown in Table I.
+the upper-limit of charge equilibration depends largely
+on the Fermi energy, and the proton-neutron asymmetry
+can contribute to the shift of the upper-limit, where the
+dependence of the upper-limit on the mass-asymmetry is
+remarkable.
+Let us move on to the comparison to the experiments.
+Itcanbeseenthatexistingexperimentaldataagreeswith
+the present upper-limit formula. For instance, the fol-
+lowing experiments show charge equilibration:40Ar +
+58Ni atElab/A=7.0 MeV [11], and56Fe +165Ho (209Bi)
+atElab/A= 8.3 MeV [12]. The following experiment
+shows the disappearance of charge equilibration:112Sn
++124Sn atElab/A=50 MeV [13, 14]. Recently, experi-
+ments:124,112Sn +124,112Sn atElab/A= 35 and 50 MeV
+respectively was performed at Michigan State University
+[16]. One remarkable result here is that the ﬁnal frag-
+ments arenot so closeto chargeequilibrium even in lower
+energy collisions with Elab/A=35 MeV. The disappear-
+ance of charge equilibration for this experiment has not
+been explained. Because the upper limit of charge equi-
+libration is calculated to be Elab/A=27.6 MeV from Eq.
+(1), this question can be understood now.
+Thesuppressionofchargeequilibrationcontributenat-
+urally to the production of exotic fragment; more ex-
+otic nuclei far from the equilibrated N/Zratio are to be
+synthesized above the present upper-limit. Because thePb  +   Ca 208   40
+3.0 x10       s -226.0 x10       s -229.0 x10       s -22
+10 fm
+9.0 x10       s -226.0 x10       s -223.0 x10       s -22
+10 fmE      /A
+ = 3 MeVcm 
+E      /A
+ = 4 MeVcm 
+FIG. 3: Real-time dynamics of charge distribution for208Pb
++40Ca (SLy4d) is shown for a ﬁxed impact parameter 7.5
+fm. The upper and the lower panels show cases with Ecm/A
+= 3.0 MeV and 4.0 MeV, respectively. For both cases,208Pb
+is coming from the left, and40Ca from the right. The colored
+regions show the distribution of charge (proton-rich part) ,
+and the contours being incremented by 0.02 fm−3show the
+density. Domains with the proton-to-neutron density ratio
+greater than 0.78 and 0.72 are colored in red and yellow, re-
+spectively.
+bombardingenergiesofthe 3rd generationRI-beam facil-
+ities are suﬃciently high to exceed the upper-limit, the
+present upper-limit ensures more production of further
+exotic isotopes by the latest and the future RI-beam fa-
+cilities. In fact, in the experiment of Ref. [15], the yield
+of exotic fragments was increased simply by putting the
+beam energy higher than the present upper-limit. It is
+alsoofmuchinteresttoexplorethenovelpossibilityofthe
+synthesis of exotic nuclei by collisions including only β-
+stable nuclei. Such possibilities have not attracted much
+attention, but may emerge with various feasibilities of
+the production of exotic spieces, if the experiment is set
+for energies beyond the present upper-limit. As an ex-
+ample, Fig. 3 shows the real-time dynamics of208Pb +
+40Ca around the energy where the production of exotic
+nuclei starts; the upper energy limit is 3.66 MeV (See
+Table I), fusion appears at Ecm/A= 3.0 MeV (upper
+panels), and break-up is seen at 4.0 MeV (lower panels).
+β-unstable fragments are emitted only for the bombard-
+ing energy higher than the upper-limit; for instance, a
+small fragment in the lower-right panel of Fig. 3 is62Mn
+(numbersofnucleonareroundedtobeinteger), forwhich
+the stable isotope is55Mn.
+We now point out some interesting details of charge-
+equilibration dynamics for collisions below the present
+upper energy limit. We shall ﬁrst investigate it with a
+focus on the iv-GDR in a collision between light nuclei.
+Figure 4 (a) shows the time-evolution of charge distri-
+bution for24O +24Mg. We see the appearance of the
+iv-GDR and the oscillation of well-localized charge (4.5,
+6.0×10−22sec). The charge equilibration is synchro-
+nized with the iv-GDR. This is, however, seen only for4
+time10 fm4.5 x10      s-226.0 x10      s-227.5 x10      s-22Mg +   O24   24
+Mg +    Pb24   208
+time10 fm4.5 x10      s7.5 x10      s10.5 x10      s(a)
+(b)
+FIG. 4: Real-time dynamics of charge distribution for24Mg
++24O and24Mg +208Pb (SLy4d) are shown for Ecm/A= 4.5
+MeV and 2.0 MeV with the impact parameters 5.0 fm and 7.5
+fm, respectively. For both cases,24Mg is incoming from the
+left, and the states are evolving into fusion. The descripti on
+manner is the same as Fig. 3, where parts with the proton to
+neutron density ratio larger than 1.00 (0.75) and 0.80 (0.70 )
+are colored in red and yellow in case of24Mg +24O (24Mg +
+208Pb), respectively.
+collisions between light nuclei. Similar results are ob-
+tained in [2–8]. Next, we move on to collisions involving
+a heavier nucleus; e.g.24Mg +208Pb, as shown in Fig. 4
+(b). Charge-equilibration dynamics is not similar to the
+motion of the iv-GDR in this case, because no signiﬁcant
+oscillationsofthelocalizedchargeappear. Insteadaradi-
+ally layered structure of the composite nucleus is formed
+(7.5×10−22sec), in which a relatively neutron-rich core
+appears in the center, a proton-rich layer surrounds it,
+and a neutron-rich skin is in the surface. This seems to
+be due to the Coulomb repulsion, hence the radial distri-
+bution of charge is formed. Here one can ﬁnd analogous
+situation of isovectormonopole excitation. It means that
+the radial ﬂow plays a prominent role in such low energy
+collisions. Similar layered structures are obtained in the
+TDHF calculations (with both Skyrme parameter-sets)
+listed in Table I except for24Mg +24O. Consequently,
+chargeequilibration, which isdependentonthe mass, has
+been clariﬁed to be related not only with the isovectorgi-
+ant dipole excitations, but also with the isovector giant
+monopole excitations.
+Finally, let us comment on the diﬀusion-type mech-
+anism towards charge equilibrium. The mechanism of
+charge equilibration discussed in this Letter is valid at
+lower energies (lower than the upper energy-limit). At
+much higher energies, collisions between nucleons and
+the diﬀusion contribute mostly to charge equilibration
+(for example, see [17, 18]). As the diﬀusion is a slow pro-
+cess, it is unlikely to attain the chargeequilibrium withinthe initial stage. Energy-dependent equilibration mecha-
+nisms of a similar kind have been reported in condensed
+matter physics (see [19–21]), where the equilibration is
+fast for lower energies (temperatures), and quite slow for
+higher energies. Such a similarity between completely
+diﬀerent physical systems is interesting.
+In this Letter the mechanism of charge equilibration,
+in which nucleons with the Fermi velocity play a primary
+role, has been presented, and its validity is examined by
+comparisonto virtuallyall existingrelevant experimental
+data. This concept has been further analyzed in terms of
+a three-dimensional time-dependent density function for-
+malism. The upper energy-limit of charge equilibration
+hasacrucialimpact onthenuclearsynthesisofexoticnu-
+clei. Properties presented in this Letter will give a sound
+motivation for the production of further exotic isotopes
+by the latest and the future RI-beam facilities.
+This work was supported in part by EMMI project
+of the Helmholtz Alliance, by JSPS Core-to-Core pro-
+gram EFES and by grant-in-aid for Scientiﬁc Research
+(A) 20244022. Y.I. thanks for the JSPS fellowship, and
+express his gratitude to Dr. C. Simenel. T.O. thanks
+Prof. P. Bonche for long-term valuable collaboration.
+[1] H. Freiesleben and J.V. Kratz, Phys. Rep. 106(1984) 1.
+[2] M. Berlanger, A. Gobbi, F. Haneppe, U Lynen, C. Ngˆ o
+and A. Olmi, Z. Phys. A 291(1979) 133.
+[3] E.S. Hernandez, W.D. Myers, J. Randrup and B. Re-
+maud, Nucl. Phys. A 361(1981) 483.
+[4] P. Bonche and N. Ngˆ o, Phys. Lett. B 105(1981) 17.
+[5] E. Suraud, M. Pi, and P. Schuck, Nucl. Phys. A 492
+(1989) 294.
+[6] V. Baran, D.M. Brink, M. Colonna, and M. Di Toro,
+Phys. Rev. Lett. 87(2007) 182501.
+[7] C. Simenel, Ph. Chomaz, and G. de France, Phys. Rev.
+Lett. (2001) 2971.
+[8] C. Simenel, Ph. Chomaz, and G. de France, Phys. Rev.
+C 76(2007) 024609.
+[9] W.D. Myers and W.J. Swiatecki, Ann. Phys. 55(1969)
+395.
+[10] W.D. Myers, Phys. Lett. 30B(1969) 451.
+[11] B. Gatty, D. Guerreau, M. Lefort, X. Tarrago and J.
+Galin, Nucl. Phys. A 253(1975) 511.
+[12] H. Breuer et. al., Phys. Rev. Lett. 43(1979) 191.
+[13] P. M. Milazzo et. al., Phys. Rev. C66(2002) 021601.
+[14] W.P. Tan et. al., Phys. Rev. C64(2001) 051901.
+[15] M. Mocko et. al., Phys. Rev. C76(2007) 014609.
+[16] M.B. Tsang et. al., Private communication.
+[17] L. Shi and P. Danielewicz, Phys. Rev. C 68(2003)
+064604.
+[18] M.B. Tsang et. al., Phys. Rev. Lett. 102(2009) 122701.
+[19] L.D. Landau and Zh. Eksperim, Soviet Phys. - JETP 5
+(1957) 101.
+[20] W.R. Abel, A.C. Anderson, and J.C. Wheatley, Phys.
+Rev. Lett. 172 (1966) 74.
+[21] A.J. Leggett, Rev. Mod. Phys. 47No.2 (1975) 331.

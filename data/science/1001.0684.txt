@@ -1,0 +1,270 @@
+arXiv:1001.0684v2  [math.NT]  23 Apr 2010Non-singular points on Hypersurfaces over Fq
+Jahan Zahid
+1 Introduction
+In this survey we investigate hypersurfaces deﬁned over ﬁnite ﬁe ldsFq. More
+speciﬁcally we wish to determine for which hypersurfaces one can en sure the
+existence of a non-singular point taking the cardinality qof our ambient ﬁeld
+large if need be. Additionally for such hypersurfaces we will ﬁnd a lowe r
+bound on qfor which a non-singular point is guaranteed.
+We shall assume that our hypersurface is projective and is deﬁned by the
+homogeneous polynomial
+F(x1,...,x n)∈Fq[x1,...,x n],
+inn≥3 variables. Recall that a non-singular point x∈Fn
+qis one in which
+∇F(x) :=/parenleftbigg∂F
+∂x1(x),...,∂F
+∂xn(x)/parenrightbigg
+/ne}ationslash=0.
+1.1 Motivation
+It is a classical theorem of Chevalley & Warning that every form Fof degree
+dinn > dvariables has a non-trivial zero in Fq. However there seems to be
+much less in the literature giving conditions which ensure that Fhas a non-
+singular point. This question is worth addressing for a number of rea sons.
+For example suppose we have a form Fdeﬁned over the p-adic numbers Qp,
+we may wish to determine whether or not Fhas a non-trivial zero. This is
+of course a requisite for the corresponding form to have a non-tr ivial zero in
+the rational numbers Q. A standard and well known method for determining
+the existence of a p-adic point is by an application of Hensel’s lemma viz.
+assume without loss of generality Fis deﬁned over Zp, then if there is some
+xoverZpsuch that
+F(x)≡0 (mod p) and ∇F(x)/ne}ationslash≡0(modp)
+1thenFhas a non-trivial p-adic point.
+A conjecture of Artin [1, Preface] states that every p-adic form of degree
+dinn > d2variables has a non-trivial zero. There exist forms in n=d2
+variables with only the trivial zero in every p-adic ﬁeld, so this is the best
+we can hope for. The conjecture is false in general (see for examp le [10]).
+However by a rather remarkable theorem of Ax & Kochen [2] it is know n to
+be true for any ﬁxed degree d, provided the characteristic of the residue class
+ﬁeldislargeenough. Areasonablelower boundforthecharacterist ic required
+is only known in a handful of cases. For example, recently Wooley [11] has
+shown that for d= 7 and 11 we require the size of the residue class ﬁeld
+to respectively exceed 883 and 8053. These estimates depend on t he ability
+to ascertain the existence of a non-singular point on the Fq-varieties under
+consideration. It is often in this regard that we are motivated to se ek non-
+singular points on varieties.
+Theexistenceofa p-adicpointisalsocrucialforapplicationsoftheHardy-
+Littlewood circle method where one requires a certain “singular serie s” to be
+positive. The singular series of some function is positive precisely whe n that
+function has a non-singular p-adic point for every p.
+1.2 Varieties with a non-singular point
+We necessarily require some kind of classiﬁcation of our variety F(x) = 0,
+since there are examples such as F(x) =G(x)2with only singular zeros.
+After factorizing Fover the algebraic closure ¯Fqwe may write
+F(x) =F1(x)a1···Fr(x)ar(1)
+whereai∈Nand each Fiis absolutely irreducible and pairwise coprime. If
+ai≥2 for each i, then it is clear that Fhas only singular points. We may
+therefore assume henceforth that a1= 1. Consequently we can write
+F(x) =G(x)H(x)
+whereGis absolutely irreducible and Gdoes not divide H. Since we are
+interested in ﬁnding non-singular points over the base ﬁeld Fq, for simplicity
+we shall assume that both GandHare deﬁned over Fq.
+It is clear that we can ﬁnd a non-singular zero of F, provided that we can
+ﬁnd a non-singular zero of Gwhich is not a zero of H. Since for any such
+pointx∈Fn
+q, clearlyF(x) = 0 and
+∇F(x) =H(x)∇G(x)/ne}ationslash=0.
+This exact question has been studied by Lewis & Schuur [8, Theorem 1 ] who
+prove the following result in their paper.
+2Theorem 1 (Lewis & Schuur, 1973) .LetGbe an absolutely irreducible form
+of degree doverFqandHa form of degree eoverFqnot divisible by G. Then
+there exists a function A(d,e)such that if Fqis a ﬁnite ﬁeld of cardinality
+q > A(d,e), then there exists an Fq-point which is a non-singular zero of G
+and which is not a zero of H.
+We shall apply a recent result of Cafure & Matera [3] in order to ﬁnd a
+permissible value for A(d,e) in the Lewis & Schuur theorem. More precisely
+we will prove
+Theorem 2. LetGbe an absolutely irreducible form of degree doverFqand
+Ha form of degree eoverFqnot divisible by G. Then provided that
+q >1
+4/parenleftbig
+α+/radicalbig
+α2+4β)2
+where
+α= (d−1)(d−2)andβ= 5d13/3+d(d+e−1)
+there is a non-singular zero of Gwhich is not a zero of H.
+When the form Fis absolutely irreducible we can do slightly better,
+by applying an eﬀective version of the ﬁrst Bertini theorem, along w ith the
+sharper estimates which areavailableforpointcounting oncurves. Forusthe
+ﬁrst Bertini theorem says that given any absolutely irreducible hyp ersurface,
+there exists a linear variety of dimension 2 whose intersection with th eformer
+is absolutely irreducible. The existence of this linear variety has been made
+quantitative by Kaltofen [5] which allows us to prove
+Theorem 3. LetFbe an absolutely irreducible form of degree doverFqthen
+provided that,
+q >1
+2(3d4−4d3+5d2)
+there is a non-singular zero of F.
+We may also apply a ﬂexible version of the Bertini theorem (as given
+in [3, Corollary 3.4]) in the general case i.e. whenever F(x) =G(x)H(x).
+However there is more delicacy involved dealing with the degrees of ea ch
+irreducible factor Fiin (1). In this respect it seems diﬃcult to asymptotically
+improve on the permissible lower bound for q, given in Theorem 2. One may
+wish to read [11] for further details.
+32 Some preliminaries
+In this section we shall review some of the elements which are available for
+point counting on varieties.
+2.1 Lang–Weil estimates
+Arguably the genesis for much subsequent work on estimating the n umber of
+points on Fq-varieties, is due to a theorem of Lang & Weil [6].
+Theorem 4 (Lang–Weil, 1954) .Given any absolutely irreducible variety V
+of degree dand dimension rinn-dimensional projective space over Fq, there
+exists a constant C=C(n,r,d)such that the number of Fq-pointsNofV
+satisﬁes
+|N−qr| ≤(d−1)(d−2)qr−1/2+Cqr−1.
+Inthecaseofwheneverthevariety Visdeﬁnedbyahypersurfaceofdegree
+dinnvariables over Fn
+q, there has been much work on ﬁnding a permissible
+value for the constant C=C(n,r,d) in the Lang & Weil theorem. For
+example Schmidt [9, Theorem 5A, p.210] proved that we can take
+C= 6d2k2k, (2)
+wherek=1
+2d(d+1). More recently Cafure& Matera [3, Theorem 5.2] proved
+the following
+Theorem 5 (Cafure & Matera, 2006) .The number of points N, on an
+absolutely irreducible Fqhypersurface in nvariables of degree dsatisﬁes
+|N−qn−1| ≤(d−1)(d−2)qn−3/2+5d13/3qn−2.
+Thissubstantial improvement of(2)owesmuchtotheworkofKalto fen[5]
+forprovidinganeﬀectiveversionoftheﬁrstBertinitheorem. Wes halldiscuss
+this further in the next section.
+2.2 Upper bounds on the number of Fq-points
+We will also require bounding from above, the number of points on an a ﬃne
+variety of prescribed degree. Thus note the following well known re sult (for
+example see [3, Lemma 2.1]).
+Lemma 1. AnyFq-varietyV, of dimension rand degree dinFn
+qsatisﬁes
+#(V∩Fn
+q)≤dqr.
+4In order to keep some control on the number of singular points on o ur
+variety we need to estimate the number of points on the intersectio n of two
+hypersurfaces, with no common component. To prove the next lem ma it will
+be necessary to utilize the B´ezout inequality (for example see [4, p.148]): if
+VandWare aﬃne varieties in Fn
+qthen
+deg(V∩W)≤degVdegW. (3)
+Lemma 2. LetF1,F2∈Fq[x]be non-zero polynomials of degrees d1and
+d2without a common factor in ¯Fq[x]then the variety Vdeﬁned by F1,F2
+satisﬁes
+#(V∩Fn
+q)≤d1d2qn−2.
+Proof.SinceF1andF2have no common factors in ¯Fq[x], thenVis anFq
+variety of dimension n−2. From the B´ezout inequality (3), degV≤d1d2.
+The result then follows by Lemma 1.
+2.3 Non-singular points on curves
+Finally we will also need to estimate the number of non-singular points o n
+an absolutely irreducible curve. The following lemma is due to the work o f
+Leep & Yeomans [7].
+Lemma 3. LetP∈Fq[x,y]be an absolutely irreducible polynomial of degree
+d. Then the number N′of non-singular zeros of Psatisﬁes
+N′≥q+1−1
+2(d−1)(d−2)[2√q],
+where[γ]denotes the least integer not exceeding γ.
+Proof.WriteSto denote the number of Fqsingular zeros of P. Then if the
+curve deﬁned by P(x,y) = 0 has genus g, it follows from [7, Corollary 1] that
+|N′+S−(q+1)| ≤g([2√q]−1)+1
+2(d−1)(d−2).
+Next we use the above estimate together with the following bound on the
+genus
+g≤1
+2(d−1)(d−2)−S,
+which comes from [7, Lemma 1], to obtain the required bound
+N′≥q+1−1
+2(d−1)(d−2)[2√q].
+53 Proof of Theorems 2 and 3
+Our strategy will be relatively straight forward: to prove Theorem 2 we shall
+bound from below the total number of points on the hypersurface G(x) = 0,
+whilst simultaneously bounding from above, the number of singular po ints
+ofG(x) = 0 plus the number of points on the intersection G(x) =H(x) = 0;
+for Theorem 3 we shall use an eﬀective version of the ﬁrst Berini th eorem
+and apply Lemma 3 to obtain the desired conclusion.
+Proof of Theorem 2. If we let
+S1= #{x∈Fn
+q:G(x) = 0and∇G(x) =0}
+and
+S2= #{x∈Fn
+q:G(x) = 0and H(x) = 0},
+then it follows that we have a non-singular point of Gwhich not a zero of H
+provided that N−S1−S2>0, where Ndenotes the number of points of G.
+If∇Gisidenticallyzerothenitfollowsthat G(x1,...,x n) =M(xp
+1,...,xp
+n),
+wherepdenotesthecharacteristic of Fq, forsomeform M. Consequently over
+¯Fq[x],G(x) factorsinto M′(x1,...,x n)pfor some form M′, contradicting that
+Gis absolutely irreducible. Therefore some component of ∇Gis non-zero,
+∂G
+∂x1say.
+It is clear that Gand∂G
+∂x1have no common factor in ¯Fq[x], therefore by
+Lemma 2 it follows that S1≤d(d−1)qn−2. Moreover since GandHdo
+not have a common component it also follows that S2≤deqn−2. Hence by
+Theorem 5
+N−S1−S2≥qn−1−(d−1)(d−2)qn−3/2−(5d13/3+d(d−1)+de)qn−2.
+It is clear that N−S1−S2>0 provided that
+q−(d−1)(d−2)√q−5d13/3−d(d+e−1)>0,
+from which the conclusion follows.
+Before proving Theorem 3, we need to introduce some notation. Le tL
+be a ﬁeld and consider a polynomial f∈L[x0,x1,...,x n]. When ξ∈L3n+1,
+we write f|ξ=f|ξ(X,Y) to denote the sliced polynomial
+f(ξ0+X,ξ1+ξn+1X+ξ2n+1Y,...,ξ n+ξ2nX+ξ3nY).
+Next notethefollowing result ofKaltofen[5,p.285]which ismade explic it
+by Cafure & Matera [3, Corollary 3.2].
+6Lemma 4. Letf∈Fq[x0,...,x n]be an absolutely irreducible polynomial of
+degreed≥2. Then the number of slices ξ∈F3n+1
+q, for which the polynomial
+f|ξis not absolutely irreducible is at most1
+2(3d4−4d3+5d2)q3n.
+Proof of Theorem 3. We know that Fis absolutely irreducible, so by Lemma
+4 provided that
+q >1
+2(3d4−4d3+5d2),
+there exists a slice ξ∈F3n+1
+qsuch that F|ξ(x) = 0 is an absolutely irreducible
+curve. HencebyLemma 3thenumber N′ofnon-singularpointsonitsatisﬁes
+N′≥q−1
+2(d−1)(d−2)[2√q]+1.
+Note that N′>0 provided that
+q−(d−1)(d−2)√q+1>0.
+The above inequality clearly holds for d= 1,2. Consequently if we assume
+d/ne}ationslash= 1,2 and take
+q >1
+4(α+√
+α2−4)2,
+whereα= (d−1)(d−2) then the curve F|ξhas a non-singular point. Finally
+it is not diﬃcult to see that for d/ne}ationslash= 1,2
+6d4−8d3+10d2>(α+√
+α2−4)2.
+HenceF(x) = 0 will always have a non-singular point whenever
+q >1
+2(3d4−4d3+5d2),
+as required.
+Acknowledgments: It is a pleasure to thank the Hausdorﬀ Research
+Institute for Mathematics, for their kind hospitality where part of this work
+took place. I would also like to thank Prof. Roger Heath-Brown for t he
+valuable and interesting discussions I have had with him on this topic.
+7References
+[1] E. Artin. The collected papers of Emil Artin . Addison-Wesley, London,
+1965.
+[2] J. Ax and S. Kochen. Diophantine problems over local ﬁelds. I. Amer.
+J. Math., 87:605–630, 1965.
+[3] A. Cafure and G. Matera. Improved explicit estimates on the num ber of
+solutions of equations over a ﬁnite ﬁeld. Finite Fields Appl. , 12(2):155–
+185, 2006.
+[4] W. Fulton. Intersection theory , volume 2 of Ergebnisse der Mathematik
+und ihrer Grenzgebiete. 3. Folge. A Series of Modern Surveys in Math-
+ematics. Springer-Verlag, Berlin, second edition, 1998.
+[5] E. Kaltofen. Eﬀective Noether irreducibility forms and application s.
+J. Comput. System Sci. , 50(2):274–295, 1995. 23rd Symposium on the
+Theory of Computing (New Orleans, LA, 1991).
+[6] S. Lang and A. Weil. Number of points of varieties in ﬁnite ﬁelds. Amer.
+J. Math., 76:819–827, 1954.
+[7] D. B. Leep and C. C. Yeomans. The number of points on a singular
+curve over a ﬁnite ﬁeld. Arch. Math. (Basel) , 63(5):420–426, 1994.
+[8] D. J. Lewis and S. E. Schuur. Varieties of small degree over ﬁnite ﬁelds.
+J. Reine Angew. Math. , 262/263:293–306, 1973. Collection of articles
+dedicated to Helmut Hasse on his seventy-ﬁfth birthday.
+[9] W. M. Schmidt. Equations over ﬁnite ﬁelds. An elementary approach .
+Lecture Notes in Mathematics, Vol. 536. Springer-Verlag, Berlin, 1 976.
+[10] G. Terjanian. Un contre-exemple ` a une conjecture d’Artin. C. R. Acad.
+Sci. Paris S´ er. A-B , 262:A612, 1966.
+[11] T. D. Wooley. Artin’s conjecture for septic and unidecic forms. Acta
+Arith., 133(1):25–35, 2008.
+8

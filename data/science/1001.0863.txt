@@ -1,0 +1,361 @@
+arXiv:1001.0863v1  [math.ST]  6 Jan 2010Correction to: “Blind maximum likelihood
+separation of a linear-quadratic mixture”
+Shahram Hosseini, Yannick Deville
+Laboratoire d’Astrophysique de Toulouse-Tarbes, Univers it´ e de Toulouse, CNRS ,
+14 avenue Edouard Belin - 31400 Toulouse - France.
+shosseini@ast.obs-mip.fr , ydeville@ast.obs-mip.fr
+Abstract
+An error occurred in the computation of a gradient in [1]. The equa-
+tions (20) in Appendix and (17) in the text were not correct. T he current
+paper presents the correct version of these equations.
+I Summary of [1]
+In [1] (see Appendix for an authors’ version of this article), we pro posed a
+maximum likelihood approach for blindly separating a linear-quadratic m ixture
+deﬁned by (Eq. (2) in [1]):
+x1=s1−l1s2−q1s1s2 x2=s2−l2s1−q2s1s2(I.1)
+wheres1ands2are two independent sources. The log-likelihood for Nsamples
+of the mixed signals x1andx2reads (Eq. (12) in [1]):
+L=Et[logfS1(s1(t))]+Et[logfS2(s2(t))]−Et[log|J(s1(t),s2(t))|] (I.2)
+whereEt[.] represents the time average operator on the Nsamples,fs1(.) and
+fs2(.) are the probability density functions (pdf) of the sources s1ands2and
+Jis the Jacobian of the mixture which reads (Eq. (4) in [1])
+J= 1−l1l2−(q2+l2q1)s1−(q1+l1q2)s2. (I.3)
+Maximizing the log-likelihood requires that its gradient with respect to the pa-
+rametervector w= [l1,l2,q1,q2],i.e.∂L
+∂w, vanishes. Deﬁning the score functions
+of the two sources as (Eq. (13) in [1])
+ψi(u) =−∂logfSi(u)
+∂ui= 1,2
+we can write (Eq. (14) in [1])
+∂L
+∂w=−Et[ψ1(s1)∂s1
+∂w]−Et[ψ2(s2)∂s2
+∂w]−Et[1
+J∂J
+∂w] (I.4)
+1Rewriting (I.1) in the vector form x=f(s,w) and considering was the inde-
+pendent variable and sas the dependent variable, we can write, using implicit
+diﬀerentiation (Eq. (15) in [1])
+0=∂f
+∂s∂s
+∂w+∂f
+∂w(I.5)
+which yields (Eq. (16) in [1])
+∂s
+∂w=−(∂f
+∂s)−1∂f
+∂w(I.6)
+Note that∂f
+∂sis the Jacobian matrix of the mixing model. Considering (I.1), we
+can write (Appendix in [1])
+∂f
+∂s=/parenleftbigg1−q1s2−l1−q1s1
+−l2−q2s21−q2s1/parenrightbigg
+and∂f
+∂w=/parenleftbigg−s20−s1s20
+0−s10−s1s2/parenrightbigg
+,
+which implies, from (I.6)
+∂s
+∂w=−1
+J/parenleftbigg1−q2s1l1+q1s1
+l2+q2s21−q1s2/parenrightbigg
+./parenleftbigg−s20−s1s20
+0−s10−s1s2/parenrightbigg
+(I.7)
+and yields (Eq. (19) in [1])
+∂s1
+∂w=1
+J[(1−q2s1)s2,(l1+q1s1)s1,(1−q2s1)s1s2,(l1+q1s1)s1s2]
+∂s2
+∂w=1
+J[(l2+q2s2)s2,(1−q1s2)s1,(l2+q2s2)s1s2,(1−q1s2)s1s2](I.8)
+Using (I.8), we obtain the ﬁrst two terms of the gradient (I.4). To o btain the
+third term, we need to compute∂J
+∂w. This partial derivative was computed
+inaccurately in [1] so that Equations (20), and thus (17), in [1] are erroneous.
+II Correct versions of Equations (20) and (17)
+in [1]
+In [1] we did not consider the implicit dependence of s1ands2onwand
+computed the derivative of Jwith respect to wignoring this dependence. Con-
+sideringJ=g(w,s(w)), the correct equation for∂J
+∂wreads
+∂J
+∂w=∂J
+∂w|scte+∂J
+∂s∂s
+∂w(II.1)
+Equation (20) in [1] only corresponded to the ﬁrst term on the right side of the
+above relation which reads, following (I.3), as:
+∂J
+∂w|scte=−[l2+q2s2,l1+q1s1,l2s1+s2,s1+l1s2] (II.2)
+2We now compute the gradient (II.1) entirely. Considering (I.3), we c an write
+∂J
+∂s=−[q2+l2q1,q1+l1q2] (II.3)
+Using(II.1), (II.2), (II.3)and(I.7)weﬁnallyobtainthefollowingequ ationwhich
+must replace the equation (20) in [1]
+∂J
+∂w= [−(l2+q2s2)−(q2+l2q1)(1−q2s1)s2/J−(q1+l1q2)(l2+q2s2)s2/J,
+−(l1+q1s1)−(q1+l1q2)(1−q1s2)s1/J−(q2+l2q1)(l1+q1s1)s1/J,
+−(l2s1+s2)−(q2+l2q1)(1−q2s1)s1s2/J−(q1+l1q2)(l2+q2s2)s1s2/J,
+−(l1s2+s1)−(q1+l1q2)(1−q1s2)s1s2/J−(q2+l2q1)(l1+q1s1)s1s2/J]
+(II.4)
+Inserting (I.8) and (II.4) in (I.4), we obtain the following expression for the
+gradient which must replace Equation (17) in [1]
+∂L
+∂w=−Et[(ψ1(s1)(1−q2s1)s2+ψ2(s2)(l2+q2s2)s2
+−(l2+q2s2)−(q2+l2q1)(1−q2s1)s2/J−(q1+l1q2)(l2+q2s2)s2/J)/J,
+(ψ1(s1)(l1+q1s1)s1+ψ2(s2)(1−q1s2)s1
+−(l1+q1s1)−(q1+l1q2)(1−q1s2)s1/J−(q2+l2q1)(l1+q1s1)s1/J)/J,
+(ψ1(s1)(1−q2s1)s1s2+ψ2(s2)(l2+q2s2)s1s2
+−(l2s1+s2)−(q2+l2q1)(1−q2s1)s1s2/J−(q1+l1q2)(l2+q2s2)s1s2/J)/J,
+(ψ1(s1)(l1+q1s1)s1s2+ψ2(s2)(1−q1s2)s1s2
+−(l1s2+s1)−(q1+l1q2)(1−q1s2)s1s2/J−(q2+l2q1)(l1+q1s1)s1s2/J))/J]
+(II.5)
+References
+[1] S. Hosseini, Y. Deville, Blind maximum likelihood separation of a linear-
+quadratic mixture, Proceedings of the Fifth International Confe rence on In-
+dependentComponentAnalysisandBlindSignalSeparation(ICA200 4),pp.
+694-701, ISSN 0302-9743, ISBN 3-540-23056-4, Springer-Ver lag, vol. LNCS
+3195, Granada, Spain, Sept. 22-24, 2004.
+3APPENDIX: Authors’ version of [1]
+1 Introduction
+It is well known that the independence hypothesis is not suﬃcient fo r separat-
+ing general nonlinear mixtures because of the very large indetermin acies which
+make the nonlinear BSS problem ill-posed. A natural idea for reducing the in-
+determinacies is to constrain the structure of mixing and separatin g models to
+belong to a certain set of transformations. This supplementary co nstraint can
+be viewed as a regularization of the initially ill-posed problem.
+In this paper, we study a linear-quadratic mixture model which may b e
+considered as the simplest (nonlinear) version of a general polynom ial model.
+Our main aim is to develop an approach which can be easily extended to h igher-
+order polynomial models. Hence, we propose a recurrent separat ing structure
+whose realization does not require the knowledge of the explicit form of the
+inverse of the mixing model. We develop a rigorous method to identify t he
+parameters of the separating structure in a maximum likelihood fram ework.
+The algorithm is developed so that the inverse of the mixing structur e is not
+required to be known. Thus, it can be extended to more general po lynomial
+mixtures.
+2 mixing and separating models
+Supposeu1andu2are two independent random signals. Given the following
+nonlinear instantaneous mixture model
+xi=ai1u1+ai2u2+biu1u2i= 1,2 (1)
+we would like to estimate u1andu2up to a permutation and a scaling factor
+(and possibly an additive constant). For simplicity, let’s denote s1=a11u1and
+s2=a22u2.s1ands2will be referred to as the sourcesin the following. (1) can
+be rewritten as
+x1=s1−l1s2−q1s1s2
+x2=s2−l2s1−q2s1s2 (2)
+in whichl1=−a12/a22andl2=−a21/a11represent the linear contributions of
+the sources in the mixture, and q1=−b1/(a11a22) andq2=−b2/(a11a22) repre-
+sent the quadratic contributions. The negative signs are chosen f or simplifying
+the notations of the separating structure.
+Solving the model (2) for s1ands2leads to the following two pairs of solu-
+tions, which may be considered as two direct separating structure s:
+(∫1,∫2)1= ((−b1+/radicalbig
+∆1)/2a1,(−b2+/radicalbig
+∆2)/2a2)
+(∫1,∫2)2= ((−b1−/radicalbig
+∆1)/2a1,(−b2−/radicalbig
+∆2)/2a2) (3)
+4−0.5 0 0.5−0.500.5(a)
+s1s2
+−1 −0.5 0 0.5 1−0.6−0.4−0.200.20.40.60.8(b)
+x1x2
+−1.6−1.4−1.2 −1−0.8−0.60.511.522.5(c)
+y1y2
+−1 −0.5 0 0.5 1−0.8−0.6−0.4−0.200.20.40.6(d)
+y1y2
+Figure 1: Case when J >0 for all the source values. Distribution of (a) sources,
+(b) mixtures, (c) output of the ﬁrst direct separating structur e, (d) output of
+the second direct separating structure.
+where ∆ i=b2
+i−4aici,a1=q2+l2q1,a2=q1+l1q2,b1=q1x2−q2x1+l1l2−1,
+b2=q2x1−q1x2+l1l2−1,c1=x1+l1x2andc2=x2+l2x1. It can be easily
+veriﬁed that ∆ 1= ∆2=J2, whereJis the Jacobian of the mixing model (2)
+and reads
+J= 1−l1l2−(q2+l2q1)s1−(q1+l1q2)s2 (4)
+According to the variation domain of the two sources, three diﬀere nt cases may
+be considered:
+1)J <0 for all the values of s1ands2. In this case (3) becomes:
+(∫1,∫2)1= (s1,s2) (5)
+(∫1,∫2)2= (−q1+l1q2
+q2+l2q1s2−l1l2−1
+q2+l2q1,−q2+l2q1
+q1+l1q2s1−l1l2−1
+q1+l1q2) (6)
+Thus, the ﬁrst direct separating structure in (3) leads to the act ual sources and
+the second direct separating structure leads to another solution , equivalent to
+the ﬁrst one up to a permutation, a scaling factor, and an additive c onstant.
+2)J >0 for all the values of s1ands2. In this case, the ﬁrst structure
+leads to the permuting solution, deﬁned by (6), and the second str ucture to the
+actual sources ( s1,s2). An example is shown in Fig. 1 for the numerical values
+l1=−0.2,l2= 0.2,q1=−0.8,q2= 0.8 andsi∈[−0.5,0.5].
+3)J >0 for some values of the sources and J <0 for the other values. In
+this case, each structure leads to the non-permuted sources (5 ) for some values
+of the observations and to the permuted sources (6) for the oth er values. An
+example is shown in Fig. 2 (with the same coeﬃcients as in the second ca se,
+but forsi∈[−2,2]). The permutation eﬀect is clearly visible in the ﬁgure. One
+may also remark that the straight line J= 0 in the source plane is mapped to
+a conic section in the observation plane (shown by asterisks).
+Thus, it is clear that the direct structures may be used for separa ting the
+sourcesifthe Jacobianofthe mixingmodel isalwaysnegativeoralway spositive,
+5−2 −1 0 1 2−3−2−1012(a)
+s1s2
+−5 0 5 10−6−4−20246(b)
+x1x2
+−3 −2 −1 0 1−2−1012345(c)
+y1y2
+−4 −2 0 2 4−3−2−1012(d)
+y1y2
+Figure 2: Case when J >0 for some values of the sources and J <0 for the
+other values. Distribution of (a) sources, (b) mixtures, (c) outp ut of the ﬁrst
+direct separatingstructure, (d) output ofthe second direct se parating structure.
+i.e.forallthesourcevalues. Otherwise, althoughthesourcesarese paratedsam-
+ple by sample , each retrieved signal contains samples of the two sources. This
+problem arises because the mixing model (2) is not bijective. This the oretically
+insoluble problem should not discourage us. In fact, our ﬁnal objec tive is to ex-
+tend the idea developed in the current study to more general polyn omial models
+which will be used to approximate the nonlinear mixtures encountere d in the
+real world. If these real-world nonlinear models are bijective, we ca n logically
+suppose that the coeﬃcients of their polynomial approximations ta ke values
+which make them bijective on the variation domains of the sources. T hus, in
+the following, we suppose that the sources and the mixture coeﬃcie nts have nu-
+merical values ensuring that the Jacobian Jof the mixing model has a constant
+sign.
+The natural idea to separate the sources is to form a direct separ ating struc-
+ture using any of the equations in (3), and to identify the paramete rsl1,l2,
+q1andq2by optimizing an independence measuring criterion. Although this
+approach may be used for our special mixing model (2), as soon as a more
+complicated polynomial model is considered, the solutions ( ∫1,∫2) can no longer
+be determined so that the generalization of the method to arbitrar y polyno-
+mial models seems impossible. To avoid this limitation, we propose a recu rrent
+structure shown in Fig. 3. Note that, for q1=q2= 0, this structure is reduced
+to the basic H´ erault-Jutten network. It may be checked easily th at, for ﬁxed
+observations deﬁned by (2), y1=s1andy2=s2corresponds to a steady state
+for the structure in Figure 3.
+The use ofthis recurrent structure is more promising because it ca n be easily
+generalized to arbitrary polynomial models. However, the main prob lem with
+this structure is its stability. In fact, even if the mixing model coeﬃc ients are
+exactlyknown, the computation ofthe structureoutputs requir esthe realization
+6/G71/G32/G6C/G31
+/G6C/G32
+/G78/G32/G79/G32/G71/G31/G79/G31/G78/G31
+/G2B
+/G2B/G58
+Figure 3: Recurrent separating structure.
+of the following recurrent iterative model
+y1(n+1) =x1+l1y2(n)+q1y1(n)y2(n)
+y2(n+1) =x2+l2y1(n)+q2y1(n)y2(n) (7)
+where a loop on nis performed for each couple of observations ( x1,x2) until
+convergence is achieved.
+It can be shown that this model is locally stable at the separating poin t
+(y1,y2) = (s1,s2), if and only if the absolute values of the two eigenvalues of
+the Jacobian matrix of (7) are smaller than one. In the following, we s uppose
+that this condition is satisﬁed.
+3 Maximum likelihood estimation of the model
+parameters
+LetfS1,S2(s1,s2) be the joint pdf of the sources, and assume that the mixing
+model is bijective so that the Jacobian of the mixing model has a cons tant sign
+on the variation domain of the sources. The joint pdf of the observ ations can
+be written as
+fX1,X2(x1,x2) =fS1,S2(s1,s2)
+|J(s1,s2)|(8)
+Taking the logarithm of (8), and considering the independence of th e sources,
+we can write:
+logfX1,X2(x1,x2) = logfS1(s1)+logfS2(s2)−log|J(s1,s2)|(9)
+Given N samples of the mixtures X1andX2, we want to ﬁnd the maximum
+likelihood estimator for the mixture parameters w= [l1,l2,q1,q2]. This estima-
+tor is obtained by maximizing the joint pdf of all the observations (su pposing
+that the parameters in ware constant), which is equal to
+E=fX1,X2(x1(1),x2(1),···,x1(N),x2(N)) (10)
+Ifs1(t) ands2(t) are two i.i.d. sequences, x1(t) andx2(t) are also i.i.d. so that
+E=/producttextN
+i=1fX1,X2(x1(i),x2(i)) and logE=/summationtextN
+i=1logfX1,X2(x1(i),x2(i)). The
+7cost function to be maximized can be deﬁned as L=1
+NlogE, which will be
+denoted using the temporal averaging operator Et[.] as
+L=Et[logfX1,X2(x1(t),x2(t))] (11)
+Using (9):
+L=Et[logfS1(s1(t))]+Et[logfS2(s2(t))]−Et[log|J(s1(t),s2(t))|] (12)
+Maximizing this cost function requires that its gradient with respect to the
+parameter vector w,i.e.∂L
+∂w, vanishes. Deﬁning the score functions of the two
+sources as
+ψi(u) =−∂logfSi(u)
+∂ui= 1,2 (13)
+and considering that∂log|J|
+∂w=1
+J∂J
+∂w, we can write
+∂L
+∂w=−Et[ψ1(s1)∂s1
+∂w]−Et[ψ2(s2)∂s2
+∂w]−Et[1
+J∂J
+∂w] (14)
+Rewriting (2) in the vector form x=f(s,w) and considering was the inde-
+pendent variable and sas the dependent variable, we can write, using implicit
+diﬀerentiation
+0=∂f
+∂s∂s
+∂w+∂f
+∂w(15)
+which yields
+∂s
+∂w=−(∂f
+∂s)−1∂f
+∂w(16)
+Note that∂f
+∂sis the Jacobian matrix of the mixing model. Using (14) and (16),
+the gradient of the cost function Lwith respect to the parameter vector wis
+equal to (see the appendix for the computation details)
+∂L
+∂w=−Et[(ψ1(s1)(1−q2s1)s2+ψ2(s2)(l2+q2s2)s2−(l2+q2s2))/J,
+(ψ1(s1)(l1+q1s1)s1+ψ2(s2)(1−q1s2)s1−(l1+q1s1))/J,
+(ψ1(s1)(1−q2s1)s1s2+ψ2(s2)(l2+q2s2)s1s2−(l2s1+s2))/J,
+(ψ1(s1)(l1+q1s1)s1s2+ψ2(s2)(1−q1s2)s1s2−(s1+l1s2))/J](17)
+In practice, the actual sources and their density functions are u nknown and will
+be replaced by the reconstructed sources, i.e.by the outputs of the separating
+structure of Fig 3, yi, in an iterative algorithm. The score functions of the
+reconstructedsourcescanbe estimated byanyofthe existingpa rametricornon-
+parametric methods. In our work, we used a kernel estimator bas ed on third-
+order cardinal splines. Using (17), the cost function (12) can be m aximized by a
+gradient ascent algorithm which updates the parameters by the ru lew(n+1) =
+w(n)+µ∂L
+∂w. The learning rate parameter µmust be chosen carefully to avoid
+the divergence of the algorithm. Note that the algorithm does not r equire
+the knowledge of the explicit inverse of the mixing model (direct sepa rating
+structures (3)). Hence, it can be easily extended to more genera l polynomial
+mixing models.
+8Appendix: details of gradient computation
+Considering (2), we can write
+∂f
+∂s=/parenleftbigg
+1−q1s2−l1−q1s1
+−l2−q2s21−q2s1/parenrightbigg
+and∂f
+∂w=/parenleftbigg
+−s20−s1s20
+0−s10−s1s2/parenrightbigg
+,
+which implies, from (16)
+∂s
+∂w=−1
+J/parenleftbigg1−q2s1l1+q1s1
+l2+q2s21−q1s2/parenrightbigg
+./parenleftbigg−s20−s1s20
+0−s10−s1s2/parenrightbigg
+which yields
+∂s1
+∂w=1
+J[(1−q2s1)s2,(l1+q1s1)s1,(1−q2s1)s1s2,(l1+q1s1)s1s2]
+∂s2
+∂w=1
+J[(l2+q2s2)s2,(1−q1s2)s1,(l2+q2s2)s1s2,(1−q1s2)s1s2](18)
+Considering (4)
+∂J
+∂w=−[l2+q2s2,l1+q1s1,l2s1+s2,s1+l1s2] (19)
+(17) follows directly from (14), (18) and (19).
+9

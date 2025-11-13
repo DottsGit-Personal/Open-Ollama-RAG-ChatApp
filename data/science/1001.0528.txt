@@ -1,0 +1,337 @@
+arXiv:1001.0528v1  [cond-mat.stat-mech]  4 Jan 2010Can one identify non-equilibrium in a three-state system by analyzing two-state
+trajectories?
+Christian P. Amann, Tim Schmiedl, and Udo Seifert
+II. Institut f¨ ur Theoretische Physik, Universit¨ at Stutt gart, 70550 Stuttgart, Germany
+For a three-state Markov system in a stationary state, we dis cuss whether, on the basis of data
+obtained from eﬀective two-state (or on-oﬀ) trajectories, it is possible to discriminate between an
+equilibrium state and a non-equilibrium steady state. By ca lculating the full phase diagram we
+identify a large region where such data will be consistent on ly with non-equilibrium conditions.
+This regime is considerably larger than the region with osci llatory relaxation, which has previously
+been identiﬁed as a suﬃcient criterion for non-equilibrium .
+PACS numbers: 05.40.-a, 05.70.Ln, 82.37.-j
+For the emerging ﬁeld of thermodynamics of small
+systems, or stochastic thermodynamics1–3, enzymes and
+proteins like molecular motors constitute paradigmatic
+systems since their conformational changes can be ob-
+served on a single molecule level using a variety of exper-
+imental techniques4. The analysis of trajectories record-
+ing the transition between microstates of the enzyme can
+reveal insights into both the underlying kinetics and the
+thermodynamic implications of such changes5–12. If the
+surrounding conditions like temperature or concentra-
+tions of other reactants are constant, the enzyme reaches
+a stationary state for which two classes must be distin-
+guished. First, in a genuine equilibrium state, no net
+ﬂux between any two microstates of the enzyme occurs.
+Second, in a non-equilibrium steady state (NESS), the
+probability to ﬁnd the enzyme in any microstate is still
+time-independent. However, non-zero net ﬂuxes between
+microstates indicate that the system is externally driven
+with concomitant entropy production. If all microstates
+are experimentally accessible, in principle, distinguish-
+ing between these two alternatives is trivial, given long
+enough trajectories. It suﬃces to infer both the station-
+ary probabilities ps
+ifor the system to be in state iand
+the rates kijfor a transition between iandj, and then
+to check for genuine equilibrium in which the detailed
+balance condition ps
+ikij=ps
+jkjifor any two states must
+hold.
+In practice, rarely all relevant microstates are ex-
+perimentally accessible or distinguishable. The result-
+ing only coarse-grained information aﬀects and aggra-
+vates a thermodynamic consistent analysis of individual
+trajectories13,14. In standard applications, often only a
+two-state trajectory is obtained in which each observ-
+able state may in fact contain several microstates. In
+an ambitious program, Flomenbom and co-workers15–19
+have investigated which information about the underly-
+ing topology of the state space, or ‘network’, can be in-
+ferredfromthe observationofsuchtwo-statetrajectories.
+But even if the underlying topology is known, two-state
+trajectories cannot reveal the full information like the
+value of all rates between microstates.
+For time-independent external conditions, arguably,
+the most relevant question is, whether or not such anenzyme acts in an equilibrium state or in a NESS. The
+simplest system for which this problem can be posed
+is a three-state system like the stochastic Michaelis-
+Menten scheme for an enzyme turning substrate into
+a product7,20,21. Suppose that two of the three states
+are experimentally not distinguishable, can we decide in
+which of the two classes of stationary states the enzyme
+is in, if we are given a suﬃciently long two-state trajec-
+tory? It is well-known that oscillations in the correla-
+tion function of such a two-state trajectory imply that
+the underlying three-state system is in a NESS rather
+than in equilibrium22. Here, we show that the range of
+ascertained non-equilibrium can be extended much be-
+yond this oscillatory regime, i.e., even for decaying cor-
+relations it can be possible to infer an underlying NESS
+state. However, there will remain parameters for which
+the question posed in the title cannot be answered af-
+ﬁrmatively. Only if all three states are visible, like in
+dual-color ﬂourescence correlation spectroscopy, one can
+discriminate between equilibrium and non-equilibrium
+steady states23,24.
+We consider a three-state Markov system with states
+i= 1,2,3 and transition rates kij. The dynamics of the
+probability pi(t) tobe instate iattimetthen isgoverned
+by the master equation
+∂tpi=3/summationdisplay
+j=1Kijpj (1)
+with rate matrix
+K=
+−k12−k13k21 k31
+k12−k21−k23k32
+k13 k23−k31−k32
+.(2)
+We assume that state 1 (the on-state) is ﬂuorescently
+labelled and can be observed, but that it cannot be de-
+termined experimentally, whether the system is in state
+2 or state 3 (together called the oﬀ-state), as sketched in
+ﬁg. 1. The experiment then yields an eﬀective two-state
+trajectory which no longer follows a Markovian dynam-
+ics.
+Four quantities can be extracted from such two-state
+trajectories and identiﬁed with their theoretical corre-
+spondences as follows:2
+Fig. 1: Three-state Markov model with states 2 and 3 lumped
+into a compound state.
+(i) The waiting time distribution in state 1 is exponen-
+tial with a decay rate
+L≡(k12+k13). (3)
+(ii) The waiting time distribution woﬀ(t) in the oﬀ-
+state can be calculated from a modiﬁed Markov model
+where state 1 is treated as an absorbing state which
+amountsto setting the rate constants k12andk13to zero.
+This yields the eﬀective rate matrix
+/tildewideK=/parenleftbigg
+−k21−k23k32
+k23−k31−k32/parenrightbigg
+, (4)
+whichgovernsthetimeevolutionoftheprobabilities /tildewidep2(t)
+and/tildewidep3(t) to be in state 2 and 3, respectively, if we stop
+the dynamics when the system reaches state 1. The wait-
+ing time distribution then is the negative time derivative
+of the compound probability to be either in state 2 or
+state 3,
+woﬀ(t) =−d
+dt(/tildewidep2(t)+/tildewidep3(t)). (5)
+This waiting time distribution is a sum of exponentials
+with exponents given by the eigenvalues ˜λiof the modi-
+ﬁed rate matrix /tildewideKwhich can be calculated as
+˜λi=1
+2/parenleftBig
+−S±/radicalbig
+S2−T/parenrightBig
+(6)
+with
+S≡k21+k23+k31+k32and (7)
+T≡4(k21k31+k21k32+k23k31). (8)
+Ifboth decaytimes can be determined from experimental
+time traces, both quantities SandTcan be inferred.
+(iii) Last, one can measure the time-dependent proba-
+bilityp1(t) to be in state 1 with initial condition p1(0) =
+1. This quantity can also be calculated from the master
+equation (1), yielding a sum of exponentials
+p1(t) =ps
+1+c1eλ1t+c2eλ2t. (9)
+The exponents λiare eigenvalues of the rate matrix K
+(2) and can be written as
+λi=1
+2/parenleftBig
+−L−S±/radicalbig
+(S+L)2−T−M/parenrightBig
+(10)with
+M≡4k12(k23+k31+k32)
++4k13(k21+k23+k32).(11)
+The prefactors c1,2can be obtained from the linear com-
+bination of eigenvectors of the matrix Kwhich yield the
+initial state p1(0) = 1.
+In summary, the four quantities L, S, TandMcan be
+determined from experimental time traces, provided the
+statistics is good enough to allow ﬁts parametrizing the
+given exponential behavior. In principle, one could de-
+rive some other set of four independent quantities rather
+thanL, S, T andM. Our choice is convenient due to
+two reasons. First, all four quantities are non-negative
+(even positive if no rate constant kijvanishes). Second,
+for the distinction between equilibrium and a NESS the
+absolute time-scale is irrelevant. This fact can be used to
+scale all times by 1 /Lleading to the three dimensionless
+quantities
+/hatwideS≡S/L,/hatwideT≡T/L2and/hatwiderM≡M/L2.(12)
+A rescaling of time in the original model would lead to
+ﬁve independent rate constants /hatwidekij≡kij/L(with/hatwidek12+
+/hatwidek13= 1). Hence given measured reduced rates /hatwideS,/hatwideTand
+/hatwiderMthere still remains a two-parameter manifold in the
+three-state system dynamics that is consistent with the
+observed two-state trajectory.
+The three-state system is in equilibrium if and only if
+the original rates obey the condition
+k12k23k31=k32k21k13. (13)
+An analysis of the functional dependence of the rates
+kijon/hatwideS,/hatwideT ,/hatwiderMand the equilibrium condition
+(13) assisted by Wolfram’s algebraic software package
+MATHEMATICA 7 leads to the identiﬁcation of three
+regimesinthephasediagramshowninﬁg.2. Itischecked
+whether or not for given reduced rates /hatwideSand/hatwiderMpositive
+rate constants kijcompatible with (13) can be found.
+This is the case only if
+0</hatwideT/lessorequalslant/hatwideT1≡/hatwiderM/hatwideS−/hatwiderM2
+4, (14)
+which deﬁnes the regime denoted EQ/NESS in ﬁg. 2. In
+this regime, the measured data is principally insuﬃcient
+for discriminating a NESS from an equilibrium state.
+Hence for any measured /hatwideTwith/hatwideT >/hatwideT1the system is
+deﬁnitely in a NESS. This criterion constitutes our main
+result. We now show that this parameter space is much
+larger than the set of parameters for which oscillations in
+the correlation function occur. The latter property has
+previously been identiﬁed as a suﬃcient criterion for a
+NESS. Oscillations in the autocorrelation function p1(t)
+(9) occur if the decay rates λiin eq. (10) acquire an
+imaginary part, i.e., if
+/hatwideT >/hatwideT2≡(/hatwideS+1)2−/hatwiderM. (15)3
+/LParen1b/RParen1
+EQ/Slash1NESSOSC
+NESSNESS
+01234560.00.51.01.52.0
+ /LParen1a/RParen1
+EQ/Slash1NESSNESS
+0.0 0.1 0.2 0.3 0.40.0000.0020.0040.0060.0080.010
+/LParen1d/RParen1
+EQ/Slash1NESSOSC
+NESS
+0.00.51.01.52.02.50.00.51.01.52.02.5
+k23k31/LParen1c/RParen1
+EQ/Slash1NESSOSC
+NESS
+0 10 20 30 40020406080100
+Fig. 2: (color online) (a)-(c): Phase diagram in the ( /hatwiderM,/hatwideT) plane for diﬀerent values of /hatwideSwith (a) /hatwideS= 0.1, (b)/hatwideS= 1.5 and (c)
+/hatwideS= 10. The white area EQ/NESS allows both equilibrium states and NESSs, the purple area NESScan contain only NESSs
+and the brown area OSCcorresponds to NESSs with oscillatory correlation functio n. TheOSCregime touches the EQ/NESS
+regime at points/parenleftBig
+2+2/hatwideS,−1+/hatwideS2/parenrightBig
+. The checkered area is excluded since no choice of non-negat ive rate constants will lead to
+such an ( /hatwiderM,/hatwideT) value. The green line represents equilibrium states with s ome of the rate constants equal to zero. The black
+lines are the projection of the subdomain of the phase diagra m shown in (d) that corresponds to the given /hatwideSvalue.
+(d): Phase diagram in the ( k23, k31) plane for ﬁxed rate constants k13= 1,k21= 1,k32= 1 and k12= 4. For each point in
+the diagram, the parameters L, S, T andMare calculated and the three regimes accordingly identiﬁed . The blue hyperbola
+comprises the genuine equilibrium state according to eq. (1 3).
+This regime is denoted by OSCin ﬁg. 2. It is easy
+to check that /hatwideT2(/hatwiderM)/greaterorequalslant/hatwideT1(/hatwiderM) (with equality only for
+/hatwiderM= 2(/hatwideS+1)). For all measured /hatwideTwith/hatwideT2/greaterorequalslant/hatwideT >/hatwideT1,
+denoted by NESSin ﬁg. 2, our new criterion establishes
+a NESS on the basis of two-state trajectories which do
+not exhibit oscillatory behaviour. While for /hatwideS≃1 the
+newly established regionof NESSs beyond the oscillatory
+regime is rather small, see ﬁg. 2(b), both for /hatwideS≪1 andfor/hatwideS≫1 the present analysis shows a large regime of
+newly ascertained NESSs. In the latter two cases, the
+oscillatory regime is, for /hatwideS/lessorequalslant0.5, totally absent or rather
+small, see ﬁgs. 2(a) and (c), respectively.
+For ﬁxed /hatwideSthe phase diagrams of physically admissi-
+ble (/hatwiderM,/hatwideT) values are restricted to /hatwiderM/lessorequalslant4/hatwideSand/hatwideT/lessorequalslant/hatwideS2,
+since values outside this range would require negative kij
+values. Moreover, for /hatwiderM/lessorequalslant2/hatwideS, onlyT/lessorequalslant/hatwideT1can be re-4
+alized with non-negative kij. The region /hatwideS2/greaterorequalslantT >/hatwideT1,
+which is excluded by the latter condition, is shown check-
+ered in ﬁgs. 2(a)-(c). The equalities in these constraints
+of physically admissible values hold only if some of the
+rates are zero.
+Finally, an analysis of the boundary /hatwideT1(/hatwiderM), which re-
+quires some rate constants kijto be zero, shows that for
+0/lessorequalslant/hatwiderM/lessorequalslant2/hatwideSthe system is deﬁnitely in equilibrium on
+this boundary. For /hatwideT= 0 the system is also deﬁnitely in
+equilibrium.
+Forrepresentativeexamplesoftheseresultsinthe orig-
+inal space of the six rates kij, consider ﬁg. 2(d). There
+we show the three regimes EQ/NESS ,NESSandOSCin
+the (k23,k31) plane holding the other four rate constants
+ﬁxed. The line of genuine equilibrium (13) is embedded
+into region EQ/NESS where information from the state
+trajectory is not suﬃcient to uniquely identify equilib-
+rium. However for ( k23,k31) parameter values in the
+regionNESSour analysis predicts correctly a NESS be-
+yond the previously established OSCregion.
+Experimental measurements of the waiting time distri-
+butionwoﬀ(t) (5) and autocorrelation function p1(t) (9)
+will cause some uncertainty due to ﬁnite data. For a
+rough estimate, we assume a relative error of ±εin all
+eigenvalues ˜λi(6) andλi(10), while it should be possible
+to determine the decay time L(3) with better precision.
+A linear error propagation then yields a constant relative
+error for /hatwideSand/hatwideTof±εand±2εrespectively. The ef-
+fect on/hatwiderMis a relative error of ±(2ε+ 4ε/hatwideT//hatwiderM). Thus
+error bars of experimentally determined pairs of ( /hatwiderM,/hatwideT)values would increase linearly on straight lines through
+the origin in ﬁg. 2(a)-(c). Since the maximum value of /hatwideT
+increases quadratically with the maximum value of /hatwiderM,
+the uncertainty on the phase boundary between NESS
+andEQ/NESS in ﬁg. 2(a)-(c) increases with increasing
+/hatwideS. Hence, a clear discrimination between the two regions
+wouldbeaﬀectedbyerrorslessinthesmall /hatwideSregimethan
+for large /hatwideS. For the data shown in ﬁg. 2(a) and ε= 0.05,
+the phase boundary eﬀectively broadens to about 11%
+on the top and 10% at the bottom.
+In summary, we have derived a criterion suﬃcient to
+identify a non-equilibrium steady state in a three-state
+system based on information extracted from suﬃcently
+long two-state trajectories. While the new criterion ex-
+tends the region of ascertained NESSs signiﬁcantly be-
+yond the previously identiﬁed region based on oscillation
+in the autocorrelation function, there remain parameter
+valuesforwhichtwo-statetrajectoriescontainprincipally
+not enough information to discriminate NESS from an
+equilibrium state. It will be interesting to perform a
+similar analysis for four-state systems or even more com-
+plex networks, where one would expect that the region
+of ascertained NESSs on the basis of two-state trajec-
+tory information becomes relatively smaller than in the
+three-state case. Generalization of our approach to cases
+where three-state trajectories, obtained, e.g., via dual-
+colour ﬂuorescence, are available on four or more-state
+networks is feasible in principle, but may, in practice,
+become algorithmically challenging.
+1C. Bustamante, J. Liphardt, and F. Ritort, Physics Today
+58(7), 43 (2005).
+2U. Seifert, Eur. Phys. J. B 64, 423 (2008).
+3F. Ritort, Adv. Chem. Phys. 137, 31 (2008).
+4P. Selvin and T. Ha, Single Molecule Techniques (Cold
+Spring Harbor Laboratory, 2007).
+5H. P. Lu, L. Y. Xun, and X. S. Xie, Science 282, 1877
+(1998).
+6M. E. Fisher and A. B. Kolomeisky, Proc. Natl. Acad. Sci.
+U.S.A.98, 7748 (2001).
+7H. Qian and E. L. Elson, Biophys. Chem. 101, 565 (2002).
+8U. Seifert, Europhys. Lett. 70, 36 (2005).
+9W. Min, L. Jiang, J. Yu, S. C. Kou, H. Qian, and X. S.
+Xie, Nano Lett. 5, 2373 (2005).
+10T. Schmiedl, T. Speck, and U. Seifert, J. Stat. Phys. 128,
+77 (2007).
+11P. Gaspard and E. Gerritsma, J. Theor. Biol. 247, 672
+(2007).
+12R. Lipowsky and S. Liepelt, J. Stat. Phys. 135, 777 (2009).
+13S. Rahav and C. Jarzynski, J. Stat. Mech.: Theor. Exp. p.
+P09012 (2007).
+14Y. Li, T. Zhao, P. Bhimalapuram, and A. R. Dinner, J.Chem. Phys. 128, 074102 (2008).
+15O. Flomenbom, J. Klafter, and A. Szabo, Biophys. J. 88,
+3780 (2005).
+16O. Flomenbom and J. Klafter, J. Chem. Phys. 123, 064903
+(2005).
+17O. Flomenbom and R. J. Silbey, Proc. Natl. Acad. Sci.
+U.S.A.103, 10907 (2006).
+18O. Flomenbom and R. J. Silbey, J. Chem. Phys. 128,
+114902 (2008).
+19O. Flomenbom and R. J. Silbey, Phys. Rev. E 78, 066105
+(2008).
+20C. V. Rao and A. P. Arkin, J. Chem. Phys. 118, 4999
+(2003).
+21S. C. Kou, B. J. Cherayil, W. Min, B. P. English, and X. S.
+Xie, J. Phys. Chem. B 109, 19068 (2005).
+22H. Qian and M. Qian, Phys. Rev. Lett. 84, 2271 (2000).
+23P. Schwille, F. J. MeyerAlmes, and R. Rigler, Biophys. J.
+72, 1878 (1997).
+24H. Qian and E. L. Elson, Proc. Natl. Acad. Sci. U.S.A.
+101, 2828 (2004).

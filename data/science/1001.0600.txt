@@ -1,0 +1,182 @@
+arXiv:1001.0600v1  [math.CO]  4 Jan 2010Finite irreﬂexive homomorphism-homogeneous
+binary relational systems✩
+Dragan Maˇ sulovi´ c, Rajko Nenadov, Nemanja ˇSkori´ c
+Department of Mathematics and Informatics, University of N ovi Sad
+Trg Dositeja Obradovi´ ca 4, 21000 Novi Sad, Serbia
+Abstract
+A structure is called homogeneous if every isomorphism between ﬁnit e sub-
+structures of the structure extends to an automorphism of the structure.
+Recently, P. J. Cameron and J. Neˇ setˇ ril introduced a relaxed ve rsion of ho-
+mogeneity: we say that a structure is homomorphism-homogeneou s if ev-
+ery homomorphism between ﬁnite substructures of the structur e extends to
+an endomorphism of the structure. In this paper we characterize all ﬁnite
+homomorphism-homogeneous relational systems with one irreﬂexiv e binary
+relation.
+Keywords: ﬁnite digraphs, homomorphism-homogeneous structures
+2000 MSC: 05C20
+1. Introduction
+A structure is homogeneous if every isomorphism between ﬁnite substruc-
+tures of the structure extends to an automorphism of the struc ture. For
+example, ﬁnite and countably inﬁnite homogeneous directed graphs were de-
+scribed in [2]. In their recent paper [1] the authors discuss a genera lization
+of homogeneity to various types of morphisms between structure s, and in
+particular introduce the notion of homomorphism-homogeneous st ructures:
+✩Supported by the Grant No 144017 of the Ministry of Science of the republic of Serbia
+Email address: –dragan.masulovic, rajko.nenadov,
+nemanja.skoric ˝@dmi.uns.ac.rs (Dragan Maˇ sulovi´ c, Rajko Nenadov, Nemanja ˇSkori´ c)
+Preprint submitted to Novi Sad Journal of Mathematics Novem ber 16, 2018Deﬁnition 1.1 (Cameron, Neˇ setˇ ril [1]) A structure is called homomor-
+phism-homogeneous if every homomorphism between ﬁnite substructures of
+the structure extends to an endomorphism of the structure.
+In this short note we characterize all ﬁnite homomorphism-homoge neous
+relational systems with one irreﬂexive binary relation.
+2. Preliminaries
+A binary relational system is an ordered pair ( V,E) whereE⊆V2is
+a binary relation on V. A binary relational system ( V,E) isreﬂexive if
+(x,x)∈Efor allx∈V,irreﬂexive if (x,x)/∈Efor allx∈V,symmetric if
+(x,y)∈Eimplies (y,x)∈Efor allx,y∈Vandantisymmetric if (x,y)∈E
+implies (y,x)/∈Efor all distinct x,y∈V.
+Binary relational systems can be thought of in terms of digraphs (h ence
+the notation ( V,E)). Then Vis the set of verticesandEis the set of edges
+of the binary relational system/digraph ( V,E). Edges of the form ( x,x) are
+calledloops. If (x,x)∈Ewe also say that xhas a loop . Instead of ( x,y)∈E
+we often write x→yand say that xdominates y, or that yis dominated
+byx. Byx∼ywe denote that x→yory→x, whilex⇄ydenotes that
+x→yandy→x. Ifx⇄y, we say that xandyform adouble edge . We
+shall also say that a vertex xisincident with a double edge if there is a vertex
+y/ne}ationslash=xsuch that x⇄y.
+Digraphs ( V,E) whereEis a symmetric binary relation on Vare usually
+referred to as graphs.Proper digraphs are digraphs ( V,E) whereEis an
+antisymmetric binary relation. In this paper, digraphs ( V,E) where Eis
+neither antisymmetric norsymmetric will bereferredtoas improper digraphs .
+In an improper digraph there exists a pair of distinct vertices xandysuch
+thatx⇄yand another pair of distinct vertices uandvsuch that u→v
+andv/ne}ationslash→u.
+A digraph D′= (V′,E′) is asubdigraph of a digraph D= (V,E) if
+V′⊆VandE′⊆E. We write D′/lessorequalslantDto denote that D′is isomorphic
+to a subdigraph of D. For∅ /ne}ationslash=W⊆VbyD[W] we denote the digraph
+(W,E∩W2) which we refer to as the subdigraph of Dinduced by W.
+Verticesxandyareconnected in Dif there exists a sequence of vertices
+z1,...,z k∈Vsuch that x=z1∼...∼zk=y. A digraph Disweakly
+connected if each pair of distinct vertices of Dis connected in D. A digraph
+Disdisconnected if it is not weakly connected. A connected component of
+2Dis a maximal set S⊆Vsuch that D[S] is weakly connected. The number
+of connected components of Dwill be denoted by ω(D).
+Verticesxandyaredoubly connected in Dif there exists a sequence of
+verticesz1,...,z k∈Vsuch that x=z1⇄...⇄zk=y. Deﬁne a binary
+relationθ(D) onV(D) as follows: ( x,y)∈θ(D) if and only if x=yor
+xandyare doubly connected. Clearly, θ(D) is an equivalence relation on
+V(D) andω(D)/lessorequalslant|V(D)/θ(D)|. We say that a digraph Disθ-connected if
+ω(D) =|V(D)/θ(D)|, and that it is θ-disconnected ifω(D)<|V(D)/θ(D)|.
+Note that a θ-connected digraph need not be connected, and that a θ-
+disconnected digraph need not be disconnected; a digraph Disθ-connected
+if every connected component of Dcontains precisely one θ(D)-class, while it
+isθ-disconnected if there exists a connected component of Dwhich consists
+of at least two θ(D)-classes. In particular, every proper digraph with at least
+two vertices is θ-disconnected, and every graph is θ-connected.
+LetKndenote the complete irreﬂexive graph on nvertices. Let 1denote
+the trivial digraph with only one vertex and no edges, and let 1◦denote the
+digraph with only one vertex with a loop. An oriented cycle with nvertices
+is a digraph Cnwhose vertices are 1, 2, ..., n,n/greaterorequalslant3, and whose edges are
+1→2→...→n→1.
+For digraphs D1= (V1,E1) andD2= (V2,E2), byD1+D2we denote
+thedisjoint union ofD1andD2. We assume that D+O=O+D=D,
+whereO= (∅,∅) denotes the empty digraph . The disjoint union D+...+D/bracehtipupleft/bracehtipdownright/bracehtipdownleft/bracehtipupright
+k
+consisting of k/greaterorequalslant1 copies of Dwill be abbreviated to k·D. Moreover, we
+let 0·D=O.
+LetD1= (V1,E1) andD2= (V2,E2) be digraphs. We say that f:V1→
+V2is ahomomorphism between D1andD2and write f:D1→D2if
+x→yimpliesf(x)→f(y),for allx,y∈V1.
+Anendomorphsim is a homomorphism from Dinto itself. A mapping f:
+V1→V2is anisomorphism between D1andD2iffis bijective and
+x→yif and only if f(x)→f(y),for allx,y∈V1.
+Digraphs D1andD2areisomorphic ifthereisanisomorphism between them.
+We write D1∼=D2. Anautomorphsim is an isomorphism from Donto itself.
+A digraph Dishomomorphism-homogeneous if every homomorphism
+f:W1→W2between ﬁnitely induced subdigraphs of Dextends to an
+endomorphism of D(see Deﬁnition 1.1).
+33. Finite irreﬂexive binary relational systems
+Cameron and Neˇ setˇ ril have shown in [1] that a ﬁnite irreﬂexive gra ph is
+homomorphism-homogeneous if and only if it is isomorphic to k·Knfor some
+k,n/greaterorequalslant1. It was shown in [3, Theorem 3.10] that a ﬁnite irreﬂexive proper
+digraph is homomorphism-homogeneous if and only if it is isomorphic to
+k·1for some k/greaterorequalslant1 ork·C3for some k/greaterorequalslant1. In this section we show
+that these are the only ﬁnite homomorphism-homogeneous irreﬂex ive binary
+relational systems by showing that no ﬁnite irreﬂexive improper digr aph is
+homomorphism-homogeneous.
+Lemma 3.1 LetDbe a ﬁnite homomorphism-homogeneous irreﬂexive im-
+proper digraph. Then every vertex of Dis incident with a double edge.
+Proof.Letx⇄ybe a double edge in Dand letvbe an arbitrary vertex
+ofD. The mapping
+f:/parenleftbiggx
+v/parenrightbigg
+is a homomorphism between ﬁnitely induced subdigraphs of D, so it extends
+to an endomorphism f∗ofDby the homogeneity requirement. Then x⇄y
+impliesv=f∗(x)⇄f∗(y). /square
+Lemma 3.2 LetDbe a ﬁnite homomorphism-homogeneous irreﬂexive im-
+proper digraph and let S∈V(D)/θ(D)be an arbitrary equivalence class of
+θ(D). ThenD[S]∼=Knfor some n/greaterorequalslant2.
+Proof.Lemma 3.1 implies that |S|/greaterorequalslant2 for every S∈V(D)/θ(D).
+Suppose that there is an S∈V(D)/θ(D) such that D[S] is not a com-
+plete graph. Then there exist u,v∈Ssuch that u/ne}ationslash→vorv/ne}ationslash→u. Let
+z1,z2,...,z k∈V(D) be the shortest sequence of vertices of Dsuch that
+u=z1⇄z2⇄...⇄zk=v.
+Thenk/greaterorequalslant3 sinceu/ne}ationslash⇄v, and the fact that z1,z2,...,z kis the shortest such
+sequence implies that z1/ne}ationslash⇄z3. The mapping
+f1:/parenleftbiggz1z3
+z2z3/parenrightbigg
+4is a homomorphism between ﬁnitely induced subdigraphs of D, so it extends
+to an endomorphism f∗
+1ofDby the homogeneity requirement. Let x1=
+f∗
+1(z2). It is easy to see that x1/∈ {z1,z2,z3}andx1⇄yfor ally∈ {z2,z3}.
+Consider now the mapping
+f2:/parenleftbiggz1z3x1
+z2z3x1/parenrightbigg
+.
+which is clearly a homomorphism between ﬁnitely induced subdigraphs o f
+D. It extends to an endomorphism f∗
+2ofD. Letx2=f∗
+2(z2). Again, it is
+easy to see that x2/∈ {z1,z2,z3,x1}and that x2⇄yfor ally∈ {z2,z3,x1}.
+Analogously, the mapping
+f3:/parenleftbiggz1z3x1x2
+z2z3x1x2/parenrightbigg
+is a homomorphism between ﬁnitely induced subdigraphs of D, so it extends
+to an endomorphism f∗
+3ofD. Letx3=f∗
+3(z2). Again, x3/∈ {z1,z2,z3,x1,x2}
+andx2⇄yfor ally∈ {z2,z3,x1,x2}. And so on. We can continue with this
+procedure as many times as we like, which contradicts the fact that Dis a
+ﬁnite digraph. /square
+Proposition 3.3 There doesnotexist aﬁnitehomomorphism-homogeneous
+irreﬂexive improper digraph.
+Proof.Suppose that Dis a ﬁnite homomorphism-homogeneous irreﬂexive
+improper digraph. Then there exist vertices x,y∈V(D) such that x→y
+andy/ne}ationslash→x. LetS=x/θ(D) andT=y/θ(D). Clearly, S∩T=∅.
+LetT={y,t1,...,t k}. SinceD[T] is a complete graph (Lemma 3.2), the
+mapping
+f:/parenleftbiggx t1... tk
+y t1... tk/parenrightbigg
+is a homomorphism between ﬁnitely induced subdigraphs of D, so it extends
+to an endomorphism f∗ofDby the homogeneity requirement. Let us com-
+putef∗(y). From f∗(t1)∈Tit follows that f∗(T)⊆T. Moreover, f∗|Tis
+injective since there are no loops in D. Therefore, f∗|T:T→Tis a bijec-
+tion. But f∗(ti) =tifor alli∈ {1,...,k}, so it follows that f∗(y) =y. Now,
+x→yimpliesf∗(x)→f∗(y), that is, y→y, which is impossible since there
+are no loops in D. /square
+5Corollary 3.4 LetDbe a ﬁnite irreﬂexive binary relational system. Then
+Dis homomorphism-homogeneous if and only if it is isomorphic to one of
+the following:
+(1)k·Knfor some k,n/greaterorequalslant1;
+(2)k·C3for some k/greaterorequalslant1.
+References
+[1] Cameron, P. J., Neˇ setˇ ril, J.: Homomorphism-homogeneous rela tional
+structures. Combinatorics, Probability and Computing Vol. 15, 200 6,
+91–103
+[2] Cherlin, G. L.: The Classiﬁcation of Countable Homogeneous Direct ed
+Graphs and Countable Homogeneous n-tournaments. Memoirs of the
+American Mathematical Society, Vol. 131, No. 621, 1998
+[3] Maˇ sulovi´ c, D.: Towards the characterization of ﬁnite homomo rphism-
+homogeneous digraphs. (submitted)
+6

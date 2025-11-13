@@ -1,0 +1,296 @@
+arXiv:1001.0603v1  [cond-mat.str-el]  4 Jan 2010Neutron spectra of Herbertsmithite Materials: Observatio n of a Valence Bond Liquid
+phase?
+R. R. P. Singh
+University of California Davis, CA 95616, USA
+(Dated: November 19, 2018)
+We argue that neutron spectra in a short-range ordered Valen ce Bond state is dominated by two-
+spinon states localized in small spatial regions such as a pi nwheel. These excitations lead to angle
+averaged dynamic structure factor that is spread over a wide frequency range up to about 2 .5J,
+whereas its wavevector dependence at all frequencies remai ns very close to that of isolated dimers.
+These results are in excellent agreement with recent Neutro n scattering data in the Herbertsmithite
+materials ZnCu 3(OH)6Cl2.
+PACS numbers:
+Recent experimental studies[1–6] of the Herbert-
+smithite material ZnCu 3(OH)6Cl2with structurally per-
+fect Kagome planes has brought renewed interest in the
+study of Quantum Spin-Liquid phases in the Kagome
+Lattice Heisenberg Model.[7–12] The issues of Quantum
+Spin-Liquid versus Valence Bond Crystal Order,[13] of
+a possible gap in the spin excitation spectra and of de-
+conﬁnement of fractional spin excitations continue to be
+subjects of intense theoretical debate.[14–22] The exper-
+imental studies provide a complimentary perspective to
+this long standing problem.
+In a recent letter de Vries et al presented neutron scat-
+tering data on these materials overa rangeof momentum
+and frequency transfers.[23] They discuss their data pri-
+marily in the context of Algebraic Spin-Liquid and other
+theories.[11, 12] Here, we would like to argue that the
+data is much better understood in terms of a Valence
+Bond phase[13, 16] with well developed short-ranged Va-
+lence Bond order but no long-range Valence Bond Crys-
+tal order. Such a ﬁnite temperature phase, lacking long-
+range quantum coherence, may appropriately be called a
+classical Valence Bond Liquid.
+The powder-diﬀraction neutron data of de Vries et al
+covers a temperature range from 2K to 120 K, an energy
+transfer of up to 30 meV and the full range of momen-
+tum transfer values. Their key ﬁndings can be summa-
+rized as follows: After allowance is made for phonons as
+well as for some impurity spins, the magnetic behavior
+intrinsic to the system, is rather well described by an
+angle averaged q-dependent form-factor which is essen-
+tially identical to that of a single spin-dimer. However,
+unlike a single dimer, where such a spectrum would be
+strongly peaked at the singlet-triplet energy gap ( Jfor
+an isolated dimer), the spectral weight is spread nearly
+uniformly overawide rangeofenergiesextending at least
+down to 4meV and up beyond 30meV. Furthermore, this
+behavior is evident at 2K but persists also at 120 K. The
+frequency dependence makes the behavior clearly incon-
+sistent with that of isolated dimers and the temperature
+dependence makes it inconsistent with a Valence Bond
+Crystal order (and any other quantum ground state withFIG. 1: Proposed Valence Bond Phase of the Kagome Lattice
+HeisenbergModel consists of aHoneycomb Lattice of resonat -
+ing hexagons (H), where six hexagons surround a pinwheel
+(P). The pinwheels are isolated from empty triangles leadin g
+to substantially reduced quantum ﬂuctuations on their dime r
+bonds. Triplets on dimers represented by black thick lines
+are heavy nearly immobile particles, whereas triplets on gr ey
+thick lines represent particles mobile throughout the latt ice.
+an ordering scale much smaller than 100K as expected in
+the model).
+We ﬁrst note that the exchange constant for the ma-
+terial has been estimated[2, 24, 25] to be in the range
+170K-190K, which translates to about 15meV. There is
+increasing theoretical support for a Valence Bond Crys-
+tal (VBC) ground state of the Kagome-Lattice Heisen-
+berg Model with a 36-site unit cell.[16, 20] One of the
+distinctive features of the VBC state is a pin-wheel (See
+Fig.1)ineachunit cell, adefectfreestructureofValence-
+Bond containing triangles, where the bonds remain al-
+most completely dimerized. An isolated pinwheel is an
+example of a Delta chain,[21, 26, 27] a system of corner
+sharingtriangles, where the Hamiltonian is minimized by2
+FIG. 2: Kink-antikink or 2-spinon states for the pinwheel. A
+triplet excitation is created by breaking a singlet bond in t he
+ground state. The Kink spinon lies on the inner hexagon,
+while the more mobile antikink spinon can move on the out-
+side vertices of the pinwheel through states (a) through (f)
+shown in the ﬁgure. When the two spinons are together as in
+Fig. (a), the kink spin can also move by going through higher
+energy intermediate states.
+dimerization.[28] In the VBC state, their is signiﬁcant
+quantum ﬂuctuations. In particular, the dimerization in-
+side the resonating hexagons is strongly reduced. But,
+the pinwheel region is geometrically protected against
+quantum ﬂuctuations and hence remains essentially fully
+dimerized.[29]
+Diﬀerent Valence Bond phases have energy diﬀerence
+of only 0 .001 J per site.[16] Thus one expects any phase
+transition to such a state to occur at a very low tem-
+perature. However, short-range Valence Bond order is
+set byJand can develop at signiﬁcantly higher tem-
+peratures. Once this short-range order is a few lattice
+constants, pin-wheel like structures should begin to form
+locally. Because they have extremely low local energies,
+they should be stable up to higher temperatures.
+The triplet excitations of the pinwheel are kink-
+antikink pairs.[21, 26, 27] In an inﬁnite Delta chain, the
+kinks are immobile, where as the antikink can hop from
+one triangle to another. The kink has zero excitation
+energy, whereas the energy of the antikink can be ap-
+proximated by
+ǫ(k) = 5/4−cosk. (1)
+Note that this means that excitations extend over the
+energy range J/4< ǫ <9J/4. For the inﬁnite sys-
+tem more detailed analytical and numerical calculations
+show[26, 27] that the lowest energy antikink is roughly at
+0.219J, whereas the upper energy may extend up to as
+much as 3 J. For the ﬁnite system, spin excitation from
+the ground state creates a pair of parallel spins on one of
+the singlet bonds of the ground state. While the kink an-
+tikink description is roughly valid, because both the kink
+and antikink remain in each other’s vicinity, both free0 1 2 3 4
+Omega00.511.522.53Structure FactorPinwheel Spectra 
+Different qs, Broadening=0.01
+FIG. 3: Angle averaged dynamic structure factor versus fre-
+quency of the Pinwheel state at T= 0 with small broadening.
+0 1 2 3 4
+omega00.10.20.30.40.5Structure FactorPinwheel Spectra
+Different qs, Broadening=0.1
+FIG. 4: Angle averaged dynamic structure factor versus fre-
+quencyof the Pinwheel state at T= 0 with larger broadening.
+spins or spinons become mobile. Fig. 2, shows the con-
+ﬁgurations that correspond to the mobile antikink. On
+the other hand the kink can also move by going through
+higher energy intermediate conﬁguration, when the two
+spinsarenext toeachother. In the Sz= 1sector, assum-
+ingtwofreespinsandtherestofthesystemintheground
+stateleads to66states, ofwhich 36states areofthe kink-
+antikink type, where one spin is in the inner hexagon,
+whereas the other spin is on the outside vertices of the
+pinwheel. One expects the spectral weight to be primar-
+ily spread over these states, giving rise to spectral weight
+spread roughly over the energy range J/4< ǫ <9J/4.3
+0 5 10
+Wavenumber00.51Structure Factor
+Single-Dimer Structure FactorQ-dependent structure factor for all frequencies
+Compared with single-dimer
+FIG. 5: Angle averaged dynamic structure factor at diﬀer-
+ent frequencies, scaled to have a maximum of unity, versus
+wavenumber compared with results of a single dimer.
+This can be easily conﬁrmed by exact diagonalization
+of the 12-site Heisenberg model on a pinwheel. One ﬁnds
+that the lowest triplet state has an excitation energy of
+0.260J. The spectral weight is spread over a large num-
+ber of states. The highest spectral weight of any one
+single state is only about 5 percent. The states with the
+highest 36 spectral weights are spread over the energy
+range 0.260J < ǫ <2.039Jand they contribute above 80
+percent to the spectral weight. If we look at total spec-
+tralweightup tosomeenergy, roughly95 .5percentofthe
+weight extends up to an energy of 2 .25 J, 97.7 percent of
+the weight extends up to an energy of 2 .5 J and roughly
+99.7 percent of the weight extends up to an energy of
+3 J. This strongly conﬁrms that the dominant spectral
+contributions come from the kink-antikink states.
+In the Valence Bond Crystal state, these triplets can
+ultimately decay to still lower lying light triplets,[29]
+though those decay times are likely to be very long, be-
+cause the pinwheels are surrounded by dimerized trian-
+glesandhavenoemptytrianglesintheirimmediatevicin-
+ity, which strongly reduces quantum ﬂuctuations. In the
+liquid phase, these excitations should have a shorter ﬁ-
+nite lifetime, which one could represent by a Lorentzian
+broadening. The frequency dependence of the angle av-
+eraged dynamic structure factor, for several q-values, at
+a small Lorentzian broadening (0.01 J) is shown in Fig
+3, where as at a larger broadening (0.10 J) it is shown
+in Fig. 4. The latter may be more representative of the
+liquid state. One ﬁnds that at higher broadening one has
+a spectral weight that is spread roughly continuously up
+to an energy of about 3 J.
+Foranypairofspinsatadistance r, the angleaveraged
+value of exp( i/vector q·/vector r) is given by sin( qr)/qr. This can beused to calculate the angle averaged dynamic structure
+factor for any given q. For all frequencies, the struc-
+ture factor as a function of wavenumber shows depen-
+dence, which is very close to that of an isolated dimer
+(See Fig. 5). In an isolated pinwheel, the equal-time
+correlation function is strictly that of a dimer, but ex-
+citations are extended over the full pin-wheel. Thus the
+energy integrated structure factor is strictly that of an
+isolated dimer, but not the spectral weight at a given en-
+ergy. However, what the calculations show is that while
+the spectral weight is spread out over a wide range of
+frequencies, the q-dependence is always near that of an
+isolated dimer. Since delta chains are likely to be ubiq-
+uitous in the short-range Valence Bond ordered phase of
+the Kagome Lattice Heisenberg model,[21] this spectral
+feature may persist up to energy comparable to J, that
+is, as long as the system has short range Valence Bond
+order.
+This picture implies that the equal-time spin-spin cor-
+relations in the system are essentially only nearest neigh-
+bor. However, the arrangement of dimerized triangles
+makes any triplet excitation break into a kink-antikink
+pairs. These lead to spectral weight spread over a wide
+frequency range.
+In fact, the spectra obtained by exact-diagonalization
+of24, 30and36-siteclustersbyLaeuchliandLhuillier[19]
+show very similar frequency dependence, where much of
+the spectral weight is nearly uniformly spread between
+J/4 to about 2 .5J. The ﬁnite size system has only short-
+range Valence bond order. This is further evidence that
+almost all states with short range Valence Bond order
+have these features.
+One also knows that the Herbertsmithite materi-
+als have a small Dzyaloshinski-Moria anisotropy.[30–32]
+These anisotropies would strongly inﬂuence the low en-
+ergy spectra and the nature of long-range order without
+signiﬁcantly altering the high energy spectral properties.
+In the experiments, the reduction in spectral weight at
+low temperatures below an energy of 4 meV may well be
+related to the DM anisotropy which would cause the low
+energy spectral weight to move to even lower energies.
+Furthermore, the true signature of long-range VBC
+order, would be the observation of low energy light
+triplets, which live on the perfect hexagon and bridging
+dimers.[17, 29] In the VBC phase these provide an ex-
+tended network for the triplets to move around, whereas
+the pinwheels form isolated pristine regions which are
+nearly protected from quantum ﬂuctuations, and have
+only localized triplets. The honeycomb VBC state has
+50 percent of the spectral weight in the non-ﬂuctuating
+dimer-like heavy excitations and the rest of the 50 per-
+cent of the spectral weight in the light mobile triplets,
+which with long-range VBC order have an energy gap of
+orderJ/20.[14, 15]
+In conclusion, we have argued that the observation of
+dimer-likeq-dependence combined with aspectral weight4
+spread over a wide frequency range and remaining nearly
+temperature independent over a wide range of temper-
+ature is strongly suggestive of a Valence Bond Liquid
+phase, with short-range Valence Bond Order exceeding a
+couple of lattice constants. These excitations can be re-
+garded as a kink-antikink pair or two spinons, which are
+conﬁned in a very small spatial region. They extend up
+to fairly high temperatures of order J, where such excita-
+tions are necessarily broadened by the underlying classi-
+cal liquid environment. Whether at low enough tempera-
+tures, the development of long-range quantum coherence
+leads to truly delocalized spinons as in algebraic quan-
+tum spin-liquid phases or to the development of much
+sharper localized and extended triplet excitations as in a
+Valence Bond Crystal remains to be seen.
+We would like to thank Mark de Vries for valuable
+discussions.
+[1] M. P. Shores et al J. Am. Chem. Soc. 127, 13462 (2005).
+[2] J. S. Helton et al, Phys. Rev. Lett. 98, 107204 (2007).
+[3] S. H. Lee et al, Nat. Mat. 6, 853 (2007).
+[4] A. Olariu et al, Phys. Rev. Lett. 100, 087202 (2008).
+[5] T. Imai et al, Phys. Rev. Lett. 100, 077203 (2008).
+[6] M. A. De Vries et al, Phys. Rev.Lett. 100, 157205 (2008).
+[7] P. W. Anderson, Mater. Res. Bull. 8, 153 (1973).
+[8] C. Zeng and V. Elser, Phys. Rev. B 51, 8318 (1995).
+[9] F. Mila, Phys. Rev. Lett. 81, 2356 (1998).
+[10] G.Misguich, D.SerbanandV.Pasquier, Phys.Rev.Lett.
+89, 137202 (2002).
+[11] Y. Ran, M. Hermele, P. A. Lee, and X.-G. Wen, Phys.
+Rev. Lett. 98, 117205 (2007).
+[12] M. Hermele, T. Senthil, and M. P. A. Fisher, Phys. Rev.B 72, 104404 (2005).
+[13] J. B. Marston and C. Zeng, J. Appl. Phys. 69, 5962
+(1991); A. V. Syromyatnikov and S. V. Maleyev, Phys.
+Rev.B66, 132408 (2002); P.Nikolic andT. Senthil, Phys.
+Rev. B68, 214415 (2003); R. Budnik and A. Auerbach,
+Phys. Rev. Lett. 93, 187205 (2004);
+[14] C. Waldtmann et al, Eur. Phys. J. B 2 501 (1998); P.
+Sindzingre and C. Lhuillier, EPL 88, 27009 (2009).
+[15] H. C. Jiang et al, Phys. Rev. Lett. 101, 117203 (2008).
+[16] R. R. P. Singh and D. A. Huse, Phys. Rev. B 76, 180407
+(2007).
+[17] B.-J. Yang, Y. B. Kim, J. Yu and K. Park, Phys. Rev. B
+77, 224424 (2008).
+[18] G. Misguich and P. Sindzingre, J. Phys.-Cond. Matt. 19,
+145202 (2007).
+[19] A. Laeuchli, C. Lhuillier, arXiv:0901.1065.
+[20] G. Evenbly, G. Vidal, arXiv:0904.3383.
+[21] Z. Zhao and O. Tchernyshyov, Phys. Rev. Lett. 103,
+187203 (2009).
+[22] D. Poilblanc, M. Mambrini, D. Schwandt,
+arXiv:0912.0724.
+[23] M. A. de Vries et al Phys. Rev. Lett. 103, 237201 (2009).
+[24] M. Rigol and R. R. P. Singh, Phys. Rev. Lett. 98, 207204
+(2007).
+[25] G. Misguich and P. Sindzingre, Eur. Phys. J. B 59, 305
+(2007).
+[26] T. NakamuraandK.Kubo, Phys.Rev.B53, 6393(1996).
+[27] D. Sen et al., Phys. Rev. B 53, 6401 (1996).
+[28] C. K. Majumdar, J. Phys. C 3, 911 (1970).
+[29] R. R. P. Singh and D. A. Huse, Phys. Rev. B 77, 144415
+(2008).
+[30] M. Rigol and R. R. P. Singh, Phys. Rev. B 76, 184403
+(2007).
+[31] A. Zorko et al, Phys. Rev. Lett. 101, 026405 (2008).
+[32] O. Cepas, C. M. Fong, P. W. Leung, and C. Lhuillier,
+Phys. Rev. B 78, 140405(R) (2008).

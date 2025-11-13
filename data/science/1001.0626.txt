@@ -1,0 +1,237 @@
+arXiv:1001.0626v3  [hep-ph]  4 Mar 2010Production of tidal-charged black holes at the Large Hadron
+Collider
+Douglas M. Gingrich∗
+Centre for Particle Physics, Department of Physics,
+University of Alberta, Edmonton, AB T6G 2G7 Canada
+(Dated: November 17, 2018)
+Abstract
+Tidal-charged black hole solutions localized on a three-br ane in the ﬁve-dimensional gravity
+scenario of Randall and Sundrum have been known for some time . The solutions have been used
+to study the decay, and growth, of black holes with initial ma ss of about 10 TeV. These studies are
+interesting in that certain black holes, if produced at the L arge Hadron Collider, could live long
+enough to leave the detectors. I examine the production of ti dal-charged black holes at the Large
+Hadron Collider and show that it is very unlikely that they wi ll be produced during the lifetime
+of the accelerator.
+PACS numbers: 04.50.Gh, 04.50.-h, 04.50.Kd, 12.60.-i
+∗Also at TRIUMF, Vancouver, BC V6T 2A3 Canada; gingrich@ualberta .ca
+1I. INTRODUCTION
+Models of low-scale gravity could allow particle physics experiments to study the strong-
+gravity regime [1–5]. One consequence of these models is the possibilit y of black hole pro-
+duction at the Large Hadron Collider (LHC) if the fundamental scale of gravity MDis about
+a TeV [6–9].
+Black hole solutions in higher dimensions have a complicated dependenc e on both the
+gravitational ﬁeld of the brane and the geometry of the extra dime nsions. The models with
+large extra dimensions in a ﬂat spacetime (ADD) [1, 2] are popular. On e reason for this
+interest is that if the geometrical scales of the extra dimensions ar e all large compared to
+1/MD, then there is a wide regime in which the geometry of the extra dimens ions plays
+no essential role. In ADD this means considering black holes with horiz on radius much
+smaller than the size of the extra dimensions. For large ﬂat compact iﬁed extra dimensions,
+the topology of the black hole can be assumed to be spherically symme tric in the ( n+3)-
+spatial dimensions and the boundary conditions from the compactiﬁ cation can be neglected.
+This allows the simple Myers-Perry metric [10] to be used. This metric is also useful in
+the Randall-Sundrum scenario [3] if the warping scale or (AdS radius) is large compared to
+1/MD[9].
+In a regime in which the brane can not be neglected, the so called bran e world scenario,
+there are very few physical solutions to the higher-dimensional bla ck hole problem (see
+Ref. [11, 12] for a review). One of the earliest and most widely discus sed solutions is a black
+string solution [13], but this solution is far from physical. Actually, it is u nknown if physical
+black hole solutions exist at all in the Randall-Sundrum model.
+Aclass of Randall-Sundrumsolutions have been foundinwhich thesolu tion isa Reissner-
+N¨ ordstrommetricwiththeelectric chargereplaced byatidalchar ge[14]. Iftheeﬀectsofthis
+tidal-charge term are negligible, the solution becomes an eﬀective fo ur-dimensional solution
+andtheeﬀectsoflow-scalegravityareunlikelytobeobserved. Ift heextratermissigniﬁcant,
+the eﬀects of low-scale gravity may be observable if the fundament al scale of gravity is low
+enough.
+The decays of tidal-charged black holes in the contexts of the micro canonical picture
+have been studied [15–18]. The microcanonical corrections may be s igniﬁcant when the
+object reaches the Planck size and the classical black hole descript ion fails (For the case of
+2the microcanonical treatment of ADD black hole decays at the LHC, also see Ref. [19].).
+The microcanonical corrections to the canonical decay treatmen t are larger in the Randall-
+Sundrum scenario for Planck-sized objects, and in certain cases t hey may live long enough
+to be considered quasi-stable. The possibility that black holes produ ced at the LHC might
+be quasi-stable has raised safety concerns (see for e.g. Ref [20]), which have been addressed
+in general [21–23], and inthe context of tidal charged black holes [16 –18]. I will have nothing
+new to add to the decay discussion.
+Based on recent phenomenological constraints on the tidal charg e [18], I estimate the
+production cross section at LHC energies and show that it is tiny ove r most of the allowed
+parameter space. The probability of producing these black holes du ring the lifetime of the
+LHC accelerator is vanishingly small. Hence, a scenario of high missing- energy signatures
+of black holes at the LHC, because of a long lifetime, is disfavoured.
+II. PRODUCTION CROSS SECTION
+A static solution for a mass Mlocalized on a three-brane in the ﬁve-dimensional gravity
+scenario of Randall-Sundrum is [14]
+−gtt= (grr)−1= 1−2M
+M2
+p1
+r+q
+M2
+51
+r2, (1)
+whereqis a dimensionless tidal charge, Mp= 1.2×1016TeV is the eﬀective Planck scale on
+thebrane, and M5isthefundamental Planckscaleintheﬁve-dimensional bulk. Equatio n(1)
+is an exact solution of the eﬀective Einstein equations on the brane a nd represents the
+induced metric on the brane in the strong-gravity regime. Attempt s to extend the metric
+oﬀ the brane have failed [11, 12] so it is hoped that the brane chara cteristics of the black
+hole dominate.
+The tidal term arises due the gravitational aﬀects from the ﬁfth d imension and the
+dimensionless parameter qcan be thought of as a tidal charge arising from the projection
+onto the brane of free gravitational ﬁeld eﬀects in the bulk. The pa rameterqis determined
+by both the brane source, i.e. the mass M, and any Coulomb part of the bulk Weyl tensor
+that survives when Mis set to zero [14]. It may be positive or negative. Ref. [14] argues
+that negative qis more natural. In this case, there will be one horizon that is outside the
+Schwarzschild horizon RS= 2M/M2
+p. The bulk eﬀects tend to strengthen the gravitational
+3ﬁeld.
+The tidal charge aﬀects the geodesics and the gravitational pote ntial, and hence indirect
+limits may be placed on it by observations. The eﬀects of the tidal ter m die oﬀ quickly
+with increasing r. At astrophysical distances, the weak-ﬁeld eﬀects are being pro bed and
+the correction term is much less than the Schwarzschild term in the e ﬀective potential.
+However, in the strong-gravity regime qcan be large, and the horizon radius would become
+RH∼√−q
+M5. (2)
+The tidal term will dominate the Schwarzschild term, which reﬂects t he fact that gravity
+becomes eﬀectively ﬁve-dimensional at high energies. Current obs ervations place only weak
+limits on the tidal charge [14], but in principle signiﬁcant tidal modiﬁcatio ns could arise in
+the strong-ﬁeld regime. Thus it is useful to investigate the phenom enology of these black
+holes at the LHC.
+The tidal-charge parameter can only be deduced on dimensional gro unds. Ref. [14] sug-
+gests a value of q=−M/M5. Ref. [15] generalized this to q=−(Mp/M5)α(M/M5), whereα
+is a real parameter. For the tidal term to dominate, α≫ −4. Ref. [15–17] took as a typical
+choiceα≥0. A recent more general parameterization is given by [18]
+q=−/parenleftbiggMp
+M5/parenrightbiggα/parenleftbiggM
+M5/parenrightbiggβ
+, (3)
+whereβ >0 is a real parameter. Thus the original calculations used the specia l case of
+α= 0 and β= 1. For the tidal-charged black hole to be semiclassical, α>∼−2 [18].
+A feature of black hole production in particle collisions is that its cross section is essen-
+tially the horizon area of the forming black hole and grows with the cen tre of mass energy
+of the colliding particles as some power. In the ADD scenario, this cro ss section is rather
+large and given by
+σADD∼1
+M2
+D∼1 nb, (4)
+whereMD∼1 TeV is the fundamental Planck scale in Dspacetime dimensions. For the
+tidal-charged black hole case,
+σ∼−q
+M2
+5∼1
+M2
+5/parenleftbiggMp
+M5/parenrightbiggα/parenleftbiggM
+M5/parenrightbiggβ
+. (5)
+4For this cross section to be comparable to the ADD case, |q|must be of O(1). Recent
+calculations [15, 17] used α≥0 andβ= 1, which could give a huge cross section and exceed
+the ADD case. However, αcan be restricted from above by precision measurements of the
+deviation of Newton’s law [24] and thus α >0 may not be a valid choice.
+In estimating the upper bound on α, I follow a similar argument to Ref. [18]. The brane
+has a thickness L, which must be less than the length over which deviations from Newto n
+gravity are not observed: L<∼44µm = 2.2×1014TeV−1[24]. For the tidal-charge term
+to dominate over the Schwarzschild term, the horizon radius must b e less than the critical
+radiusrc, which can be deﬁned to be the radius at which the Schwarzschild ter m equals the
+tidal term in the metric:
+rc=1
+2Mp/parenleftbiggMp
+M5/parenrightbigg3+α/parenleftbiggM
+M5/parenrightbiggβ−1
+. (6)
+In addition, this critical radius must be less than the brane thicknes s,rc≪L, else we would
+have already observed deviations in Newton’s law due to the tidal ter m. Thus, requiring
+rc≪Lgivesα<∼αc, where
+αc≡ln(2LMp)+(1−β)ln(M/M5)
+ln(Mp/M5)−3. (7)
+In low-scale gravity, black holes could be produced at the LHC in the r ange 1<∼M<∼
+14 TeV. The upper bound is given by the maximum LHC energy, which wo uld be very un-
+likely, and the lower bound is given by the lower experimental limit on M5. ForM5= 1 TeV,
+α<∼−1.09 forM=M5, independent of β, andα<∼−1.02 forM= 14 TeV, which occurs
+atβ= 0. For larger values of M5,α<∼−0.94 for the extreme case of M=M5= 14 TeV,
+which is highly unlikely. The LHC is a proton-proton collider and thus the probability of
+producing a parton-parton collision at the maximum LHC energy is van ishingly small. Be-
+cause of this, the upper bound on αcis likely to be less than −0.94 for realizable values of
+highM=M5. Ignoring factors of two in the metric or picking a diﬀerent deﬁnition for the
+fundamental Planck scale M5changesαcby at most about 0.1, and in no case is αclarger
+than about −1.0.
+Assuming the largest allowed value of αis−1, gives the upper bound on the parton cross
+section of
+5σ<∼1
+M5Mp/parenleftbiggM
+M5/parenrightbiggβ
+<∼(M/TeV)β
+Mp/TeVTeV−2, (8)
+where in the last expression I have used M5= 1 TeV, which gives the maximum cross
+section. Because of Mpin the denominator, the cross section will be exceedingly low unless
+βis very large. In terms of numerical values
+σ<∼10−16+β∼10−10+βfb. (9)
+To calculate the proton-proton cross section, the parton cross section in Eq. (8) must be
+convoluted with the parton distribution functions of the proton, s ummed over all partons
+thatcouldformtheblack hole, andintegratedover allblackholemas ses. Iwillintegrateover
+thefullkinematically allowedrangealthoughtheapplicabilityofEq. (8) maybequestionable
+nearM∼M5. To ignore this region would signiﬁcantly reduce the cross section. T he results
+are shown in Fig. 1 as a function of the βparameter for M5= 1 TeV.
+I assume the total integrated luminosity delivered by the LHC will be 1 ab−1. Thus the
+probability of producing a single tidal-charged black hole event during the lifetime of the
+accelerator is vanishingly small for reasonable values of β. Only for β>∼11 will black hole
+production become signiﬁcant. We would expect βto be a few and large values of βare
+unnatural [18]. The functional form for qin Eq (3) can not be valid over all mass scales and
+some mass dependence of the parameters αandβis expected.
+TheπR2
+Hform for the cross section is usually considered a maximum cross sec tion.
+Possible form factors could increase the cross section by a factor of about three. There is
+far greater discussion on how the cross section is reduced from th e geometrical form. For
+example, initial-state beam radiation or radiation during a balding phas e could reduce the
+cross section by several orders of magnitude (see Ref. [25] for a review of the ADD case).
+The analysis has been conﬁned to the brane and the bulk space has n ot been taken into
+account. Some approximations are involved in the terms that encod e the bulk behaviour
+on the brane. Assuming these simpliﬁcations do not alter the underly ing phenomenology, it
+appears very unlikely that tidal-charged black holes could be produc ed at the LHC.
+6β0 2 4 6 8 10 12 14Proton-Proton Cross Section [fb]
+-910-810-710-610-510-410-310-210-1101
+FIG. 1. Proton-proton cross section versus the βparameter for M5= 1 TeV.
+7ACKNOWLEDGMENTS
+This work was supported in part by the Natural Sciences and Engine ering Research
+Council of Canada.
+[1] N. Arkani-Hamed, S. Dimopoulos, and G. Dvali, Phys. Lett . B429, 263 (1998),
+arXiv:hep-ph/9803315v1.
+[2] I. Antoniadis, N. Arkani-Hamed, S. Dimopoulos, and G. Dv ali, Phys. Lett. B 436, 257 (1998),
+arXiv:hep-ph/9804398v1.
+[3] L. Randall and R. Sundrum, Phys. Rev. Lett. 83, 3370 (1999), arXiv:hep-ph/9905221v1.
+[4] G. Dvali, “Black holes and large Nspecies solution to the hierarchy problem,” (2007),
+arXiv:0706.2050v1 [hep-th].
+[5] X. Calmet and S. D. H. Hsu, Phys. Lett. B 663, 95 (2008), arXiv:0711.2306v1 [hep-th].
+[6] P. C. Argyres, S. Dimopoulos, and J. March-Russell, Phys . Lett. B 441, 96 (1998),
+arXiv:hep-th/9808138v1.
+[7] T. Banks and W. Fischler, “A model for high energy scatter ing in quantum gravity,” (1999),
+arXiv:hep-th/9906038v1.
+[8] S. Dimopoulos and G. Landsberg, Phys. Rev. Lett. 87, 161602 (2001),
+arXiv:hep-ph/0106295v1.
+[9] S. B. Giddings and S. Thomas, Phys. Rev. D 65, 056010 (2002), arXiv:hep-ph/0106219v4.
+[10] R. C. Myers and M. J. Perry, Ann. Phys. (N.Y.) 172, 304 (1986).
+[11] R. Gregory, in Proceedings of the 4th Aegean Summer School on Black Holes , Vol. 769 (Lect.
+Notes Phys., 2009) pp. 259–298, arXiv:0804.2595 [hep-th].
+[12] P. Kanti, in Proceedings of the Recent Developments in Gravity , Vol. 189 (J. Phys. Conf. Ser.,
+2009) p. 012020, arXiv:0903.2147v1 [hep-th].
+[13] A. Chamblin, S. W. Hawking, and H. R. Reall, Phys. Rev. D 61, 065007 (2000), arXiv:hep-
+th/9909205v2.
+[14] N. Dadhich, R. Maartens, P. Papadopoulos, and V. Rezani a, Phys. Lett. B 487, 1 (2000),
+arXiv::hep-th/0003061v3.
+[15] R. Casadio and B. Harms, Int. J. Mod. Phys. A 17, 4635 (2002), arXiv:hep-th/0110255v2.
+8[16] A. Schelpe, “Randall-Sundrum black holes at colliders ,” (2008), arXiv:0809.2353v1 [hep-th].
+[17] R. Casadio, S. Fabi, and B. Harms, Phys. Rev. D 80, 084036 (2009),
+arXiv:0901.2948v3 [hep-ph].
+[18] R. Casadio, S. Fabi, B. Harms, and O. Micu, “Theoretical survey of tidal-charged black holes
+at the LHC,” (2009), arXiv:0911.1884v1 [hep-th].
+[19] D. M. Gingrich and K. Martell, J. Phys. G: Nucl. Part. Phy s.35, 035001 (2007),
+arXiv:0708.0647v3 [hep-ph].
+[20] R. Plaga, “On the potential catastrophic risk from meta stable quantum-black holes produced
+at particle colliders,” (2008), arXiv:0808.1415v3 [physi cs.gen-ph].
+[21] S. B. Giddings and M. L. Mangano, Phys. Rev. D 78, 035009 (2008),
+arXiv:0806.3381v2 [hep-ph].
+[22] S. B. Giddings and M. L. Mangano, “Comments on claimed ri sk from metastable black holes,”
+(2008), arXiv:0808.4087v1 [hep-ph].
+[23] B. Koch, M. Bleicher, and H. Stoecker, Phys. Lett. B 672, 71 (2009),
+arXiv:0807.3349v2 [hep-ph].
+[24] D. J. Kapner, T. S. Cook, E. G. Adelberger, J. H. Gundlach , B. R. Heckel, C. D. Hoyle, and
+H. E. Swanson, Phys. Rev. Lett. 98, 021101 (2007), arXiv:hep-ph/0611184v1.
+[25] D. M. Gingrich, Int. J. Mod. Phys. A 21, 6653 (2006), arXiv:hep-ph/0609055v2.
+9

@@ -1,0 +1,370 @@
+Topical Bias in Generalist Mathematics Journals
+Joseph F. Grcary
+Generalist mathematics journals exhibit bias toward the branches of
+mathematics by publishing articles about some subjects in quantities far
+disproportionate to the production of papers in those areas within all of
+mathematics. Bias is used here because it is the shortest English word with
+Webster's meaning of \a tendency of a statistical estimate to deviate in one
+direction from a true value." This paper quanties the bias, which seems
+not to be discussed previously, and suggests some consequences of it.
+The mathematical topics that are generally agreed to be the major
+branches of mathematics and the production of papers about them can
+be determined from the Mathematical Subject Classication and from two
+databases based on the classication [3]. The classication dates in some
+form to 1931, when Zentralblatt f ur Mathematik und ihre Grenzgebiete began
+publishing annual reviews of papers grouped into broad subject areas; Math-
+ematical Reviews started publishing similar material in 1940. The American
+Mathematical Society created hierarchical codes to classify papers for its de-
+funct Mathematical Oprint Service in the late 1960s [8]. This AMS (MOS)
+Classication quickly became the de facto index for mathematical literature.
+Both Zentralblatt andMathematical Reviews maintain historical databases
+of indexed papers that can be accessed now through the world wide web.
+The data presented here for the decade 2000{2009 were gathered from
+theZentralblatt database in January, 2010. The 854,547 items that were
+available at the time will increase as Zentralblatt completely assimilates pa-
+pers from the recent past. All the records can be retrieved by Mathematical
+Subject Classication.
+Figure 1 displays the percent of all mathematics papers that address
+each of the major branches of mathematics enumerated by Subject Classi-
+cation. The present 5-digit codes begin with the 2-digit numbers that reect
+the coarsest level of dierentiation, namely, the major branches of mathe-
+Please read and cite the corrected, published article in Notices of the AMS ,
+57(11):1421{1424, 2010.
+y6059 Castlebrook Drive, Castro Valley, CA 94552 USA (jfgrcar@comcast.net).
+1arXiv:1001.0798v6  [math.HO]  30 Nov 2010 0  1  2  3  4  5  6  7  8  9  10
+Computer science  68
+Partial differential eq.  35
+Numerical analysis  65
+Operations research  90
+Fluid mechanics  76
+Statistics  62
+Quantum theory  81
+Ordinary differential eq.  34
+Mech. of deform. solids  74
+Probability theory  60
+Game theory, economics  91
+Combinatorics  05
+Systems theory, control  93
+Dynamical systems  37
+Operator theory  47
+Biology  92
+Number theory  11
+Information and comm.  94
+Functional analysis  46
+Statistical mechanics  82
+Differential geometry  53
+Logic and foundations  03
+Group theory  20
+Relativity theory  83
+Algebraic geometry  14
+Calculus of variations  49
+One complex variable  30
+General topology  54
+Global analysis  58
+Mech. of particles and sys.  70
+Associative rings  16
+Linear, multilinear algebra  15
+Fourier analysis  42
+Real functions  26
+Classical thermodynamics  80
+Manifolds, cell complexes  57
+Optics  78
+Several complex variables  32
+Approximations  41
+Nonassociative rings  17
+Functional equations  39
+Special functions  33
+Commutative rings  13
+Measure and integration  28
+Convex & discrete geom.  52
+Topological groups  22
+Ordered alg. structures  06
+Integral equations  45
+Geophysics  86
+Geometry  51
+Algebraic topology  55
+Category theory  18
+Astronomy  85
+Field theory, polynomials  12
+Potential theory  31
+Abstract harmonic anal.  43
+Integral transforms  44
+General alg. systems  08
+K-theory  19
+Sequences and series  40Percent of All Mathematics Papers 2000-2009extend to 11.9 and 14.5
+Primary Subject
+Secondary OnlyFigure 1: The distribution of eort in mathematical research is indicated by
+the percent of all mathematics papers addressing a particular Mathematical
+Subject Classication. Three subject classes are omitted: general 00, history
+01, and education 97. Papers for which a subject is primary are indicated
+by red, white, or blue shading (the shading is explained elsewhere). Papers
+for which a subject is only secondary are indicated by grey shading.
+2matics. Currently, sixty-three of the 2-digit numbers are assigned. Each
+paper so catalogued receives one primary code and optionally any number
+of secondary codes. For example, when the data were gathered, 22,443 pa-
+pers from 2000{2009 in the Zentralblatt database had either a primary or
+a secondary code in the \group theory" classication, 20. Thus, approxi-
+mately 22443 =854547 or 2.63 percent of all mathematics papers discussed
+group theory during 2000{2009. This value is recorded in gure 1.
+The grey shading in gure 1 indicates papers for which the associated
+classication is not the primary subject. Such papers are prevalent across
+mathematics, so they are included in the count of papers for each subject.
+Since a paper may contribute to several subjects, the percentages for all
+classes sum to 156.5. The red, white, and blue shades in the gure distin-
+guish subjects in a manner to be explained.
+The American Mathematical Society publishes three print journals \de-
+voted to research articles in all areas of mathematics." The extent to which
+these journals fulll the Society's promise of inclusiveness can be exam-
+ined by calculating percentages similar to those in gure 1 but specic to
+the journals in question. The data presented here are for Proceedings of
+the American Mathematical Society ; similar observations can be made for
+theJournal and the Transactions . The Zentralblatt database holds 4,758
+papers from the Proceedings during the past decade, of which 309 had a pri-
+mary or secondary code beginning with 20. Therefore, of all papers in the
+Proceedings , roughly 309 =4758 or 6 :49 percent discuss group theory. This
+percentage for the generalist journal, 6 :49, contrasts with the 2 :63 percent
+among all mathematics papers. The fraction of papers about group theory
+in the journal is over twice the fraction in mathematics as a whole.
+The bias of a journal for or against a given branch of mathematics may
+be dened as the ratio of the fraction of papers about the subject in the
+journal to the fraction of papers about the subject in all of mathematics.
+It is convenient to represent the ratio as a base 2 logarithm, so a bias in
+favor has a positive value and a bias against has a negative value. The
+Proceedings of the American Mathematical Society thus has a positive bias
+for group theory of 6 :49=2:63 or 2 :47 = 2+1 :31.
+Figure 2 displays the biases of the Proceedings toward all the branches
+of mathematics. The wide range of values indicates that the journal is un-
+representative of mathematics research. It has a strong bias (2+1to over
+2+2) in favor of twenty-ve subjects that are colored red in gures 1 and
+2. Comparing the gures reveals a strong positive bias for three subjects
+that are of interest to relatively few mathematicians, in that each subject
+accounts for less than 1 percent of all mathematics papers: commutative
+3Positive Bias of Proc. AMS
+by Primary or Secondary Subject for 2000-2009
+Negative Bias of Proc. AMS1 2 3
+-5 -4 -3 -2 -1log2 = 0
+0 = log2Commutative rings  13
+Abstract harmonic anal.  43
+Functional analysis  46
+Algebraic topology  55
+Manifolds, cell complexes  57
+Fourier analysis  42
+Operator theory  47
+Potential theory  31
+Several complex variables  32
+Measure and integration  28
+General topology  54
+One complex variable  30
+Field theory, polynomials  12
+Topological groups  22
+Algebraic geometry  14
+Associative rings  16
+Group theory  20
+Number theory  11
+K-theory  19
+Special functions  33
+Global analysis  58
+Convex & discrete geom.  52
+Differential geometry  53
+Real functions  26
+Integral transforms  44
+Sequences and series  40
+Logic and foundations  03
+Category theory  18
+Nonassociative rings  17
+Approximations  41
+Ordered alg. structures  06
+Dynamical systems  37
+Functional equations  39
+Linear, multilinear algebra  15
+35  Partial differential eq.
+51  Geometry
+34  Ordinary differential eq.
+60  Probability theory
+49  Calculus of variations
+05  Combinatorics
+45  Integral equations
+08  General alg. system s
+81  Quantum theory
+94  Information and comm.
+70  Mech. of particles and sys.
+76  Fluid mechanics
+78  Optics
+86  Geophysics
+65  Numerical analysi s
+92  Biology
+91  Game theory, economic s
+62  Statistics
+82  Statistical mechanics
+93  Systems theory, control
+80  Classical thermodynamic s
+83  Relativity theory
+90  Operations research
+74  Mech. of deform. solid s
+68  Computer science
+85  Astronom yFigure 2: Topical bias in Proceedings of the American Mathematical Society .
+Bias is the ratio of the fraction of publications in the journal for a given
+subject to the fraction of publications in all of mathematics for that subject.
+Note the scale is logarithmic to the base 2. The journal had no papers about
+the one subject at bottom. Subjects with strong positive or negative bias
+have red or blue shading, respectively, to ease their identication in other
+gures.
+4rings 13 (bias 2+2 :58), abstract harmonic analysis 43 (bias 2+2 :52), and alge-
+braic topology 55 (bias 2+2 :17). In contrast, the Proceedings has a neutral
+to slightly negative bias for three subjects that are of interest to many more
+mathematicians, in that each of them constitutes over 4 percent of all math-
+ematics papers: ordinary dierential equations 34 (bias 2 0:39), probability
+theory 60 (bias 2 0:51), and combinatorics 05 (bias 2 0:54).
+The ratio of biases for two subjects is easily seen to equal the ratio of
+the conditional probabilities that papers about the respective subjects would
+appear in the journal. Viewed in this way, the biases of the Proceedings are
+remarkable. For example, the journal is roughly 6 :52+2 :17=2 0:54times
+more likely to be the publisher of a paper about algebraic topology than
+about combinatorics.
+The journal has a strong negative bias (2 1to much below) against eigh-
+teen subjects that are colored blue in gure 2. The same shading in gure
+1 reveals the strong negative bias occurs for many branches of mathematics
+about which most papers are written. Indeed, the Proceedings is strongly bi-
+ased against seven of the ten most heavily published subjects. Consequently,
+the generalist journal neglects subjects to which many mathematicians con-
+tribute, or whose very creation is associated with some mathematicians. To
+cite a few examples: Tukey [1] for statistics 62, Lax [11] for numerical anal-
+ysis 65, Moser [9] for mechanics 70, Ladyzhenskaya [4] for uid mechanics
+76, Dobrushin [10] for statistical mechanics 82, Dantzig [2] for operations
+research 90, Shannon [5] for information theory 94, and of course, Wiener
+[6] for systems theory 93, and von Neumann [7] for game theory 91.
+TheTransactions has roughly the same biases as the Proceedings (Figure
+3). Among heavily published subjects that appear in quantity in either
+journal, the Proceedings has stronger positive biases for functional analysis
+46 and for operator theory 47.
+Explanations for the biases are in a sense circular, in that authors submit
+where history suggests acceptance is likely, or that editorial boards more ac-
+curately evaluate the familiar. For example, not all branches of mathematics
+employ just the telegraphic style that is prevalent in these journals. Thus
+biases are self-perpetuating, although surely procedures could be found so
+submissions that are exceptions to what is usually published do not prove
+the rule.
+The signicant question raised by the data is not how biases occur or
+how to manage them, but rather, whether the present topical distribution in
+generalist journals best serves mathematics. Biases in professional journals
+impart an illusory picture of a eld that can be dangerous if it becomes so
+pervasive as to aect the evolution of the underlying subject matter. In
+5Positive Bias of Trans. AMS
+by Primary or Secondary Subject for 2000-2009
+Negative Bias of Trans. AMS1 2 3
+Algebraic topology  55
+Manifolds, cell complexes  57
+Commutative rings  13
+K-theory  19
+Algebraic geometry  14
+Topological groups  22
+Several complex variables  32
+Category theory  18
+Group theory  20
+Abstract harmonic anal.  43
+Associative rings  16
+Global analysis  58
+Potential theory  31
+Field theory, polynomials  12
+Convex & discrete geom.  52
+Fourier analysis  42
+Differential geometry  53
+Measure and integration  28
+Nonassociative rings  17
+Integral transforms  44
+Number theory  11
+Functional analysis  46
+One complex variable  30
+Special functions  33
+Dynamical systems  37
+General topology  54
+Operator theory  47
+Logic and foundations  03
+General alg. systems  08
+Ordered alg. structures  06
+Real functions  26
+Partial differential eq.  35
+Combinatorics  05
+Probability theory  60
+Calculus of variations  49
+41  Approximations
+51  Geometry
+15  Linear, multilinear algebra
+40  Sequences and series
+34  Ordinary differential eq.
+45  Integral equations
+39  Functional equations
+70  Mech. of particles and sys.
+82  Statistical mechanics
+81  Quantum theory
+76  Fluid mechanics
+92  Biology
+80  Classical thermodynamics
+94  Information and comm.
+78  Optics
+74  Mech. of deform. solids
+91  Game theory, economics
+93  Systems theory, control
+68  Computer science
+65  Numerical analysis
+62  Statistics
+90  Operations research
+83  Relativity theory
+85  Astronomy
+86  Geophysics
+-5 -4 -3 -2 -1log2 = 0
+0 = log2Figure 3: Topical bias in Transactions of the American Mathematical Soci-
+ety. The scale is logarithmic to the base 2. Subjects are shaded as in gure 2
+to ease comparison with the Proceedings . The journal had no papers about
+the two subjects at bottom.
+6the present case, since the sponsoring Society does not explain the topical
+selectivity of its generalist journals, and since the literature does not examine
+the issue, in the absence of clarifying public discussion, readers may assume
+the contents of the agship journals conrm prejudices about the branches
+of the eld. If unchecked over many years, these opinions may inuence
+decisions about curricula, publications, and stang that can fragment the
+research community.
+Such dissolution of mathematics may be occurring already as evidenced
+by the proliferation and growth of elds, particularly since the middle of the
+last century, that have considerable mathematical content but whose fac-
+ulties and professional societies have little overlapping membership. When
+dierent elds sponsor dierent branches of mathematics, then the subelds
+may adopt the cultures of their sponsors, so the branches of mathematics
+eventually may come to disagree over acceptable idiom, notation, rigor, and
+terminology. Barriers among the branches of mathematics entail a large
+opportunity cost, so to speak, because possible collaborations and synergies
+may not be realized. Moreover, as governments increasingly view scientic
+research as a component of national wealth, disparities may be expected
+to grow in the allocation of resources to the elds that encompass dierent
+branches of mathematics. In this way the fragmentation of mathematical
+research cedes to non-mathematicians a greater degree of responsibility to
+choose which branches of mathematics to encourage and how they should
+develop.
+Acknowledgments
+The author is grateful to B. Wegner for clarifying the history of the MSC,
+and to the editor and the referees for advice that improved this article.
+References
+[1] D. R. Brillinger. John Wilder Tukey (1915{2000). Notices of the
+AMS , 49(2):193{201, 2002.
+[2] R. Cottle, E. Johnson, and R. Wets. George B. Dantzig (1914{2005).
+Notices of the AMS , 54(3):344{362, 2007.
+[3] G. Fairweather and B. Wegner. Mathematics Subject Classication
+2010. Notices of the AMS , 56(7):848, 2009.
+7[4] S. Friedlander and others. Olga Alexandrovna Ladyzhenskaya
+(1922{2004). Notices of the AMS , 51(11):1320{1331, 2005.
+[5] S. W. Golomb and others. Claude Elwood Shannon (1916{2001).
+Notices of the AMS , 49(1):8{16, 2002.
+[6] D. Jerison and D. Stroock. Norbert Wiener. Notices of the AMS ,
+42(4):430{438, 1995.
+[7] R. J. Leonard. From Parlor Games to Social Science: von Neumann,
+Morgenstern, and the Creation of Game Theory 1928{1944. Journal
+of Economic Literature , 33(2):730{761, 1995.
+[8] W. LeVeque. The AMS | Then, Now, and Soon. Notices of the
+AMS , 35(6):785{789, 1988. Available at www.ams.org/ams/lev2.pdf .
+[9] J. N. Mather and others. J urgen K. Moser (1928{1999). Notices of the
+AMS , 47(11):1392{1393, 2000.
+[10] R. Minlos, S. Shlosman, and N. Vvedenskaya. Memories of Roland
+Dobrushin. Notices of the AMS , 43(4):428{430, 1996.
+[11] Norwegian Academy of Science and Letters. Lax Receives Abel Prize.
+Notices of the AMS , 52(6):632{633, 2005.
+8

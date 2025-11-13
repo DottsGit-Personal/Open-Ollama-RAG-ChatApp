@@ -1,0 +1,269 @@
+arXiv:1001.0843v1  [astro-ph.SR]  6 Jan 2010Comm. in Asteroseismology
+Contribution to the Proceedings of the 38thLIAC/HELAS-ESTA/BAG, 2008
+Overshooting
+B. Dintrans
+LATT, Universit´ e de Toulouse, CNRS, 14 av. Edouard Belin, 3 1400 Toulouse, France
+Abstract
+Overshooting occurs in stars when convective elements pene trate into adjacent
+radiative zones. In the Sun, it leads to the so-called ‘tachocl ine’ at the base
+of the outer convection zone and this region is becoming a key ingredient of
+the standard solar dynamo model as strong toroidal magnetic ﬁelds may be
+generated there. However this overshoot is not predicted by the mixing-length
+theory of convection where convective elements must stop at the border of a
+convectively unstable region. I will review the main proper ties of this convective
+overshoot in stellar interiors, with in particular its subt le dependence with the
+thermal diﬀusion, and will present the most recent results o btained from 2-D
+and 3-D direct numerical simulations (DNS) of penetrative c onvection.
+Session: Physics and uncertainties in massive stars on the M S and close to it
+Introduction
+In the standard model of thermal convection based on the mixin g-length phe-
+nomenology (B¨ ohm-Vitense 1958), the penetration of conve ctive elements into
+surrounding stable layers is not possible. Indeed, the mixin g-length velocity v
+of a convective blob is related to its temperature contrast δTby
+v2∝δT
+TgℓwithδT∝ ∇−∇ ad, (1)
+wheregandℓdenote the gravity and the mixing length, respectively, and ∇
+and∇adthe usual temperature ‘nabla’. Following Schwarzschild’s cri terion,
+the interface that separates a convective zone from a radiat ive one corresponds
+to∇=∇adtherefore the blob must stop here. However, the mixing-leng th
+formalism is based on an acceleration budget and setting the blob acceleration
+to zero does not mean that its velocity is itself zero, i.e., the mixing-length2 Overshooting
+theory neglects inertia. In fact, the blob penetrates into the stable layer over a
+small distance, then it is sloweddown bythe buoyancybrakin gand ﬁnallystops.
+This small penetration is not anecdotal because it has impor tant consequences
+in stellar physics:
+- it leads to diﬀerent evolutionary tracks in the HR diagram a s massive stars
+live longer on the main sequence due to the additional mixing induced by the
+overshootingabovetheconvectivecore(Rosvick&Vandenbe rg1998,Perryman
+et al. 1998).
+- in the standard α−Ωmodel of the solar dynamo, the regeneration of poloidal
+magnetic ﬁelds into toroidal ones takes place in the tachocl ine where vertical
+and latitudinal diﬀerential rotation is expected to be most eﬃcient (Parker
+1955, Brandenburg & Subramanian 2005).
+- heliosismology showed that the solar core rotation is almo st rigid (Brown et
+al. 1989). Internal gravity waves propagating in stellar rad iative zones are
+suspected to play the main role in this angular momentum redi stribution (Zahn
+et al. 1997, Talon & Charbonnel 2003). The most wide-spread e xcitation
+model involves penetrative convection from neighboring co nvection zones as
+strong downdrafts extend a substantial distance into the ad jacent stable zones
+sothatinternalgravitywavescanberandomlygenerated(Di ntransetal. 2005).
+Modelling of overshooting
+Assuming that the temperature gradient in the overshoot lay er is close to the
+adiabatic one of the next convection zone, Roxburgh (1978) i nvestigated the
+overshoot of convective cores and derived what it is now call ed the ‘Roxburgh’s
+integral constraint’:
+/integraldisplayrc
+0(L−Lrad)d/parenleftbigg1
+T/parenrightbigg
+>0, (2)
+where the radius rccorresponds to the edge of the overshoot region, while L
+andLraddenote the total and radiative luminosity, respectively. T he overshoot
+layer corresponds in this relation to the region where L < L rad(i.e., negative
+contribution) while the convection zone means L > L rad(i.e., positive contri-
+bution). However, this relation gives an upper limit of the o vershoot extent
+because it does not take into account the dissipation acting on the penetrating
+elements. Indeed, the viscous dissipation Dνenters in the heat equation and
+aﬀects the blob dynamics such that the correct relation read s now (Roxburgh
+1989):
+/integraldisplayrc
+0(L−Lrad)d/parenleftbigg1
+T/parenrightbigg
+=/integraldisplayrc
+04πr2Dν
+TdrwithDν∼ν/parenleftbigg∂ui
+∂xj/parenrightbigg2
+,(3)B. Dintrans 3
+whereνdenotes the kinematic viscosity. As the viscous dissipatio n is always
+positive, this term acts to decrease the negative part of the integrand in the
+left-hand side and thus the radius rc.
+Following Roxburgh’s investigation, Zahn (1991) showed tha t the penetra-
+tion extent also depends on the value of the Peclet number Peassociated with
+the convective elements, that is,
+Pe=vℓ
+χ, (4)
+whereχdenotes the thermal diﬀusivity. Small Peclet’s numbers mean that
+the radiative diﬀusion is stronger than the advection and th e convective blob
+rapidly loses its identity compared to the surrounding medi um. As a conse-
+quence, it does not feel any more the buoyancy braking and tra vels over long
+distances in the radiative zone (Zahn called this regime ‘ove rshoot’). On the
+other hand, a blob with a large Peclet number does not thermal ize rapidly with
+its surrounding (i.e., no radiative losses)and keepits ident ity: it is then strongly
+slowed down by the buoyant force and its penetration is weake r (the so-called
+‘penetration’ regime). Penetrationleads to an adiabatic st ratiﬁcationbelow the
+convection zone because of the induced entropy mixing, wher eas overshoot has
+no signiﬁcant inﬂuence on the local stratiﬁcation.
+Assuming that the velocity Wof the penetrating motions obeys the usual
+mixing-length scaling of thermal convection, Zahn derived the following rela-
+tions for both the subadiabatic extent of a convective regio n and the width of
+the thermal boundary layer:
+Lp∝f1/2W3/2andLbound∝/parenleftbiggχHp
+g/parenrightbigg1/2
+, (5)
+wherefdenotes a ﬁlling factor of convective plumes (i.e., fraction o f the area
+occupied by the plumes) and Hpthe pressure scale-height at the bottom of
+the convection zone. Applied to the Sun, these two scalings l ead to a pene-
+tration extent of about 0.2−0.3Hp(∼15 000km) and an overshoot layer
+≃1km. These scalings seem however to overestimate the amount o f con-
+vective penetration inferred by helioseismology as the stu dy of the oscillations
+in the asymptotic laws of solar acoustic modes rather predic ts an upper limit
+of∼0.1Hpfor the extent of the whole convective overshooting (Roxbur gh &
+Vorontsov 1994; Christensen-Dalsgaard et al. 1995; see als o Aerts et al. 2003
+for the case of a massive star).4 Overshooting
+Numerical simulations of overshooting
+The bad news
+The rapid development of supercomputers has lead several gr oups to under-
+take direct numerical simulations of convective overshoot ing. However, many
+numerical diﬃculties appear when one tries to simulate stel lar convection:
+- the molecular viscosity in stellar interiors is small, typ icallyν∼1cm2/s
+(Parker 1979). Granulation cells in the upper convection zo ne of the Sun
+correspond to a typical size and velocity of about L= 1000km andU= 1
+km/s, respectively. It leads to Reynolds’ number of about Re=UL/ν∼1011,
+meaning that solar convection is a highly turbulent and nonl inear phenomenon.
+- we know from Kolmogorov’s theory of turbulence (Kolmogorov 1941) that
+the ratio between the largest scale (i.e., the injection scale L) and the smallest
+one (i.e., the dissipation scale ℓd) behaves as L/ℓd∼Re3/4such that the
+solar dissipation scale is about one centimeter. In other wor ds, one needs
+(at least) 108gridpoints in each spatial direction to well reproduce both the
+injection of energy in the largest structures and its viscou s dissipation in the
+smallest ones (the turbulent cascade scenario). As this num ber of gridpoints is
+clearly beyond the scope oftoday supercomputers, several n umerical techniques
+have been developed to overcome this restriction: (i) inste ad of doing Direct
+Numerical Simulations (DNS), one can perform Large-Eddy Si mulations (LES)
+where the small-scale dynamics is modelled using a sub-grid scale approach
+(Lesieur 2008); (ii) one can also artiﬁcially increase the d issipation scale by
+adding a large-scale viscosity in the whole computational d omain, the price to
+pay being that motions are essentially laminar ( Re∼102···104).
+- ﬁnally, another problem concerns the diﬀerent time scales that coexist in a
+convection zone. Indeed, the local turnover time scale of con vection is roughly
+given by:
+τ∼Hp/URMS, (6)
+whereURMSis the typical (turbulent) RMS velocity of convective eddie s. Ap-
+plied to the solar convection zone, it leads to turnover time scales of about the
+day at the surface to several months at the bottom (Spruit 197 4). As a con-
+sequence, simulations should reproduce motions whose dyna mical time scales
+can vary by two orders of magnitude in the computational doma in. Moreover,
+the thermal time scale is also much more longerthan these tur nover time scales
+by orders of magnitude as, e.g., the solar thermal ﬂux expresse d in dynamical
+units is very small at the bottom of the convection zone ( F⊙/(ρc3
+s)∼10−11).
+This ratio is in essence equal to the ratio of the dynamical to thermal time
+scales, meaning that realistic simulations should be integ rated on a very longB. Dintrans 5
+Figure 1: Penetration extent ∆v.s. stability parameter S.Left: in the 2-D case
+where both the penetration and overshoot regimes exist (fro m Hurlburt et al. 1994).
+Right: in the 3-D case where only the overshoot regime remains (fro m Brummell et
+al. 2002).
+time to make sure that a thermal-relaxed state is reached. It i s not possible in
+practice to do that with a decent spatial resolution and the t hermal ﬂuxes are
+commonly overestimated by orders of magnitude in numerical simulations.
+DNS of convective overshooting in local cartesian boxes
+FollowingHurlburt et al. (1984), the majorityofDNS doneso faruse polytropic
+solutions for the internal structure of the star. Indeed, pol ytropes with ρ∝
+Tm(mbeing the polytropic index) allow to easily specify the stre ngth of the
+convective instability as the hydrostatic equilibrium imp lies in that case
+dT
+dz=−g
+(m+1)R∗, (7)
+wheregis the downward-directed gravity, zthe altitude and R∗the perfect gas
+constant. For a monatomic gas with an adiabatic index γ= 5/3, this relation
+shows that the temperature gradient is equal to the adiabati c one(=−g/cp)
+when the polytropic index is mad= 1/(γ−1) = 3/2. As a consequence,
+a stable layer corresponds to m > m adand a convectively-unstable one to
+m < m ad.
+Hurlburt et al. (1986, 1994) used this model to study the over shooting in
+2-D simulations of compressible convection for a solar case , that is, a radiative
+zone with polytropic index m3>3/2located above a convective zone with
+polytropic index m2<3/2. In particular, they studied the inﬂuence of the6 Overshooting
+relative stabilityparameter Son the penetration extent ∆, whereS=−(mad−
+m3)/(mad−m2), and found the following scalings (Fig. 1, left):
+
+
+∆∝S−1for small S-values: penetration regime ,
+∆∝S−1/4for large S-values: overshoot regime.(8)
+However, these scaling laws have not been fully conﬁrmed in t he 3-D case by
+Brummell et al. (2002) as only the overshoot regime ∆∝S−1/4is recovered
+(Fig.1, right). The reason simply lies in the smaller ﬁlling f actorffor the con-
+vective plumes compared to the 2-D case (Eq. 5): the spaced do wndrafts that
+penetrate into the stably stratiﬁed layer are not enough to m aintain an adia-
+batic stratiﬁcation below the convection zone and only the t hermal boundary
+layer exists.
+t=1000.0
+Figure 2: Vorticity isocontours in a 2-D star-in-a-box simu lation of penetrative con-
+vection for a solar-like star (Dintrans & Brandenburg 2009) .
+Another interesting 2-D and 3-D simulations of penetrative convection are
+the ones donebyRoxburgh& Simmons(1993)and Singhet al. (19 98). Indeed,
+a more realistic model of the star interior has been consider ed in the 2-D case
+through a temperature-dependent radiative conductivity. The main result is
+that the viscous dissipation contribution in the RHS of Roxb urgh’s integral
+constraint (3) decreases with the Prandtl number. It suggest s that in the
+astrophysical limit of very small Prandtl numbers ( Pr∼10−6), the stable and
+unstable contributions in the LHS of Roxburgh’s integral str ictly balance each
+other and are suﬃcient to obtain a good estimate for the overs hoot extentB. Dintrans 7
+(Roxburgh & Simmons 1993). In the 3-D case (Singh et al. 1998), a sub-
+grid scale modelling of the small scales led to the conﬁrmati on of the scaling
+relationships between this extent and both the imposed bott om ﬂux and the
+vertical velocity of convective downdrafts (see Eq. 5).
+Global DNS
+In the last decade, global direct simulations of overshootin g have greatly im-
+proved following two numerical approaches:
+- the spherical shape of the star is reproduced using a pseudo -spectral code
+where physical ﬁelds are projected onto spherical harmonic s. Browning et al.
+(2004) used this method with the 3-D anelastic ASH code to stu dy the core
+overshooting in a massive A-type star of 2M⊙, where only the inner 30% by
+radiusofthestarhasbeenconsidered(convectivecoreands omeofitssurround-
+ing radiative envelope). Although the achievement of the th ermal relaxation
+in these simulations remains questioning, they found that t he convective core
+adopts a prolate shape while overshooting is larger at the eq uator than at the
+poles, yielding an overall spherical shape to the whole cent ral region.
+- the star is embedded in a topologically Cartesian domain an d the sphericity
+is reproduced through radial-dependent forcing or damping proﬁles. This novel
+approach has been developed by Dintrans & Brandenburg (2009 ) and ﬁrst
+results in 2-D are promising as both the penetration and over shoot regimes are
+observed, whereas internal gravity waves are eﬃciently exc ited in the central
+radiative zone (Fig. 2).
+Conclusion
+Convective overshooting is today included in stellar evolu tion codes and evo-
+lutionary tracks of massive stars reproduce satisfactoril y the observations of
+clusters when an overshooting above convective cores is ass umed. Theoreti-
+cal studies showed that the overshoot region is composed of t wo nested layers
+whose the size depends on the value of the Peclet number of pen etrating mo-
+tions. Numerical studies in 2-D and 3-D of penetrative conve ction conﬁrmed
+this picture, except that only the overshoot layer (i.e., the t hermal boundary
+one) exists in 3-D due to the weak ﬁlling factor of convective plumes. These
+local and global direct numerical simulations are however s till quite far from
+realistic values of stellar interiors. Flows are less turbu lent than in reality and
+the overshoot regime dominates. Further progress are clear ly needed in the
+numerical side of this problem (e.g., development of large-ed dy simulations), in
+its theoretical modelling (e.g., turbulent closure models; K upka & Montgomery
+2002) and in the observational signatures of overshooting f rom asteroseismol-
+ogy.8 Overshooting
+References
+Aerts, C., Thoul, A., Daszy´ nska, J., et al. 2003, Sci, 300, 1 926
+B¨ ohm-Vitense, E. 1958, ZA, 46, 108
+Brandenburg, A., & Subramanian, K. 2005, PhR, 417, 1
+Brown, T. M., Christensen-Dalsgaard, J., Dziembowski, W.A ., et al. 1989, SoPh,
+343, 526
+Browning, M. K., Brun, A. S., & Toomre, J. 2004, ApJ, 601, 512
+Brummell, N. H., Clune, T. L., & Toomre, J. 2002, ApJ, 570, 825
+Christensen-Dalsgaard, J., Monteiro, M. J. P. F. G., & Thomp son, M. J. 1995,
+MNRAS, 276, 283
+Dintrans, B., Brandenburg, A., Nordlund, ˚A., et al. 2005, A&A, 438, 365
+Dintrans, B., & Brandenburg, A. 2009, ˚A., in preparation
+Hurlburt, N. E., Toomre, J., & Massaguer, J. M. 1984, ApJ, 282 , 557
+Hurlburt, N. E., Toomre, J., & Massaguer, J. M. 1986, ApJ, 311 , 563
+Hurlburt, N. E., Toomre, J., Massaguer, J. M., & Zahn, J.-P. 1 994, ApJ, 421, 245
+Kolmogorov, A. N. 1941, DoSSR, 30, 301
+Kupka, F., & Montgomery, M. H. 2002, MNRAS, 330, L6
+Lesieur, M. 2008, Turbulence in Fluids (Springer-Verlag)
+Parker, E. N. 1955, ApJ, 122, 293
+Parker, E. N., 1979, Cosmical Magnetic Fields, (Oxford Univ ersity Press)
+Perryman, M. A. C., Brown, A. G. A., Lebreton, Y., et al. 1998, A&A, 331, 81
+Rosvick, J. M., & Vandenberg, D. A. 1998, AJ, 115, 1516
+Roxburgh, I. W. 1978, A&A, 65, 281
+Roxburgh, I. W. 1989, A&A, 211, 361
+Roxburgh, I. W. & Simmons, J. 1993, A&A, 277, 93
+Roxburgh, I. W., & Vorontsov, S. V. 1994, MNRAS, 268, 880
+Singh, H. P., Roxburgh, I. W., & Chan, K. L. 1998, A&A, 340, 178
+Spruit, H. C. 1974, SoPh, 34, 277
+Talon, S., & Charbonnel, C. 2003, A&A, 405, 1025
+Zahn, J.-P. 1991, A&A, 252, 179
+Zahn, J.-P., Talon, S., & Matias, J. 1997, A&A, 322, 320

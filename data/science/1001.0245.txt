@@ -1,0 +1,447 @@
+arXiv:1001.0245v1  [math.PR]  1 Jan 2010Bayesian nonparametric analysis for a species sampling mod el
+with ﬁnitely many types∗
+Annalisa Cerquetti†
+Department of Geoeconomical, Linguistic, Statistical and Historical Studies ,
+Sapienza University of Rome, Italy
+Abstract
+We derive explicit Bayesian nonparametric analysis for a species samp ling model with
+ﬁnitely many types of Gibbs form of type α=−1 recently introduced in Gnedin (2009).
+Our results complement existing analysis under Gibbs priors of type α∈[0,1) proposed
+in Lijoi et al. (2008). Calculations rely on a groups sequential const ruction of Gibbs
+partitions introduced in Cerquetti (2008).
+1 Introduction
+In thespecies sampling problem a random sample is drawn from an hypothetically inﬁn ite
+population of individuals to make inference on the unknown t otal number of diﬀerent species.
+A Bayesian nonparametric approach to this problem has been r ecently proposed in Lijoi et
+al. (2007, 2008) to derive posterior predictive inference o n species richness for an additional
+sample under the assumption that the vector of multipliciti es of diﬀerent species observed is
+a random sample from an exchangeable Gibbs partition of type α∈[0,1).
+Exchangeable Gibbs partitions of type α∈[−∞,1) (Gnedin and Pitman, 2006) are models
+for random partitions of the positive integers which extend the Ewens-Pitman two-parameter
+family and are characterized by a probability function (EPP F) with the following structure
+p(n1,...,n k) =Vn,kk/productdisplay
+j=1(1−α)nj−1↑, (1)
+with weights ( Vn,k) being solution to the backward recursion Vn,k= (n−αk)Vn+1,k+Vn+1,k+1
+withV1,1= 1. Gnedin and Pitman even provide a constructive result for this class (cfr. Th.
+12) showing that each element arises as a unique probability mixture of extreme partitions
+which are
+∗AMS (2000) subject classiﬁcation . Primary: 60G58. Secondary: 60G09.
+†Corresponding author: Annalisa Cerquetti, Dept. Studi Geo economici, Facolt` a di Economia, Sapienza Uni-
+versit` adiRoma, ViadelCastroLaurenziano, 9, 00161, Rome , Italy. E-mail: annalisa.cerquetti@uniroma1.it
+1a)PD(α,ξ|α|)partitions with ξ= 1,...,∞forα∈[−∞,0),
+b)PD(0,θ)partitions with θ∈[0,∞) forα= 0,
+c)PK(ρα|t)partitions with t∈[0,∞) forα∈(0,1).
+HerePD(·,·) stands for the two-parameter Poisson-Dirichlet distribu tion (Pitman and Yor,
+1997) and PK(ρα|t) for the conditional Poisson-Kingman distribution derive d from the stable
+subordinator, (cfr. Pitman, 2003).
+Lijoi et al. (2008) establish general distributional resul ts and properties for EPPFs belonging
+to subclass c) to make conditional predictions according to a Bayesian nonparametric pro-
+cedure. Focusing on class c) their analysis relies on the hyp othesis that the total unknown
+number of species is so large to be assumed inﬁnite. An assump tion that may be unrealistic in
+concrete applications. Here we focus on a class of random par titions with ﬁnite but random
+number of diﬀerent species, recently introduced in Gnedin (2 009), which belongs to subclass
+a) and contribute, in view of possible future Bayesian imple mentations, deriving posterior
+predictive results analogous to that in Lijoi et al. (2008).
+First recall that for α <0,θ=|α|ξandξ= 1,2,3,... PD(α,ξ|α|) model has EPPF (see
+e.g. Pitman, 1996, 2006)
+p(n1,...,n k) =(ξ|α|−|α|)k−1↓|α|
+(ξ|α|+1)n−1↑1k/productdisplay
+j=1(1+|α|)nj−1↑ (2)
+or equivalently
+p(n1,...,n k) =(ξ)k↓
+(|α|ξ)n↑1k/productdisplay
+j=1(|α|)nj↑,
+and arises by the following sequential procedure. Given the partition of [ n] inKn=kblocks
+with occupancy counts n= (n1,...,n k), the partition of [ n+1] is obtained through one-step
+prediction rules
+pj(n) =nj+|α|
+n+|α|ξand p0(n) =|α|(ξ−k)
+ξ|α|+n
+wherepj(n) forj= 1,...,kstands for the probability of randomly placing n+ 1 in an old
+blockj, whilep0(n) stands for the probability of n+1 to form a new block k+1. For α=−1
+the EPPF in (2) reduces to
+p(n1,...,n k) =(ξ−1)k−1↑−1
+(ξ+1)n−1k/productdisplay
+j=1nj↑
+or alternatively
+p(n1,...,n k) =(ξ)k↓
+(ξ)n↑1k/productdisplay
+j=1nj↑
+2with one-step prediction rules
+pj(n) =nj+1
+n+ξand p0(n) =(ξ−k)
+n+ξ.
+The corresponding limit frequencies ( ˜Pξ,1,...,˜Pξ,ξ) have a stick-breaking representation
+˜Pξ,j=Wjj−1/productdisplay
+i=1(1−Wi),with independent Wi∼Beta(2,ξ−i)
+fori= 1...,ξand Beta (2,0) a Dirac mass at 1.
+2 Gnedin’s model with ﬁnitely many types
+As from Gnedin and Pitman result, PD(α,ξ|α|) models are extreme points of a convex set of
+Gibbs partitions of type α <0, whose elements are in one to one correspondence with a set o f
+mixing distributions over the set of the positive integers. Gnedin (2009) studies the particular
+model arising by mixing a PD(α,|α|ξ) model for α=−1 overξwith
+P(K=ξ) =γ(1−γ)ξ−1
+ξ!
+forξ= 1,2,...andγ∈(0,1) and shows it has weights
+Vn,k=(k−1)!
+(n−1)!(1−γ)k−1(γ)n−k
+(1+γ)n−1=(k−1)!
+(n−1)!γ(1−γ)k−1
+(γ+n−k)k, (3)
+hence EPPF
+p(n1,...,n k) =(k−1)!
+(n−1)!(1−γ)k−1(γ)n−k
+(1+γ)n−1k/productdisplay
+j−1nj! (4)
+obtained by sequential construction with one-step predict ion rules
+pj(n) =(n−k+γ)(nj+1)
+n(n+γ)forj= 1,...,k andp0(n) =k(k−γ)
+n(n+γ).
+Gnedin also derives analogous of the Ewens sampling formula and further results on the
+vector of frequencies and of exchangeable sequences induce d by sampling from this model.
+For what follows it is worth to notice that Gnedin’s one-step prediction rules may be
+equivalently expressed as m-steps prediction rules as in Cerquetti (2008, Prop. 3), whi ch here
+we formulate as a group sequential random allocation of ball s labelled 1 ,2...in a series of
+boxes. First from (3) we obtain
+Vn+m,k+k∗=(k+k∗−1)!
+(n+m−1)!(1−γ)k+k∗−1(γ)n+m−k+k∗
+(1+γ)n+m−1,
+3then by basic properties of rising factorials specializati on of the general formulas for Gibbs
+partitions easily follow. Start with box B1,1with a single ball. Given the placement of the ﬁrst
+group of nballs in a ( n1,...,n k) conﬁguration in kboxes, the newgroup of mballs labelled
+{n+1,..., n+m }is:
+a) allocated in the oldkboxes in conﬁguration ( m1,...,m k), formj≥0,/summationtextk
+j=1mj=m,
+with probability
+pm(n) =1
+(n)m(γ+n−k)m
+(γ+n)mk/productdisplay
+j=1(nj+1)mj (5)
+b) allocated in k∗newboxes in conﬁguration ( s1,...,sk∗), for/summationtextk∗
+j=1sj=m, 1≤k∗≤m,
+sj≥1, with probability
+ps(n) =(k)k∗
+(n)m(k−γ)k∗(γ+n−k)m−k∗
+(γ+n)mk∗/productdisplay
+j=1sj! (6)
+c)s < mballs are allocatedat k∗newboxes in conﬁguration ( s1,...,sk∗) and the remaining
+m−sballs in the oldboxes in conﬁguration ( m1,...,m k) for/summationtextm
+j=1mj=m−s, 1≤s≤m,/summationtextk∗
+j=1sj=s,mj≥0,sj≥1 with probability
+ps,m(n) =(k)k∗
+(n)m(k−γ)k∗(γ+n−k)m−k∗
+(γ+n)mk/productdisplay
+j=1(nj+1)mjk∗/productdisplay
+j=1sj! (7)
+Thesem-steps prediction rules allows to readily obtain Bayesian p osterior predictive dis-
+tributional results for the random partition induced by an a dditional m-sample from Gnedin’s
+model. By exploiting the deﬁnition of central and non-centr al Lah numbers as particular case
+of central and non-central generalized Stirling numbers of the ﬁrst kind, the results of next
+section are obtained specializing results in Lijoi et al. (2 008) by means of expressions de-
+rived in Cerquetti (2008). See the Appendix for the relation ship between generalized Stirling
+numbers and generalized factorial coeﬃcients both central and non-central. For an explicit
+example of application of this kind of results see e.g. Secti on 4. in Lijoi et al. (2008).
+3 Posterior predictive analysis of Gnedin’s model
+First notice that generalized Stirling numbers of the ﬁrst k indS−1,−α
+n,kforα=−1 admit an
+explicit expression known as Lah numbers
+S−1,1
+n,k=/parenleftbiggn−1
+k−1/parenrightbiggn!
+k!
+which are connection coeﬃcients deﬁned by
+(x)n↑=n/summationdisplay
+k=0n!
+k!/parenleftbiggn−1
+n−k/parenrightbigg
+(x)k↑−1
+4hence, by an application of (10) in Gnedin and Pitman (2006), (see Gnedin, 2009, eq. (2)) the
+distribution of the number Knof occupied boxes for Gnedin’s model is readily calculated a s
+Pr(Kn=k) =Vn,kS−1,1
+n,k=/parenleftbiggn
+k/parenrightbigg(1−γ)k−1(γ)n−k
+(1+γ)n−1.
+Then recall the deﬁnition of non-central Lah numbers with pa rameter of non-centrality r
+(see e.g. Charalambides, 2005) which correspond to non cent ral generalized Stirling numbers
+forα=−1
+S−1,1,r
+n,k=n!
+k!/parenleftbiggn−r−1
+n−k/parenrightbigg
+.
+Now a Bayesian nonparametric posterior predictive analysi s of the class (4) is readily de-
+rived. Notice that for the sake of generality here we mantain the treatment in terms of random
+allocation of balls in boxes. The obvious traslation in term s of random partition of individuals
+among species follows easily.
+Given the suﬃciency of the number Knof boxes induced by the basic sample, the joint
+distribution of the number Sof balls allocated in new k∗boxes in a speciﬁc conﬁguration
+(s1,...,sk∗) given (n1,...,n k) is obtained marginalizing (7) with respect to ( m1,...,m k) and
+by an application of the multinomial theorem for rising fact orials (see the Appendix) as in
+Lijoi et al. (2008) (cfr. eq. (27) in Cerquetti, 2008),
+Pr(s1,...,sk∗|Kn=k) =(k)k∗
+(γ+n)m(k−γ)k∗(γ+n−k)m−k∗
+(n)m/parenleftbiggm
+s/parenrightbigg
+(n+k)m−s↑k∗/productdisplay
+j=1sj!.(8)
+The joint distribution of the number of new boxes Kmand of the total number of balls
+falling in new boxes SgivenKn(cfr. eq. (28) in Cerquetti, 2008) is given by
+Pr(Km=k∗,S=s|Kn=k) =(k)k∗
+(n)m(k−γ)k∗(γ+n−k)m−k∗
+(γ+n)m/parenleftbiggm
+s/parenrightbigg
+(n+k)m−s↑/parenleftbiggs
+k∗/parenrightbigg(s−1)!
+(k∗−1)!
+(9)
+and arises by (8) by summing over the space of all partitions o fselements in k∗blocks and
+exploiting the deﬁnition of Lah numbers.
+Marginalizing (9) with respect to Km, a probability distribution for the total number S
+of balls in new boxes is obtained in terms of Lah numbers accor ding to eq. (29) in Cerquetti
+(2008) and eq. (11) in Lijoi et al. (2008)
+Pr(S=s|n1,...,n k) =/parenleftbiggm
+s/parenrightbigg(n+k)m−s↑
+(n)m(γ+n)ms/summationdisplay
+k∗=0/parenleftbiggs
+k∗/parenrightbigg(s−1)!
+(k∗−1)!(k)k∗(k−γ)k∗(γ+n−k)m−k∗.
+(10)
+The probability distribution of the number Kmof new blocks induced by the additional
+sample given the basic sample follows marginalizing (9) wit h respect to Sand exploiting the
+5deﬁnition of non-central Lah numbers with parameter of non c entrality r=−(n+k). An
+application of eq. (4) in Lijoi et al. (2007) yields
+Pr(Km=k∗|Kn=k) =(k−γ)k∗(γ+n−k)m−k∗
+(n+γ)m/parenleftbiggm
+k∗/parenrightbigg(n+k+k∗)m−k∗(k)k∗
+(n)m.(11)
+The expected value of the number of new boxes in the m-sample conditioned to the basic
+sample, which provides the Bayes estimator for Kmunder quadratic loss function, results
+E(Km|Kn=k) =(k)n+m
+(n+γ)mm/summationdisplay
+k∗=0/parenleftbiggm
+k∗/parenrightbiggk∗
+(k+k∗)n(k−γ)k∗(γ+n−k)m−k∗
+(n)m.(12)
+Notice that for m→ ∞, (11) agrees with the posterior result for the total number o f boxes
+obtained in Gnedin (2009). In fact, by standard asymptotic Γ (n+a)/Γ(n+b)∼na−band
+recalling the deﬁnition of rising and falling factorials in terms of Gamma function
+(a)b↑=Γ(a+b)
+Γ(a)and (a)b↓=Γ(a+1)
+Γ(a−b+1),
+equation (11) reduces to
+Pr(K=k∗|Kn=k) =(n−1)!
+(k−1)!(γ+n−k)k↑(k−γ)k∗↑Γ(k+k∗)
+Γ(k∗+1)Γ(n+k+k∗). (13)
+The posterior distribution obtained in Gnedin (2009), in te rms ofκ=k+k∗, is
+Pr(Ξ =κ|Kn=k) =(n−1)!
+(k−1)!(κ+n−1)!k−1/productdisplay
+i=1(κ−i)k/productdisplay
+j=1(γ+n−j)κ−1/productdisplay
+l=k(l−γ)
+for 1≤k≤n,κ≥kand may be re-written as
+=(n−1)!
+(k−1)!(κ+n−1)!(κ−1)k−1↓(k−γ)κ−k↑(γ+n−k)k↑.
+By substitution κ=k+k∗the result easily follows
+Pr(K=k∗|Kn=k) =(n−1)!
+(k−1)!(γ+n−k)k↑Γ(k∗+k)
+Γ(k+k∗+n)(k−γ)k∗
+k∗!.
+The corresponding expected value results
+E(K|Kn=k) =(n−1)!
+(k−1!)(n+γ−1)k↓/summationdisplay
+k∗=0∞1
+(k∗−1)!(k−γ)k∗
+(k+k∗)n
+which expressed in terms of κ=k+k∗yields
+E(Ξ|Kn=k) =(n−1)!
+(k−1)!(n+γ−1)k↓
+(k−γ−1)!∞/summationdisplay
+κ=k(κ−γ−1)!
+(κ−k−1)!1
+(κ)n.
+6The distribution of the number Sof balls in the new m-sample which belong to new boxes,
+given the number of boxes in the basic sample Knand the number of new boxes Km, follows
+by an application of Eq. 12 in Lijoi et al. (2008)
+Pr(S=s|Km=k∗,Kn=k) =/parenleftbiggs−1
+k∗−1/parenrightbigg/parenleftbiggn+k+m−s−1
+m−s/parenrightbigg
+//parenleftbiggn+k+m−1
+m−k∗/parenrightbigg
+(14)
+By Proposition 2. in Lijoi et al. (2008) the mean number of bal ls in the subsequent m
+sample in given by
+E(S|Kn=k) =mVn+1,k+1
+Vn,k=mk
+n(k−γ)
+(n+γ)(15)
+and by Proposition 4 in Lijoi et al. (2008) (cfr. also Corolla ry 10, in Cerquetti, 2008) the
+probability that the mnew balls don’t occupy a subset of ( k−r) old boxes arises from (7) by
+summing over the ways to choose sballs from the mof the new group, by summing over the
+ways to partition sballs in a subset of k∗boxes, and over the ways to allocate m−sballs in
+at mostrold boxes and is equal to
+m/summationdisplay
+k∗=1(k)∗
+k
+(n)m(k−γ)∗
+k(γ+n−k)m−k∗
+(γ+n)m/parenleftbiggm
+k∗/parenrightbigg1
+(r+/summationtext
+jnj+m)k∗−m. (16)
+The conditional Gibbs structure characterizing Gnedin’s m odel as from Proposition 3. in
+Lijoi et al. (2008), which may be obtained by the operation of deletion of the ﬁrst kclasses
+(Pitman, 2003) as clariﬁed in Cerquetti (2008, Prop. 12) wil l be as follows
+p(s1,...,sk∗|m,n) =Γ(k+k∗)Γ(k+k∗−γ)Γ(γ+n+m−k−k∗)/summationtextm
+k∗=1/parenleftbigs
+k∗/parenrightbig
+Γ(k∗)kΓ(s)Γ(k+k∗−γ)Γ(γ+n+m−k−k∗)k∗/productdisplay
+j=1sj!.
+Finally a Bayesian nonparametric estimator for the probabi lity of ball n+m+1th to fall
+in a new box given Kn=kis readily derived by eq. (6) in Lijoi et al. (2007)
+ˆDn,k
+m=m/summationdisplay
+k∗=0(k)k∗+1
+(n)m+1(k−γ)k∗+1(γ+n−k)m−k∗
+(γ+n)m+1/parenleftbiggm
+k∗/parenrightbiggm+n+k∗−1!
+(n−1)!.
+4 Appendix
+Forn= 0,1,2,...,and arbitrary real xandh, let (x)n↑hdenote the nth factorial power of x
+with increment h(also called generalized risingfactorial)
+(x)n↑h:=x(x+h)···(x+(n−1)h) =n−1/productdisplay
+i=0(x+ih) =hn(x/h)n↑, (17)
+where (x)n↑stands for ( x)n↑1, (x)h↑0=xhand (x)0↑h= 1, and for which the following
+multiplicative law holds
+(x)n+r↑h= (x)n↑h(x+nh)r↑h. (18)
+7From e.g. Normand (2004, cfr. eq. 2.41 and 2.45) a binomial fo rmula also holds, namely
+(x+y)n↑h=n/summationdisplay
+k=0/parenleftbiggn
+k/parenrightbigg
+(x)k↑h(y)n−k↑h, (19)
+as well as a generalized version of the multinomial theorem, i.e.
+(p/summationdisplay
+j=1zj)n↑h=/summationdisplay
+nj≥0,/summationtextnj=nn!
+n1!···np!p/productdisplay
+j=1(zj)nj↑h. (20)
+We recall the notion of generalized Stirling numbers , (for a comprehensive treatment see
+Hsu and Shiue, 1998; see also Pitman, 2006). For arbitrary di stinct reals ηandβ, these are
+the connection coeﬃcients Sη,β
+n,kdeﬁned by
+(x)n↓η=n/summationdisplay
+k=0Sη,β
+n,k(x)k↓β
+where (x)n↓hare generalized fallingfactorials and ( x)n↓−h= (x)n↑h. Hence for η=−1,
+β=−α, andα∈(−∞,1),S−1,−α
+n,kis deﬁned by
+(x)n↑1=n/summationdisplay
+k=0S−1,−α
+n,k(x)k↑α, (21)
+or specializing partial Bell polynomials as follows
+Bn,k((1−α)•−1↑) =/summationdisplay
+{A1,...,Ak}∈Pk
+[n]k/productdisplay
+i=1(1−α)ni−1↑=n!
+k!/summationdisplay
+(n1,...,nk)k/productdisplay
+i=1(1−α)ni−1↑
+ni!=S−1,−α
+n,k.
+(22)
+Referring to formulas in Lijoi et al. (2007, 2008) it is convi enent to recall that their
+treatment is in terms of generalized factorial coeﬃcients , which are the connection coeﬃcients
+Cα
+n,kdeﬁned by ( αy)n↑1=/summationtextn
+k=0Cα
+n,k(y)k↑1,(cfr. Charalambides, 2005). From (17) and (21),
+ifx=yαthen
+(yα)n↑1=n/summationdisplay
+k=0S−1,−α
+n,k(yα)k↑α=n/summationdisplay
+k=0S−1,−α
+n,kαk(y)k↑1,
+henceS−1,−α
+n,k=α−kCα
+n,k.
+It is also worth to clarify the relationship between non central generalized Stirling num-
+bers of the ﬁrst kind as deﬁned in Hsu and Shiue (1998) and non central generalized factorial
+coeﬃcients as in Charalambides (2005).
+First recall that non central generalized Stirling numbers of the ﬁrst kind are connection
+coeﬃcients deﬁned by
+(x)n↑=n/summationdisplay
+k=0S−1,−α,γ
+n,k(x−γ)k↑α
+8or by the following convolution relation
+S−1,−α,γ
+n,k=n/summationdisplay
+s=0/parenleftbiggn
+k/parenrightbigg
+S−1,−α
+s,kS−1,−α,γ
+n−s,0. (23)
+Since as a convention we assume S−1,−α
+s,k= 0 fors < kand it is known that S−1,−α,γ
+n−s,0=
+(γ)n−s↑then
+S−1,−α,γ
+n,k=n/summationdisplay
+s=k/parenleftbiggn
+s/parenrightbigg
+S−1,−α
+s,k(−γ)n−s↑1, (24)
+Now, for parameter of non centrality −γ, andx=ya
+(yα−γ)n↑=n/summationdisplay
+k=0S−1,−α,−γ
+n,k(yα)k↑α=n/summationdisplay
+k=0/bracketleftBiggn/summationdisplay
+s=k/parenleftbiggn
+s/parenrightbigg
+S−1,−α
+s,k(−γ)n−s↑/bracketrightBigg
+(yα)k↑α.
+Then exploiting the relation between central generalized S tirling numbers and central
+generalized factorial coeﬃcients
+(yα−γ)n↑=n/summationdisplay
+k=0/bracketleftBigg
+α−kn/summationdisplay
+s=k/parenleftbiggn
+s/parenrightbigg
+Cα
+s,k(−γ)n−s↑/bracketrightBigg
+(yα)k↑α
+and the deﬁnition of non central factorial coeﬃcients as in C haralambides (2005) follows
+(yα−γ)n↑=n/summationdisplay
+k=0α−kCα,γ
+s,k(ya)k↑α=n/summationdisplay
+k=0Cα,γ
+s,k(y)k↑.
+References
+Cerquetti, A. (2008) Generalized Chinese restaurant construction of exc hangeable Gibbs
+partitions and related results. arXiv:0805.3853v1 [math. PR]
+Charalambides, C. A. (2005)Combinatorial Methods in Discrete Distributions . Wiley,
+Hoboken NJ.
+Gnedin, A. (2009) A species sampling model with ﬁnitely many types. arX iv:0910.1988v1
+[math.PR]
+Gnedin, A. and Pitman, J. (2006) Exchangeable Gibbs partitions and Stirling triangl es.
+Journal of Mathematical Sciences , 138, 3, 5674–5685.
+Hsu, L. C, & Shiue, P. J. (1998) A uniﬁed approach to generalized Stirling numbers. Adv.
+Appl. Math. , 20, 366-384.
+Lijoi, A., Mena, R. and Pr ¨unster, I. (2007) Bayesian nonparametric estimation of the
+probability of discovering new species Biometrika , 94, 769–786.
+9Lijoi, A., Pr ¨unster, I. and Walker, S.G. (2008) Bayesian nonparametric estimator
+derived from conditional Gibbs structures. Annals of Applied Probability , 18, 1519–
+1547.
+Normand, J.M. (2004) Calculation of some determinants using the s-shifted factorial. J.
+Phys. A: Math. Gen. 37, 5737-5762.
+Pitman, J. (1996) Some developments of the Blackwell-MacQueen urn sch eme. In T.S.
+Ferguson, Shapley L.S., and MacQueen J.B., editors, Statistics, Probability and Game
+Theory, volume 30 of IMS Lecture Notes-Monograph Series , pages 245–267. Institute of
+Mathematical Statistics, Hayward, CA.
+Pitman, J. (2003) Poisson-Kingman partitions. InD.R. Goldstein, edi tor,Science and Statis-
+tics: A Festschrift for Terry Speed , volume 40 of Lecture Notes-Monograph Series, pages
+1–34. Institute of Mathematical Statistics, Hayward, Cali fornia.
+Pitman, J. (2006)Combinatorial Stochastic Processes . Ecole d’Et´ e de Probabilit´ e de Saint-
+Flour XXXII - 2002. Lecture Notes in Mathematics N. 1875, Spr inger.
+Pitman, J. and Yor, M. (1997) The two-parameter Poisson-Dirichlet distribution derived
+from a stable subordinator. Ann. Probab. , 25:855–900.
+10

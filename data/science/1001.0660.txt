@@ -1,0 +1,398 @@
+arXiv:1001.0660v1  [cond-mat.mes-hall]  5 Jan 2010Are non-equilibrium Bose-Einstein condensates superﬂuid ?
+Michiel Wouters1and Iacopo Carusotto2
+1Institute of Theoretical Physics, Ecole Polytechnique F´ e d´ erale de Lausanne (EPFL), CH-1015 Lausanne, Switzerland
+2CNR INFM-BEC Center and Dipartimento di Fisica, Universit` a di Trento, I-38123 Povo, Italy
+We theoretically study the superﬂuidity properties of a non -equilibrium Bose-Einstein condensate
+of exciton-polaritons in a semiconductor microcavity. The dynamics of the condensate is described
+at mean-ﬁeld level in terms of a modiﬁed Complex Ginzburg Lan dau equation. A generalized
+Landau criterion is formulated which estimates the onset of the drag force on a small moving defect.
+Metastability of supercurrents in multiply connected geom etries persists up to higher ﬂow speeds.
+PACS numbers: 03.75.Kk, 05.70.Ln, 71.36.+c.
+Superﬂuidity is among the most remarkable conse-
+quences of macroscopic quantum coherence in condensed
+matter systems and manifests itself in a number of fasci-
+nating eﬀects [1, 2]. A uniﬁed description of these phe-
+nomenaisobtainedintheframeworkoftheso-calledtwo-
+ﬂuid hydrodynamics, in which the macroscopic conden-
+satewavefunctionaddsupto thestandardhydrodynamic
+variables [3]. The phenomenon of macroscopic coherence
+isnotrestrictedtosystemsat(orcloseto)thermodynam-
+ical equilibrium such as liquid Helium, ultracold atomic
+gases, or superconducting materials, but has been ob-
+served also in systems far from thermodynamical equi-
+librium, whose state is determined by a dynamical bal-
+ance of driving and losses. Most remarkable examples
+are lasers and, more recently, Bose-Einstein condensates
+of magnons in magnetic solids [4] and exciton-polaritons
+in semiconductor microcavities [5, 6]. In particular, the
+issue of superﬂuidity in this latter system has attracted
+a signiﬁcant interest from both the theoretical [7, 8] and
+experimental [9–11] points of view.
+Recent experiments with resonantly pumped polari-
+ton condensates [9] have demonstrated superﬂuidity as a
+dramatic reduction in the intensity of resonant Rayleigh
+scattering as originally predicted in [7]. The situation is
+less clear in the case of non-resonant [5] or parametrical
+(OPO) [10] pumping schemes: recent experiments [10]
+have observed propagation of polariton bullets without
+apparent friction, which is in contrast with the predic-
+tions ofa na¨ ıveLandaucriterionbasedonthe elementary
+excitation spectrum predicted in [12]. Another aspect
+of superﬂuidity, namely metastability of supercurrent in
+multiply-connected geometries was investigated theoret-
+ically in [8] and experimentally conﬁrmed in [11]. The
+present paper reports a comprehensive theoretical inves-
+tigation ofthe meaningof superﬂuidity for polaritoncon-
+densates under a non-resonant pumping. Emphasis will
+be given to the novel features that originate from their
+non-equilibrium character.
+At the mean-ﬁeld level, the condensate dynamics can
+be described in terms of the so-called Gross-Pitaevskii
+equation (GPE) [1], which was recently generalized to
+non-equilibrium condensates by including the eﬀect ofpumping and losses [13, 14]. This mean-ﬁeld descrip-
+tion has been able to explain a number of experimen-
+tal observations on polariton condensates, e.g. the ring-
+shaped momentum distribution of spatially narrow con-
+densates [6, 15], the synchronization/desynchronization
+transition [16], the spontaneous appearance of vor-
+tices [17]. Nonetheless, the implicit assumption that the
+pumping mechanism is not frequency-selective can lead
+to unphysical predictions, e.g. that in a spatially ho-
+mogeneous or ring-like geometry condensation is equally
+likely to occur in any momentum state. Kinetic calcu-
+lations [18] have pointed out the signiﬁcant energy de-
+pendence of the polariton-polariton scattering processes
+that are responsible for replenishing the condensate. In-
+cludingthis featureasanenergy-dependentampliﬁcation
+mechanism turned out to be crucial in order to extract
+physicallymeaningfulpredictionsforthecondensateﬂuc-
+tuations in the Wigner Monte Carlo simulations of [19].
+A simplest generalization of the GPE to include
+frequency-dependent pumping has the form:
+idψ
+dt=/braceleftbigg
+−/planckover2pi1
+2m∇2+Vext
++i
+2/bracketleftbigg
+P/parenleftbigg
+1−i
+ΩKd
+dt/parenrightbigg
+−r|ψ|2−γ/bracketrightbigg
++g|ψ|2/bracerightbigg
+ψ.(1)
+The energy zero has been set for convenience at the bot-
+tom of the lower polariton branch; the eﬃciency of am-
+pliﬁcation (proportional to the pumping strength P) de-
+creases to zero a frequency interval Ω Kabove it. As-
+suming a linear form of the frequency dependence of the
+ampliﬁcation, the generalized GPE (1) maintains a tem-
+porally local form. The others terms describing gain sat-
+uration (r), losses (γ), polariton mass ( m), polariton-
+polariton interactions ( g), external potential ( Vext) have
+the same meaning as in previous works [13, 14].
+We ﬁrst consider the evolution of the system starting
+from an initial state with no condensate ψ= 0. If the
+strength of pumping is enough to overcome losses P >γ,
+theψ= 0 state is dynamically unstable against the cre-
+ation of a ﬁnite condensate amplitude in all the low-
+momentum modes for which /planckover2pi1k2/2m <ΩK(1−γ/P).
+The rate of this instability is maximum at k= 0 and2
+decreases for increasing k. This fact is in agreement with
+the experimental observation of condensation naturally
+occurring around k= 0 as soon as the sample is suﬃ-
+ciently large and free from disorder [5].
+In spite of this natural preference, condensation can be
+forced to occur in ﬁnite momentum state by seeding the
+system with a short resonant pulse at the desired kcas
+proposed and numerically assessed in Ref. [8]. A related
+conﬁguration was experimentally demonstrated for the
+OPO pump scheme in [11]. The eﬀect of the frequency-
+dependent pumping is then visible in the state equation
+relating the pumping strength Pto the condensate den-
+sitync=|ψ|2in the stationary state:
+|ψ|2=/bracketleftbigg
+1−1
+ΩK/parenleftbigg/planckover2pi1k2
+c
+2m+g|ψ|2/parenrightbigg/bracketrightbiggP
+r.(2)
+As a consequence of the frequency dependent pumping,
+the interaction-induced blue-shift of the condensate fre-
+quencyωc=k2
+c/2m+g|ψ|2is responsible for a slower
+increase of density with pumping strength P.
+-505  -10  -5  0  5  10Re[ωBog(k)]
+-505-10-50510
+-505-10-50510
+-505
+q / kγ  -1  0Im[ωBog(k)]
+-505
+q / kγ-10
+-505
+q / kγ-10
+-5 0 5-0.2-0.100.1(a) (c) (e)
+(b) (d) (f)
+FIG. 1: Elementary excitation spectrum of a moving, spa-
+tially homogeneous, non-equilibrium condensate as descri bed
+by the linearized CGLE around the steady-state solution.
+Parameters: kc/kγ= 4,r/γ= 1,g/γ= 1, Ω K/γ= 50,
+ncg/γ= 0.1 (c,d) and ncg/γ= 1 (e,f). Inset: magniﬁed
+view of (d). Panels (a,b): same as panels (e,f) in the limit
+of a frequency-independent pumping Ω K=∞. Momenta are
+measured in units of kγ=/radicalbig
+mγ//planckover2pi1.
+The dynamical stability of a moving condensate is to
+be assessed by linearization of the CGLE around the
+stationary solution. Stability requires that the imagi-
+nary part of the frequency is negative for all Bogoliubov
+modes. Examples of the Bogoliubov dispersion ωBog(q)
+for moving condensates are shown in Fig.1. In the left-
+most panels (a,b), the limit Ω K→ ∞of a negligible
+frequency-dependence of pumping is considered. Apart
+for the global Doppler tilting of the real part due to the
+ﬁnite condensate velocity, the plotted dispersion fully re-
+covers the diﬀusive character ﬁrst discussed in [12–14]: aﬂat dispersion around the condensate wavevector and an
+imaginary part quadratically growing in q. In this limit,
+stable condensates exist for any value of kc.
+The eﬀect of a frequency-selective pumping is ad-
+dressedin the otherpanels. The central panels(c,d) refer
+to the case of a pumping intensity just above the thresh-
+old. In this regime, the condensate density is very small
+and the real part of the Bogoliubov mode frequency re-
+duces to the single-particle one. On the other hand, the
+characteristic damping rate of density ﬂuctuations (the
+gappedmodeat q= 0)andofthehigh-momentummodes
+issuppressedbyacriticalslowingdownphenomenon[13].
+As a result, the low energy modes around q≃ −kcbe-
+come dynamically unstable. Eventually, this mechanism
+leads to the disappearence of the original condensate and
+the formation of another -stable- condensate in a lower
+momentum state.
+FIG. 2: Growth rate (in units of γ) of maximally unstable
+mode as a function of condensate momentum kcand density
+nc. The dashed line indicates the boundary of the stability
+region. Same system parameters as in Fig.1(c-f).
+The right panels (e,f) refer to the case of a stronger
+pumping well above the threshold. In this case, the
+dampingrateofallmodesotherthantheGoldstoneoneis
+comparable to the polariton lifetime γ. In this case, the
+frequency-dependence of pumping is not able to desta-
+bilize the moving condensate. The stability domain as
+a function of the momentum kcand the density ncof
+the condensate is summarized in Fig.2: as the density
+is increased, stable condensates survive up to larger mo-
+menta.
+It is of crucial importance to note that this instability
+mechanism has no direct counterpart in standard equi-
+librium superﬂuids and is eﬀective even in the absence
+of any defect potential. Of course, the present theory is
+directly applicable only to inﬁnite, homogeneous conden-
+satesorinmultiplyconnectedring-shapedgeometries. In
+ﬁnite systems, assessing the stability of moving conden-
+sates would be made harder by the ﬂow of condensate
+polaritons outside the pump regions [15].
+In the presence of weak defects, the frictionless ﬂow of
+equilibrium condensates is limited to ﬂow speeds below3
+the Landau critical velocity vc= min k/braceleftbig
+Re[ωo
+Bog(k)]/k/bracerightbig
+,
+whereωo
+Bog(k) is the real part of the Bogoliubov dis-
+persion for a condensate at rest. For dilute systems, vc
+coincides with the sound velocity cs=/radicalbig
+gnc/m[1]. As
+a consequence of the diﬀusive character of the Goldstone
+mode, a na¨ ıve application of this deﬁnition to the Bo-
+goliubov dispersion of non-equilibrium condensates an-
+ticipated in [12–14] gives a vanishing prediction for the
+critical velocity, vc= 0: Bogoliubov waves are emitted in
+a moving condensate hitting a (weak) defect at any value
+of the condensate speed.
+−20020−20−1001020
+x(µm)y(µm)(a)
+−20020−20−1001020
+x(µm)y(µm)(b)
+−20020−20−1001020
+x(µm)y(µm)(c)
+  
+0.980.9911.011.02
+FIG. 3: Density perturbation created in a moving condensate
+by a stationary weak defect for three diﬀerent values of the
+condensate velocity v/cs= 1.5,1,0.4 across the critical value
+for superﬂuidity. Parameters: ncg/γ=ncr/γ= 1, Ω K/γ=
+50.
+A complete picture of non-equilibrium condensates re-
+quires taking into account the non-trivial dynamics of
+the imaginary part of the Bogoliubov dispersion. Nu-
+merical plots of the density perturbation induced by a
+single weak stationary defect in a (dynamically stable)
+moving condensate can be calculated from the general-
+izedGPE(1)inthepresenceofasuitabledefectpotential
+Vext(r) and are shown in Fig.3 for diﬀerent values of the
+condensate velocity. In contrast to the predictions of the
+na¨ ıve Landau criterion stated above, the induced per-
+turbation closely resembles the one induced in an equi-
+librium condensate described by the standard GPE [22]:
+at high speeds [panel (a)], the defect creates a series of
+parabolic fringes that propagate away from the defect;
+at low speeds [panel (c)], the propagating fringes are re-
+placed by a localized perturbation in the vicinity of the
+defect. Remarkably, the characteristic speed at which
+the fringes disappear is of the order of the equilibrium
+sound speed cs=/radicalbig
+gnc/m, but does not correspond to
+any noticeable feature in the real part of the Bogoliubov
+dispersion of Fig.1(a,c,e).
+As it was pointed out in a diﬀerent context in [20], the
+emission pattern by a localized monochromatic source is
+better understood in terms of the (complex) wavevector
+of the emitted wave at the given (real) frequency. As one
+can see in Fig. 4 (b), the wavevector ˜kof the Bogoliubov
+waveemitted at zero frequency by the static defect starts
+having a ﬁnite real part only after a branching point:
+extended oscillations in the density are observed as soon
+as the real part of ˜kexceeds the imaginary part.0 1 200.20.40.60.8(a)
+v/csF/Fγ
+0 1 2−4−2024Re[k/kγ]
+v/cs(b)
+0 1 2−3−2−10123Im[k/kγ]
+v/cs(c)
+FIG. 4: Panel (a): Force exerted on a weak stationary defect
+by a moving condensate as a function of the condensate veloc-
+ity for diﬀerent values of rnc/γ= 0.1,1,2 (blue solid, green
+dashed, red dotted lines), in units of Fγ=/planckover2pi12k3
+γ/m. For com-
+parison, the same force on an equilibrium condensate is show n
+as a thin solid black line. Panel (b,c): Real and imaginary
+parts of the complex wavevector ˜kof the Bogoliubov emission
+in the upstream direction as a function of the condensate ve-
+locity, for rnc/γ=gnc/γ= 1. The other parameters are the
+same as in Fig. 3.
+This behavior is reﬂected in the drag force Fexerted
+by the moving condensate onto the defect as a function
+of the condensate velocity [Fig.4(a)]. In terms of the
+perturbed density proﬁle n(r), the drag force is given by
+F=−/integraltext
+d2rn(r)∇rVdef(r) [21]. As a consequence of the
+ﬁnite lifetime of the Bogoliubov modes, the drag force
+has a non-vanishing value at all v. In addition, the drag
+force shows a marked threshold at a velocity value that
+closely corresponds to the onset of fringes in the density
+proﬁle: the lower the value of the ncr/γparameter, the
+sharper the threshold. On the other hand, the role of Ω K
+on this eﬀect is minor. Even though no experiment has
+so far investigated the superﬂuid properties of polariton
+condensatesundernon-resonantpumping, itislikelythat
+this generalized form of the Landau criterion provides at
+least a partial explaination of the recent experimental
+observation of superﬂuidity in a OPO regime [10].
+Supersonic ﬂows in equilibrium condensates in ring-
+shaped geometries are generally strongly sensitive to the
+presence of defects: as soon as nodes appear in the con-
+densate wavefunction, the topological stability of the su-
+percurrent state is broken, which leads to a rapid slow
+down of the condensate motion. The ﬁnite damping
+rate of excitations in polariton condensates introduces
+a substantial modiﬁcation to this picture: the perturba-
+tion created by each defect is not able to propagate on
+long distances, but rather remains localized in space on
+a length scale inversely proportional to Im[ ˜k]. As a re-
+sult, we expect it is much harder to break the topological
+stability of the supercurrents.
+This physical picture is conﬁrmed by numerical simu-
+lations of the time evolution under the generalized GPE
+(1) starting from an initial condition with a supersonic
+ﬂow. Periodic boundary conditions are assumed. For a
+low defect density, the supercurrent state is maintained
+for very long times with no sign of decay. The char-
+acteristic Cerenkov-like density patterns in the vicinity4
+kγ xkγ y(a)
+−20 020−20−1001020
+kx/kγky/kγ(b)
+−202−2−1012kγ xkγ y(c)
+−20 020−20−1001020
+kx/kγky/kγ(d)
+−202−2−1012
+FIG. 5: Real (linear color scale) and momentum space (loga-
+rithmic color scale) densities of a non-equilibrium conden sate
+after a temporal evolution of γt= 300 for an initial momen-
+tumk/kγ= 2 and two diﬀerent densities of defects. The dots
+in the real space panels indicate the position of the defects .
+The square in the momentum space panels indicates the ini-
+tial momentum of the condensate. Parameters are the same
+as in Fig. 4, except for Ω K/γ= 10.
+of each defect are spatially separated and do not inter-
+fere [Fig.5(a)]. The momentum distribution in k-space
+[Fig.5(b)] shows the condensate peak right at the initial
+momentum state and a much fainter resonant Rayleigh
+scattering ring [7]. The situation is diﬀerent for a higher
+densityofdefects. Inthiscase, therealspacedensityper-
+turbations created by the diﬀerent defects substantially
+overlap with each other [Fig.5(c)]. As a result, interfer-
+ence eﬀects are more likely to create nodes in the con-
+densate wavefunction and therefore to trigger dissipation
+of the supercurrent. The occurrence of such a process is
+apparent in Fig.5(d) as a much reduced late-time value
+of the condensate momentum.
+This fact illustrates another important diﬀerence with
+respect to standard, equilibrium condensates: in that
+case, the dissipation of a supercurrent leads to a signiﬁ-
+cant heating and reduction of the condensate fraction. In
+the present case, the condensate turns out to be almost
+rigidly transferred to a lower momentum state; the (co-
+herent) momentum broadening that is visible in Fig.5(d)
+is an eﬀect of the defects. Remarkably, the frequency de-
+pendence of pumping in the generalized CGLE (1) has a
+crucialrolein concentratingthe population in low-energymodes and preventing the momentum distribution from
+spreading all over the k-space.
+In conclusion, we have investigated how the non-
+equilibrium nature of exciton-polariton condensates af-
+fects their superﬂuidity properties. A mean-ﬁeld model
+based on a generalized Gross-Pitaevskii equation includ-
+ing a frequency-dependent pumping is developed. Dif-
+ferent aspects of superﬂuidity have been considered. A
+non-equilibrium version of the Landau critical speed for
+the onset of drag force is formulated and metastability
+of supercurrents is shown to persist even at speeds well
+above the critical speed.
+We are indebted to Vincenzo Savona, Cristiano Ciuti
+andDavideSarchiforcontinuousenlighteningexchanges.
+Stimulating discussions with J. Keeling, C. Menotti, F.
+Piazza, D. Sanvitto, A. Smerzi are acknowledged.
+[1] L.P. Pitaevskii and S. Stringari, Bose-Einstein Conden-
+sation, Clarendon Press Oxford (2003).
+[2] A. J. Leggett, Rev. Mod. Phys. 71, S318 (1999).
+[3] K. Huang, Statistical Mechanics (New York, John Wiley
+& Sons, 1963).
+[4] O. Demokritov, et al., Nature 443, 430 (2006).
+[5] M. Richard et al., Phys. Rev. B 72, 201301(R) (2005); J.
+Kasprzak et al., Nature 443, 409 (2006).
+[6] M. Richard et al., Phys. Rev. Lett. 94, 187401 (2005).
+[7] I.Carusotto, C.Ciuti, Phys. Rev. Lett. 93, 166401 (2004).
+[8] M. Wouters and V. Savona, arXiv:0904.2966.
+[9] A. Amo, et al.Nature Phys. 5, 805 (2009).
+[10] A. Amo, et al., Nature 457, 291 (2009).
+[11] D. Sanvitto, et al.arXiv:0907.2371.
+[12] M. Wouters, I. Carusotto, Phys.Rev. A 76, 043807
+(2007).
+[13] M. Wouters and I. Carusotto, Phys. Rev. Lett. 99,
+140402 (2007).
+[14] J. Keeling and N. G. Berloﬀ, Phys. Rev. Lett. 100,
+250401 (2008).
+[15] M. Wouters, I. Carusotto, and C. Ciuti, Phys. Rev. B
+77, 115340 (2008)
+[16] A. Baas, et al., Phys. Rev. Lett. 100, 170401 (2008); M.
+Wouters, Phys.Rev.B 77, 121302 (2008); P.R.Eastham,
+Phys. Rev. B 78, 035319(R) (2008).
+[17] K. G. Lagoudakis et al., Nature Physics 4, 706 (2008).
+[18] D. Porras, C. Ciuti, J. J. Baumberg, C. Tejedor, Phys.
+Rev. B66, 085304 (2002).
+[19] M. Wouters, V. Savona, Phys.Rev.B 79, 165302 (2009).
+[20] W. C. Tait, Phys. Rev. B 5, 649 (1972).
+[21] G. E. Astrakharchik and L. P. Pitaevskii, Phys. Rev. A
+70, 013608 (2004).
+[22] I. Carusotto, S.X.Hu, L. A.Collins, andA.Smerzi Phys.
+Rev. Lett. 97, 260403 (2006).

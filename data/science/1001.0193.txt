@@ -1,0 +1,103 @@
+arXiv:1001.0193v1  [math.CO]  31 Dec 2009A NOTE ON MASSPARTITIONS BY HYPERPLANES
+BENJAMIN MATSCHKE
+Abstract. A triple of positive integers ( d,h,m) isadmissible if
+for anymgiven masses in /CAdthere exist hhyperplanes that cut
+eachofthesemassesinto2hequalpieces. Wepresentanelementary
+reduction which combined with results by Ramos (1996) yields
+all the admissible triples that were known up to now (with one
+exception) as well as new ones.
+1.Introduction
+Amassin our sense is a ﬁnite measure on the Borel σ-algebra on /CAd
+for which hyperplanes are zero-sets. It is cut byhhyperplanes into 2h
+equal pieces if all the 2horthants given by the hyperplanes have the
+same measure. A triple of positive integers ( d,h,m) isadmissible if for
+anymgiven masses in /CAdthere exist hhyperplanes that cut each of
+these masses into 2hequal pieces.
+The famous Ham Sandwich Theorem states that ( d,h= 1,m=d)
+is admissible, which is due to Banach [Ste38]. The problem of ﬁnd-
+ing other admissible tripes arose in the sixties. Gr¨ unbaum [Gr¨ u60]
+asked which triples of the form ( d,h= 2d,m= 1) are admissible, and
+Hadwiger [Had66] showed the admissibility of the triples ( d= 3,h=
+1,m= 3) and ( d= 3,h= 2,m= 1). The general problem was posed
+by Ramos [Ram96]. It admits interesting topological approaches, se e
+e. g. [Had66], [Ram96], [ ˇZiv04], [MV ˇZ06], [Mat08, Chap. II]. It is seen
+as one of the prime model problems for equivariant algebraic topolog y;
+compare [Mat03, Sect. 3.1].
+If (d,h,m) is admissible then so is ( d+1,h,m): Project the masses
+from /CAd+1to /CAd, ﬁnd cutting hyperplanes, and take their pre-image
+under the projection. Hence, let ∆( h,m) be the smallest dimension d
+such that ( d,h,m) is admissible. The famous Ham Sandwich Theorem
+states ∆( h= 1,m) =m.
+Here we present a new reduction, Lemma 2.2.
+Date: Dec. 31, 2009.
+Supported by Studienstiftung des dt. Volkes and Deutsche Teleko m Stiftung.
+This small note is an extract of [Mat08, Chap. II].
+12 BENJAMIN MATSCHKE
+2.Elementary Reductions
+The idea of the following Lemma 2.1 was already used by Hadwiger
+[Had66] and by Ramos [Ram96].
+Lemma 2.1. ∆(h,m)≤∆(h−1,2m), for allh≥2,m≥1. That is,
+if(d,h−1,2m)is admissible then so is (d,h,m).
+Proof.Suppose that ( d,h−1,2m) is admissible and we are given m
+masses in /CAd. We can ﬁrst bisect them with one hyperplane using the
+Ham Sandwich Theorem, since d≥m. The resulting 2 mmasses can
+then be cut into equal parts using h−1 further hyperplanes, by the
+deﬁnition of ∆( h−1,2m).
+The next reduction will give new admissible triples.
+Lemma 2.2. ∆(h,m)≤∆(h,m+1)−1, for allh,m≥1. That is, if
+(d+1,h,m+1)is admissible then so is (d,h,m).
+Proof.Assume we are given mmasses in /CA∆(h,m+1)−1, which is embed-
+ded in /CA∆(h,m+1)with last coordinate equal to zero. Add a ball with
+radius1
+2at the point (0 ,...,0,1)∈ /CA∆(h,m+1)and view it as another
+mass. Thicken the ﬁrst mmasses by an ε >0 into the direction of the
+last coordinate, such that they are now actually masses in /CA∆(h,m+1)
+(the thickened masses have in fact the property that hyperplane s are
+zero-sets)./CA∆(h,m+1)−1
+/CA∆(h,m+1)
+An example for m= 1 and h= 2.
+We then ﬁnd an equipartition of the m+1 masses by hhyperplanes.
+All of the hyperplanes go through the point (0 ,...,0,1), therefore they
+intersect /CA∆(h,m+1)−1in hyperplanes of /CA∆(h,m+1)−1. These yield an
+equipartition of the given mmasses up to a small error which depends
+on the chosen ε. A limit argument ﬁnishes the proof (take a convergent
+subsequence).
+3.Result
+E. Ramos [Ram96] has shown among other things the following in-
+equalities ( x≥0): ∆(1,2x+1)≤2·2x, ∆(2,2x+1)≤3·2x, ∆(3,2x+1)≤NOTE ON MASSPARTITIONS BY HYPERPLANES 3
+5·2x, ∆(4,2x+1)≤9·2x, ∆(5,2x+1)≤15·2x. Note that the factors in
+front of 2xare of the form 2h−1+1, except for h= 5 it is 15 = 2h−1−1.
+Hisformula∆(5 ,2x+1)≤15·2xgivestogetherwiththeabovelemmas
+new admissible triples.
+Corollary 3.1. Leth≥5,m≥2and write m= 2q+r(0< r≤2q).
+Then
+∆(h,m)≤2h−5(14·2q+r).
+Proof.First verify the inequality for h= 5 with Lemma 2.2, then prove
+it for larger hwith Lemma 2.1.
+We note that Ramos’ mentioned results together with the above
+reduction lemmas give all known admissible triples, except for one,
+∆(2,5) = 8, which is due to Mani-Levitska, Vre´ cica, and ˇZivaljevi´ c
+[MVˇZ06].
+Acknowledgements
+I thank Julia Ruscher and G¨ unter Ziegler for their support.
+References
+[Gr¨ u60] B. Gr¨ unbaum. Partitions of mass-distributions and of convex bodies by
+hyperplanes , Paciﬁc J. Math. 10, (1960), 1257-1261.
+[Had66] H. Hadwiger. Simultane Vierteilung zweier K¨ orper , Arch. Math. (Basel)
+17, (1966), 274-278.
+[MVˇZ06] P. Mani-Levitska, S. Vre´ cica, and R. ˇZivaljevi´ c. Topology and combina-
+torics of partitions of masses by hyperplanes , Adv. Math. 207, (2006), 266-296.
+[Mat03] J. Matouˇ sek. Using the Borsuk-Ulam Theorem , Universitext, Springer-
+Verlag, 2003.
+[Mat08] B. Matschke. Equivariant Topology and Applications , Diploma Thesis,
+Chap. II, www.math.tu-berlin.de/ ∼matschke/DiplomaThesis.pdf, (2008).
+[Ram96] E. Ramos. Equipartitions of mass distributions by hyperplanes , Discr.
+Comp. Geometry 10, (1996), 157-182.
+[Ste38] H. Steinhaus. A note on the ham sandwich theorem , Mathesis Polska 9,
+(1938), 2628.
+[ˇZiv04] R. T. ˇZivaljevi´ c. Equipartitions of measures in /CA4, arxiv:math/0412483v1,
+(2004), 19 pages.
+Benjamin Matschke
+Institut f¨ ur Mathematik, MA 6–2
+Technische Universit¨ at Berlin, 10623 Berlin, Germany
+benjaminmatschke@googlemail.com

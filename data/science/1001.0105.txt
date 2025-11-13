@@ -1,0 +1,241 @@
+arXiv:1001.0105v4  [cond-mat.str-el]  5 Mar 2010Itinerancy-localization duality of quasiparticles revea led by strong
+correlation
+Byung Gyu Chae
+Basic Research Laboratory, ETRI, Daejeon 305-350, South Kore a
+Abstract
+The strong interaction between electrons reveals the duali ty of the itinerancy
+and the localization of quasiparticles. The physical pheno mena corresponding
+to each component of the duality could be realized and coexis t within the
+category of the uncertainty principle of the carrier dynami cs, which can be a
+strong reason for the complexity appearing in the strongly c orrelated system.
+A possiblemechanism for thehigh-temperaturesuperconduc tivity is proposed
+on the basis of the interplay between the renormalized expec tation quantities
+of both parts.
+Typeset using REVT EX
+1The dynamics of interacting electrons in solids is expected to be very diﬀerent from that
+of free electrons, and nevertheless, the quasiparticle concept f rom the Fermi liquid theory
+has been used as a successful tool in describing the elementary ex citation of the interacting
+system.1,2However, in the strong correlation regime, there appears to be an omalous prop-
+erties away from the Fermi liquid behaviors,3,4so that it remains to be a question whether
+this description can be valid for explaining the interaction to some ext ent. Up to now,
+many approaches5–7within this scheme have been carried out in order to analyze the stro ng
+correlation eﬀects on the electrodynamics of the carriers.
+In general, the interaction between electrons impedes their motion . Quasiparticles in
+the interacting system evolve through a non-stationary eigensta te, which indicates a weakly
+localized state with a damping rate. Correlated metal sometimes exh ibits localized property
+together with itinerant behavior, and at the ultimate interaction, it becomes an insulator
+with fully localized carriers, known as the Mott insulator. Spectral r epresentation of the
+propagatorfor interacting systems shows a duality of the quasipa rticle stateandthe incoher-
+ent background fully localized in space.8,9In the strongly correlated regime, the incoherent
+background, aswell astheweaklocalizationofthequasiparticlesta te, canbemeaningfuland
+can play a role in physical phenomenon. We note that a strong corre lation reveals a duality
+of the localization and itinerancy of the charge carrier dynamics, an d it is believed that the
+correlated system can be explained by considering the duality compo nent simultaneously.
+Let us investigate the carrier dynamics by using the propagator, w hich is represented
+as the Green function. The single-particle Green function has a gen eral form,G(xt,x′t′) =
+−i/angbracketleftΨo|T[ˆψ(xt)ˆψ†(x′t′)]|Ψo/angbracketright, where the ˆψ(xt) andˆψ†(x′t′) are the ﬁeld operators that create
+(annihilate) the electron. By taking the Fourier transform, the Gr een function is expressed
+in energy-momentum representation.
+G(k,ω) =/summationdisplay
+m|/angbracketleftΨo|ˆψ|Ψm/angbracketright|2
+ω−ǫk±iη(1)
+The spectral density function is obtained from the identity, A(k,ω) =−(1/π)ImG(k,ω),
+resulting in/summationtext
+m|/angbracketleftΨo|ˆψ|Ψm/angbracketright|2δ(ω−ǫk). In a non-interacting system, the Green function has
+2one pole with free particle energy ǫk, where the spectral density is delta-function. But, the
+interacting system has spectral function that spreads out from the superposition of many
+poles. The representation of the Green function in time-domain is fa vorable for investigating
+the itinerancy of the quasiparticle, G(k,t) =/integraltextG(k,ω)e−iωtdω. By the contour integral, the
+function can be split into a coherent quasiparticle state and an incoh erent background with
+no pole.2
+G(k,t) =−iZke−iεkt−Γkt+Ginch (2)
+The ﬁrst part of the equation shows that the state propagates lik e a wave packet with
+an energyεkand damping rate Γ k. The amplitude of the wave packet is the residue of the
+function, known as the renormalization constant Zk. Figure 1(a) depicts the dynamics of
+the quasiparticle in the lattice model that has the strong interactio n. In general, the overlap
+of the atomic orbitals in lattices removes the degeneracy of each or bital to form a band,
+which makes it possible for the electron to freely migrate within the ba nd. As shown in Fig.
+1(a), in the case of a weak overlap of the orbital, the electron is no lo nger a free particle and
+rather, feels the potential barrier to move around, where the ca rrier state is the wave packet
+that is slightly localized in space.
+The Green function in the interacting system can be expressed in te rms of the self-energy
+Σ(k,ω), as likeG(k,ω) = 1/(ω−εk−Σ(k,ω)).10From this notation, the renormalization
+constant and the elementary excitation energy are expressed as Zk= (1−∂ReΣ)−1and
+εk=Zk(ǫk+ReΣ), respectively. In Fig. 1(b), the spectral function shows a Lorentzian form
+with a height Zkand width Γ k, where the latter is proportional to [( πkBT)2+(εk−ǫF)2].
+The Fermi liquid description is valid when it is close to the Fermi surface . On the other
+hand, when the renormalization constant approaches zero, the q uasiparticle is considered
+to be fully localized in the lattice site. In Eq. (2), only the incoherent p art of the Green
+function remains at the zero value of the renormalization constant . It is ensured that Ginch
+is associated with the localization of the quasiparticle in the lattice site .
+The strong many-body interaction increases the self-energy and causes the elementary
+3excitation energy to not be a negligible value. The quasiparticle may no t be a good, eﬀective
+single-particle state, and in addition, the incoherent part of the Gr een function has a value
+that cannot be ignored. In this situation, the interacting particle c an behave in two ways;
+one is a mobile quasiparticle state and the other is an incoherent back ground localized in
+the lattice site. In the limit t →0, the Green function presents a momentum distribution
+in Fig. 1(c), where Zbecomes the discontinuity at the Fermi surface.11We consider that
+the incoherent part of the Green function is closely related to the p article-hole excitation,
+from the curve of the momentum distribution. This is depicted in a dot ted line in Fig. 1(b),
+which can be a strong clue of the collective excitation in the correlate d system. This is a
+diﬀerent concept from the collective modes derived by the instability of the nesting vector
+of the mobile carriers or in the Luttinger liquid in one dimension.
+According to the sum rules, the spectral density function is repre sented as the quasi-
+particle part,/integraltextAch(k,ω)dω=Zand the incoherent background,/integraltextAinch(k,ω)dω= 1−Z.
+The valueZbecomes a measure to evaluate the itinerancy of the quasiparticle. We simply
+extract that the coherent part of the Green function is weighted by the itinerancy factor
+Z, and the incoherent part by the factor 1 −Z, becauseA(k,ω) is only the probability of
+adding and removing particle to the many-body system. Namely, the Green function has
+the form,G=ZG′
+ch+(1−Z)G′
+inch.
+The interacting system is described by the basic Hamiltonian with a kine tic energy
+and Coulomb energy. We infer that the Hamiltonian can be clearly divide d into coherent
+and incoherent parts because both parts have independent eigen sates in time. Considering
+that the physical observable is represented as the expectation q uantity, it is convenient
+to assume that the operators of both parts are themselves weigh ted by factors√
+Zand
+√1−Z, respectively, which imply the weight factor, as like c†
+k=√
+Zc′†
+k. In the coherent
+part described by operators, c†andck, the state propagates with a quasiparticle eigenvalue
+εkand weighting factor Z. Eﬀective Hamiltonians Hchof coherent part is expressed as
+follows,
+4Hch=/summationdisplay
+kεkc†
+kck+/summationdisplay
+k,k′,qVqc†
+k+qc†
+k′−qck′ck (3)
+whereεkandVqare the dressed kinetic energy and interaction between quasipart icles.
+In a similar way, the operators of incoherent part can describe the collective excitation with
+a weighting factor 1 −Z. Eﬀective Hamiltonian Hinchcorresponds to the Hubbard model
+except for the electron localization,12,13where the electron can not move to the nearest site
+due to the on-site interaction Ularger than the hopping energy t. The hopping energy plays
+a role only in the spread of the excitation bands, so that this may well describe the collective
+excitation of incoherent bands, in Fig. 1(b).
+From the above propagator formalism, we ﬁnd that the many-body correlation reveals
+a duality in the itinerancy and localization of the quasiparticle in the str ongly correlated
+system. This is based on the wave-particle duality in the basic concep t of quantum mechan-
+ics. However, there is a crucial point here, namely the duality arises from not an external
+measuring operation but a strong correlation in the system. It is ve ry interesting to know
+whether the physical phenomenon corresponding to each compon ent of the duality could be
+simultaneously realized and coexist in the system, and further, inte rplays with each other
+to make a new phenomenon.
+Considering the splitting of the coherent and incoherent states, t he instability exists in
+knowing which component is dominantly revealed in the system, espec ially when two com-
+ponents have comparable values. This closely resembles the observ ing process in quantum
+phenomenon, that is, the physical quantity in possible states can b e uncovered only after
+an external observing process. Here, we can guess the spatial e xtent of the quasiparticle
+state from the uncertainty principle, ∆ x∆p≥¯h
+2. The coherent part of the propagator is ob-
+tained from the summation of the possible excited states of an addin g particle and thus, the
+particle-like peak spreads out in the momentum space. Namely, the p lane wave transforms
+into a wave packet slightly localized in space, and then evolves over a lif etime. Assuming
+that the lifetime of the quasiparticle is about several decades meV, the ability to conﬁrm
+the location of the quasiparticle state extends over several deca des˚A. On the other hand, as
+5mentioned previously, the incoherent background can make the co llective excitation. There-
+fore, electronic inhomogenity will appear in the strongly correlated system.
+Our approachis applicable to theunderstanding of the high-temper ature superconductor
+known as the representative of the strongly correlated system. The parent material of
+this system is the Mott insulator with antiferromagnetic ordering, a nd by deviating from
+the half-ﬁlling, collective excitations appear.4Elementary excitation is generally analyzed
+by using the Hubbard model in the mean-ﬁeld basis.14However, this analysis does not
+consider the renormalization factor. Our study describes the sup erconductor and density
+wave parameters, ∆ SCand ∆ DWas the renormalized quantities by the itinerancy factor Z.
+Doping of the holes (electrons) to the correlated system leads to t he complexity pre-
+sumably including various collective modes and in this regime, electronic inhomogenity ap-
+pears, which makes it diﬃcult to analyze apparently physical proper ties.3,4According to
+our scheme, this can be interpreted as natural results by the itine rancy-localization duality
+of the quasiparticles. Here, the pseudogap states is a kind of collec tive excitations of the
+incoherent background. This is in agreement with the midinfrared ex citation of the optical
+spectroscopy,4,15leading to closure of the charge gap before close to the metal stat e.
+Another important property is the possibility of the pairing of the qu asiparticles. Charge
+carriers move in collective excitations of the incoherent backgroun d that can be considered
+as bosonic glue. Even under weak attraction, fermion particles at t he Fermi surface are
+unstable to form the bound state.16We consider the system of electrons (holes) and bosons
+with mutual interaction.
+Hel−b=/summationdisplay
+k,qWq(b†
+−q+bq)c†
+k+qck (4)
+whereWqis the interaction matrix element and b†
+−qthe boson operator. The eﬀective
+interaction between two electrons is obtained by canonical transf ormation, which arises from
+the exchange of the boson such as collective modes in analogy with th e phonon exchange.
+Veff=/summationdisplay
+k,k′,q|Wq|2ω2
+q
+ω2−ω2qc†
+k+qc†
+k′−qck′ck (5)
+6Forω < ω q, the eﬀective interaction is attractive. The pairing of the carrier is possible
+at low frequencies, leading to the superconductor. According to t he BCS formalism, the gap
+equation is expressed as below,
+∆SC= 2¯hωDexp(−1
+NV) (6)
+whereNis the density of states at the Fermi surface and ωDis the cutoﬀ frequency of the
+collective excitation of incoherent background. The spin wave can b e formed as a possible
+candidate of the collective modes, because in Eq. (5), the strong o n-site interaction with
+comparedtothehoppingenergyleadstotheHeisenberg hamiltonian , sothattheﬁnite-range
+antiferromagnetic ordering exists. This is very analogous to the sp in-bag concept17, but
+an important diﬀerence is that the expectation values of two pheno mena, the quasiparticle
+pairingandcollectivemodearelinkedbytheitinerancyfactor. Sincet hegapparameter, ∆ SC
+is represented as an anomalous Green function, e−2µt/angbracketleftck↑c−k↓/angbracketright, whereµis the Fermi energy,
+it implies the factor Zdue to the symmetry of the many-body system. The energy, ¯ hωD
+comes from the expectation quantity of the spin wave. Therefore , the critical temperature
+can be written as, Tc≃Z(1−Z). Figure 2 shows the change of the critical temperature
+with respect to the itinerancy factor Z. Assuming the itinerancy factor is proportional to
+the doping carrier, Tcvariation is similar to the experimental results.4This relation can be
+valid for the both states of electron and hole doping.
+In conclusion, the possibility to interpret the complexity of the stro ngly correlated sys-
+tem is proposed within the itinerancy-localization duality of the quasip article. The strong
+correlation makes the system reveal the duality of the quasipartic le and new physical phe-
+nomena through the interplay between them. This scheme is applicab le to the analysis of
+other physical phenomena induced by the strong interaction betw een carriers.
+7REFERENCES
+†E-mail:bgchae@etri.re.kr
+1L. D. Landau, Zh. Eksp. Teor. Fiz. 30, 1058 (1956) [Soviet Phys. JEPT 3, 920 (1957)].
+2A. A. Abrikosov, L. P. Gorkov, andI. E. Dzialoshinski, Methods of Q uantum FieldTheory
+in Statistical Physics (Pergamon, Elmsford, New York, 1965).
+3E. Dagotto, Science 309, 257 (2005).
+4P. A. Lee, N. Nagaosa, and X. G. Wen, Rev. Mod. Phys. 78, 17 (2006).
+5D. Vollhardt, Rev. Mod. Phys. 56, 99 (1984).
+6A. Georges, G. Kotliar, W. Krauth, M. J. Rozenberg, Rev. Mod. Ph ys.68, 13 (1996).
+7A. E. Ruckenstein, P. J. Hirschfeld, and J. Appel, Phys. Rev. B 36, 857 (1987).
+8H. Lehman, Nuovo Cimento 11, 342 (1954).
+9A. Damascelli, Z. Hussain, and Z. X. Shen, Rev. Mod. Phys. 75, 473 (2003).
+10A.L.FetterandJ.D.Walecka, QuantumTheoryofMany-Particle S ystems (McGraw-Hill,
+New York, 1971).
+11A. B. Migdal, Zh. Eksp. Teor. Fiz. 32, 339 (1957) [Soviet Phys. JEPT 5, 333 (1957)].
+12J. Hubbard, Proc. Roy. Soc. London A 276, 238 (1963).
+13W. F. Brinkman and T. M. Rice, Phys. Rev. B 2, 4302 (1970).
+14R. Micnas, J. Ranninger, S. Robaszkiewicz, and S. Tabor, Phys. Re v. B37, 9410 (1988).
+15M. M. Qazilbash, M. Brehm, Byung-Gyu Chae, P.-C. Ho, G. O. Andree v, Bong-Jun Kim,
+Sun Jin Yun, A. V. Balatsky, M. B. Maple, F. Keilmann, Hyun-Tak Kim, a nd D. N.
+Basov, Science 318, 1750 (2007).
+16J. Bardeen, L. N. Cooper, and J. R. Schrieﬀer, Phys. Rev. 108, 1175 (1957).
+817J. R. Schrieﬀer, X. G. Wen, and S. C. Zhang, Phys. Rev. Lett. 60, 944 (1988).
+9FIGURES
+Ginch(k,t)Gch(k,t)
+Quasiparticle
+peak
+Incoherent backgroundA(k,Ȧ)
+Ȧ İkīk
+n(k)
+k kFZk(b)
+(c)(a)
+FIG. 1. (a) A schematic diagram to visualize the duality of th e itineracy and the localization
+of quasiparticles. The Green function with a many-body corr elation can be split into a mobile
+quasiparticle state, Gchand the incoherent background localized in the lattice site ,Ginch. In
+the Fermi liquid state, (b) the spectral density clearly sho ws a quasiparticle peak and incoherent
+background and (c) the momentum distribution has discontin uity at the Fermi surface.
+100.0 0.2 0.4 0.6 0.8 1.0 Temperature (K)
+Itinerancy factor  ZSCPseudogap
+stateFermi liquid
+metal
+FIG. 2. Change in the critical temperature of the supercondu ctivity with respect to the itin-
+erancy factor Z. The straight line proportional to 1 - Zindicates a pseudogap temperature from
+the incoherent background.
+11

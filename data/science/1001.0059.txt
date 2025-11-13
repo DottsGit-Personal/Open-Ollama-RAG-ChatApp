@@ -1,0 +1,368 @@
+arXiv:1001.0059v1  [astro-ph.CO]  31 Dec 2009TANAMI: Milliarcsecond Resolution Observations of Extrag alactic Gamma-ray
+Sources
+Roopesh Ojha1,2, Matthias Kadler3,4,5,6, M. B¨ ock3,4, R. Booth7, M. S. Dutka8, P. G. Edwards9, A. L. Fey1,
+L. Fuhrmann10, R. A. Gaume1, H. Hase11, S. Horiuchi12, D. L. Jauncey9, K. J. Johnston1, U. Katz4,
+M. Lister13, J. E. J. Lovell14, Cornelia M¨ uller3,4, C. Pl¨ otz15, J. F. H. Quick7, E. Ros10,16, G. B. Taylor17,
+D. J. Thompson18, S. J. Tingay19, G. Tosti20,21, A. K. Tzioumis9, J. Wilms3,4, J. A. Zensus10
+1United States Naval Observatory,
+3450 Massachusetts Ave., NW,
+Washington DC 20392, USA
+2NVI, Inc., 7257D Hanover Parkway,
+Greenbelt, MD 20770, USA
+3Dr. Remeis-Sternwarte, Sternwartstr. 7,
+96049 Bamberg, Germany
+4ECAP, Universit¨ at Erlangen-N¨ urnberg, Germany
+5CRESST/NASA Goddard Space Flight Center,
+Greenbelt, MD 20771, USA
+6USRA, 10211 Wincopin Circle,
+Suite 500 Columbia, MD 21044, USA
+7Hartebeesthoek Radio Astronomy Observatory,
+PO Box 443, Krugersdorp 1740, South Africa
+8The Catholic University of America,
+620 Michigan Ave., N.E.,
+Washington, DC 20064, USA
+9CSIRO Astronomy and Space Science,
+PO Box 76, Epping, NSW 1710 Australia
+10MPIfR, Auf dem H¨ ugel 69, 53121 Bonn, Germany
+11BKG, Univ. de Concepcion,
+Casilla 4036, Correo 3, Chile
+12Canberra Deep Space Communication Complex,
+PO Box 1035, Tuggeranong, ACT 2901, Australia
+13Dept. of Physics, Purdue University,
+525 Northwestern Avenue,
+West Lafayette, IN 47907, USA
+14School of Mathematics & Physics,
+Private Bag 37, Univ. of Tasmania,
+Hobart TAS 7001, Australia
+15BKG, Geodetic Observatory Wettzell,
+Sackenrieder Str. 25, 93444 Bad K¨ otzting, Germany
+16Dept. d’Astronomia i Astrof´ ısica,
+Universitat de Val` encia,
+46100 Burjassot, Val` encia, Spain
+17Dept. of Physics and Astronomy,
+University of New Mexico,
+Albuquerque NM, 87131, USA
+18Astrophysics Science Division,
+NASA Goddard Space Flight Center,
+Greenbelt, MD 20771, USA
+19Curtin Institute of Radio Astronomy,
+Curtin University of Technology,
+Bentley, WA, 6102, Australia
+20Istituto Nazionale di Fisica Nucleare,
+Sezione di Perugia, 06123 Perugia, Italy
+21Dipartimento di Fisica,
+Universit` a degli Studi di Perugia, 06123 Perugia, Italy
+The TANAMI (Tracking AGN with Austral Milliarcsecond Inter ferometry) and associated pro-
+grams provide comprehensive radio monitoring of extragala ctic gamma-ray sources south of decli-
+nation−30 degrees. Joint quasi-simultaneous observations betwee n the Fermi Gamma-ray Space
+Telescope and ground based observatories allow us to discri minate between competing theoretical
+blazar emission models. High resolution VLBI observations are the only way to spatially resolve the2 Early TANAMI Results
+sub-parsec level emission regions where the high-energy ra diation originates. The gap from radio
+to gamma-ray energies is spanned with near simultaneous dat a from the Swift satellite and ground
+based optical observatories. We present early results from the TANAMI program in the context of
+this panchromatic suite of observations.
+I. INTRODUCTION
+Near simultaneous observations across the electro-
+magnetic spectrum are essential to further our un-
+derstanding of the physics of active galactic nuclei
+(AGN). Milliarcsecond resolution Very Long Baseline
+Interferometry (VLBI) observations make a unique
+contribution as they are the only way to resolve the
+regions where the high-energy emission originates.
+VLBI monitoring of AGN jets is the only way to di-
+rectly measure their relativistic motion and calculate
+intrinsic jet parameters. VLBI observations let us
+probe the conditions under which blazars and non-
+blazars emit γ-rays.
+The TANAMI ( TrackingActive Galactic Nuclei
+withAustralMilliarcsecond Interferometry) program
+([14, 15]) provides parsec scale resolution monitoring
+of extragalactic gamma-ray sources south of −30 de-
+grees declination at dual frequency (8.4 and 22GHz)
+by making VLBI observations with the Australian
+Long Baseline Array (LBA[21]) and associated tele-
+scopes in Australia, Antarctica, Chile and South
+Africa. Observations are made at intervals of about
+two months. TANAMI observations are comple-
+mented by arcsecond resolution monitoring across the
+radiospectrum with the AustraliaTelescope Compact
+Array (PI: S. Tingay) and single-dish resolution radio
+monitoring with the Hobart and Ceduna telescopes of
+the University of Tasmania (PI: J. Lovell).
+TANAMI began observations in November 2007
+with an initial sample of 43 sources consisting of
+a radio selected ﬂux-density limited subsample and
+aγ-ray selected subsample of known and candidate
+EGRET detections. This initial sample has since
+been expandedtoinclude newdetections bythe Fermi
+Large Area Telescope (LAT). Details of the sample
+and observations are presented in [13]. Here we out-
+line some early results from the TANAMI program.
+II. PKS1454-354
+On September 4th, 2008, a strong γ-ray ﬂare was
+detected by the Large Area Telescope (LAT) coming
+from the direction of the ﬂat-spectrum radio quasar
+PKS1454 −354 (z= 1.424). This quasar was a pos-
+sible counterpart of the unidentiﬁed EGRET source
+3EG J1500 −3509 [6]. The ﬂux rose on a timescale
+of hours before dropping over the following two days.
+TANAMI images provided the ﬁrst high-resolution,
+high-sensitivity parsec-scale image of the blazar jet
+for the ﬁrst LAT AGN paper reporting this detectionFIG. 1: Naturally weighted TANAMI image of PKS1454-
+354 at 8.4GHz. The image has an rms noise of ∼0.08 mJy
+beam−1. The hatched ellipse on the bottom left shows the
+restoring beam of 2 .87×0.75 mas at 4◦.
+and its multi-wavelength follow-up [1].
+Figure 1 shows a naturally weighted image of
+PKS1454 −354 observed at 8.4GHz on Nov 10th,
+2007. The image achieves a resolution of 2 .87×0.75
+mas at an rms noise of ∼0.08 mJy beam−1. It shows
+a compact core and a single-sided jet extending to
+∼50 mas at a position angle of ∼300, conﬁrming the
+activity of this source. Model ﬁtting the core with
+an elliptical Gaussian yields a brightness temperature
+limit ofTB= 1.6×1011K. The activity of this source
+continues to be monitored by TANAMI at unprece-
+dented resolution and dynamic range.
+III. CENTAURUS A
+Atadistanceof3.4Mpc[5],CentaurusAistheclos-
+est known radio galaxy making it possible to study it
+at subparsec scales. Not surprisingly, it has been ex-
+tensively observed at many wavelengths and its basic
+VLBI-scale radio structure is well-known to consist of
+a bright jet and a faint counter-jet at a viewing angle
+of 50−80 degrees [19].
+The TANAMI program has produced one of the
+highest resolution images of an AGN jet ever made
+[8]. The uniformly weighted beam with a resolution
+eConf C091122Early TANAMI Results 3
+FIG. 2: The core region of Centaurus A at 8.4GHz. The
+best view yet of a possible γ-ray birthplace.
+FIG. 3: The core region of Centaurus A at 22GHz. Note
+the close agreement with the core region at 8.4GHz shown
+in the previous ﬁgure.
+of 0.68×0.41mas happens to be comparable to the
+resolution (0 .8×0.7mas) of the previous highest reso-
+lution image of this object [7]. Though these observa-
+tions are separated by about a decade the structures
+are remarkably similar which would appear to be con-
+trary to the previously reported apparent velocity of
+∼1.4mas [20]. Velocity information obtained from
+continuing multi-epoch TANAMI observations is be-
+ing used to investigate this.
+Figure 2 and Figure 3 show the core region from
+naturally weighted images of Centaurus A at 8.4GHz
+and 22GHz respectively. In both cases the data have
+been self-calibrated using the CLEAN algorithm and
+the clean components in the ﬁnal model have been
+replaced by Gaussian model components in order to
+parametrize the core region. There is close agree-
+ment between these two ﬁgures suggesting that the
+“core” has the same size at both frequencies. Due to
+the presence of trans-oceanic baselines to the TIGO(Chile) and O’Higgins (Antarctica) telescopes only at
+8.4GHz, the lowerfrequencyimagehasthe higherres-
+olution, resolving the core and providing the ﬁnest
+view of the putative γ-ray production region seen so
+far. These simultaneous dual-frequency data are part
+of a set of simultaneous broadband data being used to
+model the behavior of Centaurus A [3].
+IV. FIRST EPOCH RESULTS
+First epoch images at 8.4GHz of all 43 sources in
+the initial TANAMI sample have been analyzed and
+theresultsarepresentedin [15]. Theimageshavehigh
+dynamic range and are often the best and sometimes
+the ﬁrst images of an AGN at milliarcsecond scale
+resolution. Here we conclude this presentation with
+a few highlights from this analysis. Unless explicitly
+stated all discussions below are made with reference
+to the LAT 3-month list [2].
+•Morphology and the Fermiconnection
+Figure 4 shows four sources which represent
+the four morphological classes we have classi-
+ﬁed the TANAMI sample into. All the images
+aremadewithnaturallyweighted,8.4GHzdata.
+The axes are labeled in units of milliarcseconds.
+The restoring beam of each image is shown as
+a hatched ellipse on the bottom left and, for
+the three sources that have known redshifts, a
+bar indicating a linear scale of 10pc or 1pc is
+shown on the bottom right. The root-mean-
+square (rms) noise in the images is typically
+about∼0.5 mJy beam−1. The lowest contour
+level is at 3 times the root-mean-square noise
+level.
+The classiﬁcation scheme we have adopted is
+that of [9] which makes no assumptions about
+the physical nature of the objects thus sepa-
+rating their description from their interpreta-
+tion. Clockwise from the top left, are examples
+of single-sided (SS), compact (C), double-sided
+(DS) and Irregular(Irr) morphology. The initial
+TANAMI sample has 33 SS sources and 5 DS
+sources with just one example each of the other
+two morphological types. Three sources do not
+have an optical identiﬁcation. All of the quasars
+and BL Lacertae objects in the sample have an
+SS morphology while all 5 DS sources are galax-
+ies. The lone C source is optically unidenti-
+ﬁed while the only Irr source is a GPS galaxy
+1718−649 which is tentatively detected by LAT
+[4].
+In its ﬁrst three months of operation Fermide-
+tected 12 of 43 TANAMI sources with >10σ
+signiﬁcance. All but one of these sources are
+quasars and BLLacertae objects with an SS
+eConf C0911224 Early TANAMI Results
+20 0 −20 −40 −60−200204060
+10 pc0521−365 2007−11−10
+40 20 0 −20 −40−40−2002040
+1501−343 2007−11−10
+20 10 0 −10−1001020
+1 pc1718−649 2008−02−07
+40 20 0 −20 −40−40−2002040
+10 pc1549−790 2008−02−07
+FIG. 4: TANAMI ﬁrst epoch 8.4GHz images illustrating the diﬀ erent morphological types in the sample, see text for
+description. The scale of both axes of each image is in millia rcseconds and the restoring beam is shown as a hatched
+ellipse on the bottom left.
+morphology (the exception is the nearby radio
+galaxy Centaurus A). This accords well with
+the canonical view that quasars and BL Lacer-
+taeobjectshaveanintrinsicallysymmetrictwin-
+jet structure that is transformed by diﬀerential
+Doppler boosting to the observed core-jet mor-
+phology.
+•Are opening angles correlated with γlu-
+minosity?
+Given the expectation that the γ-ray emission
+from AGN is beamed and thus orientation de-
+pendent, a link between γ-ray emission and
+the parsec scale morphology of AGN has been
+sought (e.g. [18]). We ﬁt circular Gaussians to
+the visibility data and measured the angle at
+which the innermost jet component appears rel-
+ative to the position of the core i.e. the opening
+angle. Of the LAT AGN Bright Sample (LBAS)
+sources78% have an opening angle >30 degreeswhile only 27% of non-LBAS sources do. In
+other words, γ-ray bright jets are pointed closer
+to the line of sight than γ-rayfaint jets. This re-
+sult should be treated with great caution as the
+sample size for this analysis is currently small
+but [16] report similar results.
+If conﬁrmed the above result presents two pos-
+sibilities: either the LBAS jets have smaller
+Lorentz factors (since the width of the rela-
+tivistic beaming cone ∼1/Γ) or LBAS jets are
+pointed closer to the line of sight. The former
+scenario appears unlikely, indeed the opposite
+eﬀect is reported by [11, 12].
+•Redshift distribution
+The redshift distribution of the quasars and
+BLLacs in the TANAMI sample is similar to
+those for the LBAS and EGRET blazars. There
+does not appear to be any signiﬁcant diﬀerence
+between the radio- and γ-ray selected subsam-
+eConf C091122Early TANAMI Results 5
+ples.
+•Brightness Temperature
+The core brightness temperature ( TB) limit of
+all initial TANAMI sources was calculated. The
+high end ofthe distribution of calculated bright-
+ness temperatures is dominated by quasars and
+the low end by BLLacertaeobjects and galaxies.
+Of the 43 sources in the sample, 13 have a max-
+imumTBbelow the equipartition value of 1011
+K [17], 29 below the inverse Compton limit of
+1012K [10], putting about a third of the values
+above this limit. Doppler boosting is the most
+likely reason behind these high values though a
+variety of exotic mechanisms are also possible.
+There is no signiﬁcant diﬀerence in the bright-
+nesstemperaturedistribution ofLBAS and non-
+LBAS sources. Many of the highest brightness
+temperature sources are not detected by LAT
+yet which is counterintuitive since they are ex-
+pected to have higher Doppler factors.
+•Luminosities
+The core and the total luminosity was calcu-
+lated for all 38 initial TANAMI sourcesthat had
+publishedredshifts,assumingisotropicemission.
+There is no signiﬁcant diﬀerence in the distri-
+bution of luminosities of LBAS and non-LBAS
+sources. On the other hand, there is a clear re-
+lationship between luminosity and optical type
+with quasars dominating the high luminosity
+end of the distribution, galaxies dominating the
+low luminosity end while the BL Lacertae ob-
+jects fall in between,
+None of the ﬁve most distant and most lumi-
+nous sources have been detected by Fermi in its
+ﬁrst3months ofoperation. Intriguingly, noneof
+the nine most luminous jets (diﬀerence of total
+and core luminosities) are detected. If this per-
+sists it would suggest a completely unexpected
+anti-correlation between jet luminosity and γ-
+brightness.V. CONCLUSION
+The TANAMI program is providing high quality,
+highresolutionradiomonitoringforthesouthernthird
+of the sky. Such data is a crucial member of the suite
+of multiwavelength observations that is set to revolu-
+tionize our understanding of the physics of AGN in
+the era of Fermi.
+Data from the TANAMI program is already a part
+of severalindividual AGN studies and statistical anal-
+ysis of the growing sample of TANAMI sources is pro-
+vidinginsightintothenatureandoriginofhighenergy
+radiation from AGN. The availability of core and jet
+component spectra as well as proper motions is going
+to greatly expand the questions that TANAMI can
+help answer.
+VI. ACKNOWLEDGMENTS
+We are grateful to Dirk Behrend, Neil Gehrels,
+Julie McEnery, David Murphy, and John Reynolds,
+who contributed in various ways to the success of the
+TANAMI program so far. Furthermore, we thank the
+Fermi/LAT AGN group for the good collaboration.
+This research has been partially funded by the Bun-
+desministerium f¨ ur Wirtschaft und Technologie under
+Deutsches Zentrum f¨ ur Luft- und Raumfahrt grant
+number 50OR0808. This research has made use of the
+United States Naval Observatory (USNO) Radio Ref-
+erenceFrameImageDatabase(RRFID).Thisresearch
+has made use of data from the NASA/IPAC Extra-
+galactic Database (NED, operated by the Jet Propul-
+sion Laboratory, California Institute of Technology,
+under contract with the National Aeronautics and
+Space Administration); and the SIMBAD database
+(operated at CDS, Strasbourg, France). This research
+has made use of NASA’s Astrophysics Data System.
+[1] Abdo, A., A. et al. 2009 ApJ, 697, 934
+[2] Abdo A. A., et al., 2009, ApJ 700, 597
+[3] Abdo A. A., et al., 2010, In Preparation.
+[4] B¨ ock et al. 2009, These Proceedings
+[5] Ferrarese L. et al. 2007, ApJ, 654, 186
+[6] Hartman, R. C. et al. 1999, ApJS, 123, 79
+[7] Horiuchi, S., Meier, D., Preston, R., Tingay, S. 2005
+PASJ, 58, 211
+[8] Kadler, M. et al. 2010, In Preparation.
+[9] KellermannK.I., VermeulenR.C., ZensusJ.A., Cohen
+M.H. 1998, AJ 115, 1295
+[10] KellermannK.I., Pauliny-Toth, I.I.K.1969, ApJ155,
+L71[11] Kovalev Y.Y., Aller H.D., Aller M.F., et al., 2009,
+ApJ 696, L17
+[12] Lister M.L., Aller H.D., Aller M.F., et al., 2009a, AJ
+137, 3718
+[13] M¨ uller et al. 2009, These Proceedings
+[14] Ojha R. et al., 2008, AIPC, 1053, 395
+[15] Ojha R. et al., 2010, A&A, Submitted
+[16] Pushkarev, A. B., Kovalev, Y. Y., Lister, M. L.,
+Savolainen, T. 2009, A&A, 507, L33
+[17] Readhead, A. C. S. 1994, ApJ, 426, 51
+[18] Taylor, G. B. et al. 2007, ApJ, 671, 1355
+[19] Tingay, S. J. et al. 1998, AJ, 115, 960
+[20] Tingay, S. J., Preston, R. A., Jauncey, D. L. 2001,
+eConf C0911226 Early TANAMI Results
+AJ, 122, 1697
+[21] The Long Baseline Array is part of the Australia Tele-
+scope which is funded by the Commonwealth of Aus-tralia for operation as a National Facility managed by
+CSIRO.
+eConf C091122

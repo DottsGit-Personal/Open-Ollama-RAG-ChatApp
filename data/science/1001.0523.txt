@@ -1,0 +1,261 @@
+IEEE ANTENNAS AND WIRELESS PROP AGA TION LETTERS, VOL. 8, 2009 1341
+On the Bandwidth of High-Impedance Frequency
+Selective Surfaces
+Filippo Costa , Student Member , IEEE , Simone Genovesi , Member , IEEE , and
+Agostino Monorchio , Senior Member , IEEE
+Abstract— In this letter , the bandwidth of high-impedance sur-
+faces (HISs) is discussed by an equivalent circuit approach. Even ifthese surfaces have been employed for almost 10 years, it is some-times unclear how to choose the shape of the frequency selective
+surface (FSS) on the top of the grounded slab in order to achieve
+the largest possible bandwidth. Here, we will show that the con-ventional approach describing the HIS as a parallel connection be-tween the inductance given by the grounded dielectric substrateand the capacitance of the FSS may induce inaccurate results inthe determination of the operating bandwidth of the structure. In-deed, in order to derive a more complete model and to provide amore accurate estimate of the operating bandwidth, it is also neces-sary to introduce the series inductance of the FSS. We will presentthe explicit expression for deﬁning the bandwidth of a HIS, and wewill show that the reduction of the FSS inductance results in thebest choice for achieving wide operating bandwidth in correspon-dence with a given frequency.
+Index T erms— Artiﬁcial magnetic conductor (AMC), bandwidth
+of high-impedance surfaces (HISs).
+I. I NTRODUCTION
+HIGH-IMPEDANCE surfaces (HISs) [1] have been fre-
+quently employed in electromagnetic devices, as for
+instance in the design of low-proﬁle antennas [2], [3] or im-proved electromagnetic absorbers [4], [5]. As is well known,
+these structures mimic the perfect magnetic conductor (PMC)
+condition within a small frequency range, and for this reason,they are often referred to as artiﬁcial magnetic conductors(AMCs). It is therefore evident that the bandwidth of this meta-
+surface is one of the key features of the structure. Some papers
+available in literature often present novel artiﬁcial surfacesclaiming a large operational bandwidth. However, in order tomake a fair comparison, structures with equal substrate should
+be considered since the substrate parameters are essential in
+deﬁning the HIS bandwidth. In this work, we show that theconventional representation of the HIS as a parallel circuit
+between the inductance of the grounded dielectric and the
+capacitance given by the capacitive frequency selective surface(FSS) is not fully accurate for the determination of the devicebandwidth. In particular, we demonstrate that it is necessary
+to include the series inductance of the FSS in the equivalent
+circuit for obtaining the correct expression of the bandwidth.
+Manuscript received November 09, 2009; revised November 20, 2009. First
+published December 11, 2009; current version published December 29, 2009.
+The authors are with the Department of Information Engineering, Univer-
+sity of Pisa, 56122 Pisa, Italy (e-mail: ﬁlippo.costa@iet.unipi.it; simone.gen-
+ovesi@iet.unipi.it; a.monorchio@iet.unipi.it).
+Color versions of one or more of the ﬁgures in this letter are available online
+at http://ieeexplore.ieee.org.
+Digital Object Identiﬁer 10.1109/LA WP.2009.2038346Afterward, the inﬂuence of the cell shape on the HIS bandwidth
+is analyzed. Simple considerations on the equivalent circuit
+allow us to deﬁne the shape of the periodic cell ensuringthe widest frequency band. In particular, we are interestedin deriving the most wideband FSS shape in correspondence
+with a ﬁxed frequency since this issue has many interesting
+practical implications. Some examples of AMC structures,whose substrate thickness and permittivity are kept constant,are presented and discussed.
+II. F
+ORMULA TION
+The equivalent input impedance of the reactive surface
+can be interpreted as the parallel connection of the FSS
+impedance
+ and the equivalent input impedance of
+the grounded dielectric slab,
+ . For normal incidence, the
+impedance of the (thin) grounded dielectric slab behaves asan inductor (
+,
+ and
+ being the permeability and
+thickness, respectively, of the dielectric slab). The FSS element
+can be modeled as a single capacitance in the quasi-static
+region or by a RLC series circuit for a larger frequency range.
+Considering the FSS element as a pure capacitive element
+, the bandwidth
+ of the HIS structure, deﬁned as the
+range where the phase of reﬂection coefﬁcient is comprised
+between
+ and
+ , can be written as the bandwidth of
+a parallel LC circuit
+(1)
+where
+ represents the inductance of the substrate,
+ is the an-
+gular resonance frequency, and
+ is the free-space impedance.
+From the relation (1), it results that an increase of the substrate
+thickness enlarges the bandwidth of the structure due to the
+growth of the inductance. We also mention that the use of amagnetic substrate would be a valuable strategy for obtaininga higher inductance value and, as a consequence, a bandwidth
+increment [6].
+However, from (1), one might conclude that, while keeping
+the substrate thickness and the resonance frequency constant,a highly capacitive element such as a patch with a very small
+gap would be characterized by a smaller bandwidth than a less
+coupled element as a cross. Moreover, if we model the FSS byusing a capacitor only, we could speculate that different shapes
+of the patch, with different gaps and different periodicities but
+with the same value of averaged capacitance [7], would have thesame bandwidth. Contrarily, these considerations are incorrectbecause the simple LC parallel circuit, even if it is an excellent
+tool for studying these structures [5], [7], does not allow to cor-
+rectly predict the operating bandwidth.
+1536-1225/$26.00 © 2009 IEEE1342 IEEE ANTENNAS AND WIRELESS PROP AGA TION LETTERS, VOL. 8, 2009
+Fig. 1. Equivalent transmission line of a (a) high-impedance surface and (b) its
+corresponding lumped circuit model allowing to correctly determine the band-
+width of the structure.
+Fig. 2. Qualitative behavior of the reactive impedance in (2) and graphical rep-resentation of the HIS bandwidth.
+In order to properly evaluate the bandwidth of the HIS struc-
+tures, it is necessary to consider a more complete circuit wherethe series inductance
+of the FSS has been introduced (as
+shown in Fig. 1).
+The impedance of the circuit reported in Fig. 1(b) reads
+(2)
+As is well known, the high-impedance condition is veriﬁed
+when the denominator of (2) is null, namely at the angular res-onance frequency
+. The bandwidth of a
+high-impedance surface is deﬁned as the frequency range where
+the absolute value of the impedance is larger than the free-space
+impedance (see Fig. 2).
+This condition corresponds to a phase of reﬂection coefﬁcient
+comprised within the range [
+ ,
+ ] [1]. In order to deﬁne
+the bandwidth of the new equivalent circuit, it is necessary to
+ﬁnd the two positive frequencies for which the impedance in (2)is equal to
+and
+ (see Fig. 2). In the former case, the
+equation has two positive solutions for
+ , and we must select
+the ﬁrst one; indeed, the second one would be obtained when the
+HIS impedance is equal to
+ at higher frequency, well after the
+AMC band (see Fig. 2). In the latter case, the equation has onlya positive solution for
+. The two equations can be solved by
+employing the theory of the cubic equations [8]. By dividing the
+Fig. 3. Fractional bandwidth of a high-impedance surface as a function of the
+FSS series inductance /76(by ﬁxing the grounded substrate inductance /76
+ to 7
+nH) and as a function of /76
+ (by ﬁxing /76to 4 nH) . The capacitance is varied
+in order to preserve the same resonance frequency that is ﬁxed to 6 GHz in all
+cases.
+equations by the coefﬁcient of
+ , we can write the coefﬁcients
+in the other three terms as follows:
+(3)
+By deﬁning the three following intermediate coefﬁcients:
+(4)
+we can get the two right solutions and, after some algebra, we
+can also derive the ﬁnal expression of the fractional bandwidthof the new circuit (
+)a s
+(5)
+In order to highlight how the FSS series inductance inﬂuences
+the fractional bandwidth of the high-impedance surface, the re-lation (5) is plotted in Fig. 3 as a function of
+and
+ . When
+the values of the inductances are varied, the capacitance value
+is changed as well in order to maintain the resonance frequencyﬁxed. In this case, the resonance frequency of the resonator ischosen to be equal to 6 GHz. The values for the inductances and
+the capacitance are realistic values in a practical design. As ex-
+pected, increasing the grounded substrate inductance leads to anenlargement of the fractional bandwidth. Conversely, it is worthunderlining that an increase of the series inductance implies a
+reduction of the fractional bandwidth.COST A et al. : ON THE BANDWIDTH OF HIGH-IMPEDANCE FREQUENCY SELECTIVE SURFACES 1343
+Fig. 4. FSS element shapes under investigation.
+The fractional bandwidth of this resonant circuit can be max-
+imized both by decreasing the inductance and the capacitance
+of the FSS (considering that the inductance of the substrate isﬁxed). Anyway, in order to preserve the same resonance fre-quency, an increase of the capacitance value must correspond
+to a decrease of the series inductance and vice versa. As it is
+apparent from Fig. 3, the minimization of the inductance of theelement and the consequent increase of the capacitance resultsin the best choice for maximizing the fractional bandwidth. The
+inductance of an FSS can be lowered by using large elements
+with respect to the unit cell (as, for instance, the solid interiorelements deﬁned in [4]). This argument can be intuitively ex-plained by considering the inductance of a straight wire above
+the ground plane. According to the expression reported in [9], it
+follows that the inductance of a printed structure can be loweredby using large element for a constant value of substrate thick-ness. For these reasons, we expect that a cross element will be
+the most narrowband, whereas the patch-type element will be
+the most wideband even if its capacitance is higher.
+III. N
+UMERICAL RESUL TS
+To demonstrate these intuitive considerations, we analyze six
+different FSS shapes on the same grounded dielectric substrate(Fig. 4). The substrate parameters are
+and
+thickness equal to 1.6 mm (typical of the commercial FR4).
+Patch elements characterized by a different ratio
+ between the
+patch size
+ and the periodicity
+ are analyzed
+together with a cross-shaped FSS, an interdigitated patch, anda meandered shape [10], [11]. Another candidate offering large
+operational bandwidths is the hexagon element, but it does not
+guarantee better performance in terms of bandwidth with re-spect to the square patch.
+To obtain a resonance in correspondence with the same fre-
+quency, the different elements must have different periodicities.Fig. 5 shows the phase of reﬂection coefﬁcient of different HISconﬁgurations with the same substrate and a periodicity de-
+signed so that all the analyzed structures resonate at the same
+frequency. To conﬁrm the validity of our model [and thereforethe bandwidth relation presented in (5)], the impedances of theFSSs under analysis were determined by the inversion method
+proposed in [12]. Once computed, each FSS impedance, the
+values of the capacitance, and the inductance can be obtained byan iterative procedure. The impedances for each FSS elementemployed in the HIS conﬁgurations are reported in Fig. 6 to-
+gether with its approximation by the series LC circuit. In Table I,
+a summary of the capacitances and inductances for each ana-lyzed shape is reported together with the fractional bandwidthcomputed in accordance to the relation (5). From these values,
+it is apparent that an increase of the FSS capacitance does not
+Fig. 5. Phase of reﬂection coefﬁcient of different HIS on the same substrate
+and a periodicity ( /68) designed so that all the analyzed structures resonate at the
+same frequency.
+Fig. 6. Reactive impedance of the FSS of the different cell shapes.
+T ABLE I
+INDUCT ANCE AND CAP ACIT ANCE VALUES OF THE FSS SUNDER ANAL YSIS
+AND THE PERCENT AGE FRACTIONAL BANDWIDTH /70/66/87
+ ,C OMPUTED BY
+THE RELA TION (5)
+correspond to a decrease of the bandwidth as one could infer by
+observing the relation (1). This happens because, as for instance1344 IEEE ANTENNAS AND WIRELESS PROP AGA TION LETTERS, VOL. 8, 2009
+in the patch shape, the reduction of the distance between adja-
+cent patches implies an increase of the capacitance but, at thesame time, a strong reduction of the inductance.
+Nevertheless, the simpliﬁed relation (1) correctly predicts the
+enlargement of the fractional bandwidth in the patch-type FSSwhen the distance between adjacent patches is increased andthe periodicity is kept constant [13] (however, this case is not of
+practical interest since we do not obtain the resonance in cor-
+respondence with the same frequency). We also conclude thatthe bandwidth of the cross element is the smallest, whereas,among the patches, a higher ratio
+leads to a larger bandwidth
+of the FSS. The meandered structure is characterized both by
+a high capacitance, due to the strong coupling between adja-cent lines, and a high inductance, due to the narrowness and thelength of the lines. Indeed, these high values are instrumental
+for a substantial miniaturization of the cell in an AMC conﬁgu-
+ration. This small periodicity determines a total capacitance anda total inductance (depending on the periodicity also [7]) similarto other elements (see Table I).
+Similar results for the bandwidth of crosses and patches were
+qualitatively explained in [14] by exploiting the theory of smallantennas. The authors argued that the AMC bandwidth is re-duced by the degree to which the ﬁelds are localized within the
+surface texture and do not uniformly ﬁll its volume. Finally, it is
+worth mentioning that the patch-type FSS with very small gapis the more effective solution for blocking the TE surface waves.Indeed, the effectiveness of the FSS in blocking the normal mag-
+netic ﬁeld determines the TE mode cutoff frequency, and hence
+the TE bandwidth [15].
+IV . C
+ONCLUSION
+In this letter, a novel circuit approach for studying the band-
+width of HISs has been presented. As discussed in the bodyof this letter, the conventional representation of the HIS as a
+parallel LC circuit leads to an inaccurate estimate of the de-
+vice bandwidth. For such a reason, the expression of the frac-tional bandwidth by using a more complete equivalent circuit,including also the series FSS inductance, has been derived. We
+have shown that the increase of the series inductance implies
+a reduction of the fractional bandwidth. It has therefore beendemonstrated that the patch FSS element with a small gap be-tween adjacent patches, even if strongly capacitive, is the bestchoice for designing a wideband AMC in correspondence with
+a ﬁxed frequency. We have also shown that an extremely minia-turized HIS can be designed by employing a meandered shape
+element while maintaining wideband properties.
+R
+EFERENCES
+[1] D. Sievenpiper, L. Zhang, R. F. J. Broas, N. G. Alexopolous, and E.
+Y ablonovitch, “High-impedance electromagnetic surfaces with a for-
+bidden frequency band,” IEEE Trans. Microw. Theory Tech. , vol. 47,
+no. 11, pp. 2059–2074, Nov. 1999.
+[2] R. F. J. Broas, D. F. Sievenpiper, and E. Y ablonovitch, “A
+high-impedance ground plane applied to a cellphone handset ge-
+ometry,” IEEE Trans. Microw. Theory Tech. , vol. 49, no. 7, pp.
+1262–1265, Jul. 2001.
+[3] F. Costa, A. Monorchio, S. Talarico, and F. M. V aleri, “An active high
+impedance surface for low proﬁle tunable and steerable antennas,”
+IEEE Antennas Wireless Propag. Lett. , vol. 7, pp. 676–680, 2008.
+[4] B. A. Munk , Frequency Selective Surfaces – Theory and Design .N e w
+Y ork: Wiley, 2000.
+[5] O. Luukkonen, F. Costa, A. Monorchio, C. R. Simovski, and S. A.
+Tretyakov, “A thin electromagnetic absorbers for wide incidence an-
+gles and both polarizations,” IEEE Trans. Antennas Propag. , vol. 57,
+no. 10, pp. 3119–3125, Oct. 2009.
+[6] R. Diaz, V. Sanchez, E. Caswell, and A. Miller, “Magnetic loading of
+artiﬁcial magnetic conductors for bandwidth enhancement,” in Proc.
+IEEE Antennas Propag. Soc. Int. Symp. , Columbus, OH, Jun. 2003,
+vol. 2, pp. 431–434.
+[7] S. Tretyakov , Analytical Modelling in Applied Electromag-
+netics . Boston, MA: Artech House, 2003.
+[8] M. Abramowitz and I. A. Stegun , Handbook of Mathematical Func-
+tions . New Y ork: Dover, 1965, 1972.
+[9] C. L. Holloway and E. F. Kuester, “Net and partial inductance of a
+microstrip ground plane,” IEEE Trans. Electromagn. Compat. , vol. 40,
+no. 1, pp. 33–46, Feb. 1998.
+[10] S. Barbagallo, A. Monorchio, and G. Manara, “Small periodicity FSS
+screens with enhanced bandwidth performance,” Electron. Lett. , vol.
+42, no. 7, p. 7:8, Mar. 2006.
+[11] A. Monorchio, S. Genovesi, E. Carrubba, and G. Manara, “Design of
+printed FSS for compact and bandwidth-enhanced metasurfaces,” in
+Proc. 1st Int. Congress Adv. Electromagn. Mater. Microw. Opt. , Rome,
+Italy, Oct. 22–24, 2007, pp. 811–814.
+[12] F. Costa, A. Monorchio, and G. Manara, “An equivalent-circuit mod-
+eling of high impedance surfaces employing arbitrarily shaped FSS,”
+inProc. ICEEA , Turin, Italy, Sep. 14–18, 2009, pp. 852–855.
+[13] F. Y ang and Y. Rahmat-Samii, “Reﬂection phase characterizations of
+the EBG ground plane for low proﬁle wire antenna applications,” IEEE
+Trans. Antennas Propag. , vol. 51, no. 10, pp. 2691–2703, Oct. 2003.
+[14] D. F. Sievenpiper, J. H. Schaffner, H. J. Song, R. Y. Loo, and G. Tang-
+onan, “Two-dimensional beam steering using an electrically tunable
+impedance surface,” IEEE Trans. Antennas Propag. , vol. 51, no. 10,
+pp. 2713–2722, Oct. 2003.
+[15] S. Clavijo, R. E. Dýaz, and W. E. McKinzie, III, “Design methodology
+for sievenpiper high-impedance surfaces: An artiﬁcial magnetic con-
+ductor for positive gain electrically small antennas,” IEEE Trans. An-
+tennas Propag. , vol. 51, no. 10, pp. 2678–2690, Oct. 2003.

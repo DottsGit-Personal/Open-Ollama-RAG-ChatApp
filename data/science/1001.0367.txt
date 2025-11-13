@@ -1,0 +1,156 @@
+arXiv:1001.0367v1  [math.CV]  3 Jan 2010A uniqueness theorem for entire functions
+A G Ramm
+Department of Mathematics
+Kansas State University, Manhattan, KS 66506-2602, USA
+ramm@math.ksu.edu
+Abstract
+LetG(k) =/integraltext1
+0g(x)ekxdx,g∈L1(0,1). The main result of this
+paper is the following theorem.
+Theorem .Iflimsupk→+∞|G(k)|<∞, theng= 0. There exists
+g/negationslash≡0,g∈L1(0,1), such that G(kj) = 0,kj< kj+1,limj→∞kj=
+∞,limk→∞|G(k)|does not exist, limsupk→+∞|G(k)|=∞. Thisg
+oscillates inﬁnitely often in any interval [1−δ,1], however small δ >0
+is.
+MSC: 30D15, 42A38, 42A63
+Key words: Fourier integrals; entire functions; uniqueness theorem
+1 Introduction
+Letg∈L1(0,1) andG(k) =/integraltext1
+0g(x)ekxdx. The function Gis an entire
+function of the complex variable k. It satisﬁes for all k∈Cthe estimate
+|G(k)| ≤c0e|k|, c 0:=/integraldisplay1
+0|g(x)|dx, (1)
+it is bounded for ℜk≤0:
+|G(k)| ≤c0,ℜk≤0, (2)
+and it is bounded on the imaginary axis:
+sup
+τ∈R|G(iτ)| ≤c0, (3)
+whereRdenotes the real axis.
+1It is not diﬃcult to prove that if gkeeps sign in any interval [1 −δ,1],
+and/integraltext1
+1−δ|g(x)|dx >0 then lim k→∞|G(k)|=∞. By∞we mean + ∞in this
+paper.
+However, there exists a g/negationslash≡0,g∈L1(0,1), such that lim k→∞|G(k)|
+does not exist, but limsupk→∞|G(k)|=∞. Thisgchanges sign (oscillates)
+inﬁnitely often in any interval [1 −δ,1], however small δ >0 is, and the
+corresponding G(k) changes sign inﬁnitely often in any neighborhood of
++∞, i.e., it has inﬁnitely many isolated positive zeros kj, which tend to ∞.
+Our main result is:
+Theorem 1.1. Ifc1:= limsupk→∞|G(k)|<∞, theng= 0. There exists
+g/negationslash≡0,g∈L1(0,1), such that limsupk→∞|G(k)|=∞,limk→∞|G(k)|does
+not exist, G(kj) = 0, wherekj< kj+1,limj→∞kj=∞, andgoscillates
+inﬁnitely often in any interval [1−δ,1], however small δ >0is.
+In Section 2 proofs are given. The main tools in the proofs are a
+Phragmen-Lindel¨ of (PL) theorem (see, e.g.,[1], [3],) and a construction, de-
+veloped in [2] for a study of resonances in quantum scatterin g on a half
+line.
+For convenience of the reader we formulate the Phragmen-Lin del¨ of the-
+orem, used in Section 2. A proof of this theorem can be found, e .g., in
+[1].
+By∂Qthe boundary of the set Qis denoted, M >0 is a constant, and
+0< α <2π.
+Theorem (PL) .LetG(k)be holomorphic in an angle Qof openingπ
+α
+and continuous up to its boundary. If supk∈∂Q|G(k)| ≤M, and the order ρ
+ofG(k)is less than α, i.e.,
+ρ:= limsup
+r→∞lnlnmax |k|=r|G(k)|
+lnr< α,
+thensupk∈Q|G(k)| ≤M.
+In Section 2 this Theorem will be used for α=π
+2andρ= 1< α.
+2 Proofs
+The proof of Theorem 1.1 is based on two lemmas, and the conclu sion of
+Theorem 1.1 follows immediately from these lemmas.
+Lemma 2.1. If
+limsup
+k→∞|G(k)|<∞, (4)
+2then
+g= 0. (5)
+Proof.The entire function Gin the ﬁrst quadrant Q1of the complex plane
+k, that is, in the region 0 ≤argk≤π
+2,|k| ∈[0,∞), satisﬁes estimate (1)
+and is bounded on the boundary of Q1:
+sup
+k∈∂Q1|G(k)| ≤max(c0,c1) :=c2. (6)
+By a Phragmen-Lindel¨ of theorem (see, e.g., [3], p.276) one concludes that
+sup
+k∈Q1|G(k)| ≤c2. (7)
+A similar argument shows that
+sup
+k∈Qm|G(k)| ≤c2, m= 1,2,3,4, (8)
+whereQmarequadrants of the complex k−plane. Consequently, |G(k)| ≤c2
+for allk∈C, and, by the Liouville theorem, G(k) =const. Thisconstis
+equal tozero, because, bytheRiemann-Lebesguelemma, lim τ→∞G(iτ) = 0.
+IfG= 0, then g= 0 by the injectivity of the Fourier transform.
+Lemma 2.1 is proved.
+Lemma 2.2. There exists g/negationslash≡0,g∈C∞(0,1), such that
+limsup
+k→∞|G(k)|=∞,
+limk→∞|G(k)|does not exist, G(kj) = 0, wherekj< kj+1,limj→∞kj=∞,
+andgoscillates inﬁnitely often in any interval [1−δ,1], however small δ >0
+is.
+Proof.Let ∆j= [xj,xj+1], 0< xj< xj+1<1, limj→∞xj= 1,j= 2,3,....,
+fj(x)≥0,fj∈C∞
+0(∆j),/integraltext
+∆jfj(x)dx= 1, and ǫj>0,ǫj+1< ǫj, be a
+sequence of numbers such that f(x)∈C∞(0,1), where
+f(x) :=∞/summationdisplay
+j=2ǫjfj(x). (9)
+Deﬁne
+g(x) :=∞/summationdisplay
+j=2(−1)jǫjfj(x), g/negationslash≡0. (10)
+3The function goscillates inﬁnitely often in any interval [1 −δ,1], however
+smallδ >0 is.
+Let
+G(k) :=∞/summationdisplay
+j=2(−1)jǫjGj(k), G j(k) :=/integraldisplay
+∆jfj(x)ekxdx. (11)
+Note that Gj(k)>0 for all j= 2,3,...and allk >0, and
+lim
+k→∞Gm(k)
+Gj(k)=∞, m > j, (12)
+because intervals ∆ jand ∆ mdo not intersect if m > j.
+Fix an arbitrary small number ω >0.
+Let us construct a sequence of numbers
+bj>0, b j+1> bj,lim
+j→∞bj=∞,
+such that
+G(b2m)≥ω, G (b2m+1)≤ −ω, m = 1,2,.... (13)
+This implies the existence of kj∈(b2m,b2m+1), such that
+G(kj) = 0, k j< kj+1,lim
+j→∞kj=∞.
+Moreover,
+limsup
+k→∞|G(k)|=∞, (14)
+because otherwise G= 0 by Lemma 1, so g= 0contrary to theconstruction,
+see (10).
+Let us choose b2>0 arbitrary. Then G2(b2)>0. Making ǫ3>0 smaller,
+if necessary, one gets
+ǫ2G2(b2)−ǫ3G3(b2)≥ω. (15)
+Choosing b3> b2suﬃciently large, one gets
+ǫ2G2(b3)−ǫ3G3(b3)≤ −ω. (16)
+This is possible because of (12).
+4Suppose that b2,....b2m+1are constructed, so that
+2m/summationdisplay
+j=2(−1)jǫjGj(b2p)≥ω, p = 1,2,..m, (17)
+and
+2m+1/summationdisplay
+j=2(−1)jǫjGj(b2p+1)≤ −ω, p = 1,....,m. (18)
+Letm→ ∞. Then
+lim
+m→∞2m/summationdisplay
+j=2(−1)jǫjGj(k) = lim
+m→∞2m+1/summationdisplay
+j=2(−1)jǫjGj(k) =G(k),(19)
+whereG(k) is deﬁned in (11), and the convergence in (19) is uniform on
+compact subsets of [0 ,∞). Therefore inequalities (13) hold. Lemma 2.2 is
+proved.
+Theorem 1 follows from Lemmas 1 and 2. ✷
+References
+[1] G.Polya, G.Szeg¨ o, Problems and theorems in analysis , Springer-Verlag,
+Berlin, 1983.
+[2] A.G.Ramm, Multidimensional inverse scattering problems, Long-
+man/Wiley, New York, 1992.
+[3] W.Rudin, Real and complex analysis , McGraw Hill, New York, 1974.
+5

@@ -1,0 +1,117 @@
+Electrically stabilized magnetic vortex and antivortex states 
+ in magnetic dielectrics 
+ 
+A.P. Pyatakov*, G.A. Meshkov 
+ 
+Physics Department, M.V. Lomonosov MSU, Leninskie gori, Moscow, 119991, Russia 
+ 
+The micromagnetic distribution in a dielectric nanoparticle is theoretically considered. It is shown that the existence of 
+inhomogeneous magnetoelectric interaction in magnetic dielectrics provides the possibility to stabilize the vortex and 
+antivortex state in magnetic nanoparticle. The estimation of the critical voltage necessary for vortex/antivortex 
+nucleation in bismuth ferrite and iron garnet nanoparticles yields a value of ±150 V. This system can be considered as 
+electrically switchable two state-logic magnetic element.  
+ 
+ *) pyatakov@physics.msu.ru 
+  
+Numerous micromagnetic structures observed in magnetic media are the result of 
+competition between only a few types of interact ions that include magnetostatic and exchange 
+energy. These two provide us with magnetic vortex structures in ferromagnetic nanodiscs or 
+nanodots [1-6]. An equally fundamental though much less known is antivortex state that is a topological counterpart of the vortex . The realization of an tivortex state is a challenging task since it 
+is unfavorable for magnetostatic reasons due to the formation of the magnetic charges at the edge of 
+the particle. There are only a few reports in which the antivortex was observed either in a complicated four ferromagnetic rings cross-junction structure [7] or as a metastable state of 
+asymmetric cross-like nanostructures [8].  
+Meanwhile there is an additional interaction that should be taken in to account when we 
+consider micromagnetic structure under influence of electric field or the structures in magnetic 
+ferroelectrics (multiferroics). It is proportional to  spatial derivatives of magnetic order parameter 
+vector. This spin flexoelectricity is the variety of magnetoelectric coupling related to the magnetic 
+inhomogeneties and it is described by P
+iMj∇kMn coupling term, where P and M, are electric and 
+magnetic order parameters, resp ectively [9-18]. This type of interaction is responsible for 
+magnetically induced electric polarization in spiral multiferroics [19] and electric field driven 
+magnetic domain wall motion in ferr imagnetic iron garnet films [20]. 
+ In this short Letter we will show that the gradient electric field produced by point electrode 
+(e.g. cantilever tip of atomic force microscope) can stabilize in magnetic dielectric nanoparticle 
+either vortex or antivortex state depending on the electric polarity of the tip.  
+ 
+a) 
+   b)
+  
+Fig. 1 Magnetic dielectric nanoparticle subjected to the electric field from the cantilever tip (the electric polarity 
+depends on the sign of magnetoelectric constant in (1)) 
+a) electrically induced magnetic vortex state b) electrically induced magnetic antivortex state.  
+Magnetoelectric materials, mostly being ferrimagnets or weak ferromagnets, have rather 
+moderate value of spontaneous magnetization. This results in large exchange length 
+22s exch MA l= , where A is the exchange stiffness, MS is saturation magnetization, and large 
+magnetostatic lengths 22s MS M AK l=  (the maximum size of single domain particle, where K is 
+anisotropy constant) compared to conventional ferromagnets. The typical values for room 
+temperature magnetoelectric iron garnet films are:  m lexchμ5,0= , m lMSμ5=  and room temperature 
+multiferroic bismuth ferrite: m lexchμ5.1= , m lMSμ240= . Thus the magnetic dielectric particles of 
+nanometric size should be in homogeneous magnetic state since exchange interaction is the 
+predominant one. 
+The only thing that can compete against the exchange interaction in magnetic dielectrics on 
+this nanometer scale is the spin flexoelectricity that for isotropic media can be represented in the 
+form [10,13]:  
+() ()( )n n n nP ∇⋅−⋅∇⋅⋅⋅=γMEF     ( 1 )  
+where γ is magnetoelectric constant, P is electric polarization, n is unit vector of magnetic 
+order parameter.  
+The linear charge density corresponding to magnetic vortex can be found as in [13]:  
+e LQπγχ2±= ,        ( 2 )  
+where eχ is electric susceptibility of the medium, signs “±” correspond to the vortex and antivortex 
+state, respectively.  
+The magnetoelectric energy thus can be represented in the form of electrostatic energy of the 
+charge (2) in the electric potential φ of the point electrode:  
+2ME eWq hϕπγχ ϕ== ⋅ ⋅ ,        (3) 
+where q is the integral charge, h is the height of the particle.  
+The exchange energy can be estimated as 
+() h A h AVAk WExch2 22
+222ππ=Δ⎟⎠⎞⎜⎝⎛
+Δ==    ( 4 )  
+where k is the modulation wave vector, Δ is the lateral size of the particle.  
+Thus the critical potential of the electrode  tip in which the nucl eation of the vortex 
+(antivortex) occurs that correspond to the condition W ME  + W exch <0 can be found as 
+2
+C
+eAπϕγχ=⋅       ( 5 )  
+Assuming γ~10-6 cm erg/ (typical values for BiFeO 3 and iron garnet), dielectric 
+susceptibility χe~4 (it can be estimated using the value of BiFeO 3 dielectric constant ε=1+4πχe=50) 
+and exchange stiffness A~3 *10-7 erg/cm (typical value for room temperature magnets) we obtain 
+φc=±150V.  
+More rigorous approach should take into account the finite size of the vortex core in which 
+the spin come out of the plane. In the case of dielectric nanoparticle its diameter is determined by the balance between the exchange energy and the inhomogeneous magnetoelectric energy. The 
+estimation (5) remains valid provided that the critic al potential corresponds to the lowest voltage at 
+which the vortex/antivortex state appears at the perimeter of the particle, the charge (3) is distributed on the surface of the cylinder wrapping the vortex core and the parameter Δ in (4) stands for the core 
+diameter. Thus the electric field can stabilize the vortex state for one sign of the charge and antivortex 
+state for another (see figure). This possibility besi des fundamental interest can be considered as a 
+prototypical example of electrically switchable magnetic system with two logic states. The use of 
+ferroelectric media as a material of the tip electrode will make it possible to implement the memory cell based on this principle.   
+ 
+Authors are grateful to A. Zvezdin, D. Khomskii and M. Mostovoy for the interest to the 
+work and valuable discussion.   
+ 
+References 
+ 
+1. B. Van Waeyenberge et al., Nature (London) 444, 461 (2006)   
+2. V. S. Pribiag, , I. N. Krivorotov, G. D. Fuchs, et al., Nature Physics, Vol. 3, 498 (2007).  
+3. K.Yu. Guslienko, J. Nanosc. Nanotechn., v. 8, 2745-2760 (2008) 
+4. M. Tanase, A. K. Petford-Long, O. Heinonen, K. S. Buchanan, J. Sort, and J. Nogués, Magnetization reversal in 
+circularly exchange-biased ferromagnetic disks, Phys. Rev. B 79, 014436 (2009) 
+5. S. Prosandeev, I. Ponomareva, I. Kornev, and L. Bellaiche, Control of Vortices by Homogeneous Fields in 
+Asymmetric Ferroelectric and Ferromagnetic Rings, Phys. Rev. Lett., v.100, 047201 (2008) 
+6. K. Yamada et al., Nat. Mater. V. 6, 270 (2007)  7. K. Shigeto, T. Okuno, K. Mibu, T. Shinjo , T. Ono, Appl. Phys. Lett., 80, 4190, (2002) 
+8.  V.L. Mironov, O.L. Ermolaeva,  S.A. Gusev, A.Yu. Klimov, V.V. Ro gov, B.A. Gribkov, A.A. Fraerman, 
+O.G.Udalov, Anti-vortex state in cross-like nanomagnets, Phys. Rev. B, 81, 094436 (2010) 
+9. V. G. Bar’yakhtar, V. A. L’vov,  and D. A. Yablonskii, JETP Lett. 37, 673 (1983) 
+10. Yu. F. Popov, A. Zvezdin, G. Vorob’ev, A. Ka domtseva, V. Murashev, and D. Rakov, JETP Lett. 57, 69 (1993) 
+11. A. Sparavigna, A. Strigazzi, and A. Zvezdin , Phys. Rev. B 50, 2953 (1994) 
+12. A.A. Khalfina, M.A. Shamtsutdinov, Ferroelectrics, 279, 19 (2002) 
+13. M. Mostovoy, Phys. Rev. Lett. 96, 067601 (2006). 
+14. Logginov A.S., Meshkov G.A., Nikolaev A.V., Pyatakov A.  P., Shust V. A., Zhdanov A.G., Zvezdin A.K., J. Magn. 
+Magn. Mater., 310, 2569 (2007) 
+15. I. Dzyaloshinskii, EPL, 83, 67001 (2008) 
+16. D. Mills, I.E.Dzyaloshinskii, Phys.Rev. 78, 184422 (2008) 
+17. A.A. Mukhin, A.K. Zvezdin, JETP Lett. 89, 328 (2009) 
+18. A.P. Pyatakov and A.K. Zvezdin, Flexomagnetoelectric interaction in multiferroics, The European Physical Journal 
+B - Condensed Matter and Complex Systems, Volume 71, Number 3, p. 419 (2009) 
+19. S.-W. Cheong, M. Mostovoy, Nature Materials, 6, 13 (2007) 
+20. A.S. Logginov, G.A. Meshkov, A.V. Nikolaev, E.P. Ni kolaeva, A.P. Pyatakov, A.K. Zvezdin Room temperature 
+magnetoelectric control of micromagnetic structure in iron garnet films, Applied Physics Letters ,  v.93, p.182510 (2008) 

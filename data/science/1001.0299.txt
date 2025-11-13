@@ -1,0 +1,170 @@
+arXiv:1001.0299v1  [math.CO]  2 Jan 2010The solutions of four q-functional equations
+Jun-Ming Zhu∗
+Abstract In this note we obtain the solutions of four q-functional equations and express
+the solutions in q-operator forms. These equations give suﬃcient conditions forq-operator
+methods
+Key words: Basic hypergeometric series, q-Series,q-Functional equation, q-Diﬀerence
+equation, q-Exponential operator
+1 Introduction
+We follow the notation and terminology in [6] , and for conven ience, we always assume
+that 0<|q|<1. Theq-shifted factorials are deﬁned by
+(a;q)n=/braceleftBigg
+1, n = 0,
+(1−a)(1−aq)···(1−aqn−1), n= 1,2,3,······,
+Theq-derivative operator is deﬁned by
+Dq{f(a)}=f(a)−f(aq)
+a, Dn
+q{f(a)}=Dq{Dn−1
+q{f(a)}}.
+The operator θis deﬁned by
+θ=η−1Dq, θn{f(a)}=θ{θn−1{f(a)}},
+whereη−1{f(a)}=f(q−1a).BothDqandθare obviously linear transforms, and by
+convention, D0
+qandθ0are both understood as the identity.
+The two q-exponential operators (see, [2, 3, 7, 8, 10]) are deﬁned by
+T(bDq) =∞/summationdisplay
+n=0(bDq)n
+(q;q)n,
+and
+E(bθ) =∞/summationdisplay
+n=0qn(n−1)/2(bθ)n
+(q;q)n,
+respectively.
+∗E-mail address: jm zh@sohu.com, junming zhu@163.com
+1The following operator was ﬁrst introduced by Fang [5]. But w e follow Chen and Gu’s
+notation [1]. It seems to be more convenient.
+T(a,b;Dq) =∞/summationdisplay
+n=0(a,q)n
+(q;q)n(bDq)n.
+Chen and Gu [1] named T(a,b;Dq) as Cauchy operator. But compared with the following
+operator, we called T(a,b;Dq) the ﬁrst Cauchy operator in this paper.
+The operator T(a,b;θ), introduced by Fang [5], is deﬁned by
+T(a,b;θ) =∞/summationdisplay
+n=0(a,q)n
+(q;q)n(bθ)n.
+We called T(a,b;θ) the second Cauchy operator.
+All the papers using the q-operator methods imply the following deﬁnition but do not
+state it explicitly. Unless otherwise stated, all the opera tors are applied with respect to
+the parameter a.
+Deﬁnition 1.1
+T(bDq){f(a)}=∞/summationdisplay
+n=0bn
+(q;q)n{Dqn{f(a)}},
+and
+E(bθ){f(a)}=∞/summationdisplay
+n=0qn(n−1)/2bn
+(q;q)n{θn{f(a)}}.
+The ﬁrst and the second Cauchy operators and the operators T(bθ) andE(bDq) below
+also act in this way.
+When using the methods of operators, rearrangememts of seri es are often emploied.
+We know that rearrangememts of series must be under the condi tion that the series are
+absolutely convergent, which may benot very easy to check so metimes. Inhis paper [9] ,
+Liu obtained the following two theorems using the q-functional equation method.
+Theorem 1.1Letf(a,b)be a two variables analytic function in a neighborhood of
+(a,b) = (0,0)∈C2, satisfying the q-diﬀerence equation
+bf(aq,b)−af(a,bq) = (b−a)f(a,b).
+Then we have
+f(a,b) =T(bDq){f(a,0)}.
+Theorem 1.2Letf(a,b)be a two variables analytic function in a neighborhood of
+(a,b) = (0,0)∈C2, satisfying the q-diﬀerence equation
+af(aq,b)−bf(a,bq) = (a−b)f(aq,bq).
+Then we have
+f(a,b) =E(bθ){f(a,0)}.
+2These two theorems give us a method to use operator T(bDq) andE(bθ) without having
+to check the absolute convergence of the series.
+Originated by Liu’s work, we give the above two theorems more general forms in the
+following section.
+2 Four q-functional equations and the solutions
+Theorem 2.1Letf(a,b,c)be a three variables analytic function in a neighborhood
+of(a,b,c) = (0,0,0)∈C3, satisfying the q-functional equation
+c(f(a,b,c)−f(a,bq,c)) =b(f(a,b,c)−f(a,b,cq)−af(a,bq,c)+af(a,bq,cq)).(1)
+Then we have
+f(a,b,c) =T(a,b;Dq){f(a,0,c)},
+whereT(a,b;Dq)is applied with respect to the parameter c.
+Theorem 2.2Letf(a,b,c)be a three variables analytic function in a neighborhood
+of(a,b,c) = (0,0,0)∈C3, satisfying the q-functional equation
+c(f(a,bq,cq)−f(a,b,cq)) =b(f(a,bq,cq)−f(a,bq,c)−af(a,b,c)+af(a,b,cq)).(2)
+Then we have
+f(a,b,c) =T(−1
+a,ab;θ){f(a,0,c)},
+whereT(−1
+a,ab;θ)is also applied with respect to the parameter c.
+When letting a→0 in theorem 2.1 and 2.2, we get theorem 1.1 and 1.2, respectiv ely.
+The proof of theorem 2.2 is similar to that of theorem 2.1 and s o is omitted.
+Proof of Theorem 2.1 We now begin to solve this equation. From the theory of
+several complex variables, we assume that
+f(a,b,c) =+∞/summationdisplay
+n=0An(a,c)bn. (3)
+We substitute the above equation into (1) to get
+c+∞/summationdisplay
+n=0(1−qn)An(a,c)bn= (+∞/summationdisplay
+n=0An(a,c)−+∞/summationdisplay
+n=0An(a,cq)−a+∞/summationdisplay
+n=0An(a,c)qn
++a+∞/summationdisplay
+n=0An(a,cq)qn)bn+1.
+This is
+c+∞/summationdisplay
+n=1(1−qn)An(a,c)bn=+∞/summationdisplay
+n=1(1−aqn−1)(An−1(a,c)−An−1(a,cq))bn.
+3Comparing the coeﬃcients of bngives
+c(1−qn)An(a,c) = (1−aqn−1)(An−1(a,c)−An−1(a,cq)).
+Then we have
+An(a,c) =(1−aqn−1)
+(1−qn)(An−1(a,c)−An−1(a,cq))
+c
+=(1−aqn−1)
+(1−qn)Dq{An−1(a,c)},
+whereDqis applied with respect to the parameter c. Iterate the above equation to get
+An(a,c) =(a;q)n
+(q,q)nDq{A0(a,c)}. (4)
+It remains to calculate A0(a,c). Putting b= 0 in (3), we immediately deduce that
+A0(a,c) =f(a,0,c). Substituting (4) back into (3) gives
+f(a,b,c) =∞/summationdisplay
+n=0(a,q)n
+(q;q)n(bDq)n{f(a,0,c)}=T(a,b;Dq){f(a,0,c)}.
+This completes the proof.
+Using the q-functional equation method we easily obtain the following two theorems.
+Theorem 2.3Letf(a,b)be a two variables analytic function in a neighborhood of
+(a,b) = (0,0)∈C2, satisfying the q-functional equation
+af(a,b)+bf(aq,bq) = (a+b)f(a,bq).
+Then we have
+f(a,b) =E(bDq){f(a,0)},
+where the operator E(bDq)is deﬁned by
+E(bDq) =∞/summationdisplay
+n=0qn(n−1)/2(bDq)n
+(q;q)n.
+Theorem 2.4Letf(a,b)be a two variables analytic function in a neighborhood of
+(a,b) = (0,0)∈C2, satisfying the q-functional equation
+af(aq,bq)+bf(a,b) = (a+b)f(aq,b).
+Then we have
+f(a,b) =T(−bθ){f(a,0)},
+where the operator T(bθ)is deﬁned by
+T(bθ) =∞/summationdisplay
+n=0(bθ)n
+(q;q)n.
+From all the theorems in this little paper, we can look at the q -operators from a diﬀerent
+standpoint.
+4References
+[1] V. Y. B. Chen, N. S. S. Gu, The Cauchy operator for basic hypergeometric series , Adv.
+in Appl. Math, 41(2008), 177–196.
+[2] W. Y. C. Chen, Z.-G. Liu, Parameter augmentation for basic hypergeometric series,
+II, J. Combin. Theory Ser. A 80(1997), 175–195.
+[3] W. Y. C. Chen, Z.-G. Liu, Parameter augmentation for basic hypergeometric series,
+I, in: B. E. Sagan, R. P. Stanley (Eds.), Mathematical Essays in honor of Gian-Carlo
+Rota, Birk¨ auser, Basel, 1998, pp. 111–129.
+[4] J.-P. Fang, q-Diﬀerential operator identities and applications , J. Math. Anal. Appl.
+332(2007), 1393–1407.
+[5] J.-P. Fang, q-Operator identities and its applications , Journal of East China Normal
+University, 1(2008), 20–24 (in Chinese).
+[6] G. Gasper, M. Rahman, Basic Hypergeometric Series , 2nd ed., Cambridge Univ. Press,
+Cambridge, MA, 2003.
+[7] Z.-G. Liu, A new proof of the Nassrallah-Rahman integral , Acta Mathematica Sinica
+41(1998), 405–410 (in Chinese).
+[8] Z.-G. Liu, Some operator identities and q-series transformation formulas , Discrete
+Math.,265(2003), 119–139.
+[9] Z.-G. Liu, Twoq-diﬀerence equations and q-operator indetities , Journal of Diﬀerence
+Equations and Applications (in press).
+[10] L. J. Rogers, On the expansion of some inﬁnite products , Proc. London Math. Soc.,
+24(1894), 337-352.
+5

@@ -1,0 +1,236 @@
+arXiv:1001.0736v1  [math.ST]  5 Jan 2010A note on the group lasso and a sparse group
+lasso
+Jerome Friedman∗
+Trevor Hastie†
+andRobert Tibshirani‡
+January 5, 2010
+Abstract
+We consider the group lasso penalty for the linear model. We n ote that
+the standard algorithm for solving the problem assumes that the model
+matrices in each group are orthonormal. Here we consider a mo re general
+penalty that blends the lasso ( L1) with the group lasso (“two-norm”). This
+penalty yields solutions that are sparse at both the group an d individual
+feature levels. We derive an eﬃcient algorithm for the resul ting convex
+problem based on coordinate descent. This algorithm can als o be used
+to solve the general form of the group lasso, with non-orthon ormal model
+matrices.
+1 Introduction
+In this note, we consider the problem of prediction using a linear mode l. Our data
+consist of y, a vector of Nobservations, and X, aN×pmatrix of features.
+Suppose that the ppredictors are divided into Lgroups, with pℓthe number
+in group ℓ. For ease of notation, we use a matrix Xℓto represent the predictors
+corresponding to the ℓth group, with corresponding coeﬃcient vector βℓ. Assume
+thatyandXhas been centered, that is, all variables have mean zero.
+∗Dept. of Statistics, Stanford Univ., CA 94305, jhf@stanford.edu
+†Depts. of Statistics, and Health, Research & Policy, Stanford Univ ., CA 94305,
+hastie@stanford.edu
+‡Depts. of Health, Research & Policy, and Statistics, Stanford Univ , tibs@stanford.edu
+1In an elegant paper, Yuan & Lin (2007) proposed the group lasso wh ich solves
+the convex optimization problem
+min
+β∈Rp/parenleftBigg
+||y−1−L/summationdisplay
+ℓ=1Xℓβℓ||2
+2+λL/summationdisplay
+ℓ=1√pℓ||βℓ||2/parenrightBigg
+, (1)
+where the√pℓterms accounts for the varying group sizes, and ||· ||2is the Eu-
+clidean norm (not squared). This procedure acts like the lasso at th e group level:
+depending on λ, an entire group of predictors may drop out of the model. In fact
+if the group sizes are all one, it reduces to the lasso. Meier et al. (20 08) extend
+the group lasso to logistic regression.
+The group lasso does not, however, yield sparsity within a group. Th at is,
+if a group of parameters is non-zero, they will all be non-zero. In t his note
+we propose a more general penalty that yields sparsity at both the group and
+individual feature levels, in order to select groups and predictors w ithin a group.
+We also point out that the algorithm proposed by Yuan & Lin (2007) fo r ﬁtting
+the group lasso assumes that the model matrices in each group are orthonormal.
+The algorithm that we provide for our more general criterion also wo rks for the
+standard group lasso with non-orthonormal model matrices.
+We consider the sparse group lasso criterion
+min
+β∈Rp/parenleftBigg
+||y−L/summationdisplay
+ℓ=1Xℓβℓ||2
+2+λ1L/summationdisplay
+ℓ=1||βℓ||2+λ2||β||1/parenrightBigg
+. (2)
+whereβ= (β1,β2,...βℓ) is the entire parameter vector. For notational simplicity
+we omit the weights√pℓ. Expression (2) is the sum of convex functions and is
+therefore convex. Figure 1 shows the constraint region for the g roup lasso, lasso
+and sparse group lasso. A similar penalty involving both group lasso an d lasso
+terms is discussed in Peng et al. (2009). When λ2= 0, criterion (2) reduces to
+the group lasso, whose computation we discuss next.
+2 Computation for the group lasso
+Here we brieﬂy review the computation for the group lasso of Yuan & Lin (2007).
+In the process we clarify a confusing issue regarding orthonormalit y of predictors
+within a group.
+The subgradient equations (see e.g. Bertsekas (1999)) for the g roup lasso are
+−XT
+ℓ(y−/summationdisplay
+ℓXℓβℓ)+λ·sℓ= 0;ℓ= 1,2,...L, (3)
+2−1.0 −0.5 0.0 0.5 1.0−1.0 −0.5 0.0 0.5 1.0
+β1β2
+Figure 1: Contour lines for the penalty for the group lasso (dotted), la sso (dashed) and
+sparse group lasso penalty (solid), for a single group with t wo predictors.
+wheresℓ=βℓ/||βℓ||ifβℓ/negationslash= 0 andsℓis a vector with ||sℓ||2<1 otherwise. Let the
+solutions be ˆβ1,ˆβ2...ˆβℓ. If
+||XT
+ℓ(y−/summationdisplay
+k/negationslash=ℓXkˆβk)||< λ (4)
+thenˆβℓis zero; otherwise it satisﬁes
+ˆβℓ= (XT
+ℓXℓ+λ/||ˆβℓ||)−1XT
+ℓrℓ (5)
+where
+rℓ=y−/summationdisplay
+k/negationslash=ℓXkˆβk
+Now if we assume that XT
+ℓXℓ=I, and let sℓ=XT
+ℓrℓ, then (5) simpliﬁes to
+ˆβℓ= (1−λ/||sℓ||)sℓ. This leads to an algorithm that cycles through the groups
+k, and is a blockwise coordinate descent procedure. It is given in Yuan & Lin
+(2007).
+Ifhowever thepredictors arenotorthonormal, oneapproachist oorthonormal-
+ize them before applying the group lasso. However this will not gener ally provide
+a solution to the original problem. In detail, if Xℓ=UDVT, then the columns of
+U=XℓVD−1are orthonormal. Then Xℓβℓ=UVD−1βℓ=U[VD−1βℓ] =Uβℓ∗.
+3But||βℓ∗||=||βℓ||only ifD=I. This will not be true in general, e.g. if Xis a
+set of dummy varables for a factor, this is true only if the number of observations
+in each category is equal.
+Hence an alternative approach is needed. In the non-orthonorma l case, we can
+think of equation (5) as a ridge regression, with the ridge paramete r depending
+on||ˆβℓ||. A complicated scalar equation can be derived for ||ˆβℓ||from (5); then
+substituting into the right-hand side of (5) gives the solution. Howe ver this is not
+a good approach numerically, as it can involve dividing by the norm of a v ector
+that is very close to zero. It is also not guaranteed to converge. I n the next section
+we provide a better solution to this problem, and to the sparse grou p lasso.
+3 Computation for the sparse group lasso
+The criterion (1) is separable so that block coordinate descent can be used for its
+optimization. Therefore we focus on just one group ℓ, and denote the predictors
+byXℓ=Z= (Z1,Z2,...Zk), the coeﬃcients by βℓ=θ= (θ1,θ2,...θk) and the
+residual by r=y−/summationtext
+k/negationslash=ℓXkβk. The subgradient equations are
+−ZT
+j(r−/summationdisplay
+jZjθj)+λ1sj+λ2tj= 0 (6)
+forj= 1,2,...kwheresj=θj/||θ||ifθℓ/negationslash= 0 andsis a vector satisfying ||s||2≤1
+otherwise, and tj∈sign(θj), that is tj=sign(θj) ifθj/negationslash= 0 and tj∈[−1,1] if
+θj= 0. Letting a=Xℓr, then a necessary and suﬃcient condition for θto be zero
+is that the system of equations
+aj=λ1sj+λ2tj (7)
+have a solution with ||s||2≤1 andtj∈[−1,1]. We can determine this by
+minimizing
+J(t) = (1/λ2
+1)k/summationdisplay
+j=1(aj−λ2tj)2=k/summationdisplay
+j=1s2
+j (8)
+with respect to the tj∈[−1,1] and then checking if J(ˆt)≤1. The minimizer is
+easily seen to be
+ˆtj=/braceleftBiggaj
+λ2if|aj
+λ2| ≤1,
+sign(aj
+λ2) if|aj
+λ2|>1.
+Now ifJ(ˆt)>1, then we must minimize the criterion
+1
+2N/summationdisplay
+i=1/parenleftBig
+ri−k/summationdisplay
+j=1Zijθj/parenrightBig2
++λ1||θ||2+λ2k/summationdisplay
+j=1|θj| (9)
+4Thisisthesumofaconvexdiﬀerentiablefunction(ﬁrsttwoterms)a ndaseparable
+penalty, and hence we can use coordinate descent to obtain the glo bal minimum.
+Here are the details of the coordinate descent procedure. For ea chjletrj=
+r−/summationtext
+k/negationslash=jZkˆθk. Thenˆθj= 0 if|ZT
+jrj|< λ2. This follows easily by examining the
+subgradient equation corresponding to (9). Otherwise if |ZT
+jrj| ≥λ2we minimize
+(9) by a one-dimensional search over θj. We use the optimize function in the R
+package, which is a combination of golden section search and succes sive parabolic
+interpolation.
+This leads to the following algorithm:
+Algorithm for the sparse group lasso
+1. Start with ˆβ=β0
+2. Ingroup ℓdeﬁnerℓ=y−/summationtext
+k/negationslash=ℓXkβk,Xℓ= (Z1,Z2,...Zk),βℓ= (θ1,θ2,...θk)
+andrj=y′−/summationtext
+k/negationslash=jZkθk. Check if J(ˆt)≤1 according to (8) and if so set
+ˆβℓ= 0. Otherwise for j= 1,2,...k, if|ZT
+jrj|< λ2thenˆθj= 0; if instead
+|ZT
+jrj| ≥λ2then minimize
+1
+2N/summationdisplay
+i=1(y′
+i−k/summationdisplay
+j=1Zijθj)2+λ1||θ||2+λ2k/summationdisplay
+j=1|θj| (10)
+overθjby a one-dimensional optimization.
+3. Iterate step (2) over groups ℓ= 1,2,...Luntil convergence.
+Ifλ2iszero, weinsteadusecondition(4)forthegroup-level test andw edon’tneed
+to check the condition |ZT
+jrj|< λ2. With these modiﬁcations, this algorithm also
+gives a eﬀective method for solving the group lasso with non-orthog onal model
+matrices.
+Note that in the special case where XT
+ℓXℓ=I, withXℓ= (Z1,Z2,...Zk) then
+its is easy to show that
+ˆθj=/parenleftBig
+||S(ZT
+jy,λ2)||2−λ1/parenrightBig
++S(ZT
+jy,λ2)
+||S(ZT
+jy,λ2)||2(11)
+and this reduces to the algorithm of Yuan & Lin (2007).
+4 An example
+We generated n= 200 observations with p= 100 predictors, in ten blocks of ten.
+The second ﬁfty predictors iall have coeﬃcients of zero. The numb er of non-zero
+5coeﬃcients in the ﬁrst ﬁve blocks of 10 are (10, 8, 6, 4, 2, 1) respe ctively, with
+coeﬃcients equal to ±1, the sign chosen at random. The predictors are standard
+Gaussianwithcorrelation0.2withinagroupandzerootherwise. Finally , Gaussian
+noise with standard deviation 4.0 was added to each observation.
+Figure2showsthesignsoftheestimatedcoeﬃcientsfromthelasso , grouplasso
+and sparse group lasso, using a well chosen tuning parameter for e ach method (we
+setλ1=λ2for the sparse group lasso). The corresponding misclassiﬁcation r ates
+for the groups and individual features are shown in Figure 3. We see that the
+sparse group lasso strikes an eﬀective compromise between the las so and group
+lasso, yielding sparseness at the group and individual predictor leve ls.
+References
+Bertsekas, D. (1999), Nonlinear programming , Athena Scientiﬁc.
+Meier, L., van de Geer, S. & B¨ uhlmann, P. (2008), ‘The group lasso f or logistic
+regression’, Journal of the Royal Statistical Society B 70, 53–71.
+Peng, J., Zhu, J., Bergamaschi, A., Han, W., Noh, D.-Y., Pollack, J. R. & Wang,
+P. (2009), ‘Regularized multivariate regression for identifying mast er predic-
+tors with application to integrative genomics study of breast cance r’,Annals
+of Applied Statistics (to appear) .
+Yuan, M. & Lin, Y. (2007), ‘Model selection and estimation in regress ion
+with grouped variables’, Journal of the Royal Statistical Society, Series B
+68(1), 49–67.
+60 20 40 60 80 100−3 −2 −1 0 1 2 3
+PredictorCoefficientGroup lasso
+0 20 40 60 80 100−3 −2 −1 0 1 2 3
+PredictorCoefficientSparse Group lasso
+0 20 40 60 80 100−3 −2 −1 0 1 2 3
+PredictorCoefficientLasso
+Figure 2: Results for the simulated example. True coeﬃcients are indi cated by the open
+triangles while the ﬁlled green circles indicate the sign of the estimated coeﬃcients from
+each method.
+72 4 6 8 10 120 1 2 3 4 5
+Regularization parameterNumber of groups misclassified Lasso
+Group lasso
+Sparse Group lasso
+2 4 6 8 10 1210 20 30 40 50 60 70
+Regularization parameterNumber of features misclassified
+Figure 3: Results for the simulated example. The top panel shows the num ber of groups
+that are misclassiﬁed as the regularization parameter is va ried. A misclassiﬁed group
+is one with at least one nonzero coeﬃcient whose estimated co eﬃcients are all set to
+zero, or vice versa. The bottom panel shows the number of indiv idual coeﬃcients that
+are misclassiﬁed, that is, estimated to be zero when the true coeﬃcient is nonzero or
+vice-versa.
+8

@@ -1,0 +1,123 @@
+arXiv:1001.0876v1  [astro-ph.CO]  6 Jan 2010Studying the kinematics of faint stellar
+populations with thePlanetary Nebula
+Spectrograph
+MichaelR.Merriﬁeld∗andThe PN.SConsortium†
+∗Schoolof Physics&Astronomy,University ofNottingham,UK
+†http://www.astro.rug.nl/~pns/
+Abstract. Galaxiesarefaintenoughwhenoneobservesjusttheirlight distributions,butinstudying
+their full dynamical structure the stars are spread over the six dimensions of phase space rather
+than just the three spatial dimensions, making their densit ies very low indeed. This low signal is
+unfortunate,as stellar dynamicshold important clues to th ese systems’ life histories, and the issue
+is compoundedbythe factthat themost interestinginformat ioncomesfromthefaintest outerparts
+ofgalaxies,wheredynamicaltimescales(andhencememorie sofpasthistory)arelongest.
+Toextractthisinformation,wehaveconstructedaspecial- purposeinstrument,thePlanetaryNeb-
+ula Spectrograph, which observes planetary nebulae as kine matic tracers of the stellar population,
+and allows one to study the stellar dynamics of galaxies down to extremely low surface bright-
+nesses. Here, we present results from this instrument that i llustrate how it can uncover the nature
+of low surface-brightnessfeatures such as thick disks by st udying their kinematics, and trace faint
+kinematicpopulationsthatarephotometricallyundetecta ble.
+Keywords: Galaxydynamics,Planetarynebulae
+PACS:98.10.+z,98.62.Dm
+INTRODUCTION
+Because stars are well-spaced, even the inner parts of galax ies can appear faint, com-
+parable in surface brightness to the darkest of night skies. Not surprisingly, then, when
+we start exploring the full six-dimensional phase space of v elocities and positions that
+starsoccupyingalaxies,thesignalperphasespaceelement becomesalmostvanishingly
+small. In the case of the Milky Way, for example, the fascinat ing stellar streams in the
+halo[1]havewidthsofonly ∼20pc, andvelocitydispersionsofmaybe ∼10kms−1. If
+we were to divide the Galaxy, with a linear dimension of ∼20kpc and velocities span-
+ning∼600kms−1, into resolution elements this small, we would end up with ∼1014
+of them, many more than there are stars in the Milky Way, so the average occupation
+numberperelementwouldbevery smallindeed.
+Thus,ifwearetostudythedetailedkinematicsofgalaxies, weneedtodotwothings.
+First, we must be able to detect stellar populations at extre mely low phase densities,
+which essentially means detecting individual stars. Secon d, we need to come up with
+ways to combine the information from these individual detec tions in order to bring
+together enough signal to say anything about the properties of the galaxy, and hence
+reconstructitsdetaileddynamicalstructureinorderto le arn aboutitsevolution.
+Planetary nebulae (PNe) offer an ideal tracer of such faint s tellar populations, asthey are readily individually detectable from their emissi on lines, even in quite distant
+galaxies,and the Dopplershiftsin these linescan be used to measure theirline-of-sight
+velocities.Tomakesuchmeasurementsefﬁcientlyinasingl estep,wehavedesignedand
+built a customized instrument, the Planetary Nebula Spectr ograph or PN.S [2]. In this
+paper,wepresentexamplesfromacoupleoftheprojectsthat wehavebeenundertaking
+withthisinstrument,toillustratestheprinciplesofinve stigatinggalaxiesintheultimate
+low-densityregimeofphasespace.
+THETHICK DISKIN NGC 891
+When one traces edge-on stellar disks away from the plane out to very low surface
+brightnesses, an excess of light above the extrapolation of the normal disk population
+is frequently found [3]. The nature of such “thick disks” rem ains highly controversial:
+theycouldjustbetheextremetailofthenormaldiskpopulat ion,ortheycouldrepresent
+some more dramatic event, such as the debris from a merger. On e exciting new clue
+to help distinguish between these possibilities was uncove red when it was found that
+the thick disk in the edge-on system FGC 227 appears to be rota ting in the opposite
+directiontothenormalthin-diskpopulation,indicatingt hatitwouldhavetobeadistinct
+component such as might be formed in a merger [4]. However, th e surface brightness
+of this component is so faint that, even with ten hours of inte gration on an 8-metre
+telescope, conventional spectroscopy had such large error bars that the data were also
+consistentwithco-rotatingthinand thickdisks.
+As Figure 1 illustrates, we can do a great deal better with a ra ther shorter integration
+on a 4-metre telescope using PN.S. The upper panel shows the n umber counts of PNe
+detectedintheedge-onspiralNGC891asafunctionofdistan cefromitsplane.Thelines
+show a possible decomposition of the disk into thin and thick exponential components
+[5]. The data drop below the model close to the plane, as PNe ar e difﬁcult to detect
+against the high surface brightness of the galaxy in this reg ion, and some PNe will also
+belostinNGC 891’sstrongdustlane. However,intheregionw eareinterestedin away
+from theplane, thePN numbercountstrace thelightdistribu tionvery well, underlining
+theirnatureas generic tracers ofthestellarpopulation.F urther, weare clearly detecting
+them in signiﬁcant numbers out to beyond the transition wher e the thick disk becomes
+thedominantcomponent.
+The lower panel in this ﬁgure shows the observed mean rotatio n speed for these PNe
+asafunctionofdistancefromtheplane.Thereisplentyofsi gnaltodistinguishbetween
+co- and counter-rotating thin and thick disk components, an d in this system the two are
+clearly rotating in the same direction. Indeed, we can go fur ther and ﬁt a simplesingle-
+componentkinematicmodeltothedata. Thisheuristicmodel isoftheform
+/angbracketleftv/angbracketright=α(vc−βσz(z)2/vc), (1)
+whereαprovidesthefactorthatallowsfortheline-of-sightproje ctioneffectsthatreduce
+the line-of-sight velocity below the mean rotational veloc ity [6], while βparameterizes
+allthetermsrelatedtotheshapeofthevelocityellipsoidi ntheasymmetricdriftequation
+[7]; here it is assumed to be a constant. The circular speed of the galaxy, vc, can be
+inferred from gas kinematics, while the vertical velocity d ispersion, σz(z), is estimatedFIGURE1. Propertiesofthe PNe in thedisk ofthe edge-ongalaxyNGC891 asa functionofdistance
+from the galactic plane. The upper panel shows the number cou nts of PNe as detected with PN.S, with
+lines showing a model decomposition of conventional photom etry into thin disk and thick disk [5]. The
+lower panel shows the mean rotation velocity of these PNe, wi th a line showing the simplest possible
+single-populationmodelfortheirkinematics.
+by solving the Jeans equation for a self-gravitating sheet w hose density distribution is
+given by the double exponential model in the upper panel of Fi gure 1. Clearly, the data
+areessentiallyconsistentwiththissimplesingle-compon entmodel:thereisnokinematic
+evidencethatthethickdiskin NGC891isin anyway adistinct entity.
+A FAINTKINEMATIC POPULATION IN M31
+Asafurtherillustrationofthewayinwhichfaintkinematic componentscanbedetected,
+Figure2showstheresultsofananalysisofthe2615PNethatw erefoundusingPN.Sin
+a survey of M31 [9]. In an inclined disk system like this, the p hase space is essentially
+reducedtofourdimensions,twospatialandtwovelocity.We canmeasurethreeofthese
+components,twospatialandtheline-of-sightvelocity,so eachPNhasonlyoneunknown
+coordinate. Thus, while one cannot measure the energy and an gular momentum of any
+single PN, there is only a one-dimensional family of possibi lities, as illustrated by the
+linesectionsintheﬁgure. IfgroupofPNeshareacommonorbi t(and henceenergy and
+angular momentum), then their lines will all intersect at a s ingle point, creating a local
+excess in this plane. Such an excess of crossing lines is, ind eed, found in this ﬁgure, at
+the point indicated by the box. The location of the orbit to wh ich it corresponds does
+not appear in any way special in an optical imageof M31, but, a s theinset imagein theFIGURE2. Plotofthepossiblevaluesofangularmomentumandenergy(w iththelocalcircularenergy
+subtracted, so a circular orbit lies at the bottom of the plot ) for each of the PNe in the M31 survey data.
+Thewhite box showsthe pointof the largest local excessof PN e. The inset showsthe orbit to whichthis
+pointcorresponds,superimposedona mid-infraredimageof thegalaxy[8].
+ﬁgureshows,mid-infrareddatarevealabrightringofemiss ionatthisradius,indicating
+that it lies at one of the major orbital resonances. Thus, eit her we have detected the
+population of stars born in this ring of star formation, or, m ore likely since PNe come
+from old stars, we are picking out the relatively small popul ation of objects that have
+become dynamically trapped at this resonance. Whatever the ir origin, these data again
+illustrate the power of PN.S to identify kinematic componen ts that are at far too low a
+densityin phasespace tobedetectablebymoreconventional means.
+REFERENCES
+1. V. Belokurov,et al., ApJ642,L137–L140(2006).
+2. N.G. Douglas,et al., PASP114,1234–1251(2002).
+3. P.Yoachim,andJ.J. Dalcanton, AJ131,226–249(2006).
+4. P.Yoachim,andJ.J. Dalcanton, ApJ624,701–713(2005).
+5. H. L. Morrison, E. D. Miller, P. Harding, D. R. Stinebring, and T. A. Boroson, AJ113, 2061–2074
+(1997).
+6. E.Neistein,D. Maoz,H. Rix,andJ. L.Tonry, AJ117,2666–2675(1999).
+7. J. Binney,andS. Tremaine, GalacticDynamics:SecondEdition ,PrincetonUniversityPress, 2008.
+8. K. Gordon, et al., “The Multiwavelength View of M31 includ ing New Spitzer/MIPS Infrared Im-
+ages” inBulletin of the American Astronomical Society , 2004, vol. 36 of Bulletin of the American
+AstronomicalSociety ,1579.
+9. H.R. Merrett,etal., MNRAS369,120–142(2006).

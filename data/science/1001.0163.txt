@@ -1,0 +1,415 @@
+arXiv:1001.0163v1  [cond-mat.stat-mech]  31 Dec 2009Short-time dynamic in the Majority vote model: The ordered a nd disordered initial
+cases
+Francisco Sastre1
+1Departamento de Ingenier´ ıa F´ ısica, Divisi´ on de Ciencia s e Ingenier´ ıa,
+Campus Le´ on de la Universidad de Guanajuato,
+AP E-143, CP 37150, Le´ on, Guanajuato, M´ exico∗
+This work presents short-time Monte Carlo simulations for t he two dimensional Majority-vote
+model starting from ordered and disordered states. It has be en found that there are two pseudo-
+critical points, each one within the error-bar range of prev ious reported values performed using
+fourth order cumulant crossing method. The results show tha t the short-time dynamic for this
+model has a dependence on the initial conditions. Based on th is dependence a method is proposed
+for the evaluation of the pseudo critical points and the extr action of the dynamical critical exponent
+zand the static critical exponent β/νfor this model.
+PACS numbers: 64.60.Ht,75.40.-s,05.70.Ln
+Keywords:
+I. INTRODUCTION
+Critical phenomena in equilibrium statistical systems
+is one of the most important topics in physics. Much
+of the attention has been focused on the universality of
+thecriticalexponents, withseveraluniversalityclassesal-
+readycharacterizedin equilibrium systems. On the other
+hand the critical behavior of non-equilibrium statistical
+systems has been receiving a lot of attention in recent
+years, but the characterization of the diﬀerent universal-
+ity classes is far from be complete. One of the simplest
+non-equilibrium models is the two dimensional majority
+votemodel, an Ising-likesystem (up-down symmetry and
+spin-ﬂip dynamic) with a continuous order-disordertran-
+sition with the same critical exponents that the two di-
+mensionalIsing model [1–3], as expected from the predic-
+tionofGrinstein et al[4]: everyspinsystemwithspin-ﬂip
+dynamic and up-down symmetry falls in the Ising model
+universality class. However, there is some controversy
+about the universality class for higher dimensions. A re-
+cent work claims [5] that the upper critical dimension for
+the majority vote model is 6 instead of 4, based on nu-
+merical calculations. Another discrepancy in the critical
+exponents have been found in simulations on non-regular
+lattices [6, 7]. It must be mentioned that all ofthe results
+mentioned above were performed using standard ”Monte
+Carlo” simulations and Finite Size Scaling approaches
+for the evaluation of the static critical exponents. On
+the other hand the time evolution can gives important
+information about the universality of a given system. It
+has been shown by Janssen et al.[8] that when systems
+with relaxation dynamics are quenched from high tem-
+peratures to the critical temperature there is a short crit-
+ical universal behavior. Numerical simulations have con-
+ﬁrmed this behaviorin the Isingand the Pottmodels (see
+∗Electronic address: sastre@ﬁsica.ugto.mxreference [9] for a review of these results). Concerning
+the critical dynamic in systems without detailed balance,
+there are some works that evaluate the critical dynamic
+exponent z[11, 12] and the ﬂuctuation-dissipation ra-
+tioX∞[13] for the Majority model, but always starting
+from a disordered state. As expected the results were
+compatibles with the Ising ones. Given all these results
+one should expect that the basic assumption for the dy-
+namic relaxation of the k-th moment of the order param-
+eter starting from an completely ordered state will be the
+same as in the Ising model, but this has not been proved
+yet.
+The aims of this work are: a) to evaluate the critical
+pointusingshorttimedynamicstartingfromorderedand
+disorderedinitial conditions and b) evaluate the dynamic
+critical exponent zand the static critical exponent β/ν.
+This will test if the Grinstein prediction holds for the
+short time dynamic in the majority vote model.
+II. MODELS AND DEFINITIONS
+In the Majority vote model each lattice site has a spin
+whose values are σ=±1 and its dynamic can be grouped
+by the spin ﬂip rule
+Wi=1
+2[1−σif(Hi)], (1)
+hereHiis the local ﬁeld/summationtext
+nnσj=,0,±2,±4 produced
+by its nearest neighbors and fis a function with up
+down symmetry that depends on two control parameters
+f(0) = 0, f(2) =−f(−2) =xandf(4) =−f(4) =y.
+The parameters xandycan be associated with inter-
+face and bulk temperatures respectively [15] using the
+relations
+x= tanh2β2, y= tanh4β4. (2)
+The Majority model is obtained setting x=y(β4<
+β2)and the critical point is at xc= 0.850(2) [2, 3].2
+The equilibrium case can be obtained along the line
+y= 2x/(1+x2) (Glauber dynamic), where the temper-
+atures are equal ( β2=β4=β) and the critical point is
+βc=1
+2log(1+√
+2).
+The order parameter is the standard for Ising-like sys-
+tems, deﬁned by
+m=1
+N/angbracketleft/summationdisplay
+iσi/angbracketright (3)
+whereN=L2is the total number of lattice sites ( Lis
+the lateral size.
+Starting from a disorderedstate the dynamic for the k-
+thmomentoftheorderparameterwasderivedbyJanssen
+et al[8], the mathematical expression is given by
+m(k)(t,τ,L,m 0) =b−kβ/νm(k)(b−zt,b1/ντ,b−1L,bx0m0),
+(4)
+hereτ= (T−Tc)/Tcis the reduced temperature, or the
+reduced control parameter for non-equilibrium systems,
+tis the dynamic time variable, bis the re-scaling factor,
+βandνare static critical exponents, zis the dynamic
+critical exponent, x0is the scaling dimension of the ini-
+tial (small) order parameter m0(see [9] and reference
+therein).
+At the critical point for suﬃciently small m0and large
+systems ( L→ ∞) the order parameter follows a power
+law dynamic
+m(t)∼m0tθ, (5)
+whereθis deﬁned by ( x0−β/ν)/z. One must remark
+that there is a strong dependence on the initial value of
+theorderparameter. Thisdependencedoesnotaﬀectthe
+power law behavior at the critical point, what is aﬀected
+is the exponent θthat tends to the real value in the limit
+m0→0
+For the dynamic starting, from the ordered state we
+have the assumption that the scaling dynamic form is
+given by
+m(k)(t,τ,L) =b−kβ/νm(k)(b−zt,b1/ντ,b−1L),(6)
+again it can be obtained the scaling form at the critical
+point taking the limit L→ ∞.
+M(t)∼t−β/νz. (7)
+This has been proved in equilibrium systems, like the
+Ising or the Potts model.
+For the evaluation of the critical point it has been used
+the fact that theoretically the order parameter evolves
+as a power law at the critical point If it is evaluated the
+diﬀerencebetween apowerlawandthe time evolutionfor
+diﬀerent values of the control parameter xwe will expect
+a minimum in those diﬀerences at the critical point.
+The simulations were performed choosing the lattice
+site randomly starting from both, a completely ordered
+state (m= 1.0) and a carefully prepared disordered state0.20.3m(t)
+10 50 100 200t0.650.700.75a)
+b)
+FIG. 1: (color online) a) Dynamic starting from an ordered
+state. b) Dynamic starting from a disordered state ( m0=
+0.0875). In both cases the top continuous line corresponds to
+axabove the critical point and the lower one to a xbelow
+the critical point. The dashed line shows the expected power
+law behavior.
+with small magnetization values m0<0.1. The or-
+der parameter is evaluated as a function of the time t,
+with ∆t= 1 corresponding to a Monte Carlo time step
+(MCTS). In order to avoid ﬁnite size eﬀects we used lat-
+ticeswithlateralsize L= 29(N=L2). Theaveragewere
+taken with at least 105independent simulations and 250
+and 1000 MCTS for the evaluation of the critical point
+and dynamical exponents respectively.
+III. RESULTS
+Given that the power law behavior of the order pa-
+rameter as function of t(decay from an ordered state,
+increase for a disordered one) one can performed simula-
+tions for diﬀerent values of xaround the expected critical
+point. In Fig. 1 we can observe that above and below a
+certain value of xwe have dynamic that diﬀer from a
+power law (illustrated by the dashed line).
+From here one must deﬁne the criterion that will mea-
+sure which is the best power law curve, in this work it
+was used the measurement of the χ2for each curve with
+respect to a power law behavior. I must remark that pre-
+vious results for equilibrium systems give the same result
+for the critical point for both initial states. However, two
+diﬀerent values were found for the majority vote model,
+see Fig. 2.
+The critical point values obtained were xc=
+0.85007(6)and xc= 0.85147(2)fortheorderanddisorder
+state respectively, both results are in perfect agreement
+with the obtained in the static case (references [1–3]) and
+are quite close.
+We have a clearly dependence on the initial condition
+in short time dynamic of this model, which is not the3
+0.849 0.850 0.851 0.852 0.853
+x0.01×10−52×10−5χ2 
+FIG. 2: (color online) Deviation from the power line behavio r
+for the decay ( m0= 1, left curve) and the increase ( m0=
+0.0875, right curve) cases.
+TABLE I: Critical point for initial disordered states.
+m00.0375 0.0500 0.0625 0.0750 0.0875
+xc0.84929(10) 0.84972(9) 0.85019(6) 0.85076(5) 0.85147(2)
+case for equilibrium systems. There is no doubt about
+the critical point obtained from the ordered phase, since
+m0= 1 is one of the ﬁxed point under renormalization
+group transformations. However, one must remember
+that the power law is valid only in the limit m0→0 (the
+other ﬁxed point) for the disorder case, assuming that
+the ”real” critical point is located at this limit, one can
+proceed to evaluate the critical point for another values
+ofm0and with this values extrapolate the critical point
+forthe disorderedphase. TheresultsareshowedintableI
+Once that each value xc(m0) has been evaluated, the
+dynamical exponent θcan be obtained. For the evalua-
+tionofthisexponentthesimulationswereperformedwith
+1000 MCTS discarding the ﬁrst time steps, since there is
+an initial time scale tmicwhere the power law stabilizes
+tmic∼20 (see Fig. 3). The results for the exponent θare
+showed in table II.
+With a extrapolation of these values to m0= 0 the
+value of the critical point and the θexponent were eval-
+uated (see Fig. 4). The result for the critical point was
+xc= 0.84860(10), which is clearly diﬀerent from the or-
+dered one, however both values are within the error bar
+from the obtained in the static case 0 .848≤xc≤0.852.
+From now on the pseudo critical point evaluated with
+TABLE II: thetaexponents for growing process.
+m00.0375 0.0500 0.0625 0.0750 0.0875
+θ0.1769(8) 0.1774(4) 0.1782(3) 0.1788(4) 0.1792(3)1 10 100 1000t0.1m(t)
+FIG. 3: (color online) Growing of the order param-
+eter at xc(m0), the continuous curves are for m0=
+0.0875,0.075,0.0625,0.5,0.0375 from top to bottom. The
+dashed line represents the power law growing with θ= 0.1751
+(the result in this work for the majority vote model).
+the decay process will be denoted as xo
+cand the evalu-
+ated with the growing process with xd
+c. This surprising
+result seems similar to the obtained for weak ﬁrst-order
+phase transitions [10], where two pseudo-critical points
+exits due to the metastable states above and below the
+critical point. However, there is an important diﬀerence
+in this case: for weak order phase transitions the smaller
+critical point corresponds to the decay process, and the
+bigger corresponds to the growing process, contrary to
+the majority vote model case.
+In the evaluation of the exponent θa linear extrapola-
+tion gives the result of 0 .175(3), which is lower from the
+values of the two dimensional Ising model, θ= 0.191(1),
+and from the previously evaluated in references [11, 12]
+for the majorityvote model, θ= 0.192(2). The diﬀerence
+with respect to the Ising model could be understood con-
+sidering that the results obtained here seems to indicate
+a hole new dynamic. The diﬀerences with previous re-
+sults for the majority model can be explained observing
+the simulations details used previously: ﬁrst the critical
+point used was x=0.850, which is above the result for
+xd
+c. Second the systems sizes used previously were really
+small (L= 32), at this size the growing process is not
+very long and is really hard to see the power law behav-
+ior.
+One can obtain the dynamical exponent zevaluating
+the second moment of the magnetization at the critical
+pointxd
+c
+m(2)∼ty, y= (d−2β/ν)/z, (8)
+and the autocorrelation
+A(t) =/summationtext
+iσi(t= 0)σ(t),
+A(t)∼t−λ, λ=d
+z−θ.(9)4
+0.8480.850xc
+0 0.02 0.04 0.06 0.08m00.1750.18θa)
+b)
+FIG. 4: a) Evaluation of the critical point xcand b) the θ
+exponent.
+0.0010.0100.1001.000A(t)
+1 10 100 1000t1×10−61×10−51×10−4m(2)(t)a)
+b)
+FIG. 5: (color online) a) Evaluation of λ, the continuous line
+shows the autocorrelation time evolution and the dashed lin e
+shows the power law behavior with λ= 0.758. b) Evaluation
+ofy, the continuous line shows the second moment order
+parameter and the dashed line shows the power law behavior
+withy= 0.799.
+Both starting from m0= 0 and using 1000 MCTS. Again
+there is a tmicin each case (around 20 for the autocor-
+relation and 75 for the second moment, see Fig. 5). The
+results obtained are y= 0.799(17) and λ= 0.758(2).
+Combining both results it can be obtained the values
+z= 2.143(9) and β/ν= 0.143(18). A summary of the
+results are showed in table III, where it can be observed
+discrepancies between most of the values for the major-
+ity model and the Ising ones. It must be remark that all
+these results were obtained using just the growing pro-
+cess.
+Finally the decay exponent β/νzwas evaluated start-
+ing from an ordered phase (at xo
+c), using 1000 MCTSTABLE III: Summary of the results in this work and of the
+Ising model.
+Majority vote model Ising
+θ 0.175(3) 0.191(1)
+λ 0.758(2) 0.737(1)
+z 2.143(9) 2.155(3)
+y 0.799(17) 0.817(7)
+β/ν 0.143(18) 1/4
+1 10 100 1000t0.60.70.80.9m(t)
+FIG. 6: (color online) Order parameter relaxation ( m0= 1),
+herethedashed lineshows thepower lawbehavior with β/ν=
+0.0526.
+(Fig. 6), the result was β/ν= 0.0526(5), that is lower
+compared to the Ising one, 0 .0580(5). Again the ﬁrst
+time steps were discarded for the evaluation of the expo-
+nent (Fig. 6). Theoretically it is possible to obtain the z
+exponent using the known value of β/ν, or knowing the z
+value one can obtain the β/νvalue, but in both cases the
+results depend on values obtained with a growingprocess
+(z) or the static simulations ( β/nu). The approachtaken
+in this work is that the growing and the decay process
+are diﬀerent and it could be possible that the dynamic
+exponent zis diﬀerent in each case, so for the decay case
+the reporting value is z= 2.37(2).
+The fact that we have two pseudo-critical points (that
+not corresponds to a weak phase transition) and that the
+decay and growing process are slower that in the Ising
+model must be related to the absence of detailed balance
+condition. One of the consequences of this absence is
+that we do not have a unique thermodynamic temper-
+ature, in this case we have two, so looking at the snap-
+shots for diﬀerent initial conditions at the pseudo-critical
+points we can speculate about the competition between
+thetwo”temperatures”thatgovernsthedynamicin non-
+equilibrium Ising systems. Figure 7 shows the time evo-
+lution with m0= 0 at the two pseudo-critical points, a)
+forxd
+cand b) for xo
+c. Initially the number of sites with
+spin-ﬂip probability depending on β2are very similar to
+the ones depending on β4, the time increases from left to
+right and it can be observed that at xo
+cthe coarsening5
+FIG. 7: Snapshots at the pseudo-critical points starting wi th
+m0= 0, a) xd
+cand b)xo
+c. Times are (from left to right) 1,
+100, 1000, 10000 and 20000.
+FIG. 8: Snapshots at the pseudo-critical points starting wi th
+m0= 1, a) xd
+cand b)xo
+c. Times are (from left to right) 1,
+100, 1000, 10000 and 20000.
+seems to appear faster that at xd
+c.
+Figure 8 shows the same time evolution for m0= 1.
+In this case at the beginning of the evolution all sites
+have spin-ﬂip probability that depends only on β4and
+the decay is slightly lower at xo
+c.
+It seems that the coarsening diﬀers at the two pseudo-
+critical points, so as a ﬁnal test the time evolution for
+a special initial condition were performed setting m0re-
+ally close to zero putting almost half of the spins in one
+state and the other half in the other state with a circular
+border, in this way we have a large number of sites with
+β4while the number of possible sites with b2increases
+(Fig. 9). We can observe that the circular shape last
+longer at xo
+c. In order to corroborate the eﬀect of the
+diﬀerence between temperatures it should be performed
+simulationsin spin-like systemsfor diﬀerent ratios β4/β2,
+except for the equilibrium case β4/β2= 1.
+FIG. 9: Snapshots at the pseudo-critical points starting wi th
+m0almost zero and a circular border, a) xd
+cand b)xo
+c. Times
+are (from left to right) 1, 100, 1000, 10000 and 20000.IV. CONCLUSION
+In this work it has been shown that the short time
+dynamic in the majority vote model presents power law
+behavior at diﬀerent control parameters for the grow-
+ing,xd
+c= 0.84860(10), and the decay processes, xo
+c=
+0.85007(6). These pseudo-critical points are compati-
+bleswithresultsforthecriticalpointreportedpreviously,
+xc= 0.850(2). It has been show also that the dynamic
+in both cases is slower that in Ising model for all the
+quantities calculated ( m, m(2)andA). These results
+seems to be related to the competing dynamic between
+the interface ( β2) and bulk ( β4) temperatures associated
+to the dynamic, and as consequence to the absence of
+detailed balance in the system. In order to corroborate
+these results additional simulations must be carry on in
+systemswithout detailedbalance. Thedynamicalcritical
+exponent ( z) and the static critical exponent ( β/ν) has
+been evaluated independently using a growingprocess, in
+both cases the results were close to the Ising ones. For
+the decay process the zexponent was evaluated using re-
+sults from static simulations founding that the value is
+diﬀerent from the obtained in the growing process.
+V. ACKNOWLEDGMENTS
+I wish to thank G. P´ erezfor his useful comments. This
+work was supported by Conacyt M´ exico through Grant
+No. 61418/2007.
+VI. REFERENCES6
+[1] M. J. de Oliveira, J. of Stat. Phys. ,66, 273 (1992).
+[2] M. J. de Oliveira, J. F. F. Mendes and M. A. Santos, J.
+Phys. A: Math. and Gen. ,262317 (1993).
+[3] KwakWooseop, Jae-SukYang, Jang-il SohnandIn-mook
+Kim,Phys. Rev. E 75, 061110 (2007).
+[4] G. Grinstein, C. Jayaprakash and Y.He, Phys. Rev. Lett.
+55,2527 (1985).
+[5] Jae-SukYangandIn-mookKim, Phys. Rev. E 77, 051122
+(2008).
+[6] F. W. S. Lima, U. L. Fulco and R. N. Costa Filho, Phys.
+Rev. E71, 036105 (2005).
+[7] F. W. S. Lima and K. Malarz, Int. J. of Moderm Phys.
+C17, 1273 (2006).
+[8] H. K. Janssen, B. Schaub and B. Schmittmann, Z. Phys.
+B73, 539 (1989).[9] B. Zheng, 1998 Int. J. of Mod. Phys. ,12(1419).
+[10] L. Sch¨ ulke and B. Zheng, Phys. Rev. E 62, 7482 (2000)
+[11] J. F. F. Mendes and M. A. Santos, Phys. Rev. E 57108,
+(1998).
+[12] T. Tom´ e and M. J. de Oliveira, Phys. Rev. E 58, 4242
+(1998).
+[13] F. Sastre, I. Dornic and H. Chat´ e Phys. Rev. Lett. 91,
+267205 (2003).
+[14] M. P. Nightingale and H. W. J. Bl¨ ote, Phys. Rev. B 62,
+1089 (2000).
+[15] J. M. Drouﬀe and C. Godr` eche, J. Phys. A: Math. and
+Gen.32, 249 (1999).
+[16] P. Calabrese, A. Gambassi and F. Krzakala, J. of Stat.
+Mec.: Th. Exp. , 06016 (2006).

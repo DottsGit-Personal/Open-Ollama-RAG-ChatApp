@@ -1,0 +1,347 @@
+arXiv:1001.0096v1  [hep-ph]  31 Dec 2009January 2010
+Relevance of the CDMSII events for mirror dark matter
+R. Foot1
+School of Physics,
+University of Melbourne,
+Victoria 3010 Australia
+Mirror dark matter oﬀers a framework to explain the existing dark m atter direct detec-
+tion experiments, including the impressive DAMA annual modulation sig nal. Here we
+examine the implications of mirror dark matter for experiments like CD MSII/Ge and
+XENON10 which feature higher recoil energy threshold than the DA MA NaI experi-
+ments. We show that the two events seen in the CDMSII/Ge experim ent are consistent
+with the interactions of the anticipated heavy ∼Fe′component. This interpretation
+of the CDMSII/Ge events is a natural one given that a) mirror dark matter predicts
+an event rate which is sharply falling with respect to recoil energy an d b) that the two
+observed events are in the low energy region near threshold. Impo rtantly this interpre-
+tation of the CDMSII events can be checked by on-going and futur e experiments, and
+we hereby predict that the bulk of the events will be in the ER<∼18 keV region.
+1E-mail address: rfoot@unimelb.edu.auRecently the CDMS collaboration[1] have announced two dark matte r candidate
+events fromtheirﬁnalanalysiscontaining612kg-daysofrawexpo sureonaGermanium
+target. These two events have recoil energies of 12.3 keV and 15.5 keV, which belong
+to the energy region just above the experimental threshold ener gy of 10 keV. The
+backgroundestimateforthe entire10-100keVregionisaround0.8events. However, the
+fact that bothevents are in the low energy part of the spectrum provides an inter esting
+hint that these events are dark matter induced. In fact, theore tical studies within
+the mirror dark matter framework predicted[2] that any positive s ignal obtained by
+CDMSandsimilarexperiments shouldbeinthelowrecoilenergyregionn earthreshold.
+Moreover the background for this low energy (10-20 keV) ‘signal’ r egion is likely 0.2
+events or less for the 612 kg-day exposure, and thus the observ ation of two events in
+the 10-20 keV recoil energy range can be viewed as interesting evid ence for mirror dark
+matter.
+Recall, mirror dark matter posits that the inferred dark matter in t he Universe
+arises from a hidden sector which is an exact copy of the standard m odel sector[3]
+(for a review and more complete list of references see ref.[4])2. That is, a spectrum of
+darkmatter particles of known masses arepredicted: e′,H′,He′,O′,Fe′,...(withme′=
+me,mH′=mH,etc). The galactic halo is then presumed to be a spherically distribute d
+self interacting mirror particle plasma comprising these particles. Su ch a plasma would
+radiatively cool on a time scale of a few hundred million years unless a sig niﬁcant heat
+source exists. It turns out that ordinary supernova can supply t he required energy
+if ordinary and mirror particles interact with each other via (renorm alizable) photon-
+mirror photon kinetic mixing[3, 6]:
+Lmix=ǫ
+2FµνF′
+µν (1)
+whereFµν(F′
+µν)istheordinary(mirror) U(1)gaugebosonﬁeldstrengthtensor. Match-
+ing the rate of energy lost in the galactic halo due to radiative cooling w ith the energy
+supplied by ordinary supernova’s (the fundamental process being kinetic mixing in-
+ducedplasmondecay into e′+e′−inthesupernova core) gives anestimate[7]of ǫ∼10−9.
+Importantly, a mirror sector with kinetic mixing of this magnitude is co nsistent with
+all known laboratory, astrophysical and cosmological constraint s[8], and crucially such
+values of ǫmake the theory experimentally testable via dark matter direct det ection
+experiments.
+The most sensitive dark matter direct detection experiment to mirr or dark matter
+happens to be the impressive DAMA/NaI[9] and DAMA/Libra experime nts[10]. The
+low recoil energy threshold (2 keV) of these experiments makes th em sensitive to the
+elastic scattering of a putative ∼O′component oﬀ the target nuclei. It turns out
+that the annual modulation signal obtained by the DAMA experiment s can be fully
+explained and yields a measurement of ǫ[2]:
+ǫ/radicalBigg
+ξO′
+0.1= (1.0±0.3)×10−9(2)
+2Note that successful big bang nucleosynthesis (BBN) and succes sful large scale structure (LSS)
+requires eﬀectively asymmetric initial conditions in the early Universe ,T′≪Tandnb′/nb≈5. See
+ref.[5] for further discussions.
+1whereξA′≡nA′mA′/(0.3GeV/cm3) is the halo mass fraction of the species A′. Other,
+but more tentative evidence for mirror dark matter has emerged r ecently from an
+analysis of the CDMS electron scattering data[11]. It was shown[12] that the CDMS
+electron scattering data can be interpreted in terms of e′scattering on electrons, and
+suggests
+ǫ≈0.7×10−9. (3)
+However CDMSII[1] and XENON10[13] are the most sensitive experim ents to a heavier
+∼Fe′component and a positive signal for CDMS and similar experiments has been
+anticipated[14]. We will show that interpreting the two events identiﬁ ed in the CDM-
+SII/Ge analysis as an Fe′signal is consistent with all other experiments, and yields
+the estimate:
+ǫ/radicalBigg
+ξFe′
+10−3≈10−9. (4)
+The interaction rate for an experiment like CDMS depends on the cro ss-section,
+dσ/dE R, andhalovelocitydistribution, f(v). Thephoton-mirrorphotonkineticmixing
+enables a mirror nucleus (with mass and atomic numbers A′, Z′and velocity v) to
+interact with an ordinary nucleus (presumed at rest with mass and a tomic numbers
+A, Z) via Rutherford elastic scattering. The cross section is given by[2]:
+dσ
+dER=λ
+E2
+Rv2(5)
+where
+λ≡2πǫ2Z2Z′2α2
+mAF2
+A(qrA)F2
+A′(qrA′) (6)
+andFX(qrX) (X=A,A′) are the form factors which take into account the ﬁnite size of
+the nuclei and mirror nuclei. [The quantity q= (2mAER)1/2is the momentum transfer
+andrXis the eﬀective nuclear radius]3. A simple analytic expression for the form
+factor, which we adopt in our numerical work, is the one given by Helm [15, 16]:
+FX(qrX) = 3j1(qrX)
+qrXe−(qs)2/2(7)
+withrX= 1.14X1/3fm,s= 0.9 fm and j1is the spherical Bessel function of index 1.
+The halo distribution function is given by a Maxwellian distribution,
+fi(v) =e−1
+2miv2/T
+=e−v2/v2
+0[i](8)
+where the index ilabels the particle type [ i=e′,H′,He′,O′,Fe′...]. The halo mir-
+ror particles form a self interacting plasma at temperature T. The dynamics of the
+3Unless otherwise speciﬁed, we use natural units, ¯ h=c= 1 throughout.
+2mirror particle plasma has been investigated previously[7], where it wa s found that
+the condition of hydrostatic equilibrium implied that the temperature of the plasma
+satisﬁed:
+T≃1
+2¯mv2
+rot, (9)
+where ¯m=/summationtextnimi//summationtextni[i=e′,P′,He′,O′....] is the mean mass of the particles in
+the plasma, and vrot≈254 km/s is the local rotational velocity for our galaxy[17].
+Assuming the plasma is completely ionized, a reasonable approximation since it turns
+out that the temperature of the plasma is ≈1
+2keV, then:
+¯m
+mp=1
+2−5
+4YHe′(10)
+whereYHe′is theHe′mass fraction. Mirror BBN studies[18] indicate YHe′≈0.9, which
+is the value we adopt in our numerical work. Clearly, eqs.(8,9) imply tha t the velocity
+dispersion of the particles in the mirror matter halo depends on the p articular particle
+species and satisﬁes:
+v2
+0[i] =2T
+mi
+=v2
+rotm
+mi. (11)
+Notethatif mi≫m, thenv2
+0[i]≪v2
+rot. Consequently mirrornuclei havetheirvelocities
+(and hence energies) relative to the earth boosted by the Earth’s (mean) rotational
+velocity aroundthegalacticcenter, ≈vrot. Thisallowsamirror nuclei withmass mA′=
+18±4 GeV [consistent with a putative O′component], to provide a signiﬁcant annual
+modulation signal in the energy region probed by dama (2 < ER/keV <6). It turns
+out such a mirror dark matter component has the right properties to fully account[2]
+for the data presented by the DAMA collaboration[10] including the o bserved energy
+dependence of the annual modulation amplitude. Furthermore the narrow velocity
+distributionimplied by v2
+0≪v2
+rotsuppresses thesignalforhigher thresholdexperiments
+like CDMS. The result is an explanation for the DAMA annual modulation signal
+completely consistent with all the other experiments.
+The interaction rate for an experiment like CDMS is given by4:
+dR
+dER=NTnA′/integraldisplaydσ
+dERfA′(v,vE)
+k|v|d3v
+=NTnA′λ
+E2
+R/integraldisplay∞
+|v|>vmin(ER)fA′(v,vE)
+k|v|d3v (12)
+whereNTis the number of target nuclei per kg of detector and nA′=ρdmξA′/mA′is
+the number density of halo mirror nuclei A′at the Earth’s location (we take ρdm=
+4Detector resolution eﬀects are incorporated by convolving this ra te with a Gaussian distribution
+whereσ/keV= 0.2 for CDMSII and σ/keV= 0.579/radicalbig
+ER/keV+0.021ER/keVfor XENON10[19]
+30.3GeV/cm3). Also,fA′(v,vE)/k=exp[−(v+vE)2/v2
+0]/kis theA′velocity distribu-
+tion (k≡[πv2
+0(A′)]3/2is the normalization factor). Here, vis the velocity of the halo
+particles relative to the Earth, and vEis the Earth’s velocity relative to the galactic
+halo. [The bold font is used to indicate that the quantities are vector s]. Note that the
+lower velocity limit, vmin(ER), is given by the kinematic relation:
+vmin=/radicaltp/radicalvertex/radicalvertex/radicalbt(mA+mA′)2ER
+2mAm2
+A′. (13)
+The velocity integral in Eq.(12) is standard and can easily be evaluate d in terms of
+error functions assuming a Maxwellian dark matter distribution[16],
+/integraldisplay∞
+|v|>vmin(ER)fA′(v,vE)
+k|v|d3v=1
+2v0y[erf(x+y)−erf(x−y)] (14)
+where
+x≡vmin(ER)
+v0, y≡|vE|
+v0. (15)
+The Earth’s velocity relative to the galactic halo, vE, has an estimated mean value of
+∝angbracketleftvE∝angbracketright ≃vrot+12 km/s, where vrot≈254 km/s, the local rotational velocity[17].
+Let us examine interactions of A′=O′andA′=Fe′on a Ge target. From Eq.(13)
+we ﬁnd:
+vmin
+vrot≃1.77/radicalBigg
+ER
+10 keV,forA′=O′,
+vmin
+vrot≃0.74/radicalBigg
+ER
+10 keV,forA′=Fe′. (16)
+Given that the velocity dispersion v0(A′=O′,Fe′)≪vrot, it follows that the veloc-
+ities of the halo particles relative to the Earth are distributed narro wly around the
+mean≈vrot. Therefore the interactions of the O′component will be exponentially
+suppressed because only O′particles in the tail of the Maxwellian distribution can lead
+to recoils with energies greater than the 10 keV threshold. The O′interaction rate can
+be determined using the DAMA measurement of ǫ√ξO′, Eq.(2), and we have checked
+that the event rate in CDMSII/Ge for the O′component is indeed negligible, typically
+<∼10−2events for their 1009.8 kg-days of total raw exposure. [The tota l CDMSII
+exposure consists of 397.8 kg-days for their ﬁrst results[20] and 612 kg-days for their
+ﬁnal exposure[1]]. However for a heavier component, such as A′=Fe′, there is no
+exponential suppression at or near the CDMS threshold since vmin/vrot<∼1. Thus, the
+CDMSII experiment is sensitive to a heavier component, which we tak e asA′=Fe′.5
+5Demanding vmin/vrot<∼1 atER= 10keV implies mA′>∼35mP. That is CDMSII/Ge is primarily
+sensitive to mirror elements heavier than about chlorine. By far the most abundant ordinary element
+heavier than chlorine is iron, and this motivates our assumption that the dominant mirror element
+heavier than chlorine in the mirror sector is Fe′.
+4The most exciting possibility is that CDMSII has seen this heavy compo nent,
+which has been anticipated for a while[14]. The CDMSII/Ge event rate isR=/integraltextdR
+dERE(ER)dER, whereE(ER)≃0.18 + 0.007ERis the detection eﬃciency for the
+CDMSII low energy region[1]. Adjusting this rate to give around 2 eve nts for the total
+raw exposure of 1009.8 kg-days, gives a determination of ǫ√ξFe′:
+ǫ/radicalBigg
+ξFe′
+10−3≈10−9. (17)
+Theresultingrecoilenergyspectrumisgiveninﬁgure1. Astheﬁgur edemonstrates, the
+‘signal’ region is in the recoil energy range 10-20 keV, which is precise ly where the two
+eventsseenbyCDMSwerelocated. Observethatfor ER<∼18keVtheratefallsroughly
+as 1/E2
+R, which is due to thedσ
+dER∝1/E2
+Rof the Rutherford elastic scattering cross-
+section. For ER>∼18 keV, the rate begins to fall even faster as vmin/vrotmoves into the
+tail of the Maxwellian velocity distribution. If the CDMSII experiment has really seen
+Fe′interactions, then this possibility can be checked by future measur ements, with the
+bulk of the events predicted to lie in the energy region<∼18 keV.
+ 0 0.2 0.4 0.6 0.8 1
+ 6  8  10  12  14  16  18  20  22  24Counts/keV
+Recoil Energy [keV]CDMS THRESHOLD
+ 0 0.2 0.4 0.6 0.8 1
+ 6  8  10  12  14  16  18  20  22  24Counts/keV
+Recoil Energy [keV]CDMS THRESHOLD
+Figure 1: Recoil energy spectrum,dR
+dERE(ER)T, predicted for the CDMSII detector for
+the total raw exposure of T = 1009.8 kg-days, where E(ER) is the CDMS detection
+eﬃciency. We have taken parameters: ǫ/radicalBigξFe′
+1.2×10−3= 10−9,vrot= 254 km/s which leads
+to around two expected events above threshold.
+5The XENON10 experiment[13], with their published raw exposure of 31 6 kg-days,
+has a sensitivity comparable to the CDMSII experiment. In the origin al XENON10
+analysis[13], their threshold was assumed to be 4.5 keV, however in a s ubsequent
+study[21]alowerthresholdof2keVwasused. However, thecalibra tionoftheXENON10
+detector depends on the relative scintillation eﬃciency Leffwhich was originally taken
+to be constant, Leff= 0.19 in ref.[13, 21], but recent measurements[22, 23] have shown
+that in fact Leffis energy dependent. The most recent measurements[23] sugges t
+Leff= 0.10±0.03 atER≃8 keV and Leff= 0.07±0.03 atER≃4 keV. Given that
+the threshold energy is inversely proportional to Leff, it follows that the new measur-
+ments of Leffraise the threshold from 2 keV to around 5 .4 keV, with an uncertainty
+of roughly 30%. In ﬁgure 2 we plot the expected count rate for Fe′interactions in
+XENON10 for the same parameters used in ﬁgure 1: ǫ/radicalBigξFe′
+1.2×10−3= 10−9,vrot= 254
+km/s. As the ﬁgure suggests, for an energy threshold of 5 .4 keV, we might have ex-
+pected a couple of events to have been seen in XENON10, however, with such small
+statistics and also the signiﬁcant uncertainty in the XENON10 energ y calibration,
+there is no clear disagreement between the two experiments. Impo rtantly XENON10
+has been superseded by the XENON100 experiment with more than a n order of mag-
+nitude improvement in sensitivity. XENON100 is currently in operation and should
+have their ﬁrst results during 2010. One might reasonably expect X ENON100 to see
+around a dozen or more events in the low energy region ER<∼18 keV if the mirror
+dark matter interpretation of the two CDMSII events is correct.
+ 0 0.2 0.4 0.6 0.8 1
+ 4  6  8  10  12  14  16  18  20Counts/keV
+Recoil Energy [keV]XENON THRESHOLD
+ 0 0.2 0.4 0.6 0.8 1
+ 4  6  8  10  12  14  16  18  20Counts/keV
+Recoil Energy [keV]XENON THRESHOLD
+Figure 2: Recoil energy spectrum,dR
+dERE(ER)T, predicted for the XENON10 detector
+with raw exposure of T= 316 kg-days, where E(ER)≃0.4 is the XENON overall
+detection eﬃciency[13]. We have taken the same parameters as ﬁgu re 1:ǫ/radicalBigξFe′
+1.2×10−3=
+10−9,vrot= 254 km/s.
+6We have checked that the addition of an Fe′component with ǫ/radicalBig
+ξFe′
+10−3≈10−9,
+does not signiﬁcantly change the good ﬁt to the DAMA/Libra annual modulation
+signal given by the O′component. The DAMA experiments remain the most sensitive
+existing experiments to the ∼O′component, while the CDMSII and the other higher
+threshold experiments are the most sensitive probes of a heavier ∼Fe′component.
+Thus, the CDMS and similar experiments have an important role in prob ing the heavy
+∼Fe′component which is complimentary to experiments such as DAMA/NaI and
+DAMA/Libra which probe the lighter O′component. Note that our estimate of ǫ√ξFe′
+from the CDMSII events can be combined with the ǫ√ξO′value inferred from the
+DAMA/Libraexperiment toyield ξFe′/ξO′≈10−2. Itisinteresting thatthisisthesame
+order of magnitude as the corresponding quantity for ordinary ma tter in our galaxy
+and demonstrates that our combined interpretation of the DAMA/ Libra experiment
+and the two CDMSII events is plausible.
+In conclusion, we have examined the possibility that the two events s een in the
+CDMSIIexperiment areinfactmirrordarkmatterinteractionsfro mtheanticipated[14]
+heavy∼Fe′component. This is actually a natural possibility given that a) mirror
+dark matter predicts an event rate which is sharply falling with respe ct to recoil energy
+and that b) the two observed events are in the low energy region ne ar threshold.
+Importantly the mirror dark matter interpretation of the CDMSII /Ge events can be
+checked by on-going and future experiments, such as SuperCDMS , XENON100, and
+others, with the bulk of the events predicted to arise in the ER<∼18 keV region.
+Acknowledgments
+This work was supported by the Australian Research Council.
+References
+[1] Z. Ahmed et al.(CDMS Collaboration), arXiv: 0912.3592 (2009).
+[2] R. Foot, Phys. Rev. D78, 043529 (2008) [arXiv: 0804.4518]. See also: R. Foot,
+Phys. Rev. D69, 036001 (2004) [hep-ph/0308254]; astro-ph/04 03043; Mod. Phys.
+Lett. A19, 1841(2004)[astro-ph/0405362]; Phys. Rev. D74, 02 3514(2006)[astro-
+ph/0510705].
+[3] R. Foot, H. Lew and R. R. Volkas, Phys. Lett. B272, 67 (1991); Mod. Phys. Lett.
+A7, 2567 (1992).
+[4] R. Foot, Int. J. Mod. Phys. D13, 2161 (2004) [astro-ph/0407 623].
+[5] Z. Berezhiani, D. Comelli and F. L. Villante, Phys. Lett. B503, 362 (2001) [hep-
+ph/0008105]; L. Bento and Z. Berezhiani, Phys. Rev. Lett. 87, 23 1304 (2001)
+[hep-ph/0107281]; A. Yu. Ignatiev and R. R. Volkas, Phys. Rev. D6 8, 023518
+(2003) [hep-ph/0304260]; R. Foot and R. R. Volkas, Phys. Rev. D6 8, 021304
+(2003) [hep-ph/0304261]; Phys. Rev. D69, 123510 (2004) [hep-p h/0402267]; Z.
+7Berezhiani, P. Ciarcelluti, D. Comelli and F. L. Villante, Int. J. Mod. Ph ys. D14,
+107 (2005) [astro-ph/0312605]; P. Ciarcelluti, Int. J. Mod. Phys. D14, 187 (2005)
+[astro-ph/0409630]; Int. J. Mod. Phys. D14, 223 (2005) [astro- ph/0409633].
+[6] R. Foot and X-G. He, Phys. Lett. B267, 509 (1991).
+[7] R. Foot and R. R. Volkas, Phys. Rev. D70, 123508 (2004) [astro -ph/0407522].
+[8] R. Foot, A. Yu. Ingatiev and R. R. Volkas, Phys. Lett. B503, 35 5 (2001)
+[arXiv: astro-ph/0011156]; R. Foot, Int. J. Mod. Phys. A19 3807 (2004) [astro-
+ph/0309330]; R. Foot and Z. K. Silagadze, Int. J. Mod. Phys. D14, 143 (2005)
+[astro-ph/0404515]; P. Ciarcelluti and R. Foot, Phys. Lett. B679 , 278 (2009)
+[arXiv: 0809.4438]. See also, S. Davidson, S. Hannestad and G. Raﬀe lt, JHEP 5,
+3 (2000) [arXiv: hep-ph/0001179].
+[9] R. Bernabei et al. (DAMA Collaboration), Riv. Nuovo Cimento. 26, 1 (2003)
+[astro-ph/0307403]; Int. J. Mod. Phys. D13, 2127 (2004); Phys . Lett. B480, 23
+(2000).
+[10] R. Bernabei et al. (DAMA Collaboration), Eur. Phys. J. C56: 333 (2008)
+[arXiv:0804.2741].
+[11] Z. Ahmed et al.(CDMS Collaboration), ArXiv: 0907.1438 (2009); Phys. Rev.
+Lett. 103: 141802 (2009) [ArXiv: 0902.4693].
+[12] R. Foot, Phys. Rev. D80, 091701 (2009) [arXiv:0909.3126].
+[13] J. Angle et al. (XENON Collaboration), Phys. Rev. Lett. 100, 021303 (2008)
+[arXiv:0706.0039].
+[14] See e.g. R. Foot, arXiv: 0907.0048 (2009).
+[15] R. H, Helm, Phys. Rev. 104, 1466 (1956).
+[16] J. D. Lewin and P. F. Smith, Astropart. Phys. 6, 87 (1996).
+[17] M. J. Reid et al., arXiv: 0902.3928 (2009).
+[18] P. Ciarcelluti and R. Foot, work in progress.
+[19] C. Savage, G. Gelmini, P. Gondolo and K. Freese, arXiv: 0808.360 7 (2008).
+[20] Z. Ahmed et al.(CDMS Collaboration), Phys. Rev. Lett. 102.011301 (2009)
+[arXiv: 0802.3530].
+[21] J. Angle et al.(XENON10 Collaboration), arXiv: 0910.3698 (2009).
+[22] E. Aprile et al., arXiv: 0810.0274 (2008).
+[23] A. Manzur et al., arXiv: 0909.1063 (2009).
+8

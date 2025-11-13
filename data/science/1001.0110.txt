@@ -1,0 +1,284 @@
+arXiv:1001.0110v1  [physics.chem-ph]  31 Dec 2009On the Dimers of Pseudoisocyanine
+P.O.J. Scherer∗
+Physics Department T38, TU Munich, 85748 Garching
+Abstract
+The self organisation of pseudoisocyanine-dimers in dilut e aqueous solutions is studied by classical
+MD simulations. The electronic structure of the dimer is eva luated with the semiempirical ZINDO
+method to determine the ﬂuctuations of site energies and exc itonic coupling. We study diﬀerent
+dimer conformations with blue or red shifted absorption max ima as models for H and J-aggregates.
+The width of the absorption bands is mainly explained by low f requency vibrations whereas the
+ﬂuctuations of site energies are less important.
+1I. INTRODUCTION
+Since the discovery of the so called J-band1,2, an unusual sharp absorption band
+which is characteristic for the aggregation of the classica l sensitizing dye 1,1’-diethyl-2,2’-
+cyaninchloride (pseudoisocyanine) a large amount of exper imental and theoretical work ad-
+dressed the investigation of molecular aggregates and thei r red shifted J-bands. At lower
+concentration blue shifted H-bands were observed which wer e attributed to molecular dimers,
+the smallest possible aggregates. Molecular modelling of t he J-aggregates is diﬃcult due to
+the fact that the PIC molecule is a cation and therefore the Co ulombic interactions as well
+as dielectric shielding have to be taken into account carefu lly. For the formation of larger
+aggregates the counterions are important whereas this seem s not the case for the smaller
+H-aggregates3. Therefore we started the simulation of PIC aggregates by a d etailed inves-
+tigation of the dimer. From the analysis of the experimental spectrum in water4it was
+deduced that both excitonic components contribute with an i ntensity ratio of 2:1. This
+can not be explained5by dimer models4,6where the dipole moments are almost parallel or
+antiparallel as it is the case for the common brickwork or lad der models which are found
+in the literature for the J-aggregate7,8. Another focus of our investigations concerns the
+contribution of local Coulombic interactions to the inhomo geneous broadening of the site
+energies and its importance in comparison to intramolecula r vibrations.
+II. METHODS
+For the classical MD simulation we used the model of rigid rot ors which can be easily
+combined with quantum calculations to obtain electronic ex citations and coupling matrix
+elements9. Since also the position of the ethyl groups is ﬁxed we have to distinguish not
+only two stereoisomers but also a fully C2-symmetric form an d another form where the
+ethyl-groups break this symmetry. A possible interconvers ion between these conformations
+was not taken into account.
+We simulated a cube containing a pair of PIC (positively char ged) molecules and 2150
+TIP510water molecules. We did not use periodic boundary condition s to avoid artefacts from
+the Coulombic interaction with the mirror images. Instead r eﬂecting boundaries kept the
+molecules from escaping the box by reversing the normal velo city component whenever the
+2center of mass of one of the molecules encountered the bounda ry . The boundary distance
+of 36Å was adjusted to reproduce the experimental density of water at room temperature.
+The equations of motion were solved using an implicit quater nion method11for the rotations
+and a Leap frog method for the translations. The timestep use d was 1 fsec.
+In our simulation we neglected electrostatic interactions with solvent outside the cube.
+We calculated the missing contribution to the solvation ene rgy from a simple PCM model12.
+The simulated box was put into a cubic cavity in a dielectric c ontinuum and the contribution
+to the solvation energy was calculated from the interaction between the charges within the
+box and the induced surface charges. It gave 13% of the total s olvation energy. This value
+stayed rather constant along the trajectory. Therefore we a ssume that the essential changes
+of interaction with solvent molecules in the immediate surr oundings are taken into account
+suﬃciently.
+The force ﬁeld was designed to reproduce the local electrost atic interactions properly,
+which is especially important for the large sized PIC molecu le with its extended π-electron
+system. It is based on a simpliﬁed version of the eﬀective fra gment model13–15. The charge
+distribution is approximated by distributed multipoles wh ich were calculated with GAMESS
+on the basis of TZV/HF wavefunctions16. For the simulation only point charges qiand
+dipoles/vector piwere used which are centered at the positions of the nuclei an d the bond centers.
+The Coulombic interaction energy is
+VCoul
+ij=qiqj
+4πǫ0Rij+/vectorRij(qi/vector pj−qj/vector pi)
+4πǫ0R3
+ij+R2
+ij/vector pi/vector pj−3(/vectorRij/vector pi)(/vectorRij/vector pj)
+4πǫ0R5
+ij(1)
+The values of point charges and dipoles are given for the symm etry unique atoms in
+Table I.
+The electronic spectra were calculated on the ZINDO/CI-S le vel17including the point
+monopoles and dipoles of all water molecules. The two lowest excited states of the dimer
+are to a large extent linear combinations of the lowest monom er excitations with only very
+small admixture of higher monomer excitations and of charge resonance states. Therefore
+we use a simple 2-state model to analyze the delocalized dime r states in terms of the local
+excitations A∗andB∗. The interaction matrix is
+
+E−∆/2V
+VE+∆/2
+ (2)
+3with the average monomer transition energy E= (EA∗+EB∗)/2, their splitting ∆ =EB∗−
+EA∗and the excitonic coupling V. Its eigenvectors are the two delocalized dimer excitation s
+which are written with mixing coeﬃcients cosγ,sinγas
+|1>= cosγ|A∗>+sinγ|B∗>|2>=−sinγ|A∗>+cosγ|B∗> (3)
+The transition dipoles of these two states
+/vector µ1= cosγ/vector µA∗+sinγ/vector µB∗/vector µ2= sinγ/vector µA∗−cosγ/vector µB∗ (4)
+are linear combinations of the transition dipoles /vector µA∗,B∗of the two monomers which are
+assumed to be independent from the excitonic interaction. T herefore the mixing angle γ
+can be determined from a least square ﬁt of the two dimer trans ition dipoles to (4). Then
+the elements of the interaction matrix are calculated from t he transition energies of the two
+dimer excitations as
+E=E1+E2
+2(5)
+∆ = (cos( γ)2−sin(γ)2)(E2−E1) (6)
+V= cos(γ)sin(γ)(E2−E1) (7)
+We want to emphasize that this analysis is based on the deloca lized dimer orbitals. It does
+not involve any kind of multipole expansion, especially the calculated excitonic coupling is
+not of the dipole-dipole type which would be quite questiona ble at such short intermolecular
+distances. To check the quality of the ZINDO method, we compa red the results for a selected
+sandwich dimer conﬁguration with a much more elaborate 631G ** HF/CI calculation. The
+calculated transition dipoles of the two lowest singlet exc itations were very similar (3 and 16
+Debyes from ZINDO , 2 and 14 Debyes from HF/CI ), the excitonic splitting was somewhat
+larger for the HF/CI method (0.54eV as compared to 0.37eV for ZINDO). Both methods
+placed the lowest charge resonance states at about 0.65 eV ab ove the upper excitonic band.
+III. RESULTS
+We determined the vibronic coupling parameters for the PIC m onomer as described in
+our earlier paper18. Application of ab initio methods16improved the quality of the results
+4so that a direct comparison with the proﬁle of the absorption spectrum becomes feasible.
+The normal modes were calculated on the 6-31G/MP2 level and t he coupling to the optical
+transition on the CI/SD level. Using these couplings and the displaced harmonic oscillator
+model the lineshape was calculated as the Fourier transform ed time correlation function. In
+the low frequency region the largest vibronic couplings are found for normal modes at 40 and
+46cm−1which contribute signiﬁcantly to the broadening of the abso rption band. Another
+important contribution from modes around 1500 cm−1which are also known from Raman
+spectra is the origin of the observed vibrational progressi on. Further modes between 50
+and 1400 cm−1form a rather dense continuum of coupling states. The simula ted spectrum
+(ﬁg. 2) largely resembles the experimental absorption proﬁ le. The width of the simulated
+bands is somewhat too small and the intensity of the prominen t stretching modes is slightly
+overestimated. This could be possibly further improved by t aking frequency changes and
+mode coupling into account.
+The MD simulations were started from several plausible dime r structures. First the
+PIC molecules were kept ﬁxed and the solvent was equilibrate d for 50 psec. Then the
+restraints were removed and the system was simulated for ano ther 50 psec. The distance and
+orientation of the two PIC molecules were analyzed to identi fy periods of relative stability.
+Starting from a sandwich structure, a rather stable structu re evolved within 10 psec
+(ﬁg.3a). It is not symmetric but still there is almost no spli tting of the calculated site
+energies (Table 2) which show rapid ﬂuctuations with compon ents down to 20fsec. Such
+fast ﬂuctations are well known from experimental and theore tical work on the dynamics of
+dephasing and solvation in molecular liquids19. They have been attributed to the inertial
+motion of the solvent molecules, which show up as the Gaussia n shaped rapid initial decay
+of the solvation time correlation function20,21. In our simulations the orientational time
+correlation function of the water molecules can be describe d by a Gaussian with a correlation
+time of 60 fs at short times. The time correlation of the elect rostatic potential decays faster.
+The initial Gaussian decay with 20 fs is very similar to that o f the correlation function of
+the transition energies. Probably collective librational motions contribute more eﬃciently
+to the electronic dephasing than the motion of the individua l molecules.19,22
+The center of the site energies is shifted by 0.06 eV to lower e nergies as compared to
+a monomer in vacuum and the variance of the site energies is co mparable to that of a
+monomer. The two transition dipoles are almost parallel and the lower transition carries
+5only 2% of the total oscillator strength. The excitonic coup ling shows ﬂuctuations similar
+to the site energies. Its variance, however, amounts to only 7% of the average value of
+0.25eV. Hallermeier et al4deduced a smaller excitonic coupling of 0.078 eV. Most proba bly
+their dimer spectrum has some admixture of the monomer spect rum. We assume that the
+absorption maximum at 520nm is due to monomers and the maximu m of the real dimer
+spectrum is at 480nm. This would be consistent with an H-aggr egate with an excitonic
+coupling of 0.2eV.
+We studied also brickwork structures as a model for the J-agg regates with a red shifted
+absorption. We found a relative stable structure which is sh own in ﬁg. 3b. The structural
+ﬂuctuations are much larger than for the sandwich model but t he ﬂuctuations of site energies
+and excitonic coupling are even somewhat smaller. The coupl ing of -0.064eV is close to the
+value of -0.078eV which was used to simulate the vibronic spe ctrum of the J-aggregates18.
+Acknowledgments
+This work has been supported by the Deutsche Forschungsgeme inschaft (SFB 533)
+∗Electronic address: philipp.scherer@ph.tum.de
+1G.Scheibe, Angew. Chemie 49, 563 (1936)
+2E.E.Jelley, Nature 138,1009 (1936)
+3B.Neumann, J.Phys.Chem. B 105, 8268 (2001)
+4B.Kopainsky, J.K.Hallermeier and W.Kaiser, Chem.Phys.Let t.83, 498 (1981)
+5G.R.Bird,K.S.Norland,A.E.Rosenoﬀ,H.B.Michaud, Phot.Sci .Eng. 12 ,196 (1968)
+6R.E.Graves, P.I.Rose, J.Phys.Chem. 79, 746 (1975)
+7H.J.Nolte, Chem.Phys.Lett. 31, 134 (1975)
+8G.Scheibe, Z.Elektrochemie, 52, 283 (1948)
+9P.O.J.Scherer, J.Phys.Chem. A 104, 6301 (2000)
+10M.W.Mahoney, W.L.Jorgensen, J.Chem.Phys. 112, 8910 (2000)
+11I.P.Omelyan, Phys.Rev.E 58, 1169 (1998)
+12H.Li, C.S.Pomelli, J.H.Jensen, Theor. Chem. Acc. 109,71 (2003)
+613M.S.Gordon, M.A.Freitag, P.Bandyopadhyay, J.H.Jensen, V. Kairys, W.J.Stevens
+J.Phys.Chem.A 105, 293 (2001)
+14P.N.Day, J.H.Jensen,M.S.Gordon and S.P.Webb, W.J.Steven s and M.Krauss, D.Garmer,
+H.Basch and D.Cohen J.Chem.Phys. 105, 1968 (1996)
+15W.Chen, M.S.Gordon, J.Chem.Phys., 105, 11081(1996)
+16GAMESS - M.W.Schmidt, K.K.Baldridge, J.A.Boatz, S.T.Elbert , M.S.Gordon, J.J.Jensen,
+S.Koseki, N.Matsunaga, K.A.Nguyen, S.Su, T.L.Windus, M.D upuis, J.A.Montgomery
+J.Comput.Chem. 14, 1347 (1993)
+17M.A.Thompson. M.C.Zerner, J.Am Chem.Soc. 112, 7828 (1990)
+18P.O.J.scherer, in: J-Aggregates, ed. T.Kobayashi, World s cientiﬁc, p.95 (1996)
+19E.T.J.Nibbering,D.A.Wiersma,K.Duppen, Chem.Phys. 183, 167 (1994)
+20M.Maroncelli, J.Chem.Phys. 94,2084 (1991)
+21E.A.Carter, J.T.Hynes,J.Chem.Phys. 94,5961 (1991)
+22T.Hayashi, T. la Cour Jansen,Wei Zhuang, and S.Mukamel, J.P hys.Chem. A 109, 64 (2005)
+7IV. TABLE CAPTIONS
+Table I:
+coordinates, atomic charges and dipoles for PIC
+Table II:
+mean values and standard deviation of distances, orientati on angles, excitation energies and
+excitonic couplings for the two structures. The long axis is deﬁned by the vector connecting
+the two nitrogen atoms R(N13)−R(N14), the short axis by the vector R(N14)−R(C20)+
+R(N13)−R(C19).
+8Table I:
+labelx(Bohr) y(Bohr) z(Bohr) qpx(e•Bohr)py(e•Bohr)pz(e•Bohr)
+C 1 -9.565 1.113 -3.478 0.973 0.000 0.044 0.092
+C 3 -7.152 0.889 -2.403 0.929 0.038 -0.017 0.029
+C 5 -6.682 1.814 0.029 0.928 0.046 0.017 0.005
+C 7 -8.685 2.931 1.361 0.857 -0.014 -0.025 -0.090
+C 9-11.028 3.132 0.263 1.055 0.105 -0.062 -0.039
+C11-11.494 2.232 -2.174 0.992 0.101 -0.009 0.026
+N13 -4.247 1.613 1.055 0.472 -0.038 -0.096 -0.101
+C15 -2.340 0.409 -0.158 0.997 -0.061 0.124 0.024
+C17 -2.850 -0.583 -2.637 0.738 -0.052 0.121 0.041
+C19 -5.129 -0.334 -3.709 1.046 0.019 0.001 0.116
+C21 -3.738 2.886 3.487 0.859 -0.053 -0.089 -0.108
+C23 -4.351 1.265 5.791 0.893 0.020 -0.005 -0.027
+C25 0.000 0.000 1.050 0.421 0.000 0.000 -0.310
+H27 -1.393 -1.638 -3.559 0.393 0.072 0.038 0.027
+H29 -5.484 -1.128 -5.546 0.341 0.003 -0.020 -0.040
+H31 -8.451 3.626 3.244 0.331 -0.016 0.024 0.046
+H33-12.532 3.997 1.319 0.347 -0.033 0.016 0.015
+H35-13.340 2.406 -2.997 0.351 -0.036 0.003 -0.016
+H37 -9.869 0.384 -5.351 0.331 -0.028 -0.008 -0.037
+H39 -1.778 3.440 3.479 0.319 0.024 0.010 -0.006
+H41 -4.812 4.618 3.507 0.313 -0.023 0.024 -0.001
+H43 -6.323 0.721 5.833 0.299 -0.033 -0.015 0.012
+H45 -3.944 2.325 7.497 0.315 0.002 0.013 0.035
+H47 -3.236 -0.453 5.827 0.271 0.003 -0.036 0.020
+9label x(Bohr) y(Bohr) z(Bohr) qpx(e•Bohr)py(Bohr)pz(e•Bohr)
+BO31 -8.358 1.001 -2.940 -0.591 -0.156 0.084 0.045
+BO53 -6.917 1.351 -1.187 -0.737 -0.091 0.047 -0.017
+BO75 -7.683 2.372 0.695 -0.642 -0.075 -0.008 0.003
+BO97 -9.856 3.032 0.812 -0.820 -0.051 0.026 -0.020
+BO111 -10.529 1.672 -2.826 -0.889 -0.029 0.021 0.054
+BO119 -11.261 2.682 -0.956 -0.693 0.049 -0.074 -0.055
+BO135 -5.464 1.713 0.542 -0.348 -0.128 0.109 -0.133
+BO1513 -3.293 1.011 0.449 -0.450 0.093 -0.118 -0.042
+BO1715 -2.595 -0.087 -1.398 -0.495 0.080 -0.050 -0.035
+BO193 -6.140 0.277 -3.056 -0.488 -0.014 -0.194 0.034
+BO1917 -3.989 -0.459 -3.173 -0.905 0.001 -0.013 0.010
+BO2113 -3.993 2.250 2.271 -0.125 0.086 0.192 0.103
+BO2321 -4.045 2.076 4.639 -0.341 -0.016 -0.003 0.074
+BO2515 -1.170 0.204 0.446 -0.609 -0.082 -0.320 0.223
+BO2625 0.000 0.000 2.056 -0.447 0.000 0.000 -0.209
+BO2717 -2.121 -1.111 -3.098 -0.506 -0.137 0.205 0.099
+BO2919 -5.306 -0.731 -4.627 -0.525 0.037 0.121 0.276
+BO317 -8.568 3.279 2.303 -0.537 -0.046 -0.114 -0.263
+BO339 -11.780 3.565 0.791 -0.547 0.237 -0.131 -0.159
+BO3511 -12.417 2.319 -2.586 -0.551 0.285 -0.028 0.126
+BO371 -9.717 0.748 -4.415 -0.538 0.061 0.109 0.278
+BO3921 -2.758 3.163 3.483 -0.555 -0.314 -0.072 0.041
+BO4121 -4.275 3.752 3.497 -0.529 0.200 -0.282 0.023
+BO4323 -5.337 0.993 5.812 -0.543 0.350 0.089 -0.009
+BO4523 -4.148 1.795 6.644 -0.510 -0.074 -0.199 -0.303
+BO4723 -3.794 0.406 5.809 -0.518 -0.218 0.302 -0.004
+10Table II:
+sandwich brickwork
+excitation energy Ea2.522±0.014eV2.565±0.010eV
+excitation energy Eb2.523±0.014eV2.561±0.010eV
+excitonic coupling Vexc0.25±0.017eV−0.064±0.008eV
+center-center distance Rab4.25±0.08Å8.33±0.24Å
+angle between long axes 6.0±1.7o34.0±4.0o
+angle between short axes 174.0±2.6o122.0±3.9o
+distance of charge centers Rcc5.42Å 7.57Å
+V. FIGURE CAPTIONS:
+Figure 1:
+The atom numbering for PIC is shown as it is used to tabulate th e parameters
+Figure 2:
+The experimental absorption spectrum4of monomeric PIC (dots) is compared with a
+calculated spectrum (full line) from the displaced oscilla tor model. The calculated
+spectrum was shifted to reproduce the absorption maximum at 19100cm−1
+Figure 3:
+Starting from a sandwich (a) or brickwork (b) structure rela tive stable dimer
+conﬁgurations evolved. The ﬁgure shows representative sna pshots.
+11Figure 1:
+C1H26
+C3C5C7
+C9
+C11N13
+C15C17C25
+H27
+H29 H37H35H33H31C21C23
+H39 H41H43H45
+H47
+C19
+C20C4C6N14
+C16C18
+H28
+H30 H38C2C12
+H36H34
+C10C8H32H42 H40C22C24H44H46
+H48
+12Figure 2:
+18000 20000 22000
+transition frequency (cm-1)10203040506070absorption (au)
+13Figure 3:
+(a)
+3.6
+6.73.4(b)
+14

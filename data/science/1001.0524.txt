@@ -1,0 +1,432 @@
+arXiv:1001.0524v1  [cond-mat.mes-hall]  4 Jan 2010Large Magnetic Susceptibility Anisotropy of Metallic Carb on Nanotubes
+T. A. Searles,1Y. Imanaka,2T. Takamasu,2H. Ajiki,3J. A. Fagan,4E. K. Hobbie,4and J. Kono1,∗
+1Department of Electrical and Computer Engineering, Rice Un iversity, Houston, Texas 77005, USA
+2National Institute for Materials Science, 3-13 Sakura, Tsu kuba, Ibaraki 305-0003, Japan
+3Photon Pioneers Center, Osaka University, Suita 565-0871, Japan
+4National Institute of Standards and Technology, Gaithersb urg, Maryland 20899, USA
+(Dated: October 29, 2018)
+Throughmagneticlineardichroismspectroscopy, themagne ticsusceptibilityanisotropyofmetallic
+single-walled carbon nanotubes has been extracted and foun d to be 2-4 times greater than values
+for semiconducting single-walled carbon nanotubes. This l arge anisotropy is consistent with our
+calculations and can be understood in terms of large orbital paramagnetism of electrons in metallic
+nanotubes arising from the Aharonov-Bohm-phase-induced g ap opening in a parallel ﬁeld. We also
+compare our values with previous work for semiconducting na notubes, which conﬁrm a break from
+the prediction that the magnetic susceptibility anisotrop y increases linearly with the diameter.
+PACS numbers: 78.67.-n, 78.67.Ch
+Unusual magnetic properties of single-walled carbon
+nanotubes (SWNTs) havegenerated much theoreticalin-
+terestduringthe lasttwodecades[1–8]. Theorbitalmag-
+netic susceptibility χof SWNTs is predicted to be large,
+two orders of magnitude larger than their spin magnetic
+susceptibility and comparable in magnitude to the well-
+known large diamagnetic susceptibility of graphite. In
+addition, the value of χis predicted to be strongly de-
+pendent onthe strengthofthe appliedmagneticﬁeld, the
+Fermi energy, and the ﬁeld orientation. Furthermore, the
+sign ofχcan be either positive (paramagnetic) or nega-
+tive (diamagnetic), depending on the nanotube chirality
+as well as the orientation of the magnetic ﬁeld relative
+to the nanotube axis. At the core of these properties is
+the Aharonov-Bohm eﬀect [1, 9], which changes the elec-
+tronicband structureofthe SWNTs via atube-threading
+magnetic ﬂux in a truly non-intuitive manner.
+The magnetic susceptibility anisotropy, ∆ χ=χ/bardbl−χ⊥,
+whereχ/bardbl(χ⊥) is the parallel (perpendicular) susceptibil-
+ity, of SWNTs has been calculated using diﬀerent meth-
+ods [2, 4, 5, 8]. Metallic SWNTs are predicted to be
+paramagnetic along the tube axis and diamagnetic in the
+perpendicular direction ( χM
+/bardbl>0> χM
+⊥), whereas semi-
+conductingSWNTsarepredictedtobediamagneticinall
+directions but most strongly diamagnetic in the perpen-
+dicular direction ( χS
+⊥< χS
+/bardbl<0) [2, 4, 5]. See, e.g., Fig. 1
+for ourk·pcalculations for (6,6) and (6,5) nanotubes at
+300 K. Thus, all SWNTs are expected to have positive
+∆χ, while metallic SWNTs are expected to have greater
+values of ∆ χthan semiconducting SWNTs. A ﬁnite
+∆χresults in the alignment of SWNTs in the magnetic
+ﬁeld direction, which, combined with the anisotropic op-
+tical properties of SWNTs, allows for an estimation of
+∆χvalues for SWNTs through magneto-optical spec-
+troscopy. Previous magneto-optical studies found that
+∆χ∼1.5×10−5emu/mol for semiconducting SWNTs
+with∼1 nm diameters [9–14], while no information on
+∆χis currently available for metallic SWNTs. ! "" 
+paramagnetic diamagnetic 
+B
+#
+-1.5 -1.0 -0.5 0.0 0.5 1.0 1.5  " $ 
+90 75 60 45 30 15 0
+#%&'( (6,6) 
+(6,5) 300 K 
+FIG.1: Predictedmagneticsusceptibilityanisotropyofsi ngle-
+walled carbon nanotubes. The magnetic susceptibility χwas
+calculated through a k·pmodel and is expressed in units of
+χ∗= (2πγ/a)(πa2/φ0)2a−2= 1.46×10−4emu/mol, where
+γ= 6.46 eV ·˚A,a= 2.5˚A, andφ0=e/his the magnetic
+ﬂux quantum. The (6,6) nanotube (metallic) is paramagnetic
+along the tube axis and diamagnetic in the perpendicular di-
+rection ( χ/bardbl>0> χ⊥), whereas the (6,5) nanotube (semicon-
+ducting) is diamagnetic in all directions but most strongly
+diamagnetic in the perpendicular direction ( χ⊥< χ/bardbl<0).
+In both cases, ∆ χ=χ/bardbl−χ⊥>0, leading to alignment in an
+external magnetic ﬁeld B.
+Here, we present the ﬁrst experimental estimation of
+the ∆χof metallic SWNTs through high-ﬁeld magnetic
+linear dichroism spectroscopy of CoMoCAT nanotubes
+individually suspended in aqueous solution at room tem-
+perature. The sample had a much smaller diameter dis-
+tribution than the HiPco samples used in the previous
+studies [10, 11], which allowed us to clearly identify, and
+closely examine the magnetic ﬁeld dependence of, ab-
+sorption peaks for metallic nanotubes. We made a de-
+tailedcomparisonofthe∆ χofmetallicand semiconduct-
+ing nanotubes with similar diameters and lengths within2
+0.8
+0.6
+0.4Absorbance(8,3)(7,5)(6,4)(6,5)
+(6,5)
+phonon(7,4)(6,6)
+(5,5)(a)
+A// @ 35 T
+A/s94 @ 35 T 0 T & A0 Data
+ A0 = (A// + 2A⊥)/3
+0.6
+0.5
+0.4LDr
+3.43.23.02.82.62.42.22.01.8
+Energy (eV)35 T (b)
+(6,4)(6,5)(7,4)(6,6)
+(5,5)
+FIG. 2: (a) Absorption spectra (solid black) for 0 T and 35 T
+with all peaks assigned to speciﬁc chiralities. No trace is
+intentionally oﬀset, indicating greater (smaller) absorp tion
+for parallel (perpendicular) polarization. The unpolariz ed
+isotropic absorbance (dashed red), calculated from the 35 T
+spectra via Eq. (1), agrees well with the 0 T data. (b) Re-
+duced linear dichroism versus energy from measured data.
+The largest peak is from metallic nanotubes (6,6) and (7,4).
+the same sample and found that the values of ∆ χare
+2-4 times greater in metallic tubes. We also compared
+our values with previous work for semiconducting nan-
+otubes [13], which conﬁrm a break from the prediction
+that ∆χshould increase linearly with the tube diameter.
+Polarized magneto-optical absorption measurements
+on length-sorted, (6,5)-enriched CoMoCAT SWNTs were
+performed using the 35 T hybrid magnet at the National
+Institute for Materials Science in Tsukuba, Japan. The
+SWNTs were suspended in 1% sodium deoxycholate and
+length-sorted by dense liquid ultracentrifugation to have
+an average length of ∼500 nm. A Xe lamp, ﬁber-coupled
+to a custom optical probe, allowed for broadband white-
+light excitation of the E11metallic, E22semiconductor,
+andE33semiconductor interband transitions of SWNTs.
+The sample was held in a cuvette with a ﬁlm polarizer
+directly on the front face to ensure that the incident
+light was linearly polarized. The transmitted light was
+collimated by a lens, collected with another ﬁber, and
+dispersed through a monochromator equipped with a Si
+CCD. All measurements were done at ∼300 K.
+Figure 2(a) shows polarization-dependent optical ab-
+sorption spectra at 0 and 35 T. None of the spectra are
+intentionally oﬀset, indicating an increase (decrease) in
+absorbance for light polarized parallel (perpendicular) to
+the ﬁeld. This is a direct result of magnetic alignment,togetherwith the fact that only the light-ﬁeldcomponent
+parallel to the tube axis is strongly absorbed in SWNTs.
+Namely, at 35 T there is a ﬁnite degree of alignment in
+the magnetic ﬁeld direction within the nanotube ensem-
+ble, resulting in stronger (weaker) absorption for light
+polarized parallel (perpendicular) to the ﬁeld. From the
+theory of linear dichroism for an ensemble of anisotropic
+molecules [15], the following quantity can be shown to be
+constant, independent of the degree of alignment:
+A0≡A/bardbl+2A⊥
+3, (1)
+whereA/bardbl(A⊥) isthe absorptionfor lightpolarizedparal-
+lel (perpendicular) to the orientation axis, i.e., the mag-
+netic ﬁeld direction. We calculated A0at 35 T using
+Eq. (1) and plotted it in Fig. 2(a) as a red dashed line.
+The agreement between the calculated A0and the zero-
+ﬁeld absorbance spectrum conﬁrms that A0is indepen-
+dent of alignment (or B), because at 0 T A/bardbl=A⊥=
+A0. We further conﬁrmed that at any ﬁelds between 0
+and 35 T the increase in A/bardbland decrease in A⊥are such
+thatA0is preserved through Eq. (1).
+Linear dichroism, LD=A/bardbl−A⊥, is a measure of the
+degree of alignment. However, since it directly depends
+on the absorbance, LDalone cannot be used for compar-
+ing diﬀerent spectral features. To adjust for diﬀerences
+in relative absorbances due to the fact that our sample
+is enriched for (6,5), the LDwas divided by A0, yield-
+ing thereducedlinear dichroism, LDr=LD/A 0[15, 16],
+which is plotted in Fig. 2(b) for 35 T. It is immediately
+evident from this plot that the spectral region where
+metallicpeaks[(6,6)and(7,4)]existhasmuchlarger LDr
+than the region where the most prominent semiconduct-
+ingpeaks [(6,5)and (6,4)] exist. This is evidence that the
+(6,6) and (7,4) tubes are aligning more strongly than the
+(6,5) and (6,4) tubes. In order to quantitatively deter-
+mine the magnetic alignment properties of each chirality
+present in our sample, we performed detailed spectral
+analysis, as described below.
+Eachabsorptionspectrum wasﬁt by a superpositionof
+multiple Lorentzian peaks plus a polynomial oﬀset. The
+zero-ﬁeld spectrum was ﬁt ﬁrst, as shown in Fig. 3(a),
+with each Lorentzian assigned to a speciﬁc chirality. The
+oﬀset was included to account for the contributions from
+theπplasmon peaks, bundles, and light scattering [17–
+19]. For each magnetic ﬁeld, the parallel and perpendic-
+ular spectra were ﬁt simultaneously with the constraint
+that each Lorentzian independently satisfy Eq. (1). Fig-
+ure 3(b) shows representative results for the (7,5), (6,5),
+(6,6), and (5,5) nanotubes at 0 and 35 T. Note that we
+required the width and position of each Lorentzian to be
+the same as the values obtained at 0 T, which ensured
+that the calculated LDrfor each chirality is constant as
+a function of photon energy, as shown in Fig. 3(c) for
+35 T. Here, each LDrline is a direct result of calculation
+from each Lorentzian of diﬀerent chirality, while LDrin3
+0.4
+0.3
+0.2
+0.1
+0.0Absorbance(b)
+(6,6)
+(5,5)(6,5)
+(7,5) 35 T, parallel
+ 0 T
+ 35 T, perpendicular
+1.5
+1.0
+0.5LDr @ 35 T
+3.0 2.5 2.0
+Energy (eV) Metal   Semiconductor (c)
+(6,6)
+(5,5)
+(7,4)
+(8,3)
+(7,5)
+(6,5)(6,4)0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0Absorbance(a)
+(8,3)(7,5)
+(6,4)(6,5)
+(6,5)
+phonon(7,4)(6,6)(5,5)(7,5) E33 0 T, data
+ 0 T, fit (total)
+ individual fits
+FIG. 3: (a) Fitting results for 0 T (b) Lorentzians for diﬀere nt
+chirality nanotubes at 0 and 35 T. (c) LDrvs. Energy (eV)
+derived from ﬁtting for each individual chirality nanotube in
+our sample. The metallic tubes (red) are higher than the
+semiconducting nanotubes (blue dotted).
+Fig. 2(b) was calculated from the entire spectra. As a re-
+sult, one can extract chirality-speciﬁc information on the
+alignment degree from Fig. 3(c). It is evident that the
+values are much larger for the metallic (red lines) than
+the semiconducting (blue lines) nanotubes.
+Foranisotropicmoleculeswith the dipolemoment fully
+oriented along the long axis, the reduced linear dichro-
+ism can be expressed as LDr= 3S[15, 16]. Here, the
+nematicorderparameter S= (3/angbracketleftcos2θ/angbracketright−1)/2isadimen-
+sionless measure of the degree of alignment, being equal
+to zero for completely randomly oriented nanotubes and
+one for completely aligned nanotubes, and θis the angle
+between the nanotube axis and the orientation axis (i.e.,
+the magnetic ﬁeld direction in the present case). Values
+forSwere calculated for representative nanotubes from
+theLDrvalues in Fig. 3(c) and plotted as a function
+of magnetic ﬁeld in Fig. 4(a). Here, we can clearly see
+that the ( n,n)-chirality, or armchair, metallic nanotubes
+[(6,6) and (5,5)] show much stronger alignment than the
+semiconducting nanotubes [(6,5) and (6,4)].1.0
+0.8
+0.6
+0.4
+0.2
+0.0S
+0.124
+124
+1024
+u(b) 0.5
+0.4
+0.3
+0.2
+0.1
+0.0S
+403020100
+Magnetic Field (T) (6,6)
+ (5,5)
+ (6,5)
+ (6,4)(a)
+0.6
+0.4
+0.2
+0.0S
+56789
+10234
+Magnetic Field (T) (6,6)
+ fit for (6,6)
+ (6,5)
+ fit for (6,5)(c)3.0
+2.5
+2.0
+1.5χ// /χ∗
+403020100
+Magnetic Field (T)(d)
+30 K
+300 K(6,6)
+FIG. 4: (a) The nematic order parameter Sas a function
+of magnetic ﬁeld for armchair nanotubes (5,5) and (6,6) and
+semiconducting nanotubes (6,5) and (6,4), calculated from
+the measured reduced linear dichroism values. (b) Sversusu
+[Eq. (3)]. (c) Comparison of Sversus magnetic ﬁeld for (6,5)
+and (6,6) nanotubes. (d) Calculated magnetic ﬁeld depen-
+dence of the parallel magnetic susceptibility of (6,6) nano tube
+forT=30Kand300Kinunitsof χ∗=1.46×10−4emu/mol.
+In order to model the observed magnetic ﬁeld depen-
+dence of S, we approximate the angular distribution of
+nanotubes at temperature Tin a magnetic ﬁeld Bby the
+Maxwell-Boltzmann distribution function [10–13, 20]
+Pu(θ) =exp(−u2sin2θ)sinθ
+/integraltextπ/2
+0exp(−u2sin2θ)sinθdθ,(2)
+whereu=/radicalBig
+B2N∆χ
+2kBTis a dimensionless measure of the
+relative importance of the magnetic alignment energy
+(B2N∆χ/2) and the thermal energy ( kBT),Nis the
+number of carbon atoms in each nanotube with a length
+of500nm(in moles), and kBrepresentsBoltzmann’scon-
+stant. Using this distribution function and the deﬁnition
+ofS, one can derive
+S(u) =/integraldisplayπ/2
+0Pu(θ)/parenleftbigg3cos2θ−1
+2/parenrightbigg
+dθ
+=−1
+2+/parenleftbigg3
+4u2/parenrightbigg/parenleftBigg
+u
+√π
+2e−u2erﬁ(u)−1/parenrightBigg
+,(3)
+where erﬁ is the imaginary error function [erﬁ( u) =
+2
+i√π/integraltextiu
+0e−t2dt]. Equation (3) is plotted in Fig. 4(b).
+We were able to ﬁt the SversusBcurves with Eq. (3),
+asshownfor(6,6)and(6,5)inFig.4(c), toextract∆ χfor
+each nanotube chirality. However, care must be taken in4
+TABLE I: Comparison of calculated and measured values of
+magnetic susceptibility anisotropy for seven types of SWNT s.
+For each chirality ( n,m), the diameter d, the chiral index ν
+= mod 3 ( n−m), and the chiral angle αare given, followed
+by theoretical (30 K and 300 K) and experimental (300 K)
+values of ∆ χ. All values for ∆ χare×10−5emu/mol.
+(n,m)d(nm) ν α(◦) ∆χ30K
+th∆χ300K
+th∆χ300K
+exp
+(6,6) 0.83 0 30 5.78 3.92 3.63
+(5,5) 0.69 0 30 4.95 3.39 3.35
+(7,4) 0.77 0 21 5.42 3.70 2.44
+(8,3) 0.78 -1 15 1.49 1.46 2.13
+(7,5) 0.83 -1 24 1.58 1.55 1.66
+(6,5) 0.76 1 27 1.45 1.42 1.01
+(6,4) 0.69 -1 23 1.33 1.29 1.24
+using this procedure, since the values of ∆ χare expected
+to depend on BandT, especially for metallic nanotubes.
+Thus, we calculated ∆ χas a function of BandTfor
+all the seven SWNTs studied in this work. Figure 4(d)
+shows the Bdependence of χ/bardblfor the (6,6) nanotube for
+30 K and 300K. Although χ/bardbldecreasesby ∼27% at 30 K
+as the ﬁeld increases from 0 T to 40 T, it stays constant
+within∼0.7% at 300 K in the same ﬁeld range, ensuring
+that the magnetic ﬁeld dependence can be neglected for
+our room temperature measurements.
+Theoretical and experimental values of ∆ χobtained
+in the present work are summarized in Table I. The val-
+ues for the three metallic nanotubes, (7,4), (5,5), and
+(6,6), are all higher than those for the semiconducting
+nanotubes. In particular, the ∆ χof armchair, or ( n,n),
+carbonnanotubesare2-4times largerthan thosein semi-
+conducting nanotubes, depending on the diameter. This
+large diﬀerence in magnetic susceptibility anisotropy is a
+direct consequence of the Aharonov-Bohm physics caus-
+ing the band structure to change in the form of bandgap
+opening in metallic nanotubes and bandgap shrinking for
+semiconducting nanotubes. Speciﬁcally for metallic nan-
+otubes, this causes a large paramagnetism in the direc-
+tion along the tube axis.
+Finally, the experimentalvalues for metallic nanotubes
+in Table I do not follow a strict diameter dependence,
+something that is predicted for zigzag semiconducting
+tubes [8] and shown experimentally in semiconducting
+tubes [13]. It is also important to note that the (7,4)
+nanotube has a larger value of ∆ χthan the semicon-
+ducting tubes, but it is not as large as those of the arm-
+chair tubes. Unfortunately, it is the only non-armchair
+mod-3 nanotube in our sample, but a detailed study on
+a metallic-enriched sample [21] should yield many more
+metallic nanotubes to investigate in the future.
+In conclusion, we have successfully measured ∆ χfor
+metallic single-walled carbon nanotubes for the ﬁrst timeand conﬁrmed that they are much larger than those of
+semiconducting nanotubes. We also calculated the mag-
+netic ﬁeld and temperature dependence of magnetic sus-
+ceptibilities of the SWNTs studied experimentally, which
+support the experimental ﬁndings. Lastly, we were able
+to conﬁrm previous experimental results for the chiral-
+ity dependence of the magnetic susceptibility anisotropy
+in semiconducting nanotubes and found that this is also
+true for metallic nanotubes.
+This work was supported by DOE-BES (through
+Grant No. DEFG02-06ER46308), NSF (through Grant
+No. OISE-0530220), and the Robert A. Welch Founda-
+tion (through Grant No. C-1509). We thank Noe Alvarez
+for help with AFM length measurements and Ajit Srivas-
+tava for assistance with data analysis. Oﬃcial contribu-
+tion of the National Institute of Standards and Technol-
+ogy; not subject to copyright in the United States.
+∗kono@rice.edu; corresponding author.
+[1] H. Ajiki and T. Ando, J. Phys. Soc. Jpn. 62, 1255 (1993).
+[2] H. Ajiki and T. Ando, J. Phys. Soc. Jpn. 62, 2470 (1993).
+[3] W. Tian and S. Datta, Phys. Rev. B 49, 5097 (1994).
+[4] J. P. Lu, Phys. Rev. Lett. 74, 1123 (1995).
+[5] H. Ajiki and T. Ando, J. Phys. Soc. Jpn. 64, 4382 (1995).
+[6] S. Roche, G. Dresselhaus, M. S. Dresselhaus, and
+R. Saito, Phys. Rev. B 62, 16092 (2000).
+[7] N. Nemec and G. Cuniberti, Phys. Rev. B 74, 165411
+(2006).
+[8] M. A. L. Marques, M. d’Avezac, and F. Mauri, Phys.
+Rev. B73, 125433 (2006).
+[9] J. Kono and S. Roche, in Carbon Nanotubes: Properties
+and Applications , edited by M. J. O’Connell (CRC Press,
+Boca Raton, 2006), chap. 5, pp. 119–151.
+[10] S. Zaric et al., Science 304, 1129 (2004).
+[11] S. Zaric et al., Nano Lett. 4, 2219 (2004).
+[12] M. F. Islam, D. E. Milkie, O. N. Torrens, A. G. Yodh,
+and J. M. Kikkawa, Phys. Rev. B 71, 201401(R) (2005).
+[13] O. N. Torrens et al., J. Am. Chem. Soc. 129, 252 (2007).
+[14] J. Kono, R. J. Nicholas, and S. Roche, in Carbon Nan-
+otubes, edited by A. Jorio, G. Dresselhaus, and M. S.
+Dresselhaus (Springer, Berlin, 2008), pp. 393–421.
+[15] A.RodgerandB.Norden, Circular Dichroism and Linear
+Dichroism (Oxford University Press, Oxford, 1997).
+[16] J. Shaver et al., ACS Nano 3, 131 (2009).
+[17] Y. Murakami, E. Einarsson, T. Edamura, and
+S. Maruyama, Phys. Rev. Lett. 94, 087402 (2005).
+[18] N. Nair, M. L. Usrey, W. Kim, R. D. Braatz, and M. S.
+Strano, Anal. Chem. 78, 7689 (2006).
+[19] J. A. Fagan, V. Bajpai, B. J. Bauer, and E. K. Hobbie,
+Appl. Phys. Lett. 91, 213105 (2007).
+[20] M. Fujiwara, N. Fukui, and Y. Tanimoto, J. Phys. Chem.
+B103, 2627 (1999).
+[21] See, e.g., E. H. H´ aroz et al., arXiv:0911.0904.

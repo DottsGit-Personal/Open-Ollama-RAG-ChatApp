@@ -1,0 +1,262 @@
+arXiv:1001.0837v1  [cond-mat.str-el]  6 Jan 2010Freezing of spin dynamics and ω/Tscaling in
+underdoped cuprates
+Igor Sega1and Peter Prelovˇ sek1,2
+1Joˇ zef Stefan Institute, Ljubljana, Slovenia
+2Faculty of Mathematics and Physics, University of Ljubljan a, Ljubljana, Slovenia
+E-mail:igor.sega@ijs.si
+Abstract. The memory function approach to spin dynamics in doped antif erromagnetic
+insulator combined with the assumption of temperature inde pendent static spin correlations
+and constant collective mode damping leads to ω/Tscaling in a broad range. The theory
+involving a nonuniversal scaling parameter is used to analy ze recent inelastic neutron scattering
+results for underdoped cuprates. Adopting modiﬁed damping function also the emerging central
+peak in low-doped cuprates at low temperatures can be explai ned within the same framework.
+1. Introduction
+It is by now experimentally well established that magnetic s tatic and dynamical properties of
+high-Tccuprates are quite anomalous. Early inelastic neutron scat tering (INS) experiments
+on low-doped La 2−xSrxCuO4(LSCO) [1, 2] revealed that local, i.e., q-integrated dynamic
+spin response in the normal state (NS) exhibits anomalous ω/Tscaling, not reﬂected in
+instantaneous spin-spin correlation length ξTwhich shows no signiﬁcant T-dependence below
+room temperature. Subsequently similar behaviour has been found in a number of other
+compounds, i.e., in underdoped YBaCu 3O6+x(YBCO) and in Zn-doped YBCO [2]. More
+recent INS experiments on heavily underdoped (UD) cuprates , including Li-doped LSCO [3],
+YBCO [4, 5, 6, 7], and Pr 1−xLaCexCuO4−δ(PLCCO) [8], conﬁrm the universal features of
+anomalous NS spin dynamics so that ω/Tscaling is found in a broad range both in q-integrated
+susceptibility χ′′
+L(ω) [3, 5, 7] and in χ′′
+q(ω) at the commensurate AFM q=Q= (π,π) [3, 5, 8].
+Typically, χ′′
+Q(ω) is a Lorentzian with the characteristic relaxation rate sc aling as Γ = αT,
+but with a nonuniversal α[3, 5, 8]. Similarly, χ′′
+L(ω,T) =χ′′
+L(ω,0)f(ω/T) has been used [2, 8, 6],
+withf(x) = 2/πarctan[A1x+A2x3] and material dependent A1,2. It has been also observed
+that at low T < Tgsome intensity is gradually transfered into a central peak ( CP) [3, 4] whereas
+the inelastic response saturates. This freezingmechanism appears to be entirely dynamical in
+origin since ξTas well as the integrated intensity are unaﬀected by the cross over.
+The present authors introduced a theory of spin dynamics in d oped AFM [9] which describes
+the scaling behavior as a dynamical phenomenon based on two e xperimental observations: a)
+ξTis (almost) independent of T, and b) the system is metallic with ﬁnite spin collective-mo de
+damping. Then the system close to AFM naturally exhibits ω/Tscaling in a wide energy range,
+with saturation at low-enough T.
+Our starting point in the analysis of recent INS experiments is the dynamical spin
+susceptibilty [9]χq(ω) =−ηq
+ω2+ωMq(ω)−ω2q, (1)
+where the spin stiﬀness ηq∼2J(∼240 meV) is only weakly q-dependent ( Jis the exchange
+coupling), ωq= (ηq/χ0
+q)1/2is an eﬀective collective mode frequency, χ0
+q=χq(ω= 0) is the
+static susceptibility and Mqis (the complex) memory function containing information on col-
+lective mode damping γq=M′′
+q(ω). In the NS of cuprates low-frequency collective modes
+atq∼Qare generally overdamped so that γq> ωq. UD cuprates close to the AFM phase
+0 50 100 150 200 250 300
+T [K]01020304050ΓQ(T) [meV]ζ=1
+1.5
+2
+2.5
+3
+4
+6
+8
+2 4 68
+ζ0123
+αγ=40 meV
+γ=100 meV
+α=π/(2ζ)
+Figure 1. Relaxation rate Γ Qvs.Tfor diﬀerent
+parameters ζandγ=100 meV. Inset: dependence
+of slope parameter αonζfor two diﬀerent γ. For
+comparison, an estimate for αis included.have low charge-carrier concentration
+but pronounced spin ﬂuctuations whose
+dynamics is quite generally governed by
+the sum rule
+/integraldisplay∞
+0dω
+πχ′′
+q(ω)cothω
+2T=Cq,(2)
+whereCqis strongly peaked at Qwith
+a characteristic width κT= 1/ξT.
+Moreover, the total sum rule is for a
+system with local magnetic moments
+(spin 1/2) given by (1 /N)/summationtext
+qCq= (1−
+ch)/4, where chis an eﬀective (hole)
+doping.
+While the formalism so far is very
+general, we now introduce approxi-
+mations speciﬁc to UD cuprates [9].
+INS experiments listed above indicate
+that within the NS the eﬀective q
+width of χ′′
+q(ω), i.e., dynamical κ(ω),
+is only weakly T- andω-dependent,
+even on entering the regime with the
+CP response [4]. Within further analysis we assume the comme nsurate AFM response at Qand
+the double-Lorentzian form Cq=C/[(q−Q)2+κ2
+T]2although qualitative results at low ωdo
+not depend on a particular form of Cq.
+2. Paramagnetic metal:
+We also assume that the damping γq(ω) is dominated by particle-hole excitations being only
+weaklyqandωdependent. Hence γq(ω)∼γ, withγa phenomenological parameter. The
+assumption of constant γin Eq. (1) then leads to
+χ′′
+q(ω)∼χ0
+qωΓq
+ω2+Γ2q,Γq=η
+γχ0q. (3)
+Note that recent INS data are fully consistent with this form which has been used to extract
+ΓQ(T) [5].
+We next exploit the sum rule, Eq.(2), to determine Γ q. As shown elsewhere [9, 10] Γ Qis
+mainly determined by the parameter
+ζ=πγCQ/(2η), (4)
+subjectto T≪γwhichis experimentally relevant. Theresults arepresente dinFig. 1for arange
+ofζ= 1−8. While Γ Q(0) = Γ0
+Q∼γexp(−2ζ) [9, 10], for T >Γ0
+Qthe variation is nearly linear00.51χ"(QAF,ω,T)/χ"(QAF,ω,0)exp., ω=3 meV
+theory5 meV 8 meV
+050100150200250
+T [K]00.51 12 meV
+050100150200250
+T [K]32.5 meV
+Γ(0)=8 meV
+α=0.18 meV/K
+050100150200250
+T [K]01020304050[meV]ωQ(T)
+Γ(T)
+Figure 2. Temperature evolution of χ′′
+Q(ω,T) for
+UD YBCO with x= 0.45 [7] (symbols) compared
+with theoretical result, Eq. (3), with ζ= 1.8 and
+γ=60 meV (lines).Figure 3. Scaling of theoretical
+normalised χ′′
+L(ω,T) based on ζandγas
+in Fig. (2). For comparison, the scaling
+function f(x) as frequently used in ﬁts
+to experiments is also plotted.
+0 2 4 6 8
+ω/T00.20.40.60.81χ"L(ω,T)/χ"L(ω,T=0)
+ω=3 meV
+5
+8
+12
+16
+20
+32.5
+f(x)=2/π tan-1[0.56x+0.09x3]
+0 100 200 300
+T [K]050100150200κ2χQ [a.u.]ζ=1.5
+2.0
+2.5
+3.0
+0 0.1 0.2 0.3 0.4 0.5
+q [r.l.u.]00.20.40.60.81χ(q)/χ(0)T~ 0 K
+25
+50
+100
+300
+C(q)/C(0)
+Figure 4. Left pannel: the temperature
+dependence of κ2χQfor several ζas a function of
+T. Right pannel: T-dependence of χqrelative to a
+Lorentzian Cq.ΓQ∼αTbeing a manifestation of the
+ω/Tscaling. But αis not universal and
+depends on ζ(and weakly on γ). Then
+to leading order
+ΓQ(T)∼=max{πT
+2ζ,γexp(−2ζ)},(5)
+from which α=π/(2ζ) is identiﬁed [10].
+Note that the above Γ Qleads to χ′′
+L(ω)
+consistent with the “marginal Fermi
+liquid” model introduced by Varma et
+al. [11]. However, contrary to the usual
+assumption of proximity to a quantum
+critical point where ξT∝1/T, hereξT∼
+const.
+Recently a number of INS experi-
+ments have been reported where χ′′
+Q(ω)
+can be well described by Eq.3, includ-
+ing linear-in- Tbehaviour of Γ Qwhere,
+depending on material α∼0.18−0.75 [3, 5, 8]. All these αrequire rather large ζ, which implies
+very low saturation Γ0
+Q, whereas INS data for YBCO and LSCO indicate quite substanti al Γ0
+Q.
+However, saturation of Γ Q, setting in for T < Tg, is accompanied by simultaneous appearance
+of the CP which absorbs the ‘missing’ sum rule.
+In Fig. 2 INS measurements by Hinkov et al. [6, 7] on UD YBCO wit hx= 0.45 [7] are
+presented together with theoretical curves were the only re levant parameter is ζ= 1.8, while
+in Fig. 3 theoretical scaling function χ′′
+Q(ω,T)/χ′′
+Q(ω,0) for the same ζ(andγ) is plotted. The
+overall agreement between theory and experiment (Fig. 2) is quite satisfactory. The agreement
+is less satisfactory for ω= 32.5meV and should be attributed to the breakdown of scaling sin ce
+ωQ> γ/2, as also evident in Fig. 3. Note that the ad hocansatz for f(x) commonly used
+(withA2= 0) can be easily obtained assuming a Lorentzian dependence ofχ0
+qonq. A simplecalculation yields arctan( A1ω/T) withA1∼1/α, provided that κ≪1 butκ2χ0
+Q∼const (see
+Fig. 4).
+3. CP response:
+The advantage of the memory-function formalism is that the e mergence of the CP at T < Tgin
+the spin response can be as well treated within the same frame work. One has to assume that
+unlike in a paramagnet the mode damping γqis not constant but may acquire an additional low
+frequncy contribution. In particular we can take ˜Mq∼iγ−δ2/(ω+iλ), withT-dependent δ
+andλ, which leads to χ′′
+q(ω) of the form used also to analyse experimental INS data for YB CO
+withx= 0.35 [4, 14].
+Forλ→0 butδ2/λ≫γthe modiﬁed ˜Mqleads to two distinct energy scales and hence to
+two contributions to spin dynamics, i.e., the CP part χc
+q(ω) and the regular contribution χr
+q(ω),
+χc
+q(ω)∼χ0
+qΓc
+Γc−iω, χr
+q(ω)∼χr0
+qΓr
+Γr−iω,q∼Q, (6)
+valid for ω < λandλ < ω≪γ, respectively. Thus, below Tgnew scales are set by Γ r= Ω2
+q/γ
+and Γc= (η/δ2)λ/χ0
+q, withχr0
+q=η/Ω2
+qand Ω2
+q=ω2
+q+δ2. If one assumes that δsaturates
+at lowT, as is manifest by saturation of Γ r[5], Γc∝λ/χ0
+qbecomes the smallest energy scale,
+resulting in a quasielastic peak of width Γ c. The saturation of Γ r, although at present unclear
+physically, is responsible for the transfer of spectral wei ght, since Cr
+q∼Cq−πT/(γΓr) [10],
+which is again consistent with experiment on x= 0.35 YBCO [5].
+4. Conclusions
+The approach presented gives a consistent explanation of th eω/Tscaling both in χ′′
+q(ω) as well
+as inχ′′
+L(ω). It is based on two well established experimental facts: th e overdamped nature of
+the response and the saturation of κTat lowωandT. The appearance of the CP for T < Tgis
+easily incorporated into the formalism via the (almost) sin gularω- andT-dependent damping
+˜Mq(ω). However, the question as to the origin of CP remains to be se ttled.
+References
+[1] B Keimer, R J Birgeneau, A Cassanho, Y Endoh, R W Erwin, M A K astner, and G Shirane 1991 Phys. Rev.
+Lett.67, 1930
+[2] for a review see M A Kastner, R J Birgeneau, G Shirane, and Y Endoh 1998 Rev. Mod. Phys. 70, 897
+[3] W Bao, Y Chen, Y Qiu, and J L Sarrao 2003 Phys. Rev. Lett. 91, 127005
+[4] C Stock, W J L Buyers, Z Yamani, C L Broholm, J-H Chung, Z Tun , R Liang, D Bonn, W N Hardy, and R
+J Birgeneau 2006 Phys. Rev. B73, 100504(R)
+[5] C Stock, W J L Buyers, Z Yamani, Z Tun, R J Birgeneau, R Liang , D Bonn, and W N Hardy 2008 Phys.
+Rev.B77, 104513
+[6] V Hinkov, D Haug, B Fauque, P Bourges, Y Sidis, A Ivanov, C B ernhard, C T Lin, and B Keimer 2008
+Science319, 597
+[7] V Hinkov 2007 In-plane anisotropy of the spin-excitation spectrum in twi n-freeYBa2Cu3O6−x(Ph. D. thesis,
+University of Stuttgart)
+[8] S D Wilson, S Li, H Woo, P Dai, H A Mook, C D Frost, S Komiya, an d Y Ando 2006 Phys. Rev. Lett. 96,
+157001
+[9] P Prelovˇ sek, I Sega, and J Bonˇ ca 2004 Phys. Rev. Lett. 92, 027002
+[10] I Sega and P Prelovˇ sek 2009 Phys. Rev. B79, 140504(R)
+[11] C M Varma, P B Littlewood, S Schmitt-Rink, E Abrahams, an d A E Ruckenstein 1989 Phys. Rev. Lett. 63,
+1996
+[12] G Aeppli, T E Mason, S M Hayden, H A Mook, and J Kulda 1997 Science278, 1432
+[13] S Chakravarty, B I Halperin, and D R Nelson 1988 Phys. Rev. Lett. 60, 1057
+[14] B I Halperin and C M Varma 1976 Phys. Rev. B14, 4030

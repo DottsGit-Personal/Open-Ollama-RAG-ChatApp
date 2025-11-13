@@ -1,0 +1,369 @@
+arXiv:1001.0776v2  [astro-ph.HE]  7 Jan 2010PROCEEDINGS OF THE 31stICRC, Ł´OD´Z 2009 1
+Atmospheric Variations as observed by IceCube
+Serap Tilav∗, Paolo Desiati†, Takao Kuwabara∗, Dominick Rocco†,
+Florian Rothmaier‡, Matt Simmons∗, Henrike Wissing§¶for the IceCube Collaboration/bardbl
+∗Bartol Research Institute and Dept. of Physics and Astronom y, University of Delaware, Newark, DE 19716, USA.
+†Dept. of Physics, University of Wisconsin, Madison, WI 5370 6, USA.
+‡Institute of Physics, University of Mainz, Staudinger Weg 7 , D-55099 Mainz, Germany.
+§III Physikalisches Institut, RWTH Aachen University, D-52 056 Aachen, Germany.
+¶Dept. of Physics, University of Maryland, College Park, MD 2 0742, USA.
+/bardblSee the special section of these proceedings
+Abstract.Wehavemeasuredthecorrelationofrates
+in IceCube with long and short term variations in
+the South Pole atmosphere. The yearly temperature
+variation in the middle stratosphere (30-60 hPa) is
+highly correlated with the high energy muon rate
+observed deepin the ice,andcausesa ±10%seasonal
+modulation in the event rate. The counting rates of
+the surface detectors, which are due to secondary
+particles of relatively low energy (muons, electrons
+and photons), have a negative correlation with tem-
+peratures in the lower layers of the stratosphere
+(40-80 hPa), and are modulated at a level of ±5%.
+The regionof the atmospherebetween pressure levels
+20-120 hPa, where the ﬁrst cosmic ray interactions
+occurandtheproducedpions/kaonsinteractordecay
+to muons, is the Antarctic ozone layer. The anti-
+correlation between surface and deep ice trigger
+rates reﬂects the properties of pion/kaon decay and
+interaction as the density of the stratospheric ozone
+layer changes. Therefore, IceCube closely probes the
+ozone hole dynamics, and the temporal behavior of
+the stratospheric temperatures.
+Keywords : IceCube, IceTop, South Pole
+I. INTRODUCTION
+The IceCube Neutrino Observatory, located at the
+geographical South Pole (altitude 2835m), has been
+growing incrementally in size since 2005, surrounding
+its predecessor AMANDA[1]. As of March 2009, Ice-
+Cube consists of 59 strings in the Antarctic ice, and
+59 stations of the IceTop cosmic ray air shower array
+on the surface. Each IceCube string consists of 60
+Digital Optical Modules (DOMs) deployed at depths of
+1450-2450m, and each IceTop station comprises 2 ice
+Cherenkov tanks with 2 DOMs in each tank.
+IceCube records the rate of atmospheric muons with
+Eµ≥400 GeV. Muon events pass the IceCube Simple
+Majority Trigger (InIce SMT) if 8 or more DOMs are
+triggered in 5 µsec. The IceTop array recordsair showers
+with primary cosmic ray energies above 300 TeV. Air
+showers pass the IceTop Simple Majority Trigger (Ice-
+TopSMT) if 6 or more surface DOMs trigger within
+5µsec.As the Antarctic atmosphere goes through seasonal
+changes, the characteristics of the cosmic ray interac-
+tions in the atmosphere follow these variations. When
+the primary cosmic ray interacts with atmospheric nu-
+clei, the pions and kaons produced at the early interac-
+tions mainly determine the nature of the air shower. For
+thecosmicrayenergiesdiscussedhere,theseinteractions
+happen in the ozone layer (20-120 hPa pressure layer
+at 26 down to 14 km) of the South Pole stratosphere.
+During the austral winter, when the stratosphere is cold
+anddense,thechargedmesonsaremorelikelytointeract
+and produce secondary low energy particles. During the
+austral summer when the warm atmosphere expandsand
+becomes less dense, the mesons more often decay rather
+than interact.
+Figure 1 demonstrates the modulation of rates in
+relationto thetemporalchangesoftheSouthPole strato-
+sphere. The scaler rate of a single IceTop DOM on the
+surface is mostly due to low energy secondary particles
+(MeV electrons and gammas, ∼1 GeV muons)[2] pro-
+duced throughout the atmosphere, and therefore highly
+modulated by the atmospheric pressure. However, after
+correcting for the barometric effect, the IceTop DOM
+counting rate also reﬂects the initial pion interactions in
+the middle stratosphere. The high energy muon rate in
+the deep ice, on the other hand, directly traces the decay
+characteristics of high energy pions in higher layers
+of the stratosphere. The IceCube muon rate reaches its
+maximum at the end of January when the stratosphere
+is warmest and most tenuous. Around the same time
+Icetop DOMs measure the lowest rates on the surface
+as the pion interaction probability reaches its minimum.
+The high energy muon rate starts to decline as the
+stratosphere gets colder and denser. The pions will
+interact more often than decay, yielding the maximum
+rate in IceTop and the minimum muon rate in deep ice
+at the end of July.
+II. ATMOSPHERIC EFFECTS ON THE ICECUBERATES
+The Antarctic atmosphere is closely monitored by the
+NOAA Polar Orbiting Environmental Satellites (POES)
+and by the radiosonde balloon launches of the South
+Pole Meteorology Ofﬁce. However, stratospheric data2 ATMOSPHERIC VARIATION
+ 180 200 220 240 260Tp [K]
+(a)p=20-30hPa
+30-40hPa
+40-50hPa
+50-60hPa
+60-70hPa
+70-80hPa
+80-100hPa
+ 1200 1300 1400 1500 1600 1700
+ 640 660 680 700 720 740IceTop DOM count. [Hz]
+Pressure [hPa]
+(b)Observed
+Pressure corrected
+Pressure
+ 900 1000 1100 1200
+05/01
+200707/01
+200709/01
+200711/01
+200701/01
+200803/01
+200805/01
+200807/01
+200809/01
+200811/01
+200801/01
+200903/01
+2009 180 200 220 240IceCube muon rate [Hz]
+Teff [K]
+(c)Observed
+Teff
+Fig. 1. The temporal behavior of the South Pole stratosphere from May 2007 to April 2009 is compared to IceTop DOM counting rate and
+the high energy muon rate in the deep ice. (a) The temperature proﬁles of the stratosphere at pressure layers from 20 hPa to 100 hPa where
+the ﬁrst cosmic ray interactions happen. (b) The IceTop DOM c ounting rate (black -observed, blue -after barometric corr ection) and the surface
+pressure (orange). (c) The IceCube muon trigger rate and the calculated effective temperature (red).
+is sparse during the winter when the balloons do not
+reach high altitudes, and satellite based soundings fail
+to return reliable data. For such periods NOAA derives
+temperatures from their models. We utilize both the
+ground-based data and satellite measurements/models
+for our analysis.
+A. Barometric effect
+In ﬁrst order approximation, the simple correlation
+between log of rate change ∆{lnR}and the surface
+pressure change ∆Pis
+∆{lnR}=β·∆P (1)
+whereβis the barometric coefﬁcient.
+As shown by the black line in the Figure 1b, the
+observed IceTop DOM counting rate varies by ±10% in
+anti-correlationwithsurfacepressure,andthebarometri c
+coefﬁcient is determined to be β=−0.42%/hPa. Using
+this value, the pressure corrected scaler rate is plotted
+as the smoother line (blue) in Figure 1b. The cosmic
+ray shower rate detected by the IceTop array also varies
+by±17% in anti-correlation with surface pressure, and
+can be corrected with a βvalue of −0.77%/hPa. As
+expected [3], the IceCube muon rate shown in Figure
+1c is not correlated with surface pressure. However,
+during exceptional stratospheric temperature changes,
+the secondordertemperatureeffect on pressurebecomes
+large enoughto cause anti-correlationof the high energy
+muon rate with the barometric pressure. During suchevents the effect directly reﬂects sudden stratospheric
+density changes, speciﬁcally in the ozone layer.
+B. Seasonal Temperature Modulation
+Figure 1 clearly demonstrates the seasonal temper-
+ature effect on the rates. The IceTop DOM counting
+rate, after barometric correction, shows ±5% negative
+temperature correlation. On the other hand, the IceCube
+muon rate is positively correlated with ±10% seasonal
+variation.
+Fromthephenomenologicalstudies[4][5],it isknown
+that correlation between temperature and muon intensity
+can be described by the effective temperature Teff,
+deﬁned by the weighted average of temperatures from
+the surface to the top of the atmosphere. Teffapproxi-
+mates the atmosphere as an isothermal body, weighting
+each pressure layer according to its relevance to muon
+production in atmosphere [5][6].
+The variation of muon rate ∆Rµ/ < Rµ>is related
+to the effective temperature as
+∆Rµ
+< Rµ>=αT∆Teff
+< Teff>, (2)
+whereαTis the atmospheric temperature coefﬁcient.
+Using balloon and satellite data for the South Pole
+atmosphere, we calculated the effective temperature as
+the red line in Figure 1c. We see that it traces the
+IceCube muon rate remarkably well. The calculated
+temperature coefﬁcient αT= 0.9for the IceCube muonPROCEEDINGS OF THE 31stICRC, Ł´OD´Z 2009 3
+TABLE I
+Temperature and correlation coefﬁcients of rates for diffe rent
+stratospheric layers of 20-100 hPa and Teff.
+IceCube Muon IceTop Count.
+P < Tp>αp
+Tγ αp
+Tγ
+(hPa) (K)
+20-30 214.0 0.512 0.953 -0.194 -0.834
+30-40 208.7 0.550 0.986 -0.216 -0.906
+40-50 207.3 0.591 0.993 -0.240 -0.946
+50-60 206.6 0.627 0.985 -0.261 -0.968
+60-70 206.3 0.656 0.971 -0.278 -0.975
+70-80 206.3 0.679 0.954 -0.292 -0.975
+80-100 206.5 0.708 0.927 -0.310 -0.971
+< Teff>αTγ α Tγ
+211.3 0.901 0.990 -0.360 -0.969
+rate agrees well with the expectations of models as well
+as with other experimental measurements[7][8].
+In this paper, we also study in detail the relation be-
+tween rates and stratospheric temperatures for different
+pressure layers from 20 hPa to 100 hPa as
+∆R
+< R >=αp
+T∆Tp
+< Tp>. (3)
+The temperature coefﬁcients for each pressure layer
+αp
+Tandthe correlationcoefﬁcient γare determinedfrom
+regression analysis. Pressure-corrected IceTop DOM
+counting rate, and IceCube muon rate are sorted in
+bins of∼10 days, and deviations ∆R/ < R > from
+the average values are compared with the deviation of
+temperatures at different depths ∆Tp/ < Tp>.
+We list the values of αp
+Tandγfor IceCube muon
+rate and IceTop DOM counting rate in Table 1. We
+ﬁnd that the IceCube muon rate correlates best with
+the temperatures of 30-60 hPa pressure layers, while the
+IceTop DOM counting rate shows the best correlation
+with 60-80 hPa layers. In Figure 2. we plot the rate and
+temperature correlation for layers which yield the best
+correlation.
+III. EXCEPTIONAL STRATOSPHERIC EVENTS AND
+THEMUON RATES
+The South Pole atmosphere is unique because of
+the polar vortex. In winter a large-scale counter clock-
+wise ﬂowing cyclone forms over the entire continent
+of Antarctica, isolating the Antarctic atmosphere from
+higher latitudes. Stable heat loss due to radiative cooling
+continues until August without much disruption, and the
+powerful Antarctic vortex persists until the sunrise in
+September. As warm air rushes in, the vortex loses its
+strength, shrinks in size, and sometimes completely dis-
+appears in austral summer. The density proﬁle inside the
+vortex changes abruptly during the sudden stratospheric
+warming events, which eventually may cause the vortex
+collapse. The ozone depleted layer at 14-21 km altitude
+(ozone hole), observed in September/October period, is
+usually replaced with ozone rich layer at 18-30 km soon
+after the vortex breaks up.-15-10-5 0 5 10 15
+-20-15-10-5 0 5 10 15 20∆ R / < R > [%]
+∆ Tp / < Tp > [%]IceCube muon rate vs. Tp (p=40-50hPa)
+α = 0.591
+γ  = 0.993
+(a)
+-15-10-5 0 5 10 15
+-20-15-10-5 0 5 10 15 20∆ R / < R > [%]
+∆ Teff / < Teff > [%]IceCube muon rate vs. Teff
+α = 0.901
+γ  = 0.990
+(b)-15-10-5 0 5 10 15
+-20-15-10-5 0 5 10 15 20∆ R / < R > [%]
+∆ Tp / < Tp > [%]IceTop DOM count. vs. Tp (p=60-70hPa)
+α = -0.278
+γ  = -0.975
+(c)
+-15-10-5 0 5 10 15
+-20-15-10-5 0 5 10 15 20∆ R / < R > [%]
+∆ Teff / < Teff > [%]IceTop DOM count. vs. Teff
+α = -0.360
+γ = -0.969
+(d)
+Fig. 2. Correlation of IceCube muon and IceTop DOM counting r ates
+with stratospheric temperatures and Teff. (a) IceCube muon rate vs.
+temperature at 40-50 hPa pressure layer. (b) IceCube muon ra te vs.
+effective temperature. (c) IceTop DOMcounting ratevs.tem perature at
+70-80 hPa pressure layer. (d) IceTop DOM counting rate vs. ef fective
+temperature.
+Apart from the slow seasonal temperature variations,
+IceCube also probes the atmospheric density changes
+due to the polar vortex dynamics and vigorous strato-
+spheric temperature changes on time scales as short as
+days or even hours, which are of great meteorological
+interest.
+An exceptional and so far unique stratospheric event
+has already been observed in muon data taken with
+IceCube’s predecessor AMANDA-II.
+A. 2002AntarcticozoneholesplitdetectedbyAMANDA
+In late September 2002 the Antarctic stratosphere
+underwent its ﬁrst recorded major Sudden Stratospheric
+Warming (SSW), during which the atmospheric temper-
+atures increased by 40 to 60 K in less than a week.
+This unprecedented event caused the polar vortex and
+the ozone hole, normally centered above the South Pole,
+to split intotwosmaller,separateoff-centerparts(Figur e
+3) [9].
+Figure4showsthestratospherictemperaturesbetween
+Septemberand October2002alongwith the AMANDA-
+II muon rate. The muon rate traces temperature varia-
+tions in the atmospherein great detail, with the strongest
+correlation observed for the 40-50hPa layer.
+B. South Pole atmosphere 2007-2008
+Unlike in 2002, the stratospheric conditions over
+Antarctica were closer to average in 2007 and 2008.
+In 2007 the polar vortex was off-center from the South
+Pole during most of September and October, resulting in
+greaterheatﬂuxinto thevortex,whichdecreasedrapidly
+in size. When it moved back over the colder Pole region
+in early November it gained strength and persisted until
+the beginning of December. The 2008 polar vortex was4 ATMOSPHERIC VARIATION
+Fig. 3. Ozone concentration over the southern hemisphere on
+September 20th 2002 (left) and September 25th 2002 (right) [ 10].
+Date 09/09 23/09 07/10 21/10 Rate [Hz] 
+64 66 68 70 72 74 T [K] 
+180 190 200 210 220 230 240 250  20 - 30  hPa 
+ 30 - 40  hPa 
+ 40 - 50  hPa 
+ 50 - 60  hPa 
+ 60 - 70  hPa 
+ 70 - 80  hPa 
+ 80 -100 hPa 
+Fig. 4. Average temperatures in various atmospheric layers over the
+South Pole (top) and deep ice muon rate recorded with the AMAN DA-
+IIdetector (bottom) during theAntarctic ozoneholesplito fSeptember-
+October 2002.
+one of the largest and strongest observed in the last 10
+years over the South Pole. Because of this, the heat ﬂux
+entering the area was delayed by 20 days. The 2008
+vortex broke the record in longevity by persisting well
+into mid-December.
+In Figure 5 we overlay the IceCube muon rate over
+the temperatureproﬁlesoftheAntarcticatmospherepro-
+ducedbytheNOAAStratosphericanalysisteam[11].We
+note that the anomalous muon rates (see, for example,
+the sudden increase by 3% on 6 August 2008) observed
+by IceCube are in striking correlation with the middle
+and lower stratospheric temperature anomalies.
+We are establishing automated detection methods for
+anomalous events in the South Pole atmosphere as well
+as a detailed understanding and better modeling of
+cosmic ray interactions during such stratospheric events.
+IV. ACKNOWLEDGEMENTS
+We are grateful to the South Pole Meteorology Ofﬁce
+and the Antarctic Meteorological Research Center of
+the University of Wisconsin-Madison for providing the
+Fig. 5. The temperature time series of the Antarctic atmosph ere
+produced by NOAA[11] are shown for 2007 and 2008. The pattern
+observed in the deep ice muon rate (black line) is superposed onto
+the plot to display the striking correlation with the strato spheric
+temperature anomalies.
+meteorological data. This work is supported by the
+National Science Foundation.
+REFERENCES
+[1] Karle, A. for the IceCube Collaboration (2008), IceCube : Con-
+struction Status and First Results, arXiv:0812.3981v1.
+[2] Clem, J. et al. (2008), Response of IceTop tanks to low-en ergy
+particles, Proceedings of the 30th ICRC, Vol. 1 (SH), p.237- 240.
+[3] Dorman, L. (2004), Cosmic Rays in the Earth’s Atmosphere and
+Underground, Springer Verlag.
+[4] Barrett P. et al. (1952), Interpretation of cosmic-ray m easurements
+far underground, Reviews of Modern Physics, Vol. 24, Issue 3 ,
+p.133-178.
+[5] Ambrosio,M.etal. (1997),Seasonal variations in theun derground
+muon intensity as seen by MACRO, Astroparticle Physics, Vol . 7,
+Issue 1-2, p.109-124.
+[6] Gaisser, T. (1990), Cosmic rays and particle physics. Ca mbridge,
+UK: Univ. Pr.
+[7] Grashorn, E. et al., Observation of the seasonal variati on in
+underground muon intensity, Proceedings of the 30th ICRC, V ol.
+5 (HE part 2), p.1233-1236.
+[8] Osprey, S., et al. (2009), Sudden stratospheric warming s seen in
+MINOS deep underground muon data, Geophys. Res. Lett., 36,
+L05809, doi:10.1029/2008GL036359.
+[9] Varotsos, C., et al. (2002), Environ. Sci. & Pollut. Res. , p.375.
+[10] http://ozonewatch.gsfc.nasa.gov
+[11] http://www.cpc.noaa.gov/products/stratosphere/s trat-trop/

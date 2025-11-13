@@ -1,0 +1,159 @@
+arXiv:1001.0777v3  [math-ph]  13 May 2010Analytic functions of the annihilation operator
+Aleksandar Petrovi´ c∗
+M.Gorkog 27, 11000 Belgrade, Serbia
+A method for construction of an non-entire function fof the annihilation operator ais given for
+the ﬁrst time. f(z) is analytic on some compact domain that does not separate th e complex plane.
+A new form of the identity is given, which is well suited for th e function’s domain. Using Runge’s
+polynomial approximation theorem, such a function fof the annihilation operator is deﬁned on the
+whole domain. The constructed operators are given in terms o f dyads formed of Fock states.
+PACS numbers: 03.65.Ca, 03.65.Ta
+I. INTRODUCTION
+The annihilation operator in Hilbert space is operator awhich satisﬁes relation
+[a,a†] = 1. (1)
+A self-adjoint Number operator Nand the corresponding Fock states are constructed using a:
+N=a†a, N|n/an}bracketri}ht=n|n/an}bracketri}ht, n= 0,1,2,3,... (2)
+Eigenstates of aare called coherent states:
+a|α/an}bracketri}ht=α|α/an}bracketri}ht,|α/an}bracketri}ht=e−|α|
+22∞/summationdisplay
+n=0αn
+√
+n!|n/an}bracketri}ht, α∈C. (3)
+The coherentstates aredenoted with Greekletters ( |α/an}bracketri}ht,|β/an}bracketri}ht,|γ/an}bracketri}ht), and the Fock stateswith Latin letters ( |l/an}bracketri}ht,|k/an}bracketri}ht,|n/an}bracketri}ht,|m/an}bracketri}ht).
+The identity can be formed using eigenvectors |α/an}bracketri}ht:
+I=1
+π/integraldisplay
+d2α|α/an}bracketri}ht/an}bracketle{tα|. (4)
+ais not a normal operator, so The Spectral Theorem cannot be app lied to construct f(a). Nevertheless, every entire
+function of the operator acan be represented in a form analogous to the resolution of a norma l operator with respect
+to its projective measure:
+f(a) =1
+π/integraldisplay
+d2αf(α)|α/an}bracketri}ht/an}bracketle{tα|. (5)
+Contrary to the normal operator case, non-entire functions of acannot be represented in such a way [1],[2]. Previous
+unsuccessful attempts to use ln awere pointed out in [1]. Related questions concerning this issue were also studied by
+Perelomov[3]. The underlying problem is the fact that until now non-e ntire functions of the annihilation operatorhave
+not been studied in detail, and some straightforward assumptions a rising from resolution (5) have lead to erroneous
+conclusions. In this paper, we construct a function f(a) of the annihilation operator, where fis analytic on a compact
+domain that does not separate the complex plane. The operators c onstructed here are given in terms of dyads formed
+of Fock states.
+∗Electronic address: a.petrovic.phys@gmail.com2
+II. RESULTS
+A. New identity resolution
+Standard resolution of identity (4) is not suitable for non-entire fu nctions, so a new resolution of identity is given.
+To do that, non-normalized coherent states (NCS) are deﬁned:
+/tildewider|α/an}bracketri}ht=eαa†|0/an}bracketri}ht=e|α|
+22
+|α/an}bracketri}ht. (6)
+Translation operator for NCS is:
+T(β) =eβa†, T(β)/tildewider|α/an}bracketri}ht=/tildewider|α+β/an}bracketri}ht, α,β∈C. (7)
+Now, an identity whose eigenstates are on the circle of radius R cent ered at the origin can be formed from NCS :
+I=−i/contintegraldisplay
+|γ|=Rdγ
+γ/tildewider|γ/an}bracketri}ht/tildewider/an}bracketle{tγ|J, (8)
+where
+J=1
+2π∞/summationdisplay
+n=0n!|n/an}bracketri}ht/an}bracketle{tn|. (9)
+B. Runge’s approximation theorem and functions of the annih ilation operator
+In this subsection, f(a) wherefis an analytic function deﬁned on a compact domain Ω that does not se parate the
+complex plane, is constructed. Two classes of such functions are c onsidered. The ﬁrst class consist of functions f
+deﬁned on domains containing 0: 0 ∈Ω. The second class consists of functions which are not deﬁned at 0 : 0/ne}ationslash∈Ω. A
+convenient theoretical tool for this is Runge’s polynomial approxim ation theorem.
+Theorem: Iffis an analytic function on a compact domain Ω that does not separate the complex plane, then there
+exists a sequence Pl(z) of polynomials such that converges uniformly to f(z) on Ω [4],[5],[6]:
+f(z) =∞/summationdisplay
+l=0Pl(z−z0) =∞/summationdisplay
+l=0dl/summationdisplay
+k=0c(l)
+k(z−z0)k,c(l)
+k∈C,z,z0∈Ω. (10)
+Let us consider the ﬁrst class of analytic function (0 ∈Ω) and let
+f(z) =∞/summationdisplay
+l=0dl/summationdisplay
+k=0c(l)
+kzk,z∈Ω (11)
+be an expansion of fin a series of polynomials. Then (11) and (8) can be used to construc t the function f(a) of
+annihilation operator:
+f(a) =∞/summationdisplay
+l=0dl/summationdisplay
+k=0c(l)
+kak·I=−i∞/summationdisplay
+l=0dl/summationdisplay
+k=0c(l)
+k/contintegraldisplay
+|γ|=Rdγγk−1/tildewider|γ/an}bracketri}ht/tildewider/an}bracketle{tγ|J. (12)
+Using deﬁnition (6) of/tildewider|γ/an}bracketri}ht, and after performing integration, f(a) becomes:3
+f(a) =∞/summationdisplay
+l=0∞/summationdisplay
+n=0dl+n/summationdisplay
+m=nc(l)
+m−n/radicalbigg
+m!
+n!|n/an}bracketri}ht/an}bracketle{tm|, (13)
+which for α∈Ω gives:
+f(a)|α/an}bracketri}ht=f(α)|α/an}bracketri}ht. (14)
+Let us now examine the second class of f. Again we can use (10), but requiring z0/ne}ationslash= 0,z0∈Ω. However, a repetition
+of the above procedure using (8) leads to a divergence problem. To resolve this issue, a diﬀerent resolution of identity,
+one involving translation (7) is chosen:
+I=ez0a†Ie−z0a†. (15)
+IfIin the right hand side of equation (15) is substituted with (8), and us ing (7) we get:
+I=−i/contintegraldisplay
+|γ|=Rdγ
+γ/tildewider|γ+z0/an}bracketri}ht/tildewider/an}bracketle{tγ|J e−z0a†. (16)
+Now we apply the operator, obtained by polynomial approximation, t o the identity (16):
+f(a) =∞/summationdisplay
+l=0dl/summationdisplay
+k=0c(l)
+k(a−z0)k·I=−i∞/summationdisplay
+l=0dl/summationdisplay
+k=0c(l)
+k/contintegraldisplay
+|γ|=Rdγγk−1/tildewider|γ+z0/an}bracketri}ht/tildewider/an}bracketle{tγ|J e−z0a†. (17)
+Again, using deﬁnition (6) of/tildewider|γ/an}bracketri}ht, and after performing integration, f(a) becomes:
+f(a) =∞/summationdisplay
+l=0dl/summationdisplay
+k=0c(l)
+k∞/summationdisplay
+n=0n+k/summationdisplay
+m=k/parenleftbiggn
+m−k/parenrightbigg/radicalbigg
+m!
+n!zn−m+k
+0|n/an}bracketri}ht/an}bracketle{tm|e−z0a†, (18)
+which for α∈Ω gives:
+f(a)|α/an}bracketri}ht=f(α)|α/an}bracketri}ht. (19)
+We can simplify (18), collecting coeﬃcients at dyads, as
+f(a) =χe−z0a†, (20)
+χ=∞/summationdisplay
+l=0∞/summationdisplay
+n=0∞/summationdisplay
+m=0χ(l)
+nm|n/an}bracketri}ht/an}bracketle{tm|,
+χ(l)
+nm=/radicalbigg
+m!
+n!sl/summationdisplay
+k=pc(l)
+k/parenleftbiggn
+m−k/parenrightbigg
+zn−m+k
+0 ,p= max{0,m−n}, sl= min{m,dl}.4
+III. DISCUSSION AND CONCLUSION
+In this paper, for the ﬁrst time an expression for a non-entire fun ctionf(a) of the annihilation operator is obtained.
+f(z) is an analytic function on an compact domain Ω ⊂Cthat does not separate the complex plane.
+A very signiﬁcant application of our result is its use in a construction o f lna. Since ln zand 1/zcan be deﬁned on
+domain which satisﬁes previous conditions, our method allows us to ob tain lnaand 1/a. Since, formally, [ln a,a†] =
+1/a, it follows
+[a†a,−ilna] =i. (21)
+Operator −ilnais conjugate to Number operator. It is not self-adjoint, but due t o commutation relation (21) it
+can serve as a good starting point for construction of the Phase O perator [1],[2]. Considering the signiﬁcance of this
+result, it will be topic of a separate paper.
+Acknowledgments
+The autor would like to thank Drs M.Arsenovi´ c, D.Arsenovi´ c, D.Da vidovi´ c and J.Ajti´ c for their suggestions and
+help in preparation of this manuscript.
+[1] Lj. Davidovi´ c, D. Arsenovi´ c, M. Davidovi´ c and D.M. Da vidovi´ c, J.Phys.A: Math. Theor. 42, 235302 (2009).
+[2] M. Davidovi´ c, D. Arsenovi´ c and D.M. Davidovi´ c, J.Phy s.: Conf. Ser. 36, 46 (2006).
+[3] A.M. Perelomov, Theor. Math. Phys. 6(Engl.Transl.), 213 (1971).
+[4] E.B. Saﬀ, ”Proceedings of Symposia in Aplied Mathematic Vol.36”, (1986).
+[5] A.I. Markushevich, ”Theory of function of complex varia ble”, (1977).
+[6] L.V. Ahlfors, ”Complex Analysis” (1979).

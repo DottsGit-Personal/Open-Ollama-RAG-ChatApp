@@ -1,0 +1,326 @@
+arXiv:1001.0382v3  [astro-ph.HE]  11 Sep 2011The extension of radiative viscosity to superﬂuid matter∗
+PI Chun-Mei1, YANG Shu-Hua2∗∗, and ZHENG Xiao-Ping2
+1Department of Physics and Electronics, Hubei University of Education, Wuhan 430205, P.R.China
+2Institute of Astrophysics, Huazhong Normal University, Wu han 430079, P.R.China,
+(Dated: Received: , Accepted:)
+The radiative viscosity of superﬂuid npematter is studied, and it is found that to the lowest or-
+der ofδµ/Tthe ratio of radiative viscosity to bulk viscosity is the sam e as that of the normal matter.
+PACS: 97.60.Jd, 21.65.-f, 95.30.Cq
+As one of the most important transport coeﬃcients,
+bulk viscosities of simple npematter, of hyperon matter
+and even of quark matter, both in normal and superﬂuid
+states, have been extensively studied [1–18], for more ref-
+erences see [19].
+In fact, the mechanical energy of density perturbations
+isnotonlydissipatedtoheatviabulkviscosity,butalsois
+radiated awayvia neutrinos, this was ﬁrst pointed out by
+Finiz and Wolf in 1968[1]. However, the damping mech-
+anism through neutrinos is ignored for several decades,
+until recently, Sa’d and Schaﬀner-Bielich [20] named this
+mechanism the radiative viscosity, and found it is 1.5
+times larger than the bulk viscosity to all Urca processes
+in the lowest order of δµ/T, both in nuclear matter and
+quark matter. Yang et al. [21] studied non-linear ef-
+fect of radiative viscosity of npematter in neutron stars
+for both direct Urca process and modiﬁed Urca process,
+and found that non-linear eﬀect will decrease the ratio of
+radiative viscosity to bulk viscosity from 1 .5 to 0.5 (for
+direct Urca process) and 0.375 (for modiﬁed Urca pro-
+cess); which means that for small oscillations of neutron
+star the large fraction of oscillation energy is emitted as
+neutrinos, but for large enough ones bulk viscous dissi-
+pation dominates.
+It’s well known that below certain critical tempera-
+ture nucleons in neutron star matter will be in superﬂuid
+states. The bulk viscosity of superﬂuid nucleon matter
+have been studied [4, 5, 17], and it turns out that the
+superﬂuidity may strongly reduce bulk viscosity. This
+paper aims to study the radiative viscosity of superﬂuid
+nucleon matter, in other words, we will give the relation-
+ship between radiative viscosity and bulk viscosity in the
+superﬂuid case.
+Both the bulk viscosity and the radiative viscosity of
+npematterarerelatedtodirectUrcaprocess( n→p+e+
+νe,p+e→n+νe) and modiﬁed Urca process ( n+N→
+p+N+e+νe,p+N+e→n+N+νe) in diﬀerent
+conditions. As shown by [22], the direct Urca process
+is allowed by the momentum conservation when pFn<
+pFp+pFe, and for pure npematter where pFp=pFe, it
+∗This research is supported by NFSC under Grants No. 11073008 .
+∗∗Email: ysh@phy.ccnu.edu.cn
+Telephone number: 13545359902, 13545119781corresponds to np/n >1/9. This happens if the density
+is several times larger than the standard nuclear matter
+densityρ0= 2.8×1014gcm−3. In the following, we focus
+on the direct Urca process.
+Let us ﬁrst recall the formulae of radiative viscosity of
+simple non-superﬂuid npematter [7, 20]. Considering a
+periodic perturbation to the baryon number density
+nb(t) =nb0+Re(δnbeiωt). (1)
+It will lead to a deviation from β-equilibrium character-
+ized by
+δµ=µp+µe−µn=δµp+δµe−δµn,(2)
+whereµn,µpandµeare the chemical potentials of the
+neutrons, protons and electrons. δµcan be expressed in
+terms of the variations of two independent variables δnb
+andδXp,
+δµ=Cδnb
+nb+BδXp, (3)
+whereXp=np/nbis the proton fraction and the coeﬃ-
+cient functions CandBare given by
+C=np∂µp
+∂np+ne∂µe
+∂ne−nn∂µn
+∂nn, (4)
+B=nb/parenleftbigg∂µp
+∂np+∂µe
+∂ne+∂µn
+∂nn/parenrightbigg
+. (5)
+To the leading order, the net reaction rate and the incre-
+ments of neutrino emissivity due to oﬀ-equilibrium could
+be written as
+Γν−Γν=−λ0ξ2
+δµ, (6)
+˙Eloss=S0ξ2, (7)
+where[21, 23]
+λ0=714
+457ǫ(T,0), (8)
+S0=1071
+457ǫ(T,0), (9)2
+ξ=δµ/T, andǫ(T,0) is the neutrino emissivity in equi-
+librium
+ǫ(T,0) = 3.3×10−14/parenleftbiggxpρ
+ρ0/parenrightbigg1/3
+T6MeV5.(10)
+For a periodic process, the expansion and contraction
+of the system will induce not only the dissipation of os-
+cillation energy to heat, but also the loss of oscillation
+energy through an increasing of the neutrino emissivity.
+Bulkviscouscoeﬃcient ζandradiativeviscouscoeﬃcient
+Rcan be deﬁned for the description of these dissipation
+mechanisms, respectively [20]
+/angb∇acketleft˙Ediss/angb∇acket∇ight=−ζ
+τ/integraldisplayτ
+0dt(∇·/vector v)2, (11)
+/angb∇acketleft˙Eloss/angb∇acket∇ight=R
+τ/integraldisplayτ
+0dt(∇·/vector v)2, (12)
+where/vector vis the hydrodynamic velocity associated with
+the density oscillations, and τ= 2π/ωis the oscillation
+period. Using the continuity equation, one obtains
+ζ=−2/angb∇acketleft˙Ediss/angb∇acket∇ight/parenleftBigυ0
+∆υ/parenrightBig2/parenleftBigτ
+2π/parenrightBig2
+, (13)
+R= 2/angb∇acketleft˙Eloss/angb∇acket∇ight/parenleftBigυ0
+∆υ/parenrightBig2/parenleftBigτ
+2π/parenrightBig2
+, (14)
+where the energy dissipation is
+/angb∇acketleft˙Ediss/angb∇acket∇ight=−/integraldisplayτ
+0(Γν−Γν)δµdt, (15)
+and the neutrino emissivity caused by the oscillation is
+/angb∇acketleft˙Eloss/angb∇acket∇ight=/integraldisplayτ
+0˙Elossdt. (16)
+Here, we only present the results, for detailed calcula-
+tions see [20]
+ζ=λC2
+ω2+(λB/nb)2, (17)
+R=/parenleftbiggS0
+λ0/parenrightbigg
+ζ. (18)
+From Eqs. (8)and(9), one gets
+R=3
+2ζ. (19)
+This relation only holds for small oscillations. If the per-
+turbation amplitude is largeenough, the non-lineareﬀect
+must be taken into account and this simple relation is no
+longer correct [21].Now let us consider the eﬀect of nucleon superﬂuidity
+on radiative viscosity. Assuming
+Γν−Γν=−λξ2
+δµ, (20)
+˙Eloss=Sξ2. (21)
+Apparently,
+R=/parenleftbiggS
+λ/parenrightbigg
+ζ. (22)
+In the following, we will show how to calculate S/λin
+the lowest order of ξ.
+In non-beta equilibrium, the net reaction rate of direct
+Urca process with nucleon superﬂuidity is [24]
+Γν−Γν=4π
+(2π)8T5
+3/productdisplay
+j=1/integraldisplay
+dΩj
+δ(Pf−Pi)|Mfi|23/productdisplay
+j=1pFjm∗
+j
++∞/integraldisplay
+0dxνx2
+ν[J(xν−ξ,vj)−J(xν+ξ,vj)],(23)
+and the total neutrino emissivity is[25, 26]
+ǫ(ξ,vj) =4π
+(2π)8T6
+3/productdisplay
+j=1/integraldisplay
+dΩj
+δ(Pf−Pi)|Mfi|23/productdisplay
+j=1pFjm∗
+j
++∞/integraldisplay
+0dxνx3
+ν[J(xν−ξ,vj)+J(xν+ξ,vj)],(24)
+where
+J(x,vj) =+∞/integraldisplay
+−∞dx1dx2dx3f(z1)f(z2)f(x3)
+×δ(z1+z2+x3−x),(25)
+and the subscript j= 1,2,3 corresponds to n,p,ere-
+spectively. vj=∆j
+Tis the gap amplitude and zj=εj−µj
+T
+(wherej= 1,2),x3=εe−µe
+T.xν=εν
+Tis the dimen-
+sionless energy of the neutrino, and f(x) = (1+ ex)−1is
+the Fermi-Dirac functions of nucleons and electrons, pFj
+is the Fermi momentum and m∗
+jis the eﬀective particle
+mass.dΩjis the solid angle element in the direction of
+the particle momentum, and |Mfi|2is the squared reac-
+tion amplitude.
+Here, we want to stress that z1andz2in the above
+two formula carry all the information about nucleon su-
+perﬂuidity. Whether for neutron superﬂuidity or proton
+superﬂuidity, near the Fermi surface we have
+ε−µ= sign(η)/radicalbig
+δ2+η2, (26)3
+whereη=vF(p−pF),vFandpFare the Fermi velocity
+and Fermi momentum, respectively; and δ2= ∆2F(ϑ),
+∆ is the energy gap and F(ϑ) describes the dependence
+of the gap on the angle ϑbetween the quantization axis
+and the particle momentum. For diﬀerent types of nu-
+cleon superﬂuidity, the expression of F(ϑ) is completely
+diﬀerent, which can be seen in [24–26].
+In the case of ξ≪1, to the lowest order we have
+J(xν−ξ,vj)−J(xν+ξ,vj) =−2ξ∂J(xν,vj)/∂xν,(27)
+J(xν−ξ,vj)+J(xν+ξ,vj)−2J(xν,vj) =ξ2∂2J(xν,vj)/∂x2
+ν,
+(28)
+then the net reaction rate is
+∆Γ = Γ ν(ξ,vj)−Γν(ξ,vj)
+=4π
+(2π)8T5
+3/productdisplay
+j=1/integraldisplay
+dΩj
+δ(Pf−Pi)|Mfi|23/productdisplay
+j=1pFjm∗
+j
+×(−4ξ)+∞/integraldisplay
+0dxνxνJ(xν,vj), (29)
+and the neutrino emissivity due to the departure from
+β-equilibrium is
+˙Eloss=ǫ(ξ,vj)−ǫ(0,vj)
+=4π
+(2π)8T6
+3/productdisplay
+j=1/integraldisplay
+dΩj
+δ(Pf−Pi)|Mfi|23/productdisplay
+j=1pFjm∗
+j
+×6ξ2+∞/integraldisplay
+0dxνxνJ(xν,vj). (30)
+Note that, the leading order of ∆Γ is the ﬁrst order of ξ,
+while for ˙Elossit is the second order of ξ.
+Unlike normal matter, Eqs.(29) and (30) haven’t exact
+analytical solutions. However, one can ﬁnd that ∆Γ δµis
+in proportion to ˙Eloss, thus we can easily obtain
+S/λ=3
+2, (31)which is the same as S0/λ0. This means that the nucleon
+superﬂuidity doesn’t change the value of R/ζ.
+In summary, we have studied the radiative viscous co-
+eﬃcient of superﬂuid npematter, and ﬁnd that for di-
+rect Urca process, the ratio of radiative viscosity to bulk
+viscosity in the lowest order of ξyielded by Sa’d and
+Schaﬀner-Bielich [20] for normal nucleons could be ex-
+tended to the superﬂuid case. In fact, it can be seen
+from our calculations that this is correct for modiﬁed
+Urca process, too. Thus, to the lowest order of ξ, the
+relation factor of3
+2between the radiative viscosity and
+the bulk viscosity of npematter is a generic one.
+The following are the extensive discussions to our re-
+sult:
+First, Although we have S/λ=S0/λ0in the low-
+est order, the viscosities in the superﬂuid case are dif-
+ferent from these in the non-superﬂuid case. The bulk
+and radiative viscous coeﬃcients could be easily ex-
+pressed as ζ=ζ0RΓandR=R0Rǫ, where ζ0and
+R0are the viscosities in the non-superﬂuid case, RΓ=
+∆Γ(ξ,vj)/∆Γ(ξ) andRǫ=˙Eloss(ξ,vj)/˙Eloss(ξ) are the
+reduction factors caused by superﬂuidity. Of course, our
+result shows that to the lowest order of ξ,Rǫequals to
+RΓ(note that RΓhas been calculated numerically by
+Haensel et al. [4, 5]).
+Second, our result satisﬁes the general relationship
+∂˙Eloss/∂δµ= 3(Γν−Γν), whichhasbeenfound byFlores-
+Tuli´ an and Reisenegger [27]. They found that this rela-
+tionship holds both in the case of normal nucleons and
+in the case of superﬂuid nucleons, and both in linear case
+and for precise solutions.
+Finally, our result based on the fact that to the low-
+est order of ξ, the existence of superﬂuidity don’t change
+the relationship between the neutrino emissivity due to
+the departure from β-equilibrium and energy dissipation
+in the form of heat. Nevertheless, it is not correct for
+higher order calculations. As shown in [21, 23], for nor-
+mal matter ∆Γ and ˙Elosscan be solved analytically as
+polynomials of ξ, while for superﬂuid matter they must
+be solved numerically. As a result, we expect that in
+non-linear regime, the ratio of radiative viscosity to bulk
+viscosity of superﬂuid matter no longer equals to that
+of normal matter. However, the calculation in the non-
+linear case is far more complicated and we will consider
+it in our further study.
+[1] Finzi A and Wolf R A 1968 Astrophys. J. 153835
+[2] Sawyer R F 1989 Phys. Rev. D 393804
+[3] Haensel P and Schaeﬀer R 1992 Phys. Rev. D 454708
+[4] Haensel P, LevenﬁshK P and YakovlevD G 2000 Astron.
+Astrophys. 3571157
+[5] Haensel P, LevenﬁshK P and YakovlevD G 2001 Astron.
+Astrophys. 372130
+[6] Wang Q D and Lu T 1984 Phys. Lett. B 148211
+[7] Sawyer R F 1989 Phys. Lett. B 233412
+[8] Madsen J 1992 Phys. Rev. D 463290[9] Gupta V K, Wadhwa A, Singh S and Anand J D 1997
+Pramana - J. Phys. 49443
+[10] Lindblom L and Owen B J 2002 Phys. Rev. D 65063006
+[11] Zheng X P, Yang S H and Li J R 2002 Phys. Lett. B 548
+29
+[12] Zheng X P, Liu X W, Kang M and Yang S H 2004 Phys.
+Rev. C70015803
+[13] Zheng X P, Kang M, Liu X W and Yang S H 2005 Phys.
+Rev. C72025809
+[14] Pan N N, Zheng X P, and Li J R 2006 Mon. Not. Roy.4
+Astron. Soc. 371135
+[15] Sa’d B A, Shovkovy I A and Rischke D H 2007 Phys.
+Rev. D75065016
+[16] Sa’d B A, Shovkovy I A and Rischke D H 2007 Phys.
+Rev. D75125004
+[17] Gusakov M E 2007 Phys. Rev. D 76083001
+[18] Gusakov M E and Kantor E M 2008 Phys. Rev. D 78
+083006
+[19] Dong H, Su N and Wang Q 2007 J. Phys. G 34S643
+[20] Sa’d B A and Schaﬀner-Bielich J arXiv:0908.4190
+[21] Yang S H, Zheng X P and Pi C M 2010 Phys. Lett. B683255
+[22] Lattimer J M, Pethick C J, Prakash M and Haensel P
+1991 Phys. Rev. Lett. 662701
+[23] Reisenegger A 1995 Astrophys. J. 442749
+[24] Villain L and Haensel P 2005 Astron. Astrophys. 444539
+[25] Yakovlev D G, Kaminker A D, Gnedin O Y and Haensel
+P 2001 Phys. Rept. 3541
+[26] Pi C M, Zheng X P and Yang S H 2010 Phys. Rev. C 81,
+045802
+[27] Flores-Tuli´ an S and Reisenegger A 2006 Mon. Not. Roy.
+Astron. Soc. 372276

@@ -1,0 +1,106 @@
+arXiv:1001.0866v1  [quant-ph]  6 Jan 2010Comment on ‘Eﬀective polar potential in the central
+force Schr¨ odinger equation’
+Francisco M. Fern´ andez
+INIFTA (UNLP, CCT La Plata-CONICET), Divisi´ on Qu´ ımica Te´ orica, Blvd. 113
+S/N, Sucursal 4, Casilla de Correo 16, 1900 La Plata, Argentina
+E-mail:fernande@quimica.unlp.edu.arEﬀective polar potential 2
+Abstract. We analyze a recent pedagogical proposal for an alternative trea tment of
+the angular part of the Schr¨ odinger equation with a central pote ntial. We show that
+the authors’ arguments are unclear, unconvincing and misleading.
+Inarecent paperShikakhwa andMustafa[1]put forwardanaltern ativepedagogical
+discussion oftheangularpartofthesolutiontotheSchr¨ odinger e quationforaquantum–
+mechanical model with a central force:
+−¯h2
+2m∇2ψ+V(r)ψ=Eψ (1)
+They devoted part of the paper to show that this equation is separ able in spherical
+coordinates: ψ(r,θ,φ) =R(r)Θ(θ)eimφ, wherem= 0,±1,..., a discussion that appears
+in almost every introductory textbook on quantum mechanics or qu antum chemistry
+[2,3].
+In particular, the authors concentrated on the polar equation
+1
+sinθd
+dθsinθdΘ
+dθ−m2
+sin2θ=−l(l+1)Θ (2)
+wherel= 0,1,...is the angular–momentum quantum number. They proposed to
+convert this Sturm–Liouville equation into the Schr¨ odinger–like one
+−1
+2d2y(θ)
+dθ2+m2−1
+4
+2sin2θy(θ) =Wy(θ) (3)
+wherey(θ) = sin1
+2θΘ(θ) andW=Wl= (1/2)[l(l+ 1) + 1/4]. We want to call the
+reader’s attention to the misleading notation used by the authors w ho calledEto the
+eigenvalue of this equation as if it where the energy of the central–ﬁ eld model (1) (see
+their equations (12) and (14)). To avoid such misunderstanding we choose the symbol
+Wfor the eigenvalue of the polar equation. We think that for a pedago gical discussion
+it would have been more reasonable that the authors had chosen a r igid rotator in which
+case the eigenvalue of the polar equation is proportional to the ene rgy of the system.
+It is worth adding that the transformation of a Sturm–Liouville prob lem like (2) into a
+Schr¨ odinger equation like (3) is well–known since long ago.Eﬀective polar potential 3
+If we rewrite |m|= 0,1,...,lasl=|m|+n,n= 0,1,...then we derive the correct
+form of the eigenvalue of the polar equation in terms of mandn
+Wl=1
+2/parenleftbigg
+l+1
+2/parenrightbigg2
+=1
+2/parenleftbigg
+n+|m|+1
+2/parenrightbigg2
+(4)
+which shows that Wldoes not depend on the sign of m, as expected from the fact
+that the eﬀective polar potential in Eq. (3) depends on m2. On the other hand, the
+authors’ polar energy Em
+n(see their equation (14)) depends on mand does not clearly
+reﬂect the degeneracy just mentioned. In order to derive their e xpression the authors
+resorted to the following unconvincing and rather misleading argume nt “These solutions
+are for non–negative m; those for negative mare–as is well known–directly proportional
+to these solutions.” The proportionality factor is in fact e±i|m|φand reﬂects part of
+the degeneracy of the central–ﬁeld models; for that reason one s hould not neglect it so
+lightly.
+The authors state that “The solutions |Pm
+l(cosθ)|2represent the probability of
+ﬁnding the particle at a certain angle θ”. They seemed to have forgotten the
+normalization factor Nm
+land that the polar part of the volume element is sin θdθ
+because the actual probability for ﬁnding the particle between θandθ+dθis well
+known to be |Nm
+lPm
+l(cosθ)|2sinθ. Besides, |Pm
+l(cosθ)|2is not asolution to the polar
+equation.
+The eigenvalue Wlincreases with |m|as shown by Eq. (4). In order to explain this
+behaviour Shikakhwa and Mustafa [1] plotted the polar potential fo r increasing values
+of|m|and showed that the minimum increases. We agree that this graphica l procedure
+is illustrative, but the well–known Hellmann–Feynman theorem [2] is mo re elegant and
+rigorous, and should be added to the discussion. If we consider the eigenvalue equation
+ˆAy=Wy(y(0) =y(π) = 0) for the operator
+ˆA=−1
+2d2
+dθ2+λ
+sin2θ(5)
+whereλis real, then that theorem states that
+dW
+dλ=/angbracketleftBig
+sin−2θ/angbracketrightBig
+>0 (6)Eﬀective polar potential 4
+Clearly, as |m|increasesλincreases and Wlincreases.
+Summarizing, we think that the paper by Shikakhwa and Mustafa [1] is not suitable
+for pedagogical purposes for the following reasons: ﬁrst, they a pparently mistook the
+eigenvalue of the polar equation for the total energy of the centr al ﬁeld model, second,
+the treatment of the polar equation (3) is unclear and misleading. In particular, the
+polar eigenvalue in their equation (14) does not clearly reveal the de generacy coming
+from the sign of m, and the argument for the restriction to m≥0 in their expressions
+for the polar eigenvalue and eigenfunction is unconvincing and unnec essary. In fact, the
+correct result follows straightforwardly from the form of Wlas we have already shown
+above. Besides, thesame simple argument clearly shows that P|m|
+l(cosθ) =P|m|
+|m|+n(cosθ)
+which is consistent with the textbook treatment of the problem [2, 3]. We should also
+add the sloppy discussion of the probability of ﬁnding the particle in a g iven region of
+space.
+[1] Shikakhwa M S and Mustafa M 2010 Eur. J. Phys. 31151.
+[2] Cohen-Tannoudji C, Diu B, and Lalo¨ eF 1977 Quantum Mechanics (John Wiley &Sons, New York).
+[3] Eyring H, Walter J, and Kimball G E 1944 Quantum Chemistry (John Wiley & Sons, New York).

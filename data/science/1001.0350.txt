@@ -1,0 +1,94 @@
+arXiv:1001.0350v2  [physics.optics]  5 Jan 2010Note on the positiveness of magnetic energy stored in the Wir e-SRR metamaterial
+Pi-Gang Luan
+Wave Engineering Laboratory, Department of Optics and Phot onics,
+National Central University, Jhungli 320, Taiwan
+Recently, a new energy density formula for electromagnetic waves in the metamaterial consisting
+of arrays of conducting wires and split-ring-resonators (S RR) has been derived [Phys. Rev. E 80,
+046601 (2009)]. According to that formula, the positivenes s is obvious for the electric part of the
+energy density but not clear for the magnetic part. In this pa per, I show that the magnetic energy
+density is also positively deﬁnite.
+PACS numbers: 41.20.Jb, 03.50.De, 78.20.Ci
+In a recent paper, Luan derived a new expression for
+energydensityofelectromagneticwavesinthemetamate-
+rial medium consisting of wires and split-ring-resonators
+(SRR) [1]. The motivation of that paper was to resolve
+the apparent contradictions between the results given by
+the equivalent circuit (EC) and electrodynamic (ED) ap-
+proaches [2, 3]. Luan pointed out a calculation error
+made in [2], which can be corrected so that EC approach
+can really give the correct formula. On the other hand,
+usually the ED approach [3] does not give unique result,
+and the analysis in [1] revealed that the expression of the
+energy density is in fact determined by the power loss we
+choose. For a lossy medium, Luan suggested to ﬁnd the
+correct expression of power loss ﬁrst, then the correct
+energy density formula will emerge automatically. The
+equivalence between EC and ED approaches was then
+conﬁrmed by reproducing the EC energy formula after
+time averaging the ED formula.
+The positiveness of the electric energy density can be
+easily observed from the following expressions
+We=ǫ0E2
+2+1
+2ω2pǫ0/parenleftbigg∂P
+∂t/parenrightbigg2
+, (1)
+/angbracketleftWe/angbracketright=ǫ0|E|2
+4/parenleftBigg
+1+ω2
+p
+ω2+ν2/parenrightBigg
+. (2)
+Although the positiveness of magnetic energy density in
+the time-domain formula is obvious (note that 0 < F <1
+is assumed)
+Wb=µ0(1−F)
+2H2+µ0
+2F(M+FH)2(3)
++µ0
+2ω2
+0F/parenleftbigg∂M
+∂t+F∂H
+∂t+γM/parenrightbigg2
+,(4)this property is not clear in the time averaged formula
+/angbracketleftWb/angbracketright=µ0|H|2
+4/bracketleftBigg
+1+Fω2/parenleftbig
+3ω2
+0−ω2/parenrightbig
+(ω2
+0−ω2)2+ω2γ2/bracketrightBigg
+.(5)
+Whenω >√
+3ω0, the above formula gives a /angbracketleftWb/angbracketright
+smaller than the vacuum value µ0|H|2/4. Will this ex-
+pression always give a positive /angbracketleftWb/angbracketright? If we add the two
+terms in the square bracket directly, we get
+4/angbracketleftWb/angbracketright
+µ0|H|2=(1−F)ω4+(3F−2)ω2
+0ω2+ω4
+0+ω2γ2
+(ω2
+0−ω2)2+ω2γ2,
+(6)
+which is still hard to judge its sign. However, if we con-
+sider the identity
+(ω2
+0−ω2)2+ω2γ2+Fω2(3ω2
+0−ω2)
+= (1−F)(ω2−ω2
+0)2+Fω2
+0(ω2+ω2
+0)+ω2γ2(7)
+the positiveness of the magnetic energy becomes very ob-
+vious (remember that both Fand 1−Fare positive).
+According to this analysis, both the electric and mag-
+netic energy densities in the energy density formula of
+[1] are positively deﬁnite.
+ACKNOWLEDGEMENT
+The author gratefully acknowledge ﬁnancial support
+from National Science Council (Grant No. NSC 98-2112-
+M-008-014-MY3) of Republic of China, Taiwan.
+[1] Pi-Gang Luan, Phys. Rev. E 80, 046601 (2009).
+[2] S.A. Tretyakov, Phys. Lett. A, 343, 231 (2005)
+[3] A. D. Boardman, K. Marinov, Phys. Rev. B 73, 165110(2006)

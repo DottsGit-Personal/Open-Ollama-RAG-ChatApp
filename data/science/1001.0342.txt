@@ -1,0 +1,192 @@
+QUANTUM FLUCTUATIONS CONTRIBUTION TO THE RANDOM WALK OF A 
+SINGLE MOLECULE AND NEW ESTIMATE  OF THE PLANCK CONSTANT 
+ 
+Jean Paul Mbelek1 
+1. Service d'Astrophysique, CEA-Saclay, Orme des Merisiers, 91191 Gif-sur-Yvette, France  
+ 
+Correspondence to: Jean Paul Mbelek1 Correspondence and requests for materials should be 
+addressed to J.P.M. (Email : mbelek.jp@wanadoo.fr).  
+ 
+Abstract : It is shown, by considering the ca se of the harmonic oscillator, that quantum 
+fluctuations may be the most significant contri bution to the random walk of a single molecule. 
+From this point, the controversy on the existence of a “standard quantum limit” (SQL) is addressed and settled on the experimental ground. Comparisons to the experimental data yet 
+avalaible in the literature provide a new estimate of the reduced Planck constant yielding ħ = 
+(1.1 ± 0.2) × 10
+-34 J.s. 
+ 
+ I. Introduction 
+ 
+The uncertainty principle was first introduced in quantum mechanics by W. Heisenberg
+1 to 
+express quantitatively the necessity to give up classical notions like the orbits of electrons in 
+atoms. A more rigorous and general mathematical  derivation of the uncertainty relations was 
+next provided by E. H. Kennard2 then H. P. Robertson3, by defining properly the uncertainties 
+Δx and ΔPx as standard deviations. These authors show in particular that the commutation 
+relation [x , P x] = i ħ implies Δx ΔPx ≥ ½  ⎢<[x , P x]> ⎢or otherwise stated Δx ΔPx ≥ ħ/2, the 
+equality Δx ΔPx = ħ/2 being obtained for the harmonic oscillator. However, the definition of 
+the standard deviation may change from one experimental situation to another. So, carrying 
+the analysis on the uncertainty principle, D. Bohm4 gave an estimate of the time variation of 
+the fluctuation Δx of the position x of a particle (§ 5.4) which reads 
+ 
+Δx = ħ t/m Δx0 (1) 
+ 
+and also follows from the spread of the wave packet of initial width Δx0 in the limit t → ∞ 
+(see § 3.13). Now, by assuming | Δx - Δx0 | << Δx0/2, clearly relation (1) yields Δx2 ≅ (ħ/m)  t. 
+Further, the complete expression Δx = Δx0 [1 + (ħt/mΔx02)2]1/2 that holds at any time implies 
+Δx ≥ Δx0 and Δx2 ≥ (ħ/m)  t, therby suggesting a SQL. However, let us notice that by setting 
+ 
+Δ(dx/dt) = d Δx/dt  (2) 
+ 
+and considering the case of the harmonic oscillator, it is straightforeward to derive after 
+integration the equality 
+ 
+Δx2 = (ħ/m)  t (3) 
+ 
+On the other hand, still considering the case of the harmonic oscillator but assuming d Δx/dt ≤ 
+ΔPx/m, one would obtain instead 
+Δx2 ≤ (ħ/m)  t (4)  
+without necessarily being in conflict with th e uncertainty relations. Relation (3), where t 
+stands for the averaging time, has been put foreward (up to a factor 2 in ref. 6) by V. B. Braginsky et al.
+5,6,7 in their study of the possibility to evade the confrontation with the 
+uncertainty relations. Nevertheless, H. P. Yuen8 pointed out that the derivation of relation (3) 
+from the uncertainty principle is incorrect, and even needs not hold at all. Relation (4) seems 
+rather consistent with the claims by H. P. Yuen9, 10, M. Ozawa11, 12 and M.T. Jaekel and S. 
+Reynaud13. Moreover, we have found some 
+experimentalcasesintheliterature14,15,16,17,18whichplead forrelation (4). It turns out 
+that the controversy on the existence of a SQL9, 10, 11, 12, 13,19, which is of importance for the 
+interferometric detection of gravitational waves,  may be settled on the experimental ground. It 
+already seems that the SQL does not hold. 
+Asstatedabove,eitherrelation(3)or(4)may apply,depending on howd Δx/dt 
+compares to Δvx = ΔPx/m. In the following, we shall consider the case of the harmonic 
+oscillator where the avoidance of the SQL is realized. Thence, by comparing the theoretical results obtained in this study with the avalaible experimental data, an estimate of the reduced 
+Planck constant is derived. 
+  
+II. Quantum fluctuations contribution to the random walk 
+ 
+As one can see, relation (3) compares to the 1D Brownian motion relation Δx
+2 = 2D 0 t. Hence, 
+assuming that the condition (2) is realized, by taking into account both the classical and 
+quantum contribution to the random motion of  a particle, we predict a total diffusion 
+coefficient 
+ 
+D = D 0 + ħ/2m (5)  
+ 
+Let us emphasize that the quantum contribution ħ/2m to the diffusion coefficient is supported 
+by the Schrödinger equation - ( ħ2/2m) Δψ = iħ ∂ ψ/∂t of a free particle of mass m. Indeed, the 
+latter rewrites in imaginary time τ = i  t : (ħ/2m) Δψ = ∂ψ/∂τ, which looks like the diffusion 
+equation with a diffusion coefficient equal to ħ/2m. 
+ 
+ 
+III. Comparison with experimental data and estimate of the reduced Planck constant 
+ 
+Hereafter, we consider various experimental situations where a single molecule is both subject to harmonic oscillations and diffusion along a polymer chain. While the molecule under 
+consideration oscillates and undergoes a random walk, it sweeps out a volume V defined by a 
+lateral surface S and the displacement x. Since quantum fluctuations occur, those of the latter 
+geometrical quantities amount respectively to  ΔV = Δx Δy Δz, ΔS = Δy Δz and Δx. Now, one 
+may write accordingly   
+dΔV = ΔS × Δv
+x × dt  (6) 
+ 
+Hence, the 1D mean-square displacement (MSD) reads finaly 
+ 
+Δz2 = Δy2 = Δx2 = (ħ/3m)  t (7) 
+ which is less then the SQL by a factor 3. So, the total diffusion coefficient rewrites D = D 0 + ħ/6m (8) 
+ 
+Table 1 and Figure 1 below give respectively some  experimental data found in the literature 
+and the fit to these data. The results are found in good agreement with relations (7) and (8) by 
+neglecting the classical diffusion coefficient, D 0, with respect to the quantum mechanical 
+contribution ħ/6m. Also, we have found one case in the literature22 where the lower bound of 
+D is equal to ħ/6m, the upper bound of D 0 is then estimated to 5.22 μm2/s on account of 
+relation (8). Let us emphasize that diffusion coefficients that are less than ħ/2m, in 
+consistency with relation (4) by neglecting D 0, have been reported too in the literature14. All 
+other data, we have found in the literature20,21 are consistent with relations (7) and (8) by 
+neglecting instead ħ/6m with respect to D 0. 
+  
+ 
+ 
+ 
+Table 1 : 1D Diffusion coefficient, D, of the Brownian motion of a single molecule of mass 
+m. The data are taken from the references. The uncertainties* of the first and fourth raws have 
+been derived by us from the error bars of th e experimental curves of the authors (1 Da = 
+1,66054 × 10-27 kg ; 1 kDa = 103 Da). 
+ 
+Figure 1 : 1D diffusion coefficient D ( μm2/s) versus 1/6m (1022 kg-1). The linear fit to the data 
+(see table 1) yields a slope equal to (1.1 ± 0.2) × 10-34 J.s (reduced Chi-square χν2 = 1.19), 
+which is a fairly good estimate of ħ as compared to the 2006 CODATA value ħ = 
+(1.054 571 628 ± 0.000 000 053) × 10-34 J.s.   M (kDa)  [Ref.]  D (μm2/s)  [Ref.] 
+1050 15 0.0082 ± 0.0014* 15 
+113 16 0.11 ± 0.01 16 
+61 16 0.18 ± 0.02 16 
+61 17 0.16 ± 0.03* 17 
+50 18 0.23 ± 0.08 18 IV. Conclusion 
+ 
+We have shown that quantum fluctuations contribute to the random walk of a single molecule. In addition, referring to the experimental data, it turns out that the SQL is evaded in most 
+cases involving the random walk of a single molecule. As a consequence, we have derived a 
+fairly good estimate of the reduced Planck constant equal to ħ = (1.1 ± 0.2) × 10
+-34 J.s. 
+ 
+ References 
+ 
+1. Heisenberg, W., Z. Phys., Über den anschulichen Inhalt der quantentheoretischen 
+Kinematik und Mechanik, 43, 172, 1927. 
+ 2. Kennard, E. H., Z. Phys., Zur quantenmechanik einfacher bewegungstypen, 44, 326, 1927. 
+ 
+3. Robertson, H. P., Phys. Rev., The Uncertainty Principle, 34, 163, 1929. 
+ 
+4. Bohm, D., Quantum Theory, Prentice-Hall, Englewood Cliffs, USA, 1951.  
+5. Braginsky, V. B., Vorontsov, Yu. L., Quantum-mechanical limitations in macroscopic 
+experiments and modern experimental technique, Sov. Phys. Usp., 17, 644, 1975. 
+ 
+6. Braginsky, V. B., Khalili, F. Ya., How to evade the confrontation with the uncertainty 
+relations, Foundations of Physics, 16, 379, 1986. 
+ 
+7. Caves, C. M., Thorne, K.S., Drever, R.W.P., Sandberg, V.D., Zimmermann M., On the 
+measurement of a weak classical force coupled to a quantum-mechanical oscillator. I. Issues 
+of principle, Rev. Mod. Phys., 52, 341, 1980.
+ 
+ 
+ 8. Yuen, H. P., Uncertainty Principle and the Standard Quantum Limits, arXiv:quant-
+ph/0510069v1. 
+ 
+9. Yuen, H. P., Phys. Rev. Lett., Contractive states and the standard quantum limit for 
+monitoring free-mass positions, 51, 719,1983. 
+ 10. Yuen, H. P., Phys. Rev. Lett., Yuen Responds, 52, 1730,1984. 
+ 
+11. Ozawa, M., Measurement breaking the standard quantum limit for free-mass position, 
+Phys. Rev. Lett. 60, 385,1988. 
+ 
+12. Ozawa, M., Quantum-mechanical models of position measurements, Phys. Rev. A 41, 
+1735,1990.  
+13. Jaekel, M.T., Reynaud, S., Quantum limits in interferometric measurements, Europhysics 
+Letters 13, 301, 1990. 
+ 
+14. Kim, J. H. and Larson, R. G., Single-molecule analysis of 1D diffusion and transcription elongation of T7 RNA polymerase along indivi dual stretched DNA molecules, Nucleic Acids 
+Research,  35, 3848, 2007. 
+ 15. Shinohara, K., Kodera, N., Ando, T., Single-molecule imaging of a micro-Brownian 
+motion of a chiral helical π-conjugated polymer as a molecular spring driven by thermal 
+fluctuations, Chemistry Letters, 38, 690, 2009. 
+ 
+16. Mashanov, G. I., Molloy, J.E., Automatic detection of single fluorophosphores in live 
+cells, Biophysical Journal, 92, 2199, 2007. 
+ 
+17. Mashanov, G. I., Nenasheva, T. A., Peckha m, M., Molloy, J.E., Cell biochemistry studied 
+by single-molecule imaging, Biochem. Soc. Trans., 34, 983, 2006. 
+ 
+18. Lommerse, P. H. M., Snaar-Jagalska, B. E., Spaink, H. P. And Schmidt, T., Single-
+molecule diffusion measurements of H-Ras at the plasma membrane of live cells reveal 
+microdomain localization upon activation, Journal of Cell Science,  118, 1799, 2005 . 
+ 
+19. Caves, C. M., Defense of the standard quantum limit for free-mass position, Phys. Rev. 
+Lett. 54, 2465,1985. 
+ 
+20. Kim, S. Y., Gitai, Z., Kinkhabwala, A., Shapiro, L. and Moerner, W. E., Single molecules of the bacterial actin MreB undergo directed tr eadmilling motion in Caulobacter crescentus, 
+PNAS,  103, 10929, 2006. 
+ 
+21. Francis, K. and Palsson, B. O., Effective intercellular communication distances are 
+determined by the relative time constants fo r cyto/chemokine secretion and diffusion, Proc. 
+Natl. Acad. Sci.,  94, 12258, 1997. 
+ 
+22. Mashanov, G. I., Tacon, D., Peckham, M., Molloy, J.E., The spatial and temporal 
+dynamics of Pleckstrin homology domain binding at the plasma membrane measured by 
+imaging single molecules in live mouse myoblasts, The Journal of Biological Chemistry, 279, 
+15274, 2004. 

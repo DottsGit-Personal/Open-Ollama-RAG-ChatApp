@@ -1,0 +1,234 @@
+arXiv:1001.0364v1  [cond-mat.mes-hall]  3 Jan 2010On the Temperature Dependence of the Lifetime
+of Thermally Isolated Metastable Clusters
+L. A. Openov∗, D. A. Lobanov, and A. I. Podlivaev
+Moscow Engineering Physics Institute (State University), 115409 Moscow, Russia
+∗E-mail: LAOpenov@mephi.ru
+ABSTRACT
+The temperature dependence of the lifetime of the thermally isolate d metastable N 8
+cubane up to its decay into N 2molecules has been calculated by the molecular dynamics
+method. It has been demonstrated that this dependence signiﬁca ntly deviates from the
+Arrhenius law. The applicability of the ﬁnite heat bath theory to the d escription of
+thermally isolated atomic clusters has been proved using statistical analysis of the results
+obtained.
+PACS: 36.40.-c, 36.40.Qv, 71.15.Pd
+1Simulations of the time evolution of atomic clusters at high temperatu res are of interest
+fromseveral pointsofview. Ananalysisofdistortionsofthecluste rstructureandproducts
+of its decay can provide information on the mechanism of the ﬁnal st age of the cluster
+formation and possible components for its synthesis, respectively . For example, when the
+C60fullerene is heated, defects are formed on its “surface” because of the Stone-Wales
+transformations, while the formation of the fullerene from an initial imperfect C 60cluster
+occurs due to the same transformations going in the reverse orde r [1, 2]. In turn, the
+decomposition of the hydrocarbon cubane C 8H8into benzene and acetylene molecules
+suggests the use of these compounds for the synthesis of the cu bane (applying catalysts
+to speed up the reverse reaction) [3].
+The main parameter determining the thermal stability of a metastab le cluster is the
+activation energy of its decomposition (or the transformation into another isomer) Ea.
+If the height of the minimum energy barrier preventing the decompo sition is U, the
+inequality Ea> Uholds true. If there is only one decomposition channel, the equality
+Ea=Uis satisﬁed. The magnitude of Eais determined [4] in experiments by measuring
+the lifetime τof the cluster at diﬀerent temperatures Tand making use of the Arrhenius
+law
+τ−1(T) =Aexp(−Ea/kBT), (1)
+whereAis the frequency factor and kBis the Boltzmann constant. The theoretical depen-
+dence of τonT, in principle, can be determined by numerical simulations of the cluste r
+lifetime using the molecular dynamics method (the so-called “compute r experiment”).
+However, it should be noted that Eq. (1) is valid only when the cluster is in thermal
+equilibrium with the environment (it is thermalized). In the experiment , the thermal
+2contact is ensured by placing clusters in a “buﬀer gas” (usually, heliu m is used) heated to
+a required temperature [4]. In the theory, the canonical NVTensemble is used to describe
+thermalized clusters. However, sometimes cluster disassociates s o quickly that it does not
+have enough time to come into thermal equilibrium with its environment . It happens,
+for example, during photofragmentation, when the clusters excit ed by a laser pulse do
+not collide with each other for a time t <1µs required for their decomposition. In this
+case, the dynamics of the cluster is simulated using the microcanonic alNVEensemble [5]
+and the total energy of the cluster E=Ekin+Epot(the sum of the kinetic and potential
+energies) remainsconstant duringitsevolution. Here, theroleoft hetemperatureisplayed
+by the so called “microcanonical” (or “dynamic”) temperature Tm, which is a measure of
+the kinetic energy of relative motion of atoms in the cluster, which is a t rest and does not
+rotate as a whole (i.e., it is basically the measure of the excitation ener gy of the cluster).
+It iscalculated using theformula [6, 7] /angbracketleftEkin/angbracketright=1
+2kBTm(3n−6), where /angbracketleftEkin/angbracketrightis thekinetic
+energy of the cluster averaged over the microcanonical ensemble (or over the time) and n
+is the number of atoms in it.
+The question arises: is it possible to use Eq. (1) to determine the dec omposition
+activation energy of a thermally isolated cluster by simply substitutin gTbyTmin it?
+According to the so-called ﬁnite heat bath theory [8, 9], in which the c luster itself plays
+the role of the reservoir for the degree of freedom along the reac tion coordinate that leads
+to the decomposition, this is possible. But there is a reservation: th e equation should
+include the quantity T∗=Tm−Ea/2Cinstead of Tm, whereC= (3n−6)kBis the speciﬁc
+heat of the cluster.
+Inorder toexperimentally test this assertion, itisnecessary, ﬁrs t, to ensurethat thereis
+3onlyonechannel ofdecomposition (otherwise, thedependences o fτonTand, correspond-
+ingly,τonTmbecome more complex) and, second, to know Eafor the decomposition in
+the channel. However, usually the cluster has several decomposit ion channels (sometimes
+they are completely diﬀerent [10]), and even if the decomposition goe s mainly over one of
+them, the corresponding activation energy is not known a priori. Sin ce, for medium-sized
+clusters and temperatures, at which the cluster decomposition tim e ist <1µs, the correc-
+tionEa/2CTmis usually very small ( ≈0.07 for C 60fullerene [2]), the use of T∗instead of
+Tmin Eq. (1) does not lead to any substantial change in the function τ(Tm), even though
+it leads to somewhat better agreement of numerical simulations with experiment [2].
+The purpose of the present paper is to directly verify the ﬁnite hea t bath theory via
+numerical simulations of dynamics of a metastable cluster for which t here is only one
+decompositionchannel andtheheightofthecorrespondingpoten tialbarrierisknownfrom
+independent calculations. We choose the N 8cubane (Fig. 1), which has been predicted
+theoretically [11-13] but, as far as we know, has not been observe d in experiment yet, to
+play the role of such a cluster. Our choice is stipulated mainly by a small number of atoms
+in the cubane (and, correspondingly, a comparatively large magnitu de of the correction to
+microcanonical temperature), and also by the fact that the prod ucts of its decomposition
+(four N 2molecules) are known, which simpliﬁes the search for barriers that p revent the
+decomposition (the more so because the initial cluster has a high sym metry). Another
+reason for the choice of so exotic cluster for testing of the statis tical laws is irreversible
+character of decomposition of the cubane after going over the ac tivation barrier nearest to
+the local energy minimum. The majority of clusters do not possess t his feature and come
+from the initial conﬁguration to adjacent metastable conﬁguratio ns and back many times
+4during their evolution, because of which it is quite diﬃcult to determine the lifetime of
+the cluster [2, 4].
+We calculated the interatomic distance a(the length of the N-N bond) and the disasso-
+ciation energy of the cubane Ediss=E(N8)−4E(N2) using the density functional theory
+with the 6-31G∗basis set and the exchange-correlation functional B3LYP. Our re sults
+(a= 1.52˚A,Ediss= 2.27 eV/atom) agree with the data of other authors [11-13] obtaine d
+using diﬀerent ab initio methods ( a= 1.46−1.54˚A,Ediss= 1.4−3.1 eV/atom). We
+also found the reaction path for the cubane decomposition along th e reaction coordinate,
+which connects the initial (N 8cubane) and ﬁnal (four N 2molecules) conﬁgurations in the
+space of atomic coordinates. It turned out that the path contain s several barriers that
+correspond to sequential transitions of the N 8cluster to diﬀerent intermediate conﬁgura-
+tions (Fig. 2). Each barrier has the corresponding saddle point at t he potential energy
+hypersurface. Maximum energy corresponds to the saddle point o f the ﬁrst (the nearest
+to the cubane) barrier. Therefore, this barrier determines the s tability of the cubane. Its
+height is U= 0.88 eV. We obtained similar results using the Hartree-Fock method an d
+the Moller-Plesset second-order perturbation theory (in particu lar,U= 0.80 eV).
+Inprinciple, at this stage, we can proceed to the determination of t he dependence of the
+lifetime of the cubane τon the microcanonical temperature Tmby setting diﬀerent initial
+excitation energies for the cluster and employing the molecular dyna mics method to an-
+alyze its evolution. However, the ab initio calculations require very lar ge amounts of the
+computer time, because of which the “life” of the cluster can be obs erved only over a very
+short period of time (1 - 10 ps), which is insuﬃcient to collect necessa ry statistics. There-
+fore, we chose another way: we found the tight binding potential f or nitrogen systems. It
+5is known that tight binding models produce a reasonable compromise b etween rigorous ab
+initio approaches and oversimpliﬁed classic potentials of the interact ion between atoms.
+Often, they incur only slight loss in accuracy as compared to the for mer approaches (be-
+cause they take into account explicitly the quantum-mechanical “b and” contribution of
+the electron subsystem to the total energy) [1, 14] and simultane ously make it possible to
+perform the “computer experiment” for macroscopic (on atomic s cales) times ∼1µs [3,
+15].
+We start from the nonorthogonal tight binding potential [16], which we successfully
+used before to simulate dynamics of the hydrocarbon cubane C 8H8[3, 15]. We choose
+parameters of the potential for the case of nitrogen systems to achieve the best possible
+correspondence of interatomic distances, binding energies, and m inimum oscillation fre-
+quencies to experimental values (for N 2molecules) or to results of ab initio calculations
+(for the N 8cubane and some other metastable nitrogen clusters). In particu lar, for the
+case of the cubane, our model leads to a= 1.54˚A, andEdiss= 2.22 eV/atom. The anal-
+ysis shows that the dependence of the potential energy of the N 8system on the reaction
+coordinate along the decomposition path of the cubane has the sam e form as in Fig. 2;
+i.e., in agreement with the ab initio calculations, the stability of the cuba ne is determined
+by the height of the nearest barrier. It turns out to be 0.384 eV wit hin the tight binding
+model, which is approximately two times smaller than the result of our d ensity functional
+theory calculations. It is not surprising because it is known that the ab initio methods,
+in general, and the density functional theory, in particular, tend t o overstimate heights
+of potential barriers [3]. However, at present, we are interested not in which of the the-
+oretical approaches provides more precise calculations, but in the fact that, now, using
+6the tight binding potential and the value of Udetermined using the same potential, we
+can study the dynamics of the cubane to its decomposition over a ve ry wide range of
+durations 10−13−10−6s and then compare the temperature dependences of the lifetime
+of the cubane both with the usual Arrhenius law and with predictions of the ﬁnite heat
+bath theory [8, 9]. The criterion of the validity of one or another app roach is coincidence
+of the activation energy found from the “computer experiment” w ith the barrier height
+U.
+We simulate the dynamics of the thermally isolated N 8cubane in the following way.
+At the initial instant of time, we set each atoms in motion in such a way t hat the total
+momentum and the angular momentum of the cluster as a whole are eq ual to zero (a
+special case of the NVEPJ ensemble [15]). Then, forces that act on atoms are calculated.
+The classical Newton equations aresolved numerically using theveloc ity Verlet algorithm.
+The time step used is t0= 2.72·10−16s.
+We study the evolution of the cubane for 74 diﬀerent sets of initial v elocities and dis-
+placements of atoms that correspond to the initial microcanonical temperatures Tm=
+350−1000 K. According to the ergodic hypothesis, Tmis equal to the “dynamic” tem-
+perature [15], which is determined by averaging the kinetic energy of the cluster over
+1000-10000 steps of the molecular dynamics simulation [6, 7]. We foun d that the cubane
+decomposes into either four N 2molecules or one N 2molecule and two quasi-linear N 3
+radicals, each of which, in turn, decomposes into the N 2molecule and the nitrogen atom
+(according to our calculations, E(N 3)≈E(N2) + E(N), which is in agreement with results
+of other authors [17]). The decomposition goes on very quickly (ove r 0.1 - 1.0 ps). Since
+the total energy of the thermally isolated cluster is Epot+Ekin= const, a drastic decrease
+7in the potential energy with the decomposition leads to the corresp onding increase in the
+kinetic energy, i.e., to the increase in Tm(by several thousands of degrees). The detailed
+analysis oftheatomicconﬁgurationattheinitial stageofthedecom position process shows
+that it corresponds (with very rare exceptions) to the conﬁgura tion of the saddle point
+in the potential energy of the cluster with the energy barrier U= 0.384 eV. When this
+barrier is overcome, the decomposition becomes irreversible, even though, then, it can go
+via diﬀerent paths (Fig. 2 shows the scheme of the cubane decay int o four N 2molecules,
+but the ﬁnal products can also be three N 2molecules and two nitrogen atoms).
+Figure 3 shows the calculated values of ln( τ) for diﬀerent microcanonical temperatures
+Tm. It can be seen that, over the entire range of Tmunder study, the dependence ln( τ) on
+1/Tmcan be ﬁt well by a straight line, which is in agreement with the Arrheniu s formula
+following for the microcanonical ensemble from Eq. (1) at T=Tm. The temperature
+dependence of the frequency factor A, if any, is so weak that it cannot be revealed using
+our data. Therefore, at ﬁrst glance, the Arrhenius formula desc ribes well the results of
+the simulations of the decomposition of the thermally isolated cubane . However, the
+activation energy determined from the slope of the approximating s traight line in Fig. 3
+turns out to be Ea= 0.626±0.022 eV, which is much larger than the height U= 0.384 eV
+of the barrier that is overcome during the decomposition. Therefo re, the inference can be
+made that the usual Arrhenius law is inapplicable to the description of the decomposition
+of the thermally isolated cluster.
+Let us see what happens with corrections for ﬁnite size of heat bat h [8, 9]. By as-
+suming that Tin Eq. (1) is equal to T∗=Tm−Ea/2Cand considering the same set
+of ln(τ) values as a function of 1/ T∗(Fig. 4) instead of the function of 1/ Tm, we see
+8that ln(τ) as a function of 1/ T∗also ﬁts straight line very well, but, in this case, the
+activation energy (which was determined by successive iterations) isEa= 0.367±0.013
+eV in excellent agreement with U= 0.384 eV. Notice that the parameter Ea/2CTmthat
+describes magnitude of the correction to Tmis 0.10-0.35 for the range of Tmunder study;
+i.e., it is substantially larger than that, for example, in simulations of th e C60fullerene [2].
+Ultimately, this is the fact that allows us to ﬁnd the clear distinction (m uch larger than
+statistical uncertainty) between the functional dependence of τonTmwith and without
+corrections for the ﬁnite size of the heat bath.
+The frequency factors determined by crossings of the straight lin es in Figs. 3 and 4
+with the vertical axis are A= 8.5·1015c−1and 4.1·1014c−1, respectively. It is worth
+noting that one and the same set of data can be equally well ﬁt using a bsolutely diﬀerent
+pairs of ﬁtting parameters ( Ea,A). The sensitivity of the parameters to the form of
+the functional dependence τ(Tm) indicates once again that it is necessary to choose the
+correct one to analyze the data on the lifetime of metastable cluste rs. In the present
+paper, we directly prove that the ﬁnite heat bath theory is applicab le to the quantitative
+descriptionofthermallyisolatedclustersandthatitcanbeusedinst udiesoffastprocesses
+of decomposition of clusters and their interaction with each other.
+References
+[1] A. I. Podlivaev and L. A. Openov, Pisma Zh. Eksp. Teor. Fiz. 81, 656 (2005) [JETP
+Lett.81, 533 (2005)].
+[2] L. A. Openov and A. I. Podlivaev, Pisma Zh. Eksp. Teor. Fiz. 84, 73 (2006) [JETP
+Lett.84, 68 (2006)].
+9[3] M. M. Maslov, D. A. Lobanov, A. I. Podlivaev, and L. A. Openov, F iz. Tverd. Tela
+(St. Petersburg) 51, 609 (2009) [Phys. Solid State 51, 645 (2009)].
+[4] C.Lifshitz, Int. J. Mass. Spectrom. 198, 1 (2000).
+[5] E. M. Pearson, T. Halicioglu, and W. A. Tiller, Phys. Rev. A 32, 3030 (1985).
+[6] C. Xu and G. E. Scuseria, Phys. Rev. Lett. 72, 669 (1994).
+[7] J. Jellinek and A. Goldberg, J. Chem. Phys. 113, 2570 (2000).
+[8] C. E. Klots, Z. Phys. D 20, 105 (1991).
+[9] J. V. Andersen, E. Bonderup, and K. Hansen, J. Chem. Phys. 114, 6518 (2001).
+[10] L. A. Openov and A. I. Podlivaev, Pisma Zh. Eksp. Teor. Fiz. 84, 217 (2006) [JETP
+Lett. 84 (4), 190 (2006)].
+[11] R. Engelke and J. R. Stine, J. Phys. Chem. 94, 5689 (1990).
+[12] W. J. Lauderdale, J. F. Stanton, and R. J. Bartlett, J. Phys. Chem.96, 1173 (1992).
+[13] M. L. Leininger, C. D. Sherrill, and H. F. Schaefer, J. Phys. Che m.99, 2324 (1995).
+[14] I. V. Davydov, A. I. Podlivaev, and L. A. Openov, Fiz. Tverd. T ela (St. Petersburg)
+47, 751 (2005) [Phys. Solid State 47, 778 (2005)].
+[15] L. A. Openov and A. I. Podlivaev, Fiz. Tverd. Tela (St. Petersb urg)50, 1146 (2008)
+[Phys. Solid State 50, 1195 (2008)].
+[16] M. M. Maslov, A. I. Podlivaev, and L. A. Openov, Phys. Lett. A 373, 1653 (2009).
+[17] P. Zang, K. Morokuma, and A. M. Wodtke, J. Chem. Phys. 122, 014106 (2005).
+10Fig. 1. N 8cubane.
+11Reaction coordinateEpot1
+2U
+Fig. 2. Schematic dependence of the potential energy Epotof the N 8cubane (1) on the
+reaction coordinate along the path cubane →four N 2molecules (2).
+120.001 0.002 0.003 0.004 
+1/Tm-30 -25 -20 -15 ln(τ)
+ 
+Fig. 3. Logarithm of the lifetime τ(in seconds) of the N 8cubane as a function of
+the inverse microcanonical temperature 1/ Tm(in K−1. Points indicate the results of
+the calculation. The solid line represents the linear approximation by t he least-squares
+13method.
+140.001 0.002 0.003 0.004 0.005 
+1/T*-30 -25 -20 -15 ln(τ)
+ 
+Fig. 4. The same as in Fig. 3 but in the other coordinates. The quantit y inverse to
+T∗=Tm−Ea/2Cis plotted along the abscissa axis (see text).
+15

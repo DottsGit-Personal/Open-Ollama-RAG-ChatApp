@@ -1,0 +1,122 @@
+arXiv:1001.0286v1  [astro-ph.CO]  2 Jan 2010IL NUOVO CIMENTO Vol. ?, N. ? ?
+Model Independent Methods of Describing GRB Spectra Using
+BATSE MER Data
+P. Veres (1)(2), I. Horv ´ath(3), Z. Bagoly (1), L.G. Bal ´azs(4), A. M´esz´aros(5)(7),
+G. Tusn ´ady(6) andF. Ryde (7)(8)
+(1)E¨ otv¨ os University, H-1117 Budapest, P´ azm´ any P. s. 1./A , Hungary.
+(2)Department of Physics, University College Cork, Ireland.
+(3)Dept. of Physics, Bolyai Military University, Budapest, Bo x-12, H-1456, Hungary.
+(4)Konkoly Observatory, H-1525 Budapest, POB 67, Hungary.
+(5)Astronomical Institute of the Charles University, Prague, Czech Republic.
+(6)R´ enyi Institute of Mathematics, H-1364 Budapest, POB 127, Hungary.
+(7)Department of Physics, The Royal Institute of Technology, 1 0691 Stockholm, Sweden.
+(8)Stockholm Observatory, AlbaNova, SE-106 91 Stockholm, Swe den.
+Summary. — The Gamma Ray Inverse Problem is discussed. Four methods of
+spectral deconvolution are presented here and applied to th e BATSE’s MER data
+type. We compare these to the Band spectra.
+PACS 00.00 – By the way, which PACS is it, the 00.00? GOK..
+PACS —.— – ....
+1. – Introduction
+The Gamma Ray Inverse Problem ([1]) is as follows: from a given number of observed
+parameters we have to reconstruct the intrinsic spectra. This will be estimated at some
+other number of points. The relation between the measured param eters and the intrinsic
+spectra is given by the detector response matrix (DRM). In the ca se of the BATSE MER
+data, the spectra has to be approximated at 62 intervals from 16 m easured count rates.
+The inverse problem corresponds to the discretized version of the Fredholm integral
+equation of the ﬁrst kind.
+d(y) =/integraldisplay
+R(x,y)f(x)dx. (1)
+HereR(x,y) is the so-called kernel function, in our case the detector’s respo nse matrix.
+d(y) is the measured count rate, f(x) is the quantity to be determined. This is known
+to be an ill-posed and underdetermined problem. In the case of BATS E MERdis a 16
+element vector, fa 62 element vector and Ris a 16×62 matrix.
+c/circlecopyrtSociet` a Italiana di Fisica 12 P. VERES ETC.
+2. – Data
+Data were taken from the BATSE database (ftp://cossc.gsfc.nas a.gov). We only used
+the Medium Energy Resolution data type. Background ﬁts were mad e using intervals
+by Norris (http:// cossc.gsfc.nasa.gov/ docs/ cgro/ batse/ bats eburst/ sixtyfour ms/
+batﬁles.revamp join) for the cat64data. We have subtracted 3rddegree polynomials
+from all the 16 channels of MER data.
+3. – Methods
+Throughoutthe literaturetherearearticleswhichdiscussindetail theinverseproblem
+in astronomy ([1, 2]) and other sciences ([3]). Gamma-ray bursts’ s pectra are most
+commonly reconstructed by the method parameter ﬁtting also kno ws as forward folding
+[4]. This is done by postulating spectral forms with some adjustable p arameters. Once
+multiplied with the DRM we get a solution for the count rates and we the n compare
+them to the measured set of data. We accept the set of paramete rs which minimizes the
+χ2of the solution and the measured counts. Although widely used and a well established
+method, still it is obliging when it comes to the shape of the spectra an d it consists of
+estimating the parameters and not the spectra itself [1].
+3.1.Singular Value Decomposition . – We decompose the response matrix using this
+well known mathematical method. We solve the GRIP by multiplying with the gener-
+alised inverse obtained through SVD. Spectra obtained from simply m ultiplying with the
+general inverse tend to be noisy. To avoid this we can use ﬁlters.
+3.2.Maximum entropy method . – This method introduces some a priori information
+to reconstructthe spectra ( m). This is done by ﬁtting a Band GRB spectral form [5]. We
+propose to maximize the expression: L(f,λ) =λS(f,m)−1
+2χ2whereλis a parameter,
+mis thea priori spectra (from model ﬁtting or SVD). It is with respect to this that
+we measure the entropy of the intrinsic spectra ( f). The expression of the entropy is
+as follows: S(f,m) =/summationtextN(=62)
+j=1fj−mj−fjlog/parenleftBig
+fj
+mj/parenrightBig
+. When Lhas a maximum then
+∇L(f,λ) = 0.. From this we derive: λlog/parenleftBig
+f
+m/parenrightBig
+=R⊤[σ−2](d−Rf), where [ σ2] is a
+diagonal matrix with elements of the σ2vector and Ris the response matrix. Since
+log/parenleftBig
+f
+m/parenrightBig
+results from the linear combination of the R⊤’s columns, we can search for the
+solution in the form of: f=meR⊤w. Herewis a 16 element vector. This ensures that
+fwill always be positive, and since whas a smaller scale, it is easier to ﬁnd it as a
+result of a minimizing process. The choice of λcan be made with the so-called cross-
+validation technique or another method based on a Bayesian approa ch. We have applied
+the method to BATSE MER data. First results suggest that the Ban d GRB function
+provides a good enough ﬁt.
+3.3.Backus Gilbert method . – Its main advantage is that it is a linear method([6]),
+data in the intrinsic spectra is reconstructed as a linear combination of the measured
+count rates: f(Ej) =/summationtextM
+i=1ai(Ej)di=/summationtextN
+k=1∆k(Ej)fkand ∆ k(Ej) =/summationtextM
+i=1ai(Ej)Ri,k..
+We callR(E) the resolution function. Our aim is to approximate the resolution fu nction
+with Dirac-delta function as well as possible. By doing this we minimize fo rai. The
+other issue at hand is the variance of the spectra. This is dealt with b y minimizing
+σ2
+j(Ej) =/summationtextM
+i=1a2
+i(Ej)σ2
+ialso forai. These two expressions are combined into a singleMODEL INDEPENDENT METHODS OF DESCRIBING GRB SPECTRA USING B ATSE MER DATA 3
+Fig. 1. – Sample Backus Gilbert inverse.
+one depending on the parameter θin the following manner: w(Ej,θ) =R(Ej)cosθ+
+vσ2
+j(Ej)sinθ. By minimizing wwith respect to aiwe get the Backus Gilbert inverse
+(Fig.1). ( vis merely a factor to get the two components to the same order of m agnitude)
+3.4.Phillips-Towmey method .–Wewillprovideonlyabriefdescriptionofthemethod.
+Like at the maximum entropy method, we are also in need here of an a priorispectrum.
+This information is used to reduce the characteristic length scale of the problem. We
+introduce the sum-of-squares of the spectrum’s k-th derivative ( Ck).
+We propose to minimize some linear combination of the χ2and theCk. As ana priori
+spectrum we ﬁt a Band GRB function. We ﬁnd that there is only insigniﬁ cant gain in
+the function to be minimized with respect to the Band GRB function.
+4. – Conclusion
+HavingappliedseveraloftheabovepresentedmethodstoinvertB ATSEMERspectra,
+we conclude that the methods give a consistent estimation of the inc ident spectrum each
+with regard to the minimizing function they use. The SVD method is the fastest, the
+Backus Gilbert requires the most time, but it is less sensitive to noise. We have also
+found that the Band GRB function provides a good ﬁt to the spectr a we analyzed.
+∗ ∗ ∗
+This research was supported by OTKA grant T048870 and by a gran t from Swedish
+Wenner-Gren Foundations (A.M.).
+REFERENCES
+[1]Loredo T. andEpstein R. ,ApJ,336(1989) 896;
+[2]Bouchet L. ,AandASS,113(1995) 167;
+[3]Parker R.L. ,Annual Review of Earth and Planetary Sciences ,5(1977) 35;
+[4]Preece R.D. andal.,ApJ,496(1998) 849;
+[5]Band D. andal.,ApJ,413(1993) 281;
+[6]Backus G.E. andGilbert J. F. ,Royal Society of London Philosophical Transactions
+Series A ,266(1970) 123;

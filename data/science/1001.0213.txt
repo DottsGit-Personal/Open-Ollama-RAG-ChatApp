@@ -1,0 +1,333 @@
+1 TESTING RELATIVISTIC GRAVITY AND  
+DETECTING  GRAVITATIONAL WAVES IN SPACE * 
+WEI-TOU NI 
+Center for Gravitation and Cosmology, Purple Mounta in Observatory,  
+Chinese Academy of Sciences, No. 2, Beijing W. Rd.,  Nanjing, 210008 China  
+National Astronomical Observatories, Chinese Academ y of Sciences, 
+Beijing, 100012 China 
+  e-mail: wtni@pmo.ac.cn   
+For testing gravity and detecting gravitational wav es in space, deep-space laser ranging 
+using drag-free spacecraft is a common method. Deep  space provides a large arena and a 
+long integration time. Laser technology provides me asurement sensitivity, while drag-
+free technology ensures that gravitational phenomen on to be measured with least 
+spurious noises. In this talk, we give an overview of motivations and methods of various 
+space missions/proposals testing relativistic gravi ty and detecting gravitational waves, 
+and refer to various references. 
+1.   Introduction - Mapping the Gravitational Field  in the Solar System 
+The solar-system gravitational field is determined by three factors: the dynamic 
+distribution of matter in the solar system; the dyn amic distribution of matter 
+outside the solar system (galactic, cosmological, e tc.) and gravitational waves 
+propagating through the solar system. Different rel ativistic theories of gravity 
+make different predictions of the solar-system grav itational field. Hence, precise 
+measurements of the solar-system gravitational fiel d test these relativistic 
+theories, in addition to enabling gravitational wav e observations, determination 
+of the matter distribution in the solar-system and determination of the observable 
+(testable) influence of our galaxy and cosmos. The tests and observations from 
+various missions with various configurations could include: (i) a precise 
+determination of the relativistic parameters with 3 -5 orders of magnitude 
+improvement over previous measurements; (ii) a 1-2 order of magnitude 
+improvement in the measurement of /uni0120; (iii) a precise determination of any 
+anomalous, constant acceleration A a directed towards the Sun; (iv) a 
+measurement of solar angular momentum via the Lense -Thirring effect; (v) the 
+                                                           
+*This work is supported by the National Natural Scie nce Foundation of China (Grant Nos. 
+10778710 and 10875171).  2
+detection of solar g-mode oscillations via their ch anging gravity field, thus, 
+providing a new eye to see inside the Sun; (vi) pre cise determination of the 
+planetary orbit elements and masses; (vii) better d etermination of the orbits and 
+masses of major asteroids; (viii) exploring the dyn amic distribution of matter 
+outside the solar system (galactic, cosmological, e tc.) and testing large scale 
+gravitational theories; (ix) detection and observat ion of gravitational waves from 
+massive black holes and galactic compact binary sta rs in the low and middle 
+frequency range 100 nHz to 10 Hz; and (x) exploring  background gravitational-
+waves [1].  
+2.   Methods of Measurement 
+For testing gravity and detecting gravitational wav es in space, deep-space laser 
+ranging using drag-free spacecraft is a common meth od. Deep space provides a 
+large arena and a long integration time. Laser tech nology provides measurement 
+sensitivity, while drag-free technology ensures tha t gravitational phenomenon to 
+be measured with least spurious noises. Up to now, microwave technology is 
+used for measuring the solar-system and testing sol ar-system gravity. However, 
+this will be replaced by more precise laser technol ogy. The precision has already 
+been demonstrated by lunar laser ranging [2]. For l ast forty years, we have seen 
+great advances in the dynamical testing of relativi stic gravity.  This is largely due 
+to interplanetary radio ranging and lunar laser ran ging [3]. Interplanetary radio 
+ranging and tracking provided more stimuli and prog resses at first. However 
+with improved accuracy of 1 mm from 20-30 cm and lo ng-accumulation of 
+observation data, lunar laser ranging reaches simil ar accuracy in determining 
+relativistic parameters as compared to interplaneta ry radio ranging. 
+There are various interplanetary optical missions p roposed. As an example 
+of interplanetary missions, we mention ASTROD; the baseline scheme of 
+ASTROD is to have two spacecraft in separate solar orbits and one spacecraft 
+near the Earth-Sun L1/L2 point carrying a payload o f a proof mass, two 
+telescopes, two 1-2 W lasers with spares, a clock a nd a drag-free system ranging 
+coherently among one another using lasers. [1] 
+For technology development, we refer the readers to  LISA proceedings and 
+ASTROD proceedings.  
+3.   Demonstration of Interplanetary Laser Ranging 
+Interplanetary laser ranging has been demonstrated by MESSENGER 
+(MErcury Surface, Space ENvironment, GEochemistry, and Ranging) [4-6]. The 
+MESSENGER spacecraft, launched on 3 August 2004, is  carrying the Mercury  3
+Laser Altimeter (MLA) as part of its instrument sui te on its 6.6-year voyage to 
+Mercury. Between 24 May, 2005 and 31 May, 2005 in a n experiment performed 
+at about 24 million km before an Earth flyby, the M LA on board MESSENGER 
+spacecraft performed a raster scan of Earth by firi ng its Q-switched Nd:YAG 
+laser at an 8 Hz rate. Pulses were successfully rec eived by the 1.2 m telescope 
+aimed at the MESSENGER spacecraft in the NASA Godda rd Geophysical and 
+Astronomical Observatory at Gaddard Space Flight Ce nter (GSFC) when the 
+MLA raster scan passed over the Earth station. Simu ltaneously, a ground based 
+Q-switched Nd:YAG laser at GSFC’s 1.2 m telescope w as aimed at the 
+MESSENGER spacecraft. Pulses were successfully exch anged between the two 
+terminals. From this two-way laser link, the range as a function of time at the 
+spacecraft over 2.39 × 10 10  m (~ 0.16 AU) was determined to ± 0.2 m (± 670 ps) : 
+a fractional accuracy of better than 1 × 10 -11 .  
+A similar experiment was conducted by the same team  to the Mars Orbiter 
+Laser Altimeter (MOLA) on board the Mars Global Sur veyor (MGS) spacecraft 
+in orbit about Mars [6]. At that time, the MOLA las er was no longer operable 
+after a successful topographic mapping mission at M ars. The experiment was 
+one way (uplink) and the MOLA detector saw hundreds  of pulses from 8.4 W Q-
+switched Nd:YAG laser at GSFC. 
+4.   Missions for Testing Relativistic Gravity 
+In this section, we briefly review various missions  for testing relativistic 
+gravity and illustrate by looking into various ongo ing / proposed experiments 
+related to the determination of the PPN space curva ture parameter γ.  Some 
+motivations for determining γ precisely to 10 -5 – 10 -9 are given in [7, 8].  
+First, we mention two recently completed experiment s --- Cassini 
+experiment and GP-B experiment. Cassini experiment is the most precise 
+experiment measuring the PPN space curvature parame ter γ up to now. In 2003, 
+Bertotti, Iess and Tortora [9] reported a measureme nt of the frequency shift of 
+radio photons due to relativistic Shapiro time-dela y effect from the Cassini 
+spacecraft as they passed near the Sun during the J une 2002 solar conjunction. 
+From this measurement, they determined γ to be 1.000021 ± 0.000023. GP-B 
+experiment used quartz gyro at low-temperature to m easure the Lense-Thirring 
+precession and the geodetic precession in a polar o rbit of the earth. The geodetic 
+precession gives a measure of γ. The precision from their current analysis is 
+around 0.003 [10]. 
+Bepi-Colombo [11] is planned for a launch in 2013 t o Mercury. A 
+simulation predicts that the determination of γ can reach 2×10 -6 [12].  4
+GAIA (Global Astrometric Interferometer for Astroph ysics) [13] is an 
+astrometric mission concept aiming at the broadest possible astrophysical 
+exploitation of optical interferometry using a mode st baseline length (~3m). 
+GAIA is planned to be launched in 2013. At the pres ent study, GAIA aims at 
+limit magnitude 21, with survey completeness to vis ual magnitude 19-20, and 
+proposes to measure the angular positions of 35 mil lion objects (to visual 
+magnitude V=15) to 10 µas accuracy and those of 1.3 billion objects (to V= 20) 
+to 0.2 mas accuracy. The observing accuracy of V=10  objects is aimed at 4 µas. 
+To increase the weight of measuring the relativisti c light deflection parameter γ, 
+GAIA is planned to do measurements at elongations g reater than 35° (as 
+compared to essentially 47° for Hipparcos) from the  Sun. With all these, a 
+simulation shows that GAIA could measure γ to 1×10 -5 – 2 ×10 -7 accuracy [14]. 
+ASTROD I is a first step towards ASTROD. Its scheme  is to have one 
+spacecraft in a Venus-gravity-assisted solar orbit,  ranging optically with ground 
+stations with less ambitious, but still significant  scientific goals in testing 
+relativistic gravity. In the ranging experiments, t he retardations (Shapiro time 
+delays) of the electromagnetic waves are measured t o give γ. In the astrometric 
+experiments, the deflections of the electromagnetic  waves are measured to give γ. 
+These two kinds of experiments complement each othe r in determining γ. The 
+Cosmic Vision ASTROD I (Single Spacecraft  Astrodynamical Space Test of 
+Relativity using Optical Devices) mission concept [ 15] is to use a drag-free 
+spacecraft orbiting around the Sun using 2-way (bot h uplink and downlink) laser 
+pulse ranging between Earth and spacecraft to measu re γ and other relativistic 
+parameters precisely. The γ parameter can be separated from the study of the 
+Shapiro delay variation. The uncertainty on the Sha piro delay measurement 
+depends on the uncertainties introduced by the atmo sphere, timing systems of the 
+ground and space segments, and the drag-free noise.   A simulation shows that an 
+uncertainty of 3 × 10 -8 on the determination of γ is achievable.   
+LATOR (Laser Astrometric Test Of Relativity) [16] p roposed to use laser 
+interferometry between two micro-spacecraft in sola r orbits, and a 100 m 
+baseline multi-channel stellar optical interferomet er placed on the ISS 
+(International Space Station) to do spacecraft astr ometry for a precise 
+measurement of γ. 
+For ASTROD (Astrodynamical Space Test of Relativity ) [1], 3 spacecraft, 
+advanced drag-free systems, and mature laser interf erometric ranging will be 
+used and the resolution is subwavelength.  The accu racy of measuring γ and 
+other parameters will depend on the stability of th e lasers and/or clocks. An  5
+uncertainty of 1 × 10 -9 on the determination of γ is achievable in the time frame 
+of 2025-2030.  
+Space mission proposals to the outer solar system f or testing relativistic 
+gravity and cosmology theories include Super-ASTROD  [17], SAGAS [18] and 
+Odyssey [19]. We refer the readers to the refereces  mentioned. 
+5.   Missions for Detecting Gravitational Waves 
+A complete classification of gravitational waves ac cording to their frequencies 
+is: (i) Ultra high frequency band (above 1 THz); (i i) Very high frequency band 
+(100 kHz – 1 THz); (iii) High frequency band (10 Hz  – 100 kHz);  (iv) Middle 
+frequency band ( 0.1 Hz – 10 Hz); (v) Low frequency  band (100 nHz – 0.1 Hz); 
+(vi) Very low frequency band (300 pHz – 100 nHz); ( vii) Ultra low frequency 
+band (10 fHz – 300 pHz); (viii) Hubble (extremely l ow) frequency band (1 aHz 
+– 10 fHz); (ix) Infra-Hubble frequency band (below 1 aHz). The aims of 
+gravitational-wave space missions are for detection  of gravitational waves in the 
+low frequency band (LISA, ASTROD, ASTROD-GW, and Su per-ASTROD) 
+and middle frequency band (DECIGO and Big Bang Obse rver). The space 
+detectors are complimentary to the ground detectors  which aim at detection of 
+gravitational waves in the high frequency band. 
+LISA has nearly equilateral triangular spacecraft f ormation of armlength 5 
+× 10 6 km in orbit 20° behind earth.  
+ASTROD has a large variation in its triangular form ation with armlength 
+varying up to about 2 AU.  
+ASTROD-GW (ASTROD [Astrodynamical Space Test of Rel ativity using 
+Optical Devices] optimized for Gravitation Wave det ection) is an optimization 
+of ASTROD to focus on the goal of detection of grav itational waves. The 
+detection sensitivity is shifted 52 times toward la rger wavelength compared to 
+that of LISA. The scientific aim is focused for gra vitational wave detection at 
+low frequency. The mission orbits of the 3 spacecra ft forming a nearly 
+equilateral triangular array are chosen to be near the Sun-Earth Lagrange points 
+L3, L4 and L5. The 3 spacecraft range interferometr ically with one another with 
+arm length about 260 million kilometers. After miss ion-orbit optimization, the 
+changes of arm length are less than 0.0003 AU or, f ractionally, less than ±10 -4 in 
+ten years, and the Doppler velocities for the three  spacecraft are less than ±4m/s. 
+Both fit the LISA requirement and a number of techn ologies developed by LISA 
+could be applied to ASTROD-GW. For the purpose of p rimordial GW detection, 
+a 6-S/C formation for ASTROD-GW will be used for co rrelated detection of 
+stochastic GWs. 
+The science goals for these missions are detection of Gravitational Waves 
+(GWs) from (i) Supermassive Black Holes; (ii) Inter mediate-Mass Black Holes;  6
+(iii) Extreme-Mass-Ratio Black Hole Inspirals; (iv)  Galactic Compact Binaries; 
+and (v) Primordial Gravitational Wave Sources, Stri ngs, Boson Stars etc.  
+For direct detection of primordial (inflationary, r elic) GWs in space, one 
+may go to frequencies lower or higher than the LISA  [20] bandwidth, where 
+there are potentially less foreground astrophysical  sources to mask detection. 
+DECIGO [21] and Big Bang Observer [22-23] look for GWs in the higher 
+frequency range while ASTROD [1], ASTROD-GW [24] an d Super-ASTROD  
+[17] look for GWs in the lower frequency range. In the following section, we 
+address to the issue of detectability of primordial  gravitational waves. 
+6.   The Detectability of Primordial Gravitational Waves 
+Inflationary cosmology is successful in explaining a number of outstanding 
+cosmological issues including the flatness, the hor izon and the relic issues. More 
+spectacular is the experimental confirmation of the  structure as arose from the 
+inflationary quantum fluctuations. However, the phy sics in the inflationary era is 
+unclear. Polarization observations of Cosmic Microw ave Background (CMB) 
+missions may detect the tensor mode effects of infl ationary gravitational waves 
+(GWs) and give an energy scale of inflation. To pro be the inflationary physics, 
+direct observation of gravitational waves generated  in the inflationary era is 
+needed. The following figure shows the sen that the  direct observation of these 
+GWs with sensitivity down to Ωgw  ~ 10 -20-10 -23  is possible using present 
+projected technology development if foreground coul d be separated (Figure 1). 
+7.   Outlook 
+Space missions using optical devices will be import ant in testing relativistic 
+gravity, measuring solar-system parameters and dete cting gravitational waves. 
+Laser Astrodynamics in the solar system envisages u ltra-precision tests of 
+relativistic gravity, provision of a new eye to see  into the solar interior, precise 
+measurement of /uni0120, monitoring the solar-system mass loss, and detect ion of low-
+frequency gravitational waves to probe the early Un iverse and study strong-field 
+black hole physics together with astrophysics of bi naries. One spacecraft and 
+multi-spacecraft mission concepts are in line for m ission opportunities. In view 
+of their importance both in fundamentals and in tec hnology developments, 
+mission concepts of this kind will be a focus in th e near future. 
+ 
+ 
+ 
+ 
+ 
+  7
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1. The stochastic backgrounds with bounds an d GW detector sensitivities. (Adapted from 
+Figure 3 and Figure 4 of Ref’s 17 and 25 with sensi tivity curve of DECIGO/BBO-grand added; the 
+extragalactic foreground and the extrapolated foreg round curves are from Ref. 27; see Ref’s 17, and 
+25-28 for explanations). 
+ 
+References 
+1. W.-T. Ni, Int. J. Mod. Phys. D  17, 921 (2008); and references therein.  
+2. T. W. Murphy, et al. , Publ. Astron. Soc. Pac.  120 , 20 (2008); and references 
+therein. 
+3.  W.-T. Ni, Int. J. Mod. Phys. D  14 , 901 (2005); and references therein. 
+4. D.E. Smith, M.T. Zuber, X. Sun, G.A. Neumann, J. F. Cavanaugh, J.F. 
+McGarry and T.W. Zagwodzki, Science  311 , 53 (2006). 
+5. X. Sun, G. A. Neumann, J. F. McGarry, T. W. Zagw odzki, J. F. Cavanaugh, J. 
+J. Degnan, D. B. Coyle, D. R. Skillman, M. T. Zuber , and D. E. Smith, Laser -1 8 .0 -1 4 .0 -1 0 .0 -6.0 -2 .0 2 .0 6 .0 1 0 .0 -2 4.0 -2 2.0 -2 0.0 -1 8.0 -1 6.0 -1 4.0 -1 2.0 -1 0.0 -8.0 -6.0 -4.0 -2.0 0.0 
+  
+   
+(a) Nv = 3.2 ms pulsars 
+ 
+(b) String 
+ LIGO or VIRGO 
+bar-intf 
+LISA strings  
+ 
+cosmolog 
+y 
+ 
+WMAP 
+ASTROD-GW 
+(correlation detection) Super-ASTROD 
+ inflatio 
+n Nv = 4 
+(c) cosmic 
+ 
+LIGO II/LCGT/VIRGO II 
+   (2 adv intf) 
+Log ( f[Hz]) 
+Log ( h02Ωgw ) 
+ 2 intf (single intf) 
+ 
+‘Average’  
+    
+Extragalactic 
+  
+Extrapolated 
+** ** ** ** DECIGO/BBO-grand 
+(correlation detection)  
+Super-ASTROD (correlation detection)  
+  8
+Ranging between the Mercury Laser Altimeter and an Earth-based Laser 
+Satellite Tracking Station over a 24 Million Kilome ter Distance, presented at 
+OSA Annual Meeting, Tucson, Arizona, USA, October 1 6-20, 2005 . 
+6. J. J. Degnan, Laser Transponders for High Accura cy Interplanetary Laser 
+Ranging and Time Transfer, pp. 231-242 in Lasers, Clocks, and Drag-Free: 
+Exploration of Relativistic Gravity in Space , Eds. H. Dittus, C. Lämmerzahl 
+and S. G. Turyshev (Springer, 2008). 
+7. T. Damour and K. Nordtvedt, Jr.,  Phys. Rev. Lett.  70 , 2217 (1993). 
+8. T. Damour, F. Piazza, and G. Veneziano, Phys. Rev.  D 66 , 046007 (2002). 
+9. B. Bertotti, L. Iess, and P. Tortora, Nature  425 , 374-376 (2003). 
+10.  C. W. F. Everitt, private communication. 
+11. http://www.esa.int/esaSC/120391_index_0_m.html 
+12. A. Milani, D. Vokrouhlicky, D. Villani, C. Bona nno, and A. Rossi, Phys. 
+Rev.  D 66 (8), 082001(21) (2004). 
+13. http://www.esa.int/esaSC/120377_index_0_m.html 
+14. A. Vecchiato, M. G. Lattanzi, B. Bucciarelli, et al. , Astron. Astrophys . 399 
+(1), 337-342, (2003). 
+15. T. Appourchaux  et al. , Exp. Astron.  23  (2009) 5. 
+16. S. G. Turyshev, M. Shao, and K. Nordtvedt, Class. Quantum Grav.  21 , 2773 
+(2004). 
+17. W.-T. Ni, Class. Quantum Grav.  26, 075021 (2009). 
+18. P. Wolf et al. , Exp. Astron.  23, 651 (2009). 
+19. B. Christophe  et al. , Exp. Astron.  23, 529 (2009). 
+20. LISA Study Team, LISA (Laser Interferometer Spa ce Antenna): A 
+Cornerstone Mission for the Observation of Gravitat ional Waves, ESA 
+System and Technology Study Report ESA-SCI 11 (2000 ). 
+21. S. Kawamura et al. , Class. Quantum Grav.  23, S125 (2006). 
+22. J. Crowder and N. J. Cornish, Phys. Rev. D  72, 083005 (2005); and 
+references therein. 
+23. N. Seto, Phys. Rev. D73 , 063001 (2006); and references therein. 
+24. W.-T. Ni, ASTROD optimized for gravitational-wa ve detection: ASTROD-
+GW – a pre-Phase A study proposal submitted to Chin ese Academy of 
+Sciences, February 26, 2009.  
+25. M. Maggiore, Stochastic backgrounds of gravitat ional waves (2000) 
+[arXiv:gr-qc/0008027v1]. 
+26. M. Maggiore, Phys. Reports  331, 283 (2000). 
+27. A. J. Farmer and E. S. Phinney, Mon. Not. Roy. Astron. Soc.  346, 1197 
+(2003). 
+28. W.-T. Ni, Int. J. Mod. Phys. D  18, December issue (2009); arXiv:0905.2508 
+(2009). 

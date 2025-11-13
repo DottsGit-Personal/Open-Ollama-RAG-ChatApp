@@ -1,0 +1,240 @@
+arXiv:1001.0836v3  [quant-ph]  5 Jul 2010Quantum Annealing with JarzynskiEquality
+MasayukiOhzekia,HidetoshiNishimorib
+aDepartment ofSystems Science, Kyoto University, Yoshida- Honmachi, Sakyo-ku, Kyoto 606-8501, Japan
+bDepartment ofPhysics, Tokyo Institute ofTechnology, Oh-o kayama, Meguro-ku, Tokyo 152-8551, Japan
+Abstract
+We show a practical application of an well-known nonequilib riumrelation, the Jarzynski equality, in quantum com-
+putation. Its implementation may open a way to solve combina torial optimization problems, minimization of a real
+single-valued function, cost function, with many argument s. It has been disclosed that the ordinary quantum com-
+putational algorithm to solve a kind of hard optimization pr oblems, has a bottleneck that its computational time is
+restrictedtobeextremelyslowwithoutrelevanterrors. Ho wever,byournovelstrategyshowninthepresentstudy,we
+mightovercomesuchadi ﬃculty.
+Keywords: Jarzynskiequality,quantumannealing,optimizationprob lem
+1. Introduction: QuantumAnnealing
+To reduce power loss in electric circuits, we have to
+minimize the circuit length. This kind of problems are
+formulatedintoamoregenerictasktominimizeormax-
+imize a real single-valued function of multivariables,
+cost function. This is called optimization problem [1].
+To solve these problems is one of the most important
+tasks and has broad applications in science and engi-
+neering. Well-known examples with discrete variables
+are satisﬁability problems, exact cover, maximum cut,
+Hamiltongraph,andtravelingsalesmanproblem.
+Most of the above exempliﬁed cases are mapped
+into a generic problem to ﬁnd the ground state for a
+kindof systemsseen in statistical physics, spin glasses.
+Its Hamiltonian is denoted as H0in the present study.
+One of the generic algorithms to solve optimization
+problems in reasonable time by exploiting resources in
+physicsisquantumannealing(QA)[2,3,4]. InQA,we
+introduce artiﬁcial degrees of freedom of quantum na-
+ture,noncommutativeoperatorsinordertoinducequan-
+tumﬂuctuations.
+H(t)=f(t)H0+{1−f(t)}H1, (1)
+wheref(t) isassumed to bea monotonicallyincreasing
+functionsatisfying f(0)=0 andf(τ)=1. The anneal-
+ingtime is denotedby τ. Thetranseverse-ﬁeldoperator
+for spin glasses is often used as a quantum ﬂuctuation,
+H1=−/summationtext
+iσx
+i. The quantum annealing starts from the
+groundstate of H1, a uniform linear combinationof allspin conﬁgurations on the basis of σz
+i. The quantum
+system is driven by gradually decreasing the quantum
+ﬂuctuation according to f(t). The adiabatic theorem
+guarantees that we can reach a nontrivial ground state
+ofH0aftersuﬃcientlyslow quantumsweep τc∼1/∆2,
+where∆istheenergygapoftheinstantaneousquantum
+system (1) [5]. If we consider the cases in which the
+quantum system as in Eq. (1) has a minimum energy
+gap vanishing as∆∼exp(−αN) for increasing the sys-
+tem sizeN, QA does not work well in reasonable time
+[6, 7].
+2. JarzynskiEquality
+Toovercometheabovedi ﬃcultyinhardoptimization
+problems, we propose a novel method in conjunction
+with a theoretical piece from non-equilibrium statisti-
+cal physics, the Jarzynski equality (JE), in the present
+study [8, 9]. The Jarzynski equality is written by an
+well-knownexpressionas,
+/angbracketleftBig
+e−βW/angbracketrightBig
+=Zτ(β)
+Z0(β), (2)
+where the angular brackets denote the average over all
+realizationsinapredeterminedprocessstartingfroman
+initial equilibrium state and Wis the work done during
+theprocess. Thepartitionfunctionsfortheinitialandﬁ-
+nalHamiltoniansarewrittenas Z0(β)andZτ(β)within-
+versetemperatureβ,respectively. Wehereshortlyrecall
+the formulationof JE for the classical system on a heat
+Preprintsubmitted to Computer Physics Communications November 18,2018bath. Let us considera thermal nonequilibriumprocess
+in a ﬁnite-time schedule t0=0≤t≤tn=nδt. Ther-
+mal ﬂuctuations can be simulated by the master equa-
+tion. The probability that the system is in a state σkat
+timetkis denoted as P(σk;tk). The transition probabil-
+ity per unit timeδtis deﬁned as M(σk+1|σk;tk). In the
+original formulation of JE, the work is deﬁned as the
+energydiﬀerencemerelyattributedtothe changeofthe
+Hamiltonian,butwecanconstructJEalsointhecaseof
+changing the inverse temperature by deﬁning the work
+as−βW(tk)=−(β(tk+1)−β(tk))H0for the stateσ. The
+left-handside ofJE canthenbeexpressedas
+/angbracketleftBig
+e−βW/angbracketrightBig
+=/summationdisplay
+{σk}n−1/productdisplay
+k=0/braceleftBig
+e−βW(tk)eδtM(σk+1|σk;tk)/bracerightBig
+×˜P(σ0;t0), (3)
+where˜P(σ0;t0) denotesthe initial equilibriumdistribu-
+tion. Even if the transition term exp( δtM(σk+1|σk;tk))
+is removed in this equation, JE is trivially satisﬁed as
+one can simply conﬁrm. A non-trivial feature of JE is
+in the insertion of the transition term. From Eq. (3),
+it is straightforward to prove JE by use of the detailed-
+balance condition. An observant reader may think the
+above formulation without any consideration of quan-
+tum nature is not available for the application to QA.
+NeverthelesswecanapplytheclassicalJEtoQAbyaid
+oftheclassical-quantummapping[10].
+3. Classical-quantummapping
+The classical-quantum mapping leads us to a special
+quantum system, in which the (instantaneous) equilib-
+rium state of the above stochastic dynamics can be ex-
+pressed as the ground state. A general form of such a
+special quantum Hamiltonian is given as Hq(σ′|σ;t)=
+I−eβ(t)
+2H0M(σ′|σ;t)e−β(t)
+2H0. This Hamiltonian has the
+ground state as|Ψeq(t)∝an}bracketri}ht=/summationtext
+σe−β(t)H0/2|σ∝an}bracketri}ht/√Z(t). The
+ground state energy is 0, which can be explicitly
+shown by the detailed-balance condition. On the other
+hand, the excited states have positive-deﬁnite eigenval-
+ues, which can be conﬁrmed by the application of the
+Perron-Frobeniustheorem.
+In the above special quantum system, we can deal
+with a quasi-equilibrium stochastic process as an adi-
+abatic quantum-mechanical dynamics in QA. Let us
+consider QA for the above special quantum system by
+setting the parameter corresponding to the temperature
+T→∞(β→0). Thisconditiongivesthetrivialground
+state for H1in the preceding section with an uniformlinear combination,similarly to the ordinaryQA. If we
+changeT→0 very slowly, one can obtain the ground
+state ofHq, which expresses the very low-temperature
+equilibrium state for H0, the cost function of the opti-
+mizationproblemthatwewishsolve. We howevercon-
+sider to construct a protocol with the same spirit as JE
+by using the special quantum system to overcome the
+bottleneck of the ordinary QA as proposed in the fol-
+lowingsection.
+4. QuantumJarzynskiannealinganditsapplication
+We prepare a trivial ground state with a uni-
+form linear combination as the initial condition in
+the ordinary QA. This initial state corresponds to
+the high-temperature equilibrium state |Ψeq(t0)∝an}bracketri}ht ∝
+exp(−β(t0)H0/2)|σ∝an}bracketri}htwithβ(t0)≪1. We introduce the
+exponentiatedworkoperator Wexp(tk)=exp(−(β(tk+1)−
+β(tk))H0/2). It looks like a non-unitary operator,
+but we can construct this operation by considering
+an extended quantum system [11, 12]. If we apply
+Wexp(tk) to the preceding quantum state |Ψeq(tk)∝an}bracketri}ht, it is
+changed into a state corresponding to the equilibrium
+distribution with the inverse temperature β(tk+1). Af-
+ter then, the time-evolution operator U(σ′|σ;tk+1)=
+exp(−iδtHq(σ′|σ;tk+1)//planckover2pi1) also does not alter this state,
+sinceit isthegroundstate of Hq(σ′|σ;tk+1). Theresult-
+ingstate aftertherepetitionoftheaboveprocedureis
+|Ψ(tn)∝an}bracketri}ht∝n−1/productdisplay
+k=0/braceleftBig
+Wexp(tk)Uk+1(σk+1|σk;tk)/bracerightBig
+.
+×|Ψeq(t0)∝an}bracketri}ht (4)
+This is essentially of the same form as Eq. (3). We
+measure the obtained state by the projection onto a
+speciﬁed stateσ′. The probability is then given by
+|∝an}bracketle{tσ′|Ψ(tn)∝an}bracketri}ht|2,whichmeansthatthegroundstatewewish
+to ﬁnd is obtained with the probability proportional to
+exp(−β(tn)H0). If we continue the above procedure up
+toβ(tn)≫1, we can eﬃciently obtain the ground state
+ofH0. This is called the quantum Jarzynski anneal-
+ing (QJA) in the present study. Most of the readers,
+who are familiar with the ordinary computation, have
+considered that it may seem unnecessary to apply the
+time-evolutionoperator U(σk+1|σk;tk),whichexpresses
+change between states by quantum ﬂuctuations, at the
+middle step between the operations of the exponenti-
+ated work operators Wexp(tk). The time-evolution op-
+erator does not mean an artiﬁcial control but describes
+the change by quantum nature during quantum com-
+putation, which is inherent property in quantum com-
+putation. However we here remember the nontrivial
+20.020.040.060.080.10t0.20.40.60.81.0PGS
+Figure 1: The performance of QA (triangles), and QJA (cir-
+cles). The reference curve describes the instantaneous Gib bs-
+Boltzmannfactor.
+point of JE. Even if quantum nature a ﬀects the instan-
+taneous quantum state, the property of JE guarantees
+that we keep the quantum state expressing the instan-
+taneous equilibrium state. If one considers to simu-
+late this procedure in “classical” computers, we have
+to need the repetition of the pre-determined process to
+deal with all ﬂuctuationsin the nonequilibrium-process
+average, since we assume an ensemble in equilibrium
+intheformulationofJE.However,whenwe implement
+QJA in “quantum” computation, we operate QJA to a
+single quantum system in principal since the classical
+ensembleismappedtothe quantumwave function. We
+do not need the repetitionof the same proceduredi ﬀer-
+entlyfromtheclassical case[12].
+Let us take a simple instance to search the minimum
+fromaone-dimensionalrandompotential,whichisfor-
+mulated as the Hamiltonian H0=−/summationtextN
+i=1Vi|i∝an}bracketri}ht∝an}bracketle{ti|. Here
+Videnotesthe potentialenergyat site iand chosenran-
+domly. We employ a linear schedule for tuning the pa-
+rameterβfrom 0 to 100. Figure 1 shows the plot for
+QJA (upper circles), which are ﬁxed along the refer-
+encecurves(solidcurve)representingtheinstantaneous
+Gibbs-Boltzmann factor. In contrast, QA (lower tri-
+angles) can not suﬃciently ﬁnd the ground state since
+we considera veryshortannealingisconsideredin this
+case.
+5. Summary
+We consider an application of JE to quantum com-
+putation as QA to solve the optimization problems by
+using the classical-quantummapping. As we expected,
+this protocol keeps the quantum system to express the
+equilibrium state for the instantaneous inverse temper-
+ature. The result by QJA shown here gives the groundstateinashortannealingandimpliesthatwemayover-
+comethe diﬃcultiesin hardoptimizationproblemsand
+solve them in a reasonable time. The present result is
+nothing but preliminary one. We should address the
+problem on practical e ﬃciency for several interesting
+hardproblemswewishtosolveinthefuturestudy[13].
+Acknowledgement
+ThisworkwassupportedbyCREST, JST.
+References
+[1] M.R.GareyandD.S.Johnson,ComputersandIntractabili ty: A
+Guide to the Theory of NP-Completeness Freeman, (San Fran-
+cisco, 1979).
+[2] A. B. Finnila, M. A. Gomez, C. Sebenik, S. Stenson, and J. D .
+Doll, Chem. Phys.Lett. 219,343 (1994).
+[3] T.Kadowaki and H.Nishimori, Phys.Rev. E 58, 5355 (1998).
+[4] S.Morita, and H.Nishimori, J.Math. Phys. 49, 125210 (2008).
+[5] S.Suzuki and M.Okada, J.Phys.Soc. Jpn. 74, 1649 (2005).
+[6] T. Jorg, F. Krzakala, J. Kurchan, A. C. Maggs, Phys. Rev. L ett.
+101, 147204 (2008).
+[7] A. P.Young, S. Knysh, and V. N,Smelyanskiy, Phys. Rev. Le tt.
+104, 020502 (2010).
+[8] C. Jarzynski, Phys.Rev. Lett. 78, 2690 (1997).
+[9] C. Jarzynski, Phys.Rev. E 56, 5018 (1997).
+[10] R. D. Somma, C. D. Batista, and G. Ortiz, Phys. Rev. Lett. 99,
+030603 (2007).
+[11] P.Wocjan,C.Chiang,D.Nagaj,andA.Abeyesinghe,Phys .Rev.
+A.80, 022340 (2009).
+[12] M.Ohzeki, work in progress.
+[13] M.Ohzeki and S.Tanaka, work in progress.
+3

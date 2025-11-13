@@ -1,0 +1,391 @@
+arXiv:1001.0380v3  [math.AP]  5 Oct 2010Blowup for the Euler and Euler-Poisson
+Equations with Repulsive Forces
+Manwai Yuen∗
+Department of Applied Mathematics,
+The Hong Kong Polytechnic University,
+Hung Hom, Kowloon, Hong Kong
+Revised 05-Oct-2010
+Abstract
+In this paper, we study the blowup of the N-dim Euler or Euler-Poisson equations with
+repulsive forces, in radial symmetry. We provide a novel int egration method to show that
+the non-trivial classical solutions ( ρ,V), with compact support in [0 ,R], where R >0 is a
+positive constant and in the sense which ρ(t,r) = 0 and V(t,r) = 0 for r≥R, under the
+initial condition
+H0=/integraldisplayR
+0rV0dr >0, (1)
+blow up on or before the ﬁnite time T=R3/(2H0) for pressureless ﬂuids or γ >1.
+The main contribution of this article provides the blowup re sults of the Euler ( δ= 0)
+or Euler-Poisson ( δ= 1) equations with repulsive forces, and with pressure ( γ >1), as the
+previous blowup papers ([1] [2], [3] and [4]) cannot handle t he systems with the pressure term,
+forC1solutions.
+Key Words: Euler Equations, Euler-Poisson Equations, Inte gration Method, Blowup, Re-
+pulsive Forces, With Pressure, C1Solutions, No-Slip Condition
+∗E-mail address: nevetsyuen@hotmail.com
+12 M.W.Yuen
+1 Introduction
+The isentropic Euler ( δ= 0) or Euler-Poisson ( δ=±1) equations can be written in the following
+form: 
+
+ρt+∇·(ρu) =0,
+ρ[ut+(u·∇)u]+∇P=ρ∇Φ,
+∆Φ(t,x) =δα(N)ρ,(2)
+whereα(N) is a constant related to the unit ball in RN:α(1) = 1, α(2) = 2πandα(3) = 4π.
+And as usual, ρ=ρ(t,x)≥0 andu=u(t,x)∈RNare the density and the velocity respectively.
+P=P(ρ) is the pressure function. The γ-law can be applied on the pressure term P(ρ), i.e.
+P(ρ)=Kργ, (3)
+which is a common hypothesis. If the parameter is set as K >0, we call the system with pressure ;
+ifK= 0, we call it pressureless . The constant γ=cP/cv≥1, where cP,cvare the speciﬁc heats
+per unit mass under constant pressure and constant volume resp ectively, is the ratio of the speciﬁc
+heats, that is, the adiabatic exponent in the equation (3). In part icular, the ﬂuid is called isother-
+mal ifγ= 1. IfK >0, we call the system with pressure; if K= 0, we call it pressureless.
+In the above systems, the self-gravitational potential ﬁeld Φ = Φ( t,x) is determined by the density
+ρitself, through the Poisson equation (2) 3.
+Whenδ=−1, the system can model ﬂuids that are self-gravitating , such as g aseous stars. In
+addition, the evolution of the simple cosmology can be modelled by the d ust distribution with-
+out pressure term. This describes the stellar systems of collisionles s and gravitational n-body
+systems [5]. And the pressureless Euler-Poissonequations can be d erived from the Vlasov-Poisson-
+Boltzmann model with the zero mean free path [6]. For N= 3 and δ=−1, the equations (2) are
+the classical (non-relativistic) descriptions of a galaxy in astrophy sics. See [7] and [8], for details
+about the systems.
+Whenδ= 1, the system is the compressible Euler-Poisson equations with rep ulsive forces. The
+equation (2) 3is the Poisson equation through which the potential with repulsive fo rces is deter-
+mined by the density distribution of the electrons. In this case, the system can be viewed as aBlowup for Euler and EP Equations 3
+semiconductor model. See [9] and [10] for detailed analysis of the sys tem.
+On the other hand, the Poisson equation (2) 3can be solved as
+Φ(t,x) =δ/integraldisplay
+RNG(x−y)ρ(t,y)dy, (4)
+whereGis Green’s function for the Poisson equation in the N-dimensional spaces deﬁned by
+G(x).=
+
+|x|, N= 1;
+log|x|, N= 2;
+−1
+|x|N−2, N≥3.(5)
+Usually, the Euler-Poisson equations can be rewritten in the scalar f orm:
+
+
+∂ρ
+∂t+N
+Σ
+k=1uk∂ρ
+∂xk+ρN
+Σ
+k=1∂uk
+∂xk=0,
+ρ/parenleftbigg
+∂ui
+∂t+N
+Σ
+k=1uk∂ui
+∂xk/parenrightbigg
++∂P
+∂xi=ρ∂Φ
+∂xi, fori= 1,2,...N.(6)
+For the construction of the analytical solutions for the systems, interested readers should refer
+to [11], [12], [13], [14] and [15]. The results for local existence theories can be found in [16], [17]
+and [18]. The analysis of stabilities for the systems may be referred t o [19], [20], [21], [1], [2], [3],
+[22], [13], [23], [24], [4] and [25].
+We seek the radial symmetry solutions
+ρ(t,/vector x) =ρ(t,r) and/vector u=/vector x
+rV(t,r) =:/vector x
+rV, (7)
+with the radius r=/parenleftBig/summationtextN
+i=1x2
+i/parenrightBig1/2
+.
+For the solutions in spherical symmetry, the Poisson equation (2) 3is transformed to
+rN−1Φrr(t,x)+(N−1)rN−2Φr=α(N)δρrN−1, (8)
+Φr=α(N)δ
+rN−1/integraldisplayr
+0ρ(t,s)sN−1ds. (9)
+By standard computation, the Euler-Poisson equations in radial sy mmetry can be written in the
+following form:
+
+ρt+Vρr+ρVr+N−1
+rρV= 0,
+ρ(Vt+VVr)+Pr(ρ) =ρΦr(ρ).(10)4 M.W.Yuen
+Historically, Makino, Ukai and Kawashima initially deﬁned the tame solut ions [1] for outside
+the compact of the solutions
+Vt+VVr= 0. (11)
+Following this, Makino and Perthame considered the tame solutions fo r the system with gravita-
+tional forces [2]. After that Perthame discovered the blowup resu lts for 3-dimensional pressureless
+system with repulsive forces [3] ( δ= 1). In short, all the results above rely on the solutions with
+radial symmetry:
+Vt+VVr=α(N)δ
+rN−1/integraldisplayr
+0ρ(t,s)sN−1ds. (12)
+And theEmdenordinarydiﬀerentialequationswerededucedonthe boundarypointofthesolutions
+with compact support:
+D2R
+Dt2=δM
+RN−1, R(0,R0) =R0≥0,˙R(0,R0) = 0, (13)
+wheredR
+dt:=VandMis the mass of the solutions, along the characteristic curve. They s howed
+the blowup results for the C1solutions of the system (10).
+Recently, ChaeandTadmor[4]showedtheﬁnitetime blowup, forthe pressurelessEuler-Poisson
+equations with attractive forces ( δ=−1), under the initial condition,
+S:={a∈RN/vextendsingle/vextendsingleρ0(a)>0,Ω0(a) = 0,∇·u(0,x(0)<0} /ne}ationslash=φ, (14)
+whereΩistherescaledvorticitymatrix(Ω0ij) =1
+2(∂iuj
+0−∂jui
+0)withthenotation u= (u1,u2,....,uN)
+in their paper and some point x0.
+They use the analysis of spectral dynamics to show the Racatti diﬀ erential inequality,
+Ddivu
+Dt≤ −1
+N(divu)2. (15)
+The solution for the inequality (15) blows up on or before T=−N/(∇·u(0,x0(0)).
+However, their method cannot be applied to the system with repulsiv e forces to obtain the
+similar blowup result.
+On the other hand, in [24], we have the blowup results if the solutions w ith compact support
+under the condition,
+2/integraldisplay
+Ω(t)(ρ|u|2+2P)dx < M2−ǫ, (16)Blowup for Euler and EP Equations 5
+whereMis the mass of the solution.
+In this article, the alternative approach is adopted to show that th ere is no global existence of
+C1solutions for the system, (6) ( δ= 0 orδ= 1),with compact support without the condition
+(14). We notice that the conditions in our result are diﬀerent from t he works of Engerlberg et. al
+[26].
+Theorem 1 Consider the N-dimensional Euler (δ= 0)or Euler-Poisson equations with repulsive
+forces(δ= 1)(2). The non-trivial classical solutions (ρ,V), in radial symmetry, with compact
+support in [0,R], whereR >0is a positive constant (which ρ(t,r) = 0andV(t,r) = 0forr≥R)
+and the initial velocity such that:
+H0=/integraldisplayR
+0rV0dr >0, (17)
+blow up on or before the ﬁnite time T=R3/(2H0),for pressureless ﬂuids (K= 0)orγ >1.
+The solutions ( ρ,u) may lose their regularity, for example the velocity function V∈C0only or
+the shock waves appear on or before the ﬁnite time T.
+2 Integration Method
+In this section, we present the proof of Theorem 1. The technique of the proof was selected simply
+to deduce the partial diﬀerential equations to the Racatti equat ion, to show the blowup result.
+However, we note our integration method is novel to the studies of blowup for this kind of the
+systems.
+Proof.In general, we show that the ρ(t,x(t;x)) preserves its positive nature as the mass equation
+(6)1can be converted to be
+Dρ
+Dt+ρ∇·u= 0, (18)
+with the material derivative,
+D
+Dt=∂
+∂t+(u·∇). (19)
+We integrate the equation (18):
+ρ(t,x) =ρ0(x0(0,x0))exp/parenleftbigg
+−/integraldisplayt
+0∇·u(t,x(t;0,x0))dt/parenrightbigg
+≥0, (20)6 M.W.Yuen
+forρ0(x0(0,x0))≥0,along the characteristic curve.
+We use the momentum equation (10) 2with the non-trivialsolutions in radialsymmetry, ρ0/ne}ationslash= 0,
+to have:
+Vt+VVr+Kγργ−2ρr= Φr, (21)
+Vt+∂
+∂r(1
+2V2)+Kγργ−2ρr= Φr, (22)
+rVt+r∂
+∂r(1
+2V2)+Kγrργ−2ρr=rΦr, (23)
+with multiplying ron the both sides.
+We take integration with respect to r,to the above equation, for γ >1 orK≥0:
+/integraldisplayR
+0rVtdr+/integraldisplayR
+0rd
+dr(1
+2V2)+/integraldisplayR
+0Kγrργ−2ρrdr=/integraldisplayR
+0rΦrdr, (24)
+/integraldisplayR
+0rVtdr+/integraldisplayR
+0rd
+dr(1
+2V2)+/integraldisplayR
+0Kγr
+γ−1dργ−1=/integraldisplayR
+0/bracketleftbiggα(N)δr
+rN−1/integraldisplayr
+0ρ(t,s)sN−1ds/bracketrightbigg
+dr,(25)
+/integraldisplayR
+0rVtdr+/integraldisplayR
+0rd
+dr(1
+2V2)+/integraldisplayR
+0Kγr
+γ−1dργ−1≥0, (26)
+forδ≥0.
+It follows with integration by part:
+/integraldisplayR
+0rVtdr−1
+2/integraldisplayR
+0V2dr+1
+2/bracketleftbig
+RV(t,R)2−0·V(t,0)2/bracketrightbig
+−/integraldisplayR
+0Kγ
+γ−1ργ−1dr+Kγ
+γ−1/bracketleftbig
+Rργ−1(t,R)−0·ργ−1(t,0)/bracketrightbig
+≥0.
+(27)
+Theaboveinequalitywiththeboundarycompactconditionof V(t,R) = 0and ρ(t,R) = 0, becomes
+/integraldisplayR
+0rVtdr−1
+2/integraldisplayR
+0V2dr−/integraldisplayR
+0Kγ
+γ−1ργ−1dr= 0. (28)
+Asrandtare independent variables and VisC1in the domain [0 ,R] in the assumption of the
+theorem, we may change the diﬀerentiation and the integration as t he following:
+d
+dt/integraldisplayR
+0rVdr−1
+2/integraldisplayR
+0V2dr−/integraldisplayR
+0Kγ
+γ−1ργ−1dr≥0, (29)
+d
+dt1
+2/integraldisplayR
+0Vdr2−1
+2/integraldisplayR
+01
+2rV2dr2≥/integraldisplayR
+0Kγ
+γ−1ργ−1dr≥0, (30)
+forγ >1 orK= 0.
+For the non-trivial initial condition ρ0≥0, we have the following diﬀerential inequality:
+d
+dt1
+2/integraldisplayR
+0Vdr2−1
+2/integraldisplayR
+01
+2rV2dr2≥0, (31)Blowup for Euler and EP Equations 7
+d
+dt/integraldisplayR
+0Vdr2≥/integraldisplayR
+01
+2rV2dr2≥1
+2R/integraldisplayR
+0V2dr2, (32)
+d
+dt/integraldisplayR
+0Vdr2≥1
+2R/integraldisplayR
+0V2dr2. (33)
+By denoting
+H:=H(t) =/integraldisplayR
+0rVdr=1
+2/integraldisplayR
+0Vdr2, (34)
+and with the Cauchy-Schwarz inequality,
+/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle/integraldisplayR
+0V·1dr2/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle≤/parenleftBigg/integraldisplayR
+0V2dr2/parenrightBigg1/2/parenleftBigg/integraldisplayR
+01dr2/parenrightBigg1/2
+, (35)
+/vextendsingle/vextendsingle/vextendsingle/integraltextR
+0Vdr2/vextendsingle/vextendsingle/vextendsingle
+R≤/parenleftBigg/integraldisplayR
+0V2dr2/parenrightBigg1/2
+, (36)
+4H2
+R2≤/integraldisplayR
+0V2dr2, (37)
+2H2
+R3≤1
+2R/integraldisplayR
+0V2dr2, (38)
+the inequality (32) becomes
+d
+dtH≥1
+2R/integraldisplayR
+0V2dr2≥2H2
+R3, (39)
+d
+dtH≥2H2
+R3. (40)
+With the initial condition: H0=/integraltextR
+0rV0dr >0,we can obtain
+H≥−R3H0
+2H0t−R3. (41)
+Therefore, the solutions blow up on or before the ﬁnite time T=R3/(2H0).
+This completes the proof.
+Remark 2 For controlled experiments in engineering, ﬂuids are kept i n a ﬁxed ball solid container
+with a radial R. Therefore, it requires the compact support condition for t≥0,
+ρ(t,r) = 0andV(t,r) = 0, (42)
+withr≥R. This corresponding condition is called no-slip condition (solid boundary condition)
+[27] and [28].
+On the other hand, in computing simulations, the systems are usually coupled with the similar8 M.W.Yuen
+boundary conditions for real applications. Therefore, the condition for compact support (no-slip
+condition) is reasonable in modelings. But for free boundar y problems, ﬂuids may not be bounded
+by a ﬁxed volume for all time. Therefore, further research is needed to study the corresponding
+result in future works.
+Remark 3 It is still an open question whether or not there exists time- localC1-solution with
+compact support for any initial condition with compact supp ort. On the other hand, if the global
+solutions with compact support whose radii expand unbounde dly as time tends to inﬁnity, the dis-
+cussion of this paper can oﬀer no information about this case .
+Remark 4 This article has shed new light on situations with the pressu re term. In particular, it
+provides the blowup results of the Euler (δ= 0)or Euler-Poisson (δ= 1)equations with repulsive
+forces, and with pressure (γ >1). This is the main contribution of the article, as the previou s
+blowup papers ([1] [2], [3] and [4]) cannot handle the system s with the pressure term, for C1
+solutions. A further reﬁnement for the non-radial symmetry is expected in future studies.
+3 Acknowledgement
+The author would like to thank the comments of reviewers to improve the article.
+References
+[1] T. Makino, S. Ukai and S. Kawashima, On Compactly Supported Solutions of the Compressible
+Euler Equation , Recent Topics in Nonlinear PDE, III (Tokyo, 1986), 173–183, Nor th-Holland
+Math. Stud., 148, North-Holland, Amsterdam, 1987.
+[2] T. Makino and B. Perthame, Sur les Solutions a symmetric spherique de lequation d’Eule r-
+poisson Pour levolution d’etoiles gazeuses,(French) [On R adially Symmetric Solutions of the
+Euler-Poisson Equation for the Evolution of Gaseous Stars] ,Japan J. Appl. Math. 7(1990),
+165–170.Blowup for Euler and EP Equations 9
+[3] B. Perthame, Nonexistence of Global Solutions to Euler-Poisson Equatio ns for Repulsive
+Forces, Japan J. Appl. Math. 7(1990), 363–367.
+[4] D. H. Chae and E. Tadmor, On the Finite Time Blow-up of the Euler-Poisson Equations in
+RN, Commun. Math. Sci. 6(2008), 785–789.
+[5] H. H. Fliche and R. Triay, Euler-Poisson-Newton Approach in Cosmology , Cosmology and
+Gravitation, 346–360, AIP Conf. Proc., 910, Amer. Inst. Phys., Melville, NY, 2007.
+[6] R. T. Glassey, The Cauchy Problem in Kinetic Theory , Society for Industrial and Applied
+Mathematics (SIAM), Philadelphia, PA, 1996.
+[7] J. Binney and S. Tremaine, Galactic Dynamics , Princeton Univ. Press, 1994.
+[8] S. Chandrasekhar, An Introduction to the Study of Stellar Structure , Univ. of Chicago Press,
+1939.
+[9] C. F. Chen, Introduction to Plasma Physics and Controlled Fusion , Plenum, New York (1984).
+[10] P.L. Lions, Mathematical Topics in Fluid Mechanics . Vols.1,2, 1998, Oxford: Clarendon
+Press, 1998.
+[11] P. Goldreich and S. Weber, Homologously Collapsing Stellar Cores , Astrophys, J. 238(1980),
+991-997.
+[12] T. Makino, Blowing up Solutions of the Euler-Poission Equation for the Evolution of the
+Gaseous Stars , Transport Theory and Statistical Physics 21(1992), 615–624.
+[13] Y.B. Deng, J.L. Xiang and T. Yang, Blowup Phenomena of Solutions to Euler-Poisson Equa-
+tions, J. Math. Anal. Appl. 286(2003), 295–306.
+[14] T.H. Li, Some Special Solutions of the Multidimensional Euler Equat ions inRN, Comm. Pure
+Appl. Anal .4(2005), 757–762.
+[15] M.W.Yuen, Analytical Blowup Solutions to the 2-dimensional Isothermal Euler-Poisson Equa-
+tions of Gaseous Stars , J. Math. Anal. Appl. 341 (2008),445–456.10 M.W.Yuen
+[16] T. Makino, On a Local Existence Theorem for the Evolution Equation of Ga seous Stars ,
+Patterns and waves, 459–479, Stud. Math. Appl., 18, North-Holland, Amsterdam, 1986.
+[17] M. Bezard, Existence locale de solutions pour les equations d’Euler-P oisson (Local Existence
+of Solutions for Euler-Poisson Equations) , Japan J. Indust. Appl. Math. 10(1993), 431–450
+(in French).
+[18] P.Gamblin, Solution reguliere a temps petit pour l’equation d’Euler–P oisson (Small-time Regu-
+lar Solution for the Euler-Poisson Equation) , Comm. PartialDiﬀerential Equations 18(1993),
+731–745 (in French).
+[19] T.C. Sideris, Formation of Singularities in Three-dimensional Compress ible Fluids , Comm.
+Math. Phys. 101(1985), 475–485.
+[20] S. Alinhac, Blowup for Nonlinear Hyperbolic Equations . Progress in Nonlinear Diﬀerential
+Equations and their Applications, 17. Birkh¨ aser Boston, Inc., Bos ton, MA, 1995.
+[21] S. Engelberg, Formation of Singularities in the Euler and Euler-Poisson E quations, Phys. D,
+98, 67–74, 1996.
+[22] Y.B. Deng, T.P. Liu, T. Yangand Z.A. Yao, Solutions of Euler-Poisson Equations for Gaseous
+Stars, Arch. Ration. Mech. Anal. 164(2002) 261–285.
+[23] J. Jang, Nonlinear Instability in Gravitational Euler-Poisson Sys tems for γ= 6/5, Arch.
+Ration. Mech. Anal. 188(2008), 265–307.
+[24] M.W. Yuen, Stabilities for Euler-Poisson Equations in Some Special Di mensions , J. Math.
+Anal. Appl. 344(2008), 145–156.
+[25] D. H. Chae and S. Y. Ha, On the Formation of Shochs to the Compressible Euler Equatio ns,
+Commun. Math. Sci. 7(2009), 627–634.
+[26] S. Engelberg, H.L. Liu and E. Tadmor, Critical Thresholds in Euler-Poisson Equations , Indi-
+ana Univ. Math. J. 50(2001), 109–157.Blowup for Euler and EP Equations 11
+[27] M. A. Day, The No-slip Condition of Fluid Dynamics , Erkenntnis 33(1990), 285–296.
+[28] Y. A. Cengel, R. H. Truner and J. M. Cimbala, Fundamentals of th ermal-Fluid Sciences, 3rd
+edition, McGraw-Hill Higher Education, New York, 2008.

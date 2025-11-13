@@ -1,0 +1,261 @@
+arXiv:1001.0522v2  [nucl-th]  5 Jan 2010QCD sum rules for D mesons in dense and hot
+nuclear matter
+T. Hilger, R. Schulze and B. K¨ ampfer
+Forschungszentrum Dresden-Rossendorf, PF 510119, D-0131 4 Dresden, Germany
+TU Dresden, Institut f¨ ur Theoretische Physik, D-01062 Dresde n, Germany
+E-mail:t.hilger@fzd.de
+Abstract. Open charm mesons (pseudo-scalar and scalar as well as axial-vect or and
+vector) propagating or resting in nuclear matter display an enhanc ed sensitivity to the
+chiral condensate. This oﬀers new prospects to seek for signals o f chiral restoration,
+in particular in pAand ¯pAreactions as envisaged in ﬁrst-round experiments by the
+CBM and PANDA collaborations at FAIR. Weinberg type sum rules for c harming
+chiral partners are presented, and the distinct in-medium modiﬁca tions of open-charm
+mesons are discussed. We also address the gluon condensates nea rTcand their impact
+on QCD sum rules.
+PACS numbers: 21.65.Jk, 12.40.Yx, 14.40.Lb, 24.85.+p
+Submitted to: J. Phys. G: Nucl. Phys.QCD sum rules for Dmesons in dense and hot nuclear matter 2
+1. Introduction
+The chiral condensate seems to be of utmost importance as candid ate of an order
+parameter of chiral symmetry which is spontaneously and explicitly b roken in nature
+(vacuum). The approach to restored chiral symmetry in a dense a nd/or hot medium
+may be signaled by a modiﬁed hadron spectrum. In particular, the sp ectral strengths
+of hadrons are expected to become modiﬁed when embedded in stro ngly interacting
+matter. While for vector mesons and strange mesons fairly exhaus tive studies have been
+performed in this context, charm degrees of freedom require fur ther investigations. The
+charmed hadron spectroscopy in pAand ¯pAcollisions will be addressed by two major
+experimental set-up’s of FAIR, CBM and PANDA. With this motivation we report in
+section 2 our results of a QCD sum rule analysis of spectral changes of pseudo-scalar
+open charm Dmesons in cold nuclear matter.
+In section 3 we consider diﬀerences of spectral strengths of chir al partners thus
+exposing the role of the chiral condensate also for charm. Since, w ithin the QCD sum
+rule approach which we employ here, the temperature and density d ependence of QCD
+condensates is important, we present in section 4 a ﬁrst explorativ e study of two gluon
+condensates near the deconﬁnement temperature but at ﬁnite n et baryon density.
+2. QCD sum rules for D and ¯D mesons
+QCDsumrulesoﬀertheuniquepossibility torelate(non-perturbativ e) QCDparameters
+and hadronic observables. To be speciﬁc, the current-current c orrelation function
+Π(q) = i/integraldisplay
+d4xeiqx/angbracketleft/angbracketleftT/bracketleftbig
+j(x)j†(0)/bracketrightbig
+/angbracketright/angbracketright, (1)
+withcurrents j(x) (withthequarkstructurei ¯d(x)γ5c(x)forthepseudo-scalar Dmesons,
+for instance) is related to the integrated spectral density
+Π(q) =1
+π/integraldisplay+∞
+−∞ds∆Π(s,|/vector q|)
+s−q0, (2)
+where ∆Π in turn is related to hadronic observables. We are here inte rested in an
+exploration of spectral changes. Quite general, one may consider the moments
+Sn(M)≡/integraldisplays+
+0
+s−
+0dssn∆Π(s)e−s2/M2(3)
+which allow to deﬁne the quantities
+∆m≡1
+2S1S2−S0S3
+S2
+1−S0S2, (4)
+m+m−≡ −S2
+2−S1S3
+S2
+1−S0S2, (5)
+m2≡∆m2+m+m−, (6)
+which may be interpreted, e.g. by exploiting the pole + continuum ansa tz, as mass
+splitting (actually, ∆ mis half of the splitting) and mass shift of Dand¯D. In line withQCD sum rules for Dmesons in dense and hot nuclear matter 3
+a similar pattern in the strange meson sector, one expects shifts o f spectral strengths by
+an ambient nuclear medium as exhibited schematically in ﬁgure 1. An eva luation of the
+Figure 1. Expected spectral changes of Dmesons in a cold nuclear medium.
+above equations leads to the results displayed in ﬁgure 2 (for details and a discussion
+of diﬀerent parameter sets cf. [1, 2]). These results point to a neg ative mass splitting
+/s48/s46/s48/s48 /s48/s46/s48/s53 /s48/s46/s49/s48 /s48/s46/s49/s53/s45/s48/s46/s48/s52/s45/s48/s46/s48/s51/s45/s48/s46/s48/s50/s45/s48/s46/s48/s49/s48/s46/s48/s48
+/s32/s32/s109/s32/s91/s32/s71/s101/s86/s32/s93
+/s110/s32/s91/s32/s102/s109/s45/s51
+/s32/s93/s48/s46/s48/s48 /s48/s46/s48/s53 /s48/s46/s49/s48 /s48/s46/s49/s53/s49/s46/s56/s52/s49/s46/s56/s54/s49/s46/s56/s56/s49/s46/s57/s48/s49/s46/s57/s50/s49/s46/s57/s52
+/s32/s32/s109/s32/s91/s32/s71/s101/s86/s32/s93
+/s110/s32/s91/s32/s102/s109/s45/s51
+/s32/s93
+Figure 2. (color online) The D-¯Dmass splitting ∆ mfrom Eq. (4) and the center of
+gravitymfrom Eq. (6) as a function of nuclear matter density n. The colored region
+indicates the conﬁdence range.
+D+−D−(left panel), while a safe average shift of D++D−cannot be extracted from
+the present approach due to uncertainties of input parameters ( see right panel of ﬁgure
+2). Similar considerations apply for BandDsmesons [1].
+A discussion of ﬁnite width eﬀects always meets the problem of additio nal
+parameters which have to be ﬁxed by the same set of equations. He nce, one only is
+able to give the mass of the particle (i.e. the center of gravity of the spectral function)
+as a function of its width. In the case of Dmesons the widths for particle (+) and
+anti-particle ( −) enter, and the mass–width correlation of the particle is locked with the
+width of the antiparticle as well. Employing the following Breit-Wigner an satz for the
+spectral function
+∆Π(ω) =F+
+πωΓ+
+(ω2−m2
++)2+ω2Γ2
++Θ(ω)+F−
+πωΓ−
+(ω2−m2
+−)2+ω2Γ2
+−Θ(−ω)(7)
+and determining m±, Γ±such that they fulﬁll Eqs. (4) and (6). For ∆ m=−30 MeV
+andm= 1.915 GeV one obtains the results depicted in ﬁgure 3.QCD sum rules for Dmesons in dense and hot nuclear matter 4
+/s48/s46/s48/s50 /s48/s46/s48/s52 /s48/s46/s48/s54 /s48/s46/s48/s56/s49/s46/s56/s53/s49/s46/s57/s48/s49/s46/s57/s53/s50/s46/s48/s48/s50/s46/s48/s53/s50/s46/s49/s48
+/s32/s32/s109
+/s49/s32/s91/s32/s71/s101/s86/s32/s93
+/s49/s32/s91/s32/s71/s101/s86/s32/s93/s32
+/s50/s32/s61/s32/s48/s46/s48/s49/s32/s71/s101/s86
+/s32
+/s50/s32/s61/s32/s48/s46/s48/s51/s32/s71/s101/s86
+/s32
+/s50/s32/s61/s32/s48/s46/s48/s53/s32/s71/s101/s86
+/s32
+/s50/s32/s61/s32/s48/s46/s48/s55/s32/s71/s101/s86
+/s32
+/s50/s32/s61/s32/s48/s46/s48/s57/s32/s71/s101/s86
+/s48/s46/s48/s50 /s48/s46/s48/s52 /s48/s46/s48/s54 /s48/s46/s48/s56/s49/s46/s57/s48/s49/s46/s57/s53/s50/s46/s48/s48/s50/s46/s48/s53/s50/s46/s49/s48/s50/s46/s49/s53/s50/s46/s50/s48/s32
+/s49/s32/s61/s32/s48/s46/s48/s49/s32/s71/s101/s86
+/s32
+/s49/s32/s61/s32/s48/s46/s48/s51/s32/s71/s101/s86
+/s32
+/s49/s32/s61/s32/s48/s46/s48/s53/s32/s71/s101/s86
+/s32
+/s49/s32/s61/s32/s48/s46/s48/s55/s32/s71/s101/s86
+/s32
+/s49/s32/s61/s32/s48/s46/s48/s57/s32/s71/s101/s86
+/s32/s32/s109
+/s50/s32/s91/s32/s71/s101/s86/s93
+/s50/s32/s91/s32/s71/s101/s86/s32/s93
+Figure 3. Mass–width correlations for m+(left panel) and m−(right panel) for
+diﬀerent assumptions of widths of the respective other particle. ∆ m=−30 MeV,
+m= 1.915 GeV and F+=F−are assumed. In a ﬁrst step, the integration limits in
+Eq. (3) have been extended to ±∞without including the continuum contribution, to
+avoid the inﬂuence of possible threshold eﬀects.
+lV−A, light-light V−A, heavy-light P−S, heavy-light
+−1F2
+π
+0 0 8 mQ/angbracketleft¯qq/angbracketright 2mQ/angbracketleft¯qq/angbracketright
+1 O6 8m3
+Q/angbracketleftqq/angbracketright+4mQ/angbracketleft∆/angbracketright −2m3
+Q/angbracketleftqq/angbracketright+
+mQ/angbracketleftqgσGq/angbracketright−mQ/angbracketleft∆/angbracketright
+28m5
+Q/angbracketleftqq/angbracketright−
+4m3
+Q/angbracketleftqgσGq/angbracketright−
+12/angbracketleft∆/angbracketright+O7−2m5
+Q/angbracketleftqq/angbracketright+
+3m3
+Q/angbracketleftqgσGq/angbracketright−
+3/angbracketleft∆/angbracketright+O7
+Table 1. A few selected moments of the spectral diﬀerences/integraltext
+dssl/parenleftbig
+∆ΠV(P)−∆ΠA(S)/parenrightbig
+for chiral partners. Oidenotes a condensate or a
+combination of condensates of mass dimension iand/angbracketleft∆/angbracketrightstands for a medium-speciﬁc
+combination of condensates, i.e. it vanishes at zero density and tem perature.
+3. Weinberg type sum rules
+Exploiting the Operator Product Expansion one can evaluate in the s pirit of (1)
+the diﬀerences of spectral moments for vector and axial-vector currents, as has been
+pioneered by Weinberg [3], and applied to a hot medium by Shuryak and Kapusta [4].
+Our results for the diﬀerences of vector (V) – axial-vector (A) an d the scalar (S) –
+pseudo-scalar (P) correlators in case of mesons with one light quar k,m1≪ΛQCD, and
+one heavy quark, mQ=m2≫ΛQCD, are summarized in table 1. The employed currents
+arejV(A)
+µ=q1(γ5)γµq2,jS(P)= (i)q1(γ5)q2. In table 1, also the ﬁrst spectral diﬀerence
+moments for mesons consisting of two light quarks, m1,2≪ΛQCDare listed for V−A.
+In particular, one recognizes for heavy-light mesons that the diﬀe rences betweenQCD sum rules for Dmesons in dense and hot nuclear matter 5
+chiral partners are driven by the chiral condensate /angbracketleft¯qq/angbracketrightin conjunction with the heavy
+quark mass mQ. Furthermore, in case of light-light vector mesons the ﬁrst conde nsate
+which qualiﬁes as anorder parameter is a certain combination of four -quark condensates
+for the 1st moment in next-to-leading order of the strong coupling αs, whereas the chiral
+condensate can only occur in lowest order of αsand in the 0th moment of the spectral
+diﬀerences if one of the quarks is heavy. In this respect, one may id entify such heavy-
+light quark bound states (hadrons) as useful probes for chiral r estoration to be linked
+with the density dependence of the chiral condensate /angbracketleft¯qq/angbracketrightn.
+4. Condensates near T c
+According to the consideration in [5] one may relate the gluon conden sate at ﬁnite
+temperature to the QCD trace-anomaly for Nf= 3 and the equation of state:
+/angbracketleftBigαs
+πG2/angbracketrightBig
+T=/angbracketleftBigαs
+πG2/angbracketrightBig
+0−8
+9(e−3p), (8)
+/angbracketleftbiggαs
+π/parenleftbigg
+(uG)2−G2
+4/parenrightbigg/angbracketrightbigg
+T=−3
+4αs
+π(e+p), (9)
+whereas contributions from light quarks to (8) have been omitted in a ﬁrst step, as
+we focus on the continuation to ﬁnite densities. The quantities e−3pande+pare
+accessible by QCD lattice evaluations [6] and may be extrapolated to ﬁ nite baryon
+densities by employing the Rossendorf quasiparticle model [7] which is here adjusted
+to [6]. Both condensates (8) and (9) are depicted in ﬁgure 4 in the re gion nearTc
+at quark chemical potential µq= 0 (left panel) and µq= 270 MeV (right panel);
+energy density eand pressure phave been employed from the quasiparticle model which
+allows for a thermodynamic consistent extrapolation to ﬁnite densit ies. The curves
+/s49/s46/s48/s48 /s49/s46/s48/s50 /s49/s46/s48/s52 /s49/s46/s48/s54 /s49/s46/s48/s56 /s49/s46/s49/s48/s45/s48/s46/s48/s49/s48/s45/s48/s46/s48/s48/s53/s48/s46/s48/s48/s48/s48/s46/s48/s48/s53/s48/s46/s48/s49/s48/s48/s46/s48/s49/s53
+/s32/s97/s115/s113/s116/s97/s100/s32 /s61/s54
+/s32/s97/s115/s113/s116/s97/s100/s32 /s61/s56
+/s32/s32/s32/s32/s32 /s32/s112/s52/s32 /s61/s54
+/s32/s32/s32/s32/s32 /s32/s112/s52/s32 /s61/s56/s103/s108/s117/s111/s110/s32/s99/s111/s110/s100/s101/s110/s115/s97/s116/s101/s115/s32/s91/s71 /s86/s52
+/s93
+/s47
+/s99/s49/s46/s48/s48 /s49/s46/s48/s50 /s49/s46/s48/s52 /s49/s46/s48/s54 /s49/s46/s48/s56 /s49/s46/s49/s48/s45/s48/s46/s48/s49/s48/s45/s48/s46/s48/s48/s53/s48/s46/s48/s48/s48/s48/s46/s48/s48/s53/s48/s46/s48/s49/s48/s103/s108/s117/s111/s110/s32/s99/s111/s110/s100/s101/s110/s115/s97/s116/s101/s115/s32/s91/s71 /s86/s52
+/s93
+/s47
+/s99
+Figure 4. Temperature dependence of the gluon condensates (8) (upper c urves) and
+(9) (lower curves) at µq= 0 (left panel) and µq= 270 MeV (right panel, same line and
+color code as in left panel).
+for the condensate (8) are ﬂattened with increasing lattice tempo ral extend Nτ; [5]
+is reproduced by the p4 action for Nτ= 6. On the other hand, the condensate (9)
+seems not to be aﬀected by such a choice. At ﬁnite densities, the glu on condensate forQCD sum rules for Dmesons in dense and hot nuclear matter 6
+/angbracketleftαs
+πG2/angbracketrightTdrops signiﬁcantly due to the non-vanishing chemical potential. The symmetric
+and traceless gluon condensate/angbracketleftBig
+αs
+π/parenleftBig
+(uG)2−G2
+4/parenrightBig/angbracketrightBig
+Tis much less inﬂuenced by density
+eﬀects. These eﬀects have to be studied in detail for the J/ψ, which depends essentially
+on the considered gluon condensates [5].
+As mentioned above, ﬁnite current quark masses modify the trace of the energy
+momentum tensor to [8] ( Nf= 3)
+Tµ
+µ=−9αs
+8πGa
+µνGµν
+a+mu¯uu+md¯dd+ms¯ss+... , (10)
+where higher order αsterms have been neglected. (The contributions of heavy quarks
+canbeabsorbedinto theﬁrst termbyusing theheavy-quark mass -expansion.) Aprecise
+analysis would hence also have to include the density and temperatur e dependence of
+the quark condensates. However, as the chiral condensate is su pposed to vanish above
+Tcdue to the restoration of chiral symmetry, it is justiﬁed to neglect their inﬂuence on
+the gluon condensates in (8) and (9). Furthermore, if light quark c ontributions can be
+neglected in speciﬁc QCD sum rule evaluations, it is consistent with neg lecting such
+terms in (8) and (9), too. This oﬀers the avenue towards the evalu ation of QCD sum
+rules near/above the deconﬁnement transition at non-zero bary on densities.
+5. Summary
+In summary we analyzed in-medium modiﬁcations of Dmesons in cold nuclear matter
+and ﬁnd good prospects for an experimental veriﬁcation, as the s pectral strengths of D
+and¯Dmay be displaced by about 60 MeV at saturation density. The key her e is the
+ampliﬁcation of the chiral condensate by the heavy charm-quark m ass. We also had a
+glimpse on an extension of the celebrated Weinberg and Kapusta-Sh uryak sum rules for
+chiral partners and considered, furthermore, the determinatio n of the gluon condensate
+via the QCD trace anomaly in the deconﬁnement region at non-zero b aryon density.
+Acknowledgments
+The work is supported by BMBF Grant 06DR9059D and GSI-FE.
+References
+[1] T. Hilger, R. Thomas, B. K¨ ampfer, Phys. Rev. C 79, 025202 (2009).
+[2] T. Hilger, B. K¨ ampfer, arXiv:0904.3491.
+[3] S. Weinberg, Phys. Rev. Lett. 18, 507 (1967).
+[4] J. I. Kapusta, E. V. Shuryak Phys. Rev. D 49, 9 (1994).
+[5] K. Morita, S. H. Lee, Phys. Rev. Lett. 100, 022301 (2008).
+[6] A. Bazavov et al., Phys. Rev. D 80, 014504 (2009).
+[7] R. Schulze, M. Bluhm, and B. K¨ ampfer, Eur. Phys. J. ST 155, 17 7 (2008), arXiv:0709.2262; R.
+Schulze and B. K¨ ampfer, Prog. Part. Nucl. Phys. 62, 386 (2009) , arXiv:0811.0274; R. Schulze,
+B. K¨ ampfer, arXiv:0912.2827.
+[8] T. D. Cohen, R. J. Furnstahl, D. K. Griegel, Phys. Rev. C 45, 1881 (1992).

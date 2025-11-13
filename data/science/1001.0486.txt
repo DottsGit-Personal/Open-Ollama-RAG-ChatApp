@@ -1,0 +1,251 @@
+arXiv:1001.0486v1  [hep-ph]  4 Jan 2010TU-862
+Constraints on Scalar Phantoms
+Masaki Asano and Ryuichiro Kitano
+Department of Physics, Tohoku University, Sendai 980-8578 , Japan
+Abstract
+We update the constraints on the minimal model of dark matter , where a
+stable real scalar ﬁeld is added to the standard model Lagran gian with a renor-
+malizable coupling to the Higgs ﬁeld. Once we ﬁx the dark matt er abundance,
+there are only two relevant model parameters, the mass of the scalar ﬁeld and
+that of the Higgs boson. The recent data from the CDMS II exper iment have
+excluded a parameter region where the scalar ﬁeld is light su ch as less than
+about 50 GeV. In a large parameter region, the consistency of the model can be
+tested by the combination of future direct detection experi ments and the LHC
+experiments.Weakly interacting massive particle (WIMP) is one of the most attrac tive scenarios
+to explain the dark matter component of the universe. The simplest and the most
+economical model to realize this scenario is the model of the scalar d ark matter, where
+a new gauge singlet real scalar ﬁeld Sis introduced to the standard model and it has
+an interaction with the Higgs ﬁeld, H. The following Lagrangian density is added to
+the standard model:
+LS=1
+2∂µS∂µS−m2
+2S2−k
+2S2|H|2−h
+4!S4. (1)
+This model has been ﬁrst proposed in Ref. [1] (it is called scalar phant oms) and further
+studied in Refs. [2, 3, 4, 5, 6, 7, 8, 9]. One can obtain the correct siz e of the dark matter
+density via the standard thermal decoupling process in the early un iverse.
+The model can be either thought of as a device to accommodate dar k matter in new
+physics models or as a fundamental theory to describe the physics up to the Planck
+scale. If we take the latter attitude, the parameter region for kandhis subject to the
+constraint from perturbativity and stability of the potential [4, 5, 6, 9].
+Because the model is compact, there are only four unknown param eters: the Higgs
+boson mass m2
+h, the mass of dark matter m2
+S(≡m2+k/angbracketleftH/angbracketright2=m2+kv2), and two
+coupling constants kandh. Herev≃174GeV. Since the coupling constant of
+the dark matter self-interaction his not important for most of interesting physical
+observables, there are only three relevant parameters, one of w hich can be ﬁxed by
+requiring thecorrect darkmatterabundance. Therefore, them odel ishighlypredictive.
+The parameter space is a two-dimensional mh−mSplane.
+In this article, we update the constraints on the model in light of new data from
+the CDMS II experiment [12] as well as the Tevatron exclusion [13] of a Higgs boson
+mass region. We discuss the interplay between the dark matter det ection experiments
+and the Higgs boson searches at the LHC experiments.∗
+The scalar ﬁeld Sis stable due to a discrete symmetry S↔ −S, and therefore
+is a candidate for a non-baryonic cold dark matter. In the WIMP sce nario, the
+number density of Sis determined by the annihilation cross section, /angbracketleftσann.v/angbracketright, which is
+proportional to k2. One can ﬁx the coupling constant kby requiring the abundance
+to explain the dark matter component of the energy density of the universe [14]. The
+∗Similar studies have been done in Refs. [10, 11] very recently.
+2energy density of dark matter is given by
+ΩS≃1.8×10−10GeV−2
+/angbracketleftσann.v/angbracketright, (2)
+The annihilation cross section is given by
+/angbracketleftσann.v/angbracketright=4k2v2
+(4m2
+S−m2
+h)2+m2
+hΓ2
+H·ΓH|mh=2mS
+2mS(3)
+formS< mh, and
+/angbracketleftσann.v/angbracketright=4k2v2
+(4m2
+S−m2
+h)2+m2
+hΓ2
+H·ΓH|mh=2mS
+2mS+k2/radicalbig
+1−m2
+h/m2
+S
+64πm2
+S/parenleftbigg
+1+3m2
+h
+4m2
+S−m2
+h/parenrightbigg
+,(4)
+formS≥mh. Here Γ Hand Γ H|mh=2mSare the total decay width of the Higgs boson
+and that with a mass 2 mS, respectively. (One should take out h→SSmode in
+ΓH|mh=2mS.) By using the WMAP data [14], Ω S≃0.11, one can ﬁx k.
+Darkmatter Sinteractswithnuclei throughanexchange oftheHiggsboson. Dire ct
+detection experiments such as CDMS II can therefore put constr ains on the model.
+The spin-independent cross section of the S-nucleus elastic scattering normalized to a
+nucleon is given by
+σSI=1
+4π(1 GeV)2
+A2m2
+S(Zfp+(A−Z)fn)2, (5)
+whereAandZare mass and atomic numbers of the target nucleus, respectively. The
+fpandfnfactors are given by
+fN=kmN
+m2
+h/summationdisplay
+qfN
+q,andfN
+q=mq/angbracketleftN|¯qq|N/angbracketright
+mN, (6)
+whereq=u,d,s,c,b,t andN=p,n. In this study, we use
+fp
+u= 0.021, fp
+d= 0.029, fp
+s= 0.0, (7)
+fn
+u= 0.016, fn
+d= 0.037, fn
+s= 0.0, (8)
+fp
+c=fp
+b=fp
+t=fn
+c=fn
+b=fn
+t= 0.070, (9)
+which give a conservative estimate of the scattering cross section [15, 16, 17, 18].
+The Higgs boson can decay into a pair of SifmS< mh/2. This invisible decay
+width is given by:
+Γh→SS=k2v2
+16πmh/radicalBigg
+1−4m2
+S
+m2
+h. (10)
+3 [GeV] [GeV]
+ 0 20 40 60 80 100 120 140
+ 100  120  140  160  180  200mS
+mh
+LEP exclusionTevatron exclusion
+CDMS II
+     exclusionXENON100
+projectionBinv=1%
+50%
+75%
+perturbativity
+30%
+99%disfavored byelectroweak precision fit
+mS=mh/ 2
+60%
+Figure 1: Experimental constraints and contours of the branchin g ratio of the invisible
+Higgs boson decay. The region inside the dashed lines satisﬁes the st ability and
+triviality bounds for h(mZ) = 0.
+The strategy to search for the Higgs boson in collider experiments w ill be tightly
+connected to dark matter physics in this model.
+There have been studies of the invisible Higgs decay at the LHC. The d iscovery
+potential is a function of
+ξ2=σBSM
+σSM·Binv, (11)
+whereBinvis the branching fraction of the invisible decay mode, and σBSMandσSM
+are the production cross sections of the Higgs boson in new physics models and in the
+standard model, respectively. At the ATLAS detector with 30 fb−1, it is possible to
+discover the invisible decay of the Higgs boson in the 100 GeV < mh<200 GeV region
+ifξ2/greaterorsimilar60 % [19]. In the present model, ξ2=Binvbecause the production cross section
+is same as the one in the standard model.
+Let us discuss the current experimental constraints on this mode l and the size
+ofBinvwhich will be important for the Higgs boson search. As explained befo re,
+one can discuss the constraints/prediction of the model on the mS−mhplane by
+requiring the correct dark matter abundance (Fig. 1)†. The recent data from the
+†In calculating the dark matter abundance and the decay width of th e Higgs boson, we have used
+the program HDECAY [20].
+4CDMS II experiment excludes the region with 10 GeV /lessorsimilarmS/lessorsimilar50 GeV although
+there are uncertainties from the local density of dark matter. We also overlaid the
+projected sensitivity of the XENON100 experiment [21]. The bound f rom the Higgs
+boson searches are also shown. The shaded region in the left side is e xcluded by the
+LEP-II direct Higgs boson searches [22, 23]. The excluded region fr om the Tevatron
+experiments, 163GeV < mh<166 GeV[13], isalso shown where the bounddisappears
+formS/lessorsimilar70 GeV due to large Binv. The region mh>186 GeV is disfavored by the
+electroweak precision measurements (95% CL) [24]. A very light dark matter region,
+mS/lessorsimilar1GeV, is ruled out by a large branching ratio of the B→KSSdecay [25, 26, 27,
+28]. It has been studied that a heavier region can be explored by the invisible decay of
+Υ (or other heavy meson) [29]. Inside the dashed line, the model is pe rturbative and
+the Higgs potential is stable up to the Planck scale. It is interesting t o notice that the
+recent experimental results started to explore a parameter reg ion of the model.
+We also show contours of Binv(solid lines) on the same plane. In the dark matter
+detection and the Higgs search experiments, there are in principle f our physical ob-
+servables, mh,Binv,mS, andσSI, whereas in this model BinvandσSIcan be calculated
+in terms of other two, mhandmS. Therefore, one can check the consistency by using
+data from both experiments. Almost entire region in Fig.1 will be cover ed by next
+generation experiments such as SuperCDMS, XENON, and XMASS [21 , 30, 31] except
+for a region very close to the mS=mh/2 line. Also, the Higgs boson search at the LHC
+will cover most of the region either by the invisible mode or by the ordin ary standard
+model Higgs searches.
+Finally, we comment on the case where two events reported by CDMS II is a signal
+of dark matter. In this case, the parameter region is restricted n ear the boundary of
+the CDMS II exclusion region. Interestingly, the mass region prefe rred by the data,
+mS/lessorsimilar100GeV [32, 11] , is consistent with the prediction in Fig. 1. Since Binvis rather
+large in the region, the LHC experiments should conﬁrm the scenario by observing the
+invisible decay of the Higgs boson when mh/lessorsimilar160 GeV‡.
+The positron excess reported by the PAMELA experiment [33] cann ot be simul-
+taneously explained. One can assume that decays of dark matter p rovide a source of
+high-energy positronsthrougha small breaking ofthe Z2symmetry. Inorder toexplain
+the spectrum, mSis required to be larger than 200 GeV, that is not compatible with
+‡It may be possible to discover the invisible mode even for mh/greaterorsimilar160 GeV, i.e., ξ2∼30 %, once
+systematic uncertainties are better understood [19].
+5the explanation of the CDMS II data in this model.
+Acknowledgments
+This work was supported in part by the Grant-in-Aid for the Global C OE Program
+Weaving Science Web beyond Particle-matter Hierarchy from the Min istry of Educa-
+tion, Culture, Sports, Science and Technology of Japan (M. A.) and the Grant-in-Aid
+for Scientiﬁc Research from the Ministry of Education, Science, Sp orts, and Culture of
+Japan, no. 21840006 (R.K.).
+References
+[1] V. Silveira and A. Zee, Phys. Lett. B 161, 136 (1985).
+[2] J. McDonald, Phys. Rev. D 50, 3637 (1994) [arXiv:hep-ph/0702143].
+[3] C. P. Burgess, M. Pospelov and T. ter Veldhuis, Nucl. Phys. B 619, 709 (2001)
+[arXiv:hep-ph/0011335].
+[4] J. McDonald, Phys. Rev. Lett. 88(2002) 091304 [arXiv:hep-ph/0106249].
+[5] H. Davoudiasl, R. Kitano, T. Li and H. Murayama, Phys. Lett. B 609, 117 (2005)
+[arXiv:hep-ph/0405097].
+[6] G. Cynolter, E. Lendvai and G. Pocsik, Acta Phys. Polon. B 36(2005) 827
+[arXiv:hep-ph/0410102].
+[7] V.Barger, P.Langacker, M.McCaskey, M.J.Ramsey-Musolf a ndG.Shaughnessy,
+Phys. Rev. D 77(2008) 035005 [arXiv:0706.4311 [hep-ph]].
+[8] X. G. He, T. Li, X. Q. Li, J. Tandean and H. C. Tsai, Phys. Rev. D 79(2009)
+023521 [arXiv:0811.0658 [hep-ph]].
+[9] M. Gonderinger, Y. Li, H. Patel and M. J. Ramsey-Musolf, arXiv:0 910.3167 [hep-
+ph].
+[10] X. G. He, T. Li, X. Q. Li, J. Tandean and H. C. Tsai, arXiv:0912.472 2 [hep-ph].
+[11] M. Farina, D. Pappadopulo and A. Strumia, arXiv:0912.5038 [hep- ph].
+[12] Z. Ahmed et al.[The CDMS Collaboration], arXiv:0912.3592 [astro-ph.CO].
+[13] The CDF Collaboration et al.arXiv:0911.3930 [hep-ex].
+6[14] G. Hinshaw et al.[WMAP Collaboration], Astrophys. J. Suppl. 180(2009) 225.
+[15] A. Corsetti and P. Nath, Phys. Rev. D 64(2001) 125010 [arXiv:hep-ph/0003186].
+[16] H. Ohki et al., Phys. Rev. D 78(2008) 054502 [arXiv:0806.4744 [hep-lat]].
+[17] H. Y. Cheng, Phys. Lett. B 219(1989) 347.
+[18] H. Ohki et al., arXiv:0910.3271 [hep-lat].
+[19] G. Aad et al.[The ATLAS Collaboration], arXiv:0901.0512 [hep-ex].
+[20] A. Djouadi, J. Kalinowski and M. Spira, Comput. Phys. Commun. 108(1998) 56
+[arXiv:hep-ph/9704448].
+[21] E. Aprile, L. Baudis and f. t. X. Collaboration, arXiv:0902.4253 [as tro-ph.IM].
+[22] R. Barate et al.[LEP Working Group for Higgs boson searches et al.], Phys. Lett.
+B565(2003) 61 [arXiv:hep-ex/0306033].
+[23] [LEP Higgs Working for Higgs boson searches et al.], arXiv:hep-ex/0107032.
+[24] ALEPH Collaboration et al., arXiv:0911.2604 [hep-ex].
+[25] M. C. Bento, O. Bertolami and R. Rosenfeld, Phys. Lett. B 518(2001) 276
+[arXiv:hep-ph/0103340].
+[26] C. Bird, P. Jackson, R. V. Kowalewski and M. Pospelov, Phys. R ev. Lett. 93
+(2004) 201803 [arXiv:hep-ph/0401195].
+[27] C. Bird, R. V. Kowalewski and M. Pospelov, Mod. Phys. Lett. A 21(2006) 457
+[arXiv:hep-ph/0601090].
+[28] C. S. Kim, S. C. Park, K. Wang and G. Zhu, arXiv:0910.4291 [hep-p h].
+[29] G. K. Yeghiyan, arXiv:0909.4919 [hep-ph].
+[30] K. Abe [XMASS Collaboration], J. Phys. Conf. Ser. 120(2008) 042022.
+[31] P. L. Brink et al.[CDMS-II Collaboration], In the Proceedings of 22nd Texas Sym-
+posium on Relativistic Astrophysics at Stanford Universit y, Stanford, California,
+13-17 Dec 2004, pp 2529 [arXiv:astro-ph/0503583].
+[32] J. Kopp, T. Schwetz and J. Zupan, arXiv:0912.4264 [hep-ph].
+[33] O. Adriani et al. [PAMELA Collaboration], Nature 458(2009) 607
+[arXiv:0810.4995 [astro-ph]].
+7

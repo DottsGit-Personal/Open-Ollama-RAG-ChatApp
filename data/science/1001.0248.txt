@@ -1,0 +1,545 @@
+arXiv:1001.0248v2  [math.NT]  17 Apr 2010On Apery’s Constant and Catalan’s Constant
+Akhila Raman
+University of California at Berkeley, CA-94720. Email: akh ila.raman@berkeley.edu. Ph:
+510-540-5544
+Abstract
+In this paper, Riemann’s Zeta function with odd positive integer argu ment
+is represented as an inﬁnite summation of integer powers of πwith rational
+coeﬃcients. Speciﬁc values for Apery’s Constant and Catalan’s Con stant are
+then derived.
+Keywords:
+1. Introduction
+It is well known that Riemann’s Zeta function with even positive intege r
+argument is given by
+ζ(2n) =∞/summationdisplay
+k=11
+k2n=B2n
+2(2π)2n(−1)n+1
+!(2n)(1)
+whereB2nis a Bernoulli number. No such simple expression is known
+for odd positive integer argument. In this section, Riemann’s Zeta f unction
+with odd positive integer argument is represented as an inﬁnite summ ation
+of integer powers of πwith rational coeﬃcients.
+Preprint submitted to Number Theory April 20, 2010It is well known from the theory of divergent series[1] that in the int erval
+|θ|< π,
+sin(θ)−sin(2θ)+sin(3θ)−sin(4θ)+...= (1/2)tan(θ/2) (2)
+The Right Hand Side of this equation can be expanded using Maclaurin’s
+series[2] as follows:
+(1/2)tan(θ/2) = (1/2)∞/summationdisplay
+n=1cn(θ/2)2n−1(3)
+where the coeﬃcients cnare given in terms of Bernoulli numbers B2nas
+cn=B2n(22n−1)22n(−1)n+1
+!(2n).
+Step 1
+Integrating Eq.2 over [0 ,θ] in Step 1 [Integrating over [0 ,φ] and substituting
+φ=θ],
+−[cos(θ)
+1−cos(2θ)
+2+cos(3θ)
+3−cos(4θ)
+4+...]+[1
+1−1
+2+1
+3−1
+4+...] = (1/2)∞/summationdisplay
+n=1cn(θ)2n
+(2n)22n−1
+(4)
+Puttingθ=π
+2in Eq.4, we get,
+A1= [1
+1−1
+2+1
+3−1
+4+...] =∞/summationdisplay
+n=1En(1)(π
+2)2n(5)
+whereEn(1) =Dn(1) andDn(k) =cn
+22n−1(2n+k−1)PkandDn(k) =Dn(k−1)
+(2n+k−1).
+2[cos(θ)
+1−cos(2θ)
+2+cos(3θ)
+3−cos(4θ)
+4+...] =A1−1
+2∞/summationdisplay
+n=1Dn(1)(θ)2n(6)
+Step 2
+Integrating Eq.6 over [0 ,θ] in Step 2,
+[sin(θ)
+12−sin(2θ)
+22+sin(3θ)
+32−sin(4θ)
+42+...] =A1θ−1
+2∞/summationdisplay
+n=1Dn(2)(θ)2n+1(7)
+Puttingθ=π
+2in Eq.7, we get,
+A2= [1
+12−1
+32+1
+52+...] =A1π
+2−1
+2∞/summationdisplay
+n=1Dn(2)(π
+2)2n+1(8)
+A2=∞/summationdisplay
+n=1En(2)(π
+2)2n+1(9)
+whereEn(2) =En(1)−Dn(2)
+2
+Step 3
+Integrating Eq.7 over [0 ,θ] in Step 3,
+−[cos(θ)
+13−cos(2θ)
+23+cos(3θ)
+33−cos(4θ)
+43+...]+[1
+13−1
+23+1
+33−1
+43+...] =A1θ2
+!2−1
+2∞/summationdisplay
+n=1Dn(3)(θ)2n+2
+(10)
+Puttingθ=π
+2, we get,
+A3= [1
+13−1
+23+1
+33−1
+43...] =1
+1−1
+23[A1
+!2(π
+2)2−1
+2∞/summationdisplay
+n=1Dn(3)(π
+2)2n+2] (11)
+3A3=∞/summationdisplay
+n=1En(3)(π
+2)2n+2(12)
+whereEn(3) =−Dn(3)
+2+En(1)
+!2
+1−1
+23
+we have
+[cos(θ)
+13−cos(2θ)
+23+cos(3θ)
+33−cos(4θ)
+43+...] =A3−A1θ2
+!2+1
+2∞/summationdisplay
+n=1Dn(3)(θ)2n+2
+(13)
+Step 4
+Integrating Eq.13 over [0 ,θ] in Step 4,
+[sin(θ)
+14−sin(2θ)
+24+sin(3θ)
+34−sin(4θ)
+44+...] =A3θ−A1θ3
+!3+1
+2∞/summationdisplay
+n=1Dn(4)(θ)2n+3
+(14)
+Puttingθ=π
+2, we get,
+A4= [1
+14−1
+34+1
+54+...] =A3π
+2−A1(π
+2)3
+!3+1
+2∞/summationdisplay
+n=1Dn(4)(π
+2)2n+3(15)
+A4=∞/summationdisplay
+n=1En(4)(π
+2)2n+3(16)
+4whereEn(4) =Dn(4)
+2+En(3)
+!1−En(1)
+!3
+Step 5
+Integrating Eq.14 over [0 ,θ] in Step 5,
+−[cos(θ)
+15−cos(2θ)
+25+cos(3θ)
+35−cos(4θ)
+45+...]+[1
+15−1
+25+1
+35−1
+45+...] =
+A3θ2
+!2−A1θ4
+!4+1
+2∞/summationdisplay
+n=1Dn(5)(θ)2n+4
+(17)
+Puttingθ=π
+2, we get,
+A5= [1
+15−1
+25+1
+35−1
+45...] =1
+1−1
+25[A3
+!2(π
+2)2−A1
+!4(π
+2)4+1
+2∞/summationdisplay
+n=1Dn(5)(π
+2)2n+4]
+(18)
+A5=∞/summationdisplay
+n=1En(5)(π
+2)2n+4(19)
+whereEn(5) =Dn(5)
+2+En(3)
+!2−En(1)
+!4
+1−1
+25
+In general, we can derive the following results Eq.20 to Eq.23 using the
+principle of mathematical induction as shown in Section 2. In Section 3 , it is
+shownthattheseriesexpansionof A2kandA2k+1converges. For k= 1,2,3,...
+5A2k= [1
+12k−1
+32k+1
+52k+...] =∞/summationdisplay
+n=1En(2k)(π
+2)2n+2k−1(20)
+A2k+1= [1
+12k+1−1
+22k+1+1
+32k+1−1
+42k+1...] =∞/summationdisplay
+n=1En(2k+1)(π
+2)2n+2k(21)
+En(2k) =(−1)kDn(2k)
+2+(−1)k+1k−1/summationdisplay
+r=0(−1)rEn(2r+1)
+!(2(k−r)−1)(22)
+En(2k+1) =(−1)kDn(2k+1)
+2+(−1)k+1/summationtextk−1
+r=0(−1)rEn(2r+1)
+!(2(k−r))
+1−1
+22k+1(23)
+Thus we see that A2kandA2k+1can be expressed as an inﬁnite summa-
+tion of integer powers of πwith rational coeﬃcients En(2k) andEn(2k+1).
+And, we have
+B2k+1= [1
+12k+1+1
+22k+1+1
+32k+1+1
+42k+1...] =A2k+1
+1−2−2k(24)
+Using the above results, we can deduce speciﬁc values of Apery’s con-
+stantζ(3)and Catalan’s constant K as follows:
+K=∞/summationdisplay
+n=0(−1)n
+(2n+1)2=A2=∞/summationdisplay
+n=1En(2)(π
+2)2n+1(25)
+ζ(3) =∞/summationdisplay
+n=11
+n3=B3=/summationtext∞
+n=1En(3)(π
+2)2n+2
+1−2−2(26)
+2. Section 2
+Let us assume that A2k,A2k+1,En(2k),En(2k+ 1) are given by Eq. 20
+- Eq.23. for some k and that Eq.14 and Eq.17 can be generalized as fol-
+6lows(Inductive hypothesis). Let S1(k) = [sin(θ)
+12k−sin(2θ)
+22k+sin(3θ)
+32k−sin(4θ)
+42k+...]
+and letS2(k) = [cos(θ)
+12k+1−cos(2θ)
+22k+1+cos(3θ)
+32k+1−cos(4θ)
+42k+1+...]
+S1(k) = (−1)k[1
+2∞/summationdisplay
+n=1Dn(2k)θ2n+2k−1]+k−1/summationdisplay
+r=0(−1)k−r−1A2r+1θ2k−2r−1
+!(2k−2r−1)(27)
+S2(k) = (−1)k+1[1
+2∞/summationdisplay
+n=1Dn(2k+1)θ2n+2k]+k/summationdisplay
+r=0(−1)k−rA2r+1θ2k−2r
+!(2k−2r)(28)
+Wewillprovethataboveequationsholdtruefork=k+1(Inductive r esult).
+Integratingabove equation28oncefrom[0 ,θ], wegetS3(k) = [sin(θ)
+12k+2−sin(2θ)
+22k+2+
+sin(3θ)
+32k+2−sin(4θ)
+42k+2+...]
+S3(k) = (−1)k+1[1
+2∞/summationdisplay
+n=1Dn(2k+1)θ2n+2k+1
+2n+2k+1]+k/summationdisplay
+r=0(−1)k−rA2r+1θ2k−2r+1
+(2k−2r+1)[!(2k−2r)]
+(29)
+SinceDn(2k+1)
+2n+2k+1=Dn(2k+2) and (2 k−2r+1)[!(2k−2r)] =!(2k−2r+1),
+above equation S3(k) =S1(k+1), thus proving the inductive hypothesis for
+k=k+1.
+Similarly, Integrating S3(k) once from [0 ,θ], we get
+F4(k) =−[cos(θ)
+12k+3−cos(2θ)
+22k+3+cos(3θ)
+32k+3−cos(4θ)
+42k+3+...]+[1
+12k+3−1
+22k+3+1
+32k+3−1
+42k+3+...]
+(30)
+F4(k) = (−1)k+1[1
+2∞/summationdisplay
+n=1Dn(2k+2)θ2n+2k+2
+2n+2k+2]+k/summationdisplay
+r=0(−1)k−rA2r+1θ2k−2r+2
+(2k−2r+2)[!(2k−2r+1)]
+(31)
+7SinceDn(2k+2)
+2n+2k+2=Dn(2k+3)and(2 k−2r+2)[!(2k−2r+1)] =!(2 k−2r+2),
+and [1
+12k+3−1
+22k+3+1
+32k+3−1
+42k+3+...] =A2k+3we can deﬁne S4(k) =
+A2k+3−F4(k) as follows.
+S4(k) =A2k+3−F4(k) = [cos(θ)
+12k+3−cos(2θ)
+22k+3+cos(3θ)
+32k+3−cos(4θ)
+42k+3+...] (32)
+S4(k) =A2k+3+(−1)k+2[1
+2∞/summationdisplay
+n=1Dn(2k+3)θ2n+2k+2]−k/summationdisplay
+r=0(−1)k−rA2r+1θ2k−2r+2
+[!(2k−2r+2)]
+(33)
+Puttingk=k+1 in Eq. 28, we have
+S2(k+1) = (−1)k+2[1
+2∞/summationdisplay
+n=1Dn(2k+3)θ2n+2k+2]−k/summationdisplay
+r=0(−1)k−rA2r+1θ2k−2r+2
+!(2k−2r+2)+A2k+3
+(34)
+We can see that S4(k) =S2(k+1), thus proving the inductive hypothesis
+for k=k+1.
+Substituting θ=π/2 in above equations 27 and 28, we get
+A2k= [1
+12k−1
+32k+1
+52k...] = (−1)k[1
+2∞/summationdisplay
+n=1Dn(2k)(π
+2)2n+2k−1]+k−1/summationdisplay
+r=0(−1)k−r−1A2r+1(π
+2)2k−2r−1
+!(2k−2r−1)
+(35)
+A2k+1= 22k+1[(−1)k+1[1
+2∞/summationdisplay
+n=1Dn(2k+1)(π
+2)2n+2k]+k/summationdisplay
+r=0(−1)k−rA2r+1(π
+2)2k−2r
+!(2k−2r)]
+(36)
+8whereA2k+1= [1
+12k+1−1
+22k+1+1
+32k+1−1
+42k+1+...]. These show that A2k
+andA2k+1can be expressed as linear combination of powers of π/2. Let us
+assume the following inductive hypothesis for some k:
+A2k+1=∞/summationdisplay
+n=1En(2k+1)(π
+2)2n+2k(37)
+En(2k+1) =(−1)kDn(2k+1)
+2+(−1)k+1/summationtextk−1
+r=0(−1)rEn(2r+1)
+!(2(k−r))
+1−1
+22k+1(38)
+We will prove that this hypothesis holds for k=k+1. Putting k=k+1 in
+Eq.36,
+A2k+3= 22k+3[(−1)k[1
+2∞/summationdisplay
+n=1Dn(2k+3)(π
+2)2n+2k+2]+k/summationdisplay
+r=0(−1)k+1−rA2r+1(π
+2)2k−2r+2
+!(2k−2r+2)+A2k+3]
+(39)
+This can be written as follows:
+A2k+3=1
+1−1
+22k+3[(−1)k+1[1
+2∞/summationdisplay
+n=1Dn(2k+3)(π
+2)2n+2k+2]−k/summationdisplay
+r=0(−1)k+1−rA2r+1(π
+2)2k−2r+2
+!(2k−2r+2)]
+(40)
+Using Eq. 37 to replace A2r+1in above equation, interchanging order of
+summation and taking out common factor (π
+2)2n+2k+2, we get
+A2k+3=∞/summationdisplay
+n=1En(2k+3)(π
+2)2n+2k+2(41)
+En(2k+3) =(−1)k+1Dn(2k+3)
+2+(−1)k/summationtextk
+r=0(−1)rEn(2r+1)
+!(2(k−r+1))
+1−1
+22k+3(42)
+9Thus we have proved the inductive result for k=k+1. Eq. 37 and Eq. 38
+imply above results.
+Similarly, A2kinEq.35 canbeextended to A2k+2by replacing k withk+1:
+A2k+2= (−1)k+1[1
+2∞/summationdisplay
+n=1Dn(2k+2)(π
+2)2n+2k+1]+k/summationdisplay
+r=0(−1)k−rA2r+1(π
+2)2k−2r+1
+!(2k−2r+1)
+(43)
+Letusassume thefollowing inductive hypothesis for A2kandEn(2k)some
+k:
+A2k= [1
+12k−1
+32k+1
+52k+...] =∞/summationdisplay
+n=1En(2k)(π
+2)2n+2k−1(44)
+En(2k) =(−1)kDn(2k)
+2+(−1)k+1k−1/summationdisplay
+r=0(−1)rEn(2r+1)
+!(2(k−r)−1)(45)
+Using Eq. 37 to replace A2r+1in above equation 43, interchanging order
+of summation and taking out common factor (π
+2)2n+2k+1, we get
+A2k+2=∞/summationdisplay
+n=1En(2k+2)(π
+2)2n+2k+1(46)
+En(2k+2) =(−1)k+1Dn(2k+2)
+2+(−1)kk/summationdisplay
+r=0(−1)rEn(2r+1)
+!(2(k−r)+1)(47)
+Thus we have proved the inductive result for k=k+1. Eq. 44 and Eq. 45
+imply above results.
+103. Section 3
+In thissection, it will beshown that theseries expansion of A2kandA2k+1
+in Eq. 20 and Eq. 21 converges.
+We know that Dn(k) =cn
+22n−1(2n+k−1)Pk, which can be rewritten as follows:
+Dn(k) =Dn(1)
+(2n+k−1)Pk−1(48)
+We will write En(2k) andEn(2k+ 1) in Eq. 22 and Eq.23 in terms of
+Dn(1) as follows:
+En(1) =Dn(1) (49)
+En(2) =En(1)−Dn(2)
+2=Dn(1)Fn(2) (50)
+whereFn(2) = 1−1
+2(2n+1)and lim n→∞Fn(2) =K(2) where K(2) is a con-
+stant.
+En(3) =−Dn(3)
+2+En(1)
+!2
+1−1
+23=Dn(1)Fn(3) (51)
+whereFn(3) =1
+!2−1
+2((2n+2)P2)
+1−1
+23and lim n→∞Fn(3) =K(3) where K(3) is a con-
+stant.
+En(4) =Dn(4)
+2+En(3)
+!1−En(1)
+!3=Dn(1)Fn(4) (52)
+11whereFn(4) =−1
+!3+1
+2((2n+3)P3)+1
+!2−1
+2((2n+2)P2)
+1−1
+23and lim n→∞Fn(4) =K(4)
+whereK(4) is a constant.
+En(5) =Dn(5)
+2+En(3)
+!2−En(1)
+!4
+1−1
+25=Dn(1)Fn(5) (53)
+whereFn(5) =−1
+!4+1
+!2−1
+2((2n+2)P2)
+(!2)(1−1
+23)+1
+2((2n+4)P4)
+1−1
+25andlim n→∞Fn(5) =K(5)where
+K(5) is a constant.
+Let us assume the Inductive Hypothesis that En(2k) =Dn(1)Fn(2k)
+andEn(2k+1) =Dn(1)Fn(2k+1) and that lim n→∞Fn(2k) =K(2k) and
+limn→∞Fn(2k+1) =K(2k+1) where K(2k) andK(2k+1) are constants.
+Substituting this in Eq.22 and Eq.23, we can write Eq.42 and Eq.47 as
+En(2k+ 2) =Dn(1)Fn(2k+ 2) and En(2k+ 3) =Dn(1)Fn(2k+ 3) where
+limn→∞Fn(2k+2) =K(2k+2) and lim n→∞Fn(2k+3) =K(2k+3) where
+K(2k+2) and K(2k+3) are constants, thus proving the Inductive Result.
+Hence we can write
+lim
+n→∞En+1(2k)
+En(2k)=K0lim
+n→∞Dn+1(1)
+Dn(1)=K0
+4lim
+n→∞cn+1
+cn2n
+2n+2(54)
+whereK0= lim n→∞Fn+1(2k)
+Fn(2k)= 1. Given that lim n→∞|cn+1
+cn|<1 in the
+series expansion of tan( θ) in Eq. 3, we get the result
+lim
+n→∞|En+1(2k)
+En(2k)|<1 (55)
+12Similarly it can be shown that
+lim
+n→∞|En+1(2k+1)
+En(2k+1)|<1 (56)
+Hence the the series expansion of A2kandA2k+1in Eq. 20 and Eq. 21
+converges.
+4. Conclusion
+It has been shown that Riemann’s Zeta function with odd positive inte ger
+argument can be represented as an inﬁnite summation of integer po wers ofπ
+with rational coeﬃcients. Speciﬁc values for Apery’s Constant and Catalan’s
+Constant have been derived.
+5. References
+[1] Hardy, G. H. Divergent Series. New York: Oxford University Pre ss,
+1949.
+[2] Abramowitz, M. and Stegun, I. A. (Eds.). ”Circular Functions.” 4 .3
+in Handbook of Mathematical Functions with Formulas, Graphs, and Math-
+ematical Tables, 9th printing. New York: Dover, p. 75, 1972.
+13

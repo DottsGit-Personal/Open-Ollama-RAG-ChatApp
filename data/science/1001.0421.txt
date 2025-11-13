@@ -1,0 +1,296 @@
+arXiv:1001.0421v1  [cs.DC]  4 Jan 2010MAPREDUCE FOR INTEGER FACTORIZATION
+JAVIER TORDABLE
+Abstract. Integer factorization is a very hard computational problem . Cur-
+rently no eﬃcient algorithm for integer factorization is pu blicly known. How-
+ever, this is an important problem on which it relies the secu rity of many real
+world cryptographic systems.
+I present an implementation of a fast factorization algorit hm on MapRe-
+duce. MapReduce is a programming model for high performance applications
+developed originally at Google. The quadratic sieve algori thm is split into the
+diﬀerent MapReduce phases and compared against a standard i mplementation.
+1.Introduction
+The security of many cryptographic algorithms relies on the fact that factoring
+large integers is a very computationally intensive task. In particular RSA [1] would
+be vulnerable if there was an eﬃcient algorithm to factor sem iprimes (products of
+two primes). This could have severe consequences, as RSA is o ne of the most widely
+used algorithms in electronic commerce applications [2].
+There are many algorithms for integer factorization [3]. Fr om the trivial trial
+division to the classical Fermat’s factorization method [4 ] and Euler’s factoring
+method [5] to the modern algorithms, the quadratic sieve [6] and the number ﬁeld
+sieve [7]. In particular the number ﬁeld sieve algorithm was used in 1996 to factor
+a 512 bit integer [8], the lowest integer length used in comme rcial RSA implemen-
+tations. There have been several other big integers factore d over the course of the
+last decade. I would like to point out that in those cases the f eat was accomplished
+with tremendous eﬀort developing the software and a very con siderable investment
+in hardware [9],[10].
+In what follows I will expose how MapReduce, a distributed co mputational
+framework, can be used for integer factorization. As an exam ple I will show an
+implementation of the quadratic sieve algorithm. I will als o compare in terms of
+performance and cost a conventional implementation with th e MapReduce imple-
+mentation.
+2.MapReduce
+I claim no participation in the development of the MapReduce framework. This
+section is basically a short extract of the original MapRedu ce paper by Jeﬀ Dean
+and Sanjay Ghemawat [11]. MapReduce is a programming model i nspired in com-
+putational programming. Users can specify two functions, mapandreduce . The
+mapfunction processes a series of (key, value) pairs, and outpu ts intermediate (key,
+value) pairs. The system automatically orders and groups al l (key, value) pairs for
+a particular key, and passes them to the reduce function. The reduce function re-
+ceives a series of values for a single key, and produces its ou tput, which is sometimes
+a synthesis or aggregation of the intermediate values.
+1MAPREDUCE FOR INTEGER FACTORIZATION 2
+The canonical example of a MapReduce computation is the cons truction of an
+inverted index. Let’s take a collection of documents D={D0,D1,...,DN}which
+are composed of words D0= (d0,0,d0,1,...,d0,L0),D1= (d1,0,d1,1,...,d1,L1)and so
+on. We deﬁne a map function the following way:
+map: (i,Di)→ {(di,0,(i,0)),(di,1,(i,1)),...,(di,Li,(i,Li))}
+that is, for a given document it processes each word in the doc ument and outputs
+an intermediate pair. The key is the word itself, and the valu e is the location in
+the corpus, indicated as (document, position). The reduce f unction is deﬁned as:
+reduce:{(d,(i1,j1)),...,(d,(iL,jL))} →(d,{(i1,j1),...,(iL,jL)})
+For a collection of pairs with the same key (the same word), it outputs a new pair,
+in which the key is the same, and the value is the aggregation o f the intermediate
+values. In this case, the set of locations (document and posi tion in the document)
+in which the word can be found in the corpus.
+The MapReduce implementation automatically takes care of t he parallel exe-
+cution in a distributed system, data transmission, fault to lerance, load balancing
+and many other aspects of a high performance parallel comput ation. The MapRe-
+duce model escales seamlessly to thousands of machines. It i s used continously for
+a multitude of real world applications, from machine learni ng to graph computa-
+tions. And most importantly the eﬀort required to develop a h igh performance
+parallel application with MapReduce is much lower than usin g other models, like
+for example MPI [12].
+3.Quadratic Sieve
+The Quadratic Sieve algorithm was conceived by Carl Pomeran ce in 1981. A
+detailed explanation of the algorithm can be found in [13]. H ere we will just re-
+view the basic steps. Let Nbe the integer that we are trying to factor. We
+will attempt to ﬁnd a,bsuch that: N|/parenleftbig
+a2−b2/parenrightbig
+⇒N|(a+b)(a−b). If
+{(a+b,N),(a−b,N)} /ne}ationslash={1,N}then we will have a factorization of N.
+Lets deﬁne:
+Q(x) =x2−N
+if we ﬁnd x1,x2,...xKsuch that/producttextK
+i=1Q(xi)is a perfect square, then:
+N|K/productdisplay
+i=1Q(xi)−/parenleftiggK/productdisplay
+i=1xi/parenrightigg2
+=K/productdisplay
+i=1/parenleftbig
+x2
+i−N/parenrightbig
+−x2
+1x2
+2...x2
+K
+3.1.Finding Squares. Let’s take a set of integers x1,...,xLwhich are B-smooth
+(allxifactor completely into primes ≤B). One way to look for i1,i2,...,iMsuch
+that/producttextM
+j=1xijis a square is as follows. Let’s denote pithe i-th prime number./producttextM
+j=1xij=pa1
+j1pa2
+j2...paL
+jLis a square if and only if 2|akfor allk⇔ak≡0mod(2).
+For each xiwe will obtain a vector vi=v(xi)wherevi
+j=max/braceleftbig
+k:pk
+j|xi/bracerightbig
+mod(2).
+That is, each component jofviis the exponent of pjin the factorization of ximod-
+ulo2. For example, for B= 4:MAPREDUCE FOR INTEGER FACTORIZATION 3
+x1= 6,v1= (1,1,0,0)
+x2= 45,v2= (0,0,1,0)
+x3= 75,v3= (0,1,0,0)
+It is immediate that:
+v
+M/productdisplay
+j=1xij
+=M/summationdisplay
+j=1v/parenleftbig
+xij/parenrightbig
+Then
+M/productdisplay
+j=1xijis a square ⇔v
+M/productdisplay
+j=1xij
+=− →0
+In conclussion, in order to ﬁnd a subset of x1,...,xLwhich is a perfect square,
+we just need to solve the linear system:
+/parenleftbigv1|v2|...|vL/parenrightbig
+e1
+e2
+...
+eL
+≡− →0mod(2)
+3.2.Sieving for smooth numbers. Back to the original problem, we just need
+to ﬁnd a convenient set {x1,x2,...,xL}such that {Q(x1),Q(x2),...,Q(xL)}are
+B-smooth numbers for a particular B. First of all, lets notice that we don’t need to
+consider every prime number ≤B. If a prime pveriﬁes:p|Q(x)for some xthen:
+p|Q(x)⇔p|x2−N⇔x2≡N mod(p)⇔/parenleftbiggN
+p/parenrightbigg
+= 1
+Because Nis a quadratic residue modulo p if and only if the Legendre sym bol
+of n over p is 1. We will take a set of primes which veriﬁes that p roperty and we
+will call it factor base .
+In order to consider smaller values of Q(x)we will take values of xaround√
+N,
+i.e.x∈/bracketleftig
+⌊√
+N⌋−M,⌊√
+N⌋+M/bracketrightig
+for some M.BothBabove and Mhere are
+chosen as indicated in [13].
+In order to factor all the Q(xi)we will use a method called sieving which is
+what gives the quadratic sieve its name. Notice that p|Q(x)⇒p|Q(x+kp) =
+x2+2kpx+k2p2−N=/parenleftbig
+x2−N/parenrightbig
++p/parenleftbig
+2kx+k2p/parenrightbig
+. Then
+Q(x)≡0mod(p)⇒ ∀k∈N,Q(x+kp)≡0mod(p)
+We can solve the equation Q(x)≡0mod(p)⇔x2−N≡0mod(p)eﬃciently
+and obtain two solutions s1,s2[14]. If we take:
+zp,{1,2}=min/braceleftig
+x∈/bracketleftig
+⌊√
+N⌋−M,⌊√
+N⌋+M/bracketrightig
+:x≡s{1,2}mod(p)/bracerightig
+then allQ/parenleftbig
+zp,{1,2}+kp/parenrightbig
+,k∈[0,K]are divisible by p. We can divide each one of
+them by the highest power of ppossible. For example:MAPREDUCE FOR INTEGER FACTORIZATION 4
+(xi) = ( ...,6,7,8,9,10,...)
+(Q(xi)) = ( ...,−41,−28,−13,4,23,...)/parenleftbig77
+2/parenrightbig
+= 1as77≡1≡12mod(2)
+x2−77≡0mod(2)yields1,3,5,7,9,...
+(...,−41,−7,−13,1,23,...) after sieving by 2
+After sieving for every appropriate p, all theQ(z)that are equal to 1are smooth
+over the factor base.
+4.Method
+I developed a basic implementation of the Quadratic Sieve Ma pReduce which
+runs on Hadoop [15]. Hadoop is an open source implementation of the MapReduce
+framework. It is made in Java and it has been used eﬀectively i n conﬁgurations
+ranging from one to a few thousand computers. It is also avail able as a commercial
+cloud service [16].
+This implementation is simply a proof of concept. It relies t oo heavily on the
+MapReduce framework and it is severy bound by IO. However the size and complex-
+ity of the implementation are several orders of manitude low er than many competing
+alternatives.
+The 3 parts of the program are :
+•Controller : Is the master job executed by the platform. It runs before
+spawning any worker job. It has two basic functions: ﬁrst it g enerates the
+factor base. The factor base is serialized and passed to the w orkers as a
+counter. Second it generates the full interval to sieve. All the data is stored
+in a single ﬁle in the distributed Hadoop ﬁle system [17]. It t hen relies on
+the MapReduce framework to automatically split it in an adeq uate number
+of shards and distribute it to the workers
+•Mapper : The mappers perform the sieve. Each one of them receives an
+interval to sieve, and they return a subset of the elements in that input
+sieve which are smooth over the factor base. All output eleme nts of all
+mappers share the same key
+•Reducer : The reducer receives the set of smooth numbers and attempts
+to ﬁnd a subset of them whose product is a square by solving the system
+modulo 2 using direct bit manipulation. If it ﬁnds a suitable subset, it tries
+to factor the original number, N. In general there will be man y subsets
+to choose from. In case that the factorization is not succesf ul with one of
+them, it proceeds to use another one. The single output is the factorization
+In order to compare performance I developed another impleme ntations of the Qua-
+dratic Sieve algorithm in Maple. Both implementations are b asic in the sense that
+they implement the basic algorithm described above and the c ode has not been heav-
+ily optimized for performance. There are many diﬀerences be tween the two frame-
+works used that could impact performance. Because of that a d irect comparison of
+running times or memory space may not be meaningful. However it is interesting to
+notice how each of the implementations scales depending on t he size of the problem.
+The source code is available online at http://www.javierto rdable.com/research.MAPREDUCE FOR INTEGER FACTORIZATION 5
+Decimal Sieve MapReduce Maple
+Digits Size Time (s)Memory ( MB)Time (s)Memory ( MB)
+10 5832 2.0 149.6 0.1 7.5
+15 85184 3.0 397.1 3.5 15.5
+20970299 35.0 463.1 116.0 100.8
+257529536 495.0 670.0 3413.7 894.0
+Table 1. Absolute performance of the MapReduce and Maple implementa tions
+Decimal Sieve MapReduce Maple
+Digits Size Time Memory Time Memory
+10 1.01.01.01.01.0
+15 14.61.52.735.02.1
+20166.417.53.11160.013.4
+251291.1247.54.534137.0119.2
+Table 2. Normalized performance of the MapReduce and Maple implemen tations
+Decimal Absolute Sieve Relative Sieve Absolute Relative
+Digits Size Size Disk (MB)Disk (MB)
+10 5832 1.0 0.1 1.0
+15 85184 14.6 2.1 14.6
+20 970299 166.4 29.4 166.4
+25 7529536 1291.1 275.3 1291.1
+Table 3. Disk usage of the MapReduce implementation
+5.Results
+Figures 1 and 2 show the results both in absolute terms and nor malized. Figure
+3 shows the disk usage of the MapReduce implementation. To te st both implemen-
+tations I took a set of numbers of diﬀerent sizes1. The number of decimal digits d
+is indicated in the ﬁrst column of each table. In order to cont ruct those numbers I
+took two factors close to 10d
+2, with their product slightly over 10d.
+In each table sieve size indicates the number of elements tha t the algorithm
+analyzed in the sieve phase. For the MapReduce application t he time result is
+taken from the logs, and the memory result is obtained as the m aximum memory
+used by the process. For the Maple implementation both time a nd memory data
+are taken from the on screen information in the Maple environ ment. Finally disk
+usage data for the MapReduce is taken as the size of the ﬁle tha t contains the list of
+numbers to sieve. The Maple program runs completely in memor y for the samples
+analyzed.
+11164656837, 117375210056563, 10446257742110057983, 110 0472550655106750000029MAPREDUCE FOR INTEGER FACTORIZATION 6
+6.Discussion
+The MapReduce implementation has a relatively big setup cos t in time and
+memory when compared with an application in a conventional m athematical envi-
+ronment. However it scales better with respect to the size of the input data.
+MapReduce is optimized to split and distribute data form dis k. If an application
+handles a signiﬁcant volume of data, IO capacity and perform ance can be a limiting
+factor. In our case disk usage is directly proportional to th e size of the sieve set,
+which grows exponentially on the number of digits.
+Both MapReduce and Maple implementations are similar in ter ms of develop-
+ment eﬀort. The Maple implementation seems more adequate fo r small-sized prob-
+lems while the MapReduce application is more eﬃcient for med ium-sized problems.
+Also it will be easier to scale in order to solve harder proble ms.
+References
+[1] Rivest, R.; A. Shamir; L. Adleman. 1978. A Method for Obta ining Digital Signatures and
+Public-Key Cryptosystems. Communications of the ACM 21 (2) : 120–126.
+[2] Nash, A., Duane, W., and Joseph, C. 2001. Pki: Implementi ng and Managing E-Security.
+McGraw-Hill, Inc.
+[3] Donald Knuth. 1997. The Art of Computer Programming, Vol ume 2: Seminumerical Algo-
+rithms, Third Edition. Addison-Wesley. ISBN 0-201-89684- 2. Section 4.5.4: Factoring into
+Primes, pp. 379–417
+[4] Israel Kleiner. 2005. Fermat: The Founder of Modern Numb er Theory. Mathematics Maga-
+zine, Vol. 78, No. 1 (Feb., 2005), pp. 3-14
+[5] McKee, James. 1996. Turning Euler’s Factoring Method in to a Factoring Algorithm"; in
+Bulletin of the London Mathematical Society; issue 28 (volu me 4); pp. 351-355
+[6] Pomerance, C. 1985. The quadratic sieve factoring algor ithm. In Proc. of the EUROCRYPT
+84 Workshop on Advances in Cryptology: theory and Applicati on of Cryptographic Tech-
+niques. Springer-Verlag New York. 169-182.
+[7] Lenstra, A. K., Lenstra, H. W., Manasse, M. S., and Pollar d, J. M. 1990. The number
+ﬁeld sieve. In Proceedings of the Twenty-Second Annual ACM S ymposium on theory of
+Computing. ACM, New York, NY, 564-572.
+[8] Cowie, J., Dodson, B., et al. 1996. A World Wide Number Fie ld Sieve Factoring Record: On
+to 512 Bits. In Proceedings of the international Conference on the theory and Applications of
+Cryptology and information Security. Lecture Notes In Comp uter Science, vol. 1163. Springer-
+Verlag, London, 382-394.
+[9] Golliver, R. A., Lenstra, A. K., and McCurley, K. S. 1994. Lattice sieving and trial division.
+In Proceedings of the First international Symposium on Algo rithmic Number theory. L. M.
+Adleman and M. A. Huang, Eds. Lecture Notes In Computer Scien ce, vol. 877. Springer-
+Verlag, London, 18-27.
+[10] S. Cavallar and W. M. Lioen and H. J. J. Te Riele and B. Dods on and A. K. Lenstra and P.
+L. Montgomery and B. Murphy Et Al and Mathematisch Centrum. 2 000. Factorization of a
+512-bit RSA modulus. Proceedings of Eurocrypt 2000. Spring er-Verlag. 1-18.
+[11] Dean, J. and Ghemawat, S. 2004. MapReduce: Simpliﬁed Da ta Processing on Large Clusters.
+OSDI’04: Sixth Symposium on Operating System Design and Imp lementation, San Francisco,
+CA, December, 2004, 137-150
+[12] Gropp, W., Lusk, E., and Skjellum, A. 1994. Using Mpi: Po rtable Parallel Programming
+with the Message-Passing Interface. MIT Press. 257-260
+[13] Carl Pomerance. 1996. A Tale of Two Sieves, Notices of th e AMS, 1473-1485
+[14] Niven, I. and Zuckerman, H.S. and Montgomery, H.L. 1960 . An introduction to the theory
+of numbers. John Wiley and Sons, Inc. 110-115
+[15] http://hadoop.apache.org/
+[16] http://aws.amazon.com/elasticmapreduce/
+[17] Borthakur, D. 2007. The hadoop distributed ﬁle system: Architecture and design.
+http://svn.apache.org/repos/asf/hadoop/core/tags/re lease-0.15.3/docs/hdfs_design.pdf

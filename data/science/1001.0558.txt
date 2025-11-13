@@ -1,0 +1,91 @@
+arXiv:1001.0558v2  [gr-qc]  5 Jan 2010The Eﬀect of the Tides on the LIGO Interferometers
+A. C. Melissinos, for the LIGO Scientiﬁc Collaboration
+Department of Physics and Astronomy, University of Rochest er,
+Rochester NY 14627, USA
+To appear in the Proceedings of the 12th Marcel Grossman Meet ing, Paris, July 2009
+LIGO Document P0900257-v3
+The LIGO interferometers [1] can record the dark port signal at a sampling rate as high as
+262.144 kHz. Of interest is the region around the 1st free spe ctral range (fsr) of the 4 km inter-
+ferometers, ffsr=c/2L= 37.52 kHz. The dominant optical ﬁeld in the interferometer, E0, is at
+the carrier frequency f0and has narrow width ∆ f0∼1−2 Hz. In addition in the interferometer
+circulate sideband ﬁelds E±(f) centered at f±=f0±ffsr. The sideband ﬁelds have width typical
+of the arm cavity resonance, ∆ f±∼200 Hz, and peak amplitude density E±(f)∼10−7E0/√
+Hz.
+When the interferometer is locked, the ﬁeld E0is on a dark fringe, and at the antisymmetric port
+(AS), the phaseshift at the carrier frequency, ∆ φ0= 0. However this does not hold for the sideband
+ﬁeldsE±(f) because the lengths LxandLyof the two arms are not equal. Instead the phase shift
+at frequency f±=f0±ffsris ﬁnite and given by ∆ φ±=±2π(Lx−Ly)/L, whereLx−Ly∼2
+cm. The ﬁelds E±(f) are mixed with the radio frequency sidebands, and the photo current is de-
+modulated in the usual way. This gives rise to a signal center ed atffsrand of amplitude density
+h(f) proportional to the phase shift ∆ φ±and the ﬁeld density E±(f),h(f) =C|∆φ±||E±(f)|. The
+uncalibrated frequency spectrum in counts/√
+Hz , in the region of the fsr frequency is shown in
+Fig.1. The enhancement follows the spectral shape of E±(f).
+The data are available as a time series sampled at 1024 Hz and r estricted to the frequency range
+37,504±1024 Hz. The data are from the S5 science run and were written i n 64 s long frames. For
+each frame we obtain the frequency spectrum at a resolution B W = 0.125 Hz and integrate the
+power spectral density (PSD) in the region ffsr±200 Hz. A ﬁlter proportional to the interferometer
+transfer function at the fsr is applied. This gives a time ser ies of the power at the fsr, sampled
+every 64 s. The amplitude of this signal is proportional to th e sum of the “biasing” phase shift
+∆φ±given above, and of any time-dependent phase shift ∆ φtat the sideband frequencies f±. Thus
+the observed (integrated) power is
+P=/integraldisplay
+(PSD)df=/braceleftbig
+(∆φ±)2+2∆φ±∆φt+(∆φt)2/bracerightbig
+|C|2/integraldisplay
+|E±(f)|2df (1)
+Since ∆φtis less than few percent of ∆ φ±, the last term is negligible and the time-dependent
+modulation of the power is
+∆P/P= 2|∆φt|/|∆φ±| (2)
+Measurement of ∆ Pcombined with a knowledge of ∆ φ±, (i.e. of ∆ L), suﬃces to obtain ∆ φt.
+A plot of the power for a 16 month period (April 2006 to August 2 007) for the Hanford H1
+interferometer is shown in Fig.2. The modulation at the dail y and twice daily frequencies is clearly
+1seen in the inset. The 16-month time series was spectrally an alyzed and contains the tidal frequen-
+cies as shown in Figs 3(a,b). To within the measurement resol ution of ∆ fres= 6×10−9Hz there
+is exact agreement between the measured and expected values . The modulation of the power is
+shown as a function of time for a ﬁve day period in December 200 6 in Fig.4a, and for April 2007 in
+Fig.4b. The blue curves give the relative amplitude of the ho rizontal component of the tidal forces
+at the Hanford site for the same time period.
+References
+[1] B.Abbott et al. Nucl. Instrum. Methods, A 517154 (2004).
+3.663.683.73.723.743.763.783.83.823.84
+x 10410−1100101102
+Frequency (Hz)h(f), 1/sqrt(Hz)
+Figure 1: Uncalibrated amplitude spectral density for the H 1 interferometer in the region of its
+free spectral range.
+2Figure 2: Integrated power in the free spectral range (fsr) r egion as a function of time, April 2006
+to July 2007. The data are for the H1 interferometer and are sa mpled every 64 s. Note the daily
+and twice-daily modulation that can be seen in the inset.
+31.05 1.1 1.15 1.2 1.25 1.3
+x 10−50500100015002000250030003500
+Frequency (Hz)PowerX: 1.157e−005
+Y: 3268
+X: 1.076e−005
+Y: 1067
+Figure 3: Frequency spectrum of the integrated fsr power in t he diurnal region. Note the ﬁne
+structure.
+2.1 2.15 2.2 2.25 2.3 2.35 2.4
+x 10−505001000150020002500
+X: 2.315e−005
+Y: 990.2
+Frequency (Hz)PowerX: 2.236e−005
+Y: 2322
+X: 2.192e−005
+Y: 263.4
+Figure 4: Frequency spectrum of the integrated fsr power in t he twice daily region. Note the ﬁne
+structure.
+48.4918.4915 8.4928.4925 8.4938.4935 8.4948.4945
+x 108−0.1−0.0500.050.1Relative Amplitude
+  
+GPS Time
+Figure 5: Modulation of the integrated fsr power for ﬁve days in December 2006. The blue curves
+give the relative amplitude of the horizontal component of t he tidal forces at the Hanford site for
+the same time period.
+8.5685 8.5698.5695 8.578.5705 8.5718.5715 8.5728.5725
+x 108−0.1−0.0500.050.1Relative Amplitude
+  
+GPS Time
+Figure 6: Modulation of the integrated fsr power for ﬁve days in March 2007. The blue curves give
+the relative amplitude of the horizontal component of the ti dal forces at the Hanford site for the
+same time period.
+5

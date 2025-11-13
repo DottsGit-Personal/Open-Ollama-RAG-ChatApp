@@ -1,0 +1,243 @@
+arXiv:1001.0546v1  [q-bio.BM]  4 Jan 2010Femtonewton Forces Can Control Protein-Meditated DNA
+Looping
+Yih-Fan Chen,1J. N. Milstein,2and Jens-Christian Meiners2,3
+1Department of Biomedical Engineering,
+University of Michigan, Ann Arbor, Michigan 48109
+2Department of Physics, University of Michigan, Ann Arbor, M ichigan 48109
+3LSA Biophysics, University of Michigan, Ann Arbor, Michiga n 48109
+(Dated: November 14, 2018)
+Abstract
+We show that minuscule entropic forces, on the order of 100 fN , can prevent the formation
+of DNA loops–a ubiquitous means of regulating the expressio n of genes. We observe a tenfold
+decrease in the rate of LacI-mediated DNA loop formation whe n a tension of 200 fN is applied
+to the substrate DNA, biasing the thermal ﬂuctuations that d rive loop formation and breakdown
+events. Conversely, once looped, the DNA-protein complex i s insensitive to applied force. Our
+measurements are in excellent agreement with a simple polym er model of loop formation in DNA,
+and show that an anti-parallel topology is the preferred Lac I-DNA loop conformation for a generic
+loop-forming construct.
+1Since Jacob and Monod’s groundbreaking work on gene regulation, t helacoperon has
+become a canonical example of how prokaryotic cells regulate the ex pression of genes in
+response to changes in environmental conditions [1]. The lacoperon is responsible for the
+eﬃcient metabolism of lactose in Escherichia coli bacteria ensuring that enzymes capable
+of digesting lactose are produced only when needed. The lacrepressor-mediated DNA loop,
+which is formed when tetrameric lacrepressor protein binds to two lacoperator sites si-
+multaneously, is an important part of this gene regulatory network and is crucial for the
+repression of lacgenes[2]. Long range genetic regulation by DNA looping, however, is n ot
+unique to the lacoperon, but appears in a variety of contexts within prokaryotes, such as
+thearaorgaloperons and is ubiquitous within eukaryotes [3]. While the biochemistry of
+these processes is generally well understood, the mechanics of th e assembly and breakdown
+of protein-mediated DNAloops has only recently garnered much att ention [4]. In this paper,
+we investigate the role that tension in the substrate DNA plays in the formation and break-
+down of protein-mediated DNA loops, and conclude that loop format ion is acutely sensitive
+to entropic forces on the hundred-femtonewton scale.
+Protein-mediated DNA loop formation is driven by thermal ﬂuctuatio ns in the DNA
+which bring distant operators close enough for loop closure by a pro tein. However, it is quite
+surprising that the magnitude of these ﬂuctuations, which one can estimate as kBT/lp≈80
+fN where lp= 50 nm is the persistence length, is much smaller than the typical pico newton
+forcesthatariseintheintracellularenvironment, frommolecularmo torsorDNA-cytoskeletal
+attachments for example. This observation has led to predictions t hat forces as small as a
+few hundred femtonewtons are suﬃcient to reduce the loop forma tion rate by more than
+two orders of magnitude [5–7]. Given that the cellular environment is t hought to regularly
+subject DNA-protein complexes to large static or ﬂuctuating forc es, the cell must either use
+mechanical pathways to regulate genetic function, or compensat e for the eﬀects of tension
+to ensure the stable control of gene expression.
+To experimentally study the eﬀects of tension on the kinetics of DNA looping, we used
+optical tweezers inconjunctionwith tethered-particle motion(TP M) measurements to inves-
+tigatetheformationandbreakdownofLacI-mediatedDNAloopsun deraconstantstretching
+force. We report three main results: First, the rate of loop forma tion is extremely sensitive
+to applied tension resulting in a tenfold decrease in loop formation whe n increasing the
+tension from 60 to 183 fN. Second, the lifetime of the looped state a ppears to be completely
+2FIG. 1: (a) Tethered DNA is trapped in the linear region of an o ptical potential (dashed line
+indicates laser focus). The ﬁgure also represents a kinetic model of DNA looping. (b) Raw experi-
+mental recording of LacI-mediated DNA looping. The looped/ unlooped threshold is chosen at the
+minimum between the two state distributions displayed in a h istogram of the binned data.
+unaﬀected by forces as large as 183 fN. Third, our measurements strongly suggest that
+the anti-parallel conformation is the dominant topology of a generic LacI-mediated DNA
+loop [8]. We mechanically attenuate the thermal ﬂuctuations that dr ive loop formation and
+breakdown, and measure the associated changes to the looping an d unlooping rates, by em-
+ploying a variety of optical tweezers that diﬀers from the more con ventional tweezers setup.
+Constant-force axial optical tweezers stretch the molecule awa y from the surface and trap
+the attached microsphere slightly below the laser focus in an approx imately linear region
+of the optical potential. This provides eﬀectively a constant force in the axial direction
+that does not change when the protein binds to or dissociates from the DNA (see Fig. 1a).
+Details of this set-up are described in Ref.[9]. Because of this novel o ptical tweezers setup,
+we have been able to measure the formation and breakdown rates o f LacI-mediated loops as
+3a function of applied tensile force in the femtonewton range.
+The DNA samples used in this study were prepared in a similar way to tha t of other
+TPM experiments [9]. We surface-tethered a 1316-bp ds-DNA molec ule with two symmetric
+lacoperators spaced 305 bp apart and then attached an 800 nm polys tyrene microsphere
+to the other end, which was trapped within the linear regime of the op tical potential. The
+total tension in the DNA was carefully calibrated to account for the applied optical force [9]
+and volume exclusion eﬀects arising from entropic interactions betw een the microsphere and
+the coverslip [10]. The looping and unlooping lifetimes were measured un der four diﬀerent
+forces: 60 ( ±5), 78 (±6), 121 ( ±9), and 183 ( ±15) fN in the presence of 100 pM of LacI
+protein. In each measurement, the surface-tethered ds-DNA m olecule was stretched by a
+contant force while the CCD camera captured defocused images of the tethered microsphere
+at a frame rate of 100 fps. The looped and unlooped states of the D NA molecule, which
+correspond to diﬀerent axial positions of the microsphere, can be measured by analyzing the
+resulting images, as shown in Fig. 1b. By directly observing changes in the axial position
+of the microsphere, the temporal resolution for detecting loop fo rmation and breakdown
+events in our experiment is as low as 300 ms, an order of magnitude be tter than conven-
+tional TPM. However, as we decrease the applied tension, it become s increasingly diﬃcult
+to resolve changes in the size of the microsphere, and at zero optic al force, we must resort
+to conventional TPM. Moreover, even in the absence of an optical force, a residual entropic
+force from excluded volume eﬀects remains. For this reason, we we re not able to obtain a
+direct measure of the force free loop formation and breakdown ra tes.
+The data was analyzed by ﬁrst extracting the elapsed times betwee n loop formation and
+breakdownevents fromtimetracesliketheoneinFig. 1b. Then, for eachforcecondition, the
+lifetime of each state was determined from a ﬁt to the cumulative pro bability distribution,
+as shown in Fig. 2. The resulting distribution displayed by the looped st ate is well ﬁt by a
+single exponential function
+P(t;τ) = 1−e−t/τ, (1)
+with time constant τ. However, the data of the unlooped state is poorly ﬁt to a single
+exponential function, but is well ﬁt to a biexponential function
+P2(t;τ1,τ2) =cP(t;τ1)+(1−c)P(t;τ2), (2)
+with time constants τ1andτ2, and dimensionless ﬁtting parameter c. Results of the ﬁts are
+4FIG. 2: Cumulative probability distributions of the observ ed durations that the DNA molecule
+remains in the looped and unlooped state under increasing fo rce conditions (left to right). The
+data of (a) the looped state and (b) the unlooped state are ﬁt t o the single exponential function
+and a biexponential function respectively.
+shown in Table 1.
+One of the most striking features of the data in Fig. 2 is that the diss ociation time
+constant of DNA loops is unaﬀected by increasing the force from 60 to 183 fN. This result
+is in contrast to the force dependence of the time necessary to fo rm a loop, which increases
+signiﬁcantly with only a modest increase in applied tension. To interpre t these observations
+quantitatively, we begin by applying a kinetic model for the underlying processes of protein
+binding, unbinding, loop formation, and breakdown, as illustrated in F ig. 1a. This is the
+simplest model of the kinetics that is both consistent with our data a nd what is currently
+known about LacI mediated looping.
+If we collect all time intervals that start at a loop formation event ( L) and end at a loop
+breakdown event ( S1), then, within this ensemble, simple ﬁrst-order kinetics are given by
+5the process
+LkU−→S1, (3)
+whereLis the looped state, S1is the state of the DNA with only one operator bound
+to a protein, and kUis the unlooping rate. Therefore, the time dependent probability of
+unlooping is
+S1(t) = 1−e−kUt, (4)
+whichcorrespondstotheﬁtfunction(Eq.1)forthelifetimesofth eloopedstate. Thekinetics
+of loop formation, however, are more complicated because there a re diﬀerent unlooped sub-
+states that cannot be distinguished within our experiment. We star t by collecting all time
+intervals thatbeginatanunlooping event andendwiththeformation ofa loop. Thekinetics
+may be represented as
+S2k+⇋
+k−S1kL−→L, (5)
+whereS1is the state of one vacant and one occupied operator and may direc tly convert to
+the looped state Lat a rate kL, or remain unlooped and convert to state S2at a rate k−.
+StateS2, however, is an alternate conﬁguration with both or neither opera tor occupied by
+a protein, which is not able to directly form a loop, but may convert to stateS1at a rate
+k+. With the initial condition S1(0) = 1, the ﬁrst-order kinetics above may be solved for
+the time-dependent probability of forming a loop
+L(t) = 1−1
+2α/bracketleftbig
+(κ−kL+α)e−t/τ1−(κ−kL−α)e−t/τ2/bracketrightbig
+, (6)
+whereκ=k++k−,α= [(κ+kL)2−4k+kL]1/2, and the time constants are deﬁned as
+τ1= 2/(κ+kL−α) andτ2= 2/(κ+kL+α). Equation 6 is again a biexponential distribution
+and corresponds to the ﬁt function of Eq. 2. Therefore, we can u nambiguously extract the
+four rate constants in our kinetic model. The results are shown in Ta ble 2 and plotted in
+Fig. 3. Our main observation is that, within the uncertainties of our m easurements, k+,
+k−, andkUare independent of force whereas kLis acutely force-sensitive on the hundred-
+femtonewton scale. This is consistent with the conventional expec tation that the rate of
+conversion between the unlooped states S1andS2does not vary signiﬁcantly as a function
+of the stretching force on this scale. The insensitivity to applied for ce of the unlooping rate
+kUcanbeexplained byconsidering thebindingenergyoftheLacIprote intotheDNA,whose
+disassociation from the lacbinding site is necessary to break a loop. With a binding energy
+6TABLE I: Fits to the cumulative probability distributions.
+Force (fN) 60±5 78±6 121±9 183±15
+Looped
+τ(s) 20.8±0.3 22.5±0.2 24.1±0.3 24.8±0.7
+Unlooped
+τ1(s) 3.0±0.2 4.0±0.42 9.7±0.4 14.5±1
+τ2(s) 31±8 54±10 91±10 101±6
+c 0.77±0.03 0.77±0.02 0.74±0.02 0.38±0.03
+of 10−19J [11] and an operator region that spans ∼20 bp, the minimum force needed to
+removetheproteinfromtheoperatoris ∼10pN,whichisseveral ordersofmagnitudegreater
+than the tension we applied. It is clear then why the looped state is re latively insensitive
+to mechanical tension. On the other hand, the sensitivity of the loo ping rate to such small
+forces is quite striking and potentially rich in implications. Since the cha racteristic force
+that results from thermal ﬂuctuations of ds-DNA is approximately 80 fN, and since DNA
+looping is a result of thermal ﬂuctuations, femtonewton forces ca n clearly impact the loop
+formation process.
+Quantitatively useful models of loop formation must explicitly conside r the orientation of
+the operators along the DNA in the looped state, as the exact geom etry of the loop matters
+signiﬁcantly. Such theories were developed by Blumberg et al.[6] and, independently, by Yan
+et al.[7]. In this paper, we use the model developed by Blumberg et al.so begin by ﬁnding
+the diﬀerence in the force dependent contributions to the free en ergy between a looped and
+a stretched length of DNA: ∆ F=FL(f,θ)−FS(f). The kink angle θis deﬁned as the angle
+between the tangent vectors of the DNA at the operator sites of the protein-DNA complex.
+A relation for the excess contribution to the free energy as a func tion of kink angle, imposed
+on the DNA by the loop, is given by:
+FL=4f1/2(1−cos(θ/4))
+1+12f−3/2(1−cos(θ/4))/(1+cos( π−θ)), (7)
+where the free energy is in units of kBTand the force fis in units of the characteristic force
+for thermal ﬂuctuations, fc=kBT/lp≈80 fN.
+An analytic relation for the free energy of a stretched segment of DNA is given by the
+7diﬀerence between the potential energy of a worm-like chain (WLC) and the work done by
+tension:
+FS=−llx2
+4/parenleftbigg1
+(1−x)2+2/parenrightbigg
+, (8)
+wherellis the loop length of the DNA and xis the relative extension of the DNA in units of
+lp. We can now calculate the characteristic time necessary to form a lo op under an applied
+force using the principle of detailed balance
+τf
+τ0=e−∆F, (9)
+whereτ0is the characteristic time at zero force.
+X-ray studies of the co-crystals of LacI protein bound to short o perator fragments have
+revealed the structure of the DNA protein complex [12]. These resu lts impose constraints
+upon, but do not fully determine the topology of the DNA loop. The pr eferred direction in
+which the DNAenters and leaves the loopedcomplex remains unsettle d, but the correspond-
+ingtopologiesareeitheranti-parallelconformations, withakinkang leofapproximately150◦,
+or parallel conformations, with a kink angle of 30◦.
+To ﬁt the data, we calculate τf= 1/kLfrom Eq. 9 as a function of force using the WLC
+model to provide the relative extension xin Eq. 8. Since we cannot directly measure the
+force free lifetime τ0, we use this as a single adjustable parameter to ﬁt the curves. The
+value for τ0is given by a least squares ﬁt to the data. We then generate a curve for both the
+anti-parallel and parallel conformations and see, from Fig. 3, that the anti-parallel topology
+is more force-sensitive than its parallel counterpart. Our data su ggest that the anti-parallel
+conformation is the dominant topology of a generic LacI-mediated D NA loop. In conclusion,
+our results establish that very small forces, on the order of a hun dred femtonewtons, can
+control the assembly of the regulatory protein-DNA complex nece ssary for expression of
+thelacgene. On the other hand, once formed, the looped complexes are q uite stable
+and cannot easily be disrupted by tension in the substrate DNA, givin g the system much-
+needed robustness. Thus, it appears more than likely that mechan ical pathways can control
+transcription through the application of tiny forces that are gene rated by other intracellular
+processes. We hope that the development of force measurement techniques inside living cells
+will lead to the identiﬁcation of such pathways. We also conclude that such regulatory forces
+would likely act on the assembly process of these complexes, but not their breakdown.
+8FIG. 3: Measured values for k−(△),k+(⋄),kL(/squaresolid), andkU(◦) (see Table 2). The looping rate
+kLis ﬁt by the theoretical predictions for the anti-parallel ( solid line) and parallel (dashed line)
+topologies illustrated in the insert.
+TABLE II: Rates extracted from kinetic rate equations.
+Force (fN) 60±5 78±6 121±9 183±15
+Kinetic
+Rates
+(10−3/s)kU 48.1±0.6 44.5±0.4 41.5±0.6 40±1
+kL 262±7 196±6 79±1 32±1
+k− 61±9 48±5 21±2 25±4
+k+ 40±10 24±5 14±2 21±3
+WethankJasonKahnforprovidinguswiththeLacIprotein. Thiswor kwassupportedby
+theNationalInstitutesofHealth, GrantNo. GM65934,andtheNa tionalScienceFoundation
+FOCUS, Grant No. 0114336.
+[1] F. Jacob and J. Monod, J. Mol. Biol. 3, 318 (1961); M. Lewis, C. R. Biol 328, 521 (2005); C.
+J. Wilson, H. Zhan, L. Swint-Kruse, K. S. Matthews, Cell. Mol . Life Sci. 64, 3 (2007).
+[2] S. Oehler, E. R. Eismann, H. Kr¨ amer, and B. M¨ uller-Hill , EMBO J. 9, 973 (1990); J. M. G.
+Vilar and S. Leibler, J. Mol. Biol. 331, 981 (2003).
+[3] K. S. Matthews, Microbiol. Mol. Biol. Rev. 56, 123 (1992).
+[4] L. Finzi and J. Gelles, Science 267, 378 (1995); F. Vanzi, C. Broggio, L. Sacconi, and F. S.
+9Pavone, Nuc. Acids. Res. 34, 3409 (2006); L. Han et al.PLoS ONE 4, e5621 (2009).
+[5] J. F. Marko and E. D. Siggia, Biophys. J. 73, 2173 (1997).
+[6] S. Blumberg, A. V. Tkachenko, and J.-C. Meiners, Biophys . J.88, 1692 (2005); S. Blumberg,
+M. W. Pennington, and J.-C. Meiners, J. Biol. Phys. 32, 73 (2006).
+[7] J. Yan, R. Kawamura, and J. F. Marko, Phys. Rev. E 71, 061905 (2005).
+[8] K. B. Towles, J. F. Beausang, H. G. Garcia, R. Phillips and P. C. Nelson, Phys. Bio. 6, 025001
+(2009).
+[9] Y. F. Chen, G. A. Blab, and J.-C. Meiners, Biophys. J. 96, 4701 (2009).
+[10] Y. F. Chen, D. P. Wilson, K. Raghunathan, and J.-C. Meine rs, Phys. Rev. E 80, 020903(R)
+(2009).
+[11] D. E. Frank, R. M. Saecker, J. P. Bond, M. W. Capp, O. V. Tso dikov, S. E. Melcher, M. M.
+Levandoski, and M. T. Record, J. Mol. Biol. 267, 1186 (1997).
+[12] M. Lewis, G. Chang, N. C. Horton, M. A. Kercher, H. C. Pace , M. A. Schumacher, R. G.
+Brennan, and P. Lu, Science 271, 1247 (1996).
+10

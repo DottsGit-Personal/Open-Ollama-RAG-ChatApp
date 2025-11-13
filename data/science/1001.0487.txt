@@ -1,0 +1,380 @@
+arXiv:1001.0487v2  [astro-ph.SR]  5 Jan 2010Astrophysics and Space Science
+DOI 10.1007/s •••••-•••-••••-•
+Numerical simulations of the κ-mechanism with
+convection
+T. Gastine1•B. Dintrans1
+c/circlecopyrtSpringer-Verlag ••••
+Abstract A strong coupling between convection and
+pulsations is known to play a major role in the dis-
+appearance of unstable modes close to the red edge of
+the classical Cepheid instability strip. As mean-ﬁeld
+models of time-dependent convection rely on weakly-
+constrainedparameters(e.g.Baker1987), wetacklethis
+problem by the means of 2-D Direct Numerical Simu-
+lations (DNS) of κ-mechanism with convection.
+Using a linear stability analysis, we ﬁrst determine
+the physical conditions favourable to the κ-mechanism
+to occur inside a purely-radiative layer. Both the in-
+stability strips and the nonlinear saturation of unstable
+modes are then conﬁrmed by the corresponding DNS.
+We next present the new simulations with convection,
+where a convective zone and the driving region over-
+lap. The coupling between the convective motions and
+acoustic modes is then addressed by using projections
+onto an acoustic subspace.
+Keywords Hydrodynamics - Instabilities - Stars: os-
+cillations - Convection - Methods: numerical
+1 Introduction
+Eddington (1917) discovered an excitation mechanism
+of stellar oscillations that is related to the opacity be-
+haviour in ionisation zones: the κ-mechanism, where
+κdenotes the opacity. This mechanism occurs when
+the opacity varies during compression phases so as
+to block the emerging radiative ﬂux (Zhevakin 1963;
+Cox and Whitney 1958). Ionisation regions correspond
+to a strong increase in opacity that leads to the opac-
+ity bumps responsible for the local excitation of modes.
+T. Gastine
+B. Dintrans
+1LATT, Universit´ e de Toulouse, CNRS, 14 avenue Edouard Be-
+lin, F-31400 Toulouse, FranceThese driving zones should nevertheless be located at
+a precise radius inside the star, neither too close to
+the surface nor to deep, in order to balance the damp-
+ing that mainly occurs at the surface. It deﬁnes the
+so-called transition region that shapes the limit be-
+tweenthe quasi-adiabaticinteriorandthe stronglynon-
+adiabatic surface. For classical Cepheids that pul-
+sate in the fundamental acoustic mode, this transi-
+tion region is located at a temperature T≃4×
+104K corresponding to the second helium ionisation
+(Baker and Kippenhahn 1965). However, the bump lo-
+cation is not solely responsible for the acoustic instabil-
+ity. A careful treatment of the κ-mechanism would in-
+volve dynamical couplings with convection, metallicity
+eﬀects and both realistic equations of state and opac-
+ity tables (Bono, Marconi, and Stellingwerf 1999). The
+purpose of our model is to simplify the hydrodynamic
+approachwhileretainingthe leading-order phenomenon
+–e.g. thelocationofthe opacitybump oritsamplitude–
+such that feasible direct numerical simulations of the κ-
+mechanism with convection can be achieved.
+2 The ﬁrst step: radiative models in 1-D
+We ﬁrst focus on radial modes propagating in a purely-
+radiative and partially-ionised layer and then restrict
+our study to the 1-D case. Our model consists of a
+local zoom about an ionisation region and is composed
+byamonatomicandperfect gas(with γ=cp/cv= 5/3)
+underboth aconstant gravity /vector gand kinematic viscosity
+ν. All quantities in our model are dimensionless, e.g.
+temperature is given in unit of the surface temperature
+of the star, length in unit of a fraction of the star radius
+and velocity in unit of the sound speed at the surface.
+In order to easily investigate the inﬂuence of the
+opacity bump on the stability, we adopt the following2
+Fig. 1 Inﬂuence of the hollow parameters on the conduc-
+tivity proﬁle for Kmax= 10−2andTbump/Tsurf= 3.5.
+conductivity hollow to mimic this bump (as κ∝1/K,
+see Gastine and Dintrans 2008a, hereafter Paper I):
+K0(T0) =Kmax/bracketleftbigg
+1+A−π/2+arctan( σT+T−)
+π/2+arctan( σe2)/bracketrightbigg
+,(1)
+withA= (Kmax−Kmin)/KmaxandT±=T0−Tbump±
+e. HereT0istheequilibriumtemperatureproﬁle, Tbump
+is the hollow central temperature, and σ, eandAde-
+note its slope, width and relative amplitude, respec-
+tively. Examples of common values of these parameters
+are provided in Fig. 1.
+2.1 Conditions for the instability
+Using the well-known work integral formalism (e.g.
+Unnoet al.1989), it is easy to show that the follow-
+ing condition is necessary to get unstable modes by κ-
+mechanism in variable stars:
+dKT
+dz<0 where KT≡/parenleftbigg∂lnK0
+∂lnT0/parenrightbigg
+ρ0. (2)
+However, this condition is not suﬃcient as the ionisa-
+tion region should also be located at a given location
+in the star, neither too deep nor too close to its sur-
+face. This area is the so-called transition region that
+separates the quasi-adiabatic interior from the strongly
+non-adiabatic surface and is deﬁned by (e.g. Cox 1980)
+Ψ =∝angb∇acketleftcvT0∝angb∇acket∇ight∆m
+ΠL≃1, (3)
+where ∆ mis the integrated mass between the consid-
+eredpointandthesurface,Πthemodeperiodand Lthe
+Fig. 2 a ) Vertical proﬁle of the Ψ coeﬃcient (Eq. 3).
+The superimposed green zone represents the location where
+Ψ = 1±0.5.b) The real part of the work integral plotted
+for the three diﬀerent equilibrium models. The dot-dashed
+black line is for the constant radiative conductivity case.
+c) Corresponding radiative conductivity proﬁles. d) Corre-
+sponding equilibrium ﬁelds dKT/dz(Eq. 2).
+luminosity. Ψ is the ratio between the thermal energy
+embedded betweenthe givenradiusandthe surfaceand
+the energy radiated during an oscillation period.
+2.2 The linear stability analysis
+Inordertocheckthesetwoconditions, weperformalin-
+ear stability analysis by using the Linear Solver Builder
+code(Valdettaro et al.2007). Bystartingwith the con-
+ductivity proﬁles shown in Fig. 1, we ﬁrst compute the
+equilibrium setup that is solution of both the hydro-
+static and radiative equilibria given by
+/vector∇p0=ρ0/vector gand div[ K0(T0)/vector∇T0] = 0, (4)
+wherep0andρ0denote the equilibrium pressure and
+density. Then, we solve the linear oscillation equations
+for the perturbations by seeking normal modes of the
+form exp( λt) withλ=τ+iω, whereωis the mode
+frequency and τits growth or damping rate (unstable
+modes corresponding to τ >0). By varying the hol-
+low parameters, we then determine the physical con-
+ditions that lead to unstable modes excited by the κ-
+mechanism in our layer (cf. Paper I).
+The two criteria (2) and (3) predict that modes are
+unstable for a “suﬃcient” hollow (adequate amplitudeNumerical simulations of the κ-mechanism with convection 3
+and width) that is located in the transition region.
+Using the work integral computed from the obtained
+eigenvectors, we indeed recover instability strips for the
+κ-mechanism by considering the three diﬀerent equilib-
+rium setups (Fig. 2):
+•The ﬁrst case (dotted blue line, Tbump/Tsurf= 1.7)
+corresponds to a hot star with an ionisation region
+close to the surface. As the surrounding density is
+small, Ψ ≪1 and the conductivity hollow hardly in-
+ﬂuencestheworkintegral: drivingisunabletoprevail
+over damping, leading to τ <0 orstablemodes.
+•In the second case (solid green line, Tbump/Tsurf=
+2.1), the radiative conductivity begins to decrease
+signiﬁcantly at the location of the transition region
+where Ψ ≃1. As a consequence, driving becomes im-
+portant. Furthermore, the radiative conductivity in-
+crease occurs where non-adiabatic eﬀects are already
+signiﬁcant, i.e. Ψ <1 there. It means that no damp-
+ing occurs between the hollow position and the sur-
+face as the radiative ﬂux perturbations are frozen-in.
+Driving is overcomingdamping in this case, therefore
+τ >0 and modes are unstable.
+•The third case (dashed red line, Tbump/Tsurf= 2.8)
+corresponds to a cold star of which ionisation re-
+gionislocateddeeperinthestellaratmospherewhere
+Ψ≫1. Ionisation then occurs in a quasi-adiabatic
+location. As a consequence, the excitation provided
+by the conductivity hollow cannot balance the damp-
+ing arising at the top of the layer, thus τ <0 and
+modes are stable.
+In conclusion, our ﬁrst radiative model of the κ-
+mechanism is well able to reproduce the main physics
+involved in the oscillations of Cepheid stars: (i)one
+should have dKT/dz <0 to drive the oscillations; (ii)
+the thermal engine underlying the conductivity hollow
+should also be located in the transition region where
+Ψ≃1 (Fig. 2).
+2.3 Study of the nonlinear saturation
+To conﬁrm both the results obtained previously in the
+linear stability analysis and to investigate the result-
+ing nonlinear saturation, we perform direct numerical
+simulations of our problem. The idea is to start from
+the most favourable initial conditions found in the sta-
+bility analysis and then advance the general hydro-
+dynamic equations in time. We use a modiﬁed ver-
+sion of the public-domain ﬁnite-diﬀerence Pencil Code2
+that includes an implicit solver of our own for the
+radiative diﬀusion term in the temperature equation
+(Gastine and Dintrans 2008b, hereafter Paper II).
+2Seehttp://pencil-code.googlecode.com/ .
+Fig. 3 a) Temporal power spectrum for the momentum
+in the (z, ω)-plane. b)The resulting spectrum after in-
+tegrating over depth. c)Comparison between normalised
+momentum proﬁles for n= (0,2) modes according to the
+DNS power spectrum (solid black line) and to the linear
+stability analysis (dotted blue line).
+To determine which modes are present in the DNS
+in the nonlinear-saturation regime, we ﬁrst perform
+a temporal Fourier transform of the momentum ﬁeld
+ρu(z,t) and plot the resulting power spectrum in the
+(z,ω)-plane (Fig. 3a). The mean spectrum follows by
+integrating /hatwiderρu(z,ω) over depth (Fig. 3b). With this
+method, acoustic modes are extracted because they
+emerge as “shark-ﬁn proﬁles” about deﬁnite eigenfre-
+quencies (Dintrans and Brandenburg 2004).
+Several discrete peaks corresponding to normal
+modes well appear but the fundamental mode close
+toω0= 5.439 clearly dominates. Moreover, the lin-
+ear eigenfunctions are compared to the mean proﬁles
+computed from a zoom taken in the DNS power spec-
+trumabouteigenfrequencies ω0= 5.439andω2= 11.06
+(Fig. 3c). The agreement between the linear eigenfunc-
+tions (dotted blue lines) and the DNS proﬁles (solid
+black lines) is remarkable. In summary, Fig. 3 shows
+that several overtones are present in the DNS, even for
+long times. These overtones are however linearly stable
+suggesting that some underlying energy transfers occur
+between modes through nonlinear couplings.
+These nonlinear interactions are investigated thanks
+to a tool that measures the sound generation by turbu-
+lent ﬂows (e.g. Bogdan, Cattaneo, and Malagoli 1993).4
+It involves projections of the DNS physical ﬁelds onto
+the regular and adjoint eigenvectors that are solutions
+to the linear oscillation equations. The projection co-
+eﬃcients then give the time evolution of each acoustic
+mode that is present in the DNS separately . Further-
+more, as the evolution of the kinetic energy of each
+mode is also accessible with this method, one can fol-
+low the energy transfer between modes.
+Fig. 4 Time evolution of the kinetic energy ratio for the
+n= 0 and n= 2 acoustic modes.
+Figure 4 shows an example of the time evolution
+of the kinetic energy ratio En/Etot
+kinfor the two modes
+n= 0 (i.e. the fundamental one) and n= 2 (i.e. the
+second overtone). Here Endenotes the kinetic energy
+embedded in the acoustic mode oforder n, whileEtot
+kinis
+the total kinetic energy in the simulation. After its lin-
+ear transient growth, a given fraction of the fundamen-
+tal mode energy is progressively transferred to the sec-
+ond overtone until the nonlinear saturation is achieved
+abovetime t≃150, with ﬁnally 85% ofthe total kinetic
+energy in the n= 0 mode and the remaining 15% in the
+n= 2 one. We recall that it is at a ﬁrst glance surpris-
+ing to detect this second overtoneat long times because
+it is linearly stable and should normally be damped by
+diﬀusive eﬀects.
+The reason for its presence lies in a favored coupling
+in the period ratio between these two modes. Indeed,
+the fundamental period is P0= 2π/ω0≃1.155 in this
+simulation while the n= 2 one is P2≃0.568. As a
+consequence, the corresponding period ratio is close to
+one half ( P2/P0≃0.491) such that the second over-
+tone is involved in the nonlinear saturation through a
+2:1 resonance with the fundamental mode. The lin-
+ear growth of the fundamental mode is then balanced
+by the pumping of energy to the stable second over-
+tone that behaves as an energy sink, leading to the full
+limit-cycle stability.3 Convective models in 2-D
+3.1 From radiative to convective setups
+After the previous results obtained on purely radia-
+tive models in 1-D, we next address the convection-
+pulsation coupling that is suspected to quench the ra-
+dial oscillations of Cepheids close to the red edge. The
+idea is to slightly modify the unstable radiative setup
+to obtain a convective zone superimposed to the ion-
+isation region in 2-D simulations. The convective in-
+stability obeys Schwarzschild’s criterion given by (e.g.
+Chandrasekhar 1961)
+/vextendsingle/vextendsingle/vextendsingle/vextendsingledT0
+dz/vextendsingle/vextendsingle/vextendsingle/vextendsingle>g
+cp=⇒Fbot>gK0(T0)
+cp. (5)
+whereFbot=K0|dT0/dz|is the imposed bottom ﬂux.
+For a given gravity gand conductivity hollow K0(T0),
+convectionwillthereforedevelopforalargeenoughbot-
+tom ﬂux satisfying Eq.(5).
+Fig. 5 Snapshot of the vorticity ﬁeld /vector∇×/vector vin a 2-D model
+with convection and κ-mechanism.
+Figure 5 displays a snapshot of the vorticity ﬁeld ob-
+tained in such a convective simulation at time t= 2500.
+In order to ensure that the thermal relaxation is well
+achieved, we ran this simulation for a much longer time
+than in the purely-radiative case and the resolution is
+256×256gridpoints. As expected, convection develops
+in the middle of the box where the conductivity hollow
+is located1. Moreover, because of the density contrast
+across the convection zone, the vorticity is trapped in
+strong convective plume downdrafts that easily over-
+shoot in the stable zone below due to their low P´ eclet
+number (Dintrans 2009).
+1An animation of this simulation is provided at
+http://www.ast.obs-mip.fr/users/tgastine/conv_kappa .avi.Numerical simulations of the κ-mechanism with convection 5
+3.2 Evolution of acoustic modes with convection
+To address the time evolution of the acoustic modes
+that arepresentin the DNS with convection, weproject
+as before the physical ﬁelds onto an appropriate acous-
+tic subspace to get the projection coeﬃcient cℓn(t).
+Hereℓdenotes the mode degree while nis its order
+(withkx= (2π/Lx)ℓandLxis the width of the box).
+Fig. 6 Evolution of the acoustic kinetic energy ratio for
+two simulations with a weak convection (solid blue line) and
+a stronger one (dashed green line).
+Fig. 6 shows the total energy embedded in acoustic
+modes for two simulations with convection that diﬀer
+by their Rayleigh number given by
+Ra =−gd4
+conv
+νχcpds
+dz=(∇−∇ adia)gd4
+conv
+νχHp, (6)
+whereHp=−(dlnp0/dz)−1is the pressure scale
+height,dconvthe vertical extent of the convection zone,
+χ=K0/ρ0cpthe radiativediﬀusivityand sthe entropy.
+This number allows to quantify the strength of the con-
+vective motions, that is, the critical Rayleigh number
+above which convection develops is about 103for poly-
+tropic stratiﬁcations (e.g. Gough et al.1976).
+In the ﬁrst simulation (Ra = 4 ×104, solid blue line),
+the Rayleigh number is slightly super-critical and the
+convection intensity is weak. In this case, we see that
+the acoustic energy ratio remains large (i.e. /greaterorsimilar80%,
+the remaining 20% being in the convection) and the
+nonlinear saturation is reached in the same way than
+in the previous radiative models. In other words, the
+mode propagationis not aﬀected by convectivemotions
+and the convection can be seen as frozen-in .
+On the contrary, increasing the Rayleigh number
+leads to a more vigorous convection and the acoustic
+energyratioismuchmoreaﬀectedbyconvectiveplumes(dashed green line). Indeed, after a long transient dur-
+ing which it reaches a non-triﬂing value ( ∼30%), it
+progressively tends to zero at long times while the con-
+vective motions are responsible for the whole kinetic
+energy content. The radial oscillations excited by κ-
+mechanism are thus quenched by convection and this
+situation is relevant to the red edge where the unstable
+acoustic modes are known to be damped by convective
+motions occuring at the star’s surface.
+We thus have shown that the Rayleigh number is
+a key parameter for this problem. But further inves-
+tigations of the convection-pulsation coupling are in
+progress, by especially checking time-dependent theo-
+ries of convection for which several free parameters can
+be constrained by such kind of direct numerical simu-
+lations (e.g. Yecko, Koll´ ath, and Buchler 1998).
+Acknowledgements Calculations were carried out
+on the CALMIP machine of the University of Toulouse
+(http://www.calmip.cict.fr/ ).
+References
+Baker, N., Kippenhahn, R.: Astrophys. J. 142, 868 (1965)
+Baker, N.H.: In: Hillebrandt, W., Meyer-Hofmeister, E.,
+Thomas, H.C. (eds.) Physical Processes in Comets, Stars
+and Active Galaxies, p. 105 (1987)
+Bogdan, T.J., Cattaneo, F., Malagoli, A.: Astrophys. J.
+407, 316 (1993)
+Bono, G., Marconi, M., Stellingwerf, R.F.: Astrophys. J.
+Suppl. Ser. 122, 167 (1999)
+Chandrasekhar, S.: Hydrodynamic and hydromagnetic
+stability. Oxford University Press: Clarendon, Oxford
+(1961)
+Cox, J.P.: Theory of stellar pulsation. Princeton Universi ty
+Press, Princeton (1980)
+Cox, J.P., Whitney, C.: Astrophys. J. 127, 561 (1958)
+Dintrans, B.: Communications in Asteroseismology 158, 45
+(2009)
+Dintrans, B., Brandenburg, A.: A&A 421, 775 (2004)
+Eddington, A.S.: The Observatory 40, 290 (1917)
+Gastine, T., Dintrans, B.: Astron. Astrophys. 484, 29
+(2008a)
+Gastine, T., Dintrans, B.: Astron. Astrophys. 490, 743
+(2008b)
+Gough, D.O., Moore, D.R., Spiegel, E.A., Weiss, N.O.: As-
+trophys. J. 206, 536 (1976)
+Unno, W., Osaki, Y., Ando, H., Saio, H., Shibahashi, H.:
+Nonradial oscillations of stars. University of Tokyo Press ,
+Tokyo (1989)
+Valdettaro, L., Rieutord, M., Braconnier, T., Fraysse, V.:
+JCoAM 205(1), 382 (2007)
+Yecko, P.A., Koll´ ath, Z., Buchler, J.R.: Astron. Astrophy s.
+336, 553 (1998)
+Zhevakin, S.A.: Annu. Rev. Astron. Astrophys. 1, 367
+(1963)
+This manuscript was prepared with the AAS L ATEX macros v5.2.

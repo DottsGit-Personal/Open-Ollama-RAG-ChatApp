@@ -1,0 +1,164 @@
+arXiv:1001.0290v1  [math.CV]  2 Jan 2010QUASI-CONFORMAL DEFORMATIONS OF NONLINEARIZABLE
+GERMS
+KINGSHOOK BISWAS
+Abstract. Letf(z) =e2πiαz+O(z2),α∈Rbe a germ of holomorphic diﬀeo-
+morphism in C. Forαrational and fof inﬁnite order, the space of conformal
+conjugacy classes of germs topologically conjugate to fis parametrized by the
+Ecalle-Voronin invariants (and in particular is inﬁnite-d imensional). When α
+is irrational and fis nonlinearizable it is not known whether fadmits quasi-
+conformal deformations. We show that if fhas a sequence of repelling periodic
+orbits converging to the ﬁxed point then fembeds into an inﬁnite-dimensional
+family of quasi-conformally conjugate germs no two of which are conformally
+conjugate.
+AMS Subject Classiﬁcation: 37F50
+Contents
+1. Introduction 1
+2. Deformations. 2
+2.1. Deforming repelling periodic orbits. 3
+2.2. Deforming germs with small cycles. 4
+References 4
+1.Introduction
+Letf(z) =e2πiαz+O(z2),α∈R/Zbe a germ of holomorphic diﬀeomorphism
+ﬁxing the origin in C. We consider the question of when fadmits quasi-conformal
+deformations, i.e. when do there exist germs gwhich are quasi-conformally but
+not conformally conjugate to f? Iffislinearizable (i.e. analytically conjugate
+to the rigid rotation Rα(z) =e2πiαz) then any germ topologically conjugate to f
+is linearizable. In the nondegenerate parabolic case (i.e.α=p/q∈Q,fq/ne}ationslash=id),
+the quasi-conformal conjugacy class of fcontains an inﬁnite dimensional family of
+conformalconjugacyclassesparametrizedbytheEcalle-Voronin invariants([Eca75],
+[Vor81]). In the irrationally indiﬀerent nonlinearizable case (αirrational,fnot
+linearizable), it seems to be unknown whether quasi-conformal def ormations are
+possible. We show the following:
+Theorem 1.1. Letfbe an irrationally indiﬀerent nonlinearizable germ with a
+sequence of repelling periodic orbits accumulating the ori gin. Then there is a family
+of quasi-conformal maps {hΛ}Λ∈ Mparametrized by sequences M={(λn)n≥0:
+Research partly supported by Department of Science and Tech nology research project grant
+DyNo. 100/IFD/8347/2008-2009.
+12 KINGSHOOK BISWAS
+λn∈C,|λn|>1}such that all conjugates of gΛ=hΛ◦f◦h−1
+Λare holomorphic,
+andgΛ1,gΛ2are conformally conjugate if and only if all but ﬁnitely many terms of
+Λ1andΛ2agree. For ﬁxed z,hΛ(z)depends holomorphically on each λn.
+The proof proceeds as follows: given Λ = ( λn) the germgΛis obtained by quasi-
+conformally deforming fnear its periodic orbits. Each periodic orbit is attracting
+forf−1, and it is possible to construct an f-invariant Beltrami diﬀerential on each
+basin of attraction such that the quasi-conformal map hΛrectifying the Beltrami
+diﬀerential conjugates fto a holomorphic germ gΛhaving multipliers λnat the
+periodic orbits. The multipliers at periodic orbits being invariant under conformal
+conjugacies, the conclusion of the theorem follows.
+Examples of germs satisfying the hypothesis of the theorem are ge rms of rational
+mapsofdegree dwithαsatisfyingthe Cremerconditionofdegree d(seeforexample
+Milnor [Mil99], Ch. 8)
+limsuploglogqn+1
+qn>logd
+(where (pn/qn) are the continued fraction convergents of α) which ensures that the
+ﬁxed point is accumulated by periodic orbits (only ﬁnitely many of which can be
+repelling for a rational map).
+Perez-Marcohas shown ([PM97]) for any nonlinearizable germ fthe existence of
+a unique monotone one-parameter family ( Kt)t>0of full, totally invariant continua
+calledhedgehogs containing the ﬁxed point. In [Bis09] it is proved that any confor-
+mal mapping in a neighbourhood of a hedgehog Kof a germf1mappingKto a
+hedgehog of a germ f2necessarily conjugates f1tof2. As a corollary of Theorem
+1.1 we have
+Corollary 1.2. There exists a holomorphic motion φ:D∗×ˆC→ˆCofˆCover
+D∗and a hedgehog Ksuch that all the sets φ(t,K)are hedgehogs, all of which are
+quasi-conformal images of K, but fors/ne}ationslash=t,φ(s,K)cannot be conformally mapped
+toφ(t,K).
+Acknowledgements. The author thanks Ricardo Perez-Marco for many helpful
+discussions and comments. This article was written in part during a vis it to the
+Chennai Mathematical Institute. The author is very grateful to the organizers for
+their warmth and hospitality.
+2.Deformations.
+We ﬁx a germ f(z) =e2πiαz+O(z2),α∈R−Qand a neighbourhood Uof the
+origin such that fandf−1are univalent on a neighbourhood of U. By aperiodic
+orbitorcycleoffof orderq≥1 we mean a ﬁnite set O={z1,...,z q} ⊂Usuch
+thatf(zi) =zi+1,1≤i≤q−1 andf(zq) =z1. Themultiplier at the periodic
+orbit is deﬁned to be λ=f′(z1)f′(z2)...f′(zq) = (fq)′(zi). The periodic orbit is
+calledattracting ,indiﬀerent andrepelling according as |λ|<1,|λ|= 1 and |λ|>1
+respectively. A periodic orbit for fof multiplier λis a periodic orbit for f−1of
+multiplierλ−1. The basin of attraction of an attracting periodic cycle is deﬁned by
+A(O,f) :={z∈U:fn(z)→ Oasn→+∞}.QUASI-CONFORMAL DEFORMATIONS OF NONLINEARIZABLE GERMS 3
+We observe that fcan have only ﬁnitely many cycles of a given order qinU
+(by the uniqueness principle). Since fis asymptotic to an irrational rotation, i.e.
+f(z)/z→e2πiαasz→0, it follows that if fhas small cycles then the orders of the
+cycles must go to inﬁnity.
+2.1.Deforming repelling periodic orbits. Given a repelling periodic orbit O
+offwith multiplier λand|λ′|>1 we deform the multiplier of fquasi-conformally
+fromλtoλ′by constructing a corresponding f-invariant Beltrami diﬀerential µ=
+µ(O,λ,λ′) on the basin of attraction A(O,f−1) as follows:
+By K¨ oenigs linearization theorem (see [Mil99], Ch. 6) for any repelling p eriodic
+orbitOoffwith multiplier λthere exists a unique holomorphic map φdeﬁned on
+a neighbourhood of Osuch thatφ(zi) = 0,φ′(zi) = 1,i= 1,...,nandφ(fq(z)) =
+λφλ(z). The conformal isomorphism L:C∗→C/Z,w/mapsto→ξ=1
+2πilogwconjugates
+the linear map w/mapsto→λwonC∗to the translation ξ/mapsto→ξ+τonC/Zwhereτ=L(λ)
+and Imτ <0.
+Letτ′=L(λ′)andletKbethereallinearmapon CdeﬁnedbyK(1) = 1,K(τ) =
+τ′. ThenKcommuteswiththetranslationbyoneandhencegivesaquasi-confo rmal
+orientation preserving (since Im τ,Imτ′<0) homeomorphism ˜K:C/Z→C/Z.
+The Beltrami diﬀerential of ˜Kis constant and invariant under translations of C/Z,
+and˜Kconjugates the translation ξ/mapsto→ξ+τonC/Ztoξ/mapsto→ξ+τ′.
+We letµbe the Beltrami diﬀerential of ˜K◦L◦φλrestricted to a small neigh-
+bourhoodDofz1∈ O. The map ˜K◦φλconjugatesfqto the translation ξ/mapsto→ξ+τ′.
+So at points z,z′=fq(z) inD,µsatisﬁes the invariance condition
+µ(z′)(fq)′(z) =µ(z)(fq)′(z)
+Soµextended to the neighbourhood V=D∪f(D)∪···∪fq−1(D) ofOby putting
+µ(fj(z)) =µ(z)(fj)′(z)
+(fj)′(z)
+forz∈D,j= 1,...,q−1isanf-invariantBeltramidiﬀerential. Similarlytheabove
+equation allows us to extend µto anf-invariant Beltrami diﬀerential µ(O,λ,λ′) on
+A(O,f−1) =∪n≥1fn(V).
+Lemma 2.1. Any quasi-conformal homeomorphism hwith Beltrami coeﬃcient
+equal toµ=µ(O,λ,λ′)on a neighbourhood of Oconjugates fto a mapg=
+h◦f◦h−1with a periodic orbit h(O)of multiplier λ′. The dependence of µ(O,λ,λ′)
+onλ′is holomorphic.
+Proof: Fori= 1,...,qwe letψibe the branch of φ−1sending 0 to zi. By construc-
+tion the map kdeﬁned byk=ψi◦L−1◦˜K◦L◦φ(z) forzin a neighbourhood of
+zihas Beltrami coeﬃcient equal to µand conjugates fon a neighbourhood of O
+to a holomorphic map f1=k◦f◦k−1with periodic orbit k(O) and multiplier λ′.
+Sincehandkhave the same Beltrami coeﬃcient the map h◦k−1is holomorphic,
+and conjugates f1tog, so the multipliers of f1andgare equal. The Beltrami dif-
+ferential of ˜Kis constant equal to−log(λ′/λ)
+2log|λ|+log(λ′/λ)which depends holomorphically
+onλ′, so the Beltrami diﬀerential µ(O,λ,λ′) of˜K◦L◦φλdepends holomorphically
+onλ′.⋄4 KINGSHOOK BISWAS
+2.2.Deforming germs with small cycles. We use the Beltrami diﬀerentials
+µ(O,λ,λ′) to deform a germ with small cycles as follows:
+Proof of Theorem 1.1: Let fbe a germ with a sequence of repelling small cycles
+of orders (qn) (which we may assume to be strictly increasing). The basins of
+attraction A(O,f−1) of distinct repelling cycles of fare disjoint, so for any Λ =
+(λn)∈ Mwe can deﬁne an f-invariant Beltrami diﬀerential µΛonUby putting
+µΛ(z) =µ(O,λ,λn)(z) whenzbelongs to A(O,f−1) for a cycle Oof orderqn
+and multiplier λ, andµΛ(z) = 0 otherwise. Let hΛbe the unique quasi-conformal
+homeomorphismwith Beltramicoeﬃcient µΛﬁxing0,1,∞givenby the Measurable
+Riemann Mapping Theorem. Then gΛ=hΛ◦f◦h−1
+Λis a holomorphic germ ﬁxing
+the origin with small cycles. By Naishul’s theorem [Nai83] the multiplier at an
+indiﬀerent ﬁxed point is a topological conjugacy invariant so g′
+Λ(0) =e2πiα. By
+Lemma 2.1, the multiplier of gΛatallits repelling cycles of order qnis equal toλn.
+Ifφis a holomorphic germ conjugating two such germs gΛ1,gΛ2,φmust take
+all repelling cycles of gΛ1of orderqn(in its domain) to repelling cycles of gΛ2
+of orderqnand preserve multipliers, so the sequences of multipliers Λ 1,Λ2must
+agree for all but ﬁnitely many terms. It follows from Lemma 2.1 that µΛdepends
+holomorphically on each λn, hence by the Measurable Riemann Mapping Theorem
+so doeshΛ(z) for ﬁxedz.⋄
+ProofofCorollary1.2: Let fbe asaboveand K⊂Ube ahedgehogof f. Fort∈D∗
+we let Λ tbe the constant sequence ( λn= 1/t). ThenµΛtdepends holomorphically
+ont, andφ: (t,z)/mapsto→hΛt(z) gives the required holomorphic motion. ⋄
+References
+[Bis09] K. Biswas. Complete conjugacy invariants of nonlin earizable holomorphic dynamics. To
+appear in DISCRETE AND CONTINUOUS DYNAMICAL SYSTEMS , 2009.
+[Eca75] J. Ecalle. Th´ eorie it´ erative: introduction ` a la th´ eorie des invariantes holomorphes. J.
+Math pures et appliqu´ es 54 , pages 183–258, 1975.
+[Mil99] J. Milnor. Dynamics in one complex variable. Friedr. Vieweg and Sohn, Braunschweig ,
+1999.
+[Nai83] V. I. Naishul. Topological invariants of analytic a nd area-preserving mappings and their
+applications to analytic diﬀerential equations in C2andCP2.Trans. Moscow Math. Soc.
+42, pages 239–250, 1983.
+[PM97] R. Perez-Marco. Fixed points and circle maps. Acta Mathematica 179:2 , pages 243–294,
+1997.
+[Vor81] S. M. Voronin. Analytic classiﬁcation of germs of co nformal mappings ( C,0)→(C,0)
+with identity linear part. Funktsional. Anal. i Prilozhen 15 , pages 1–17, 1981.
+Ramakrishna Mission Vivekananda University, Belur Math, WB-71120 2, India
+email: kingshook@rkmvu.ac.in

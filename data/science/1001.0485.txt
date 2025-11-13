@@ -1,0 +1,338 @@
+arXiv:1001.0485v1  [math.CV]  4 Jan 2010DEGENERATING BEHAVIOR OF GREEN’S FUNCTION
+F. PEHERSTORFER1
+Abstract. Let the unions of real intervals I=∪l
+j=1[a2j−1,a2j], a1<
+... < a 2l,andIn=∪m
+k=1[Bk,n,Ck,n] be such that ∩∞
+k=1[Bk,n,Ck,n] =
+{ck}fork= 1,...,mand dist( E,In)≥const > 0.We show how to
+express asymptotically the Green’s function φ(z,∞,E∪In) ofE∪In
+atz=∞in terms of the Green’s function φ(z,∞,E) andφ(z,ck,E).
+The formula yields immediately asymptotics for φn(z,∞,E∪In) with
+respect to nwhich are important in many problems of approximation
+theory. Another consequence is an asymptotic representati on ofcap(E∪
+In) in terms of cap(E) andφ(z,ck,E) and of the harmonic measure
+ω(∞,Ej,E∪In).
+LetE=/uniontextl
+j=1[a2j−1,a2j],−∞<a1<a2<...<a 2l<∞,be a union of l
+disjoint intervals, put H(x) =/producttext2l
+j=1(x−aj) and letφ(z,z0,E) be a so-called
+complex Green’s function, that is, a mapping which maps ¯C\Eonto the
+exterior of the unit circle, which has a simple pole at z=z0∈¯C\Eand
+satisﬁes|φ(z,z0)| →1 forz→x∈E; or in other words log |φ|is the Green’s
+function. It is known, see e.g. [7], that
+φ(z,∞,E) :=φ(z,∞) = exp/parenleftBigg/integraldisplayz
+a2lr∞(ξ)dξ/radicalbig
+H(ξ)/parenrightBigg
+wherer∞(ξ) =ξl−1+...is the unique polynomial such that
+(1)/integraldisplaya2j+1
+a2jr∞(ξ)dξ/radicalbig
+H(ξ)= 0 forj= 0,...,l−1
+and that for x∈R\E
+(2) φ(z,x0,E) :=φ(z,x0) = exp/parenleftBigg/integraldisplayz
+a2lrx0(ξ)
+ξ−x0dξ/radicalbig
+H(ξ)/parenrightBigg
+whererx0∈Pl−1is such that
+(3) rx0(x0) =−/radicalbig
+H(x0)
+and
+(4) −/integraldisplaya2j+1
+a2jrx0(ξ)
+ξ−x0dξ/radicalbig
+H(ξ)= 0 forj= 1,...,l−1.
+1The manuscript was prepared by the author in the two months pr eceding his passing
+away in November 2009. The manuscript remained unsubmitted and is not published
+elsewhere (submitted by P. Yuditskii and I. Moale).
+12 F. PEHERSTORFER
+The so-called capacity of Eis given by
+(5) cap(E) = lim
+z→∞|z
+φ(z,∞,E)|
+Byω(z,K,E) we denote the harmonic measure of the set K⊂Ewith
+respect toE.Recall that
+(6) ω(∞,[a2j−1,a2j],E) =/integraldisplaya2j
+a2j−1|r∞(x)|dx/radicalbig
+|H(x)|
+Theorem 0.1. (Asymptotic representation of the Green’s function in the
+degenerate case) Let l,m∈N, E=/uniontextl
+j=1[a2j−1,a2j]and for a strictly
+monotone increasing subsequence (n)ofNletIn=/uniontextm
+k=1[Bk,n,Ck,n]with
+dist(E,In)≥const>0and/intersectiontext∞
+n=1[Bk,n,Ck,n] ={ck}and letωk,n=
+ω(∞,[Bk,n,Ck,n],E∪In)withωk,n−→
+n→∞0fork= 1,...,m.Then uniformly
+on compact subsets of C\(E∪{c1,...,cm})
+(7)φ(z,∞,E∪In) =φ(z,∞,E)
+m/producttext
+k=1(φ(z,ck,E))ωk,n(1+O( max
+1≤k≤mω2
+k,n))
+Proof.For abbreviation we put
+˜En=E∪In, H˜E,n(x) =H(x)˜Hn(x)
+where
+H(x) =2l/productdisplay
+j=1(x−aj),˜Hn(x) =m/productdisplay
+k=1(x−Bk,n)(x−Ck,n)
+By [7] we know that there exists a monic polynomial r˜E,n(x) of degree l+
+m−1 such that
+φ(z,∞,˜En) = exp
+/integraldisplaynr˜E,n(x)
+/radicalBig
+H˜E,n(x)dx
+
+Now let us represent r˜E,nin the form
+r˜E,n(x) = ˜sn(x)m/productdisplay
+k=1(x−ck)+tn(x)
+=rE(x)m/productdisplay
+k=1(x−ck)+sn(x)m/productdisplay
+k=1(x−ck)+tn(x)
+whererE∈Pl−1is the monic polynomial associated with the Green’s func-
+tionφ(z,∞,E),sn(x) = ˜sn(x)−rE(x)∈Pl−2andtn∈Pm−1.Putting
+Ln= max
+1≤k≤n|Ck,n−Bk,n|DEGENERATING BEHAVIOR OF GREEN’S FUNCTION 3
+we have on compact subsets of C\{c1,...,cm}
+1/radicalBig
+H˜E,n(x)=1
+m/producttext
+k=1(x−ck)/radicalbig
+H(x)+O(Ln)
+and thus
+(8)r˜E,n(x)
+/radicalBig
+H˜E,n(x)dx=rE(x)/radicalbig
+H(x)dx+sn(x)/radicalbig
+H(x)dx
++tn(x)
+m/producttext
+k=1(x−ck)dx/radicalbig
+H(x)+O(Ln)
+Partial fraction expansion gives, recall tn∈Pm−1,
+(9)tn(x)
+m/producttext
+k=1(x−ck)=m/summationdisplay
+k=1λk,n
+x−ck
+To determine the λk,n’s we integrate both sides in (8) counterclockwise
+around a circle with center ckand ﬁxed small radius ε.Taking into con-
+sideration the facts, that the limiting values ±/radicalBig
+H˜E,n(x) := lim
+z→x±
+x∈˜E,n1√
+H(z)
+from the upper- and lower half plane satisfy +/radicalBig
+H˜E,n(x) =−/radicalBig
+H˜E,n(x)
+and that
++1/radicalBig
+H˜E,n(x)=sgn r˜E,n(x)
+i/radicalBig
+|H˜E,n(x)|forx∈˜E,n,
+we obtain for the LHS by shrinking the circle to the interval [ Bk,n,Ck,n] that
+(10)/contintegraldisplayr˜E,n(ξ)
+/radicalBig
+H˜E,n(ξ)dξ=2
+i/integraldisplayBk,n
+Ck,n|r˜E,n(x)|
+/radicalBig
+|H˜E,n(x)|dx= 2iπωk,n
+On the other hand the RHS from (8) becomes, note that all the te rms at
+the RHS are analytic on the circle up to 1 /(x−ck),
+/contintegraldisplayr˜E,n(x)
+/radicalBig
+H˜E,n(x)dx=λk,n/contintegraldisplay1
+x−ckdx/radicalbig
+H(x)+O(Ln)
+=λk,n2πi/radicalbig
+H(ck)+O(Ln)
+that is,
+(11) λk,n=ωk,n/radicalbig
+H(ck)+O(Ln)4 F. PEHERSTORFER
+Summarizing, on compact subsets of C\{c1,...,cm}we have
+(12)r˜E,n(x)
+/radicalBig
+H˜E,n(x)dx=rE(x)/radicalbig
+H(x)dx+sn(x)dx/radicalbig
+H(x)
++/summationdisplay
+ωk,n/radicalbig
+H(ck)
+x−ckdx/radicalbig
+H(x)+O(Ln)
+Finally let us determine sn(x) asymptotically. We have by (8), (9) and
+(11) that
+−iπων,n=/integraldisplayCν,n
+Bν,nr˜E,n(x)
+/radicalBig
+H˜E,n(x)dx=/integraldisplaya2ν+1
+a2νr˜E,n(x)
+/radicalBig
+H˜E,n(x)dx
+=/integraldisplaya2ν+1
+a2ν/parenleftBigg
+sn(x)+m/summationdisplay
+k=1ωk,n/radicalbig
+H(ck)
+x−ck/parenrightBigg
+dx/radicalbig
+H(x)+O(Ln)
+Observing that
+−/integraldisplaya2ν+1
+a2νrck(ξ)
+x−ckdξ/radicalbig
+H(ξ)=/integraldisplaya2ν+1
+a2νrck(x)−rck(ck)
+x−ckdx/radicalbig
+H(x)
+−/radicalbig
+H(ck)−/integraldisplaya2ν+1
+a2ν1
+ξ−ckdξ/radicalbig
+H(ξ)
+and that by (3)
+(13) −/integraldisplaya2ν+1
+a2ν1
+ξ−ckdξ/radicalbig
+H(ξ)=iπδkν
+it follows that for ν= 1,...,l−1
+(14) −/integraldisplaya2ν+1
+a2ν/parenleftBigg
+sn(ξ)−m/summationdisplay
+k=1ωk,nqck(ξ)dξ/radicalbig
+H(ξ)/parenrightBigg
+dξ=O(Ln)
+Recall that sn(ξ)−/summationtextm
+k=1ωk,nqck(ξ)∈Pl−2.Since a polynomial q∈Pl−2
+satisfying
+(15)/integraldisplaya2k+1
+a2kq(x)dx/radicalbig
+H(x)= 0 fork= 1,...,l−1
+is identically the zero polynomial it follows with the help o f Cramer’s rule
+that
+sn(x)−m/summationdisplay
+k=1ωk,nqck,n(x) =O(Ln)
+which gives by (12) the assertion, if we are able to show that
+(16) Ln=O( max
+1≤k≤nω2
+k,n)
+Ifck∈(a1,a2l) let us consider
+Ek,n= [a1,Ck,n]∪[a2k+1,a2l],respectively ,Ek,∞= [a1,ck]∪[a2k+1,a2l]DEGENERATING BEHAVIOR OF GREEN’S FUNCTION 5
+andletAk,nandAk,∞bethecriticalpointofln φ(x,∞,Ek,n)andlnφ(x,∞,Ek,∞),
+respectively. Then it follows that
+Ak,n→Ak,∞∈(ck,a2k+1).
+Thus we obtain for n≥n0
+ω(∞,[Bk,n,Ck,n],˜En)≥ω(∞,[Bk,n,Ck,n],Ek,n)
+=/integraldisplayCk,n
+Bk,nx−Ak,n/radicalbig
+(x−a1)(x−a2l)(x−Ck,n)(x−a2k+1)dx
+≥const/integraldisplayCk,n
+Bk,ndx/radicalbigCk,n−x=const/radicalbig
+Ck,n−Bk,n,
+whereconst>0 is independent of n,and this proves (16).
+Ifck∈R\[a1,a2l] then we consider Ek,n:= [a1,Ck,n]⊃˜En,respectively,
+[Bk,n,a2l] and the assertion follows even simpler as above. /square
+Remark 0.2.By conformal transplantation and the invariance property o f
+the harmonic measure it follows that the Theorem holds for mu ch more
+general sets as circular slits in the plane, etc. .
+Corollary 0.3. As above let ωk,n=ω(∞,[Bk,n,Ck,n],E∪/uniontextm
+k=1[Bk,n,Ck,n]).
+Then the following statements hold:
+a)cap(E∪/uniontextm
+k=1[Bk,n,Ck,n]) = (capE)m/producttext
+k=1|φ(∞,ck,E)|ωk,n(capE)(1+
+O(max
+kω2
+k,n))
+b)ω(∞,Ej,E∪/uniontextm
+k=1[Bk,n,Ck,n]) =ω(∞,Ej,E)−m/summationtext
+k=1ωk,nω(ck,Ej,E)+
+O(max
+kω2
+k,n)
+Proof.a) Follows immediately by the fact that for a compact set K
+lim
+z→∞|z
+φ(z,∞,K)|=cap(K)
+b) follows by taking the log in (7) and using (6). /square
+Notation 0.4.a) Letpn(x) =anxn+...; bylc(pn) =anwe denotethe leading
+coeﬃcient of pn.
+b)x1,...,xm∈Ewithx1<x2<...<x mare called alternation points of
+f∈C[a,b] iff(xi) =±(−1)i||f||∞,Efori= 1,...,m.By♯A(f;K) we denote
+the number of alternation points of fonK.
+Theorem 0.5. Letl,m∈N,E=/uniontextl
+j=1[a2j−1,a2j]andIn=/uniontextm
+k=1[Bk,n,Ck,n]
+withdist(E,In)≥const>0for a strictly monotone increasing subsequence
+ofNand/intersectiontext∞
+k=1[Bk,n,Ck,n] ={ck}.
+Suppose that there is a sequence of polynomials (pn)such thatpn∈Pn
+hasnreal zeros, min{|pn(yi)|:p′
+n(yi) = 0} ≥1,||pn||E∪In≤1and6 F. PEHERSTORFER
+♯A(pn;Ik,n) =νk+ 1fork= 1,...,mandn∈N.Then on compact sub-
+sets ofC\(E∪{c1,...,cm})pnhas an asymptotic representation of the form
+(17) 2 pn(x) =/parenleftbigg
+ψn(x)+1
+ψn(x)/parenrightbigg
+(1+o(1))
+where
+ψn(x) =φn(x,∞,E)
+m/producttext
+k=1φνk(x,ck,E)
+Furthermore the norm of the monic polynomial ˆpn(x) =pn(x)/lc(pn)is
+given by
+(18) ||ˆpn||E= 1/lc(pn) = 2(cap E)nm/productdisplay
+j=1φνk(cj;∞,E)(1+o(1))
+where0<r<1,and concerning the alternation points on Eνwe have
+♯A(pn;Eν) =nω(∞,Eν,E)+l−1/summationdisplay
+k=1ω(ck,Eν,E)+O(1
+n) forν= 1,...,l
+Proof.By the properties of pnit follows that p−1
+n([−1,1]) =E∪Inwhich
+implies, see e.g. [3, 4] that
+φ(z,∞,E∪In) =/parenleftBig
+pn(z)−/radicalbig
+p2n(z)−1/parenrightBig1
+n
+= exp/parenleftBigg
+1
+n/integraldisplayz
+a2lp′
+n(x)/radicalbig
+p2n(x)−1dx/parenrightBigg
+Thus
+2pn(z) =φn(z,∞,E∪In)+1
+φn(z,∞,E∪In)
+and the representation (17) follows by Theorem 0.1.
+Concerning relation (18) let us observe that, with the help o f (17) and
+|φ(z,∞,E)|>1 onC\E,
+lc(pn) = lim
+z→∞pn(z)
+zn= lim
+z→∞/parenleftbigg1
+2/parenleftbiggφ(z,∞,E)
+z/parenrightbiggn1/producttextm
+k=1φνk(z,ck,E)/parenrightbigg
+(1+o(1))
+/square
+BytheAlternationTheoremitfollowsimmediatelythatmany L∞-minimal
+polynomials without or with restrictions as minimal polyno mials on several
+intervals satisfy the assumptions of Theorem 0.5 with νk= 1, k= 1,...,m,
+and thus have a representation of the form (17). One of the rem aining chal-
+lenging problems is to describe when ck’s appear between two consecutive
+Eν’s. For a solution of this problem in the case of minimal polyn omials on
+several intervals, see [2].DEGENERATING BEHAVIOR OF GREEN’S FUNCTION 7
+References
+[1] F. Peherstorfer, Deformation of minimal polynomials , J. Approx. Theory 111 (2001),
+180-195.
+[2] F. Peherstorfer, Asymptotic representation of minimal polynomials on sever al inter-
+vals, preprint.
+[3] F. Peherstorfer, R. Steinbauer, Orthogonal and Lq- extremal polynomials on inverse
+images of polynomial mappings , J. Comput. Appl. Math. 127 (2001), 297-315.
+[4] T. Ransford, Potential theory in the complex plane , Cambr. Univ. Press., 1995.
+[5] V. Totik, Polynomial inverse images and polynomial inequalities , Acta Math. (Scan-
+dinavian) 187 (2001), 139-160.
+[6] V. Totik, Chebyshev constants and the inheritance problem , to appear in J. Approx.
+Theory.
+[7] H. Widom, Extremal polynomials associated with a system of curves in t he complex
+plane, Adv. Math. 3 (1969), 127-232.

@@ -1,0 +1,142 @@
+arXiv:1001.0197v1  [astro-ph.IM]  1 Jan 2010Astronomical Data Analysis Software and Systems XIX P24
+ASP Conference Series, Vol. XXX, 2009
+Y. Mizumoto, K.-I. Morita, and M. Ohishi, eds.
+Pointing the SOFIA Telescope
+Michael A. K. Gross1, John J. Rasmussen2, Elizabeth M. Moore1
+Abstract. SOFIA is anairborne, gyroscopicallystabilized 2.5minfraredtele-
+scope, mounted to a spherical bearing. Unlike its predecessors, S OFIA will work
+in absolute coordinates, despite its continually changing position and attitude.
+In order to manage this, SOFIA must relate equatorial and telesco pe coordi-
+nates using a combination of avionics data and star identiﬁcation, ma nage ﬁeld
+rotation and track sky images. We describe the algorithms and syst ems required
+to acquire and maintain the equatorial reference frame, relate it t o tracking im-
+agers and the science instrument, set up the oscillating secondary mirror, and
+aggregate pointings into relocatable nods and dithers.
+1. SOFIA Telescope-Pointing Architecture
+MCCSAvionicsScience
+Instrument
+Telescope
+FFI FPIWFI
+Figure 1. The telescope-pointing systems on the SOFIA aircraft.
+The SOFIA pointing architecture is shown in Fig. 1. The Teles cope As-
+sembly (TA) keeps track of its attitude using gyroscopes cor rected by tracking
+imagers, but is unaware of sky coordinates. The Science Inst rument (SI) is
+responsible for science data acquisition. Avionics provid e aircraft location and
+attitude necessary to initialize sky coordinates. The Miss ion Communications &
+Control System (MCCS) correlates gyroscopes with sky coord inates and trans-
+lates pointing building blocks between coordinate systems .
+2. Coordinate Systems
+The TA describes its attitude as a 3 degree-of-freedom (DOF) rotation from the
+telescope reference frame (TARF) to various coordinate sys tems mechanically
+attached to the telescope. The MCCS translates these to exte rnal coordinates,
+and accounts for the optical path. The TA is far from rigid and orthogonal;
+thus many intermediate coordinate systems are established . Directly-observable
+1Universities Space Research Assoc., NASA/Ames Research Ce nter, Moﬀett Field, CA, USA
+2Critical Realm Corp., San Jose, CA, USA
+12 Gross, Rasmussen, and Moore
+MCCS coordinate systems are Equatorial (ERF) and grid coord inates for the
+three tracking imagers and the Science Instrument (SIRF). K ey internal coor-
+dinate systems are the telescope and inertial references (T ARF and IRF) with
+IRF derived from a set of gyroscopes. The MCCS distributes po sitions in all
+coordinates for real-time monitoring, FITS headers, and ar chiving.
+3. Establishing Equatorial Coordinates
+The MCCS uses a 2-3 stage approach to relate ERF to IRF, to∼<1′′:
+1. Rough-estimate ( ∼1◦) ERF coordinates from avionics-reported aircraft
+position and attitude and the TA’s IRF and airframe attitude s.
+2. Fine-tune using ﬁeld recognition (PIXY; Yoshida 2000) on the Wide Field
+Imager (WFI; 6◦FOV).
+3. Optionally, reﬁne further using a 2DOF correction, based upon two Focal
+Plane Imager (FPI; 0.57′′pixels) acquisitions several degrees apart.
+TheoperatormonitorsIRF /mapsto→ERFwithanoverlay ofcalculated positionsofstars
+on imagers against sky images (see Fig. 2), and executes the 2 DOF reﬁnement
+when mismatch drifts too large.
+4. Simple Pointing and Tracking
+The TA can be pointed in any directly observable coordinate s ystem. Areas
+of Interest (AOIs) can be deﬁned on imagers; the TA continual ly calculates
+AOI centroids. This provides stability feedback to the TA, n ecessary because
+gyroscopes are not suﬃcient to maintain pointing over hours . A centroiding
+AOI can be attached to a position of interest; when activated , the TA keeps
+the image ﬁxed at the desired position, by modifying IRF to ca ncel its motions
+inferred from the AOI. The AOI need not coincide with the poin t of interest.
+5. Chopping
+A chop is a high-frequency square-wave oscillation of the se condary mirror
+(SMA),synchronizedelectronically withimageracquisiti on tosubtractskyback-
+ground. Only the FPI and SI observe chopped images; other ima gers do not
+share the optical path with the telescope. A given FPI or SI pi xel has two ERF
+coordinates since any images taken are a superpositionof tw o images with diﬀer-
+ent centers; theMCCSpublishesbothforkeypositions. For p ointingcommands,
+positions can be modiﬁed by chop beam designation. The SMA is commanded
+by a 2D center oﬀset, amplitude, and position angle, and a coor dinate system.
+SMA state is propagated through telescope motions by keepin g its speciﬁcation
+constant in the coordinate system speciﬁed. A “3-point” cho p is also supported;
+this includes a pause at an intermediate point (labelled “0” ).
+6. Nodding and Dithering
+A nod is a low-frequency motion of the whole telescope, usual ly relating to an
+accompanying chop, to remove instrument backgrounds. Nods are deﬁned inPointing the SOFIA Telescope 3
+Figure 2. Typical telescope setup for a single data acquisition. Two A OIs
+are deﬁned on the WFI (left) to monitor rotation. A third is deﬁned o n the
+FPI (right) to monitor transverse drift. Computed positions are s uperposed
+(for both chopped beams on the FPI), along with their names. Misma tch
+represents several arcseconds of drift in absolute pointing; dep ending on the
+precision required, a realignment may be necessary. Data shown is s ky simu-
+lation (Br¨ uggenwirth, Gross, Nelbach, & Shuping 2009) with a ther mal dark
+current model. The FPI is at 20◦C and the WFI is at −40◦C.
+φ
+XY
+Nod A
+Nod B(Nod X)b1
+b2A(ref)
+E
+DCB
+Figure 3. Graphical description of nodding (left) and dithering (righ t).
+Nods are speciﬁed in the same manner as chops, so they can be matc hed
+unconditionally, without direct connections. The center position (“ Nod X”)
+is optional, and can be used to match a 3-point chop, which includes th e
+center position as well. A formulation based upon circular lists of relat ive
+pointings is used for dithers – all positions are understood to be rela tive to
+the ﬁrst.
+the same manner as chops, without direct coupling, and are pr opagated through
+telescope motions identically. Dithers are a generalizati on of nods to arbitrary-
+length sequences, intended to image the same star on several diﬀerent imager
+pixels, in order to remove outliers such as cosmic ray hits or hot pixels. The ﬁrst
+position in a dither is considered to be a “reference,” with a ll other positions
+deﬁnedrelative to it, for relocatability on thesky. Chops, nods, and dithers have
+no direct coupling and can therefore be mixed and matched in a ny combination.4 Gross, Rasmussen, and Moore
+7. Managing Field Rotation
+TA motion is signiﬁcantly constrained by clearance to the ai rframe. Thus, az-
+imuth is mostly controlled by turning the aircraft (Gross & S huping 2009).
+Rotation against the sky can be held constant as the aircraft rotates up to 5 .6◦.
+As this rotation nears its limit, the telescope is periodica lly “rewound” manually
+to a new rotation angle, between data acquisitions. During r ewind, all building
+blocks are held constant in the coordinate systems in which t hey were deﬁned.
+8. Key Design Points and Tests
+In order to minimize development risk for the MCCS, several c ritical design
+features have been included. Pointing building blocks do no t depend directly
+on each other and state derives strictly from the TA, allowin g for independent
+development, testing, and operational use. Much attention has been given to
+abstraction andsimpliﬁcation, toaidindevelopment of tes tingprocedures. Each
+building block has a realistic operational “scenario,” deﬁ ning detailed inputs,
+operator commands, user-visible outputs, and intermediat e calculations.
+Coordinate systems present special problems, and are notor iously diﬃcult
+to orient correctly and keep that way; to that end, regressio n tests include:
+•Diurnal rotation rate measurements with zero aircraft spee d.
+•A “home position” at the equator on the vernal equinox, with n orthbound
+heading and zero speed (enables manual calculations).
+•Modifying each coordinate parameter individually.
+•Composite tests (veriﬁes calculations are in the correct or der).
+•Corner cases (identiﬁes quadrant problems).
+•Complete-system tests pointing to speciﬁc stars, using syn thetic images.
+Some tests violate TA physical limits; these are evaluated a gainst a simulator
+(Br¨ uggenwirth, Gross, Nelbach, & Shuping 2009)
+9. Conclusion
+Placing a telescope on a moving platform, whilestill desiri ngto point in absolute
+coordinates, presents a diﬃcult challenge for software dev elopment. Eventual
+success of the SOFIA platform in this regard depends upon car eful abstraction
+and testing strategies for pointing the telescope.
+References
+Br¨ uggenwirth, S., Gross, M. A. K., Nelbach, F. J., & Shuping, R. Y. 2 009, in ASP
+Conf. Ser. XXX, ADASS XVIII, ed. D.A. Bohlender, D. Durand & P. D owler
+(San Francisco: ASP), 485
+Gross, M. A. K. & Shuping, R. Y. 2009, in ASP Conf. Ser. XXX, ADASS XVIII, ed.
+D.A. Bohlender, D. Durand & P. Dowler (San Francisco: ASP), 314
+Yoshida, S. 2000, PIXY System, http://www.aerith.net/misao/pixy 1/index.html

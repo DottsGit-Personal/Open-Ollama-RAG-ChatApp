@@ -1,0 +1,365 @@
+arXiv:1001.0140v1  [physics.ins-det]  31 Dec 20091
+ThermalControl ofaDualMode
+Parametric SapphireTransducer
+JacopoBelﬁ,Nicol `oBeverini,AndreaDe Michele,GianlucaGabbriellini,
+FrancescoMangoandRobertoPassaquieti
+Abstract—We propose a method to control the thermal stability of a sap phire dielectric transducer made with two
+dielectricdisksseparatedbyathingapandresonatinginth ewhisperinggallery(WG)modesoftheelectromagneticﬁeld .
+The simultaneousmeasurementof the frequenciesof botha WG H mode and a WGE mode allowsone to discriminate
+the frequency shifts due to gap variations from those due to t emperature instability. A simple model, valid in quasi
+equilibriumconditions,describesthe frequencyshift of t he two modes in terms of four tuningparameters.A procedure
+forthedirectmeasurementof themispresented.
+✦
+1 INTRODUCTION
+ADIELECTRIC whispering gallery resonator,
+made with two dielectric disks separated
+by a thin gap is a very sensitive displacement
+sensor [1]. Indeed, parametric microwave sap-
+phire oscillators, operating at cryogenic tem-
+perature, have been proposed as readout sys-
+tems for bar-type gravitational antennae [2]
+and also as core sensors for space-gravity tests
+and geodesy research [3]. It has been shown
+that such devices provide high sensitive vi-
+bration measurements even when operating at
+room-temperature [4].
+The efﬁciency of these transducers is conve-
+niently described by the merit factor
+M=Q·∂zf
+f,
+whereQis the resonator quality factor, fits res-
+onance frequency and ∂zfis the tuning coefﬁ-
+cient, the derivative of the resonance frequency
+w.r.t. the gap spacing z.
+The modes are classiﬁed as WGH modes
+(characterized by Ez,Hφ,Hρ)andWGE modes
+(withHz,Eφ,Eρ), wherezdenotes the compo-
+nent of the ﬁeld vector along the disks rota-
+•The authors are with the Department of Physics “Enrico Fermi ”
+and CNISM unit` a di Pisa , Universit` a di Pisa, 56127 Pisa, It aly.
+E-mail: belﬁ@df.unipi.ittional axis, ρthe radial component, and φthe
+azimuthal one.
+TheWGH modes with high azimuthal mode
+number present the highest merit factors [2].
+Even at room temperature, X-band reso-
+nances in a sapphire resonator made with disks
+4 cm in diameter and 0.5 cm in thickness, ex-
+hibit aQfactor of ∼105and a tuning coefﬁcient
+of6 MHzµm−1so that M∼60µm−1. The
+frequency instability is dominated by thermal
+effects, which contribute with some tenths of
+MHz K−1. This strong temperature dependence
+of the dielectric tensor compromises the long
+term stability. On the other side, ultra-low
+frequency (i.e. diurnal timescale) displacement
+measurements have a key role in many appli-
+cations such as gravimetric exploration, envi-
+ronmental monitoring and materials testing.
+In the research ﬁeld of ultra stable oscillators,
+several techniques for precision temperature
+stabilization have been proposed. At low tem-
+perature (below 100 K) the cancellation (to ﬁrst
+order) of the temperature coefﬁcient of fre-
+quency can be achieved by employing doped
+dielectric disks [5], composite sapphire-rutile
+resonators [6] and mechanically compensated
+structures [7]. High thermal stability at room
+temperature can be obtained with high pre-
+cision control stages, by the optimization of
+temperature sensors [8] and actuators [9], and
+also by accurately modelling and simulating2
+the thermodynamic system under test [10].
+Due to the anisotropy of the sapphire crystal,
+the temperature coefﬁcient of frequency is in
+general different for WGH and WGE modes.
+Exciting two electromagnetic modes with dif-
+ferent polarization in the same resonator per-
+mit one to measure and stabilize the resonator
+temperature in oscillators [11], [12] even at
+room temperature [13]. In the case of a dis-
+placement transducer, WGH and WGE modes
+have to satisfy different boundary conditions at
+the gap spacing thus exhibiting also different
+tuning coefﬁcients ∂zf.
+The measured resonance frequency varia-
+tions in a parametric sapphire transducer are
+given by the mixing of pure-displacement sig-
+nals, pure-temperature signals and temperature-
+induced displacement signals. These last are due
+to the thermal expansion of the material com-
+prising the enclosing chamber.
+In this paper we propose a calibration tech-
+nique providing an estimate of pure displace-
+ment signals in a dual mode parametric sap-
+phire resonator transducer operating at room
+temperature.
+Fig. 1. A generic displacement sensor based
+on a transducer converting the physical quan-
+tity “x”, in a vertical displacement δlx. A servo
+actuator controls the separation set point. The
+sapphire disks are cut with their c-axis parallel
+tothecylinder axis.
+2 THERMAL EFFECTS IN A SAPPHIRE
+PARAMETRIC TRANSDUCER
+The frequency dependence on temperature
+for the parametric displacement transducer ofFig. 1 is described by the following equa-
+tion [12]:
+1
+f∂f
+∂T=−pǫ⊥αǫ⊥−pǫ||αǫ|| (1)
+−pDαD−phαh−pz(2αls+αl2+αlx−αl1),
+whereαθ=1
+θ∂θ
+∂Tare coefﬁcients depending on
+the materials and pθ=θ
+f∂f
+∂θare the ﬁlling factors
+of the considered WG mode and depend on
+the ﬁeld distribution of the mode inside the
+resonating volume. The label θrefers respec-
+tively to: ǫ⊥andǫ||the dielectric constants per-
+pendicular and parallel to the c-axis, Dandh
+the resonator spatial dimensions perpendicular
+and parallel to the c-axis, ls,l1,l2,lx,zthe verti-
+cal dimensions of the single sapphire disk, the
+chamber length, the lower support (actuator),
+the upper support (moving part) and the gap
+spacing. Under stationary conditions, one can
+assume to be valid the following linear and
+time-independent relation between a given pair
+of WG modes, the temperature Tand the gap
+spacingz:
+/parenleftBigg
+δfWGH
+δfWGE/parenrightBigg
+=C/parenleftBigg
+δT
+δz/parenrightBigg
+(2)
+with
+C=/parenleftBigg
+CWGH
+TCWGH
+z
+CWGE
+TCWGE
+z/parenrightBigg
+. (3)
+The anisotropy of both the material and the
+ﬁeld distribution assures that it is possible to
+invert Cand to obtain the following estimate
+for the effective temperature ﬂuctuations δT∗
+and for the pure (not thermally-induced) dis-
+placement δz∗:
+/parenleftBigg
+δT∗
+δz∗/parenrightBigg
+=C−1/parenleftBigg
+δfWGH
+δfWGE/parenrightBigg
+. (4)
+3 CALIBRATION
+The basis of the method is to determine the
+coefﬁcients of the matrix Cby means of a
+calibration procedure. A schematics of the ex-
+perimental apparatus for the sensor calibration
+is shown in Fig. 2. The sapphire transducer is
+placed inside a metallic chamber which is tem-
+perature stabilized at about 34◦C. Each cham-
+ber wall is electrically isolated in order to avoid3
+any inﬂuence from cavity modes on the chosen
+WG modes in the dielectric. A 4 cm thick insu-
+lation material covers the whole chamber to re-
+duce the heat losses. The temperature stabiliza-
+tion system consists of a standard PI controller
+driving a set of thermoresistances in thermal
+contact with the metallic cavity. The set point
+temperature is determined by a voltage input
+for calibration purposes. The sapphire disks
+composing the resonator transducer are cou-
+pled to four microwaves antennae (see Fig. 2).
+Two electric probes, coupled to the azimuthal
+electric ﬁeld are used for sustaining the WGE
+oscillations. One electric probe, coupled to the
+axial electric ﬁeld, and one magnetic probe,
+coupled to the azimuthal magnetic ﬁeld, excite
+the WGH oscillations. We chose to test the
+system using the following modes (see Fig. 3):
+fWGE11,1,1∼11.38 GHz, (5)
+fWGH 10,1,1∼11.20 GHz,
+forz∼300µm. In this choice there is very little
+coupling [1] between the selected modes and
+furthermore they are close enough in frequency
+so that it is possible to measure their beat
+note by means of an RF frequency counter.
+The upper resonator disk is rigidly attached to
+the aluminium top plate and the lower disk is
+mounted on a piezoelectric actuator.
+A PC based data acquisition system moni-
+tors three physical quantities: internal temper-
+ature (via the resistance of a Pt100 temperature
+probe), the WGE mode frequency (with a mi-
+crowave frequency counter) and the WGE−
+WGH beat frequency (with an RF frequency
+counter).
+4 CHECK OF THE METHOD
+Once the two microwave oscillations are imple-
+mented, we can evaluate the four elements of
+theCmatrix by means of the temperature and
+position controllers. CWGE
+z andCWGH
+z are given
+by the ratio between the frequency variation
+offWGEandfWGHand the calibrated gap
+variation induced by the piezoelectric actuator
+moving the lower disk.
+CWGE
+T andCWGH
+T are instead the proportion-
+ality constants between the frequency varia-
+tion extrapolated at thermal equilibrium and
+Fig. 2. Microwave circuitry for the dual mode
+self oscillating transducer employed for the
+calibration. TC: Temperature Controller, PS:
+Phase Shifter, MA: Microwave Ampliﬁer (ALC-
+ALN060029),Circ:Circulator,PD:PowerDetec-
+tor.
+Fig. 3. Resonance frequencies of WGH and
+WGEmodes versus gap spacing.4
+the temperature variation induced by thermal
+actuators. For the present setup we obtained:
+CWGE
+T= 0.155MHz/K,
+CWGH
+T= 3.64MHz/K,
+CWGE
+z= 0.567MHz/µm,
+CWGH
+z= 3.43MHz/µm.
+In Fig. 4 we show a comparison between
+the frequency-based temperature variation es-
+timateδT∗and the temperature variation mea-
+sured by a Pt100 thermometer placed inside the
+chamber. The measurement is referred to stabi-
+lized temperature conditions and rigid materi-
+als. The agreement between the two traces con-
+ﬁrms the validity of the model especially for
+very slow variations and makes it possible to
+measure the sensor temperature sensitivity by
+means of frequency measurements. In Fig. 5 we
+show a comparison between the displacement
+estimate δz∗, obtained from the calibrated dual
+frequency measurement, and δfWGH/CWGH
+z i.e.
+the displacement estimate one would get from
+theWGH mode alone (the most sensitive mode
+to the gap spacing variation). It is neatly visible
+that the trace δz∗displays a net reduction of the
+ﬂuctuations over time scales typical of thermal
+phenomena.
+It is worth remarking that the assumption of
+thermal equilibrium for the system is essential
+to effectively ﬁlter out the temperature noise
+from the displacement signal. In Fig. 6 we show
+the Allan deviation sz(τ) =/radicalBig
+/angbracketleft(¯zi−¯zi+1)2/angbracketright/2
+(where¯ziis the average of the displacement
+zover the i–th sample–period of duration τ) of
+the two displacement traces of Fig. 5.
+It can be seen that for integration times be-
+low about 200 sec the dual mode based dis-
+placement measurements are noisier than the
+single frequency measurements. This is due to
+the fact that over these time scales the dif-
+ferent sensor components are not in thermal
+equilibrium and the two frequencies are al-
+most uncorrelated. For integration times above
+about 500 sec, a net reduction of noise can be
+observed for the trace due to δz∗. This time
+scale corresponds to the longest time constant
+(sapphire thermalization) in the sensor. Here
+thermal equilibrium approximation is almost
+Fig. 4. Comparison between frequency-based
+temperature estimate and temperature mea-
+sured by aPt100 probe.
+Fig.5. Comparisonbetweenthedualfrequency
+based displacement estimate and the estimate
+obtained from thesingle WGHmode.
+valid and then the method provides the ex-
+pected noise cancellation.
+5 CONCLUSIONS
+We proposed and tested an experimental tech-
+nique for reducing the instabilities induced by
+thermal ﬂuctuations in a sapphire parametric
+displacement transducer. The effective temper-
+ature of the sensor and the pure displace-
+ment signal can be obtained from a double
+frequency measurement. The very simple time-
+independent model of the system has been5
+Fig. 6. Allan deviation of the displacement
+ﬂuctuations showninFig. 5.
+tested on a trial setup in order to outline the
+potential and the limitations of the method. In
+the future we intend to improve the efﬁciency
+of the thermal stabilization and isolation of the
+system in order to improve the bandwidth of
+the noise ﬁltering. Finally by implementing a
+double locking of the two reconstructed quan-
+tities (δT∗andδz∗) it will be possible to im-
+plement the experiment under static conditions
+and improve on the modelled assumptions.
+REFERENCES
+[1] D.G. Blair, E.N. Ivanov and H. Peng “Sapphire dielectric
+resonator transducers,” J. Phys. D: Appl. Phys. , vol. 25,
+pages 1110-1115, 1992.
+[2] D.G. Blair, E.N. Ivanov, M.E. Tobar and B.D. Cuthbert-
+son, “Sensitivity and optimization of a high-Q sapphire
+dielectric motion-sensing transducer,” IEEE Trans. Ultrason.
+Ferroelect. Freq. Contr. , vol. 45, pages 1303-1313, 1998.
+[3] L.P . Martin, J.J. Suter and M. Rosen, “Sapphire resonato r
+transducer accelerometer for space gravity gradiometry,”
+J. Phys. D: Appl. Phys. , vol. 27, pages 875-880, 1994.
+[4] D.G. Blair, E.N. Ivanov and H. Peng, “An ultrahigh sensi-
+tivity sapphire transducer for vibration measurements,” J.
+Phys. D: Appl. Phys. , vol. 27, pages 1150-1155, 1994.
+[5] J. G. Hartnett, M. E. Tobar, A. G. Mann, E. N. Ivanov, J.
+Krupka, and R. Geyer, “Frequency-temperature compensa-
+tion inTi3+andTi4+doped sapphire whispering gallery
+mode resonators,” IEEE Trans. Ultrason. Ferroelectr. Freq.
+Control , vol. 46 (4), pages 9931000, 1999.
+[6] J.G. Hartnett, P .Y. Bourgeois, J.D. Anstie, M.E. Tobar,
+N. Bazin, E.N. Ivanov, D. Cros, V . Giordano, Y. Ker-
+sale, “High-Q frequency-temperature compensated solid-
+nitrogen-cooled resonator-oscillators: ﬁrst results,” Elec-
+tronics letters , vol. 40, pages 41-42, 2004.[7] G. J. Dick, D. Santiago and R. T. Wang, “Temperature-
+Compensated Sapphire Resonator for Ultra-Stable Oscil-
+lator Capability at Temperatures Above 77 K,” IEEE Trans.
+Ultrason. Ferroelectr. Freq. Control 42 (5), 1995.
+[8] Y. Kersale, F. Lardet-Vieudrin, M. Chaubet, and V . Gior-
+dano, “ Thermal stabilisation of high-Q sapphire mi-
+crowave resonator using thermosensitive quartz sensor,”
+Electronics letters , vol. 34 (8), pages 783-784, 1998.
+[9] M. E. Tobar, A. J. Giles, S. Edwards, and J. H. Searls,
+“Low Noise 9-GHz Sapphire Resonator- Oscillator with
+Thermoelectric Temperature Stabilization at 300 Kelvin,”
+IEEE Trans. Ultrason. Ferroelectr. Freq. Control , vol. 5 (4),
+pages 108-110, 1995.
+[10] R. Boudot, C. Rocher, N. Bazin, S. Galliou, and V . Gior-
+dano, “High-precision temperature stabilization for sap-
+phire resonators in microwave oscillators,” Rev. Sci. Instr. ,
+vol. 76, 095110, 2005.
+[11] M. E. Tobar, E. N. Ivanov, C. R. Locke and J. G. Hartnett,
+“New method to build a high stability oscillator from
+the temperature compensation of the different frequency
+between modes of orthogonal polarization,” IEEE Trans.
+Ultrason. Ferroelectr. Freq. Control , vol. 50, pages 214-219,
+2003.
+[12] M. E. Tobar, G. L. Hamilton, J. G. Hartnett, E. N. Ivanov,
+D. Cros and P . Guillon, “The dual-mode frequency locked
+technique for the characterization of the temperature coef -
+ﬁcient of permittivity of anisotropic materials,” Meas. Sci.
+Technol. , vol. 15, pages 29-34, 2004.
+[13] J.A. Torrealba, M.E. Tobar, E.N. Ivanov, C.R. Locke, J- M.
+Le Floch, D. Cros, and J.G. Hartnett, “Room Temperature
+Dual-Mode Oscillator- First Results,” Electronics letters , vol.
+42 (2), pages 99-100, 2006.

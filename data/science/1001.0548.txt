@@ -1,0 +1,221 @@
+arXiv:1001.0548v1  [math.AC]  4 Jan 2010PROOF OF THE COMBINATORIAL NULLSTELLENSATZ OVER
+INTEGRAL DOMAINS IN THE SPIRIT OF KOUBA
+PETER HEINIG
+Abstract. It is shown that by eliminating duality theory of vector spac es from
+a recent proof of Kouba (O. Kouba, A duality based proof of the Combinatorial
+Nullstellensatz. Electron. J. Combin. 16 (2009), #N9) one o btains a direct
+proof of the nonvanishing-version of Alon’s Combinatorial Nullstellensatz for
+polynomials over an arbitrary integral domain. The proof re lies on Cramer’s
+rule and Vandermonde’s determinant to explicitly describe a map used by
+Kouba in terms of cofactors of a certain matrix.
+That the Combinatorial Nullstellensatz is true over integr al domains is a
+well-known fact which is already contained in Alon’s work an d emphasized in
+recent articles of Micha/suppress lek and Schauz; the sole purpose of the present note is
+to point out that not only is it not necessary to invoke dualit y of vector spaces,
+but by not doing so one easily obtains a more general result.
+Mathematics Subject Classiﬁcation 2010: 13G05, 15A06
+1.Introduction
+The Combinatorial Nullstellensatz is a very useful theorem (see [ 1]) about mul-
+tivariate polynomials over an integral domain which bears some resem blance to the
+classical Nullstellensatz of Hilbert.
+Theorem1 (Alon, Combinatorial Nullstellensatz (ideal-containment-version), The-
+orem 1.1 in [ 1]).LetKbe a ﬁeld, R⊆Ka subring, f∈R[x1,...,x n],S1,...,S n
+arbitrary nonempty subsets of K, andgi:=/producttext
+s∈Si(xi−s)for every 1≤i≤n. If
+f(s1,...,s n) = 0for every (s1,...,s n)∈S1×···×Sn, then there exist polynomi-
+alshi∈R[x1,...,x n]with the property that deg(hi)≤deg(f)−deg(gi)for every
+1≤i≤n, andf=/summationtextn
+i=1higi.
+Theorem 2 (Alon, Combinatorial Nullstellensatz (nonvanishing-version), Theo rem
+1.2 in [ 1]).LetKbe a ﬁeld, R⊆Ka subring, and f∈R[x1,...,x n]. Letc·
+xd1
+1···xdnnbe a term in fwithc/\e}atio\slash= 0whose degree d1+···+dnis maximum among
+all degrees of terms in f. Then every product S1× ··· ×Sn, where each Siis an
+arbitrary ﬁnite subset of Rsatisfying |Si|=di+ 1, contains at least one point
+(s1,...,s n)withf(s1,...,s n)/\e}atio\slash= 0.
+Three comments are in order. First, talking about subrings of a ﬁeld is equivalent
+to talking about integral domains: every subring of a ﬁeld clearly is an integral
+domain, and, conversely, every integral domain Ris (isomorphic to) a subring of
+its ﬁeld of fractions Quot( R). Second, strictly speaking, rings are mentioned in [ 1]
+only in Theorem 1, but Alon’s proof in [ 1] of Theorem 2is valid for polynomials
+The author was supported by a scholarship from the Max Weber- Programm Bayern and by
+the ENB graduate program TopMath.
+12 PETER HEINIG
+over integral domains as well. Third, it is intended that the Siare allowed to be
+subsets of Kin Theorem 1but required to be subsets of Rin Theorem 2, since this
+is the slightly stronger formulation: if Theorem 2is true as it is formulated here,
+then by invoking it with R=Kand by viewing an f∈R[x1,...,x n],Rbeing a
+subring of K, as a polynomial in K[x1,...,x n], it is true as well with the Sibeing
+allowed to be arbitrary subsets of K.
+In [1], Theorem 2was deduced from Theorem 1. In [ 3], Kouba gave a beautifully
+simple and direct proof of the nonvanishing-version of the Combinat orial Nullstel-
+lensatz, bypassing the use of the ideal-containment-version. Kou ba’s argument was
+restricted to the case of polynomials over a ﬁeld and at one step app lied a suitably
+chosen linear form on the vector space K[x1,...,x n] to the given polynomial fin
+Theorem 2.
+However, for Kouba’s idea to work, it is not necessary to have reco urse to duality
+theory of vector spaces and in the following section it will be shown ho w to make
+Kouba’s idea work without it, thus obtaining a direct proof of the full Theorem 2.
+Finally, two relevant recent articles ought to be mentioned. A very s hort di-
+rect proof of Theorem 2was given by Micha/suppress lek in [ 5] who explicitly remarks that
+the proof works for integral domains as well. Moreover, the diﬀere nces/braceleftbig
+s−s′:
+{s,s′} ∈/parenleftbigSk
+2/parenrightbig/bracerightbig
+in the proof below play a similar role in Micha/suppress lek’s proof. In [ 6],
+Schauz obtained far-reaching generalizations and sharpenings of Theorem 2, ex-
+pressly working with integral domains and generalizations thereof t hroughout the
+paper.
+2.Proof of Theorem 2
+The proof of the Theorem 2will be based on the following simple lemma.
+Lemma 3. LetRbe an integral domain. Let S={s1,...,s m} ⊆Rbe an arbitrary
+ﬁnite subset. Then there exist elements λ(S)
+1,...,λ(S)
+mofRsuch that
+λ(S)
+1·(1,s1,s2
+1,...,sm−1
+1) +···+λ(S)
+m·(1,sm,s2
+m,...,sm−1
+m)
+= (0,0,0,..., 0,/productdisplay
+1≤i<j≤m(si−sj)). (1)
+Proof. Let [m] :={1,...,m}. Deﬁne bto be the right-hand side of the claimed
+equation, taken as a column vector, and let A= (aij)(i,j)∈[m]2be the Vandermonde
+matrix deﬁned by aij:=si−1
+j. Then the statement of the lemma is equivalent to
+the existence of a solution λ(S)∈Rmof the system of linear equations Aλ(S)=b.
+By the well-known formula for the determinant of a Vandermonde ma trix (see [ 4],
+Ch. XIII, §4, example after Prop. 4.10), det( A) =/producttext
+1≤i<j≤m(si−sj).
+SinceSis a set, all factors of this product are nonzero, and since Rhas no zero
+divisors, the determinant is therefore nonzero as well. Now let αijbe the cofactors
+ofA, i.e.αij:= (−1)i+jdet(A(ij)), where A(ij)is the (m−1)×(m−1) matrix
+obtained from Aby deleting the i-th row and the j-th column (see [ 2], Ch. IX,
+§3, before Lemma 1). By Cramer’s rule (see Ch. IX, §3, Corollary 2 of Theorem 6
+in [2] or Theorem 4.4 in [ 4]), for every j∈[m],
+det(A)·λ(S)
+j=m/summationdisplay
+i=1αijbi.NULLSTELLENSATZ OVER INTEGRAL DOMAINS 3
+Usingbm= det(A),bi= 0 for every 1 ≤i < m , and the commutativity of an
+integral domain, this reduces to
+det(A)·/parenleftbig
+λ(S)
+j−αmj/parenrightbig
+= 0.
+Hence, since det( A)/\e}atio\slash= 0 and Rhas no zero divisors, if follows that the cofactors
+λ(S)
+j=αmj∈Rprovide explicit elements with the desired property. /square
+Using this lemma, Kouba’s argument may now be carried out without ch ange in
+the setting of integral domains.
+Proof of Theorem 2.LetRbe an arbitrary integral domain and f∈R[x1,...,x n]
+be an arbitrary polynomial. Let d1,...,d n∈N≥0be the exponents of a term
+c·xd1
+1···xdnnwithc/\e}atio\slash= 0 which has maximum degree in f. For each k∈[n],
+choose an arbitrary ﬁnite subset Sk⊆Rand apply Lemma 3withS=Skand
+m=|S|=dk+ 1 to obtain a family of elements ( λ(Sk)
+sk)sk∈SkofR(where in order
+to avoid double indices the coeﬃcients λare now being indexed by the elements of
+Skdirectly, not by an enumeration of each Sk) with the property that
+/summationdisplay
+sk∈Skλ(Sk)
+sk·sℓ
+k= 0 for every ℓ∈ {0,...,d k−1}, (2)
+/summationdisplay
+sk∈Skλ(Sk)
+sk·sdk
+k=/productdisplay
+{s,s′}∈(Sk
+2)(s−s′) =:rk∈R\{0}. (3)
+Using the coeﬃcient families ( λ(Sk)
+sk)sk∈Sk, deﬁne, ` a la Kouba, the map
+Φ :R[x1,...,x n]−→R
+g/mapsto−→/summationdisplay
+(s1,...,sn)∈S1×···×Snλ(S1)
+s1···λ(Sn)
+sn·g(s1,...,s n). (4)
+Due to the commutativity of an integral domain, Φ is an R-linear form on the
+R-module R[x1,...,x n], hence its value Φ( f) on a polynomial fcan be evaluated
+termwise as
+Φ(f) =/summationdisplay
+c·ta term in fc·Φ(t). (5)
+Ift=c·xd′
+1
+1···xd′
+nnis an arbitrary term in R[x1,...,x n], then
+Φ(t) =c·Φ(xd′
+1
+1···xd′
+nn) =c·/summationdisplay
+(s1,...,sn)∈S1×···×Snλ(S1)
+s1···λ(Sn)
+sn·sd′
+1
+1···sd′
+nn
+=c·/summationdisplay
+s1∈S1···/summationdisplay
+sn∈Snλ(S1)
+s1···λ(Sn)
+sn·sd′
+1
+1···sd′
+nn
+=c·n/productdisplay
+k=1/parenleftbigg/summationdisplay
+sk∈Skλ(Sk)
+sksd′
+k
+k,/parenrightbigg
+(6)
+where in the last step again use has been made of the commutativity o f an integral
+domain. By ( 6) and ( 2) it follows that for every term t, if there is at least one
+exponent d′
+iwithd′
+i< di, then Φ( t) = 0. Moreover, by the choice of the term
+c·xd1
+1···xdnn, every term c′·xd′
+1
+1···xd′
+nnoffwhich is diﬀerent from the term c·4 PETER HEINIG
+xd1
+1···xdnnmust, even if it has itself maximum degree in f, contain at least one
+exponent d′
+iwithd′
+i< di. Therefore
+/summationdisplay
+(s1,...,sn)∈S1×···×Snλ(S1)
+s1···λ(Sn)
+sn·f(s1,...,s n)(4)= Φ(f)(2),(6)=c·Φ(xd1
+1···xdn
+n) =
+(3),(6)=c·n/productdisplay
+k=1/productdisplay
+{s,s′}∈(Sk
+2)(s−s′) =c·n/productdisplay
+k=1rk/\e}atio\slash= 0, (7)
+sinceRhas no zero divisors. Obviously this implies that there exists at least o ne
+point (s1,...,s n)∈S1×···×Snwherefdoes not vanish. /square
+3.Concluding question
+Is there any interesting use for the fact that even in the case of in tegral domains
+the coeﬃcients of Kouba’s map can be explicitly expressed in terms of cofactors of
+the matrices ( si−1
+j)?
+Acknowledgement
+The author is very grateful to the department M9 of Technische U niversit¨ at
+M¨ unchen for excellent working conditions.
+References
+1. N. Alon, Combinatorial Nullstellensatz , Combin. Probab. Comput. 8(1999), no. 1, 7–29.
+2. G. D. Birkhoﬀ and S. Mac Lane, Algebra , 3. ed., American Mathematical Society, 1987.
+3. O. Kouba, A duality based proof of the Combinatorial Nullstellensatz , Electron. J. Combin. 19
+(2009), #N9.
+4. S. Lang, Algebra , 3. ed., Graduate Texts in Mathematics, vol. 211, Springer, 2002.
+5. M. Micha/suppress lek, A short proof of Combinatorial Nullstellensatz , arXiv:0904.4573v1 [math.CO]
+(2009).
+6. U. Schauz, Algebraically Solvable Problems: Describing Polynomials as Equivalent to Explicit
+Solutions , Electron. J. Combin. 15(2008), #R10.
+Zentrum Mathematik, Lehr- und Forschungseinheit M9 f ¨ur Angewandte Geometrie
+und Diskrete Mathematik, Technische Universit ¨at M¨unchen, Boltzmannstraße 3, D-
+85747 Garching bei M ¨unchen, Germany
+E-mail address :heinig@ma.tum.de

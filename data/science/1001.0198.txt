@@ -1,0 +1,205 @@
+arXiv:1001.0198v2  [gr-qc]  13 Jan 2010Features of gravitational waves in higher dimensions
+Otakar Sv´ ıtek
+Institute of Theoretical Physics, Charles University in Pr ague, V Holesovickach 2, 180 00
+Praha 8 - Holesovice, Czech Republic
+E-mail:ota@matfyz.cz
+Abstract. There are several fundamental diﬀerences between four-dim ensional and higher-
+dimensional gravitational waves, namely in the so called br aneworld set-up. One of them is their
+asymptotic behavior within the Cauchy problem. This study i s connected with the so called
+Hadamard problem, which aims at the question of Huygens prin ciple validity. We investigate
+the eﬀect of braneworld scenarios on the character of propag ation of gravitational waves on
+FRW background.
+1. Introduction
+Gravitational waves in higher dimensions have several feat ures that might distinguish them
+from the waves propagating on the four-dimensional manifol d only. Therefore, many features
+were already studied, including quasi-normal modes, modiﬁ cation of late-time tails, and also the
+higher-dimensional exact radiative spacetimes.
+Aside from these studies in general higher-dimensional spa cetimes, special attention has been
+paid to speciﬁc braneworld models describing our universe a s a hypersurface (brane) in a higher-
+dimensional spacetime (bulk). Apart from the quickly disco vered short-distance modiﬁcation
+of the Newtonian gravitational potential, a nontrivial cor rection to the quadrupole radiation
+formula has been derived [1]. Thereare also the notorious KK modes that are eﬀectively massive
+on the brane.
+2. Huygens principle and tails
+Huygens principle (and related Hadamard problem) deals wit h the dependence of ﬁeld values
+on the Cauchy data. Namely, whether it suﬃces to know the data only in an arbitrarily
+small neighborhood of the intersection of the past null cone with the Cauchy surface. In
+numerous mathematical studies of the problem (namely works by Hadamard [2], G¨ unther [3]
+and McLenaghan [4]) it was shown that the result depends on bo th the diﬀerential operator
+properties and underlying spacetime. This makes it a possib le candidate for studying deviations
+that might occur when we move to higher-dimensional spaceti mes.
+Related to the above described qualitative description the re is a problem of presence and
+characteristic decay of late-time tails. It quantiﬁes the f all-of of the initially sharp signal from
+distant source as seen by the observer at ﬁxed position. In th e context of physically interesting
+situations in four dimensions the study was started mainly b y Price [5], in higher dimensions it
+was recently studied for example in [6].
+The usual explanation of these late-time tails is the eﬀect of backscaterring on the curvature
+(or the potential), but one should be careful to use this expl anation for any conclusions.3. Brane model
+Our concern here is to analyze how the speciﬁc brane model aﬀec ts the validity of Huygens
+principle of gravitational waves on FRW spacetime. In brane world scenarios gravity feels the
+higher dimensional spacetime while other ﬁelds are conﬁned only to four-dimensional brane.
+There are several diﬀerent models and we will assume the Randa ll-Sundrum single brane set-up
+[7].
+For the description of the model we use the Gaussian embeddin g technique [8] with the
+following form of the metric
+ds2=dw2+iµνdxµdxν. (1)
+We assume Z2symmetry with bulk cosmological constant. The ﬁve-dimensi onal Einstein
+equations have the form
+GMN=κ2
+5[−Λ5gMN+τµνδµ
+Mδν
+Nδ(w)]. (2)
+The matter content on the brane is given by the Israel junctio n conditions
+K+
+µν=−K−
+µν=κ2
+5/bracketleftbigg
+τµν−1
+3iµν(0)ταα/bracketrightbigg
+, (3)
+where the brane stress energy tensor is decomposed in the fol lowing way
+τµν=−λiµν(0)+Sµν. (4)
+Four-dimensional Einstein equations then reduce to the for m
+4Gµν=−Λ4iµν(0)+κ2
+4Sµν+κ4
+5πµν+¯Eµν(0) (5)
+where Λ 4=κ2
+5
+12(κ2
+5λ2+6Λ5),κ2
+4=κ4
+5λ
+6,π∼S2, and¯Eµν(0) is a continuous part of certain Weyl
+tensor projection at the brane.
+Since we would like to study cosmological model we assume the perfect ﬂuid on the brane
+Sµν= (p+ρ)uµuν+piµν. (6)
+Then even πµνcan be put to perfect ﬂuid form with parameters quadratic in p,ρ.
+4. Modiﬁed Friedmann equation
+Restricting iµν(0) to the form of a standard FRW metric on the brane and assumi ng¯E00(0) =
+Λ4= 0 we arrive at the modiﬁed Friedmann equation correspondin g to the previously derived
+results [9]
+3(˙a2+k)
+a2=κ2
+4ρ+κ4
+5ρ2
+12. (7)
+For example the behavior of expansion function in the radiat ion era (ρ=ρ0a−4) withk= 0
+is the following
+a(t)∼t1/2/bracketleftbigg
+1+ℓ
+2t/bracketrightbigg1/4
+, (8)
+where the modiﬁcation due to brane model is clearly visible a s the second term in the bracket.5. Perturbations of the brane metric
+We consider FRW metric in the following form
+ds2=a2(−dη2+dr2+σ2dΩ2), (9)
+with conformal time ηand radial function σ=r,sin(r),sinh(r) (depending on the spatial
+curvature k= 0,1,−1).
+Axial perturbations of gravitational ﬁeld in the Regge-Whe eler gauge were derived in [10]
+and two polarizations might be parametrized as
+h0φ=h0(η,ρ)sin(θ)∂θYlm
+h1φ=h1(η,ρ)sin(θ)∂θYlm (10)
+If compatibility condition
+(σσ,r),r+2kσ2−1 = 0
+is satisﬁed, then equations for both modes can be reduced to o ne equivalent scalar equation.
+Deﬁning F=h1
+σathis equation is
+∂2
+ηF−∂2
+rF+l(l+1)
+σ2F−kF−∂2
+ηa
+aF= 0 (11)
+From the modiﬁed Friedmann equation (7) with conformal time and assuming radiation era
+we get
+∂2
+ηa=−ka+κ4
+5ρ2a3
+18, (12)
+which after combining with (11) leads to
+∂2
+ηF−∂2
+rF+l(l+1)
+σ2F−κ4
+5ρ2a2
+18F= 0. (13)
+The behavior of the solutions to this equation will now be ana lyzed both in the case of standard
+and modiﬁed Friedmann evolution equations.
+6. Behavior analysis
+For standard cosmology the term ∼ρ2is missing in (13) and the solution is of the form
+Fl∼σl∂rσ−1···∂rσ−1
+/bracehtipupleft/bracehtipdownright/bracehtipdownleft/bracehtipupright
+l−1∂r/parenleftbiggf+g
+σ/parenrightbigg
+, (14)
+with functions f,gdepending only on combinations r−ηandr+ηand so the gravitational
+radiation is bounded by null cones. Therefore, Huygens prin ciple is valid in this case.
+In our braneworld scenario the analysis is more diﬃcult and t he approach from [10] will
+be used. We start with the decomposition of solution F=F0+f, where F0satisﬁes the
+reduced equation (without the brane-induced modiﬁcation) with initial data of compact support
+σ(r)≤σ(r0) andffulﬁlls
+∂2
+ηf−∂2
+rf+l(l+1)
+σ2f=κ4
+5ρ2a2
+18(f+F0) (15)
+with homogeneous initial conditions.Next, we introduce the energy functional
+E(F)≡1
+2/integraldisplay/bracketleftbigg
+(∂ηF)2−(∂rF)2+l(l+1)
+σ2F2/bracketrightbigg
+dr (16)
+which is conserved for F0but not for fbecause we have
+d
+dηE(f) =/integraldisplayκ4
+5ρ2a2
+18(F0+f)∂ηf dr . (17)
+Sinceσ(r0+η)≥σ(r) (assuming σ(r+η)≤π
+2fork= 1) and using the Schwartz inequality
+together with the bounds implied by E(f),E(F0) we arrive at the following inequality
+eαd
+dη(e−α/radicalbig
+E(f))≤dα
+dη/radicalbig
+E(F0), (18)
+whereα=/integraltextη
+η0κ4
+5ρ2a2
+18√
+l(l+1)σ(r0+ ¯η)d¯η.
+We continue by estimation of parameter αwith the help of the behavior of functions σ,H
+and the relationκ4
+5ρ2
+36/lessorsimilarH2(fork= 1 one has to assumek
+a2≪H2).
+Finally, we obtain
+α≤σ(r0+η)a(η)H(η)
+2/radicalbig
+l(l+1)≡β (19)
+After further manipulation we get the following estimate fo r the energy functional of f
+E(f)≤E(F0)(eβ−1)2(20)
+Similar estimates can be obtained for derivatives of f. Using Sobolev estimates the ﬁeld f
+can be controlled pointwisely provided we have initial data of compact support and β≪1. The
+last condition is satisﬁed only for high enough mode number l.
+Conclusion
+We have shown that due to the modiﬁcation of Friedmann equati on in brane model the Huygens
+principle for gravitational waves seems to be satisﬁed only for high enough multipoles. This is
+in contrast with the standard cosmology. However, one shoul d be aware that the presented
+analysis is something like a zero approximation of the more d iﬃcult analysis that would involve
+complete spectrum of brane perturbations. Here we have anal yzed just the so called massless
+mode and reduced the brane inﬂuence to the modiﬁcation of Fri edmann equation.
+Acknowledgements
+This work was supported by grants GACR 202/07/P284, GACR 202 /09/0772 and the Czech
+Ministry of Education project Center of Theoretical Astrop hysics LC06014.
+References
+[1] Kinoshita S et al 2005 Class. Quantum Grav. 223911-3922
+[2] Hadamard J 1923 Lectures on Cauchys problem in linear partial diﬀerential eq uations(Yale, New Haven:
+Yale University Press)
+[3] G¨ unther F 1988 Huygens Principle and Hyperbolic Equations (Boston, MA: Academic)
+[4] McLenaghan R G 1982 Ann. Inst. H. Poincare 37211
+[5] Price R H 1972 Phys. Rev. D52419, 2439
+[6] Bizo´ n P, Chmaj T and Rostworowski A 2009 Class. Quantum Grav. 26175006
+[7] Randall L and Sundrum R 1999 Phys. Rev. Lett. 834690
+[8] Shiromizu T, Maeda K and Sasaki M 2000 Phys. Rev. D62024012
+[9] Binetruy P, Deﬀayet C and Langlois D 2000 Nucl. Phys. B565269-287
+[10] Malec E and Wyl¸ e˙ zek G 2005 Class. Quantum Grav. 223549-3553

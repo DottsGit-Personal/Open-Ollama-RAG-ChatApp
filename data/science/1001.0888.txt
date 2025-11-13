@@ -1,0 +1,435 @@
+arXiv:1001.0888v1  [astro-ph.SR]  6 Jan 2010Mem.S.A.It.Vol., 1
+c/circlecopyrtSAIt 2008 Memorie della
+Numericalsimulationsofthequietchromosphere
+Jorrit Leenaarts1
+Astronomical Institute - Utrecht University - PO Box 80000 N L–3508 TA Utrecht,
+The Netherlands e-mail: j.leenaarts@uu.nl
+Abstract. Numerical simulations of the solar chromosphere have becom e increasingly
+realistic over the past 5 years. However, many observed chro mospheric structures and be-
+havior are not reproduced. Current models do not show ﬁbrils in CaII 8542 Å, and neither
+reproduce the CaII 8542 Å bisector. The emergent H αline core intensity computed from
+the models show granulation instead of chromospheric shock s or ﬁbrils. I discuss these
+deﬁciencies and speculate about what physics should be incl uded to alleviate these short-
+comings.
+Key words. Sun: chromosphere, Methods: numerical
+1. Introduction
+The solar chromosphere is in many ways the
+most complicated and most interesting region
+ofthesolar atmosphere.
+The chromosphere is the interface layer
+between the convection zone /photosphere and
+the corona where the value of the plasma
+β-parameter changes from larger to smaller
+than unity. Consequently, its overall charac-
+ter changes from a convective overshoot layer
+into a regime where the three-dimensional
+(3D) magnetic topology determines the struc-
+ture. The chromosphereis convectivelystable,
+so the dominant input of mechanical energy
+comes in the form of waves excited by gran-
+ules and the buﬀeting of magnetic concentra-
+tions in the photosphere. It also absorbs ra-
+diation from both the photosphere ( e.g.,H−,
+Balmer-continuum) and the corona (He con-
+tinua). Thermal conduction in the corona has
+a strong inﬂuence on the shape of the transi-
+Send oﬀprint requests to :J. Leenaartstion region, and hence of the upper chromo-
+sphere. The dominant chromospheric energy
+loss is through radiation in strong lines. Thus,
+a comprehensive model of the chromosphere
+cannot be made without modeling the under-
+lying photosphere and upper convection zone
+andtheoverlyinglowercorona.
+The wide range of pertinent physical pro-
+cesses require that a comprehensive descrip-
+tion of the chromosphereneeds to incorporate
+acarefulcombinationofatomicandmolecular
+physics, radiative transfer, MHD and plasma
+physics.Thiscomplicatedphysicsrequiresnu-
+mericalmodeling.
+From the above discussion I conclude that
+a “minimallysatisfyingself-consistentmodel”
+ofthechromosphereshould
+–betime-dependent;
+–bethree-dimensional;
+–modelradiativeheatingandcooling;
+–have a lower boundary in the convection
+zone,with a boundaryconditionthat feeds
+enoughenergyintothesimulationtomain-2 Leenaarts: Simulations ofthe quiet chromosphere
+tain a the radiative energy loss at the solar
+eﬀectivetemperature;
+–have an upper boundary in the corona. If
+the model cannot self-consistently main-
+tain a corona, it must provide enough en-
+ergyﬂuxtokeepplasmaneartheboundary
+at coronaltemperatures.
+Within these constraints one can add features
+and physics to the model to increase its real-
+ism, while at the same time trying to keep the
+numberoffreeparametersto aminimum.
+The above list does not imply that mod-
+elswithoutthosepropertiesaresomehow“bad
+models”. To the contrary, simpler models are
+often instrumental in identifying and charac-
+terizing relevant physical processes. However,
+athoroughunderstandingofthechromosphere
+ultimatelyrequiresaself-consistentmodelthat
+reproducesall observedchromosphericbehav-
+ior.
+2. Currentstatus
+The current state-of-the-art in self-consistent
+chromospheric modeling is the modeling
+performed with the radiation-magneto-
+hydrodynamics (RMHD) Oslo Stagger
+Code (OSC Hansteen 2004) and the MPI-
+parallelized Bifrost code currently under
+development(Gudiksenet al.2010).
+Thesecodesarebasedonthemethodspio-
+neered by Nordlund (1982) in 3D convection
+simulations. They use the single-ﬂuid MHD
+approach to model the solar gas and mag-
+netic ﬁeld. Radiative transfer in the photo-
+sphere and lower chromosphere is treated us-
+ing multi-group opacity binning with scatter-
+ing (Skartlien 2000) with typically 4 radi-
+ation bins. This multi-group scheme is not
+well suited to model the few strong chromo-
+spheric lines that cause the dominant radia-
+tive energy losses in the upper chromosphere.
+Therefore both codes employ parameterized
+radiative cooling in those lines in the up-
+per chromospherebased on the detailed radia-
+tive transfer in a 1D dynamicalchromospheric
+model (computed with the RADYN code, see
+e.g.,Carlsson& Stein 2002). Radiative losses
+in the corona are computed using an opti-callythinradiativelossfunction.Heatconduc-
+tion parallel to the magnetic ﬁeld is included.
+Two-dimensional simulations cannot maintain
+a corona by themselves and require addi-
+tional heating at the upper boundary. Three-
+dimensional models however self-consistently
+maintaina coronabyJoule heating.
+Similar codes exist, such as Muram
+(V¨ ogleret al.2005),CO5BOLD(Freytaget al.
+2002; Wedemeyeret al. 2004) and RADMHD
+(Abbett 2008). However these codes so far do
+not support a corona (CO5BOLD, Muram) or
+lack detailed treatment of the radiation ﬁeld
+(RADMHD).
+OSC has been used to study dynamic
+ﬁbrils (DFs) by Hansteenet al. (2006) and
+De Pontieuet al. (2007a). They conclude that
+DFs are driven by magneto-acoustic shocks
+based on the similarity in dynamic behavior
+of wave-guidedshocksin a 2D simulationand
+observations of DFs in the core of H α. Their
+work has been extended to 3D in simulations
+byMart´ ınez-Sykoraet al. (2009b).
+3D simulations of ﬂux emergence from
+the convection zone through the chromo-
+sphere into the corona were performed by
+Mart´ ınez-Sykoraetal. (2008, 2009a) A simi-
+larsimulationshowedthepresenceofAlfv´ enic
+waves with properties very much like what
+has been observed with the Hinode spacecraft
+(DePontieuetal. 2007b).
+For a good overview of 3D solar atmo-
+sphere modeling and post-processing in the
+form of 3D radiative transfer I refer the
+readertoCarlsson(2008,2009)andreferences
+therein.
+Despite the impressive progress that has
+been madein the last 5 years,many,oftensur-
+prisinglybasic propertiesof the chromosphere
+are not yet reproduced in the models. In the
+next section I discuss some of those observa-
+tionalfactsandspeculateaboutwhatismissing
+inthe models.Leenaarts: Simulations ofthe quiet chromosphere 3
+3. Open questionsandchallenges
+3.1. Lack ofextended magnetic
+structurein CaII8542Å
+TheﬁrstthingonenoticesinCaII8542Åline-
+core images are the elongated structures de-
+lineating magnetic ﬁeld lines around network
+regions. The NLTE CaII 8542 Å computation
+fromasnapshotofa3Dsimulationofthechro-
+mosphere with OSC of Leenaartset al. (2009)
+does, however, not show any such structures,
+despitethepresenceofarelativelystrongmag-
+neticﬁeld.Insteaditshowsthesignatureofos-
+cillations and shocks, both in relatively ﬁeld-
+free regions as in regions with stronger mag-
+netic ﬁelds. Similar structures are observed in
+CaII 8542 Å quiet regionsaway from the net-
+work.Thelack ofﬁbrilsinthe simulationisin
+my opinion the most pressing challenge mod-
+elsofthechromospherecurrentlyface.
+There can be many reasons for this lack.
+It might be that such ﬁbrils require large-scale
+magnetic ﬁeld conﬁgurationsthat do not ﬁt in
+thetypicalsizeofthecomputationaldomainof
+16×16×16Mm3.Itmightbethatthesimula-
+tion cannot form ﬁbrils due to a lack of grid
+resolution. Alternatively, ﬁbril-like structures
+mightexist in the models,but the lackof reso-
+lution inhibits mass loading of the ﬁbrils, pos-
+sibly due to too large numerical viscosity (see
+also Sec. 3.2). This lack of mass then trans-
+lates into optically thin ﬁbrils. Another possi-
+bility is that CaII 8542Å opacityin the ﬁbrils
+is caused by physical processes currently not
+modeled in the simulations, for example non-
+equilibrium ionization or plasma e ﬀects that
+cannot be modeled within the MHD assump-
+tion.
+3.2. Linebroadeningandbisector
+The spatially averaged CaII 8542 Å line pro-
+ﬁlecomputedin3DNLTEfromthesameOSC
+snapshot shows a too narrow and too deep
+linecorecomparedtoobservations(seeFigs.2
+and 3 of Leenaartsetal. 2009). These calcu-
+lations did not employ any non-physical mi-
+croturbulence, and had a rather large grid cell
+size of64×64×32km3. Thetoo narrowcorewas attributed to this lack of spatial resolu-
+tion. Indeed, a newer simulation by Carlsson
+(private communication) with a cell size of
+32×32×16km3showsashallowerandwider
+averageCaII 8542Å core, but not yet as wide
+and shallow as observed. The increase in grid
+resolution causes an increase in amplitude of
+the velocity variations in the mid and upper
+chromosphere,andhenceawideningoftheav-
+erageproﬁle.
+This result suggests that with even higher
+resolution the width of the line core might at
+least be qualitatively explained. However, the
+observed proﬁle is at least partially formed in
+ﬁbrils and as long as the models do not repro-
+duce these the core width and depth remains
+notcompletelyunderstood.
+The low resolution simulation also did not
+reproducethe observed inverse C-shape of the
+CaII8542Ålinebisector.Similarresultswere
+obtained earlier by Uitenbroek (2006) who
+computed the NLTE line proﬁles from both
+a 3D simulation that did not extend into the
+corona and a dynamic 1D model. It would be
+interesting to see whether the bisector shape
+can be reproduced by high-resolution simula-
+tions, or that it is determined by phenomena
+currentlynotpresentinthe simulations.
+3.3. Lackof Hαopacity
+The identiﬁcation of DFs as magneto-acoustic
+shocks guided along magnetic ﬁeld lines has
+been established based on the excellent agree-
+ment of dynamical properties observed in H α
+with 2D simulations (Hansteenet al. 2006;
+De Pontieuet al.2007a).
+In a simulation with identical reso-
+lution and magnetic ﬁeld conﬁguration,
+Leenaartsetal. (2007) investigated the e ﬀect
+of non-equilibrium hydrogen ionization on
+the chromosphere. They found that the hy-
+drogenn=2 level populations and column
+densities are much higher in the simulated
+DFs than elsewhere in the chromosphere.
+This is consistent with the observations where
+DFs appear dark on top of a brighter, deeper
+formed background. However, a subsequent
+NLTE column-by-column radiative transfer
+computation employing non-equilibrium4 Leenaarts: Simulations ofthe quiet chromosphere
+Fig.1.Vertically emergent H αline core intensity from a 2D radiation-MHD simulation with
+non-equilibrium hydrogen ionization taken into account. S tartup eﬀects are visible the ﬁrst 3
+minutes. There is a weak imprint of upward propagating shock s, superimposed on a slower-
+evolving pattern caused by granulation and reversed granul ation. No parabolic outlines of DFs
+are presentasintheobservations(seeFig. 7ofDePontieuet al. 2007a).
+Fig.2.Results of a NLTE radiative transfer computation of the H αline from a 3D radiation-
+MHDsimulationwithanLTEequationofstate.Theblacklinei npanelsaandbindicatesthecut
+shown in panel c and d. Panel a: vertically emergent intensit y in the far blue wing; b: vertically
+emergentintensityatlinecenter;c:verticallyemergenti ntensityalongthecutindicatedinpanels
+aandbforthebluewing(grey,left-handscale)andlinecent er(black,righthandscale);d: τ=1
+heightforthebluewing(grey)andlinecenter(black).
+temperatures and electron densities, but as-
+sumingstatisticalequilibriumforthehydrogen
+level-populations,showedthat the upperchro-
+mosphere is transparent in the H αline core in
+thissimulation.
+Fig. 1 showsthe time-evolutionof the ver-
+ticallyemergentHαlinecenterintensity.There
+are magneticﬁeld concentrationsat x=4 Mm
+andx=12 Mm along which DFs run up inthechromosphere.Theirtopsshouldappearas
+paraboliccurvesinthis xt-slice,butinsteadthe
+sliceshowsaslowlyevolvingpatternofgranu-
+lation and reverse granulation. Superimposed
+on this pattern is a weak imprint of upward
+propagating shocks (the diagonal curves ema-
+nating from the magnetic ﬁeld concentrations,
+forexampletheonestartingat( x,t)=(5.5,10)
+Analysis of the contribution functions showsLeenaarts: Simulations ofthe quiet chromosphere 5
+that this imprint forms below 1 Mm, much
+lower than the typical height of DFs (see Fig.
+16ofDe Pontieuet al.2007a).
+Fig.2showstheresultsofaNLTEcolumn-
+by-column radiative transfer computation of a
+snapshotofa3Dsimulationofﬂux-emergence
+byMart´ ınez-Sykoraet al.(2008).Thissimula-
+tion used an LTE equation of state unlike the
+2D simulation that used a more realistic non-
+equilibrium equation of state. Panels a and b
+show that the Hαline core shows granulation,
+even though itsτ=1 height lies between 0.3
+and 1.7 Mm (panel d). The line source func-
+tion is strongly scattering and set in the upper
+photosphere, where it is sensitive to the tem-
+peraturepatternofthe granulation.
+Both the 2D non-equilibrium simulation
+and the 3D LTE simulation show an H αline
+center intensity pattern that is set in the upper
+photosphere, in stark contrast to the observa-
+tionswhichshowﬁbrilarstructureinallbutthe
+quietest areas of the atmosphere.Even in such
+quiet areas the observationsdo not show gran-
+ulation, but signatures of shockwaves instead
+(Ruttenet al.2008).
+Some of the reasons that might cause the
+absenceofﬁbrilsinthesimulatedCaII8542Å
+line core also apply here: too small compu-
+tational domain, too low spatial resolution or
+the limitations of the MHD assumption. The
+2D simulation necessarily had a rather simple
+magnetic ﬁeld topology, which might inhibit
+the formation of ﬁbrils and the mass loading
+oftheupperchromosphere.The3Dsimulation
+did not suﬀer from this, but it had lower reso-
+lution and did not model non-equilibriumion-
+ization. High resolution 3D models with non-
+equilibrium hydrogen ionization might have a
+chromospherethat isopticallythickinH α.
+Hydrogen line formation is however noto-
+riouslydiﬃculttomodel.Thenon-equilibrium
+ionizationofhydrogendoesnotonlya ﬀectthe
+electron density and temperature in the chro-
+mosphere, it also has a strong e ﬀect on hydro-
+gen line formation. The standard NLTE line
+formationassumptionofstatisticalequilibrium
+is notvalidbecauseoftheslow collisionaland
+radiativetransitionratesascomparedtothehy-
+drodynamicaltimescale.Inadditionatleastthe
+Lyman-αndβlines need to be modeled withpartialfrequencyredistribution(PRD)because
+of their strong inﬂuence on the H αline. Both
+time-dependentradiative transfer and PRD ef-
+fects were ignored in the results of Figs. 1
+and 2. Inclusion of these e ﬀects might signif-
+icantlyincreasetheH αopacity.
+Thus, proper 3D modeling of the H αline
+requires full time-dependent radiative transfer
+with PRD in tandemwith the MHD evolution,
+a Herculean task that has not even been done
+in 1D hydrodynamic simulations. So far all
+1D simulations perform radiative transfer
+in complete redistribution (Carlsson& Stein
+2002; Rammacher&Ulmschneider 2003;
+Kaˇ sparov´ aetal. 2009).
+An easier way out is to perform the 3D
+radiation-MHD simulations with approximate
+non-equilibrium hydrogen ionization follow-
+ing the method developed by Sollum (1999)
+as was done in 2D by Leenaartset al. (2007)
+in order to get reasonably accurate values for
+the electron density and temperature. One can
+then perform time-dependent radiative radia-
+tivetransferwithPRD onaseriesofsnapshots
+from the simulation to get the H αline pro-
+ﬁles.Thisseparatesthedetailedradiativetrans-
+fer from the MHD computation, which signif-
+icantly reduces the di ﬃculty of the problem.
+However, even with this simpliﬁcation it re-
+mains a daunting task to accurately model H α
+lineformationinthedynamicchromosphere.
+4. Summary& conclusions
+Multidimensional radiation-MHD simulations
+of the solar chromosphere are becoming in-
+creasingly realistic. They have, amongst other
+things,beenusedtostudydynamicﬁbrils,ﬂux
+emergence and the propagation of Alfv´ enic
+wavesintothecorona.
+The modelsyet fail to reproducesome ob-
+servationalfacts:
+–simulatedCaII8542Å coreimagesdonot
+showﬁbrils;
+–the averagesimulated CaII 8542Å core is
+deeper and narrower than observed and its
+bisector not show the observed inverse C-
+shape;
+–the simulated Hαline core shows granu-
+lation, both in 2D simulations with non-6 Leenaarts: Simulations ofthe quiet chromosphere
+equilibriumeﬀectstakenintoaccountsand
+in3Dwith anLTEequationofstate.
+In order to reproduce these the models
+probablyrequirehigherresolution,largercom-
+putational domains, an improved treatment of
+radiation and non-equilibrium hydrogen ion-
+ization and inclusion of plasma e ﬀects. In or-
+dertomodelhydrogentransitions,inparticular
+Hα, 3D NLTE time-dependentradiative trans-
+fercodesincludingPRDneedtobedeveloped.
+Acknowledgements. J.L. acknowledges ﬁnancial
+support by the European Commission through
+the SOLAIRE Network (MTRN-CT-2006-035484)
+and the Netherlands Organisation for Scientiﬁc
+Research (NWO).
+References
+Abbett, W. P. 2008, in Astronomical Society
+of the Paciﬁc Conference Series, Vol. 383,
+Subsurface and Atmospheric Inﬂuences on
+Solar Activity, ed. R. Howe, R. W. Komm,
+K. S. Balasubramaniam, & G. J. D. Petrie ,
+327
+Carlsson, M. 2008, Physica Scripta Volume T,
+133,014012
+Carlsson, M. 2009, Memorie della Societa
+AstronomicaItaliana,80,606
+Carlsson, M. & Stein, R. F. 2002, ApJ, 572,
+626
+De Pontieu, B., Hansteen, V. H., Rouppe van
+derVoort,L.,vanNoort,M.,&Carlsson,M.
+2007a,ApJ,655,624
+DePontieu,B.,McIntosh,S.W.,Carlsson,M.,
+et al. 2007b,Science,318,1574
+Freytag, B., Steﬀen, M., & Dorch, B. 2002,
+AstronomischeNachrichten,323,213
+Gudiksen, B. V., Carlsson, M., Hansteen, V.,
+et al. 2010,A&A,inpreparation
+Hansteen, V. H. 2004,in IAU Symposium,ed.
+A. V. Stepanov, E. E. Benevolenskaya, &
+A. G.Kosovichev,385–386
+Hansteen, V. H., De Pontieu, B., Rouppe van
+derVoort,L.,vanNoort,M.,&Carlsson,M.
+2006,ApJ,647,L73
+Kaˇ sparov´ a, J., Varady, M., Heinzel, P.,
+Karlick´ y, M., & Moravec, Z. 2009, A&A,
+499,923Leenaarts, J., Carlsson, M., Hansteen, V., &
+Rouppe van der Voort, L. 2009, ApJ, 694,
+L128
+Leenaarts, J., Carlsson, M., Hansteen, V., &
+Rutten,R. J. 2007,A&A,473,625
+Mart´ ınez-Sykora,J.,Hansteen,V.,&Carlsson,
+M.2008,ApJ,679,871
+Mart´ ınez-Sykora,J.,Hansteen,V.,&Carlsson,
+M.2009a,ApJ,702,129
+Mart´ ınez-Sykora, J., Hansteen, V., DePontieu,
+B., &Carlsson,M. 2009b,ApJ,701,1569
+Nordlund,A.1982,A&A,107,1
+Rammacher, W. & Ulmschneider, P. 2003,
+ApJ,589,988
+Rutten, R. J., van Veelen, B., & S¨ utterlin, P.
+2008,Sol.Phys.,28
+Skartlien,R. 2000,ApJ,536,465
+Sollum,E.1999,Master’sthesis,Universityof
+Oslo
+Uitenbroek,H. 2006,ApJ,639,516
+V¨ ogler, A., Shelyag, S., Sch¨ ussler, M., et al.
+2005,A&A,429,335
+Wedemeyer, S., Freytag, B., Ste ﬀen, M.,
+Ludwig, H.-G., & Holweger, H. 2004,
+A&A,414,1121

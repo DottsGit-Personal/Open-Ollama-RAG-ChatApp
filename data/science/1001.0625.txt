@@ -1,0 +1,358 @@
+arXiv:1001.0625v1  [cond-mat.mtrl-sci]  5 Jan 2010Spatial distribution functions of random packed granular s pheres obtained by direct
+particle imaging
+Andreea Panaitescu and Arshad Kudrolli
+Department of Physics, Clark University, Worcester, MA 016 10
+(Dated: (August 30, 2018))
+We measure the two-point density correlations and Voronoi c ell distributions of cyclically sheared
+granular spheres obtained with a ﬂuorescence technique and compare them with random packing
+of frictionless spheres. We ﬁnd that the radial distributio n function g(r) is captured by the Percus-
+Yevick equation for initial volume fraction φ= 0.59. However, small but systematic deviations are
+observed because of the splitting of the second peak as φis increased towards random close packing.
+The distribution of the Voronoi free volumes deviates from p ostulated Γ distributions, and the
+orientational order metric Q6shows disorder compared to numerical results reported for f rictionless
+spheres. Overall, these measures show signiﬁcant similari ty of random packing of granular and
+frictionless spheres, but some systematic diﬀerences as we ll.
+PACS numbers: 45.70.Qj, 05.65.+b
+The packing of spheres is one of the enduring prob-
+lems in physics, and a basis to understand the structure
+and strength ofgranularmatter. Assuming dominanceof
+stericinteractions,densepackingofsteelsphereswasﬁrst
+used to understand structure of simple liquids with the
+radialdistributionfunction g(r)andtheorientationorder
+metricQ6[1]. However, experimental measurements at
+boundaries [2] and computer simulations in the bulk [3]
+have since shown that inter-particle friction can aﬀect
+granular packing. Friction between particles changes the
+fundamental stability condition at contact from the fric-
+tionless case, causing a packing to be protocol dependent
+and the system to be out-of-equilibrium.
+The diﬃculty of accurately measuring signiﬁcant num-
+ber of particle positions in the bulk away from the inﬂu-
+ence of boundaries has also stymied progress. Recent ex-
+perimental studies [4, 5] have examined packing of gran-
+ular spheres and ﬁnd that the associated free volume dis-
+tributions are described by a Γ distribution with two ﬁt-
+ting parameters which were then given a thermodynamic
+interpretation [5]. These results are puzzling in light of
+earlier analytical work in one-dimension and simulations
+in two and three dimensions that show a Γ distribution
+with 3 ﬁtting parameters is needed to describe a broad
+range of volume fraction for elastic particles [6].
+Here, we discuss new experiments with spherical gran-
+ular particles which enable us to directly determine sta-
+tistical measures to understand the eﬀect of friction, test
+the eﬀect of shear, and perform a rigorous comparison
+with frictionless hard sphere packing. Using a ﬂuores-
+cence technique [4, 7, 8], we obtain the packing of glass
+spheres before and after application of cyclic shear, and
+compare with random packing of frictionless spheres. We
+ﬁnd that the overall shape of g(r) for volume fraction
+φ∼0.6 is captured by the Percus-Yevick equation [9]
+which assumes random packing of spheres without angu-
+lar correlations. But, systematic deviations are observed
+because of the splitting of the second peak as φis in-
+creased toward random close packing, Q6shows partial
+hexagonal order, and the distribution of the Voronoi free
+FIG. 1. (a) Schematic diagram of the cyclic shear cell used in
+the experiments. (b) An image of the initial packing observe d
+in the central vertical slice of the shear cell after particl es
+are ﬁlled inside the cell. (c) Ordering grows near the top
+boundary which is free to move after 600 shear cycles but
+the packing in the bulk appears random. (d) The probability
+distribution function of the diameter of the glass beads. (e )
+The volume fraction φas a function of shear cycle number
+measured in the bulk (red/grey) evolves more slowly than
+in the entire cell (black) because of the ordering near the
+boundaries.
+volumes shows enhanced probabilities at higher values
+compared with Γ distributions postulated [6] for random
+packing of spheres.
+The experiments to measure structure of granular
+packing are performed using a shear cell shown schemat-
+ically in Fig. 1(a). The parallelepiped shaped cell con-
+sists of a rigid front, back, and bottom transparent glass
+boundary, andside boundaries that can be tilted through
+a prescribed angle θto cyclically shear and perturb the
+packing. Glass spheres with density ρg= 2.5×1032
+kg m−3and average diameter d= 1.034mm are gently
+added inside a shear cell ﬁlled with an interstitial liquid
+with the same refractive index as the glass spheres, den-
+sityρl= 1.0×103kg m−3, and viscosity ν= 2.2×10−2
+Pas. Then a ﬂat plate is placed on the top, which is
+constrained to move only in the vertical and horizontal
+directionandnot allowedtorotateusingarigidsetoflin-
+ear guides. The initial volume fraction of the glass beads
+is measuredusingthe massofthe particlesadded and the
+volume of the cell occupied and found to be φ= 0.59. A
+normal stress σz= 0.4Pa is applied on the top boundary
+which is about ﬁve times the net gravitational stress due
+to the weight of the grains alone inside the cell, and is
+found to eliminate gradientsdue togravityin the system.
+A dye is added to the liquid and a thin slice of the
+cell is illuminated with a laser and a cylindrical lens [10].
+The resulting ﬂuorescent light causes the particles to ap-
+pear dark against a bright background, and is imaged
+from an orthogonal direction with a resolution of 20 pix-
+els to a particle diameter using a 1000 ×1000 pixel 10-
+bit camera. A stack of images is recorded by linearly
+translating the plane of illumination. We then examine
+a 40d×5d×17.5dcentral region as in indicated by box
+in Fig. 1(b,c) to avoid any eﬀect of the boundaries, and
+locate the absolute position of the spheres to within the
+slight polydispersity of the particles (see Fig. 1(d)).
+We impose quasi-static shear strain by varying θbe-
+tween±π/36 radians with a mean angular speed ω=
+8.0×10−3rad s−1, with a wait time of 50s while the stack
+of images is acquired every time the system returns to its
+original position, θ0= 0rad. The lubrication forces [11]
+due to liquid draining at contacts can be estimated to
+be 10−5lower than the conﬁning forces, and the particle
+Reynolds number is ∼10−1. Therefore the particles can
+be assumed to be in contact during the entire experiment
+and the interstitial liquid does not have any impact on
+the observed structure.
+The mean packing volume fraction of the spheres in-
+side the entire cell is ﬁrst obtained by measuring the po-
+sition of the top plate as a function of the shear cycles.
+The mean φis observed to increase logarithmically from
+the initial value by 5% (Fig. 1e) consistent with previous
+reports with a similar setup [12]. However, it is note-
+worthy that this is the total φinside the cell and can
+be diﬀerent than φin the bulk because of inﬂuence of
+boundaries [10]. Examining the images corresponding to
+the initial state of the packing, before applying the shear
+deformation, N= 1 and after shearcycle N= 600shown
+in Fig. 1(b,c), we indeed note greater ordering near the
+top where the boundary shears the spheres and moves to
+accommodate changes in the total φ. The boundary be-
+tween ordered and disordered region appears sharp and
+moves downward as Nis increased further, similar to de-
+velopment of crystalline order inside a Couette shear cell
+upon extended shearing [7]. Therefore, we focus on the
+ﬁrst 600 shear cycles where the particles inside the bulk
+in the observation window appear uniformly random and
+obtainφfrom the ratio of the particle volume and theφ = 0.605
+φ = 0.590
+FIG. 2. The radial distribution function g(r) plotted as func-
+tion of distance rnormalized by the mean diameter dfor
+initial packing φ= 0.59 and ﬁnal packing φ= 0.605 obtained
+after shearing, (black), is compared withthetheoretical c alcu-
+lation (red/grey) obtained by using the Percus-Yevick equa -
+tion, and the measured polydispersity of the beads. The
+φ= 0.605 case is oﬀset for clarity. Inset: The calculated
+pair distribution functions gijfor particles coarsened to three
+sizes (φ= 0.59). The thick red/grey curve represents the av-
+erage of the six distinct contributions gij(r) and is used for
+comparison with the experimental g(r).
+average Voronoi volume in the bulk. The Voronoi vol-
+ume is deﬁned by points in the volume closest to that
+particle, and is calculated using algorithms written by
+Rycroft [13] and measured particle positions. As shown
+in Fig. 1(e), the evolution of φin the bulk is observed to
+be slower compared with φmeasured for the entire cell
+and is used in all subsequent discussion.
+To analyze the structure from the measured particle
+positions, we ﬁrst discuss the radial distribution function
+g(r) which represents the probability that the center of
+a particle is found at a distance rfrom another particle.
+g(r) obtained from the experimental data is shown in
+Fig. 2. For the initial volume fraction φ= 0.59,g(r)
+shows a tall peak at r∼d, and a broad peak at r∼
+2d, but for the higher φobtained after cyclic shear, the
+second peak splits and a weak secondary peak occurs at
+r=√
+3d, corresponding to the next nearest neighbor in
+a face-centered-cubic (FCC) lattice.
+Now, the Percus-Yevickequation [9, 14] can be used to
+analytically ﬁnd g(r) for randomly distributed particles
+for a given particle size, and volume fraction. Because of
+the slight polydispersity of the particles used in our ex-
+periments, we in fact have to compute the Percus-Yevick
+pairdistributionfunction forpolydispersesphericalpack-
+ingsgij(r), wheretheindices i,jrepresenttheprobability
+ofﬁnding a particle with diameter djat a distance rfrom
+a particle with diameter di.
+gPY(r) =1
+n(n−1)n/summationdisplay
+i=1
+j≥igij(r) (1)3
+(a)
+(b)
+FIG. 3. (a) The probability distribution of Q6measured for
+each particle using Voronoi neighbors are observed to de-
+scribed by Gaussian ﬁts. (b) The mean Q6,localmeasured
+as a function of φ. The curve is a guide to the eye and shows
+thatQ6increase somewhat over the narrow φinvestigated.
+herenis the number of particle sizes in the system.
+Coarse graining the observed size distribution - shown in
+Fig. 1(d) - into three sizes d1= 0.98mm,d2= 1.02mm,
+d3= 1.07mm (using a greater ndoes not change the
+results signiﬁcantly), we calculate the corresponding six
+distinctgij(r) terms, which are plotted in the Inset to
+Fig. 2 for φ= 0.59, and thus the computed gPY(r) for
+the polydisperse packing according to the Percus-Yevick
+approximation, which is plotted in Fig. 2. We observe
+that the amplitude and width of the primary peak and
+the broad features of the secondary peaks are in good
+agreement with the Percus-Yevick approximation. This
+comparison is especially noteworthy because there are
+no ﬁtting parameters. At higher φ, the primary peak
+and the overall form is still captured by the gPY(r), but
+details such as the splitting of the second peak which
+can indicate hexagonal ordering is not captured because
+Percus-Yevick approximation assumes random angular
+orientation.
+To investigate orientational order in the packing, we
+use the orientation order metric
+Ql≡N/summationdisplay
+i=1/parenleftBigg
+4π
+l(l+1)m=l/summationdisplay
+m=−l|/angbracketleftYlm(Θ(r),Φ(r))/angbracketright|2/parenrightBigg1/2
+,(2)where,l= 6 to examine hexagonal order, Ylmare the
+spherical harmonics, Θ( r) and Φ(r) are the polar and az-
+imuthal angle, respectively, and ris the position vector
+from a particle to its neighbor [15]. We deﬁne particle
+neighborsasthosewhichshareaVoronoicellsurface[13].
+This removes any ambigity as is introduced when consid-
+ering only neighbors at contact due to roundoﬀ errors
+in ﬁnding a particle center. In order to compare with
+packing of elastic particles, we ﬁrst compute Q6,global
+by averaging Ylm(Θ(r),Φ(r)) over all the bonds of the
+packing, and ﬁnd Q6,global= 0.27±0.02. If particles
+neighbors are uncorrelated, then Q6is small because it
+goes as square root of the total number of bonds [16].
+On the other hand, Q6for a FCC crystal with 12 neigh-
+bors is 0.5745. But even a slight perturbation due to
+roundoﬀ errors introduces 2 extra neighbors and the cor-
+responding Q6is on average 0.454 [17]. Therefore, the
+observed distribution shows ordering but the degree of
+order appears lower compared with simulations of fric-
+tionless hard spheres [18], where Q6as high as 0.4 was
+reported for a frictionless hard spheres at comparable φ.
+In those studies which were performed with considerably
+smaller system size, particle inelasticity was observed to
+lowerQ6but not as signiﬁcantly as in our experiments.
+To examine the local orientational order more closely,
+we plot the observed probability distribution of Q6for
+each particle in Fig. 3(a), and the mean of the distribu-
+tion/angbracketleftQ6,local/angbracketrightin Fig. 3(b). /angbracketleftQ6,local/angbracketrightis more sensitive
+thanQ6,globalto small crystalline regions within a pack-
+ing and allows us to avoid the possibility of destructive
+interference between diﬀerent crystalline regions [19]. No
+signiﬁcant enhancement of distribution is found at the
+values corresponding to FCC crystal, and the observed
+Q6distribution can be described rather well in fact by
+Gaussian ﬁts. From these observations we conclude that
+while there is some local hexagonal order which increases
+slightly over the φinvestigated, no signiﬁcant crystal-
+lites occurin this dense regimeapproachingrandomclose
+packing.
+A complementary method to examine the packing at
+the particle scale is using the free volume vfassoci-
+ated with each particle given by subtracting the min-
+imum Voronoi volume corresponding to close packing,
+vc=d3/√
+2 from the Voronoi volume. This statistical
+quantity has gained prominence because it may be used
+to deﬁne a new measure of entropy based on disorder
+in packing [6, 20], and may be amenable to thermody-
+namic interpretation [5]. It has been postulated based
+on analytical work in 1-dimensional systems, that vfdis-
+tribution of random packing of spheres can be described
+by a Γ distribution [6]:
+f(vf) =δα(m/δ2)
+Γ(m/δ2)vf(m/δ−1)e−αvfδ(3)
+with three ﬁtting parameters m,δandαthat control dif-
+ferent parts of the distribution and were determined by
+numerical simulations with frictionless hard spheres [6].
+In Fig. 4, we plot vfnormalized by the mean free volume4
+FIG. 4. The probability distribution function of the free vo l-
+ume associated with a sphere vfnormalized by the mean free
+volume/angbracketleftvf/angbracketrightplotted for various φ. The smooth black curve
+is obtained after averaging over all the experimental data.
+Γ function corresponding to elastic frictionless spheres, the
+smooth red/grey curve, is shown for comparison, and is ob-
+served to deviate systematically at higher vf. Allowing the
+ﬁtting parameters to ﬂoat improves the ﬁt, but systematic
+diﬀerences persist for vf>/angbracketleftvf/angbracketright(blue dashed curve).
+/angbracketleftvf/angbracketrightat thatφalong with the mean distribution obtained
+after averaging over all the measured φ. The errors asso-
+ciated with the slightly polydispersity and errors in ﬁnd-
+ing particle centersis oforderofsymbol size. Further, we
+plot Eq. 3 using m= 15.5,δ= 1.3 reported in Ref. [6],
+and allowing αto ﬂoat to obtain best ﬁt. Clearly, sys-
+tematicdeviationsareobservedfromthefrictionlesscase,
+complementing the results for Q6.In order to check if a Γ-distribution can capture the
+experimentally observed free volume distributions, we
+tested both the three ﬁtting parameter distribution, and
+thetwoﬁttingparameterdistribution, whichcorresponds
+to setting δ= 1 in Eq. 3. The best ﬁt obtained with
+m= 12.3,α= 24.5, andδ= 0.73 is also shown in Fig. 4.
+Even in this case we obtain enhanced probabilities for vf
+greater than the mean. Therefore, our distribution diﬀer
+from the experimental distributions used to give a sim-
+plethermodynamicinterpretationofgranularpacking[5].
+While it is possible that such deviations arise because of
+the diﬀerences in preparationprotocol, we note no signif-
+icant diﬀerences in the distributions obtained before and
+after application of cyclic shear in our experiments.
+Inconclusion,wemeasuredpackingofgranularspheres
+andcomparedexperimentallyobtained two-pointdensity
+correlations and free volume distributions before and af-
+ter application of shear. We ﬁnd that the radial distri-
+bution function is captured overall by the Percus-Yevick
+equation, which is important because it is fundamental
+to calculating the strength, heat conduction, and electro-
+magnetic wave scattering properties of a material. How-
+ever, angular correlation can be observed using the ori-
+entational order metric. In comparing with numerical
+simulations reported for frictionless sphere at compara-
+ble volume fractions, we ﬁnd systematic diﬀerences in
+packing as measured by lower angular correlations, and
+deviation of free volume distributions from Γ distribu-
+tions postulated for frictionless hard spheres.
+ACKNOWLEDGMENTS
+We thank V. Kumaran, Ashish Orpe, and Michael
+Berhanu for many stimulating discussions, and Chris
+Rycroft for providing us Voro++ software library. This
+work was supported by the National Science Foundation
+under NSF Grant No CBET 0853943.
+[1] G.D. Scott, Nature 194, 956 (1962); G.D. Scott, and
+D.L. Mader, Nature 201, 382 (1964).
+[2] D.M. Mueth, H.M. Jaeger, and S.R. Nagel, Phys. Rev. E
+57, 3164 (1998).
+[3] L.E. Silbert, D. Ertas, G.S. Grest, T.C. Halsey, and D.
+Levine, Phys. Rev. E 65, 031304 (2002).
+[4] S. Slotterback, M. Toiya, L. Goﬀ, J.F. Douglas, and W.
+Losert, Phys. Rev. Lett. 101, 258001 (2008).
+[5] T. Aste and T.Di Matteo, Phys. Rev. E 77, 021309
+(2008).
+[6] V.S. Kumar and V. Kumaran, J. Chem. Phys 123,
+114501 (2005).
+[7] J.-C. Tsai, G.A. Voth, and J.P. Gollub, Phys. Rev. Lett.
+91, 064301 (2003).
+[8] S. Siavoshi, A.V. Orpe, and A. Kudrolli, Phys. Rev. E
+73, 010301 (2006).[9] J. K. Percus and G. J. Yevick, Phys. Rev. 110, 1 (1957).
+[10] A.V. Orpe and A. Kudrolli, Phys. Rev. Lett. 98, 238001
+(2007).
+[11] O. Pitois, P. Moucheront and X. Chateau, J. Colloid.
+Interface Sci. 231, 26 (2000).
+[12] M. Nicolas, P. Duru, and O. Pouliquen, Europhys. Lett.,
+3, 309 (2000).
+[13] C.H. Rycroft, G.S. Grest, J.W. Landry, andM.Z. Bazant,
+Phys. Rev. E 74, 021306 (2006).
+[14] L. Tsang, J.A. Kong, K.H.Ding, andC.O. Ao, Scattering
+of Electromagnetic Waves: Numerical Simulation (John
+Wiley & Sons, Inc., 2001).
+[15] P. J. Steinhardt, D. R. Nelson, and M. Ronchetti, Phys.
+Rev. B28, 784 (1983).
+[16] M.D. Rintoul and S. Torquato, J. Chem. Phys 105, 9258
+(1996).5
+[17] P. Richard, L. Oger, J.P. Troadec, and A. Gervois, Phys.
+Rev. E60, 062401 (2001).
+[18] V.S. Kumar and V. Kumaran, J. Chem. Phys 124,
+204508 (2006).[19] A.R. Kansal, T.M. Truskett, and S. Torquato, J. Chem.
+Phys113, 4844 (2000).
+[20] C. Briscoe, C. Song, P. Wang, and H.A. Makse, Phys.
+Rev. Lett. 101, 188001 (2008).

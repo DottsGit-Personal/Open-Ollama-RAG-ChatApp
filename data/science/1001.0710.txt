@@ -1,0 +1,318 @@
+arXiv:1001.0710v1  [cond-mat.str-el]  5 Jan 2010Magnetic frustration in an iron based Cairo pentagonal latt ice
+E. Ressouche,1,∗V. Simonet,2B. Canals,2M. Gospodinov,3and V. Skumryev4
+1CEA/Grenoble, INAC/SPSMS-MDN, 17 rue des Martyrs, 38054 Gr enoble Cedex 9, France
+2Institut N´ eel, CNRS & Universit´ e Joseph Fourier, BP166, 3 8042 Grenoble Cedex 9, France
+3Institute of Solid State Physics, Bulgarian Academy of Scie nces, 1184 Soﬁa, Bulgaria
+4Instituci´ o Catalana de Recerca i Estudis Avanats (ICREA) a nd Departament de F´ ısica,
+Universitat Aut` onoma de Barcelona, 08193 Bellaterra, Spa in
+(Dated: October 30, 2018)
+The Fe3+lattice intheBi 2Fe4O9compoundis foundtomaterialize the ﬁrstanalogue ofamagne tic
+pentagonal lattice. Due to its odd number of bonds per elemen tal brick, this lattice, subject to ﬁrst
+neighbor antiferromagnetic interactions, is prone to geom etric frustration. The Bi 2Fe4O9magnetic
+properties have been investigated by macroscopic magnetic measurements and neutron diﬀraction.
+The observed non-collinear magnetic arrangement is relate d to the one stabilized on a perfect tiling
+as obtained from a mean ﬁeld analysis with direct space magne tic conﬁgurations calculations. The
+peculiarity of this structure arises from the complex conne ctivity of the pentagonal lattice, a novel
+feature compared to the well-known case of triangle-based l attices.
+The pentagon, a 5-edges polygon, is an old issue in
+mathematical recreation. It forms the faces of the do-
+decahedron, one of the platonic solids whose shape is re-
+produced in biological viruses and in some metallic clus-
+ters [1]. The main peculiarity of this polygon is that,
+contrary to triangles, squares or hexagons, it is impossi-
+ble to tile a plane with congruent regular pentagons, the
+tilings must involve additional shapes to ﬁll the gaps [2],
+like in the Penrose lattice (Fig. 1). It exists however
+several possibilities of tessellation of a plane with non-
+regular pentagons, a famous one being the Cairo tessel-
+lation whose name was given because it appears in the
+streets of Cairo and in many Islamic decorations(Fig. 1).
+FIG. 1: (color online) Pentagonal lattices. (a) Cairo pen-
+tagonal tiling, (b) Penrose pentagonal tiling, (c) pentago nal
+lattice studied in refs. 6–8, (d) dodecahedron.
+Such a lattice could attract interest in the ﬁeld of ge-
+ometric frustrated magnetism. Indeed, frustration usu-
+ally arises when all pairs of magnetic interactions are
+not simultaneously satisﬁed in a system due to the lat-tice topology, resulting in unusual physical properties [3].
+Today, most of the studied systems are mainly based on
+triangles (or tetrahedra in three dimensions), and can
+be made perfect from both structural (regular polygons)
+andmagnetic(equalﬁrstneighbormagneticinteractions)
+points of view. This is not the case with pentagonal lat-
+tices that must involve only non-regular pentagons to ﬁll
+the space. The experimental realization of such a model
+system is thus a unique opportunity that could bring
+new interesting features in this ﬁeld of magnetic frus-
+tration. In this letter we show that the Fe3+lattice in
+Bi2Fe4O9materializes the ﬁrst analogue of a magnetic
+pentagonal lattice, and we interpret its peculiar non-
+collinear magnetic arrangement with respect to magnetic
+frustration.
+Bi2Fe4O9is a common by-product in the synthesis of
+themultiferroiccompoundBiFeO 3, andhasbeenclaimed
+recently to display itself multiferroic properties [4]. This
+was the initial motivation of our study: this ﬁnding re-
+quires a precise determination of the symmetries in the
+magnetic ordered phase, since ferroelectricity can only
+arise in polar space groups. Such a precise determination
+hasnever been carriedout on single crystalsofBi 2Fe4O9,
+and only powder neutron diﬀraction measurements have
+been reported [5] with no deﬁnitive conclusions due to
+the complexity of this orthorhombic structure. Actu-
+ally, there are two diﬀerent sites of four iron atoms in
+Bi2Fe4O9: Fe1occupies a tetrahedral position and Fe 2
+an octahedral one. In the structure, columns of edge-
+sharing Fe 2octahedra form chains along the caxis, and
+these chains are linked together by corner-sharing Fe 1
+tetrahedra and Bi atoms (Fig. 2). As a result, the lattice
+formed by the diﬀerent Fe3+magnetic atoms is quite re-
+markable. From a simple examination of the structure,
+ﬁve main magnetic superexchange interactions, J1toJ5,
+can be identiﬁed (Fig. 2). The structure can be simply
+viewed as layers perpendicular to the caxis: the mag-
+netic coupling of these layers along the cdirection in-2
+FIG. 2: (color online) The Bi 2Fe4O9compound (space group Pbam; a = 7.965(4), b = 8.448(5), c = 6.007(3) ˚A at 300 K).
+(left): View of the unit cell with the environment of the two F e ions. Bi atoms are purple, Fe yellow and O red. Projection of
+the structure on the ( a,c) plane (middle) and on the ( a,b) plane (right). The atoms labels are in blue. Black lines mat erialize
+the magnetic exchange interactions.
+volves only Fe 2atoms in the octahedron columns and is
+achieved through two interactions, J1between the atoms
+within the unit cell and J2between the atoms ofadjacent
+cells. Within a layer, each Fe 1interacts with its nearest
+neighbour Fe 1viaJ4and with two nearest neighbour
+Fe2pair (located above and below the mean plane) via
+J3andJ5. The projection of this layer along cforms
+a pentagonal lattice with three slightly diﬀerent bonds
+per pentagon (Fig. 2). This geometry is equivalent to a
+distorted Cairo lattice, the perfect one involving convex
+equilateral pentagons with equal-length sides, but with
+diﬀerent associated angles (Fig. 1).
+What should be expected from such a geometry and
+what is actually observed ? Up to now, no experimental
+studies and veryfew theoreticalcalculationsare available
+in the literature [6–8]. They only concern a very particu-
+lar pentagonal tiling, derived from the hexagonal lattice
+(see lattice cof Fig.1). Calculations within the antiferro-
+magnetic Ising model on this lattice yields a disordered
+ground state with a ﬁnite entropy per spin [6, 8], whereas
+in the Heisenberg model the classical ground state of the
+perfect pentagonal lattice has not yet been solved [7].
+Single crystals of Bi 2Fe4O9were grown by the high
+temperature solution growth method using a ﬂux of
+Bi2O3[9]. The temperature and magnetic ﬁeld depen-
+dences ofthe magnetization alongthe principal crystallo-
+graphic axes were measured using a SQUID magnetome-
+ter (Quantum Design) in the temperature range 2-380 K
+and in ﬁelds up to 5.5 T. The reported data, measured
+on the very same crystal used for the neutron diﬀraction
+study (2.5 x 2 x 1.5 mm3), were corrected for the demag-
+netizingﬁeldeﬀect. TheDCsusceptibilitybetween300K
+and 800 K was measured on a home made Faraday-type
+magneticbalanceinamagneticﬁeldof0.7T,usinganas-
+sembly of several randomly oriented single crystals. The
+reported susceptibility was corrected from diamagnetism
+using the Pascal’s constants χdia= -198 10−6emu/mol.
+Above room temperature, the magnetic susceptibility ofBi2Fe4O9is found to obey a Curie-Weiss law with an ex-
+trapolated paramagnetic temperature θp≈- 1670 K and
+an eﬀective magnetic moment µeﬀ= 6.3(3) µBper iron
+atom (see Fig. 3). This later value is compatible with
+the 5.9µBexpected for Fe3+ions (J=S=5/2). When
+decreasing the temperature, an evident drop in the ( a,b)
+planesusceptibility and a wellpronouncedincreaseofthe
+caxis susceptibility are observed at T N= 238(2) K, in-
+dicating a transition towarda magnetic long rangeorder.
+This N´ eel temperature is in agreement with the results
+on single crystal reported in ref. 10 but some 20 K lower
+that the one reported in refs. 4, 5, 11 for sintered sam-
+ples. The observed ratio between the N´ eel temperature
+and the paramagnetic one, θp/TN≈7, suggests, as ex-
+pected from the geometry, a large degree of frustration.
+Further insights concerning the magnetic arrangement
+below T Nwere obtained using neutron diﬀraction. The
+neutron diﬀraction experiments were performed on the
+twoCEA-CRG diﬀractometers D23 and D15 at the Insti-
+tut Laue-Langevin (Grenoble, France) using wavelengths
+of respectively λ= 1.280˚A and 1.173˚A . Complete data
+collections have been made at two diﬀerent temperatures
+T= 15 K and T= 300 K. The experimental data were
+corrected from absorption using the CCSL library [12].
+The structural and magnetic arrangements were reﬁned
+using the least-square programs MXD [13] and FULL-
+PROF [14], including extinction corrections [15].
+When decreasing the temperature, new reﬂections,
+characteristic of an antiferromagnetic order, appear
+around T N= 244(2) K. They can be indexed with a
+propagationvector k= (1/2,1/2,1/2),that is adoubling
+of the magnetic cell compared to the nuclear one in the
+three directions. The temperature variation of a mag-
+netic Bragg peak is presented in Fig. 3. The magnetic
+structure was solved from the 654 magnetic Bragg peaks
+collected at T= 15 K taking into account the presence
+of two magnetic domains [9]. There are four Fe 1atoms
+and four Fe 2in the unit cell, whose coordinates are re-3
+FIG. 3: (color online) Linear magnetic susceptibility of
+Bi2Fe4O9as a function of temperature measured in magnetic
+ﬁelds of 0.1 T and 0.7 T below and above 300 K respectively.
+Inset: Temperature variation ofthe (1 /2,3/2,−1/2) magnetic
+Bragg peak in zero ﬁeld from neutron diﬀraction.
+(Bottom) Graphical representation of the magnetic structu re
+reﬁnement at T = 15 K in Bi 2Fe4O9: observed versus calcu-
+lated intensities.
+ported in Table I. The best reﬁnement led to a residual
+factorRw= 6.4%, with twonearlyequallypopulated do-
+mains (42/58%). The magnetic moment parameters for
+the ﬁrst domain arereported in Table I. The correspond-
+ing pictures of the magnetic arrangements are presented
+in Fig. 4. The moments on all the atoms are found re-
+stricted in the ( a,b) plane. On each site, the four atoms
+are gathered into two pairs, antiferromagnetically cou-
+pled in the case of Fe 1and ferromagnetically coupled for
+Fe2. The magnetic moments of each pair are oriented
+at 90◦, that is perpendicular to the moments of the
+other pair on the same site. The phase between the two
+sublattices Fe 1and Fe 2is 155◦. The moment amplitudes
+on the two sites Fe 1and Fe 2are slightly diﬀerent, and
+both much smaller than the expected value for a Fe3+
+ion (5µB). A spin transfer process from the iron to the
+neighbouring oxygen ions [16] could explain this reduc-
+tion.x y z µ θ φ
+Fe110.3540 0.3361 0.5 3.52(1) 100.1(1) 90
+Fe120.6460 0.6639 0.5 3.52(1) θ1
+1+ 180 90
+Fe130.1460 0.8361 0.5 3.52(1) θ1
+1- 90 90
+Fe140.8540 0.1639 0.5 3.52(1) θ1
+1+ 90 90
+Fe210 0.5 0.2582 3.73(1) -105.4(1) 90
+Fe220 0.5 0.7418 3.73(1) θ1
+290
+Fe230.5 0 0.7418 3.73(1) θ1
+2+90 90
+Fe240.5 0 0.2582 3.73(1) θ1
+2+ 90 90
+TABLE I: Coordinates of the Fe3+ions in Bi 2Fe4O9and
+spherical components of their magnetic moments in the ﬁrst
+magnetic domain. The magnetic moments are deﬁned in
+spherical coordinates by ( µ,θ,φ). In cartesian coordinates
+(X,Y,Z)whereXis along a, Yalong bandZalong c, themag-
+netic moment components are : MX=µ cosθ sinφ,M Y=
+µ sinθ sinφ,M Z=µ cosφ.
+As it can be seen on Fig. 4, this non-collinear mag-
+netic structureformsimbricatedrectanglesofspins. This
+is quite unusual in such an orthorhombic system, where
+all the directions are non-equivalent and where there is
+no fourfold axis. This peculiarity certainly has an ori-
+gin in the frustration of the magnetic interactions. One
+should also notice that for this structure the magnetic
+space group is centrosymmetric, that is non polar. This
+result isa priorinot compatible with ferroelectricity, and
+this shed some doubts on the claimed ferroelectricity ob-
+served in polycrystalline Bi 2Fe4O9[4].
+To check the relevance of the Cairo pentagon lattice
+model and the role of geometric frustration on the ob-
+served magnetic structure of Bi 2Fe4O9, we have under-
+taken a two step theoretical approach based on a lo-
+calized spin model. Calculations have been made both
+for an ideal Cairo lattice (including the perfect case
+J3=J4=J5), and in the real geometry. The angles
+between magnetic moments in a system is imposed by
+the set of magnetic interactions. In a ﬁrst step, an exact
+Fourier space analysis at zero temperature is performed,
+assumingasingle-klike ordering,which allowsto ﬁnd the
+periodicity of the magnetic structure [17]. Once the pe-
+riodicity is known, an energy minimization in real space
+gives the respective orientation of the magnetic moments
+within the magnetic unit cell. For these calculations, the
+ﬁve exchange interaction parameters J1toJ5already de-
+scribed have been considered, using a Heisenberg Hamil-
+tonianH=−1
+2/summationtext
+i,jJk/vectorSi·/vectorSj. All the moments were
+assumed to be of equal amplitudes.
+In the Cairo pentagonal lattice, a large set of Jivalues
+yield the observed (1/2, 1/2, 1/2) propagation vector.
+The doubling of the magnetic cell along calone requires
+however J2to be negative and J1positive or slightly neg-
+ative. Whatever the k= (1/2,1/2,1/2) solution found,4
+FIG. 4: (color online) Magnetic structure. First and second
+magnetic domains. (Yellow): Fe 1sites. (Orange): Fe 2sites.
+The second domain is deduced from the ﬁrst one by apply-
+ing the symmetry operation ( x+1/2,¯y+ 1/2,¯z) lost by the
+magnetic structure, taking into account the translational part
+that shifts atoms from one cell to a neighbouring one.
+the magnetic conﬁguration is always made of antiparal-
+lel Fe1pairs of moments and parallel Fe 2ones. On a
+same site, the pairs of moments are perpendicular to
+each other. This is exactly what is observed experimen-
+tally. The only parameter that could vary as a function
+of the particular values of the Ji’s is the phase angle be-
+tween the two sites Fe 1and Fe 2. The∼155◦observed
+value requires J3,J4,J5to be all negative, with a ratio
+J3/J5=2.15for |J4|≥ |J3|. Theobservedmagneticstruc-
+ture of Bi 2Fe4O9and in particular the 90◦phase angle
+between pairs of atoms at the same site, is thus recovered
+by this model with some realistic set of the ﬁve super-
+exchange interactions Ji. In the Bi 2Fe4O9real geometry,
+the Fe3+lattice diﬀers from the Cairo pentagonal one by
+the presence of two stacked Fe 2atoms, instead of a sin-
+gle atom, at two vertices in each pentagon. Performing
+the calculations in the real geometry yield very similar
+results than those of the ideal case. The perpendicular
+ferromagnetic and antiferromagnetic Fe 1and Fe 2pairs is
+a robust recovered feature. The only diﬀerence between
+both lattices is the domain of existence of this phase that
+extends to lower |J3|and|J5|with respect to |J4|in thereal case. The Bi 2Fe4O9real lattice is therefore topolog-
+ically equivalent to the Cairo one after renormalization
+of theJ3andJ5interactions with respect to the J4one.
+To summarize, we have found that the compound
+Bi2Fe4O9displays a very original non-collinear magnetic
+structure, made of four Fe 1moments and four Fe 2ones
+forming interpenetrating patterns of four-fold spin rota-
+tions. This magnetic arrangement is very peculiar for
+a pentagonal lattice with nearest neighbour interactions
+only and is not a mere propagation of the magnetic ar-
+rangement minimizing the energy in each individual pen-
+tagon, contrary to the case of triangles based lattices. It
+actually results from two ingredients, a high geometrical
+frustration and an additional complex connectivity (two
+kinds of sites with diﬀerent coordinations). This ﬁrst
+materialisation of a pentagonal Cairo lattice opens new
+perspectives in the ﬁeld of magnetic frustration.
+Work at Soﬁa was supported by the Bulgarian Science
+Foundation under Grants No. TK-X-1712/2007. The
+authors are grateful to Michael Mikhov for the high tem-
+peraturesusceptibility resultsandtoLucValentin forthe
+help with the tilings.
+∗ressouche@ill.fr
+[1] X.J. Kong, Y.P.Ren, L.S.Long, Z.Zheng, R.B.Huang,
+and L. S. Zheng, J. Am. Chem. Soc. 129, 7016 (2007).
+[2] J. Kepler, Harmonices Mundi (J. Planck for G. Tampach,
+Linz, Austria, 1619).
+[3] R. Moessner, A. P. Ramirez, Physics Today, 59 (2), 24
+(2006).
+[4] A. K. Singh, S. D. Kaushik, B. Kumar, P. K. Mishra, A.
+Venimadhav, V. Siruguri, S. Patnaik, Appl. Phys. Lett.,
+92, 132910 (2008).
+[5] N. Shamir, E. Gurewitz, Acta Crystallogr. Sect. A 34,
+662 (1978).
+[6] M. H. Waldor, W. F. Wolﬀ, J. Zittartz, Phys. Lett.
+106A, 261 (1984); Z. Phys. B: Condens. Matter 59, 43
+(1985).
+[7] U. Bhaumik, I. Bose, Phys. Rev. B 58, 73 (1998).
+[8] R. Moessner, S. L. Sondhi, Phys. Rev. B 63, 224401
+(2001).
+[9] E. Ressouche et al., in preparation.
+[10] D. M. Gianchinta, G. C. Papaefthymiou, W. M. Davis,
+H. C. Zur Loye, J. of Solid State Chem. 99, 120 (1992).
+[11] A. G. Tutov, I. E. Mylnikova, N. N. Parfenova, V. A.
+Bokov, S. A. Kizhaev, Sov. Phys. Solid State 6, 963
+(1964).
+[12] J. Brown, J. Matthewman, Cambridge Crystallography
+Subroutine Library , Report No. RAL93-009 (1993).
+[13] P. Wolfers, J. Appl. Crystallogr. 23, 554 (1990).
+[14] J. Rodriguez-Carvajal, Physica B 192, 55 (1993).
+[15] P.J. Becker, P. Coppens, Acta Crystallogr. Sect. A 30,
+129 (1974).
+[16] V. C. Rackhecha, N. S. Sayta Murthy, J. Phys. C.:Solid
+State Phys. 11, 4389 (1978).
+[17] E. F. Bertaut, J. Phys. Chem. Solids 21, 256 (1961).

@@ -1,0 +1,251 @@
+arXiv:1001.0467v2  [cond-mat.mtrl-sci]  30 Jul 2010Thermal contraction in silicon nanowires at low temperatur es
+Jin-Wu Jiang∗and Jian-Sheng Wang
+Department of Physics and Centre for Computational Science and Engineering,
+National University of Singapore, Singapore 117542, Repub lic of Singapore
+Baowen Li
+Department of Physics and Centre for Computational Science and Engineering,
+National University of Singapore, Singapore 117542, Repub lic of Singapore and
+NUS Graduate School for Integrative Sciences and Engineeri ng,
+Singapore 117456, Republic of Singapore
+(Dated: November 6, 2018)
+Abstract
+Thethermal expansion eﬀect of silicon nanowires (SiNW) in [1 00], [110] and [111] directions with
+diﬀerent sizes is theoretically investigated. At low temper atures, all SiNW studied exhibit thermal
+contraction eﬀect due to the lowest energy of the bending vibr ation mode which has negative eﬀect
+on the coeﬃcient of thermal expansion (CTE). The CTE in [110] direction is distinctly larger than
+the other two growth directions because of the anisotropy of the bendingmode in SiNW. Our study
+reveals that CTE decreases with an increase of the structure ratioγ=length/diameter , and is
+negative in whole temperature range with γ= 1.3.
+Keywords: thermal contraction, silicon nanowire, phonon mode
+∗Electronic mail: phyjj@nus.edu.sg
+1I. INTRODUCTION
+Silicon nanowires (SiNW) can be well produced in diﬀerent directions wit h diﬀerent
+diameters.[1–6] It is a promising candidate for nano-device, and has attracted a lot of
+interest.[7–19] The SiNW can serve as basic building blocks for electric ally based sensor[7–
+10], ﬁeld eﬀect transistor[11–16] and logic gates[17], photovoltaic d evice[18], and functional
+networks[19]. The possible stable conﬁgurations of the SiNW have be en investigated with
+density-functional tight-binding simulations by Zhang et al.in Refs. 20. They found that
+the stability of SiNW is determined by the competition between the minim ization of the
+surface energy and the minimization of the surface-to-volume rat io. As one of the important
+thermal properties in SiNW, the thermal expansion plays an importa nt role for these appli-
+cations in the electronic or thermal devices. The thermal expansio n eﬀect can be studied in
+the classical molecular dynamics.[21]
+In this paper, we ﬁrst analyze various phonon vibrational modes in S iNW from the
+Tersoﬀ potential[22] implemented in the “General Utility Lattice Pro gram” (GULP).[23]
+Some important features of phonon modes in SiNW of diﬀerent direct ions and with diﬀerent
+structure ratio γ=length/diameter are discussed. We then investigate the coeﬃcient
+of thermal expansion (CTE) of SiNW in [100], [110] and [111] growth dir ections by the
+nonequilibrium Green’s function approach[24], which is a quantum mech anical method and
+automatically includes contribution of all phonon modes. We ﬁnd that at low temperatures,
+all SiNW studied have thermal contraction eﬀect and the CTE in SiNW [1 10] is the largest
+one among the three directions. The CTE decreases rapidly with incr easing structure ratio
+γ, and is negative in whole temperature range with γ= 1.3.
+II. RESULTS AND DISCUSSION
+Fig. 1 demonstrates that a SiNW with length and diameter ( L,D) can be cut from the
+bulk Si crystal by using a virtual cylinder with structure paramete rs (L,D).[25] We can cut
+SiNW in diﬀerent growth directions: [100], [110] and [111], by controlling the direction of
+the virtual cylinder. The SiNW displayed in the ﬁgure is in [100] growth d irection with ( L,
+D)=(3, 1) nm. As discussed in Refs. 26, it is not important to include H- passivation on the
+surface for thermal property of SiNW. We adopt this approximatio n which may introduce
+2some small deviation. To depress this small deviation, we do not use t hese atoms on the
+surface and boundaries. It seems that Si atoms in the ﬁgure do no t distribute uniformly in
+the ﬁgure. That is because the structure is viewed from the upper front direction, which
+is better for illustrating a three-dimensional structure. Other co nﬁguration ﬁgures in this
+paper may also have this visual eﬀect.
+The frequencies and eigen vectors of phonon modes are obtained f rom the Tersoﬀ in-
+teratomic potential for silicon implemented in the GULP. The Tersoﬀ p otential can well
+describe bonding in covalently bonded solids such as silicon and carbon system, and also
+includes the nonlinear interaction. Its accuracy has been conﬁrme d by comparison with re-
+sults from ab initio density functional theory.[26] In the investigation of CTE in the SiNW ,
+we will use the clamped boundary condition, where one end (left, for example) is ﬁxed and
+another end (right) is free. For consistency, we also apply this bou ndary condition in the
+study of phonon, which is diﬀerent from Refs. 27, 28.
+Fig. 2 shows the vibrational morphology of three important phonon modes for CTE in
+SiNW. In the ﬁgure the SiNW is in [111] growth direction with ( L,D)=(3, 1) nm. The
+left-most 0.5 nm region (blue online) is ﬁxed (clamped). Arrows (red o nline) attached onto
+each atom display the vibrational displacement for the atom.[29] Th e length of the arrow is
+not the exact value of vibrational displacement to show this displace ment more clearly. It
+has been enlarged by a constant factor to all atoms. Panels (a) an d (b) are the ﬁrst and
+second order bending modes, which is a lateral mode with all atoms vib rate in the direction
+perpendicular to the axial direction. It is doubly degenerate due to two independent lateral
+vibrational directions. As the SiNW is clamped on the left, the vibratio nal displacement
+increases from left to right in both modes. In panel (a), the direct ion of the vibrational
+displacement doesnot change, while thisdirection changes inthesec ond order modeinpanel
+(b). The bending mode is actually a characteristic property for rod -like systems (eg. SiNW)
+or two-dimensional plane sheet (eg. graphene). Using its relation t o the Young’s modulus of
+the material, the bending mode has been used to detected the value of the Young’s modulus
+of the low-dimensional systems such as single-walled carbon nanotu bes[30] or graphene.[31]
+For longer SiNW, this mode will gradually turn to the standard ﬂexure mode in a rod-
+like systems. Panels (c) and (d) are the ﬁrst and second order twis ting modes. Because
+of its special rotating morphology, the vibrational displacement inc reases from inner to
+the surface. This is consistent with the vanishing surface stress c ondition in a rod.[27] In
+3panel (c), the direction of the vibrational displacement is the same for all atoms, while
+the direction changes for the second order mode shown in panel (d ). The twisting mode
+reﬂects the rod-like structure of the SiNW and is determined by the shear stiﬀness of the
+SiNW. It can serve to sense the tiny torsion movement of a nano dev ice.[32] This mode can
+be used to extract the internal information of the SiNW, as it carrie s the information of
+the rigid rotational invariance symmetry.[33–35] Panels (e) and (f ) are the ﬁrst and second
+order longitudinal vibrational phonon modes. In very long SiNW, this mode is actually the
+well-known longitudinal acoustic mode.
+Fig. 3 shows frequencies of the three lowest-energy phonon mode s of SiNW in diﬀerent
+directions with diﬀerent sizes. Frequencies for all phonon modes de crease with increasing
+structure ratio γ=length/diameter . This result indicates that longer SiNW are more
+ﬂexible and elastic. As a result, SiNW with large γmay be thermally more unstable, and
+possibly show a coiling-up behavior like a single-walled carbon nanotube .[36] Typically, we
+note that the frequency of bending mode in (a) is the lowest one com pared with the other
+two modes shown in panels (b) and (c). This is because the bending mo de turns to be the
+elastic ﬂexure mode in the limit of γ→ ∞. An important feature of the ﬂexure mode is its
+quadratic phonon spectrum: ω∝k2. While the other acoustic phonon modes are linearly
+dependent on the wave vector. So the ﬂexure mode (also bending m ode) always has the
+lowest frequency. This ﬁgure also shows that the bending mode has lowest frequency in
+[100] direction and highest frequency in [110] direction with the same γ. So the SiNW in
+[100] direction are easiest to be bend, which may be due to its regular surface structure.
+We calculate the CTE along the axial direction of the SiNW using the non equilibrium
+Green’sfunctionmethod, which includes allphononmodesautomatic allyandcanbeapplied
+to very low temperatures as it is a quantum approach.[24] In this me thod, ﬁrstly, the average
+vibrational displacement of atom j,∝angbracketleftuj∝angbracketright, is calculated through: ∝angbracketleftuj∝angbracketright=i/planckover2pi1Gj, whereGjis
+the one-point Green’s function and can be calculated from its Feynm an diagram expansion
+in terms of the nonlinear interaction. We consider the nonlinear inter action as,
+Hn=/summationdisplay
+lmnklmn
+3ulumun, (1)
+where the nonlinear force constant is extracted from the Tersoﬀ potential in GULP by ﬁnite
+4diﬀerence method. Then the CTE can be calculated through its deﬁn ition,
+αj=d∝angbracketleftuj∝angbracketright
+dT×1
+xj, (2)
+wherexjis the lattice position of atom jalong the axial direction. We can get the ﬁnal
+value of CTE for SiNW by averaging αjover all atoms.
+In Fig. 4, we compare the CTE in three diﬀerent directions. All three SiNW have the
+same structure parameters ( L,D) = (1, 4) nm. It shows that the CTE in all directions
+are negative in very low temperature region. Then it increases with f urther increasing
+temperature and reach a saturate value in high temperature limit. T he saturate value is
+positive for these SiNW shown in the ﬁgure. We mention that before r eaching the saturate
+value, all three curves still show obvious increasing behavior at abo utT= 500 K, which
+implies that the Debye temperature in SiNW is roughly about 500 K. Fro m this ﬁgure, we
+also learn that the CTE in [110] direction is distinctly larger than the ot her two directions.
+While the CTE in [100] direction is close yet a little smaller than that in [111].
+The above behaviors for the CTE at diﬀerent temperatures and in d iﬀerent directions
+can be understood from the various phonon modes in SiNW discussed in the previous part.
+Because of diﬀerent vibrational morphology, these phonon modes have very diﬀerent con-
+tribution to the CTE. The bending mode has negative eﬀect on the CT E of the rod-like
+SiNW.[37, 38] The twisting mode only takes up some degrees of freedo m, without making
+any contribution to CTE. The longitudinal vibration mode has positive eﬀect on the CTE.
+So the CTE is mainly determined by the competition between the bendin g mode and lon-
+gitudinal mode. Since the bending mode has the lowest energy among all phonon modes, it
+is the only mode excited at low temperature, leading to negative CTE. With the increase
+of temperature T, the longitudinal mode will be excited gradually and competes with ben d-
+ing mode. This competition slows down the decreasing of CTE, and res ults in a minimum
+point. As the longitudinal mode becomes more and more important, C TE will increase
+with further increasing temperature. In high temperature limit, CT E reaches a saturate
+value after suﬃcient competition between all phonon modes. The po sitive saturate value
+in these SiNW implies the leading contribution of longitudinal mode for th ese SiNW. Also
+the bending mode is anisotropic with the frequencies in [110], [111] and [100] directions as
+53.1, 41.2, 39.3 cm−1, respectively. This anisotropic property leads to the anisotropic e ﬀect
+of CTE, i.e. α[110]> α[111]> α[100].
+5We now turn to the discussion of the size dependence for CTE in SiNW [1 11]. There
+are similar eﬀects for the other two directions. Fig. 5 shows the dep endence of CTE on
+the structure ratio γin whole temperature range. The value of CTE decreases quickly with
+increasing γ. This is because the frequency of bending mode decreases quickly w ith increas-
+ingγ(see Fig. 3). As a result, the negative eﬀect from bending mode on C TE increases.
+For SiNW with γ= 0.25, the transition of CTE from negative to positive happens around
+120 K, and CTE reaches a saturate value of 10 ×10−6K−1in high temperature limit. A
+large positive saturate value of CTE indicates that the longitudinal m ode makes dominant
+contribution rather than the bending mode in this SiNW. The transitio n temperature in-
+creases from 120 K to 270 K with the change of γfrom 0.25 to 1.0. The saturate value of
+CTE for SiNW with γ= 1.0 decreases for more than 50% compared with that of γ= 0.25.
+This result is reasonable and has also been observed in single-walled ca rbon nanotubes,[24]
+which has similar one-dimensional rod-like structure. It seems to be a common phenomenon
+in one-dimensional system that the CTE is much smaller in longer and th inner structures.
+Whenγ= 1.3, CTE is negative in whole temperature range, which indicates that t he SiNW
+with these structure ratio undergoes thermal contraction at all temperatures. For these type
+of SiNW, the bending mode has played an dominant role over the longitu dinal mode.
+III. CONCLUSION
+To summarize, we have studied the thermal expansion of SiNW in diﬀer ent growth di-
+rections by the nonequilibrium Green’s function method. We ﬁnd that at low temperatures,
+all SiNW studied exhibit thermal contraction eﬀect due to the lowest energy of the bending
+modewhich has negative eﬀect onCTE. The CTE in SiNW[110] is larger th antheother two
+directions, because of higher frequency of bending mode in SiNW [110 ]. The CTE decreases
+quickly with increasing of the structure ratio γ, and is negative at all temperatures with
+γ= 1.3.
+IV. ACKNOWLEDGEMENTS
+The work is supported in part by a Faculty Research Grant of R-144 -000-257-112 of
+NUS, and Grant R-144-000-203-112 from Ministry of Education of Republic of Singapore,
+6and Grant R-144-000-222-646 from NUS.
+[1] A. M. Morales and C. M. Lieber, Science 279, 208 (1998).
+[2] Y. F. Zhang, Y. H. Tang, N. Wang, D. P. Yu, C. S. Lee, I. Bello , and S. T. Lee, Appl. Phys.
+Lett.72, 1835 (1998).
+[3] X. F. Duan and C. M. Lieber, Adv. Mater. 12, 298 (2000).
+[4] J. D. Holmes, K. P. Johnston, R. C. Doty, and B. A. Korgel, S cience287, 1471 (2000).
+[5] D. D. D. Ma, C. S. Lee, F. C. K. Au, S. Y. Tong, and S. T. Lee, Sc ience299, 1874 (2003).
+[6] Y. Wu, Y. Cui, L. Huynh, C. J. Barrelet, D. C. Bell, and C. M. Lieber, Nano Lett. 4, 433
+(2004).
+[7] S. W. Chung, J. Y. Yu, and J. R. Heath, Appl. Phys. Lett. 76, 2068 (2000).
+[8] Y. Cui, Q. Q. Wei, H. K. Park, and C. M. Lieber, Science 293, 1289 (2001).
+[9] Y. Cui and C. M. Lieber, Science 291, 851 (2001).
+[10] M. S. Gudiksen, L. J. Lauhon, J. Wang, D. C. Smith, and C. M . Lieber, Nature 415, 617
+(2002).
+[11] K. W. Wong, X. T. Zhou, F. C. K. Au, H. L. Lai, C. S. Lee, S. T. Lee, Appl. Phys. Lett. 75,
+2918 (1999).
+[12] Z. W. Pan, H. L. Lai, F. C. K. Au, X. F. Duan, W. Y. Zhou, W. S. Shi, N. Wang, C. S. Lee,
+N. B. Wong, S. T. Lee, S. S. Xie, Adv. Mater. 12, 1186 (2000).
+[13] Y. Huang, X. F. Duan, Y. Cui, and C. M. Lieber, Nano Lett. 2, 101 (2002).
+[14] Y. Cui, Z. H. Zhong, D. L. Wang, W. Wang, and C. M. Lieber, N ano Lett. 3, 149 (2003).
+[15] J. Xiang, W. Lu, Y. J. Hu, Y. Wu, H. Yan, and C. M. Lieber, Na ture441, 489 (2006).
+[16] B. P. Timko, T. Cohen-Karni, G. H. Yu, Q. Qing, B. Z. Tian, and C. M. Lieber, Nano Lett.
+9, 914 (2009).
+[17] Y. Huang, X. F. Duan, Y. Cui, L. J. Lauhon, K. H. Kim, and C. M. Lieber, Science 294, 1313
+(2001).
+[18] B. Tian, T. J. Kempa, and C. M. Lieber, Chem. Soc. Rev. 38, 16 (2009).
+[19] Y. Huang, X. F. Duan, Q. Q. Wei, and C. M. Lieber, Science 291, 630 (2001).
+[20] R. Q. Zhang, Y. Lifshitz, D. D. D. Ma, Y. L. Zhao, Th. Fraue nheim, S. T. Lee, and S. Y.
+Tong, J. Chem. Phys. 123, 144703 (2005).
+7[21] H. Zhao and N. R. Alurua, J. Appl. Phys. 105, 104309 (2009).
+[22] J. Tersoﬀ, Phys. Rev. B 38, 9902 (1988).
+[23] J. D. Gale, JCS Faraday Trans., 93, 629 (1997).
+[24] J. W. Jiang, J. S. Wang, and B. Li, Phys. Rev. B 80, 205429 (2009).
+[25] T. Vo, A. J. Williamson, and G. Galli, Phys. Rev. B 74, 045116 (2006).
+[26] T. Markussen, A. P. Jauho, and M. Brandbyge, Nano Lett. 8, 3771 (2008).
+[27] T. Thonhauser and G. D. Mahan, Phys. Rev. B 69, 075213 (2004).
+[28] H. Peelaers, B. Partoens, and F. M. Peeters, Nano Lett. 9, 107 (2009).
+[29] We thank T. Thonhauser for correspondence on the plotin g of the ﬁgure.
+[30] M. M. J. Treacy, T. W. Ebbesen, and J. M. Gilson, Nature (L ondon)381, 678 (1996).
+[31] J. W. Jiang, J. S. Wang, and B. Li, Phys. Rev. B 80, 113405 (2009).
+[32] J. C. Meyer, M. Paillet, and S. Roth, Science 309, 1539 (2005).
+[33] G. D. Mahan, and G. S. Jeon, Phys. Rev. B 70, 075405 (2004).
+[34] V. N. Popov, V. E. Van Doren, and M. Balkanski, Phys. Rev. B59, 8355 (1999).
+[35] J. W. Jiang, H. Tang, B. S. Wang, and Z. B. Su, Phys. Rev. B 73, 235434 (2006).
+[36] Z. C. OuYang, Z. B. Su, and C. L. Wang, Phys. Rev. Lett. 1997,78, 4055.
+[37] A. Krishnan, E. Dujardin, T. W. Ebbesen, P. N. Yianilos, and M. M. J. Treacy, Phys. Rev.
+B58, 14 013 (1998).
+[38] P. K. Schelling and P. Keblinski, Phys. Rev. B 68, 035425 (2003).
+8FIG. 1: (Color online) Use a virtual cylinder to cut a SiNW fro m bulk Silicon.
+9FIG. 2: (Color online) The morphology of diﬀerent phonon mode s in SiNW. (a)/(b): the
+ﬁrst/second order bending mode; (c)/(d): the ﬁrst/second o rder twisting mode; (e)/(f): the
+ﬁrst/second order longitudinal mode.
+10 0 10 20
+ 1  2  3  4  5  6  7ω   (cm−1)
+(a)[110]
+[111]
+[100]
+ 0 10 20 30
+ 1  2  3  4  5  6  7ω   (cm−1)(b)
+ 0 10 20 30 40
+ 1 2 3 4 5 6 7ω   (cm−1)
+length/width(c)
+FIG. 3: (Color online) The frequency of three lowest-energy phonon modes in SiNW with diﬀerent
+size. (a). bending mode, (b). twisting mode, (c). longitudi al mode.
+11−3 0 3 6 9 12 15
+ 0 300  600  900 1200α  (10−6K−1)
+T   (K)[110]
+[111]
+[100]
+FIG. 4: (Color online) CTE of SiNW in three directions [100], [110], and [111].
+−10−5 0 5 10
+ 0 300  600  900 1200α  (10−6K−1)
+T   (K)γ=0.25
+γ=1.0
+γ=1.3
+FIG. 5: (Color online) CTE depends on T, in [111] SiNW with diﬀerent structure ratio γ=
+length/diameter .
+12

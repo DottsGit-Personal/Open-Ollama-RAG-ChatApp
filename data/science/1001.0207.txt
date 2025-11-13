@@ -1,0 +1,214 @@
+arXiv:1001.0207v2  [math.NT]  7 Jan 2010ON A GENERALIZATION OF THE FROBENIUS NUMBER
+ALEXANDER BROWN, ELEANOR DANNENBERG, JENNIFER FOX, JOSHUA HANNA,
+KATHERINE KECK, ALEXANDER MOORE, ZACHARY ROBBINS, BRANDON SAMPLES,
+AND JAMES STANKEWICZ
+Abstract. We consider a generalization of the Frobenius Problem where the
+object of interest is the greatest integer which has exactly jrepresentations by
+a collection of positive relatively prime integers. We prov e an analogue of a
+theorem of Brauer and Shockley and show how it can be used for c omputation.
+Thelinear diophantine problem of Frobenius has long been a celebrated problem
+in number theory. Most simply put, the problem is to ﬁnd the Frobenius Number
+ofkpositive relatively prime integers ( a1,...,a k), i.e., the greatest integer Mfor
+which there is no way to express Mas the non-negative integral linear combination
+of the given ai.
+Ageneralization,whichhasdrawninterestbothfromclassicalstud yoftheFrobe-
+nius Problem ([Al05, Problem A.2.6]) and from the perspective of partit ion func-
+tions and integer points in polytopes (as in Beck and Robins [BR04]), is to ask
+for the greatest integer Mwhich can be expressed in exactly jdiﬀerent ways. We
+make this precise with the following deﬁnitions:
+Arepresentation ofMby ak-tuple (a1,...,a k) of non-negative, relatively prime
+integers is a solution ( x1,...,x k)∈Zk
+≥0to the equation M=/summationtextk
+i=1aixi.
+We deﬁne the j-Frobenius Number of ak-tuple (a1,...,a k) of relatively prime
+positive integers to be the greatest integer Mwith exactly jrepresentations of M
+by (a1,...,a k) if such a positive integer exists and zero otherwise. We refer to th is
+quantity as gj(a1,...,a k).
+Finally we deﬁne fj(a1,...,a k) exactly as we deﬁned gj(a1,...,a k), except that
+we consider only positive representations (x1,...,x k)∈Zk
+>0.
+Note that the 0-Frobenius of ( a1,...,a k) is the classical Frobenius Number. The
+purpose of this paper is to show the following generalization of a resu lt of Brauer
+and Shockley [BS62] on the classical Frobenius Number.
+Theorem 1. Ifd= gcd(a2,...,a k)andj≥0, then either
+gj(a1,a2,...,a k) =d·gj(a1,a2
+d,...,ak
+d)+(d−1)a1
+orgj(a1,a2,...,a k) =gj(a1,a2
+d,...,ak
+d) = 0.
+The research done in this note was completed as part of the underg raduate
+number theory VIGRE research seminar directed by Professor Din o Lorenzini and
+assisted by graduate students Brandon Samples and James Stank ewicz at the Uni-
+versity of Georgia in Fall 2008. Support for the seminar was provide d by the
+Mathematics Department’s NSF VIGRE grant.
+12 ALEXANDERBROWN, ELEANOR DANNENBERG, JENNIFERFOX, JOSHU A HANNA, KATHERINE KECK,ALEXANDER MOORE,ZACHARY ROBBINS, BRANDON SAMPLES,AND JAMESSTANKEWICZ
+Lemma 1. Iffj(a1,...,a k)is nonzero, there exist integers x2,...,x k>0such
+that
+fj(a1,...,a k) =k/summationdisplay
+i=2aixi.
+Proof.Letfj:=fj(a1,...,a k). By the deﬁnition of fj, we can write fj=k/summationdisplay
+i=1aixi,ℓ
+withxi,ℓ>0 for 1≤ℓ≤j. Since
+fj+a1=k/summationdisplay
+i=1aixi,ℓ+a1=a1(x1,ℓ+1)+k/summationdisplay
+i=2aixi,ℓ,
+we obtain at least jpositive representations of fj+a1. Asfjis the largest number
+with exactly jpositive representations, there must be at least j+1 distinct ways
+to represent fj+a1. Speciﬁcally, we have fj+a1=k/summationdisplay
+i=1aix′
+i,ℓwithx′
+i,ℓ>0 for
+all 1≤ℓ≤j+1. Subtract a1from both sides of these j+1 equations to obtain
+fj= (x′
+1,ℓ−1)a1+k/summationdisplay
+i=2aix′
+i,ℓ. Evidently, there exists some ℓ0∈[1,j+1] for which
+x′
+1,ℓ0−1 = 0 because fjcannot have j+ 1 positive representations. Therefore,
+fj(a1,...,a k) =k/summationdisplay
+i=2aix′
+i,ℓ0. /square
+Theorem 2. Ifgcd(a2,...,a k) =d, then
+fj(a1,a2,...,a k) =d·fj(a1,a2
+d,...,ak
+d).
+Proof.Letai=da′
+ifori= 2,...,kandN=fj(a1,...,a k).
+Assuming N >0, we know by Lemma 1 that
+N=k/summationdisplay
+i=2aixi=dk/summationdisplay
+i=2a′
+ixi
+withxi>0. LetN′=/summationtextk
+i=2a′
+ixi. We want to show that N′=fj(a1,a′
+2,...,a′
+k)
+and will do this in three steps.
+Step 1: First, we knowthat N′does not have j+1ormore positiverepresentations
+bya1,a′
+2,...,a′
+k. IfN′could be so represented, then for 1 ≤l≤j+1 we would
+have
+N′=a1y1,ℓ+k/summationdisplay
+i=2a′
+iyi,ℓ.
+Multiplying this equation by dimmediately produces too many representations of
+Nand thus a contradiction.
+Step 2: Next, we know that
+fj(a1,...,a k) =N=a1x1,ℓ+k/summationdisplay
+i=2aixi,ℓON A GENERALIZATION OF THE FROBENIUS NUMBER 3
+for 1≤l≤jandxi>0, so
+N
+d=a1x1,ℓ
+d+k/summationdisplay
+i=2aixi,ℓ
+d.
+Sinced|Nandd|aifori≥2, we must have d|a1x1,ℓfor 1≤ℓ≤j. In addition,
+gcd(a1,d) = 1 so we must have d|x1,ℓfor 1≤ℓ≤j. So
+N′=a1x1,ℓ
+d+k/summationdisplay
+i=2a′
+ixi,ℓ,
+henceN′hasatleast jdistinct positiverepresentations. Butwehavealreadyshown
+thatN′cannot have j+1 or more positive representations, thus N′has exactly j
+positive representations.
+Step 3: Finally we will show that N′is the largest number with exactly jpositive
+representations by a1,a′
+2,...,a′
+k. Consider any n > N′. Sincedn > dN′=N, we
+know that dncan be represented as a linear combination of a1,...,a kin exactly X
+ways with X/negationslash=j.
+Thus, for 1 ≤l≤XandX/negationslash=jwe have
+dn=a1x1,ℓ+k/summationdisplay
+i=2aixi,ℓ
+and as in Step 2,
+n=a1(x1,ℓ
+d)+k/summationdisplay
+i=2a′
+ixi,ℓ.
+IfX > jthen we certainly do not have exactly jrepresentations, so assume X < j.
+Assume now that we can write n=a1y1+/summationtextk
+i=2a′
+iyiwhereyi/negationslash=xi,ℓfor any such
+ℓ. By multiplying by dwe get a new representation for dn, which is a contradiction
+becausednis represented in exactly X/negationslash=jways.
+Therefore N′is the greatest number with exactly jpositive representations and
+so
+N′=fj(a1,a′
+2,...,a′
+k).
+Thus
+fj(a1,a2,...,a k) =d·fj(a1,a2
+d,...,ak
+d).
+/square
+Having established our results about fj(a1,...,a k), we show that we can trans-
+late these results to results about the j-Frobenius Numbers.
+Lemma 2. Eitherfj(a1,...,a k) =gj(a1,...,a k) = 0or,
+fj(a1,...,a k) =gj(a1,...,a k)+k/summationdisplay
+i=1ai.
+Proof.For ease, write fjforfj(a1,...,a k),gjforgj(a1,...,a k), andK=/summationtextk
+i=1ai.
+Any representation ( y1,...,y k) ofMgives a representation ( y1+ 1,...,y k+ 1)4 ALEXANDERBROWN, ELEANOR DANNENBERG, JENNIFERFOX, JOSHU A HANNA, KATHERINE KECK,ALEXANDER MOORE,ZACHARY ROBBINS, BRANDON SAMPLES,AND JAMESSTANKEWICZ
+ofM+K. Moreover, adding or subtracting Kpreserves the distinctness of rep-
+resentations because it adjusts every coeﬃcient yiby 1. Therefore if Mhasj
+representations, M+Khas at least jpositive representations. Likewise, every
+positive representation of M+Kgives a representation of M. Thusfj= 0 if and
+only ifgj= 0. Assume now that fjandgjare both nonzero.
+Suppose that fj< gj+K. By deﬁnition, we can ﬁnd exactly jrepresentations
+(y1,...,y k) forgjandgjhas exactly jrepresentations if and only if gj+Khas ex-
+actlyjpositiverepresentations ( x1,...,x k). However, by assumption gj+K > f j
+andgj+Khas exactly jpositive representations. This contradicts the deﬁnition
+offj, hencefj≥gj+K.
+Suppose that fj> gj+K. By deﬁnition, we can ﬁnd exactly jpositive representa-
+tions(x1,...,x k) forfj. Thesameargumentasaboveshowsthat fj−Khasexactly
+jrepresentations in contradiction to the deﬁnition of gj. Thusfj≤gj+K./square
+Proof of Theorem 1: Combine Theorem 2 with Lemma 2.
+Corollary 1. Leta1,a2be coprime positive integers and let mbe a positive integer.
+Suppose that gj=gj(a1,a2,ma1a2)/negationslash= 0. Then
+•gj= (j+1)a1a2−a1−a2forj < m+1
+•gm+1= 0and
+•gm+2= (m+2)a1a2−a1−a2.
+Proof.Theorem 1 tells us that if gj(1,1,m)/negationslash= 0 then
+gj(a1,a2,ma1a2) =a2(gj(a1,1,ma1))+(a2−1)a1
+=a2(a1gj(1,1,m)+(a1−1)1)+(a2−1)a1
+=a1a2(gj(1,1,m)+2)−a1−a2.
+Following Beck and Robins in [BR04], we can use the values of the restric ted
+partitionfunction p1,1,m(k)todetermine gj(1,1,m). Furthermorewecandetermine
+the relevant values with the Taylor series1
+(1−t)2(1−tm)=/summationtext∞
+k=0p1,1,m(k)tk. Now
+recall that for k < m,p1,1,m(k) =p1,1(k) =k+1 butp1,1,m(m) =m+2 and for all
+k > m,p1,1,m(k)> m+2. Note that no number is represented m+1 times. Thus
+gm+1(1,1,m) = 0,gj(1,1,m) =j−1 forj < mandgm+2(1,1,m) =m. /square
+Remark. It is a consequence of the asymptotic in Nathanson [Na00] that fo r a
+given tuple, there may be many jfor which gj= 0, so the ordering g0< g1< ...
+may not hold. In the processof discoveringthese equalities, we not ed the somewhat
+stranger occurrence of tuples where 0 < gj+1< gj.
+Take for instance, the 3-tuple (3, 5, 8). The order g0< g1< ...holds until
+g14= 52 and g15= 51. As should also be the case, the 3-tuple increased by a factor
+ofd= 2 creates the new “dependent” 3-tuple (3, 10, 16), which fails to hold order
+in the same position with g14= 107 and g15= 105. A few independent examples
+are as follows:
+g17(2,5,7) = 43 and g18(2,5,7) = 42,
+g38(2,5,17) = 103 and g39(2,5,17) = 102,
+g35(4,7,19) = 181 and g36(4,7,19) = 180, andON A GENERALIZATION OF THE FROBENIUS NUMBER 5
+g38(9,11,20) = 376 and g39(9,11,20) = 369.
+We do not as of yet know a lower bound on jfor the above to occur. Indeed,
+in every case we have computed, if g0,g1>0 theng1> g0, but to date neither a
+proof or a counterexample has presented itself.
+References
+[Al05] J. L. R. Alfons´ ın, The Diophantine Frobenius Problem, Oxford University Press, 2005.
+[BR04] M. Beck and S. Robins, A formula related to the Frobenius Problem in two dimensions ,
+Number Theory (New York 2003), 17-23, Springer, New York, 20 04.
+[BS62] A. Brauer and J.E. Shockley, On a problem of Frobenius ,J. Reine Angew. Math. 211
+(1962) 215-220.
+[Na00] M. Nathanson, Partitions with parts in a ﬁnite set, Proc. Amer. Math. Soc. ,128
+(2000) 1269-1273.
+2000Mathematics Subject Classiﬁcation : Primary 11D45, Secondary 45A05.
+Keywords: Counting solutions of Diophantine Equations, Linear Integral Equa -
+tions
+E-mail address :stankewicz@gmail.com
+Department of Mathematics, University of Georgia, Athens, G A 30602

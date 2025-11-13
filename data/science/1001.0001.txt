@@ -1,0 +1,320 @@
+arXiv:1001.0001v1  [cs.IT]  30 Dec 2009On the structure of non-full-rank perfect codes
+Olof Heden and Denis S. Krotov∗
+Abstract
+The Krotov combining construction of perfect 1-error-corr ecting binary codes
+from 2000 and a theorem of Heden saying that every non-full-r ank perfect 1-error-
+correcting binary code can be constructed by this combining construction is gener-
+alized to the q-ary case. Simply, every non-full-rank perfect code Cis the union of
+a well-deﬁned family of ¯ µ-components K¯µ, where ¯µbelongs to an “outer” perfect
+codeC⋆, and these components are at distance three from each other. Compo-
+nents from distinct codes can thus freely be combined to obta in new perfect codes.
+The Phelps general product construction of perfect binary c ode from 1984 is gen-
+eralized to obtain ¯ µ-components, and new lower bounds on the number of perfect
+1-error-correcting q-ary codes are presented.
+1. Introduction
+LetFqdenote the ﬁnite ﬁeld with qelements. A perfect1-error-correcting q-ary code of
+lengthn, for short here a perfect code , is a subset Cof the direct product Fn
+q, ofncopies of
+Fq, having the property that any element of Fn
+qdiﬀers in at most one coordinate position
+from a unique element of C.
+The family of all perfect codes is far from classiﬁed or enumerated. We will in this
+short note say something about the structure of these codes. W e need the concept of
+rank.
+We consider Fn
+qas a vector space of dimension nover the ﬁnite ﬁeld Fq. Therank
+of aq-ary codeC, here denoted rank( C), is the dimension of the linear span < C >of
+the elements of C. Trivial, and well known, counting arguments give that if there exist s
+a perfect code in Fn
+qthenn= (qm−1)/(q−1), for some integer m, and|C|=qn−m. So,
+for every perfect code C,
+n−m≤rank(C)≤n.
+If rank(C) =nwe will say that Chasfull rank.
+∗This research collaboration was partially supported by a grant from Swedish Institute; the work of
+the second author was partially supported by the Federal Target Program “Scientiﬁc and Educational
+PersonnelofInnovation Russia”for 2009-2013(governmentco ntract No. 02.740.11.0429)and the Russian
+Foundation for Basic Research (grant 08-01-00673).
+1We will show thatevery non-full-rankperfect code isa unionofso ca lled ¯µ-components
+K¯µ, and that these components may be enumerated by some other pe rfect codeC⋆, i.e,
+¯µ∈C⋆. Further, the distance between any two such components will be a t least three.
+This implies that we will be completely free to combine ¯ µ-components from diﬀerent
+perfect codesofsamelength, toobtainotherperfect codes. Ge neralizing aconstruction by
+Phelps of perfect 1-error correcting binary codes [8], we will obtain further ¯µ-components.
+As an application of our results we will be able to slightly improve the lowe r bound on
+the number of perfect codes given in [6].
+Our results generalize corresponding results for the binary case. In [3] it was shown
+that a binary perfect code can be constructed as the union of diﬀe rent subcodes (¯ µ-
+components) satisfying some generalized parity-check property , each of them being con-
+structed independently or taken from another perfect code. In [2] it was shown that every
+non-full-rank perfect binary code can be obtained by this combining construction.
+2. Every non-full-rank perfect code is the union of ¯µ-
+components
+We start with some notation. Assume we have positive integers n,t,n1, ...,ntsuch that
+n1+...+nt≤n. Anyq-aryword ¯xwill berepresented intheblockform ¯ x= (¯x1|¯x2|...|
+¯xt|¯x0) = (¯x∗|¯x0), where ¯xi= (xi1,xi2,...,x ini),i= 0,1,...,t,n0=n−n1−...−nt,
+¯x∗= (¯x1|¯x2|...|¯xt). For every block ¯ xi,i= 1,2,...,t, we deﬁne σi(¯xi) by
+σi(¯xi) =ni/summationdisplay
+j=1xij,
+and, for ¯x,
+¯σ(¯x) = ¯σ(¯x∗) = (σ1(¯x1),σ2(¯x2),...,σ t(¯xt))
+Recall that the Hamming distance d(¯x,¯y) between two words ¯ x, ¯yof the same length
+means the number of positions in which they diﬀer.
+Amonomial transformation is a map of the space Fn
+qthat can be composed by a
+permutation of the set of coordinate positions and the multiplication in each coordinate
+position with some non-zero element of the ﬁnite ﬁeld Fq.
+Aq-ary codeCislinearifCis a subspace of Fn
+q. A linear perfect code is called a
+Hamming code .
+Theorem 1. LetCbe any non-full-rank perfect code Cof lengthn= (qm−1)/(q−1).
+To any integer r<m, satisfying
+1≤r≤n−rank(C),
+there is aq-ary Hamming code C⋆of lengtht= (qr−1)/(q−1), such that for some
+monomial transformation ψ
+ψ(C) =/uniondisplay
+¯µ∈C⋆K¯µ,
+2where
+K¯µ={(¯x1|¯x2|...|¯xt|¯x0) : ¯σ(¯x) = ¯µ,¯x1,¯x2,...,¯xt∈Fqs
+q,¯x0∈C¯µ(¯x∗)}(1)
+for some family of perfect codes C¯µ(¯x), of length 1+q+q2+...+qs−1, wheres=m−r,
+and satisfying, for each ¯µ∈C⋆,
+d(¯x∗,¯x′
+∗)≤2 =⇒C¯µ(¯x∗)∩C¯µ(¯x′
+∗) =∅. (2)
+The codeC⋆will be called an outercode toψ(C). The subcodes K¯µwill be called
+¯µ-components ofψ(C). As the minimum distance of Cis three, the distance between any
+two distinct ¯ µ-components will be at least three.
+Proof. LetDbe any subspace of Fn
+qcontaining<C >, and of dimension n−r. By
+using a monomial transformation ψof space we may achieve that the dual space of ψ(D)
+is the nullspace of a r×n-matrix
+H=
+| | | | | | | |
+¯α11···¯α1n1¯α21···¯α2n2···¯αt1···¯αtnt¯0···¯0
+| | | | | | | |
+
+where ¯αij= ¯αi, fori= 1,2,...,t, the ﬁrst non-zero coordinate in each vector ¯ αiequals
+1, ¯αi/ne}ationslash= ¯αi′, fori/ne}ationslash=i′, and where the columns of Hare in lexicographic order, according
+to some given ordering of Fq.
+To avoid too much notation we assume that Cwas such that ψ= id.
+LetC⋆be the null space of the matrix
+H⋆=
+| | |
+¯α1¯α2···¯αt
+| | |
+
+Deﬁne, for ¯ µ∈C⋆,
+K¯µ={(¯x1|¯x2|...|¯xt|¯x0)∈C: (σ1(¯x1),σ2(¯x2),...,σ(¯xt)) = ¯µ}.
+Then,
+C=/uniondisplay
+¯µ∈C⋆K¯µ.
+Further, since any two columns of H⋆are linearly independent, for any two distinct words
+¯µand ¯µ′ofC⋆
+d(K¯µ,K¯µ′)≥3. (3)
+We will show that K¯µhas the properties given in Equation (1).
+Any word ¯x= (¯x1|¯x2|...|¯xt|¯x0) must be at distance at most one from a word of
+C, and hence, the word ( σ1(¯x1),σ2(¯x2),...,σ t(¯xt)) is at distance at most one from some
+word ofC⋆. It follows that C⋆is a perfect code, and as a consequence, as C⋆is linear, it
+is a Hamming code with parity-check matrix H⋆. As the number of rows of H⋆isr, we
+then get that the number tof columns of H⋆is equal to
+t=qr−1
+q−1= 1+q+q2+...+qr−1.
+3For any word ¯ x∗ofFn1+n2+...+ntq with ¯σ(¯x∗) = ¯µ∈C⋆, we now deﬁne the code C¯µ(¯x∗)
+of lengthn0by
+C¯µ(¯x∗) ={¯c∈Fn0
+q: (¯x∗|¯c)∈C}.
+Again, using the fact that Cis a perfect code, we may deduce that for any ¯ x∗such
+that the set C¯µ(¯x∗) is non empty, the set C¯µ(¯x∗) must be a perfect code of length n0=
+(qs−1)/(q−1), for some integer s.
+From the fact that the minimum distance of Cequals three, we get the property in
+Equation (2).
+Let ¯eidenote a word of weight one with the entry 1 in the coordinate positio ni. It
+then follows that the two perfect codes C¯µ(¯x∗) andC¯µ(¯x∗+ ¯e1−¯ei), fori= 2,3,...,n 1,
+must be mutually disjoint. Hence, n1is at most equal to the number of perfect codes in
+a partition of Fn0qinto perfect codes, i.e.,
+n1≤(q−1)n0+1 =qs.
+Similarly,ni≤qs, fori= 2,3,...,t.
+Reversing these arguments, using Equation (3) and the fact that Cis a perfect code,
+we ﬁnd that ni, for eachi= 1,2,...,t, is at least equal to the number of words in an
+1-ball ofFn0q.
+We conclude that ni=qs, fori= 1,2,...,t, and ﬁnally
+n=qs(1+q+q2+...+qr−1)+1+q+q2+...+qs−1= 1+q+q2+...+qr+s−1.
+Givenr, we can then ﬁnd sfrom the equality
+n= 1+q+q2+...+qm−1.
+△
+3. Combining construction of perfect codes
+In the previous section, it was shown that a perfect code, depend ing on its rank, can
+be divided onto small or large number of so-called ¯ µ-components, which satisfy some
+equation with ¯ σ. The construction described in the following theorem realizes the ide a
+of combining independent ¯ µ-components, diﬀerently constructed or taken from diﬀerent
+perfect codes, in one perfect code.
+A functionf: Σn→Σ, where Σ is some set, is called an n-ary(ormultary)quasigroup
+of order |Σ|if in the equality z0=f(z1,...,z n) knowledge of any nelements of z0,z1,
+...,znuniquely speciﬁes the remaining one.
+Theorem 2. Letmandrbe integers, m>r,qbe a prime power, n= (qm−1)/(q−1)
+andt= (qr−1)/(q−1). Assume that C∗is a perfect code in Ft
+qand for every ¯µ∈C∗
+we have a distance- 3codeK¯µ⊂Fn
+qof cardinality qn−m−(t−r)that satisﬁes the following
+generalized parity-check law:
+¯σ(¯x) = (σ1(x1,...,x l),...,σ t(xlt−l+1,...,x lt)) = ¯µ
+4for every ¯x= (x1,...,x n)∈K¯µ, wherel=qm−rand¯σ= (σ1,...,σ t)is a collections of
+l-ary quasigroups of order q. Then the union
+C=/uniondisplay
+¯µ∈C∗K¯µ
+is a perfect code in Fn
+q.
+Proof. It is easy to check that Chas the cardinality of a perfect code. The distance
+at least 3 between diﬀerent words ¯ x, ¯yfromCfollows from the code distances of K¯µ(if
+¯x, ¯ybelong to the same K¯µ) andC∗(if ¯x, ¯ybelong to diﬀerent K¯µ′,K¯µ′′, ¯µ′,¯µ′′∈C∗).△
+The ¯µ-components K¯µcanbeconstructedindependentlyortakenfromdiﬀerentperfec t
+codes. In the important case when all σiare linear quasigroups (e.g., σi(y1,...,y l) =
+y1+...+yl) the components can be taken from any perfect code of rank at m ostn−r, as
+followsfromtheprevioussection(itshouldbenotedthatif ¯ σislinear, thena ¯ µ-component
+can be obtained from any ¯ µ′-component by adding a vector ¯ zsuch that ¯σ(¯z) = ¯µ−¯µ′).
+In general, the existence of ¯ µ-components that satisfy the generalized parity-check law
+for arbitrary ¯ σis questionable. But for some class of ¯ σsuch components exist, as we will
+see from the following two subsections.
+Remark. It is worth mentioning that ¯ µ-components can exist for arbitrary length tof
+¯µ(for example, in the next two subsections there are no restriction s ont), if we do not
+require the possibility to combine them into a perfect code. This is esp ecially important
+for the study of perfect codes of small ranks (close to the rank o f a linear perfect code):
+once we realize that the code is the union of ¯ µ-components of some special form, we may
+forget about the code length and consider ¯ µ-components for arbitrary length of ¯ µ, which
+allows to use recursive approaches.
+3.1. Mollard-Phelps construction
+Here we describe the way to construct ¯ µ-components derived from the product construc-
+tion discovered independently in [7] and [9]. In terms of ¯ µ-components, the construction
+in [9] is more general; it allows substitution of arbitrary multary quasig roups, and we will
+use this possibility in Section 4.
+Lemma 1. Let¯µ∈Ft
+qand letC#be a perfect code in Fk
+q. Letvandhbe(q−1)-ary
+quasigroups of order qsuch that the code {(¯y|v(¯y)|h(¯y)) : ¯y∈Fq−1
+q}is perfect. Let
+V1, ...,VtandH1, ...,Hkbe respectively (k+1)-ary and (t+1)-ary quasigroups of order
+q. Then the set
+K¯µ=/braceleftBig
+(¯x11|...|¯x1k|y1|¯x21|...|¯x2k|y2|...|¯xt1|...|¯xtk|yt|z1|z2|...|zk) :
+¯xij∈Fq−1
+q,
+(V1(v(¯x11),...,v(¯x1k),y1),...,V t(v(¯xt1),...,v(¯xtk),yt)) = ¯µ,
+(H1(h(¯x11),...,h(¯xt1),z1),...,H k(h(¯x1k),...,h(¯xtk),zk))∈C#/bracerightBig
+is a¯µ-component that satisﬁes the generalized parity-check law with
+σi(·,...,·,·) =Vi(v(·),...,v(·),·).
+5(The elements of F(q−1)kt+k+t
+q in this construction may be thought of as three-dimensional
+arrays where the elements of ¯xijare z-lined, every underlined block is y-lined, and the
+tuple of blocks is x-lined. Naturally, the multary quasigroups Vimay be named “vertical”
+andHi, “horizontal”.)
+The proof of the code distance is similar to that in [9], and the other pr operties of a
+¯µ-component are straightforward. The existence of admissible ( q−1)-ary quasigroups v
+andhis the only restriction on the q(this concerns the next subsection as well). If Fqis
+a ﬁnite ﬁeld, there are linear examples: v(y1,...,y q−1) =y1+...+yq−1,v(y1,...,y q−1) =
+α1y1+...+αq−1yq−1whereα1, ...,αq−1are all the non-zero elements of Fq. Ifqis not
+a prime power, the existence of a q-ary perfect code of length q+1 is an open problem
+(with the only exception q= 6, when the nonexistence follows from the nonexistence of
+two orthogonal 6 ×6 Latin squares [1, Th.6]).
+3.2. Generalized Phelps construction
+Here we describe another way to construct ¯ µ-components, which generalizes the construc-
+tion of binary perfect codes from [8].
+Lemma 2. Let¯µ∈Ft
+q. Let for every ifrom1tot+1the codesCi,j,j= 0,1,...,qk−k
+form a partition of Fk
+qinto perfect codes and γi:Fk
+q→ {0,1,...,qk−k}be the corre-
+sponding partition function:
+γi(¯y) =j⇐⇒¯y∈Ci,j.
+Letvandhbe(q−1)-ary quasigroups of order qsuch that the code {(¯y|v(¯y)|h(¯y)) :
+¯y∈Fq−1
+q}is perfect. Let V1, ...,Vtbe(k+ 1)-ary quasigroups of order qandQbe a
+t-ary quasigroup of order qk−k+1.
+K¯µ=/braceleftBig
+(¯x11|...|¯x1k|y1|¯x21|...|¯x2k|y2|...|¯xt1|...|¯xtk|yt|z1|z2|...|zk) :
+¯xij∈Fq−1
+q,
+(V1(v(¯x11),...,v(¯x1k),y1),...,V t(v(¯xt1),...,v(¯xtk),yt)) = ¯µ,
+Q(γ1(h(¯x11),...,h(¯x1k)),...,γ t(h(¯xt1),...,h(¯xtk))) =γt+1(z1,...,zk)/bracerightBig
+is a¯µ-component that satisﬁes the generalized parity-check law with
+σi(·,...,·,·) =Vi(v(·),...,v(·),·).
+The proof consists of trivial veriﬁcations.
+4. On the number of perfect codes
+In this section we discuss some observations, which result in the bes t known lower bound
+on the number of q-ary perfect codes, q≥3. The basic facts are already contained in
+other known results: lower bounds on the number of multary quasig roups of order q, the
+6construction [9] of perfect codes from multary quasigroups of or derq, and the possibility
+to choose the quasigroup independently for every vector of the o uter code (this possibility
+was not explicitly mentioned in [9], but used in the previous paper [8]).
+A general lower bound, in terms of the number of multary quasigrou ps, is given by
+Lemma 3. In combination with Lemma 4, it gives explicit numbers.
+Lemma 3. The number of q-ary perfect codes of length nis not less than
+Q/parenleftBiggn−1
+q,q/parenrightBiggRn−1
+q
+whereQ(m,q)is the number of m-ary quasigroups of order qand whereRn′=qn′/(n′q−
+q+1)is the cardinality of a perfect code of length n′.
+Proof. Constructing a perfect code like in Theorem 2 with t=n−1
+q, we combine
+Rn−1
+qdiﬀerent ¯µ-components.
+Constructing every such a component as in Lemma 2, k= 1,t=n−1
+q, we are free
+to choose the t-ary quasigroup Qof orderqinQ(t,q) ways. Clearly, diﬀerent t-ary
+quasigroups give diﬀerent components. (Equivalently, we can use L emma 1 and choose
+the (t+1)-ary quasigroup H1, but should note that the value of H1in the construction is
+always ﬁxed when k= 1, because C#consists of only one vertex; so we again have Q(t,q)
+diﬀerent choices, not Q(t+1,q)). △
+Lemma 4. The number Q(m,q)ofm-ary quasigroups of order qsatisﬁes:
+(a) [5]Q(m,3) = 3·2m;
+(b) [11]Q(m,4) = 3m+1·22m+1(1+o(1));
+(c) [4]Q(m,5)≥23n/3−0.072;
+(d) [10]Q(m,q)≥2((q2−4q+3)/4)n/2for oddq(the previous bound [4]wasQ(m,q)≥
+2⌊q/3⌋n);
+(e) [4]Q(m,q1q2)≥Q(m,q1)·Q(m,q2)qm
+1.
+For oddq≥5, the number of codes given by Lemmas 3 and 4(c,d) improves the
+constantcin the lower estimation of form eecn(1+o(1))for the number of perfect codes, in
+comparison with the last known lower bound [6]. Informally, this can be explained in the
+following way: the construction in [6] can be described in terms of mu tually independent
+small modiﬁcations of the linear multary quasigroup of order q, while the lower bounds
+in Lemma 4(c,d) are based on a specially-constructed nonlinear multa ry quasigroup that
+allows a lager number of independent modiﬁcations. For q= 3 andq= 2s, the number
+of codes given by Lemmas 3 and 4(a,b,e) also slightly improves the boun d in [6], but do
+not aﬀect on the constant c.
+7References
+1. S. W. Golomb and E. C. Posner. Rook domains, latin squares, and e rror-distributing
+codes.IEEE Trans. Inf. Theory , 10(3):196–208, 1964.
+2. O. Heden. On the classiﬁcation of perfect binary 1-error corre cting codes. Preprint
+TRITA-MAT-2002-01, KTH, Stockholm, 2002.
+3. D. S. Krotov. Combining construction of perfect binary codes. Probl. Inf. Transm. ,
+36(4):349–353, 2000. translated from Probl. Peredachi Inf. 36 (4) (2000), 74-79.
+4. D. S. Krotov, V. N. Potapov, and P. V. Sokolova. On reconstru cting reducible n-ary
+quasigroups and switching subquasigroups. Quasigroups Relat. Syst. , 16(1):55–67,
+2008. ArXiv:math/0608269
+5. C. F. Laywine and G. L. Mullen. Discrete Mathematics Using Latin Squares . Wiley,
+New York, 1998.
+6. A. V. Los’. Construction of perfect q-ary codes by switchings o f simple components.
+Probl. Inf. Transm. , 42(1):30–37, 2006. DOI: 10.1134/S0032946006010030 transla ted
+from Probl. Peredachi Inf. 42(1) (2006), 34-42.
+7. M. Mollard. A generalized parity function and its use in the constru ction of perfect
+codes.SIAM J. Algebraic Discrete Methods , 7(1):113–115, 1986.
+8. K. T. Phelps. A general product construction for error corre cting codes. SIAM J.
+Algebraic Discrete Methods , 5(2):224–228, 1984.
+9. K. T. Phelps. A product construction for perfect codes over a rbitrary alphabets.
+IEEE Trans. Inf. Theory , 30(5):769–771, 1984.
+10. V. N. Potapov and D. S. Krotov. On the number of n-ary quasigroups of ﬁnite order.
+Submitted. ArXiv:0912.5453
+11. V.N.PotapovandD.S.Krotov. Asymptoticsforthenumbero fn-quasigroupsoforder
+4.Sib. Math. J. , 47(4):720–731, 2006. DOI: 10.1007/s11202-006-0083-9 tran slated
+from Sib. Mat. Zh. 47(4) (2006), 873-887. ArXiv:math/0605104
+O. Heden
+Department of Mathematics, KTH
+S-100 44 Stockholm, Sweden
+email:olohed@math.kth.se
+D. Krotov
+Sobolev Institute of Mathematics
+and
+Mechanics and Mathematics Department, Novosibirsk State Univer sity
+Novosibirsk, Russia
+email:krotov@math.nsc.ru
+8

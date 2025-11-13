@@ -1,0 +1,295 @@
+arXiv:1001.0052v1  [math-ph]  30 Dec 2009NewPhase-IntegralMethodPlatformFunction
+New Phase-Integral Method PlatformFunction
+S.Yngve1,a)andB.Thid ´e2,b)
+1)Department of Physics and Astronomy, Theoretical Physics, Uppsala University, P.O. Box 516, SE-75120 Uppsala,
+Sweden,
+2)SwedishInstitute of Physics,Physics inSpace, P.O.Box 537 , SE-75121Uppsala, Swedenc)
+(Dated: 12December 2009; Revised1November 2018)
+The phase-integralmethod(PIM) is an asymptotic methodof t he geometricaloptics or semi-classical type for solving
+approximately,but in many cases very accurately, a wide cla ss of differential equations in physics. Unlike the related
+(J)WKB method, the higher-order corrections in the PIM can b e generated from a generic, unspeciﬁed base function,
+providingaddedsymmetryandﬂexibility. However,withthe conventionalapproachofusingthenext-to-lowest(third)
+ordercorrectiontotheintegrandinthephaseintegralasap latformforcalculatinghigher(ﬁfth,seventh,ninth,...) order
+corrections,the higher-ordercalculationsveryoftenbec omequitecomplicated.
+We therefore introduce a new platform function, which consi derably simpliﬁes the calculation of the third-order
+contributionfora wide rangeof problems. We also presentdi rectly integrableconditionsforthe phase integral,which
+so farseemtohavegoneunnoticed.
+Foralargenumberofobservables,ouranalysismakesaclear erdistinctionbetweenphysicaland,inasense,unphys-
+ical contributions.
+PACS numbers: 03.65.Sq,02.30.Hq,02.30.Mv,02.60.Nm
+Keywords: WKBmethod,phase-integralapproximations,sem iclassical applications
+I. INTRODUCTION
+In their pioneering 1936 article on the calculation of
+Coulombwavefunctionsinnon-relativisticquantummechan -
+ics, Yost, Wheeler and Breit1commented on the fact that the
+WKB methodin the ﬁrst-orderapproximationsometimes has
+an unsatisfactory accuracy. Moreover, they found that the r e-
+placement, originally suggested by Kramers,2ofl(l+1)by
+(l+1/2)2wherelis the orbital angular momentumquantum
+number, does not always improve the results obtained in the
+ﬁrst-order WKB approximation. This situation can mostly
+be remedied by going to the next-order approximation. The
+phase-integral method of Fr¨ oman and Fr¨ oman3provides a
+straightforward structure for calculating the contributi ons of
+order ﬁve and higher. For this, Ref 4 introduces a platform
+functionε0(z)which, apart from a factor 1 /2, is the third-
+ordercontribution.
+In the Fr¨ oman and Fr¨ oman PIM, the third-order contribu-
+tionis themost importantcorrection. Hence,it isdesirabl eto
+ﬁnd ways to simplify the calculationof this contribution. F or
+thispurpose,wehereintroducea moreﬂexibleplatformfunc -
+tionPs(z)which generalizes ε0(z)in a way that depends on
+thenumberofsingularitiesintheintegrandandwhichhasth e
+potentialto simplifythe evaluationofhigher-ordercorre ction
+terms. As a result, the choice of the so called base function,
+usuallydenoted Q(z), becomesmoretransparent.
+a)Electronic mail: staffan.yngve@fysast.uu.se.
+b)Electronic mail: bt@irfu.se.; Home page: www.physics.irfu.se/
+˜bt.
+c)Also atLOIS Space Centre, V¨ axj¨ o University, SE-35195 V¨ a xj¨ o, Sweden.II. HIGHER-ORDERPHASE-INTEGRAL
+APPROXIMATIONSANDTHE PLATFORMFUNCTION
+Letusconsiderthedifferentialequation
+d2ψ
+dz2+R(z)ψ=0 (1)
+whereR(z)isameromorphicfunctionofthecomplexvariable
+z. Following Ref. 4, we introduce into equation (1) a “small”
+book-kepingparameter λ, ultimately to be set equal to unity,
+suchthatwe obtaintheauxiliarydifferentialequation
+d2ψ
+dz2+/parenleftbiggQ2(z)
+λ2+R(z)−Q2(z)/parenrightbigg
+ψ=0 (2)
+whichgoesoverintoequation(1)when λ=1. Themeromor-
+phic function Q(z)is the unspeciﬁed base which determines
+the phase-integral approximationof order one. The auxilia ry
+differential equation (2) has two linearly independent sol u-
+tions
+f+=q−1
+2(z)e+iw(z)(3a)
+f−=q−1
+2(z)e−iw(z)(3b)
+where
+w(z)=/integraldisplayz
+q(z)dz (4)
+and
+q2(z)−q1
+2(z)d2
+dz2q−1
+2(z)=R(z)−/parenleftbigg
+1−1
+λ2/parenrightbigg
+Q2(z)(5)
+TypesetbyREVT EXandAIPNewPhase-IntegralMethodPlatformFunction 2
+or,alternatively,
+/parenleftbiggq(z)λ
+Q(z)/parenrightbigg2
+−λ21
+Q2(z)[q(z)λ]1
+2d2
+dz2[q(z)λ]−1
+2
+−λ2R(z)−Q2(z)
+Q2(z)=1 (6)
+Introducingthecomplexvariable
+ζ=/integraldisplayz
+z0Q(z)dz (7)
+where, typically, {z0:Q2(z0)=0}, one ﬁnds, after some cal-
+culations,that equation(6)canberewritten
+/parenleftbiggq(z)λ
+Q(z)/parenrightbigg2
+−λ2/parenleftbiggq(z)λ
+Q(z)/parenrightbigg1
+2d2
+dζ2/parenleftbiggq(z)λ
+Q(z)/parenrightbigg1
+2
+−λ2R(z)−Q2(z)
+Q2(z)−λ21
+Q3
+2(z)d2
+dz21
+Q1
+2(z)=1 (8)
+[cf.equation (2.2.5), with (2.2.1), in Ref. 4]. Using equa-
+tion(7),andtheequality
+1
+Q3
+2(z)d2
+dz21
+Q1
+2(z)=1
+Q(z)d
+dz/parenleftbigg1
+2zsd
+dz1
+zsQ(z)/parenrightbigg
+−/parenleftbigg1
+2zsd
+dz1
+zsQ(z)/parenrightbigg2
++s(s−2)
+4z2Q2(z)(9)
+thiscanberewritten
+/parenleftbiggq(z)λ
+Q(z)/parenrightbigg2
+−λ2/parenleftbiggq(z)λ
+Q(z)/parenrightbigg1
+2d2
+dζ2/parenleftbiggq(z)λ
+Q(z)/parenrightbigg−1
+2
++λ2
+Q2(z)−R(z)−s(s−2)
+4z2
+Q2(z)−dPs(z)
+dζ+P2
+s(z)
+=1 (10)
+where
+Ps(z)=1
+2zsd
+dz1
+zsQ(z)(11)
+This is our new platform function. It allows us to write the
+righthandmemberof(3.5c)inRef. 3as
+R(z)−Q2(z)
+Q2(z)+dP0(z)
+dζ−P2
+0(z) (12)
+In practice, the choice of sinPs(z)more or less determines
+thebasefunction Q(z)aswe shallshownext.
+III. BASEFUNCTION
+To obtain a solution of equation (10), we make the formal
+Ansatz
+q(z)λ
+Q(z)=∞
+∑
+nY2n(z)λ2n(13)TABLE I. Properties of the platform function Ps(z), equation (11),
+for various choices of s.
+sPlatformfunction Base function Typical zrange
+01
+2d
+dz1
+Q(z)Q2(z)=R(z) −∞<z<∞
+11
+2zd
+dz1
+zQ(z)Q2(z)=R(z)−1
+4z20<z<∞
+−2l1
+2z2ld
+dzz2l
+Q(z)Q2(z)=R(z)+l(l+1)
+z20<z<∞
+andﬁndthat
+Y0=1 (14a)
+Y2=−1
+2P2
+s+1
+2dPs
+dζ−Q2(z)−R(z)−s(s−2)
+4z2
+2Q2(z)(14b)
+Using equations (3) and (13) with λ=1, and truncating
+aftern=2, we obtain the approximate local solutions of the
+originaldifferentialequation(1)as
+ψ±=[Q(z)(1+Y2(z))]−1
+2e±i/integraltextzQ(z)(1+Y2(z))dz(15)
+It should be noted that the integrands of these solutions con -
+tainthetotal derivative
+1
+2Q(z)dPs(z)
+dζ=1
+2dPs(z)
+dz(16)
+which is integrable irrespective of the expression for R(z)in
+the original differential equation (1) and of the choice of t he
+basefunction Q(z). Hence,we canwrite
+ψ±=
+1
+2dPs
+dz+/parenleftBig
+1−1
+2P2
+s/parenrightBig
+Q−Q2−R−s(s−2)
+4z2
+2Q2
+−1
+2
+×e±i/bracketleftBig
+1
+2Ps+/integraltextz/parenleftBig/parenleftbig
+1−1
+2P2s/parenrightbig
+Q−Q2−R−s(s−2)
+4z2
+2Q2/parenrightBig
+dz/bracketrightBig
+(17)
+From this we concludethat an obviouschoice for the (square
+ofthe)basefunctionis
+Q2(z)=R(z)+s(s−2)
+4z2(18)
+For the new platform function (11), three cases can be dis-
+cerned(seealso TableI):
+1.s=0. This corresponds to the case of an unmodiﬁed
+basefunction, Q2(z)=R(z). Onecanshowthattheuse
+oftheplatformfunction P0(z)simpliﬁesthecalculation
+of phase-integral approximations, e.g., for the Weber
+functions.
+2.s=1. This corresponds to the well-known Kramers-
+Langer modiﬁcation for obtaining the base function
+Q2(z) =R(z)−1/(4z2). One can show that the use
+oftheplatformfunction P1(z)simpliﬁesthecalculation
+ofphase-integralapproximations, e.g.,fortheCoulomb
+wave functions.NewPhase-IntegralMethodPlatformFunction 3
+3.s=−2l. This corresponds to the omission of the cen-
+trifugal barrier in the base function, i.e., the choice
+Q2(z) =R(z)+l(l+1)/z2. This is (for l/ne}ationslash=0) a less
+known alternative; see, e.g., Chapter 7 in Ref. 3. One
+can show that the use of the platform function P−2l(z)
+simpliﬁes the calculation of phase-integral approxima-
+tions for spherically and cylindrically symmetric prob-
+lems.
+Inall thethreeabovecases, thethird-ordersolutionbecom es
+ψ±=/parenleftbigg1
+2dPs
+dz+/parenleftBig
+1−1
+2P2
+s/parenrightBig
+Q/parenrightbigg−1
+2
+×e±i/bracketleftbig
+1
+2Ps+/integraltextz/parenleftbig
+1−1
+2P2s/parenrightbig
+Qdz/bracketrightbig
+(19)
+which exhibits the simpliﬁcation attainable if the new plat -
+formfunction Ps(z)is used.
+IV. CONCLUSIONS
+We have derived a platform function Ps(z)for the third-
+order correction of the phase-integral method. Since Ps(z)isreadily generalized to problems involving more than one sin -
+gular point in R(z)and makes computational simpliﬁcations
+possible, this new platform function is in many cases prefer -
+abletotheconventionalPIM platformfunction ε0(z).
+ACKNOWLEDGMENTS
+Someofthenewideaspresentedinthispaperwereinspired
+byadiplomaworkbyOscarSt˚ al,whostudiedamodelforthe
+scatteringofaradiobeamoffacylindricalionizationtrai lpro-
+duced by ultra-high-energy cosmic particles interacting w ith
+theEarth’sloweratmosphere. Oneoftheauthors(B.T.)grat e-
+fullyacknowledgestheﬁnancialsupportfromtheSwedishRe -
+searchCouncil(VR).
+1F. L. Yost, John A. Wheeler, and G. Breit, “Coulomb wave funct ions in
+repulsive ﬁelds,” Phys.Rev. 49,174–189 (Jan 1936).
+2H. A. Kramers, “Wellenmechanik und halbzahlige quantisier ung,” Zeitschr.
+Phys.39, 828–840 (Oct1926).
+3Nanny Fr¨ oman and Per Olof Fr¨ oman, JWKB Approximation: Contributions
+to the Theory (North-Holland, Amsterdam, NL,1965).
+4Nanny Fr¨ oman and Per Olof Fr¨ oman, Physical Problems Solved by the
+Phase-IntegralMethod (CambridgeUniversityPress,Cambridge,UK,2002)
+ISBN 0-521-67476-6.

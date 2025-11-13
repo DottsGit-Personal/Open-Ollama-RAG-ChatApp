@@ -1,0 +1,181 @@
+arXiv:1001.0076v1  [physics.ins-det]  31 Dec 2009Giant Liquid ArgonObservatoryfor ProtonDecay, Neutrino
+Astrophysicsand CP-violationin the LeptonSector (GLACIE R)∗
+A.Badertscher, A.Curioni, U.Degunda, L.Epprecht, S. Hori kawa, L.Knecht, C.Lazzaro, D.Lussi,
+A.Marchionni, G.Natterer, P.Otiougova†, F.Resnati, A.Rubbia‡,C.Strabel, J. Ulbricht, and T.Viant
+ETHZurich, 101 Raemistrasse, CH-8092 Zurich, Switzerland
+Abstract
+GLACIER (Giant Liquid Argon Charge Imaging ExpeRiment) is a large un-
+derground observatory for proton decay search, neutrino as trophysics and CP-
+violation studies in the lepton sector. Possible undergrou nd sites are stud-
+ied within the FP7 LAGUNA project (Europe) and along the JPAR C neutrino
+beamincollaboration withKEK(Japan). Theconcept isscala ble toverylarge
+masses.
+1Introduction
+Looking at the future of neutrino long-baseline experiment s, T2K [1] and NOvA [2] can be considered
+as "Phase I" experiments that will improve the sensitivity t o the small mixing angle θ13by one order
+of magnitude over the existing CHOOZ limit (sin22θ13>0.1) [3], but will have limited sensitivity to the
+effects of CPviolation in the neutrino sector. The next gene ration of "Phase II" experiments is expected
+to have signiﬁcant discovery potential for CP violation, ca pability to establish the mass hierarchy and -
+in caseθ13is small enough to elude "Phase I" experiment - extend the θ13discovery potential. In order
+to do so, a "Phase II" experiment must be designed to have very large statistics, excellent background
+rejection and verygood energy resolution, tomeasure veryp recisely the oscillation pattern asafunction
+ofneutrinoenergy. Thedetectormustthereforebeverymass ive(100,000to1,000,000tonsofactivevol-
+ume, depending on speciﬁc detector technology), and must ha ve the capability to accurately reconstruct
+neutrino interactions for energies of about 1 GeV. A liquid a rgon time projection chamber (LAr TPC:
+see for example [4] and references therein) provides high ef ﬁciency for νecharged current interactions
+("signal" events), with high rejection power against νµneutral and charged currents backgrounds in the
+GeV and multi-GeV region . In particular, excellent e/ π0separation comes from ﬁne sampling (few %
+ofaradiationlength), andatransverse samplingﬁnerthant hetypical spatial separation ofthe2 γ’sfrom
+theπ0decay. The identiﬁcation capability for electrons, µ,π, K, and protons is also excellent down to
+energies as low as few tens of MeVs. Embedded in a magnetic ﬁel d, a LAr TPC gives the possibility
+to measure both wrong sign muons and wrong sign electrons sam ples in a neutrino factory beam [5,6].
+Unlike Water Cherenkov detectors, detection and reconstru ction efﬁciencies do not depend on the vol-
+ume of the detector, therefore a direct comparison between t he near and far detector is possible (apart
+from ﬂuxextrapolation). Averylarge LArTPCasthe oneneede d in a"Phase II" long baseline neutrino
+experiment wouldalsohaveunprecedented sensitivity topr oton decay[7]andneutrinos fromastrophys-
+ical and terrestrial sources (solar and atmospheric neutri nos, neutrinos from stellar collapse [8,9], or
+neutrinos from DarkMatter annihilation).
+GLACIER(Giant Liquid Argon Charge Imaging ExpeRiment) is a proposed very large LAr TPC
+withawelldeﬁnedconceptualdesign[10,11],andsomeofits characteristicsareoutlinedintherestofthe
+paper. The underground localization of the experiment is be ing investigated along the JPARC neutrino
+beam inCollaboration withKEK(Japan) and inEurope within t he LAGUNAdesign study [12].
+∗Contribution to the Workshop “European Strategy for Future Neutrino Physics”, CERN, Oct. 2009, to appear in the
+Proceedings.
+†Now atUniversityof Zürich, Physik-Institut,CH–8057 Züri ch, Switzerland.
+‡Corresponding author: andre.rubbia@cern.ch2The GLACIER detector concept
+The proposed cryostat for GLACIER is a single module cryo-ta nk based on industrial liqueﬁed natural
+gas (LNG) technology. The shape is cylindrical, which gives an excellent surface-to-volume ratio. The
+detector design is highly scalable, up to a total mass of 100 k ton. One key technical challenge is to drift
+free electrons in liquid argon over a length as large as 20 met ers, which requires special care to achieve
+and maintain high purity in the liquid argon bulk and for the h igh voltage necessary to generate the drift
+ﬁeld (in the order of a MVolt). The readout of the charge relie s on the novel Large Electron Multiplier
+(LEM) technique: LAr LEM-TPCs operate in double phase with c harge extraction and ampliﬁcation
+in the vapor phase [14]. The concept has been very successful ly demonstrated on small prototypes:
+ionization electrons, after drifting in the LAr volume, are extracted by a set of grids into the gas phase
+anddrivenintotheholes ofoneor moreLEMs,wherecharge amp liﬁcation occurs. EachLEMisathick
+macroscopic hole multiplier, which can be manufactured wit h standard PCB techniques. The electrons
+signal is readout via two orthogonal coordinates. One possi ble conﬁguration, which has been tested
+successfully, is to use the induced signal on the segmented u pper electrode of the LEM itself and the
+other by collecting the electrons on a segmented anode. The i mages obtained with the LAr LEM-TPC
+are of very high quality, as in bubble chambers, owing to the c harge ampliﬁcation in the LEM, and
+have good measured dE/ dx resolution. Compared to LAr TPCs wi th wires immersed in liquid argon,
+whicharehardtoscale toverylarge sizes duetomechanical a ndcapacitance (electronic noise) issues of
+the long thin wires and by signal attenuation along the drift direction, the LAr LEM-TPC is an elegant
+solution for very large LAr TPCs with long drift paths and mm- sized readout pitch segmentation. In
+GLACIER there is also the possibility to detect the Cherenko v light produced by relativistic particles
+in liquid argon, and allows conceiving to have high Tc superc onducting solenoid in liquid argon, in
+order toobtain amagnetized detector. Therequirement for t heexcavation of theunderground cavern are
+particularly favorable when compared to other detector con cepts, requiring a cavern of about 250’000
+m3and relatively shallow depth (600 m.w.e. overburden).
+3R&D stagedapproach
+Effective extrapolation to the 100 kton scale requires conc rete and well coordinated R&D steps [13].
+A ton-scale LAr LEM-TPC detector is being operated at CERN wi thin the CERN RE18 experiment
+(ArDM, focused on direct Dark Matter searches [15]). In orde r to prove the performance for neutrino
+physics, additional dedicated test beam campaigns are bein g considered for a detector with a mass of
+about10tons[16],totestandoptimizethereadoutmethodsa ndtoassessthecalorimetricperformanceof
+suchdetectors. Beyondtheseefforts,a1kton-scaledevice istheappropriatechoiceforafullengineering
+prototype of a 100 kton detector. The choice of the size for th e prototype is the result of two a priori
+contradictory constraints: (1) having the largest possibl e detector as to minimize the extrapolation to
+100 kton (2) having the smallest possible detector to minimi ze the cost and time requirement to build
+it. A 1 kton detector, which is a full prototype of the GLACIER design, can be built with a diameter
+of 12 m and a vertical drift of 10 m [11]. From the point of view o f the drift path, a mere factor 2
+will be needed to extrapolate from the prototype to the 100 kt on device. Hence, the prototype will be
+the practical demonstration for the long drift of free elect rons in realistic conditions. At the same time,
+the rest of the volume scaling from the 1 kon to the 100 kton is a chieved by increasing the diameter to
+about 70 m, and is relatively straightforward noting that (a ) large LNGtanks with similar diameters and
+aspect ratios already exist (b) the LArLEM-TPCreadout abov e theliquid will bescaled from anarea of
+80 m2(1 kton) to 3800 m2(100 kton). The LAr LEM-TPC is fully modular, and this will no t require
+a fundamental extrapolation of the principle, but rather on ly poses technical challenges of production,
+which can besolved in collaboration withindustry.
+2s)µ time (40 60 80 100 120 140 160 180 200 220amplitude (ADC counts)
+0100200300400500Anode signals (event 10079)
+s)µ time (40 60 80 100 120 140 160 180 200 220amplitude (ADC counts)
+050100150200250300LEM signals (event 10079)
+strip number0 2 4 6 8 10 12 14 16s)µ time (
+406080100120140160180200220
+amplitude (ADC counts)
+-60-40-20020406080100120Anode event display (event 10079)
+strip number0 2 4 6 8 10 12 14 16s)µ time (
+406080100120140160180200220
+amplitude (ADC counts)
+-60-40-20020406080100120LEM event display (event 10079)
+s) time (
+s)µ time (40 60 80 100 120 140 160 180 200amplitude (ADC counts)
+0100200300400500600700Anode signals (event 10248)
+s)µ time (40 60 80 100 120 140 160 180 200amplitude (ADC counts)
+0100200300400500LEM signals (event 10248)
+strip number0 2 4 6 8 10 12 14 16s)µ time (
+406080100120140160180200
+amplitude (ADC counts)
+-60-40-20020406080100120Anode event display (event 10248)
+strip number0 2 4 6 8 10 12 14 16s)µ time (
+406080100120140160180200
+amplitude (ADC counts)
+-60-40-20020406080100120LEM event display (event 10248)
+s)µ time (
+Fig.1:Multi-trackscosmicrayeventsasseen inthe3lt LArLEM-TPC at CERN.
+3.1 LEMreadout R&D
+In order to study the properties of the LEM and the possibilit y to reach high gains in double phase,
+extensive R&D has been performed on several prototypes, bui lt using standard PCB techniques from
+different manufacturers. Double-sided copper-clad FR4pl ates with thicknesses ranging from 0.8 mm to
+1.6 mm are drilled with a regular pattern of 500 µm diameter holes at a relative distance of 800 µm. By
+applying a potential difference on the two faces of the PCB an intense electric ﬁeld inside the holes is
+produced. A ﬁrst single stage prototype demonstrated astab le operation in pure Ar at room temperature
+and pressure up to 3.5 bar with a gain of 800 per electron. Meas urements were performed at high
+pressure because thedensity ofArat3.5barisroughly equiv alent totheexpected density ofthevapor at
+the temperature of 87 K (LAr temperature at 1 bar). Double sta ge LEM conﬁgurations were then tested
+inpureAratroomtemperature, cryogenictemperatureandin doublephaseconditions. Thedouble-stage
+LEMsystem demonstrated againof ∼103at atemperature of 87Kand apressure of 1bar. Thedouble-
+phase operation of the LEM proved the extraction of the charg e from the liquid to the gas phase. A 3 lt
+active volume LAr LEM-TPC was then constructed and successf ully operated at CERN. In this setup a
+LArdrift volumeof10 ×10cm2crosssection andwithanadjustable depthofupto30cmisfol lowedon
+topbyaLEMampliﬁcationstageintheArvaporatadistanceof ∼1.5fromtheliquidsurface. Ionization
+electrons are drifted upward by a uniform electric ﬁeldgene rated by a system of ﬁeld shapers, extracted
+fromtheliquidbymeansoftwoextraction gridspositioned a crosstheliquid-vapour interface anddriven
+totheLEMplanes. Theampliﬁedcharge isreadout bytwoortho gonal electrodes, oneusing theinduced
+signal on the segmented upper electrode of the LEMitself and the other by collecting the electrons on a
+3segmentedanode. Inthisﬁrstproduction bothreadoutplane sweresegmentedwith6mmwidestrips, for
+a total of 32 readout channels for a 10 ×10 cm2active area. A gain of about 10 was achieved in realistic
+double-phase conditions; two events are shown are shown in F ig. 1. Transverse segmentations down to
+2-3 mm will be tested in the near future, together with new con ﬁguration of the readout electrodes. As
+a next step of the LEM readout R&D, we foresee the development of the full LEM-based readout for a
+6m3LAr LEM-TPCdesigned for test beam exposure.
+Acknowledgements
+We thank the the Swiss Science National Foundation and ETH Zü rich for supporting this experimental
+programme.
+References
+[1] Y.Itow et al., "TheJHF-Kamioka neutrino project," arXi v:hep-ex/0106019
+[2] D.S.Ayresetal.[NOvACollaboration], "NOvAproposal t obuild a30-kiloton off-axis detector to
+study neutrino oscillations in the Fermilab NuMIbeamline, " arXiv:hep-ex/0503053.
+[3] M.Apollonioetal.[CHOOZCollaboration],Phys.Lett.B 466,415(1999)[arXiv:hep-ex/9907037]
+[4] S. Amerio et al. [ICARUS Collaboration], "Design, const ruction and tests of the ICARUS T600
+detector," Nucl. Instrum. Meth. A 527 (2004)
+[5] A. Rubbia, "Neutrino factories: Detector concepts for s tudies of CP and T violation effects in
+neutrino oscillations," arXiv:hep-ph/0106088.
+[6] A. Ereditato and A. Rubbia, "Conceptual design of a scala ble multi-kton superconducting magne-
+tized liquid argon TPC",Nucl. Phys. Proc. Suppl. 155(2006) 233 [arXiv:hep-ph/0510131].
+[7] A. Bueno et al., "Nucleon decay searches with large liquid argon TPC detect ors at shal-
+low depths: Atmospheric neutrinos and cosmogenic backgrou nds," JHEP 0704(2007) 041
+[arXiv:hep-ph/0701101].
+[8] I. Gil Botella and A. Rubbia, "Decoupling supernova and n eutrino oscillation physics with LAr
+TPCdetectors," JCAP 0408(2004) 001 [arXiv:hep-ph/0404151].
+[9] A.G.Cocco, A.Ereditato, G.Fiorillo, G.Mangano andV.P ettorino, "Supernova relic neutrinos in
+liquid argon detectors," JCAP 0412(2004) 002 [arXiv:hep-ph/0408031].
+[10] A.Rubbia, "Experiments for CP-violation: Agiant liqu id argon scintillation, Cerenkov and charge
+imaging experiment?," arXiv:hep-ph/0402110.
+[11] A. Rubbia, "Underground Neutrino Detectors for Partic le and Astroparticle Science: the Giant
+Liquid Argon Charge Imaging ExpeRiment (GLACIER)," J. Phys . Conf. Ser. 171(2009) 012020
+[arXiv:0908.1286 [hep-ph]].
+[12] D. Angus et al. [LAGUNA consortium], to appear in the Pro ceedings of the Workshop ’European
+Strategy for Future Neutrino Physics’, CERN,Oct. 2009.
+[13] A. Marchionni, to appear in the Proceedings of the Works hop ’European Strategy for Future Neu-
+trino Physics’, CERN,Oct. 2009.
+[14] A.Badertscher etal.,"Operationofadouble-phase pureargonLargeElectronMul tiplierTimePro-
+jection Chamber: comparison of single and double phase oper ation," Nucl.Instr.andMeth.A(2009),
+doi:10.1016/j.nima.2009.10.011 [arXiv:0907.2944 [phys ics.ins-det]].
+[15] A. Rubbia, "ArDM: A ton-scale liquid argon experiment f or direct detection of dark matter in the
+universe," J. Phys.Conf. Ser.39 (2006) 129 [arXiv:hep-ph/ 0510320]
+[16] D. Autiero et al., "Test beam exposure of a Liquid Argon TPC Detector at the CER N SPS North
+Area," Abstract #82, Workshop on New Opportunities in the Ph ysics Landscape at CERN, May
+2009
+4

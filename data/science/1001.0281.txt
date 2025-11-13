@@ -1,0 +1,412 @@
+arXiv:1001.0281v1  [cond-mat.stat-mech]  2 Jan 2010Proof of the determinantal form of the spontaneous
+magnetization of the superintegrable chiral Potts model
+R.J. Baxter
+Mathematical Sciences Institute, The Australian National
+University, Canberra, A.C.T. 0200, Australia
+2 January 2010
+Abstract
+The superintegrable chiral Potts model has many resemblanc es to the Ising model,
+so it is natural to look for algebraic properties similar to t hose found for the Ising
+model by Onsager, Kaufman and Yang. The spontaneous magneti zationMrcan be
+written in terms of a sum over the elements of a matrix Sr. The author conjectured the
+form of the elements, and this conjecture has been veriﬁed by Iorgovet al. The author
+also conjectured in 2008 that this sum could be expressed as a determinant, and has
+recently evaluated the determinant to obtain the known resu lt forMr. Here we prove
+that the sum and the determinant are indeed identical expres sions.
+1 Introduction
+There has been considerable progress recently towards the g oal of ﬁnding an algebraic
+method of calculating the spontaneous magnetization Mr(the order parameter) of the
+superintegrable N-state chiral Potts model. By considering the square lattic e of ﬁnite
+widthL, the author[1]-[3] showed that it could be expressed in term s of a sum over the
+elements of a 2mby 2m′matrixSr. In [3] he conjectured a formula for these elements
+as simple products. He also conjectured in [2, 3] that the sum could be written as the
+determinant DPQof anm-dimensional (or m′-dimensional) matrix. These P,Q,rare
+related by Q=P+r(modN), and (for 0 ≤P,Q < N )
+m=/bracketleftbigg
+(N−1)L−P
+N/bracketrightbigg
+, m′=/bracketleftbigg
+(N−1)L−Q
+N/bracketrightbigg
+(1)
+where [x] is the integer part of x. Note that these deﬁntions imply
+|m−m′| ≤1. (2)
+In a recent paper[4], the author has shown that this determin ant can be written the
+product (or ratio) of Cauchy-like determinants, so is also a simple product. Taking the
+limitL→ ∞, one does indeed regain the known result[5, 6, 7]
+Mr= (1−k′2)r(N−r)/2N2. (3)
+This still left open the two conjectures, the ﬁrst being the p roduct expression for
+the elements of Sr. The matrix Srsatisﬁes two commutation relations. In unpublished
+1work, the author had been able to prove that the conjectured f orm did in fact satisfy
+these relations, and from numerical studies for small value s ofN,Lit appeared that
+there was only one such solution to these linear equations, b ut this fell short of a proof.
+The problem of calculating such matrix elements has been stu died more directly by
+Au-Yang and Perk.[8, 9] Iorgov et alhave now given a proof, and have gone on to
+calculate Mrdirectly.[10]
+The second conjecture was that thesumoverthe elements of Srwas thedeterminant
+DPQ. This is the problem we address here. It is a very self-contai ned problem, being
+just an algebraic identity between rational functions of ma ny variables. It completes
+the algebraic proof of the formula (3) via the determinant DPQ.
+We shall refer to papers [1] - [4] as papers I, II, III, IV, resp ectively, and quote their
+equations accordingly.
+2 Deﬁnitions
+Letc1,...,c m,y1,...,y mandc′
+1,...,c′
+n,y′
+1,...,y′
+nbe sets of variables, where
+n=m′
+andm,m′are the integers mentioned above. In this paper we do notuse the above
+deﬁnitions (1), nor the integers N,L,P,Q . We can take m,m′to both be arbitrary
+positive integers, and the ci,yi,c′
+i,y′
+ito be arbitrary variables. In this paper we can
+and do allow mandm′to be arbitrary. We ignorethe restriction (2).
+Lets={s1,...,s m}be a set of mintegers with values
+si= 0 or 1 for 1 ≤i≤m. (4)
+Similarly, let s′={s′
+1,...,s′
+n}, where each s′
+i= 0 or 1. Set
+κs=s1+···+sm, κs′=s′
+1+···+s′
+n. (5)
+For a given set s, letVbe the set of integers isuch that si= 0 and Wthe set such
+thatsi= 1. Hence, from (5), Vhasm−κselements, while Whasκs. Deﬁne V′,W′
+similarly for the set s′, soV′hasn−κs′elements, while W′hasκs′.
+Deﬁne
+As,s′=/productdisplay
+i∈W/productdisplay
+j∈V′(ci−c′
+j), Bs,s′=/productdisplay
+i∈V/productdisplay
+j∈W′(ci−c′
+j),
+Cs=/productdisplay
+i∈W/productdisplay
+j∈V(cj−ci), Ds′=/productdisplay
+i∈V′/productdisplay
+j∈W′(c′
+j−c′
+i).
+Then the afore-mentioned matrix Srhas elements ( Sr)s,s′which are proportional
+toAs,s′Bs,s′/(CsDs′) and the sum over its elements is given in III.3.48 as
+R=/summationdisplay
+s/summationdisplay
+s′ys1
+1ys2
+2···ysm
+m/parenleftbigg
+As,s′Bs,s′
+CsDs′/parenrightbigg
+y′
+1s′
+1y′
+2s′
+2···y′
+ns′
+n, (6)
+the sum being restricted to s,s′such that
+κs=κs′. (7)
+Now deﬁne ai,...,a m,b1,...bmanda′
+i,...,a′
+n,b′
+1,...b′
+nby
+ai=n/productdisplay
+j=1(ci−c′
+j), a′
+i=m/productdisplay
+j=1(c′
+i−cj), (8)
+2bi=m/productdisplay
+j=1,j/negationslash=i(ci−cj), b′
+i=n/productdisplay
+j=1,j/negationslash=i(c′
+i−c′
+j), (9)
+and letBbe anmbynmatrix, and B′annbymmatrix, with elements
+Bij=ai
+bi(ci−c′
+j),B′
+ij=a′
+i
+b′
+i(c′
+i−cj). (10)
+Also, deﬁne an mbymdiagonal matrix Yand annbyndiagonal matrix Y′by
+Yi,j=yiδij, Y′
+i,j=y′
+iδij. (11)
+Then the determinant mentioned above is
+D=DPQ= det[Im+YBY′B′], (12)
+whereImis the identity matrix of dimension m.
+(The deﬁnition (12) is the same as the (II.7.2), (III.4.9), ( IV.1.18). If f,f′
+iare
+deﬁned by IV.2.31 and BPQby IV.2.29, and F,F′are the diagonal matrices with
+elements Fi,i=fi,F′
+i,i=f′
+i, thenB=ǫFBPQF′−1,B′=−ǫF′BQPF−1andǫ2= 1.
+We can then observe that (12) is the same as IV.1.18.)
+We can also write (12) as
+D= det[In+Y′B′YB], (13)
+so bothRandDare unaltered by simultaneously interchanging mwithn, theciwith
+thec′
+iand the yiwith the y′
+i. It follows that without loss of generality, we can here
+choose
+n≥m. (14)
+Theexpressions R,Darefunctionsof m,n,c 1,...cm,y1,...,y m,c′
+1,...c′
+n,y′
+1,...,y′
+n.
+We shall write them as Rmn,Dmn.
+3 Proof that Rmn=Dmn
+BothRmnandDmnare rational functions of c1,...cm,c′
+1,...c′
+n. They are symmet-
+ric, being unchanged by simultaneously permuting the ciand the yi, as well as by
+simultaneously permuting the c′
+iand the y′
+i. We ﬁnd that they are identical, for all
+ci,yi,c′
+i,y′
+i.
+The proof proceeds by recurrence, in the following four step s.
+1. The case m= 1
+Calculation of R1n
+Ifm= 1 then s={s1}and either s1= 0 ors1= 1. In the ﬁrst case, since κs=κs′,
+all thes′
+imust be zero and the sets W,W′are both empty, so we get a contribution to
+(6) of unity.
+In the second case, s′={0,...,0,1,0,...,0}, with the 1 in position r, forr=
+1,...,n. ThenVis empty, so Bs,s′=Cs= 1, while
+As,s′=n/productdisplay
+j=1,j/negationslash=r(c1−c′
+j), Ds′=n/productdisplay
+j=1,j/negationslash=r(c′
+r−c′
+j). (15)
+From (6) it follows that
+R1n= 1+n/summationdisplay
+r=1y1y′
+rn/productdisplay
+j=1,j/negationslash=rc1−c′
+j
+c′r−c′
+j. (16)
+3Calculation of D1n
+The RHS of (12) is a determinant of dimension 1, so
+D1n= 1+Y1,1n/summationdisplay
+r=1B1,rY′
+r,rB′
+r,1
+= 1−a1y1
+b1n/summationdisplay
+r=1a′
+ry′
+r
+b′r(c1−c′r)2, (17)
+whereai,a′
+i,bi,b′
+iare deﬁned by (8), (9). Note that here b1= 1 .
+We therefore obtain
+D1n= 1+n/summationdisplay
+r=1y1y′
+rn/productdisplay
+j=1,j/negationslash=rc1−c′
+j
+c′r−c′
+j(18)
+and we see explicitly that
+R1n=D1n. (19)
+2: Degree of the numerator polynomials
+Consider RmnandDmnas functions of cm. They are both rational functions. We show
+here that they are both of the form
+polynomial of degree ( n−1)
+bm(20)
+Degree for Rmn
+First considerthesum Rmnin(6)as afunctionof cm. Eachtermisplainly apolynomial
+divided by bm. Ifm∈W, thensm= 1 and the numerator is proportional to As,s′.
+The degree of the numerator is the number of elements of V′. The condition (7) means
+thatW′must have at least one element, so V′must have at most n−1. The degree of
+the numerator is therefore at most n−1.
+Ifm∈V, then the numerator is proportional to Bs,s′and the degree of the nu-
+merator is the number of elements of W′, which from (7) is the same as the number of
+elements of W. SinceVhas at least one element, Wcan have at most m−1. From
+(14), this is at most n−1
+The sum of all the terms in (6) is therefore a polynomial in cmof degree at most
+n−1, divided by bm, as in (20).
+Degree for Dmn
+Now consider the determinant Dmnin (12) as a function of cm. At ﬁrst sight there
+appear to be poles at cm=c′
+j, coming from Bmj. However, they are cancelled by the
+factoram. Similarly, the ones in the element B′
+jmof the matrix B′are cancelled by the
+factora′
+j. So there are no poles at cm=c′
+j, for any j.
+There are poles at cm=ci(for 1≤i < m) coming from the bi,bmfactors in
+Bij,Bmj, respectively, so there are simple poles in each of the rows iandm. This
+threatens to create a double pole in the determinant Dmn. However, if cm=ci, the
+rowsiandmof the matrix ( cm−ci)Bare equal and opposite. By replacing row iby
+the sum of the two rows (corresponding to pre-multiplying Bby an elementary matrix),
+we can eliminate the poles in row i. Hence there is only a single pole at cm=ci. The
+determinant is therefore a polynomial in cm, divided by bm.
+4To determine the degree of this polynomial, consider the beh aviour of Dmnwhen
+cm→ ∞. Then, writing cmsimply as c,
+Bij∼c−1ifi < m, Bij∼cn−mifi=m,
+B′
+ij∼cifj < m, B′
+i,j∼1 ifj=m.
+and hence the orders of the elements of the matrix product in ( 12) are given by
+YBY′B′∼
+1 1 ...1 c−1
+1 1 ...1 c−1
+.. .. ... .. ..
+1 1 ...1 c−1
+cn−m+1cn−m+1... cn−m+1cn−m
+.(21)
+Sincen≥m, it follows that Dmngrows at most as
+Dmn∼cn−m(22)
+asc→ ∞. The numerator polynomial in (20) is therefore of degree at m ostn−1. This
+completes the proof of (20 ).
+3. The case cm=c′
+n
+The sum Rmn
+Consider the case when cm=c′
+n. Ifm∈Wandn∈V′, then from (6) As,s′= 0.
+Similarly, If m∈Vandn∈W′, then from Bs,s′= 0. So the summand in (6) is zero
+unless either m∈V,n∈V′, orm∈W,n∈W′.
+In the ﬁrst instance, sm=s′
+n= 0. The AB/CD factor in (6) is the same as if we
+take replace m,nbym−1,n−1, respectively, except for a factor
+/productdisplay
+i∈Wci−c′
+n
+cm−ci/productdisplay
+j∈W′cm−c′
+j
+c′
+j−c′n. (23)
+Sincecm=c′
+n, the factors in the product cancel, except for a sign. From (7 ), there as
+many elements in Was inW′, so the sign products also cancel , leaving unity. Thus
+this contribution to (6) is exactly that obtained by replaci ngm,nbym−1,n−1.
+In the second instance, sm=s′
+n= 1. This time AB/CD has an extra factor
+/productdisplay
+j∈V′cm−c′
+j
+c′n−c′
+j/productdisplay
+i∈Vci−c′
+n
+ci−cm= 1, (24)
+so this contribution to (6) is again that obtained by replaci ngm,nbym−1,n−1,
+except that now there is an extra factor ymy′
+n. Adding the two contributions, we see
+that
+Rmn= (1+ymy′
+n)Rm−1,n−1. (25)
+The determinant Dmn
+Now look at the determinant (12) when cm=c′
+n. Sinceamanda′
+nboth contain the
+factorcm−c′
+n, themth row of Bvanishes except for the element m,n, which is
+Bm,n=n−1/productdisplay
+j=1(cm−c′
+j)/slashiggm−1/productdisplay
+j=1(cm−cj). (26)
+5Similarly, the nth row of B′vanishes except for
+B′
+n,m=m−1/productdisplay
+j=1(c′
+n−cj)/slashiggn−1/productdisplay
+j=1(c′
+n−c′
+j). (27)
+Sincecm=c′
+n, we see that Bm,nB′
+n,m= 1.
+It follows that the matrix in (12) has a block-triangular str ucture:
+Im+YBY′B′=/parenleftigg
+1+yby′b′···
+0 1+ymy′
+n/parenrightigg
+, (28)
+where1,y,b,y′,b′are the matrices Im,Y,B,Y′,B′with their last rows and columns
+omitted. Hence
+Dm,n= (1+ymy′
+n)Dm−1,n−1. (29)
+4. Proof by recurrence
+The proof now proceeds by recurrence. Suppose D(m−1,n−1) =R(m−1,n−1)
+for allci,c′
+i. Then from (25) and (29) it is true that Dm,n=Rm,nwhencm=c′
+n. By
+symmetry it is also true for cm=c′
+jforj= 1,...,n. ThusDm,n−Rm,nis zero for all
+thesenvalues. But from point 2 above, this diﬀerence (times bm) is a polynomial in
+cmof degree n−1. The polynomial must therefore vanish identically, so Rm,n=Dm,n
+forarbitrary values of cm.
+Since it is true for m= 1, it follows that
+Rm,n=Dm,n (30)
+forallm,n.
+This proves the second conjecture of [3].
+4 Summary
+We have proved that the sum Rover the elements of the matrix Sris identical to the
+determinant D. In paper IV we have calculated Dand hence obtained the spontaneous
+magnetization Mr.
+The recent work by Irgov et al[10] proves that the elements of the matrix Srare
+indeed given by III.3.45, being proportional to As,s′Bs,s′/(CsDs′), so the algebraic
+calculation of Mris now complete.
+Further, Irgov et algo on to calculate R, and hence Mr, directly, thereby avoiding
+the determinantal formulation altogether. While this last step is eﬃcient, it by-passes
+the author’s original motivation for this work, which was to obtain a derivation of Mr
+that more closely resembled the algebraic and combinatoria l determinantal calculations
+for the Ising model of Yang, Kac and Ward, Hurst and Green, and Montroll, Potts and
+Ward, [11] – [14] all of whom write the partition function in t erms of a determinant or
+pfaﬃan (the square root of an anti-symmetric determinant). Indeed, the D=DPQof
+thispaperis theimmediategeneralization oftheIsingmode ldeterminant, asformulated
+in I.7.7 in the ﬁrst paper of this series.
+In fact, it would still be illuminating to obtain a simple and direct derivation of
+DPQparallelling Kaufman’s spinor operators (Cliﬀord algebra ) method for the Ising
+model.[15]
+6References
+[1] Baxter R. J. Algebraic reduction of the Ising model J. Stat. Phys. 132959 –
+982 (2008)
+[2] Baxter, R. J.: A conjecture for the superintegrable chir al Potts model. J. Stat.
+Phys.132, 983 – 1000 (2008)
+[3] Baxter R. J. Some remarks on a generalization of the super integrable chiral
+Potts model J. Stat. Phys. October 2009 in Springerlink “Online First”, also at
+arXiv: 0906.3551 (2009)
+[4] Baxter, R. J.: Spontaneous magnetization of the superin tegrable chiral Potts
+model: calculation of the determinant DPQ.arXiv: 0912.45.49 (2009)
+[5] G. Albertini, B. M. McCoy, J. H. H. Perk and S. Tang, Excita tion spectrum
+and order parameter for the integrable N-state chiral Potts model. Nucl. Phys.
+B314:741–763 (1989).
+[6] Baxter, R. J. Derivation of the order parameter of the chi ral Potts model. Phys.
+Rev. Lett. 94, 130602 (2005)
+[7] Baxter, R. J., The order parameter of the chiral Potts mod el.J. Stat. Phys.
+120:1–36 (2005).
+[8] Au-Yang H. and Perk J. H. H. Identities in the superintegr able chiral Potts
+modelJ. Phys. A: Math. Theor. in press, also at arXiv: 0906.3153 (2009)
+[9] Au-Yang H. and Perk J. H. H. Quantum loop subalgebra and ei genvectors of
+the superintegrable chiral Potts transfer matrices arXiv: 0907.0362 (2009)
+[10] Iorgov, N., Shadura, V., Tykhyy, Yu., Pakuliak, S. and v on Gehlen, G. Spin
+operator matrix elements in the superintegrable chiral Pot ts quantum chain.
+arXiv: 0912.5027 (2009)
+[11] Yang, C. N.: The spontaneous magnetization of a two-dim ensional Ising model.
+Phys. Rev. 85, 808–816 (1952)
+[12] Kac, M. and Ward, J. C. A combinatorial solution of the th e two-dimensional
+Ising model, Phys. Rev. 88, 1332 – 1337 (1952)
+[13] Hurst,C. A. and Green, H. S. Newsolution of the Ising pro blem for a rectangular
+lattice, J. Chem ˙Phys.33, 1059 – 1062 (1960)
+[14] Montroll, E. W., Potts, R. B. and Ward, J. C. Correlation s and spontaneous
+magnetization of the two-dimensional Ising model. J. Math. Phys.4308– 322
+(1963)
+[15] Kaufman, B.: Crystal statistics. II. Partition functi on evaluated by spinor anal-
+ysis. Phys. Rev 76, 1232–1243 (1949)
+7

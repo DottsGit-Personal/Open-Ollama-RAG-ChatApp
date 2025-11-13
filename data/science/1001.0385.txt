@@ -1,0 +1,359 @@
+arXiv:1001.0385v1  [math.AP]  3 Jan 2010Stabilities for Euler-Poisson Equations with
+Repulsive Forces in RN
+Manwai Yuen∗
+Department of Applied Mathematics,
+The Hong Kong Polytechnic University,
+Hung Hom, Kowloon, Hong Kong
+Revised 3-Jan-2010
+Abstract
+This article extends the previous paper in ”M.W. Yuen, Stabilities for Euler-Poisson Equa-
+tions in Some Special Dimensions , J. Math. Anal. Appl. 344(2008), no. 1, 145–156.”, from
+the Euler-Poisson equations for attractive forces to the re pulsive ones in RN(N≥2). The
+similar stabilities of the system are studied. Additionall y, we explain that it is impossible to
+have the density collapsing solutions with compact support to the system with repulsive forces
+forγ >1.
+Key Words: Euler-Poisson Equations, Repulsive Forces, Sta bilities, Frictional Damping,
+Second Inertia Function, Non-collapsing Solutions
+1 Introduction
+The semi-conductor models can be formulated by the isentropic Eule r-Poisson equation with re-
+pulsive forces in the following form:
+
+
+ρt+∇·(ρu) =0,
+(ρu)t+∇·(ρu⊗u)+∇P+βρu=ρ∇Φ,
+∆Φ(t,x) =α(N)ρ,(1)
+whereα(N) is a constant related to the unit ball in RN:α(1) = 2;α(2) = 2π; ForN≥3,
+α(N) =N(N−2)V(N) =N(N−2)πN/2
+Γ(N/2+1), (2)
+whereV(N) is the volume of the unit ball in RNand Γ is the Gamma function. As usual,
+ρ=ρ(t,x) andu=u(t,x)∈RNare the density and the velocity respectively. P=P(ρ) is the
+pressure and β≥0 is the frictional damping constant. In the above system, the self -repulsive
+potential ﬁeld Φ = Φ( t,x) is determined by the density ρthrough the Poisson equation. The
+equations (1) 1and (1) 2are the compressible Euler equations with forcing term. The equatio n (1)3
+is the Poisson equation through which the potential with repulsive fo rces is determined by the
+density distribution of the electrons themselves. Thus, we called th e system (1) the Euler-Poisson
+equations with repulsive forces. In this case, the equations can be viewed as a semiconductor
+∗E-mail address: nevetsyuen@hotmail.com
+12 M.W. Yuen
+model. See [2], [5] for a detail about the system. For some ﬁxed K≥0, we have a γ-law on the
+pressure P(ρ), i.e.
+P(ρ)=Kργ.=ργ
+γ, (3)
+forK >0, which is a common hypothesis. When K= 0, the pressureless system can be used as
+models in plasma physics [1]. The constant γ=cP/cv≥1, where cPandcvare the speciﬁc heats
+per unit mass under constant pressure and constant volume resp ectively, is the ratio of the speciﬁc
+heats. Additionally, the ﬂuid is called isothermal if γ= 1.
+The Poisson equation (1) 3can be solved as
+Φ(t,x) =/integraldisplay
+RNG(x−y)ρ(t,y)dy, (4)
+whereGis the Green’s function for the Poisson equation in the N-dimensional spaces deﬁned by
+G(x).=
+
+|x|, N= 1;
+log|x|, N= 2;
+−1
+|x|N−2, N≥3.(5)
+If we seek solutions in radial symmetry with the radius r=/parenleftBig/summationtextN
+i=1x2
+i/parenrightBig1/2
+, the Poisson equation
+(1)3is transformed to
+rN−1Φrr(t,x)+(N−1)rN−2Φr=α(N)ρrN−1, (6)
+Φr=α(N)
+rN−1/integraldisplayr
+0ρ(t,s)sN−1ds. (7)
+We can seek the radial symmetry solutions
+ρ(t,/vector x) =ρ(t,r) and/vector u=/vector x
+rV(t,r) =:/vector x
+rV. (8)
+By standard computation, the Euler-Poisson equations in radial sy mmetry can be written in the
+following form:
+
+ρt+Vρr+ρVr+N−1
+rρV= 0,
+ρ(Vt+VVr)+Pr(ρ) =ρΦr(ρ).(9)
+Perthame discovered the blowup results for 3-dimensional pressu reless system with repulsive forces
+[9]. In short, all the results above rely on the solutions with radial sy mmetry:
+Vt+VVr=α(N)
+rN−1/integraltextr
+0ρ(t,s)sN−1ds. (10)
+And theEmdenordinarydiﬀerentialequationswerededucedonthe boundarypointofthesolutions
+with compact support:
+D2R
+Dt2=M
+RN−1, R(0,R0) =R0≥0,˙R(0,R0) = 0, (11)
+wheredR
+dt:=VandMis the mass of the solutions, along the characteristic curve. They s howed
+the blowup results for the C1solutions of the system (9).
+Very recently, Yuen showed in [14] that the classical non-trivial s olutions ( ρ,V) for the Euler or
+Euler-Poisson equations with repulsive forces, in radial symmetry, with compact support in [0 ,R],
+whereRis a positive constant (which is V(t,0) = 0;ρ(t,r) = 0,V(t,r) = 0 for r≥R) and the
+initial velocity such that:
+H0=/integraldisplayR
+0V0dr >0, (12)Stabilites of Euler-Poisson Equations 3
+blow up on or before the ﬁnite time T= 2R/H0,for pressureless ﬂuids ( K= 0) orγ >1.
+The system with attractive forces were studied in [3], [6], [7], [8], [12].and [13]. This article extends
+the previous paper in [13], from the Euler-Poisson equations for att ractive forces with or without
+frictional damping to the repulsive ones in RN(N≥2). The similar stabilities of the system are
+studied.
+In the last section, we exclude the possibility of collapsing solutions fo r this system. The
+non-existence of collapsing solutions can be shown by the simple argu ment for the energy function:
+E(t) =/integraltext
+Ω/parenleftBig
+1
+2ρ|u|2+1
+γ−1P−1
+2ρΦ/parenrightBig
+dx,forγ >1. (13)
+Theorem 1 For the classical solutions with compact support of the Eule r-Poisson equations with
+repulsive force, (1), in RN(N≥2)withγ >1or without pressure (K= 0), there is no collapsing
+phenomenon where part of the density ρ(t,x)collapses to a point.
+2 Stabilities
+In this section, we study the stabilities of the Euler-Poisson equatio ns with repulsive forces, (1),
+inRN(N≥2). The total energy can be deﬁned by,
+
+
+E(t) =/integraltext
+Ω/parenleftBig
+1
+2ρ|u|2+1
+γ−1P−1
+2ρΦ/parenrightBig
+dx,forγ >1,
+E(t) =/integraltext
+Ω/parenleftBig
+1
+2ρ|u|2−1
+2ρΦ/parenrightBig
+dx,for without pressure.(14)
+For the system, we have the energy estimate:
+Lemma 2 For the Euler-Poisson equations, (1), suppose the solution s(ρ,u)have compact support
+inΩ. We have,
+·
+E(t) =−β/integraldisplay
+Ωρ|u|2dx≤0. (15)
+Initially, Sideris used the second inertia function
+H(t) =/integraldisplay
+Ωρ(t,x)|x|2dx, (16)
+to study instability results for the Euler equations [10]. After that in [8], the instability result of
+the Euler-Poisson equations with attractive forces, in radial symm etry, was obtained for γ≥4/3
+andN= 3. For the corresponding cases in RN, with non-radial symmetry, were studied [3], [13].
+By the standard computation for energy method, it is clear to have the following lemma:
+Lemma 3 Consider (ρ,u)is asolution with compact support in Ωfor the Euler-Poisson equations,
+(1) with β= 0. We have
+
+
+··
+H(t) = 2/integraltext
+Ω/bracketleftBig
+(ρ|u|2+NP)dx−N−2
+2ρΦ/bracketrightBig
+dx,forN≥3;
+··
+H(t) = 2/integraltext
+Ω(ρ|u|2+2P)dx+M2,forN= 2.(17)
+By applying the above lemma, we could have:
+Theorem 4 Suppose (ρ,u)is a global classical solution in the Euler-Poisson equatio ns, (1) with
+γ >1, without frictional damping (β= 0). We have
+(1)forN≥3,
+lim
+t→∞infR(t)
+t≥/bracketleftbigginf(2,N(γ−1),N−2)E
+M/bracketrightbigg1/2
+; (18)4 M.W. Yuen
+(2)forN= 2,
+lim
+t→∞infR(t)
+t≥/radicalbigg
+1
+2M; (19)
+(3)forN≥2,
+lim
+t→∞infR(t)
+t≥/bracketleftBigg
+NKMγ−1
+|Ω|(γ−1)/bracketrightBigg1/2
+, (20)
+withR(t) = max x∈Ω(t){|x|}. Here
+M=/integraldisplay
+Ωρ(t,x)dx, (21)
+is the total mass which is constant for any classical solutio n and|Ω|is the ﬁxed volume of Ω.
+Proof.(1)ForN≥3,we have the positive energy function E≥0. We can get from Lemma 3,
+··
+H(t) = 2/braceleftbigg/integraldisplay
+Ω/bracketleftBig
+ρ|u|2+NP/bracketrightBig
+dx−N−2
+2/integraldisplay
+ΩρΦdx/bracerightbigg
+≥2inf(2,N(γ−1),N−2)E.(22)
+That is
+H(t)≥H(0)+·
+H(0)t+inf(2,N(γ−1),N−2)Et2. (23)
+On the other hand, we obtain,
+H(0)+·
+H(0)t+inf(2,N(γ−1),N−2)Et2≤H(t)≤R(t)2M. (24)
+That is,
+O(1
+t)+inf(2,N(γ−1),N−2)E≤R(t)2M
+t2, (25)
+lim
+t→∞infR(t)
+t≥/bracketleftbigginf(2,N(γ−1),N−2)E
+M/bracketrightbigg1/2
+. (26)
+ForN= 2,we have
+··
+H(t) = 2/integraldisplay
+Ω(ρ|u|2+2P)dx+M2≥M2, (27)
+M2
+2t2+C0t+C1≤H(t)≤R(t)2M, (28)
+lim
+t→∞infR(t)
+t≥/radicalbigg
+1
+2M. (29)
+ForN≥2, we obtain
+M=/integraldisplay
+Ωρdx≤/parenleftbigg/integraldisplay
+Ωργdx/parenrightbigg1/γ
+|Ω|(γ−1)/γ, (30)
+and
+··
+H(t) = 2/braceleftbigg/integraldisplay
+Ω/bracketleftBig
+ρ|u|2+NP/bracketrightBig
+dx−N−2
+2/integraldisplay
+ΩρΦdx/bracerightbigg
+≥2/integraldisplay
+ΩNPdx. (31)
+From the inequality (30), it is clear to have
+··
+H(t)≥2NK|Ω|1−γMγ>0, (32)
+H(0)+·
+H(0)t+NK|Ω|1−γMγt2≤H(t)≤R(t)2M, (33)
+O(1
+t)+NK|Ω|1−γMγ≤R(t)2M
+t2. (34)Stabilites of Euler-Poisson Equations 5
+This gives
+lim
+t→∞infR(t)
+t≥/bracketleftBigg
+NKMγ−1
+|Ω|(γ−1)/bracketrightBigg1/2
+. (35)
+The proof is completed.
+Byapplyingthe similarmethod, in the abovesectionto the system, (1 ), with frictional damping
+constant ( β >0), the below theorem is followed:
+Theorem 5 Suppose (ρ,u)is a global classical solution with compact support in the sy stem, (1),
+with frictional damping (β >0). We have for N≥2,
+lim
+t→∞infR(t)
+t1/2≥/parenleftBigg
+2βNKMγ−1
+|Ω|(γ−1)/parenrightBigg1/2
+, (36)
+withR(t) = max x∈Ω(t){|x|}.
+Proof.ForN≥2, we get,
+·
+H(t) =/integraldisplay
+Ω2xρudx, (37)
+and
+··
+H(t) = 2/integraldisplay
+Ωx[−∇·(ρu⊗u)−∇P+ρ∇Φ−βρu]dx. (38)
+Additionally, it can be arranged as the following:
+··
+H(t) = 2/integraldisplay
+Ω[x−∇·(ρu⊗u)−∇P+ρ∇Φ]dx−β·
+H(t), (39)
+··
+H(t)+1
+β·
+H(t) = 2/braceleftbigg/integraldisplay
+Ω/bracketleftBig
+ρ|u|2+NP/bracketrightBig
+dx−N−2
+2/integraldisplay
+ΩρΦdx/bracerightbigg
+≥2/integraldisplay
+NPdx≥2NK|Ω|1−γMγ>0.
+(40)
+Therefore, we are able to obtain the inequality,
+C3+C4e−βt+2βNK|Ω|1−γMγt≤H(t)≤R(t)2M, (41)
+O(1
+t)+2βNK|Ω|1−γMγ≤R(t)2M
+t. (42)
+This gives
+lim
+t→∞infR(t)
+t1/2≥/parenleftBigg
+2βNKMγ−1
+|Ω|(γ−1)/parenrightBigg1/2
+. (43)
+The proof is completed.
+3 Non-existence of Collapsing Solution
+In this section, we explain the idea that there is no possibility to have a density collapsing solution,
+with compact support for the Euler-Poisson equations with repulsiv e forces:
+We restate their energy for γ >1 or the pressureless ﬂuids is:
+E(t) =/integraldisplay
+Ω/parenleftbigg1
+2ρ|u|2+1
+γ−1P−1
+2ρΦ/parenrightbigg
+dx≥ −/integraldisplay
+Ω1
+2ρΦdx. (44)
+When a δ-shock exists for the density function ρ(t,x), the potential energy function, with N≥3,
+becomes to be inﬁnite:
+−/integraldisplay
+ΩρΦdx=/integraldisplay
+Ωρ(t,x)/integraldisplay
+Ωρ(t,y)
+|x−y|N−2dydx= lim
+ǫ→0+/integraldisplay
+Ωδ(t,x)/integraldisplay
+Ωδ(t,y)
+ǫN−2dydx=∞. (45)6 M.W. Yuen
+WithN= 2, the situation is similar:
+−/integraldisplay
+ΩρΦdx=−/integraldisplay
+Ωδ(t,x)/integraldisplay
+Ωδ(t,y)ln|x−y|dydx=∞. (46)
+Therefore, the total energy of the δ-shock density solutions must be inﬁnite. However, for the
+classical solutions with compact support, the initial energy is ﬁnite. By the energy estimate in
+Lemma 2, we have,
+E(t)≤E(0). (47)
+If the total energy is ﬁnite, it is impossible to obtain the density collap sing solutions. It is clear to
+have Theorem 1.
+References
+[1] F. Bouchut and G. Bonnaud, Numerical Simulation of Relativistic Plasmas in Hydrodyna mic
+Regime, ZAMM 76(1996), 287-290.
+[2] C. F. Chen, Introduction to Plasma Physics and Controlled Fusion , Plenum, New York (1984)
+[3] Y.B. Deng, T.P. Liu, T. Yangand Z.A. Yao, Solutions of Euler-Poisson Equations for Gaseous
+Stars, Arch. Rational Mech. Anal. 164(2002), 261-285.
+[4] R. T. Glassey, The Cauchy Problem in Kinetic Theory . Society for Industrial and Applied
+Mathematics (SIAM), Philadelphia, PA, 1996.
+[5] P.L. Lions, Mathematical Topics in Fluid Mechanics . Vols. 1, 2, 1998, Oxford: Clarendon
+Press, 1998.
+[6] T. Makino, On a Local Existence Theorem for the Evolution Equation of Ga seous Stars ,
+Patterns and waves, 459–479, Stud. Math. Appl., 18, North-Holla nd, Amsterdam, 1986.
+[7] T. Makino, Blowing up Solutions of the Euler-Poission Equation for the Evolution of the
+Gaseous Stars , Transport Theory and Statistical Physics 21(1992), 615-624.
+[8] T. Makino and B. Perthame, Sur les Solutions a symmetric spherique de lequation d’Eule r-
+poisson Pour levolution d’etoiles gazeuses,(French) [On R adially Symmetric Solutions of the
+Euler-Poisson Equation for the Evolution of Gaseous Stars] ,Japan J. Appl. Math. 7(1990),
+165-170.
+[9] B. Perthame, Nonexistence of Global Solutions to Euler-Poisson Equatio ns for Repulsive
+Forces, Japan J. Appl. Math. 7(1990), 363–367.
+[10] T.C. Sideris, Formation of Singularities in Three-dimensional Compress ible Fluids , Comm.
+Math. Phys. 101(1985), No. 4, 475-485.
+[11] M.W. Yuen, Blowup Solutions for a Class of Fluid Dynamical Equations in RN, J. Math.
+Anal. Appl. 329(2)(2007), 1064-1079.
+[12] M.W.Yuen, Analytical Blowup Solutions to the 2-dimensional Isotherm al Euler-Poisson Equa-
+tions of Gaseous Stars , J. Math. Anal. Appl. 341 (1)(2008),445-456.
+[13] M.W. Yuen, Stabilities for Euler-Poisson Equations in Some Special Di mensions , J. Math.
+Anal. Appl. 344(2008), no. 1, 145–156.
+[14] M.W. Yuen, Blowup for the Euler and Euler-Poisson Equations with Repul sive Forces , pre-
+print, arXiv:1001.0380v1.

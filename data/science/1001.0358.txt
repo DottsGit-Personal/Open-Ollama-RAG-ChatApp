@@ -1,0 +1,115 @@
+arXiv:1001.0358v1  [math.AT]  3 Jan 2010FINITENESS OF RANK INVARIANTS OF MULTIDIMENSIONAL
+PERSISTENT HOMOLOGY GROUPS
+FRANCESCA CAGLIARI AND CLAUDIA LANDI
+Abstract. Rank invariants are a parametrized version of Betti numbers of a
+space multi-ﬁltered by a continuous vector-valued functio n. In this note we
+give a suﬃcient condition for their ﬁniteness. This conditi on is sharp for spaces
+embeddable in Rn.
+Introduction
+Persistent Topology is a theory for studying objects related to co mputer vision
+and computer graphics, which involves analyzing the qualitative and q uantitative
+behavior of real-valued functions deﬁned over topological spaces . More precisely,
+it studies the sequence of nested lower level sets of the considere d functions and
+encodes the scale at which a topological feature (e.g., a connected component, a
+tunnel, a void) is created, and when it is annihilated along this ﬁltration . In this
+framework,multidimensionalpersistenthomologygroupscapture thehomologyofa
+multi-parameterincreasingfamily of spaces. For applicationpurpos es, these groups
+are further encoded by simply considering their rank, yielding to a pa rametrized
+version of Betti numbers, called rank invariants [3].
+The aim of this note is to prove the following theorem, providing a suﬃc ient
+condition in order that multidimensional persistent homology groups are ﬁnitely
+generated (or, equivalently, rank invariants are ﬁnite):
+Theorem 1. IfXis a compact, locally contractible subspace of Rn, and/vectorf=
+(f1,f2,...,f k) :X→Rkis a continuous function, then, for any q∈Z, the rank
+invariant ρ(X,/vectorf),qtakes only ﬁnite values: for any /vector u= (u1,u2,...,u k)and/vector v=
+(v1,v2,...,v k)inRk, withuj< vj(j= 1,2,...,k),
+ρ(X,/vectorf),q(/vector u,/vector v)def= rankim Hq(X/vectorf≤/vector u֒→X/vectorf≤/vector v)<+∞,
+the map being the inclusion, and X/vectorf≤/vector uandX/vectorf≤/vector vdenoting the lower level sets
+{x∈X:fj(x)≤uj, j= 1,2,...,k}and{x∈X:fj(x)≤vj, j= 1,2,...,k},
+respectively.
+The ﬁniteness condition for rank invariants has proved to be crucia l for the
+stabilityofpersistence diagrams[6], andthe stability ofmultidimension al persistent
+homology groups [2, 4]. In each of these papers, ﬁniteness of pers istent homology
+rankswasgenerallyguaranteedbyrequiringthe topologicalspace to be triangulable
+or imposing a tameness condition on the ﬁltering function. In [5] it is ar gued that
+2000Mathematics Subject Classiﬁcation. Primary: 55N99; Secondary: 68T10, 54C15.
+Key words and phrases. Persistent topology, Shape analysis, Betti numbers, Eucli dean neigh-
+borhood retract.
+Research partially carried out within the activities of ARC ES (Universit` a di Bologna).
+12 FRANCESCA CAGLIARI AND CLAUDIA LANDI
+this functional setting is not large enough to address the problems encountered in
+practical applications, and stability of persistence diagrams is revis ited. The basic
+assumption to prove stability in [5] is the ﬁniteness of persistent hom ology ranks,
+but the question of how achieving this is left unanswered. Neverthe less, it is known
+that the ranks of 0th persistent homology groups (i.e. size functio ns) are ﬁnite
+provided that the space is only compact and locally connected [2]. Th eorem 1
+settles this issue also for multidimensional persistent homology grou ps of spaces
+embeddable in the Euclidean space.
+1.Proof of Theorem 1
+We begin recalling the deﬁnition of ENR and the criteria for a space to b e an
+ENR, following [1].
+Deﬁnizione 2. A topological subspace YofRnis called a Euclidean neighborhood
+retract(ENR) if there is a neighborhood in Rnof which Yis a retract.
+Theorem 3 (cf. [1]).IfY⊆Rnis locally compact and locally contractible then Y
+is an ENR.
+In order to prove Theorem 1 we anticipate a lemma.
+Lemma 4. LetXbe a compact, locally contractible subspace of Rn. LetP,Qbe
+subspaces of XwithclX(Q)⊆intX(P). Then, for any q∈Z, it holds that
+rank imHq(Q ֒→P)<+∞,
+the map being the inclusion.
+Proof.We take L1= clX(Q),L2= intX(P). It is suﬃcient to show that, for
+anyq∈Z, the rank of im Hq(ι:L1֒→L2) is ﬁnite, ιbeing the inclusion map.
+To this aim we observe that L1is closed in X, and hence compact. Moreover, L2,
+being open in X⊆Rn, islocally compactand locallycontractible, and therefore, by
+Theorem3, L2is an ENR. Thus, by Deﬁnition 2, there exists an open neighborhood
+L3ofL2inRnand a retraction r:L3→L2. SinceL3is open in Rn, for any x∈L3
+there is an open n-dimensional cube Q(x) centered at x, whose closure is contained
+inL3. Let us consider the open cover of L1given by Q={Q(x)∩L1}x∈L3. By
+compactness, L1admits a ﬁnite subcover: L1=/uniontextr
+s=1Q(xs)∩L1. Let us set
+K=/uniontextr
+s=1clRn(Q(xs)). Clearly L1is contained in K, andKis contained in L3.
+SinceKis a ﬁnite union of compact polyhedra, it is a polyhedron itself (cf. [7]) ,
+and its homology groups are ﬁnitely generated.
+Let us now consider the inclusion j:L1֒→K, and the restriction of the retrac-
+tionrtoK,r|K:K→L2. Sinceris a retraction onto L2⊇L1, it holds that, for
+everyx∈L1,r|K(x) =x. Henceι=r|K◦j:L1֒→K→L2. Therefore
+rankimHq(ι) = rankim/parenleftbig
+Hq(r|K)◦Hq(j)/parenrightbig
+≤rankimHq(j)≤rankHq(K)<+∞.
+/square
+Proof of Theorem 1. ItissuﬃcienttoapplyLemma4,forevery /vector u= (u1,u2,...,u k),
+/vector v= (v1,v2,...,v k) inRk, withuj< vj(j= 1,2,...,k), setting Q=X/vectorf≤/vector uand
+P=X/vectorf≤/vector v. /squareFINITENESS OF RANK INVARIANTS OF MULTIDIMENSIONAL PERSIST ENT HOMOLOGY GROUPS 3
+We conclude this note observing that, for a space Xembeddable in Rn, the
+conditions of compactness and local contractibility cannot be weak ened in order to
+guarantee ﬁniteness for rank invariants. Indeed, taking the clos ed topologist’s sine
+curve
+X={(x,y)∈R2:x∈(0,1], y= sin(1/x)}∪{(x,y)∈R2:x= 0, y∈[−1,1]},
+we have an example of a compact but not locally contractible subspac e ofR2whose
+0-th rank invariant, when Xis ﬁltered using the height function f(x,y) =y, is
+unbounded. Analogously, taking X={(x,y)∈R2:x∈(0,1], y= sin(1/x)}, we
+have an example of a locally contractible but non-compact subspace ofR2whose
+0-th rank invariant, when Xis ﬁltered using the height function, is unbounded.
+References
+1. G. E. Bredon, Topology and geometry , Springer-Verlag, 1993.
+2. F. Cagliari, B. Di Fabio, and M. Ferri, One-dimensional reduction of multidimensional persis-
+tent homology , to appear in Proc. Am. Math. Soc.
+3. G. Carlsson and A. Zomorodian, The theory of multidimensional persistence , Discrete & Com-
+putational Geometry 42(2009), no. 1, 71–93.
+4. A. Cerri, B. Di Fabio, M. Ferri, P. Frosini, and C. Landi, Multidimensional per-
+sistent homology is stable , Technical report, University of Bologna, Luglio 2009,
+http://amsacta.cib.unibo.it/2603/.
+5. F. Chazal, D. Cohen-Steiner, M. Glisse, L. J. Guibas, and S . Y. Oudot, Proximity of persis-
+tence modules and their diagrams , SCG ’09: Proceedings of the 25th annual symposium on
+Computational geometry (New York, NY, USA), ACM, 2009, pp. 2 37–246.
+6. D. Cohen-Steiner, H. Edelsbrunner, and J. Harer, Stability of persistence diagrams , Discrete
+Comput. Geom. 37(2007), no. 1, 103–120.
+7. C. P. Rourke and B. J. Sanderson, Introduction to piecewise-linear topology , Springer-Verlag,
+New York, 1972.
+Dipartimento di Matematica, Universit `a di Bologna, P.zza di Porta S. Donato 5,
+I-40126Bologna, Italia
+E-mail address :cagliari@dm.unibo.it
+Dipartimento di Scienze e Metodi dell’Ingegneria, Universi t`a di Modena e Reggio
+Emilia, Via Amendola 2, Pad. Morselli, I-42100 Reggio Emilia, Italia
+E-mail address :clandi@unimore.it

@@ -1,0 +1,122 @@
+arXiv:1001.0101v1  [hep-ph]  31 Dec 2009SPIN LIGHT MODE OF MASSIVE NEUTRINO RADIATIVE DECAY IN
+MATTER
+A. GRIGORIEVa
+Skobeltsyn Institute of Nuclear Physics, Moscow State Univ ersity,
+119992 Moscow, Russia
+A. LOKHOVb
+Department of Quantum Statistics and Quantum Field Theory, Moscow State University,
+119992 Moscow, Russia
+A. STUDENIKINc
+Department of Theoretical Physics, Moscow State Universit y,
+119992 Moscow, Russia
+Introduction. The calculations of the radiative neutrino decay performed by several au-
+thors1have shown that the process characteristics are substantia lly changed if the presence of
+a medium is taken into account. Note, the inﬂuence of the back ground matter was considered
+only in the vertex (it is the inﬂuence on the neutrino magneti c moment). Here we are going to
+discuss the impact of the medium onto the state of neutrino it self in the process which is similar
+to the so called spin light of neutrino ( SLν)2, a new mechanism of the electromagnetic radiation
+the detailed quantum treatment of which was evaluated in a se ries of our papers3. Lately, there
+appeared several investigations4,5of the same eﬀect but in connection to the electron which can
+bethe source of the spin light of electron ( SLe). Themechanism of SLis based on helicity states
+energy diﬀerence of the particle arising due to weak interact ion with the background matter, in
+addition the energy deposit depends on the diﬀerence between the total energies of neutrinos
+(or electrons) in the initial and ﬁnal states. In neutron mat ter, a more signiﬁcant case is the
+SLνprocess with participation of antineutrinos and thus it is w hat we will study here. However
+for the convenience in what follows we will still speak about neutrinos.
+We will consider the transition of one neutrino mass state ν1into another mass state ν2
+assuming that m1> m2, and restrict ourselves with only these two neutrino specie s and accord-
+ingly with two ﬂavour neutrinos (like in the previous works) . Since the interactions of ﬂavour
+neutrinos with neutron star matter, composed predominantl y of neutrons, are the same and
+governed by the neutron density we will take equal interacti ons for the initial and ﬁnal massive
+neutrinos with the matter.
+Modiﬁed Dirac equation. The system “neutrino ⇔dense matter” depicted above can
+be circumscribed mathematically in diﬀerent ways. Here we us e the powerful method of exact
+solutions developed in3,4. In the frame of this method neutrino states in matter are des cribed
+aax.grigoriev@mail.ru
+blokhov.alex@gmail.com
+cstudenik@srd.sinp.msu.ruby the modiﬁed Dirac equation: {iγµ∂µ−1
+2γµ(1+γ5)fµ−m}Ψ(x) = 0,where for the case of
+unpolarized and stationary matter fµ=GF√
+2(n,0). For the neutron star, the matter density can
+reach the values of n≈1037÷1040cm−3. The corresponding energy spectrum of neutrino is
+given by Eε=ε/radicalbig
+(p−sαmν)2+m2ν+αmν,whereε=±1 deﬁnes the sign of the energy, sis
+the neutrino helicity, pis the neutrino momentum and α=1
+2√
+2GFn
+mν. The exact form of the
+solution of the modiﬁed Dirac equation can be found in3,4.
+Spin light mode of massive neutrino decay. Using the above-mentioned results we can
+now compute the process itself. From the energy-momentum co nservation law we get for the
+emitted photon energyd
+w=K(p+∆)−pcosθ+/radicalbig
+(K(p+∆)−pcosθ)2−(K2−1)(∆2+2p∆)
+K2−1,
+whereK=E−pcosθ+αm1
+αm1, ∆ =m2
+1−m2
+2
+2αm1and where θis the angle between the direction of the
+initial neutrino momentum pand the direction of the SLνphoton emission. Using the exact
+neutrino wave functions in matter we calculate the rate of th e process, Γ ν1ν2=/integraltextπ
+0dΓ
+dcosθdcosθ.
+Results and discussion. It is worth to investigate the asymptotical behavior of the r ate
+Γν1ν2in three most signiﬁcant limiting cases keeping only the ﬁrs t inﬁnitesimal order of small
+parameters. So we have,
+1) Γν1ν2= 4µ2α3m3
+1/parenleftBig
+1+3
+2m2
+1−m2
+2
+αm1p+p
+αm1/parenrightBig
+,1≪p
+m1≪αm1
+p(for ultrahigh density case),
+2) Γν1ν2= 4µ2α2m2
+1p/parenleftBig
+1+αm1
+p+m2
+1−m2
+2
+αm1p+3
+2m2
+1−m2
+2
+p2/parenrightBig
+,m2
+1
+p2≪αm1
+p≪1 (for high density case),
+3) Γν1ν2∼µ2m6
+1
+p3,αm1
+p≪m1
+p≪1, m1≫m2(for quasi-vacuum case).
+Note that µis the eﬀective transition magnetic moment of the neutrino6.
+The results 1) and 2) obtained within the generalization of t he method of exact solutions to
+the case when the masses of the initial and ﬁnal neutrinos are diﬀerent, in the limit m1=m2
+reproduce exactly the results of the SLνcalculation2,3. The asymptotic estimation 3) gives the
+contribution of the spin light mode to the neutrino radiativ e decay rate.
+Acknowledgements. The authors (A.L. and A.S.) are thankful to Jean Tran Thanh Va n,
+Jacques Dumarchez and Ludwik Celnikier for the kind invitat ion to attend the 21st Rencontres
+de Blois and to all of the organizers for their hospitality in Blois. The authors are also thankful
+to Carlo Giunti for stimulating discussions.
+References
+1. S. Petcov, Sov.J.Nucl.Phys 25, 340 (1977), G. T. Zatsepin, A. Yu. Smirnov, Yad. Fiz. 28, 1569
+(1978)Yad. Fiz. 28, 1569 (1978), P.B. Pal and L. Wolfenstein, Phys. Rev. D25, 766 (1982),
+J.C.D’Olivo, J.F.Nieves, and P.B. Pal, Phys. Rev. Lett. 64, 1088 (1990), C. Giutni, C.W. Kim,
+and W.P. Lam, Phys. Rev. D43, 164 (1990)
+2. A. Lobanov and A. Studenikin, Phys. Lett. B564, 27 (2003), A. Lobanov and A. Studenikin,
+Phys. Lett. B601, 171 (2004), M. Dvornikov, A. Grigoriev, A. Studenikin, Int.J.Mod.Phys. D
+14, 308 (2005)
+3. A. Studenikin, A. Ternov, Phys. Lett. B608, 107 (2005), A. Grigorev, A. Studenikin , A. Ternov,
+Phys. Lett. B622, 199 (2005), A. Grigoriev, A. Studenikin, A. Ternov, Grav.Cosmol. 11, 132
+(2005), A. Grigoriev, A. Studenikin, A. Ternov, Phys.Atom.Nucl. 69, 1940 (2006)
+4. A. Studenikin, Ann.Fond.Louis de Broglie 31, 289 (2006), A. Studenikin, J.Phys. A: Math. Gen.
+39, 6769 (2006), A. Studenikin, J.Phys. A: Math. Theor. 41, 164047 (2008)
+5. A. Grigoriev, S. Shinkevich, A. Studenikin, A. Ternov, I. Troﬁmo v,Grav.Cosmol. 14, 248 (2008)
+6. C. Giunti, A. Studenikin, Phys.Atom.Nucl. 72, 2151 (2009).
+dRecalling the results on the SLν2,3,4for the initial and ﬁnal neutrino states we take s1=−1,s2= 1.

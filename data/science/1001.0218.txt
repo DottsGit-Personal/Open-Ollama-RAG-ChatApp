@@ -1,0 +1,340 @@
+ 1The free states-related Fermi pocket of cuprate superconductors  
+Tian De Cao* 
+Department of Physics, Nanjing University of Information Science & Technology, Nanjing 210044, China 
+ 
+Abstract 
+To stress the effect of the pairing position deviating from the Fermi level, we must investigate the 
+pairs in the wave vector space, and then we us e the dynamic equation to study some correlation 
+functions. This article shows that the Fermi pocket is related to the effect of free electron states on 
+the ARPES experiment. This also leads us to understand why the Fermi arc appears in Bi2212 while 
+the Fermi pocket appears in Bi2201 with the va lence bandwidth and the work function known for 
+them.  
+PACS  numbers : 79.60.-i; 74.72.-h; 74.20.Mn; 74.20.Rp 
+Keywords:  pseudogap; superconductivity; Fermi arc; Fermi pocket 
+ 
+Ⅰ. Introduction 
+The Fermi pocket is suggested by the d-density wa ve [1,2] or other order-based mechanisms, and 
+it is observed in the underdoped Bi 2201[3]. However, there are some  deviation between the theory 
+prediction and the experiment result. Moreover, the Fermi arc is discovered in the underdoped 
+Bi2212 [4,5]. Why does the Fermi pocket appear in  the underdoped Bi2201 not  in the Bi2212?  In 
+the previous paper [6], it is s hown that the elect ronic structures of cuprat e superconductors favor the 
+pairs-based pseudogap appearing in the antinodal region, and the relation between 
+superconductivity and pseudogap can be understood we ll, despite some physicists suggested the 
+order-based pseudogap [7,8]. On the basis of same ideas, this articl e shows that the Fermi arc and 
+pocket can be understood.  
+ 
+Ⅱ. Review of ARPES principle 
+ 
+The quantum measured by the ARPES experiment  is the hopping probability from a localized 
+                                                        
+*Corresponding author. 
+*E-mail address: tdcao@nuist.edu.cn (T. D. Cao). 
+*Tel: 011+86-13851628895   2orbital to a free state, while both the localized orbital and the free state all belong to the same 
+Hamiltonian0Has shown in Eq.(2). The total Hamiltonian is '0H H H+= , 'H describes the 
+interaction between electrons and photons. Because the photons can in crease the probability of the 
+electrons occupying free-particle states, when we in tend to discuss the electron states which are not 
+too lower than the Fermi energy level, we should also consider the free electron states, and we 
+derived the formula of photoemission intensity [9] 
+) ,(kin
+kEkIr
+= kMC2
+int') ( νφh Enkin
+ka
+F−+  ) ,,( νφσ h E kAkin
+k a −+ ⋅r
+                       ( 1 )  
+where kinE is the kinetic energy of the photoelectron, νhis the photon energy, and φ is the work 
+function. It is n ecessary to note that ),,(ωσkAar
+is the one-particle spectral function for the electron 
+systems both free states and localized el ectron orbitals with the Hamiltonian 0H as discussed in 
+the previous literature [10](the so-called “state outside a solid” in the pr evious paper seems vague, 
+because the free state is also  the state inside a solid.), and the energy conservation law 
+kin
+kE+φνh−k
+BEr
+− =0 is used, where k
+BEr
+ are the energies of electrons (k
+BEr
+=0 at FE) inside the 
+solid.  
+To understand the spectral functionaA, we take the simple Hamiltonian 
+=0Hσσ
+σωk k
+kkccrr
+r+∑
+,+ .). (
+,ch cbMk
+kkk+∑+
+σ
+σσr
+rrr +σσ
+σξk k
+kkbbrr
+r+∑
+,+bbH−                        ( 2 )  
+wherekω= μφ−+kin
+kE , krξ=με−kr , σqbrdestroy an electron in qr state of spin σinside the solid, 
+σkcrdestroy an electron in the free states, andbbH−represent the interactions between electrons inside 
+the solid. Eq.(2) requires⊥k=0, while we extend it to⊥kk<<, and this is met in some experiments. 
+The b-band (it does not strictly co rrespond to the Cud or Op states) in Eq.(2) expresses the energy 
+band near the Fermi energy in the CuO 2 planes of the p-type cupr ate superconductors. Although the 
+properties of the CuO 2 planes may be described by a multi-band model, the electronic feature near 
+the Fermi surface could be described affectively by the a-model.   
+Ⅲ. Calculation 
+To find the obvious effect of the overlap matrix element kMr(another element, intM, is not 
+discussed in this article) in the pseudogap phase, we take the model  3=0Hσσ
+σωk k
+kkcc+∑
+,+ .). (
+,ch cbMk
+kkk+∑+
+σ
+σσ +σσ
+σξk k
+kkbb+∑
+,+↓+
+↓↑+
+↑∑ lll
+llbbbb U                 ( 3 )  
+where we have denoted wave vector kr
+ as k, kkr
+≡. To compare with experiments in detail, this 
+model should be improved. However, we are only in terested in the qualitative relation of some 
+quanta. If we introdu ce the charge operator σ
+σσ ρk
+kqkb b q∑+
++=
+,21)(ˆ  and the spin operator 
+σ
+σσσk
+kqkbb qS∑+
++=
+,21)(ˆ , Eq. (3) is rewritten in the form 
+=0Hσσ
+σωk k
+kkcc+∑
+,+ .). (
+,ch cbMk
+kkk+∑+
+σ
+σσ +σσ
+σξk k
+kkbb+∑
+,+ )(ˆ)(ˆ q qU
+q−∑ρρ )(ˆ)(ˆ qSqSUz z
+q− −∑    (4) 
+To discuss the effect of kM, we define the functions 
+)' ,,(ττσ− kGb = > <−+)'()(ττσ στ k k b bT  
+)' ,,(ττσ−+kF = > <+ +)'()(ττσ στ k k b bT  
+)' ,,(ττσ− kF = > < )'()(ττσ στ k kb bT  
+The model (4) is similar to the Hubbard model, but  it includes the free states which have energy 
+levels higher above the chemical potential. Th e Hubbard model has not superconductivity on the 
+basis of the evidence of off- diagonal long range order (ODLRO) [11], while other calculations 
+found superconductivity. Moreover, we suggest that th e superconductivity is due to the pairs on the 
+Fermi surface and the ODLRO evidence is not reliable.  
+The doubly occupied states should be neglected for →U∞. However, we are interested in the 
+states near the Fermi surface, thus Uis not too large for the doped cuprate superconductors, we 
+establish their dynamic equati ons and find the tw o-particle Green’s functions such as 
+> <+
++ )'( )(ˆ τσσ τ k qkbbqST  and > <+
++ )'( )(ˆ τ ρσσ τ k qkb bqT  in these equations. Moreover, we proceed to 
+establish the dynamic equations of > <+
++ )'( )(ˆ τσσ τ k qkbbqST  and > <+
++ )'( )(ˆ τ ρσσ τ k qkb bqT  and use the 
+cut-off approximation. This is not the Hertree-Fock  approximation because we consider the effect of 
+correlations, and we obtain 
+k niξω~[+− +
+k nk
+iM
+ωω−2
++
+qk n qiqkP
++−∑ξωσ),,(),(]n b ikGωσ  
+=1−+
+k niV
+ξωρ
++−>< )0(ˆ)0(+
+qk nk qk
+q i++
++−−∑ξωξξ),()0, (nikF qkUF ωσ τσ+=+                    ( 5 )   4k niξω~[−− +
+qk n qiqkP
+++∑ξωσ),,(),(]nikFωσ+= ),()0 ,, (n b
+q qk nk qkikG qkFUiωσ τσξωξξ=−−−−+
+++∑      ( 6 )  
+To arrive at the Eq. (5) and (6),  we introduced theses functions 
+kξ~=kξ+bUn21 
+),,()( nikRωσ± =
+qk n qiqkP
++±∑ξωσ),,( 
+),,()( nikωσ±Δ =
+qk nk qk
+q i++
+±−−∑ξωξξ)0, ( =+τσqkUF  
+),,()( nikωσ+
+±Δ =
+qk nk qk
+q i++
+±−−∑ξωξξ)0, ( =++τσqk UF  
+),,(σqkP = >−< )(ˆ)(ˆ 2qSqS U + >−< )(ˆ)(ˆ2q q U ρρ >−<− )(ˆ)(ˆ 22qSq Uρσ  
+wherebnis the b-electron number at each site, >−< )(ˆ)(ˆ qSqS >− −≡< )0,(ˆ),(ˆ τττ qSqST and so on. It 
+is shown that the function G, Fand +Fdepend on the spin index σ due to the spin-charge 
+correlation function ><Sˆˆρ , while the spin dependence does not affect our main result for 
+non-magnetic materials, and it will be  neglected below. Thus we find 
+k niξω~{−
+k nk
+iM
+ωω−−2
+),()( nikRω −− ),( ),()( )( n n ik ik ω ω++
+−Δ Δ− /k niξω~[+ ),()( nikRω +− ),(]}n bikGω 
+=1+
+k nb
+iUn
+ξω−2/                                                                ( 7 )  
+k niξω~{[+ ),()( nikRω+− ]k niξω~[−
+k nk
+iM
+ωω−−2
+),()( nikRω −− ] ),( ),()( )( n n ik ik ω ω++
+−Δ Δ− ),(}nikFω+ 
+= ),()( nikω+
+−Δ− [1+
+k nb
+iUn
+ξω−2/]                                                     ( 8 )  
+A detail analysis shows that a non-zero pairing temperature pairT>0K can be found with Eq. (8), 
+and the highest pairing temperature will appear when the gap function )()(++
+−ΔΔ have the d-wave or 
+the similar non-s wave symmetry. A detail di scussion can be found in the previous paper6 if we note 
+that the pairing temperature is dominated by kM=0. Therefore, to discuss the electronic structure 
+near the node, we assume )()(++
+−ΔΔ =0 in the node (y x k k±= ) even if for pairTT< , this electronic  5structure can be extended to the small value of )()(++
+−ΔΔ in the node, and we arrive at 
+),(n bikGω=[1+
+k nb
+iUn
+ξω−2/]/k niξω~[−
+k nk
+iM
+ωω−−2
+)],()( nikRω −−                         ( 9 )  
+The form of bGin Eq.(9) shows that the excitation ener gies near (or on ) the Fermi surface are 
+determined by 
+k kEξ~−
+k kk
+EM
+ω−−2
+),()( kEkR−− = 0                                               ( 1 0 )  
+The Eq.(10) can be solved by successive iteration. Let k kEξ~)0(− ) /()0( 2
+k k kE M ω− − =0, we get 
+)0(
+)(,±kE = ] )~(~[21 2 2
+k k k k k M+−±+ ξωξω , thus )(
+)(,n
+kE±=kξ~+
+kn
+kk
+EM
+ω−−
+±)1(
+)(,2
++ ) ,()1(
+)(,)(−
+±−n
+kEkR . We find 
+)(
+)(,1n
+kE+)(
+)(,2n
+kE−−  =0 if )0(
+)(,1+kE)0(
+)(,2−−kE =0, thus we will pay close attention to the zero order 
+approximation)0(
+)(,±kE . To clearly see the related result, one can first take kM=0 and find 
+)0(
+)(,1+kE)0(
+)(,2−−kE =
+2 1~
+k kξω− =
+2 1 kkin
+kEεφ−+ . Because the width of 
+2kεis pt2 (the bandwidth of the 
+electron energy band in CuO 2 planes of cuprate superconductors), thus it could be )0(
+)(,1+kE)0(
+)(,2−−kE =0 
+for some wave vectors whenpt2≤φ . Therefore, )0(
+)(,+kE =0 for k=1k, 2k, 3k…if )0(
+)(,−kE =0 for 
+k='
+1k, '
+2k, '
+3k…around the node, and this case will lead to the Fermi pocket. However, 
+)0(
+)(,1+kE)0(
+)(,2−−kE >0 for pt2>>φ , and this case will lead to the Fermi arc.  
+ 
+Ⅳ. Explanation of experiment results 
+The Fermi arc is an open-ended gapless sectio n in the large Fermi surface, while the pocket 
+shows the small closed Fermi surface feat ures. We arrive at these results: 
+The Fermi arc can be understood. As discussed above, )0(
+)(,1+kE)0(
+)(,2−−kE >0 for bt2>φ , this 
+means )(
+)(,n
+kE+>0 for any wave vector if )(
+)(,n
+kE−=0 for k='
+1k, '
+2k, '
+3k…around the node, thus only one 
+Fermi segment could be found in  each nodal region. It shoul d be noted that the energy kE=0 means 
+Fkk=. For the p-type cuprate superconductors, we can explain σqbr as the operator which destroys 
+an hole in the CuO 2 planes, thus a hole Fermi arc could be observed in the hole doped cuprates (for  6the appropriate structure of krε). The valence bandwidth of Bi2212 is estimated to be 1.5 eV , the 
+work function of Bi2212 is estimated to be 4.3eV10, and the Fermi arc feature of Bi2212 has been 
+observed [12] (their arguments al so support our results). These cons istencies in the Fermi arc, the 
+bandwidth and the work functi on support our results above. 
+The Fermi pocket in the nodal region could be expl ained, too. As discussed above, it could be 
+)0(
+)(,+kE =0 and)0(
+)(,−kE =0 , this results in )(
+)(,n
+kE+=0 for k=1k, 2k, 3k… when)(
+)(,n
+kE−=0 for k='
+1k, '
+2k, 
+'
+3k…in the nodal region, and this gives two Fermi segments at each nodal region. That the two 
+Fermi segments form a close pocket is because'
+N Nk k= for few wave vectors if the pairs are far from 
+the nodal region. The bandwidth of  Bi2201 is estimated to be 6.5 eV[13], the work function of 
+Bi2212 is estimated to be 4.1eV [14], and the Fermi pocket of Bi2201 is observed in ARPES, these consistencies in ARPES measuremen ts also support our results. 
+The Eq.(10) may have three solutions, and the co existence of Fermi arc and Fermi pocket may be 
+understood. However, this case is so comple x that we will not discuss it in detail.  
+ 
+Ⅴ. Conclusion 
+In the discussion above, our results are based on  a basic suggestion that the pseudogap appears 
+in the antinodal region. This idea is also consis tent with other experime nts as discussed in our 
+previous articles [6]. Although the Hubbard-like Hamiltonian has been examined many times in both pseudogap and superc onductivity, our work is based on a different idea for the moderate 
+on-site interaction. 
+In summary, the Fermi arc, the Fermi pocket, and the pseudogap can be explained consistently 
+with the electronic structures of superconductors. Moreover, this  article supports further that 
+whether the pairs lead to superconductivity or pseudogap is determined by the pairing position. 
+  
+     7 
+REFERENCES: 
+[1] C. Nayak, Phys Rev B 62 (2000)4880-4889.   
+[2] S. Chakravarty, R. B. Laughlin, D. K. Morr, et al, Phys Rev B 63 (2001) 094503-094513. 
+[3] J. Q. Meng, G. D. Liu, W. T. Zhang, et al, Nature 462 (2009)335-338. 
+[4] K. Tanaka, W. S. Lee, D. H. Lu, et al, Science 314 (2006)1910-1913. 
+[5] U. Chatterjee, M. Shi, A. Ka minski, et al, Phy. Rev. Lett. 96 (2006)107006-107010. 
+[6] T. D. Cao, to be published in Chin. Phys. B (or see arXive: 1004.1792). 
+[7] J. R. Schrieffer, X. G. Wen,  S. C. Zhang, Phys. Rev. Lett. 60 (1988) 944-947. 
+[8] J. Schmalian, D. Pines, B. Stojkovic, Phys. Rev. Lett. 80 (1988) 3839-3842.  
+[9] T. D. Cao, Physica B: Condense Matter 405 (2010)1394-1396. 
+[10] D. L. Feng, C. Kim, Phys. Rev. B 65 (2002) 220501-220505®. 
+[11] G. Su, Phys. Rev. Lett. 86 (2001)3690. 
+[12] H. B. Yang, J. D. Rameau, P. D. Johnson, et al, Nature 456 (2008)77-80. 
+[13] C. O. Rodriguez, Ruben We ht, Mariana Weissmann, N. E. Christensen, M. S. Methfessel, 
+Physica C 258 (1996) 360-364. 
+[14] J. D. Lee, A. Fujimori, Phys. Rev.B 66 (2002)144509-144516. 

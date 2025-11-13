@@ -1,0 +1,444 @@
+arXiv:1001.0116v1  [quant-ph]  31 Dec 2009One Dimensional Magnetized TG Gas Properties in an External Magnetic Field
+Zhao Liang Wang∗and An Min Wang†
+Department of Modern Physics, University of Science and Tec hnology of China, Hefei, Anhui, China.
+With Girardeau’s Fermi-Bose mapping, we have constructed t he eigenstates of a TG gas in an
+external magnetic ﬁeld. When the number of bosons Nis commensurate with the number of
+potential cycles M, the probability of this TG gas in the ground state is bigger t han the TG gas
+raised by Girardeau in 1960. Through the comparison of prope rties between this TG gas and
+Fermi gas, we ﬁnd that the following issues are always of the s ame: their average value of particle’s
+coordinate and potential energy, system’s total momentum, single-particle density and the pair
+distribution function. But the reduced single-particle ma trices and their momentum distributions
+between them are diﬀerent.
+PACS numbers: 05.30.Jp, 03.65.Ge
+I. INTRODUCTION
+The problem of a one-dimensional (1D) hard-core gas
+was ﬁrst studied classically by Tonks [1]. Girardeau[2, 3]
+continued the research in quantum, and put forward the
+Fermi-Bose mapping to solve energy spectrum and the
+correspondingwave function of a one dimensional Tonks-
+Girardeau (TG) gas. After that, Lieb and Liniger [4]
+considered NBose particles interacting via a repulsive
+δ-function potential with a coupling constant γ. In fact,
+TG gas can be considered as the Lieb-Liniger gas when
+γ→ ∞.
+During the past decade, the study on TG gas has un-
+dergone a rapid development in theoretical and experi-
+mental [5–17]. In particular, A. Lenard [5] indicated that
+the oﬀ-diagonalparts ofthe one-bodydensity matrix and
+the momentum distribution show distinct diﬀerences in
+both the TG gas and the Fermi gas. G. J. Lapeyre et
+al. [8] studied the momentum distribution of a harmon-
+ically trapped gas. The most important progress is the
+realization of the strongly interacting bosons [16] in a
+one-dimensional optical-lattice trap and the TG gas [17]
+by trapping87Rb atoms by trapping them with a combi-
+nation of two light traps.
+We have known some properties of one dimensional
+TG gas, and we are interested in its properties and fea-
+tures in external magnetic ﬁeld. Consequently, we ﬁrst
+reveal some properties of both gases in the same exter-
+nal magnetic ﬁeld and compared them. With the Fermi-
+Bose mapping [2, 3], we obtained all the eigenenergies
+and eigenstates of this TG gas. When the number of
+bosonsNis commensurate with the number of potential
+cyclesM, the TG system in an external magnetic ﬁeld
+will be in the ground state with a bigger probability than
+theTGgasraisedbyGirardeauin1960. Manyproperties
+of the TG gas and the Fermi gas are always of the same
+even if it’s time-dependent, such as their averagevalue of
+particle’s coordinate and potential energy, system’s total
+∗Electronic address: wzlcxl@mail.ustc.edu.cn
+†Electronic address: anmwang@ustc.edu.cnmomentum, single-particle density and the pair distri-
+bution function. But both their reduced single-particle
+matrices and momentum distributions are diﬀerent.
+II. TG GAS IN AN EXTERNAL MAGNETIC
+FIELD
+In a TG gas, the boson is assumed to have an “impen-
+etrable” hard core characterized by a radius of a. From
+Girardeau’s work, with the hard core radius a→0, the
+interparticle interaction is given by
+U(xi,xj) =/braceleftigg
+0, xi∝ne}ationslash=xj,
+∞, xi=xj.(1)
+Such an interparticle interaction could be represented
+by the following subsidiary condition on the wave func-
+tionψ:
+ψ(x1,···,xN,t) = 0 ifxi=xj,1/lessorequalslanti<j/lessorequalslantN.(2)
+In order to let the TG gas wave function, which must
+be symmetric with respect to the permutations of any xi
+andxj, satisfy this condition (2), we need the ideas of
+Fermi-Bose mapping proposed by Girardeau [2, 3]. That
+is, using the fact that the Fermi wave function, denoted
+byψF, satisﬁes condition (2) naturally and is antisym-
+metric, a bosonic wave function ψBof a TG gas can be
+constructed by
+ψB(x1,···,xN,t) =A(x1,···,xN)ψF(x1,···,xN,t)
+(3)
+in which
+A(x1,···,xN)≡N/productdisplay
+i>jsgn(xi−xj), (4)
+and
+sgn(x)≡x
+|x|=/braceleftigg
+1, x> 0,
+−1, x<0.2
+As the groundstate of a bose system is non-negative[19],
+mapping (3) for the stationary ground state of a system
+reduces to a simpliﬁed form [2]
+ψB(x1,···,xN) =|ψF(x1,···,xN)|(5)
+To illustrate our general ideas, we now study the case
+that magnetized bosons in an external magnetic ﬁeld
+B(x) =−Bcos(2ωx). For simplicity, we take B(x) inde-
+pendent of t. therefore,
+ˆH=N/summationdisplay
+i=1/bracketleftbigg
+−/planckover2pi12
+2m∂2
+∂x2
+i+V(xi)/bracketrightbigg
+. (6)
+in which
+V(x) =/braceleftigg
+µBcos(2ωx),0/lessorequalslantxi/lessorequalslantL
+ω,
+0, else.(7)
+We suppose L=Mπ, whereMis an integer and µis
+the magnetic moment of atom. For the sake ofsimplicity,
+we assume that both NandMare odd (As a result of
+the introduction of A(x1,···,xN),ψBis periodic if Nis
+odd and antiperiodic if Nis even [2, 12]). From Bloch
+theory, the corresponding energy spectrum of system in
+periodic potentials has the energy band structure. We
+use the notation nas the band index and kas the Bloch
+wave vector in the ﬁrst Brillouin zone. For convenience,
+we useα={n,k}to denote both the band index and
+the Bloch wave vector. Not considering the interparticle
+interaction, every particle in x∈[0,L/ω] is governed by
+/bracketleftbigg
+−/planckover2pi12
+2m∂2
+∂x2+µBcos(2ωx)/bracketrightbigg
+ϕα(x) =Eαϕα(x).(8)
+Substitutez=ωx,q=mµB
+/planckover2pi12ω2andλ=2mE
+/planckover2pi12ω2into equa-
+tion (8), then this equation becomes
+d2ϕ(z)
+dz2+[λ−2qcos(2z)]ϕ(z) = 0, (9)
+z∈[0,L].
+It is called Mathieu’s Diﬀerential Equation, which can
+be solved with Randall B. Shirts’s [18] method. Using
+Bloch’s theorem, we ﬁrst set
+ϕ(z) = exp(iνz)u(z), (10)
+ϕ(z) =ϕ(z+π), (11)
+u(z) =u(z+L), (12)
+ν=2l
+M,/parenleftbigg
+l∈0,±1,···,±M−1
+2/parenrightbigg
+.(13)
+Sinceu(z) is periodic with period π, it can be expanded
+in Fourier series:
+ϕ(z) = exp(iνz)/summationdisplay
+ncnexp(i2nz).(14)Then substitute (14) into (9), we obtain an inﬁnite
+symmetric tridiagonal matrix equation, that is, eigen
+equation.
+
+...··· ··· ··· ··· ··· ···
+···(ν−4)2q0 0 0 ···
+···q(ν−2)2q0 0 ···
+···0q ν2q 0···
+···0 0 q(ν+2)2q···
+···0 0 0 q(ν+4)2···
+··· ··· ··· ··· ··· ···...
+
+×
+...
+c−2
+c−1
+c0
+c1
+c2
+...
+=λ
+...
+c−2
+c−1
+c0
+c1
+c2
+...
+.(15)
+Bytruncatingthe matrixin eachdirection(centeredat
+the smallest diagonal element ν2) at suﬃciently large di-
+mensions, approximations to the desired eigenvalues can
+be obtained to any desired precision. We could obtain
+the eigenvalue and eigenfunction easily using Mathemat-
+ica or Matlab. In practice, the eigenvalue and eigenfunc-
+tion converge quickly as the dimension increases when
+qis not too large. For example, if we choose ν= 6/7
+andq= 1, the relative diﬀerence of the lowest eigenvalue
+between truncating the matrix at 21-D and 2001-D is
+only 10−38. For large values of qand for high orders, we
+can use asymptotic expansions instead [21, 22]. since the
+matrixdimensionthatneeded togetaccurateeigenvalues
+and eigenfunctions becomes large.
+With Girardeau’s Fermi-Bose mapping (3), the eigen-
+states of the hard-core Bose system is given by the Slater
+determinant
+ψB(x1,···,xN) =A(x1,···,xN)√
+N!
+×/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingleϕα1(x1)ϕα2(x1)···ϕαN(x1)
+ϕα1(x2)ϕα2(x2)···ϕαN(x2)
+............
+ϕα1(xN)ϕα2(xN)···ϕαN(xN)/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle.(16)
+The total energy of the system is
+E=N/summationdisplay
+i=1Eαi. (17)
+As a result of the Bose-Fermi mapping, the energy spec-
+trum of the Bose and corresponding Fermi system are
+identical. When the temperature is 0, the system will
+be on the ground state — Nparticles on the Nlowest
+eigenstates, respectively.3
+Calculationsshowthattheenergygap △Ebetweenthe
+ﬁrst and the second Bloch bands decreases with the de-
+crease ofM, and when Mis large, the energy gap △Eis
+independent of M. The energy gap between the ﬁrst and
+the second Bloch bands as a function of magnetic ﬁeld B
+and frequency ωare plotted in Fig. 1, respectively. At
+B= 0, raised by Girardeau [2], the energy gap of TG
+gas is the smallest (not 0). The energy gap increases as
+Bandωincrease. As the Boltzman Distribution Law
+notes,nk
+nk′∝exp(−△E
+kT), with△E=Ek−Ek′,nkand
+nk′are particle numbers on the corresponding states. So
+the system have a bigger probability in the ground state
+with largeBandωthan the case B= 0 when the to-
+tal number N=M. That is to say, one could realize
+ground-stated TG system more simple with large qand
+ωthanq= 0 when the total number N=M.
+0
+5
+10
+15
+20B/LParen1T/RParen1
+0510
+Ω/LParen1109m/Minus1/RParen10246
+/CaΠDeltaE/LParen110/Minus23J/RParen1
+FIG. 1: Plots of the energy gap between the ﬁrst and the
+second Bloch bands as a function of magnetic induction B
+and frequency ω.M= 9,m= 1.44×10−25kg,µ= 9.274×
+10−24J·T−1.
+III. PROPERTIES OF THE TG GAS
+COMPARED WITH THE FERMI GAS
+In this section, we further study properties of the 1D
+Nmagnetized hard-coreBosonsin the external magnetic
+ﬁeld (7), and then compared with the properties of 1D
+Nmagnetized Fermions in the “same” state which hard-
+core Bosons occupy.
+A. Reduced single-particle density matrix and
+Single-particle density
+The reduced single-particle density matrix with nor-
+malization/integraltext
+ρ(x,x)dx=Nis given by
+ρB(x,x′,t)≡N/integraldisplay
+ψB∗(x,x2,···,xN,t)
+×ψB(x′,x2,···,xN,t)dx2···dxN.(18)For the Fermi gas, the reduced single-particle density
+matrix can be simpliﬁed to
+ρF(x,x′,t) =N/integraldisplay
+ψF∗(x,x2,···,xN,t)
+×ψF(x′,x2,···,xN,t)dx2···dxN
+=/summationdisplay
+α=allstates
+occupyedϕα(x,t)∗ϕα(x′,t).(19)
+FIG. 2: Density-plots of ρ(z,z′) of the hard-core TG gas
+(a,b,c) and Fermi gas ( a′,b′,c′),M= 7. Abscissa is z1, Ordi-
+nate isz2. (a,a′)N= 3; (b,b′)N= 5; (c,c′)N= 7.
+Both the reduced single-particle matrices of hard-core
+bosons and fermions in the ground state in the exter-
+nal magnetized ﬁeld (7) are plotted separately in Fig. 2.
+The multidimensional integral in equation (18) is evalu-
+atednumericallybyMonteCarlointegrationusingMath-
+ematica. Because the relationship between xandzis
+proportional, for the sake of simplicity, we take zas a
+variable. From the ﬁgure we can see the oﬀ-diagonal ele-
+ments of the matrix of both the two kinds of gases decay
+quickly asNincreases; The bright diagonal stripe of TG
+gas is thinner than Fermi gas under the same condition.
+This reﬂects the condensate properties of Bose gas; And4
+the shockof the oﬀ-diagonalelements ρ(z,Mπ−z)ofTG
+gas is smaller than Fermi gas. To see this more clearly,
+we have plotted the oﬀ-diagonal elements ρ(z,Mπ−z)
+in Fig. 3. Sudden rise in the border is the result of using
+periodic boundary conditions.
+5101520z0.020.040.060.080.100.120.14Ρ3B/LParen1z,MΠ/Minusz/RParen1
+5101520z
+/Minus0.050.050.100.15Ρ3F/LParen1z,MΠ/Minusz/RParen1
+5101520z0.050.100.150.200.25Ρ5B/LParen1z,MΠ/Minusz/RParen1
+5101520z
+/Minus0.050.050.100.150.200.25Ρ5F/LParen1z,MΠ/Minusz/RParen1
+5101520z0.050.100.150.20Ρ7B/LParen1z,MΠ/Minusz/RParen1
+5101520z0.10.20.3Ρ7F/LParen1z,MΠ/Minusz/RParen1
+FIG. 3: Plots of ρ(z,Mπ−z),M= 7.ρB
+n(z,Mπ−z)
+stands for ρ(z,Mπ−z) ofnhard-core Boson particles, so
+asρF
+n(z,Mπ−z)
+.
+Using the mapping (3), we can prove that the single-
+particle density ρ(x,t), normalized to N, of both hard-
+core Bosons and Fermions are equal, no matter whether
+they are on the ground-state or not.
+ρB(x,t) =N/integraldisplay
+|ψB(x,x2,···,xN,t)|2dx2···dxN
+=N/integraldisplay
+|ψF(x,x2,···,xN,t)|2dx2···dxN
+=/summationdisplay
+α=allstates
+occupyed|ϕα(x,t)|2
+=ρF(x,t)(20)
+ρ(x,t) is just the element of the reduced single-particle
+matrixρ(x,x′,t) whenx=x′. Fig. 2 shows that ρ(x) is
+cyclical, which indicates that particles tend to stay cycle
+at where its potential energy is low.
+B. Pair distribution function
+The pair distribution function, which is the probability
+of ﬁnding a second particle as a function of distance froman initial particle, normalized to N(N−1), is deﬁned as
+D(x1,x2,t)
+=N(N−1)/integraldisplay
+|ψB(x1,x2,···,xN,t)|2dx3···dxN
+=N(N−1)/integraldisplay
+|ψF(x1,x2,···,xN,t)|2dx3···dxN=
+1
+2/summationdisplay
+α,α′=allstates
+occupied|ϕα(x1,t)ϕα′(x2,t)−ϕα(x2,t)ϕα′(x1,t)|2.
+(21)
+From the above equation we can see that the pair distri-
+bution functions of both hard-core Boson gas and Fermi
+gas are identical. In fact, the average of particle’s coor-
+dinate and potential of both the two gases are identical,
+too. Because they involve absolute values of the wave
+functions only. Also we can say this feature is deter-
+mined by the fact that the single particle density of both
+hard-core Boson gas and Fermi gas are exactly of the
+same. For the ground state of a system with Nparticles
+governed by Hamilton (6), the pair distribution function
+is
+D(x1,x2) =1
+2N−1/summationdisplay
+α,α′=0|ϕα(x1)ϕα′(x2)−ϕα(x2)ϕα′(x1)|2.
+(22)
+Figure 4 shows density-plots of the pair distribution
+function of the ground state for diﬀerent number of par-
+ticles. when x1=x2,D(x1,x2) = 0. It is the result
+of the impenetrable hard-core interparticle interaction.
+Just like the single particle density, the pair distribution
+function reﬂects the same periodicity and particles tend-
+ingtotarryatthelowpotentialenergy. Asthenumberof
+particle increases, the black strip becomes thinner. One
+of the reason is that the averaged distance between par-
+ticles reduces as the number of particles increases while
+the scope of the potential ﬁeld is certain. In two distant
+regions, away from the diagonal in Fig. 4, D(z1,z2) is
+cyclical. This reﬂects the hard-core interaction between
+particles is local.
+C. Momentum distribution
+The momentum distribution, related to the reduced
+density matrix, is deﬁned as
+n(k) =1
+2π/integraldisplay
+ρ(x,x′)e−ik(x−x′)dxdx′,(23)
+with the normalization
+/integraldisplay
+n(k)dk=N.
+Actually, the momentum distribution is just the Fourier
+transformation of the reduced density matrix (18). We5
+FIG. 4: Density-plots of the pair distribution function
+D(z1,z2). Abscissa is z1, Ordinate is z2.M= 7. (a) N= 2;
+(b)N= 3; (c) N= 5; (d) N= 7.
+know that the Fourier transform of the original function
+and the transformed function is one-to-one, as the diﬀer-
+ence of the reduced density matrix ρ(x,x′) of the hard-
+core Bose gas and Fermion gas, the momentum distri-
+bution is surely not the same. Yuan Lin and Biao Wu
+[10] have plotted the momentum distributions for both
+the TG gas and the free Fermi gas in a periodic Kronig-
+Penney potential, which shows the diﬀerence — Even
+a free Fermi gas has a broader momentum distribution
+than the most strongly interacting boson gas. We would
+like to add that, although their momentum distribution
+functions are diﬀerent, their total momentum are of the
+same. With the equation
+(∂
+∂x1+∂
+∂x2)sgn(x2−x1) = 0, (24)
+we can prove
+N/summationdisplay
+i=1∂
+∂xiA(x1,···,xN) = 0. (25)And then, go ahead, we can obtain
+¯P(t)B=¯P(t)F,whereP=−i/planckover2pi1N/summationdisplay
+i=1∂
+∂xi.(26)
+IV. SUMMARY AND CONCLUSIONS
+On solving the eigenfunction of the TG gas in the ex-
+ternal magnetic ﬁeld, we found that the TG system with
+largeBandωhas a bigger probability in the ground
+state than the TG gas raised by Girardeau in 1960 when
+the number of bosons Nis commensurate with the num-
+ber of potential cycles M. It reveals that we can realize
+ground-statedTG system more easier. And then we have
+studied properties of magnetized TG gas and Fermi gas
+in an external magnetic ﬁeld. comparing with each other
+when they are in the “same” state reveals that it is im-
+possible to distinguish them just from their averagevalue
+of particle’s coordinate and potential energy, system’s
+otal momentum, single-particle density and pair distri-
+bution function. But we could distinguish them from
+their reduced single-particlematricesor their momentum
+distributions. In order to illustrate our results, we have
+plottedtheirreducedsingle-particlematricesandthemo-
+mentum distributions when they are in the ground state.
+Although their momentum distribution functions are dif-
+ferent, their total momentum are of the same. These
+results will be deeply helpful for understanding the TG
+gas.
+Acknowledgment
+This workhas been supported by the National Natural
+Science Foundation of China under Grant No. 10975125.
+[1] L. Tonks, Phys. Rev. 50, 955 (1936).
+[2] M. Girardeau, J. Math. Phys. 1, 516 (1960).
+[3] M. D, Girardeau, Phys. Rev. 139, B500 (1965).
+[4] E. Lieb and W. Liniger, Phys. Rev. 130, 1605 (1963).
+[5] A. Lenard, J. Math. Phys. 5. 930 (1964).
+[6] L. Pitaevskii and S. Stringari, Bose-Einstein Condensa -
+tion (Clarendon, Oxford, 2003).
+[7] J. O. Andersen, Rev. Mod. Phys. 76. 599 (2004).
+[8] G. J. Lapeyre, Jr., M. D. Girardeau, and E. M. Wright.,Phys. Rev. A 66, 023606 (2002).
+[9] A. del Campo and J. G. Muga, Europhys. Lett. 74, 965
+(2006).
+[10] Yuan Lin and Biao Wu, Phys. Rev. A 75, 023613 (2007).
+[11] G.-D. Lin, Wei Zhang, and L.-M. Duan, Phys. Rev. A
+77, 043626 (2008).
+[12] V. I. Yukalov and M. D. Girardeau, Laser Phys. Lett. 2,
+375 (2005)
+[13] M. Rigol, Phys. Rev. A 72, 063607 (2005).6
+[14] ArndtRA, Ropa L D, Bryan R Aet al. Phys. Rev., 1983,
+D28: 97.
+[15] J. Denschlag, D. Cassettari, and J. Schmiedmayer, Phys .
+Rev. Lett. 82, 2014 (1999).
+[16] B. Paredes, A. Widera, V. Murg, et al., Nature 429, 277
+(2004).
+[17] T. Kinoshita, T. Wenger, and D. S. Weiss, Science 305,
+1125 (2004).
+[18] Randall B. Shirts, ACM Transactions on Mathematical
+Software (TOMS), v.19 n.3, p.377-390 (1993)[19] O. Penrose and L. Onsager, Phys. Rev. 104, 576 (1956).
+[20] Shirts R. B. ACM Trans. Math. Software. 19(1993) no.3,
+377-390.
+[21] Blanch, G. Mathieu functions. In Handbook of Mathe-
+matical Functions, M. I. Abramowitz, and I. A. Stegun,
+Eds., Dover, New York, 1970 Ch. 20, 722-750.
+[22] Dingle, R. B., and Muller, H. J. W. Asymptotic expan-
+sions of Mathieu functions and their characteristic num-
+bers. J. Reine. Angew. Math. 211, 1 (Jan. 1962), 11-32.

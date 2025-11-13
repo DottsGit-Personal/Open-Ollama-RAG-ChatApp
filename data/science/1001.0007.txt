@@ -1,0 +1,124 @@
+arXiv:1001.0007v1  [astro-ph.CO]  30 Dec 2009Cosmicstarformation history
+revealedby the AKARI
+& Spatially-resolvedspectroscopyofan E+A(Post-starbur st)system
+Tomotsugu GOTO∗, the AKARINEPDteam†,M.Yagi∗∗andC.Yamauchi†
+∗InstituteforAstronomy,Universityof Hawaii,2680Woodla wnDrive, Honolulu,HI,96822,USA
+†JapanAerospaceExplorationAgency,Sagamihara,Kanagawa 229-8510,Japan
+∗∗NationalAstronomicalObservatory,2-21-1Osawa,Mitaka, Tokyo,181-8588,Japan
+Abstract. We reveal cosmic star-formation history obscured by dust us ing deep infrared observa-
+tionwiththeAKARI.Acontinuousﬁltercoverageinthemid-I Rwavelength(2.4,3.2,4.1,7,9,11,
+15, 18, and 24 µm) by the AKARI satellite allows us to estimate restframe 8 µm and 12 µm lumi-
+nositieswithoutusingalargeextrapolationbasedonaSEDﬁ t,whichwasthelargestuncertaintyin
+previouswork. We found that restframe 8 µm (0.38<z<2.2), 12µm (0.15<z<1.16), and total
+infrared (TIR) luminosity functions (LFs) (0 .2<z<1.6) constructed from the AKARI NEP deep
+data, show a continuous and strong evolution toward higher r edshift. In terms of cosmic infrared
+luminosity density ( ΩIR), which was obtained by integrating analytic ﬁts to the LFs, we found a
+goodagreementwithpreviousworkat z<1.2,withΩIR∝(1+z)4.4±1.0.Whenweseparatecontri-
+butionsto ΩIRby LIRGs and ULIRGs, we foundmore IR luminoussourcesare inc reasinglymore
+importantathigherredshift.WefoundthattheULIRG(LIRG) contributionincreasesbyafactorof
+10(1.8)from z=0.35toz=1.4.
+Keywords: galaxies:evolution,galaxies:starburst
+PACS:98.70.Lt
+Introduction .Revealingthecosmicstarformationhistoryisoneofthemaj orgoals
+of the observational astronomy. However, UV/optical estim ation only provides us with
+alowerlimitofthestarformationrate(SFR) duetotheobscu rationbydust.Astraight-
+forward way to overcome this problem is to observe in infrare d, which can capture the
+starformation activityinvisiblein the UV. The superb sens itivitiesofrecently launched
+SpitzerandAKARI satellitescan revolutionizetheﬁeld.
+However,most of theSpitzer work relied on a large extrapola tionfrom 24 µm ﬂux to
+estimate the 8, 12 µm or total infrared (TIR) luminosity, due to the limited numb er of
+mid-IR ﬁlters. AKARI has continuous ﬁlter coverage across t he mid-IR wavelengths,
+thus, allows us to estimate mid-IR luminosity without using a largek-correction based
+on the SED models, eliminating the largest uncertainty in pr evious work. By taking
+advantage of this, we present the restframe 8, 12 µm TIR LFs, and thereby the cosmic
+starformationhistoryderivedfrom theseusingtheAKARINE P-Deep data.
+Data&Analysis .TheAKARIhasobservedtheNEPdeepﬁeld(0.4deg2)in9ﬁlters
+(N2,N3,N4,S7,S9W,S11,L15,L18WandL24) to the depths of 14.2, 11.0, 8.0, 48, 58,
+71, 117, 121 and 275 µJy (5σ)[14]. This region is also observed in BVRi′z′(Subaru),
+u′(CFHT), FUV,NUV(GALEX), and J,Ks(KPNO2m), with which we computed
+photo-zwithΔz
+1+z=0.043. Objects which are better ﬁt with a QSO template are re movedFIGURE 1. (left) Restframe 8 µm LFs. The blue diamonds, purple triangles, red squares, and orange
+crosses show the 8 µm LFs at 0 .38<z<0.58,0.65<z<0.90,1.1<z<1.4, and 1.8<z<2.2,
+respectively. The dotted lines show analytical ﬁts with a do uble-power law. Vertical arrows show the
+8µm luminosity corresponding to the ﬂux limit at the central re dshift in each redshift bin. Overplotted
+are Babbedge et al. [1] in the pink dash-dotted lines, Caputi et al. [2] in the cyan dash-dotted lines,
+and Huang et al. [6] in the green dash-dotted lines. AGNs are e xcluded from the sample. (middle)
+Restframe 12 µm LFs. The blue diamonds, purple triangles, and red squares s how the 12 µm LFs at
+0.15<z<0.35,0.38<z<0.62, and 0 .84<z<1.16, respectively. Overplotted are Pérez-González
+et al. [11] at z=0.3,0.5and 0.9 in the cyan dash-dottedlines, and Rush, Mal kan, & Spinoglio [12] at z=0
+inthegreendash-dottedlines. (right)TIRLFs.
+from the analysis. We compute LFs using the 1/ Vmaxmethod. Data are used to 5 σwith
+completeness correction. Errors of the LFs are from 1000 rea lization of Monte Carlo
+simulation.
+8µm LF.Monochromatic 8 µm luminosity ( L8µm) is known to correlate well with
+the TIR luminosity [1, 6], especially for star-forming gala xies because the rest-frame
+8µmﬂuxaredominatedbyprominentPAHfeaturessuchasat6.2,7 .7and8.6 µm.The
+leftpanelofFig.1showsastrongevoltuionof8 µmLFs.Overplottedpreviousworkhad
+torelyonSEDmodelstoestimate L8µmfromtheSpitzer S24µmintheMIRwavelengths
+whereSEDmodelingisdifﬁcultduetothecomplicatedPAHemi ssions.Here,AKARI’s
+mid-IR bands are advantageous in directly observing redshi fted restframe 8 µm ﬂux in
+one of the AKARI’s ﬁlters, leading to more reliable measurem ent of 8µm LFs without
+uncertaintyfromtheSED modeling.
+12µm LF.12µm luminosity ( L12µm) represents mid-IR continuum, and known to
+correlate closely with TIR luminosity [11]. The middle pane l of Fig.1 shows a strong
+evoltuion of 12 µm LFs. Here the agreement with previous work is better becaus e (i)
+12µm continuum is easier to be modeled, and (ii) the Spitzer also captures restframe
+12µm inS24µmat z=1.
+TIRLF.Lastly,weshowtheTIRLFsintherightpanelofFig.1.Weused Lagache,
+Dole, & Puget [8]’s SED templates to ﬁt the photometry using t he AKARI bands
+at>6µm (S7,S9W,S11,L15,L18WandL24). The TIR LFs show a strong evolution
+comparedto localLFs. At 0 .25<z<1.3,L∗
+TIRevolvesas ∝(1+z)4.1±0.4.FIGURE2. Evolutionof TIRluminositydensitybasedon TIRLFs (redcir cles),8µmLFs (stars), and
+12µm LFs (ﬁlled triangles). The blue open squares and orange ﬁll ed squares are for LIRG and ULIRGs
+only,alsobasedonour LTIRLFs.Overplotteddot-dashedlinesareestimatesfromtheli terature:LeFloc’h
+et al. [9], Magnelli et al. [10] , Pérez-González et al. [11], Caputi et al. [2], and Babbedge et al. [1] are
+in cyan, yellow, green, navy, and pink, respectively. The pu rple dash-dotted line shows UV estimate by
+Schiminovichet al.[13].Thepinkdashedlineshowsthe tota lestimateofIR(TIRLF)andUV [13].
+Cosmic star formation history .We ﬁt LFs in Fig.1 with a double-power law, then
+integrate to estimate total infrared luminosity density at various z. The restframe 8
+and 12µm LFs are converted to LTIRusing [11, 2] before integration. The resulting
+evolution of the TIR density is shown in Fig.2. The right axis shows the star formation
+densityassumingKennicutt[7].We obtain ΩIR(z)∝(1+z)4.4±1.0. Comparisonto ΩUV
+[13] suggests that ΩTIRexplains 70% of Ωtotalatz=0.25, and that by z=1.3, 90% of
+the cosmic SFD is explained by the infrared. This implies tha tΩTIRprovides good
+approximationofthe Ωtotalatz>1.
+In Fig.2, we also show the contributions to ΩTIRfrom LIRGs and ULIRGs. From
+z=0.35 to z=1.4,ΩIRby LIRGs increases by a factor of ∼1.6, andΩIRby ULIRGs
+increases byafactorof ∼10. Moredetailsarein Gotoet al. [3].
+Spatially-Resolved Spectroscopy of an E+A (post-starburs t) System .We per-
+formed a spatially-resolved medium resolution long-slit s pectroscopy of a nearby E+A
+(post-starburst) galaxy system with FOCAS/Subaru [4]. Thi s E+A galaxy has an obvi-
+ous companion galaxy 14kpc in front (Fig.3, left) with the ve locity difference of 61.8
+km/s.
+WefoundthatH δequivalentwidth(EW)oftheE+Agalaxyisgreaterthan7Å gal axy
+wide (8.5 kpc) with no signiﬁcant spatial variation. We dete cted a rotational velocity in
+the companion galaxy of >175km/s. The progenitor of the companion may have beenFIGURE 3. (left) The SDSS g,r,i-composite image of the J1613+5103. The long-slit position s are
+overlayed.The E+A galaxy is to the right (west), with bluer c olour. The companion galaxy is to the left
+(east). (right) H δEW is plotted against D4000. The diamonds and triangles are f or the E+A core/north
+spectra, respectively. The squares and crosses are for the c ompanion galaxy’s core/north spectra. Gray
+lines are population synthesis models with 5-100% delta bur st population added to the 10G-year-old
+exponentially-decaying( τ=1Gyr)underlyingstellarpopulation.SalpeterIMFandmet allicityof Z=0.008
+areassumed.Onthe models,burstagesof0.1,0.25,0.5and2 G yraremarkedwiththeﬁlled circles.
+a rotationally-supported, but yet passive S0 galaxy. The ag e of the E+A galaxy after
+quenching the star formation is estimated to be 100-500Myr, with its centre having
+slightly younger stellar population. The companion galaxy is estimated to have older
+stellarpopulationof >2 Gyrs ofagewithnosigniﬁcantspatialvariation(Fig.3, ri ght).
+Theseﬁndingsareinconsistentwithasimplepicturewheret hedynamicalinteraction
+createsinfallofthegasreservoirthatcausesthecentrals tarburst/post-starburst.Instead,
+ourresultspresentanimportantexamplewherethegalaxy-g alaxyinteractioncantrigger
+agalaxy-widepost-starburstphenomena.
+REFERENCES
+1. BabbedgeT.S.R., et al.,2006,MNRAS, 370,1159
+2. CaputiK.I.,et al.,2007,ApJ,660,97
+3. GotoT.,et al. 2010,A&AAKARI specialissue
+4. GotoT.,YagiM.,YamauchiC., 2008,MNRAS, 391,700
+5. HopkinsA.M.,ConnollyA. J.,HaarsmaD. B.,CramL. E.,200 1,AJ, 122,288
+6. HuangJ.-S.,et al.,2007,ApJ, 664,840
+7. KennicuttR. C.,Jr., 1998,ARA&A,36,189
+8. LagacheG., DoleH.,PugetJ.-L.,2003,MNRAS, 338,555
+9. LeFloc’hE.,etal., 2005,ApJ,632,169
+10. MagnelliB., et al.2009,A&A,496,57
+11. Pérez-GonzálezP. G.,etal., 2005,ApJ,630,82
+12. RushB., MalkanM. A.,SpinoglioL.,1993,ApJS,89,1
+13. SchiminovichD.,et al.,2005,ApJ, 619,L47
+14. Wada T.,et al.,2008,PASJ, 60,517

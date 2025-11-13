@@ -1,0 +1,262 @@
+ 1 Stability of Multipole-mode So litons in Thermal Nonlinear 
+Media 
+Liangwei Dong1*, Fangwei Ye 2 
+1Institue of Information Optics of Zhe jiang Normal University, Jinhua, China, 321004 
+2Department of Physics, Centre for Nonlinear Studies,  
+and The Beijing-Hong Kong-Singapore Joint Centre 
+ for Nonlinear and Complex System(Hong Kong), 
+Hong Kong Baptist University, Kowloon Tong, China 
+*Email: donglw@zjnu.cn 
+We study the stability of multipole-mode solitons in one-dimensional thermal nonlinear media. We show how the sample  geometry impacts the stability of 
+mutlipole-mode solitons and reveal that th e tripole and quadrupole can be made stable 
+in their whole domain of existence, provided that the sample width exceeds a critical 
+value. In spite of such geometry-dependent  soliton stability, we find that the maximal 
+number of peaks in stable multipole-mode solitons in thermal media is the same as 
+that in nonlinear materials with finite-range nonlocality. 
+PACS number(s): 42.65.Tg, 42.65.Jx, 42.65.Wi  
+Solitons in nonlinear media can take a va riety of forms and shapes. In addition 
+to the node-less amplitude distributions fe atured by fundamental solitons, solitons 
+could also display complex spatial shapes. In one-dimensional system, these are dipole-modes which are composed of two out-of-phase fundamental solitons, or  2 multipole-mode solitons which are composed of several fundamental solitons with 
+alternating phases. Due to the repulsive fo rces between the peak s of them, multipole 
+soliton can not exist in uniform media with  local nonlinear responses, except in the 
+form of vector solitons under suitable c onditions. However, such situation changes 
+significantly in nonlocal nonlinear media, where,  in sharp contrast to the case in local 
+media, out-of-phase bright solitons can attr act each other and may even, form scalar 
+bound states [1].    
+The nonlocality of the nonlinear response is a generic property of nonlinear 
+materials. Nonlocality arises when the light-matter interaction involves mechanism 
+such as diffusion of carriers, reorientation of molecules, heat transfer, etc [2, 3]. 
+Recent interest in the study of nonlocal  solitons has been stimulated by the 
+experiments in nematic liquid crystals (NLCs) [4-7] as well as in thermal materials such as lead glasses [8, 9]. The nonlocal nonlinear responses of these two materials 
+could be quite different. The nonlinear respons e of a NLC is charac terized by a finite 
+nonlocality degree, thus when the size of the sample is large enough relative to the 
+spatial extent of the light, the boundary of a NLC does not affect the light dynamics or 
+soliton properties. In contrast, in a thermal medium, the nonlinear response is always greatly determined by the details of heat  diffusion at sample boundaries and thus the 
+nonlocality degree is naturally  “infinite” as the afar boun daries could significantly 
+change the light dynamics and soliton proper ties [12-18], even when spatial extent of 
+the light beam is significant small compared  with that of the sample. Especially, 
+numerical simulations [14] ha ve demonstrated that the so liton stability may depend  3 crucially on the sample-geometry and a recta ngular sample with a proper aspect ratio 
+may stabilize the otherwise unstable dipole mode s in a square sample. Note that such 
+strongly sample-geometry-dependent sol iton properties are specific to thermal 
+materials and are usually abse nt in both local and finite -range nonlocal materials. 
+The present work is motivat ed by the study of Z. Xu et al. in Ref. [11], where 
+the authors have revealed that, in a nonlinea r material with a finite-range nonlocality 
+such as in a NLC, the maximal number of peaks in stable multipole-mode solitons is 
+four and the modes containing more than four peaks are always unstable. As the 
+authors in Ref. [11] deal with a material  with a finite-range nonlocality, no boundary 
+effects have been took into consideration. In  contrast, in nonlocal thermal materials, 
+boundary is always crucial, and therefor e, one may naturally ask, how a thermal 
+nonlinear material affects the stability of multipoles? Especially, one might ask whether a nonlinear response of an infi nite-range nonlocality supports stable 
+multipoles composed of more peaks than th at supported by a fin ite-range nonlocality? 
+It is worthy to mention that, the physical model describing light propagation in a NLC 
+without the static bias electri c field is mathematically equi valent to that in a thermal 
+nonlinear medium, thus, boundary effects may also come into play in a NLC, as numerically analyzed and experimentally observed in [24,25]. Therefore our present 
+study may also find potential applications in liquid crystals, although we following 
+put our research in the context of  thermal nonlocal materials.   
+The purposes of this paper are tw ofold. First, we study whether the 
+sample-geometry-dependent soliton stability in  thermal materials, which was revealed  4 in two-dimensional settings where the contro lling parameter being the sample aspect 
+ratio, also persists in one-dimensional ge ometry when the controlling parameter 
+simply being the sample width. Indeed, we find that the stability of multipole-mode solitons depends crucially on the physical dimension of the thermal material, and complete stability is achieved for tri pole- and quadrupole-mode solitons when the 
+width of the sample exceeds some crucial value. We are able to build this important finding on a rigorous linear stability analysis , which is absent in higher-dimensional 
+settings [14] due to the requirement of huge computational resources. The second 
+purpose of this paper is to reveal the maxi mum number of peaks in stable multipoles 
+that hold in a thermal nonlinear medium. This purpose stems from the first one, as the stability characteristics of multipoles now cr ucially depends on sample width and thus 
+the stability analysis for NLCs [11] does not hold in thermal nonlinear media. 
+Surprisingly, we found that a nonlin ear thermal medium possesses the same 
+restriction on the maximum number of peaks in stable multipoles as in the case of a 
+finite-range nonlocal medium. In another word, the maximal number of peaks in 
+stable multipoles supported by thermal materi als is also four and all modes composed 
+of five peaks or more are unstable. 
+We consider the propagation of a laser beam along the 
+z axis of a thermal 
+medium occupying the region /2 /2Lx L-£ £ + ( L is the sample width), which 
+can be described by the system of equati ons for the dimensionless field amplitude q 
+and the nonlinear contribution to the refractive index n that is proportional to the 
+temperature variation, given by  5 2
+2
+22
+21,2
+,qqiq nz x
+nq
+x¶¶=- -¶ ¶
+¶=-
+¶  (1) 
+Here the transverse and longitudinal coordinate ,xz are scaled to the beam width 
+and to the diffraction length, respectively.  We assume that the opposite boundaries 
+of the thermal medium are thermostabilized, thus,/2,| 0xLqn==. 
+  We search for soliton solutions of Eqs. (1) in the form () e x p ( ) qw x i b z= , 
+where w is a real function and b is the propagation constant . Such solitons can be 
+characterized by their energy flow/22
+/2||L
+LUq d x
+-=ò, which is a conserved quantity 
+of Eqs.(1). The refractive index induced by the soliton is given 
+by/22
+/2(, ' ) | ( ' ) | 'L
+LnG x x q x d x
+-=-ò, where the response function 
+1(, ' ) ( / 2 ) ( ' / 2 )Gxx L x L x L-=+ - for ' xx£ and 
+1( , ' ) ( ' /2 ) ( /2 )Gxx L x L x L-=+ - for ' xx³ . To elucidate the linear stability of 
+solitons we searched for perturbed solution in the form of 
+**( , ) [ ( ) ( )exp( ) ( )exp( )]exp( )qxz wx ux iz v x i z i b z dd =+ + - , where the perturbation 
+modes u and v can grow with a complex rate d upon propagation(“ *” stands for 
+complex conjugate). Linearization of  Eqs. (1) around stationary solution ()wx  
+yields, 
+/2
+/2
+/2
+/21( ,' )(' ) [(' ) (' ) ] ' ,2
+1(, ' )( ' ) [( ' ) ( ' ) ] ' ,2L
+xx
+L
+L
+xx
+Luu b u u n w G x x w x u x v x d x
+v v bv vn w G x x w x u x v x dxd
+d-
+-=- + + +
+=- + - - +ò
+ò   (2)  6 Figure 1 (a) presents an example for funda mental solitons. As shown in the figure, 
+the induced refractive index ()nx is nonzero across the whole sample, which is due to 
+the infinite range of nonlo cality. Note also that the ()nx  produced by the dipole 
+displays a maximum platform near 0 x=[Fig. 1 (b)], rather a small dip encountered 
+in a NLC [11].  Such index platform expa nds for lower-power dipoles [Fig. 1(c)].  
+The dependence of energy flow Uversus propagation constant bis shown in Fig.1 
+(d). We find that fundamental and dipole so litons are stable in their whole domain of 
+existence. 
+Thermal nonlinear media in principle s upport bound states with arbitrary number 
+of peaks. This can be explained from their associated index profiles, as ()nx always 
+features a parabolic-like shape across the w hole light regions [Fi g. 2(a), Fig. 2(d) and 
+Fig. 3(a)]. The stability analysis for tr ipole and quadrupole-mode solitons is 
+summarized in Fig.2. An important result is th at the stability of solitons is strongly 
+dependent on the sample width, and inst ability domain shrinks  quickly with the 
+increase of the sample width [Fi g. 2(c) and (f)]. For example, when 20 L= , tripole 
+modes are stable in the region 0.7crbb>» . However, when Lis increased to 
+40 L=  the stable region expands to 0.15crbb>» [Fig. 2 (b)]. Further, 
+completely stable are achieved if 60 L> . Such sample-width-dependent stability 
+characteristics are also observed for quadrup ole solitons [Fig. 2(e)]. However, it 
+should be mentioned that the instability region, defined by [0, ]crbbÌ , for 
+quadrupoles is wider than that for tripol e. Also the instab ility growth rate 
+id(imaginary part of d) for quadrupole is higher than th at for tripoles. Note that, as  7 mentioned above, such geometry-dependent st ability have been reported recently in 
+two-dimensional thermal media for dipole so litons [14], where the dipole modes with 
+correct orientation with respect to sample ge ometry are found to be stable provided 
+that the sample is cut into a suitable geom etrical aspect ratio. However, the finding in 
+[14] is based on the propagation simulations wh ile a linear stability analysis is absent 
+as the latter requires huge computational re sources. In contrast, here we work on a 
+most fundamental system, thus allowing us to build the im portant result of 
+geometry-dependent-stability on a ri gorous linear stability analysis.  
+Another important finding of our stability  analysis is that, although the soliton 
+stability in thermal materials has a pr ofound dependence on the sample-width as 
+discussed above, the maximum number of p eaks in stable multipoles is still four, 
+which is the same as in a nonlinear medi um with a finite-ra nge nonlocality. Thus, 
+bound states incorporating five [Fig.3 (a)] or more than five peaks are always 
+oscillatory unstable. Such global instability holds irrespective of variation of energy 
+flow [Fig.3 (b)] or sample wi dth, although the specific value of id quantitatively 
+depends on both. The same re striction on the maximal numb er of peaks in stable 
+multipoles for a thermal medium and a NLC might counter one’s intuition, as in NLC 
+the instability domain decreases with the in crease of nonlocality degree [11], thus for 
+a thermal medium with an infinite range  of nonlocality and a strong dependence of 
+stability on sample-geometry, one might expect  that the maximal number of peaks in 
+stable multipoles might be larger than four or at least different with that. However,  8 our results here reveal that thermal non linear media actually possess the same upper 
+threshold for stability as that in NLCs.  All results reported above are confirmed by the outcome of the direct numerical 
+integration of Eqs. (1) with the input condition 
+(, 0 ) () [ 1 () ]qxz wx x r == + , where  
+()wx  is the profile of th e stationary wave and ()xr stands for the broadband input 
+noise with the variance 2
+noise0.01s= . As expected, the multipole-mode that belong 
+to the stable region predicted by linear stability analysis retain their shapes over 
+indefinitely long propagation di stance, as clearly seen in Fig. 4(a) for a dipole mode, 
+and Fig. 4(d) for a quadrupole mode. Note th at, Figure 4(c) shows propagation result 
+for another quadrupole mode at a smaller sa mple width (all the other parameters are 
+the same as those in Fig. 4(d)). In contra st with that in wider sample, this quadrupole 
+experiences oscillatory instability and destr oys itself. Finally, all fifth-order solitons 
+experience the similar instab ility scenario [Fig.4 (b)]. 
+In conclusion, we studied the stability charact eristics of bound states composed of 
+several field peaks in thermal nonlinear medi a with an infinite-range nonlocality. We 
+found that the stability of tr ipole- and quadrupole-mode so liton depends crucially on 
+the sample width, and they can be completely stable when the sample width exceeds a critical value. We based the result of sa mple-width-dependent soliton stability on a 
+rigorous linear stability analysis with co llaboration by direct propagation simulations. 
+Thermal nonlinear media cannot support stab le bound modes containing more than 
+four peaks, thus they posse ss the same restriction on the maximal number of peaks in  9 sable multipoles as that in nonlinear media with finite-range of nonlocality, although 
+their nonlocal nonlinear responses  are essentially different.  
+This work was supported by the Nationa l Natural Science Foundation of China 
+(Grant No. 10704067).   10 References  
+1. M. Peccianti, K. A. Brzdkiewicz, and G. Assanto , Opt. Lett.  27, 1460(2002). 
+2. W. Krolikowski, O. Bang, N. I. Nikolov, D. Neshev, J. Wyller, J. J. Rasmussen, 
+and D. Edmundson,  J. Opt. B 6, S288 (2004). 
+3. M. Peccianti, C. Conti, and G. Assanto, Opt. Lett.  30, 415(2005). 
+4. C. Conti, M. Peccianti, and G. Assanto, Phys. Rev. Lett.  91, 073901(2003). 
+5. C. Conti, M. Peccianti, and G. Assanto , Phys. Rev. Lett.  92,113902(2004). 
+6. M. Peccianti, C. Conti, and G. Assanto, “Optical multisoliton generation in 
+nematic liquid crystals,” Opt. Lett.  28, 2231(2003).  
+7. C. Conti, M. Peccianti, and G. Assanto, Opt. Lett.  31, 2030(2006).  
+8. C. Rotschild, O. Cohen, O. Manela, M.  Segev, and T. Carmon, Phys. Rev. Lett. 
+95, 213904 (2005);  
+9. C. Rotschild, B. Alfassi, O. Cohen and M. Segev, Nature Physics 2, 769(2006). 
+10. F. Ye, Y. V. Kartashov, and L. Torner, Phys. Rev. A  76, 033812(2007). 
+11. Z. Xu, Y. V. Kartashov, and L. Toner, Opt. Lett. 30, 3171(2005). 
+12. B. Alfassi, C. Rotschild, O. Manela, M. Segev, and D. N. Christodoulides, Opt. 
+Lett. 32, 154 (2007); Q. Shou, Q. Liang, Q. Jian g, Y. Zheng, W. Hu, and Q. Guo, 
+Opt. Lett . 34, 3523 (2009). 
+13. B. Alfassi, C. Rotschild, O. Manela, M. Segev, and D. N. Christodoulides,   Phys. 
+Rev. Lett. 98, 213901(2007). 
+14. F. Ye, Y. V. Kartashov, and L. Torner , Phys. Rev. A  77, 043821(2008).   11 15. Y. V. Kartashov, F. Ye, V. A. Vysloukh, and L. Torner , Opt. Lett.  32, 
+2260(2007).  
+16. Y. V. Kartashov, V. A. Vysloukh, and L. Torner , Opt. Lett. 33, 1774(2008).  
+17. Y. Kartahov, V. A. Vysloukh, and L. Torner , Opt. Lett. 34, 283(2009).  
+18. F. Ye, Y. V. Kartashov, and L. Torner , Phys. Rev. A 77, 033829(2008).  
+19. F. Ye, L. Dong, and B. Hu, Opt. Lett . 34, 584 (2009). 
+20. I. Kaminer, C. Rotschild, O. Manela, and M. Segev, Opt. Lett . 32, 3209 (2007). 
+21. N. K. Efremidis, Phys. Rev. A  77, 063824(2008). 
+22. D. Buccoliero, A. S. Desyatnikov, and W. Krolikowski, and Y. Kivshar, J. Opt. A: 
+Pure Appl. Opt.  11, 094014(2009). 
+23. D. Buccoliero, and A. S. Desyatnikov, Opt. Express  17, 9608(2009).  
+24. A. Alberucci, M. Peccianti, and G. Assanto , Opt. Lett. 32, 2795 (2007). 
+25. A. Alberucci, G. Assanto, D. Buccoliero, A.  S. Desyatnikov, T. R. Marchant, and 
+N. F. Smyth, Phys. Rev. A 79, 043816(2009).  12 Figure captions 
+FIG. 1. (Color online) (a) Prof ile of a fundamental soliton at 0.5b . Profiles of dipole 
+solitons at (b) 0.5b  and (c) 5b, respectively. The thick line stands for the light 
+field ( w) while the light line sta nds for refractive index ( n). (d) the energy flow 
+versus propagation constant diagram for f undamental(dashed line), dipole(light line) 
+and tripole(thick line) solutions. The two points marked by circle s corresponds to the 
+soliton solutions in (b) and (c ) respectively. In all plots 60L . All quantities are 
+plotted in arbitrary dimensi onless units.         
+FIG. 2. (Color online) (a) Profile of a tripole soliton at 1band 40L . (b) 
+Instability growth rate for tripole soli tons versus propaga tion constant at 
+20,  30 L and40 . (c) Critical value of propagatio n constant (above which solitons 
+are stable) for tripole solitons  versus sample width. (d) Profile of a quadrupole soliton 
+at 1band 40L . (e) Instability growth rate for quadrupole solitons versus 
+propagation constant at 20,  40 L and60. (f) Critical value of propagation constant 
+for quadrupole solitons versus sample width.  All quantities are plotted in arbitrary 
+dimensionless units.   
+FIG. 3 (a) Profile of a fifth-order soliton at 1b. (b) Instability growth rate for the 
+fifth-order soliton. 60L . All quantities are pl otted in arbitrary dimensionless units.   
+FIG. 4.  (Color online) Propagation of a perturbed dipole soliton (a) and a fifth-order 
+mode (b) in a sample with 60L .  Propagation of a pertur bed quadrupole mode at 
+(c) 20L  and (d) 40L . For all the plots, 1b. All quantities are plotted in 
+arbitrary dimensionless units.    13 
+ 
+FIG. 1. (Color online) (a) Prof ile of a fundamental soliton at 0.5b . Profiles of dipole 
+solitons at (b) 5b and (c) 0.5b , respectively. The thick line stands for the 
+light field ( w) while the light line stands for refractive index ( n). (d) Energy 
+flow versus propagation constant diagra m for fundamental (dashed line), dipole 
+(light line) and tripole(thick line) solutions. The two points marked by circles corresponds to the soliton solutions in (b ) and (c) respectively. In all plots 
+60L . All quantities are plotted in arbitrary dimensionless units.            14           
+ 
+FIG. 2. (Color online) (a) Profile of a tripole soliton at 1band 40L . (b) 
+Instability growth rate for tripole soli tons versus propaga tion constant at 
+20,  30 L and40 . (c) Critical value of propagatio n constant (above which solitons 
+are stable) for tripole solitons  versus sample width. (d) Profile of a quadrupole soliton 
+at 1band 40L . (e) Instability growth rate for quadrupole solitons versus 
+propagation constant at 20,  40 L and60. (f) Critical value of propagation constant 
+for quadrupole solitons versus sample width.  All quantities are plotted in arbitrary 
+dimensionless units.   15                  
+  
+FIG. 3 (a) Profile of a fifth-order soliton at 1b. (b) Instability growth rate for the 
+fifth-order soliton. 60L . All quantities are plotted in arbitrary dimensionless units.   16  
+  
+FIG. 4.  (Color online) Propagation of a perturbed dipole soliton (a) and a fifth-order 
+mode (b) in a sample with 60L .  Propagation of a pertur bed quadrupole mode at 
+(c) 20L  and (d) 40L . For all the plots, 1b. All quantities are plotted in 
+arbitrary dimensionless units.   
+ 

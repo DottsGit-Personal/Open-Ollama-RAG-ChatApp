@@ -1,0 +1,273 @@
+arXiv:1001.0397v1  [quant-ph]  3 Jan 2010Decoherence as a signature of an excited state quantum phase
+transition
+A. Rela˜ no1,∗J. M. Arias2, J. Dukelsky1, J. E. Garc´ ıa-Ramos3, and P. P´ erez-Fern´ andez2
+1Instituto de Estructura de la Materia,
+CSIC, Serrano 123, E-28006 Madrid, Spain
+2Departamento de F´ ısica At´ omica, Molecular y Nuclear,
+Facultad de F´ ısica, Universidad de Sevilla,
+Apartado 1065, 41080 Sevilla, Spain
+3Departamento de F´ ısica Aplicada,
+Universidad de Huelva, 21071 Huelva, Spain
+(Dated: November 10, 2018)
+Abstract
+We analyze the decoherence induced on a single qubit by the in teraction with a two-level boson
+system with critical internal dynamics. We explore how the d ecoherence process is aﬀected by
+the presence of quantum phase transitions in the environmen t. We conclude that the dynamics of
+the qubit changes dramatically when the environment passes through a continuous excited state
+quantum phase transition. If the system-environment coupl ing energy equals the energy at which
+the environment has a critical behavior, the decoherence in duced on the qubit is maximal and the
+ﬁdelity tends to zero with ﬁnite size scaling obeying a power -law.
+PACS numbers: 03.65.Yz, 05.70.Fh, 64.70.Tg
+∗Electronic address: armando@iem.cfmac.csic.es
+1Real quantum systems always interact with the environment. This in teraction leads to
+decoherence, the process by which quantum information is degrad ed and purely quantum
+properties of a system are lost. Decoherence provides a theoret ical basis for the quantum-
+classical transition [1], emerging as a possible explanation of the quan tum origin of the
+classical world. It is also a major obstacle for building a quantum comp uter [2] since it
+can produce the loss of the quantum character of the computer. Therefore, a complete
+characterization of the decoherence process and its relation with the physical properties of
+the system and the environment is needed for both fundamental a nd practical purposes.
+The connection between decoherence and environmental quantu m phase transitions has
+been recently investigated [3–5]. A universal Gaussian decay regime in the ﬁdelity of the
+system wasinitially identiﬁed, andrelatedtoa second-order quantu m phase transitioninthe
+environment [4]; as a consequence, the decoherence process was postulated as an indicator
+of a quantum phase transition in the environment. Subsequently, t his analysis was reﬁned,
+and it was found that the universal regime is neither always Gaussian [6], nor always related
+to an environmental quantum phase transition [5].
+In this paper we analyze the relationship between decoherence and an environmental
+excited statequantum phasetransition(ESQPT). Weshow thatth eﬁdelity ofasinglequbit,
+coupled to a two-level boson environment, becomes singular when t he system-environment
+coupling energy equals the critical energy for the occurrence of a continuous ESQPT in the
+environment. Therefore, our results establish that a critical phe nomenon in the environment
+entails a singular behavior in the decoherence induced in the central system.
+An ESQPT is a nonanalytic evolution of some excited states of a syste m as the Hamil-
+tonian control parameter is varied. It is analogous to a standard q uantum phase transition
+(QPT), but taking place in some excited state of the system, which d eﬁnes the critical en-
+ergyEcat which the transition takes place. We can distinguish between diﬀer ent kinds
+of ESQPT. As it is stated in [7], in the thermodynamic limit a crossing of tw o levels at
+E=Ecdetermines a ﬁrst order ESQPT, while if the number of interacting lev els is locally
+large atE=Ecbut without real crossings, the ESQPT is continuous. In this paper we will
+concentrate in the latter case, which usually entails a singularity in th e density of states (for
+an illustration see Fig. 1). As the entropy of a quantum system is rela ted to its density
+of states, a relationship between an ESQPT and a standard phase t ransition at a certain
+critical temperature, can be established in the thermodynamic limit [ 8].
+2These kinds of phase transitions have been identiﬁed in the Lipkin mod el [9], in the inter-
+actingbosonmodel[10],andinmoregeneralbosonorfermiontwo-le velpairingHamiltonians
+(for a complete discussion, including a semiclassical analysis, see [11]) . In all these cases,
+the ESQPT takes place beyond the critical value of the Hamiltonian co ntrol parameter,
+implying that the critical point moves from the ground state to an ex cited state.
+Here we consider an environment having both QPTs and ESQPTs coup led to a single
+qubit. The Hamiltonian of the environment, deﬁned as a function of a control parameter α,
+presents a QPT at a critical value αc. We deﬁne a coupling between the central qubit and
+the environment that entails an eﬀective change in the control par ameter,α→α′, making
+the environment to cross the critical point if α′> αc. Moreover, the coupling also implies an
+energy transfer to the enviroment E→E′, and therefore it can also make the environment
+to reach the critical energy Ecof an ESQPT.
+Following [4] we will consider our system composed by a spin 1 /2 particle coupled to a
+spin environment by the Hamiltonian HSE:
+HSE=IS⊗HE+|0∝angbracketright∝angbracketleft0|⊗Hλ0+|1∝angbracketright∝angbracketleft1|⊗Hλ1, (1)
+where|0∝angbracketrightand|1∝angbracketrightare the two components of the spin 1 /2 system, and λ0,λ1the couplings of
+each component to the environment. The three terms HE,Hλ0andHλ1act on the Hilbert
+space of the environment.
+With this kind of coupling, the environment evolves with an eﬀective Ha miltonian de-
+pending on the state of the central spin Hj=HE+Hλj,j= 0,1. Assuming /planckover2pi1= 1, it gives
+rise to a decoherence factor r(t) =∝angbracketleftΨ(0)|eiH0te−iH1t|Ψ(0)∝angbracketright, where Ψ(0) represents a generic
+environmental state at t= 0. If the environment is initially in its ground state |g0∝angbracketright, the
+decoherence factor is determined, up to an irrelevant phase fact or, byH1, and its absolute
+value is equal to
+|r(t)|=/vextendsingle/vextendsingle∝angbracketleftg0|e−iH1t|g0∝angbracketright/vextendsingle/vextendsingle. (2)
+This quantity has the same form as the Loschmidt echo or the ﬁdelity , and it contains all
+the relevant information about the decoherence process.
+To be speciﬁc, let us consider a spin environment described by the we ll known Lipkin
+model,
+HE=α/parenleftBigg
+N
+2+N/summationdisplay
+i=1Sz
+i/parenrightBigg
+−4(1−α)
+NN/summationdisplay
+i,j=1Sx
+iSx
+j, (3)
+3whereSx
+i,Sy
+i, andSz
+i, are the three components of a spin 1 /2 in the site iof a spin chain
+withNsites, and αis a control parameter given in arbitrary units of energy. Consequ ently,
+in the following energy and time are always written in the correspondin g arbirtary units.
+Using the Schwinger representation of the spin operators we tran sform the Hamiltonian
+(3) into a two level boson Hamiltonian, constructed out of scalar sandtbosons of opposite
+parity
+HE=αnt−1−α
+N(Qt)2,withQt=s†t+t†s, (4)
+wherentisthenumber of tbosonsand Nthetotalnumber ofbosons. This particular Hamil-
+tonian belongs to a more general class of two-level Hamiltonian that has been extensively
+applied to nuclear structure [12, 13] and molecular physics [14], and r ecently also proposed
+as a model for optical cavity QED [15].
+This Hamiltonian has a second order QPT at αc= 4/5 [12]. The critical point can
+be easily calculated in the thermodynamic limit assuming a condensed bo son of the form
+Γ†=/parenleftbig
+s†+βt†/parenrightbig
+//radicalbig
+1+β2. Forα >4/5 the environment is a condensate of sbosons
+(β= 0) corresponding to a ferromagnetic state in the spin represent ation. For α <4/5 the
+environment condensate mixes sandtbosons breaking the reﬂection symmetry ( |β|>0).
+Choosing λ0= 0 and λ1=λthe coupling Hamiltonian reduces to a very simple form
+HCoup=λnt, whichresultsintotheeﬀective Hamiltoniansforeachcomponentof thesystems
+H0=αnt−1−α
+N(Qt)2, (5)
+H1= (α+λ)nt−1−α
+N(Qt)2. (6)
+Therefore, the system-environment coupling parameter λmodiﬁes the environment Hamil-
+tonian. Using the coherent state approach [12], it is straightforwa rd to show that H1goes
+through a second order QPT at λ∗= 4−5α, forα <4/5. Furthermore, a semiclassical
+calculation [11] shows that HEalso passes through an ESQPT at Ec= 0, ifλ < λ ∗. This
+phenomenon is illustrated in Fig. 1. For α < α c, a bunch of energy levels collapse at E= 0,
+and thus a singularity in the density of states arises. At α=αc, the collapse takes place in
+the ground state, transforming the ESQPT into a standard QPT. F orα > α cno singular
+behavior is observed.
+To understand how this critical energy can be reached when we cou ple this environment
+to a central qubit let us take in consideration the following. We start the evolution with the
+40 0.2 0.4 0.6 0.8 1α-50-2502550E
+λc <nt>
+FIG. 1: (Color online). Energy levels for theenvironment Ha miltonian (4) with N= 50. Thearrow
+(red online) shows the jump that the coupling with the centra l qubit produces in the environment.
+ground state of the environment |g0∝angbracketright. Att= 0 we switch on the interaction between the
+system and the environment, and let the system evolve under the c omplete Hamiltonian.
+By instantaneously switching on this interaction, the energy of the environment increases,
+and its state gets fragmented into a region with average energy eq ual toE=∝angbracketleftg0|H1(α)|g0∝angbracketright.
+Therefore, if ∝angbracketleftg0|H1(α)|g0∝angbracketright= 0, thecoupling withthe central qubit induces theenvironment
+tojumpinto a region arround the critical energy Ec. This is illustrated in Fig. 1. Starting
+from a state in the parity broken phase with α < α c, the coupling with the qubit, Hλ1=λnt
+increases theenergy oftheenvironment uptothecritical point Ec. Resorting tothecoherent
+state approach [12], we can obtain a critical value of the coupling str ength
+λc(α) =1
+2(4−5α), α <4
+5. (7)
+InFig. 2weshowthemodulusofthedecoherence factor |r(t)|forα= 0andseveral values
+ofλ(see caption). In four of the ﬁve cases we can see a similar pattern , fast oscillations
+plus a smooth decaying envelope. For λ/greaterorsimilarλ∗, this envelope is weakly dependent on λ. As
+we increase λ, the frequency of the short period oscillations increases linearly ν≈λ/3, but
+the main trend of the curve remains the same. The shape of the env elope can be ﬁtted
+to a Gaussian decay for short times, and to a power-law decay for lo nger times; a similar
+behavior was identiﬁed in [5] if the Hamiltonian parameter is close to or la rger than the
+critical value. However, the most striking feature of Fig. 2 is the pa nel corresponding to
+λ= 2, for which |r(t)|quickly decays to zero and then randomly oscillates around a small
+value. We note that this particular case constitutes a singular point for both the shape of
+500.5100.5100.5100.5100.51
+ 0 5 10 15 20 25|r(t)|
+tλ=1
+λ=2
+λ=3
+λ=4
+λ=6
+FIG. 2:|r(t)|forα= 0 and ﬁve diﬀerent values of λ. In all cases N= 10000.
+the envelope of |r(t)|and the period of its oscillating part. Making use of Eq. (7) for α= 0
+we obtain precisely λc= 2, the value at which the coherence of the system is completely
+lost. Therefore, the existence of an ESQPT in the environment has a strong inﬂuence on
+the decoherence that it induces in the central system. We can sum marize this result with
+the following conjecture:
+If the system-environment coupling drives the environment to the critical energy Ecof a
+continuous ESQPT, the decoherence induced in the coupled qu bit is maximal .
+Let us check this conjecture for diﬀerent values of α < α c= 4/5 . In Fig. 3 we show
+how the decoherence process changes around the critical value λcfor diﬀerent values of N
+andα. As a representative quantity, we plot rmax(α) which is the value of |r(t)|at the
+second maximum (the ﬁrst maximum is |r(0)|= 1 in all cases). We can extract two main
+conclusions from Fig. 3. First, rmax(λ) is minimum at λ≈λc, as given in Eq. (7) —
+the four cases plotted in the ﬁgure correspond to λc= 0.25,0.5,1.0,and 2.0. Second, the
+behavior of this quantity is smooth and independent of the environm ent sizeN, except in
+6 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+ 0 0.5  1 1.5  2 2.5rmax (λ)
+λ
+FIG. 3: (Color online). rmax(λ) in function of the coupling λ, for diﬀerent values of αandN.
+Black lines represent the case α= 0; dark grey (red online) lines, α= 0.4; grey (magenta online),
+α= 0.6; and light grey (cyan online), α= 0.7. Solid lines represent N= 10000; dotted lines,
+N= 2500; and dashed lines, N= 600.
+-0.8-0.6-0.4-0.2 0
+ 2  2.5  3  3.5  4log10 rmax (λc)
+log10 N
+FIG. 4: rmax(λc) in function of the size of the environment N, in a double logarithmic scale.
+Squares represent the case α= 0; circles, α= 0.4; upper triangles, α= 0.6; lower triangles,
+α= 0.7. The straight lines correspond to a least squares ﬁt to the p ower law rmax(λc) =AN−1/4.
+a small region around λ≈λcwhere it becomes sharp and size dependent. Therefore, the
+decoherence factor behaves in a critical way around λ=λcwherermax(λc) undergoes a dip
+towards zero which is sharper and deeper for larger values of N.
+On the light of these results, one may wonder how rmax(λc) behaves in the thermody-
+namical limit. As it is very diﬃcult to do exact calculations beyond size N >10000, we will
+rely on the ﬁnite size scaling analysis to extrapolate its behavior for N→ ∞. In Fig. 4 we
+show how this quantity evolves with the size Nof the environment. We plot results for the
+7same values of αas in Fig. 3 in a double logarithmic scale (see caption of Fig. 4 for details) .
+In all the cases we obtain a power law rmax(λc)∼N−γ, withγ= 1/4.
+The results displayed in ﬁgures 3 and 4 conﬁrm that the presence of an ESQPT in the
+environment spectrum is clearly signaled by the qubit decoherence f actor. Moreover, the
+quantity rmaxbehaves in parallel way as the order parameter ntat the ESQPT [11].
+Prior to the conclusions, it is worth mentioning that the environment al Hamiltonian Eq.
+(4) is a particular case of a more generic class of two-level bosonic s ystems [12], described
+byH=αnl−(1−α)Q(ω)
+l·Q(ω)
+l/N, withQ(ω)
+l=/parenleftBig
+s†/tildewidel+l†s/parenrightBig(l)
++ω/parenleftBig
+l†/tildewidel/parenrightBig(l)
+, where the boson
+s†is a scalar and the boson l†has multipolarity l, as well as the operator Q(ω)
+ldepending
+on an extra parameter ω. As a representative case, we have presented here calculations
+using the environmental Hamiltonian with l= 0 andω= 0, characterized by a second order
+QPT. For l >1 this wide class of Hamiltonians, that have been extensively used in nu clear
+and molecular physics, present a richer structure with second ord er (ω= 0) and ﬁrst order
+(ω∝negationslash= 0) QPTs. A complete analysis on the inﬂuence of the order of the ES QPT in the
+decoherence process will be given in a future publication. Moreover , as the natural state of
+a realistic environment is a thermal one —that is, a mixed state in which the environment is
+in contact with a thermal bath characterized by a temperature T— it will be also interesting
+to check to which extent the temperature aﬀects this critical beh avior.
+In this paper, we have studied the decoherence induced on a one-q ubit system by the in-
+teraction with a two-level boson environment, which presents bot h a standard QPT and an
+ESQPT. Our main ﬁnding is that the decoherence is maximal when the s ystem-environment
+coupling introducesintheenvironment theenergyrequiredtounde rgoacontinuous ESQPT.
+The decoherence factor displays a critical behavior well described byrmax(λ), the value of
+the second local maximum of |r(t)|.rmax(λ) approaches zero for λ→λcin the thermody-
+namical limit showing a ﬁnite size scaling rmax(λc)∝N−γ, with a critical exponent γ= 1/4.
+Therefore, we conclude that the decoherence induced in a one-qu bit system gives a unique
+signature of an ESQPT in the environment. Finally, let us point out tha t quantum deco-
+herence could constitute an important tool to detect critical reg ions in the energy spectrum
+of mesoscopic systems; conversely, this knowledge could help to av oid certain environments
+that are particularly eﬃcient to destroy quantum coherence. Mor eover, as the particular
+Hamiltonian we have studied in this paper has been broadly applied in nuc lear structure,
+molecular physics and, more recently, optical cavity QED, it is feasib le to use any of these
+8systems as the environment in a decoherence experiment.
+This work has been partially supported by the Spanish Ministerio de Ed ucaci´ on y Ciencia
+and by the European regional development fund (FEDER) under pr ojects number FIS2005-
+01105, FIS2006-12783-C03-01 FPA2006-13807-C02-02 and FP A2007-63074, by Comunidad
+de Madrid and CSIC under project 200650M012, and by Junta de An aluc´ ıa under projects
+FQM160, FQM318, P05-FQM437 and P07-FQM-02962. A.R. is suppor ted by the Spanish
+program ”Juan de la Cierva”, and P. P-F., by a grant from the Plan Pr opio of the University
+of Sevilla.
+[1] W. H. Zurek, Rev. Mod. Phys. 75, 715 (2003).
+[2] M. Nielsen and I. Chuang, Quantum Computation and Quantum Information (Cambridge
+University Press, Cambridge, UK, 2000).
+[3] H. T. Quan, Z. Song, X. F. Liu, P. Zanardi, and C. P. Sun, Phy s. Rev. Lett. 96, 140604
+(2006).
+[4] F. M. Cucchietti, S. Fernandez-Vidal, and J. P. Paz, Phys . Rev. A 75, 032337 (2007).
+[5] C. Cormick and J. P. Paz, Phys Rev. A 77, 022317 (2008).
+[6] D. Rossini, T. Calarco, V. Giovannetti, S. Montangero, a nd R. Fazio, Phys. Rev. A 75, 032333
+(2007).
+[7] P. Cejnar, S. Heinze, and M. Macek, Phys. Rev. Lett. 99, 100601 (2007).
+[8] P. Cejnar and J. Jolie, arXiv:0807.3467 (2008).
+[9] W. D. Heiss, F. G. Scholtz, and H. B. Geyer, J. Phys. A 38, 1843 (2005); F. Leyvraz and W.
+D. Heiss, Phys. Rev. Lett. 95, 050402 (2005); W. D. Heiss, J. Phys. A 39, 10081 (2006).
+[10] S. Heinze, P. Cejnar, J. Jolie, and M. Macek, Phys. Rev. C 73, 014306 (2006); M. Macek,
+P. Cejnar, J. Jolie, and S. Heinze, Phys. Rev. C 73, 014307 (2006); P. Cejnar, M. Macek, S.
+Heinze. J. Jolie, and J. Dobes, J. Phys. A 39, L515 (2006).
+[11] M. A. Caprio, P. Cejnar, and F. Iachello, Ann. Phys 323, 1106 (2008).
+[12] J. Vidal, J. M. Arias, J. Dukelsky, J. E. Garc´ ıa-Ramos, Phys. Rev. C 73, 054305 (2006); J.
+M. Arias, J. Dukelsky, J. E. Garc´ ıa-Ramos, and J. Vidal, Phy s. Rev. C 75, 014301 (2007).
+[13] D. Bonatsos, E. A. McCutchan, R. F. Casten, and R. J. Casp erson, Phys. Rev. Lett. 100,
+142501 (2008).
+9[14] F. P´ erez-Bernal and F. Iachello, Phys. Rev. A 77, 032115 (2008); F. P´ erez-Bernal, L. F.
+Santos, P. H. Vaccaro, and F. Iachello, Chem. Phys. Lett. 414, 398 (2005).
+[15] S. Morrison and A. S. Parkins, Phys. Rev. Lett. 100, 040403 (2008); Phys. Rev. A 77, 043810
+(2008).
+10

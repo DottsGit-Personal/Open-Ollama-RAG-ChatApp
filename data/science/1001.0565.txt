@@ -1,0 +1,430 @@
+arXiv:1001.0565v1  [hep-th]  4 Jan 2010New probe ofmodiﬁed gravity
+A. Boyarsky1,2and O. Ruchayskiy1
+1Ecole Polytechnique F´ ed´ erale de Lausanne, FSB/ITP/LPPC , BSP 720, CH-1015, Lausanne, Switzerland
+2Bogolyubov Institute of Theoretical Physics, Kyiv, Ukrain e
+(Dated: January 4, 2010)
+We suggest a new efﬁcient way to constrain a certain class of l arge scale modiﬁcations of gravity. We show
+that the scale-free relation between density and size of Dar k Matter halos, predicted within the ΛCDM model
+withNewtonian gravity, gets modiﬁedina wide classof theor ies of modiﬁedgravity.
+Models with the large scale modiﬁcationof gravity are ac-
+tively discussed in the recent years in connection with the
+observedaccelerated expansionsof the Universeand becaus e
+theycanberelatedtotheexistenceofextradimensions[1,2 ].
+However, the general principles of gauge invariance and uni -
+tarity strongly constrain possible theories of gravity, mo dify-
+ing the Newton’s law at large distances (see analysis of [3]) .
+Thus, in addition to its phenomenological applications, th is
+problem is related to the fundamental questions of particle
+physics, ﬁeld theory and gravity. It is therefore important to
+searchforlargescalemodiﬁcationsofgravityexperimenta lly.
+A possible set of consistent (as a spin-2 ﬁeld theory) large
+scale modiﬁcations of gravity is described by two parame-
+ters – scale rcand a number 0≤α <1[3–5].rcmarks
+thedistancesatwhichat the linearizedlevel gravitationallaw
+changes from 1/r2to some other power 1/rn, and the pa-
+rameterαdetermines the value of n. Phenomenologically,
+deviationsfromNewton’slawwearelookingformayberep-
+resentedin thisparameterspace. Asigniﬁcantfractionoft his
+spaceisexcludedbyprecisionmeasurementsoftheMoonor-
+bit[6]. Othernaturalprobesofsuchmodiﬁcationsarecosmo -
+logicalobservables(see e.g.[7–12] andrefs. therein).
+In this work we identify a new observable sensitive to the
+largescalemodiﬁcationsofgravity. We demonstratethatun i-
+versal properties of individual dark matter halos are also a f-
+fectedby the modiﬁcationsof gravity,and providenovelway
+toprobethem. Namely,we showthatthescale-invariantrela -
+tion between density and size of dark matter halos, predicte d
+byNewtoniangravitywithinthe ΛCDMmodel[13]andfound
+toholdtoagoodprecisioninobserveddarkmatterhalos[14] ,
+may receive non-universal (size-dependent) corrections f or a
+widerangeofparameters rcandα.
+Formation of structures in the Universe is an interplay
+between gravitational (Jeans) instability and overall Fre ed-
+man expansion. The gravitational collapse does not start un -
+til the potential energy Uof a gravitating dark matter sys-
+tem overpowers the kinetic energy of the Hubble expansion
+K ∼1
+2H2R2. Once the gravitational collapse has began, at
+any moment of time ta dark halo is conﬁned within a sphere
+of zero velocity or a turn-around sphere . As Hubble expan-
+sion rate H(t)decreases with time, the turn-around radius
+Rta(t)grows. In the Newtonian cosmology with potential
+φN(r) =−GM/rthe turn-aroundradius Rtais
+Rta∝/parenleftbiggGM
+H2/parenrightbigg1/3
+(1)
+(today for masses ∼1012M⊙the turn-around radius is ∼1Mpc). Noticethatatanymomentoftimetheaveragedensity
+within a turn-around radius (1) is proportional to the cosmo -
+logicaldensityandisthesameforhalosofall masses:
+ρta∝H2
+G∝¯ρtot(t) (2)
+It was shown in [13] that the property (2) leads to a uni-
+versal relation between characteristic scales and densiti es of
+dark matter halos. This relation holds in wide class of dark-
+matterdominatedobjects(fromdwarfgalaxiestogalaxyclu s-
+ters) [14] (see also [15–17]). The relation is in a very good
+agreement with pure dark matter simulations [18, 19], sug-
+gesting that baryonic feedback can be neglected in this case .
+Therefore, this relation can serve as a new tool of probing
+propertiesofdarkmatterandgravityatlargescales.
+The relation (2) continues to hold in the Universe where
+gravityismodiﬁedbythecosmologicalconstant Λ. Thegrav-
+itational energy of a body of mass Mat distance rbecomes
+UΛ=−GM
+r−Λr2
+6. Comparing it with the kinetic energy of
+theHubbleﬂow Konearrivesonceagainto therelation(2)
+ρta(t)∝Λ
+G(3)
+(c.f.[13]). Therelation(1)stillholdsandisagainindepe ndent
+onthemassofthe halo.
+Whatisthemostgeneralformofgravitationalpotential,fo r
+which the property (2) remains true? Clearly, it will hold fo r
+all thegravitationalpotentialsoftheform
+φ(r) =−GM
+rF/parenleftbiggρ(r)
+ρ⋆/parenrightbigg
+(4)
+whereρ⋆is some constant with dimensionof density. In par-
+ticular,Λ-term obeysthis property(with ρ⋆∝Λ/G). All the
+theories of the form (4) obey the property that relative cor-
+rection to the Newtonian potential φNdependsonlyon the
+densityρ(r)withinaradius r(andnotonthemassorthesize
+ofobjects).
+Next, we consider the modiﬁcations of gravity [3, 4]. The
+gravitational potential of a spherically symmetric system of
+massMtherehastheform
+φα(r) =−GM
+rπ(r
+rV) (5)
+where0≤α <1. Here the characteristic ( Vainstein) radius
+rVisdeﬁnedas[3, 4, 20]
+rV=/parenleftBig
+2GMrβ
+c/parenrightBig1
+1+βwhereβ= 4(1−α)(6)2
+If the scale rcis of the order of ∼H−1
+0, such modiﬁcations
+ofgravitycanprovideanexplanationforthelate-timecosm o-
+logical expansion of the Universe [1, 2]. The corrections to
+Newton’slawbecomenegligibleas r→0(π(0) = 1)andthe
+radius (6) characterizes the scale where the deviations fro m
+Newton’spotentialbecomeoforderunity. Usingtherelatio n
+r
+rV=/parenleftbiggr1+β
+2GMrβ
+c/parenrightbigg1
+1+β
+∝Mβ−2
+3(1+β)1
+ρ1/3/parenleftbig
+2Grβ
+c/parenrightbig1
+1+β(7)
+(whereρ=M/r3) we ﬁnd that among the theories of mod-
+iﬁed gravity (5) only β= 2(α=1
+2, the DGP model [1])
+possesstheproperty(4) andconsequently(2).
+The property (2) can be probed experimentally. Exten-
+sive catalog of DM-dominatedobjects of all scales, collect ed
+in [14], exhibits a simple scaling relation of the propertie s of
+the DM halos. Dark matter distributionin the majorityof ob-
+served objects can be described by one of the universal DM
+proﬁles (such as e.g. NFW [21] or Burkert [22]). Such pro-
+ﬁles may be parametrized by two numbers, directly related
+to observations – a characteristic radius rC(off-center dis-
+tance where the rotation curve becomes approximately ﬂat,
+equal e.g. to rsfor NFW) and a DM central mass density
+¯ρC, averaged inside a ball with the size rC. It was shown
+that DM column density S ∝¯ρCrC, (see [13, 14] for a de-
+tailed deﬁnition) changes with the mass as S ∝Mκ, where
+κ≈0.22−0.33. It was demonstrated in [13] that in the
+simplest self-similar model (i.e. assuming that rC/Rtais the
+same for the DM halos of all masses) property (1–2) implies
+a scaling S ∝M1/3,compatiblewith observations. Observa-
+tions(see e.g.[23–27])demonstratethat theratioof rCtothe
+virialradiusdependsweakly(as M≈−0.1)onthemassofDM
+halos. The Fig. 1 shows ratio of the virial radius of a halo to
+itsrCforDMdensityproﬁlesfromthecatalogof[14]. These
+results are in perfect agreement with the ΛCDM numerical
+simulations (see e.g. [18, 28]). Due to this slight deviatio n
+from the self-similarity, the best ﬁt value of the scaling pa -
+rameterκ= 0.23(see[13]fordiscussion). Forthequalitative
+discussion of this work, it is important that S(M)is a fea-
+turelesspower-lawdependence,whoseslopedoesnotdepend
+on mass and that the deviation from the slope1
+3is small (as
+followsfromobservations).
+We can conclude that in the theories, satisfying the con-
+dition (5) (e.g. in DGP model) the properties of DM halos
+theory will follow the same scaling relation S ∝M1/3and
+thedifferencewiththe ΛCDMcase willonlybeina different
+normalization of this scaling relation. For other theories , de-
+scribedin[3,4],with α∝negationslash=1
+2,wecanseefromtheEq.(7))that
+the potential φα(r)is not of the form (4) and we can expect
+deviationfromtheuniversalscalinglaw.
+I.S −MRELATIONFORGENERAL α
+Let us work out the S −Mfor a general αin details. A
+generalexpression,relatingtheturn-aroundtime,turn-a round
+radius and mass within this radius follows from energy con- 0.1 1 10 100
+ 1e+09  1e+11  1e+13  1e+15cvir
+Mvir, MSun
+FIG. 1: Comparison of cvir=Rvir/rCas a function of DM halo
+mass for observed DMdensity proﬁlesfrom the catalog of [14] .
+servationandis givenby
+t0=1√
+2/integraldisplayRta
+0dr/radicalbig
+φα(r)−φα(Rta)(8)
+Using the general form (5) we can rewrite the expression (8)
+inthefollowingform:
+t0=/parenleftbiggπ2R3
+ta
+8GM/parenrightbigg1/2
+I(xta) (9)
+where dimensionless ratio xta≡Rta/rVand the function
+I(xta)isgivenby
+I(xta) =2
+π/integraldisplay1
+0dx
+/parenleftBig
+π(xxta)
+x−π(xta)/parenrightBig1/2(10)
+The solution of this equation gives us the “density” ρta≡
+M/R3
+taas a function of M. Whenrc→ ∞the turn-around
+densityρtabecomes
+ρta=M
+R3
+ta=π2
+8Gt2
+0≡ρ0 (11)
+Here theconstantρ0is a function of lifetime of the Universe
+onlyanddoesnotdependonparametersofadarkmatterhalo.
+This gives a desired relation between a turn-around density
+and the life-time of the Universe in the pure Newtonian cos-
+mology (without cosmological constant). The function I(x)
+isdeﬁnedinsuchaway thatintheNewtonianlimit π(x) = 1
+onegetsI(x) = 1.
+The derivation of Eq. (9) demonstrates that for all theories
+of gravity of the form (4) (including Λ-term and the DGP
+model)ρtais a function of ρ0onlyand does not depend on
+the mass/size of a particular halo. As a result S ∝M1/3
+(see[13]fordetails).
+FurtheranalysisofEq.(9)dependsontheformofthefunc-
+tionπ(x). Its exact form is not known (apart from the DGP
+case). Letusstartwith analyzingseverallimitingcases.3
+0.2 0.4 0.6 0.8 1.0Α
+/Minus0.50.51.0I1/LParen1Α/RParen1
+FIG.2: Function I1(α)deﬁnedinEq.(13)
+If the Vainstein radius rV≪Rtafor halos of all masses
+that are experimentally observed (roughly from ∼108M⊙
+to∼1016M⊙), then for distances r≫rVthe corrections
+to the Newtonian potential reduce either to the order one
+renormalization of the gravitational constant (on the “nor mal
+branch”)orbecomeindistinguishablefromthe Λ-term(“self-
+accelerated branch”). In both cases S(M)∝M1/3with the
+normalization,differentfromthe pureNewtoniancase.
+In the opposite case rV≫Rta, one can utilize the per-
+turbative expansion of the function π(x). The gravitational
+potentialwell insidetheVainsteinradiusisgivenby[3,4]
+π(x≪1)≈1+c1xa;a=β+1
+2=5−4α
+2(12)
+wherec1∼ O(1)andispositiveforthe “normalbranch”and
+negativefor the “self-acceleratingbranch”[5] in full ana logy
+with the DGP model. Notice that a >1forα <3
+4. Using
+expansion(12)onearrivesto
+I(xta≪1)≈1+c1
+2xa
+ta
+2
+π/integraldisplay1
+0dx1−xa−1
+/parenleftBig
+1
+x−1/parenrightBig3/2
+
+/bracehtipupleft/bracehtipdownright/bracehtipdownleft/bracehtipupright
+≡I1(α)(13)
+wherethefunction I1(α)isshownontheFig. 2.
+Substitutingthe expression(13) back into equation(9) and
+using(7),we obtain
+/parenleftbiggρ0
+ρta/parenrightbigg1/2/parenleftBig
+1+c1
+2xa
+taI1(α)/parenrightBig
+= 1 (14)
+Asxta≪1anda >1,oneﬁndsthat
+ρta≃ρ0/parenleftBig
+1+c1I1(α)xa
+ta(ρ0)/parenrightBig
+(15)
+where to compute xtawe use Eq. (7) with ρ0instead of ρta.
+From Eqs. (7) and (15) we see once again that for all α∝negationslash=1
+2
+(i.e.β∝negationslash= 2) the turn-around density ρtaloses its univer-
+sality and becomes the function of the halo mass M. The
+turn-around radius Rta(M)is related to ρtaviaRta(M) =
+(M/ρta)1/3. 0 1 2 3 4 5 6 7 8
+1071081091010101110121013101410151016DM column density, log10[S/Msun pc-2]
+DM halo mass [Msun]Clusters of galaxies
+Groups of galaxies
+Spiral galaxies
+Elliptical galaxies
+dSphs
+Norm. branch, α = 0   ; rc = 150 Mpc
+Self-acc. branch, α = 0   ; rc = 150 Mpc
+Norm. branch, α = 1/4 ; rc = 300 Mpc
+Self-acc. branch, α = 1/4 ; rc = 300 Mpc
+Best-fit model S ∝ M0.23
+FIG. 3: Examples of S −Mrelation in theories with α <1/2
+together withthe data from [14].
+Under the assumption of exact self-similarity, discussed
+above (i.e. rC/Rta= const) one arrives to the following
+expressionfor S(recallthat β= 4(1−α)):
+S(M) =ρCrC∝M1/3ρ2/3
+ta (16)
+∝M1/3ρ2/3
+0/parenleftBigg
+1+2
+3c1I1(α)/parenleftbiggM
+Mlim/parenrightbigg1−2α
+3/parenrightBigg
+(17)
+where
+Mlim≡1
+G/bracketleftBigg/parenleftBigrc
+2/parenrightBig3β/parenleftbiggπ
+t0/parenrightbigg2(1+β)/bracketrightBigg1
+β−2
+(18)
+Anexampleoftherelation(17)forseveral α’sandrcisshown
+inFig.3.
+Clearly, the most interesting case is when rV≈Rtafor
+some range of observed halo masses. In this regime the de-
+viations from Newtonian gravity become the strongest. The
+range of values rcfor which this happens is shown in Fig. 4
+(the value of t0is chosen to be the lifetime of the Universe
+t0≃1.3×1010years). We expect that for rcin the region
+Fig.4 the slope of the relation S ∝Mκwill change. Anal-
+ysis of this case requires however an exact solution of the
+non-linear analog of the Poisson equation in theories with α
+(see e.g. [4]), i.e. the knowledge of properties of the func-
+tionπ(r/rV)in the range of radii, where the perturbative
+expansion (12) breaks down. Notice, that the region where
+rV≈Rtashrinks toward the value rc=2
+πt0asα→1
+2. For
+thisvalueof rctheVainsteinradiusintheDGPmodelisequal
+to the turn-aroundradius for all halo masses .1Knowledgeof
+thepotential π(x)wouldalsoallowtoprobethemodiﬁcations
+ofgravitydirectlyintheLocalGroupandothernearbygalax -
+ies, by studying the infall trajectory around the turn-arou nd
+radius(see e.g.[29]).
+1In general for rc∼H−1
+0the turn-around radius is smaller than rVfor
+α <1
+2and bigger than rVforα >1
+2.4
+0.1 0.2 0.3 0.4 0.5Α5010020050010002000rc/LBracket1Mpc/RBracket1
+FIG. 4: Range of rcfor which rV≈Rtafor some halo masses in
+the range 1010−1015M⊙.
+Anotherwaytoprobethe S−Mrelationforgeneral rcand
+αis to do numerical simulations in the theories of modiﬁed
+gravity (see examples in [11, 12]) and compare directly with
+observationsboththescalingofthecentralvaluesof SandM
+andthescatteraroundit.
+Conclusion. The main purpose of this work was to iden-
+tify a new observable that can be used to constrain the large
+scale modiﬁcations of gravity. We see that the scaling prop-
+ertiesofdarkmatterhalosaresensitivetosuchmodiﬁcatio ns.We demonstratedthat the models with α∝negationslash=1
+2predict the de-
+viation from a simple power-law scaling in the S(M)rela-
+tion. Comparisonofpredictionsofsuchmodelswiththedata ,
+collected in [14] potentially allows to restrict the values of
+rcfrom below for a given α. The improved data-processing
+andnew observationaldata onDM distributionswill allow to
+strengthenthese boundsandmakethemquantitative.
+Inthisworkwehaveanalyzedonlythecasewhentheturn-
+aroundsphere is well inside the Vainstein radius, rV≫Rta.
+To analyze a general case, a better theoretical understandi ng
+of the function π(r)(deﬁnedvia Eq. (5)) is needed. Together
+with betterqualityofdata thiswill allow toextendouranal y-
+sisto awiderrangeofparameters.
+Inthe case α=1
+2(theDGP model)the S(M)dependence
+remains featureless. In this case one has rV≈Rtafor all
+masses (for rc∼H−1
+0) and the deviations from the Newto-
+nian gravity at turn-around radius will be strong. Therefor e
+thismodel (in general,all modelsthat have rV∼Rtaforha-
+los ofM∼1012M⊙) can be probed by studying the infall
+trajectoriesaroundthe turn-aroundradius in the Local Gro up
+andnearbygalaxies[29] usingthe availabledataandthe dat a
+fromforthcomingsurveysoftheMilkyWay aswell asGAIA
+mission.
+Acknowledgments. We would like to thank G. Dvali for
+manyuseful andilluminatingdiscussionsand carefulreadi ng
+of the manuscript. This work was supported in part by the
+SwissNationalScienceFoundation.
+[1] G. R. Dvali, G. Gabadadze, and M. Porrati, Phys. Lett. B485,
+208(2000), hep-th/0005016.
+[2] C. Deffayet, G. R. Dvali, and G. Gabadadze, Phys. Rev. D65,
+044023 (2002), astro-ph/0105068.
+[3] G.Dvali, NewJ. Phys. 8, 326 (2006), hep-th/0610013.
+[4] G. Dvali, S. Hofmann, and J. Khoury, Phys. Rev. D76, 084006
+(2007), hep-th/0703027.
+[5] G.Dvali, toappear (2010).
+[6] G. Dvali, A. Gruzinov, and M. Zaldarriaga, Phys. Rev. D68,
+024012 (2003), hep-ph/0212069.
+[7] G.Dvali andM. S.Turner (2003), astro-ph/0301510.
+[8] J.Sollermanet al.,Astrophys. J. 703, 1374 (2009), 0908.4276.
+[9] L. Lombriser, W. Hu, W. Fang, and U. Seljak, Phys. Rev. D80,
+063536 (2009), 0905.1112.
+[10] R.Scoccimarro, Phys.Rev. D80, 104006 (2009), 0906.4545.
+[11] K. C. Chan and R. Scoccimarro, Phys. Rev. D80, 104005
+(2009), 0906.4548.
+[12] J. Khoury and M. Wyman, Phys. Rev. D80, 064023 (2009),
+0903.1292.
+[13] A. Boyarsky, A. Neronov, O. Ruchayskiy, and I. Tkachev
+(2009), 0911.3396.
+[14] A. Boyarsky, O. Ruchayskiy, D. Iakubovskyi, A. V. Macci o’,
+andD. Malyshev (2009), 0911.1774.
+[15] J. Kormendy and K. C. Freeman, in Dark Matter in Galax-
+ies, edited by S. Ryder, D. Pisano, M. Walker, & K. Freeman
+(2004), vol. 220of IAU Symposium , p. 377.
+[16] F. Donato, G. Gentile, P. Salucci, C. Frigerio Martins, M. I.
+Wilkinson, G. Gilmore, E. K. Grebel, A. Koch, and R. Wyse,
+MNRAS 397, 1169 (2009), 0904.4054.
+[17] G. Gentile, B. Famaey, H. Zhao, and P. Salucci, Nature 461,627 (2009), 0909.5203.
+[18] A.V. Macci` o, A.A.Dutton, andF.C.van denBosch,MNRAS
+391, 1940 (2008), 0805.1926.
+[19] V. Springel, J. Wang, M. Vogelsberger, A. Ludlow, A. Jen kins,
+A. Helmi, J. F. Navarro, C. S.Frenk, and S.D. M. White, MN-
+RAS391, 1685 (2008), 0809.0898.
+[20] C. Deffayet, G. R. Dvali, G. Gabadadze, and A. I. Vainsht ein,
+Phys. Rev. D65, 044026 (2002), hep-th/0106001.
+[21] J. F. Navarro, C. S. Frenk, and S. D. M. White, ApJ 490, 493
+(1997), astro-ph/9611107.
+[22] A. Burkert, ApJ 447, L25+ (1995), arXiv:astro-ph/9504041.
+[23] A. Vikhlinin, A. Kravtsov, W. Forman, C. Jones, M. Marke -
+vitch, S. S. Murray, and L. Van Speybroeck, ApJ 640, 691
+(2006), astro-ph/0507092.
+[24] D. A. Buote, F. Gastaldello, P. J. Humphrey, L. Zappacos ta,
+J. S. Bullock, F. Brighenti, and W. G. Mathews, ApJ 664, 123
+(2007), arXiv:astro-ph/0610135.
+[25] R. W. Schmidt and S. W. Allen, MNRAS 379, 209 (2007),
+arXiv:astro-ph/0610038.
+[26] J. M. Comerford and P. Natarajan, MNRAS 379, 190 (2007),
+arXiv:astro-ph/0703126.
+[27] R. Mandelbaum, U. Seljak, and C. M. Hirata, JCAP 0808, 006
+(2008), 0805.2552.
+[28] A. F. Neto, L. Gao, P. Bett, S. Cole, J. F. Navarro, C. S. Fr enk,
+S. D. M. White, V. Springel, and A. Jenkins, MNRAS 381,
+1450 (2007), 0706.2919.
+[29] G. Steigman and I. Tkachev, ApJ 522, 793 (1999), astro-
+ph/9803008.

@@ -1,0 +1,291 @@
+arXiv:1001.0366v1  [math.NA]  3 Jan 2010On a new notion of the solution to an ill-posed
+problem∗†
+A.G. Ramm
+Mathematics Department, Kansas State University,
+Manhattan, KS 66506-2602, USA
+ramm@math.ksu.edu
+Abstract
+A new understanding of the notion of the stable solution to il l-posed problems
+is proposed. The new notion is more realistic than the old one and better ﬁts
+the practical computational needs. A method for constructi ng stable solutions in
+the new sense is proposed and justiﬁed. The basic point is: in the traditional
+deﬁnition of the stable solution to an ill-posed problem Au=f, whereAis a linear
+or nonlinear operator in a Hilbert space H, it is assumed that the noisy data {fδ,δ}
+are given, ||f−fδ|| ≤δ, and a stable solution uδ:=Rδfδis deﬁned by the relation
+limδ→0||Rδfδ−y||= 0, where ysolves the equation Au=f, i.e.,Ay=f. In this
+deﬁnition yandfare unknown. Any f∈B(fδ,δ) can be the exact data, where
+B(fδ,δ) :={f:||f−fδ|| ≤δ}.
+The new notion of the stable solution excludes the unknown yandffrom the
+deﬁnition of the solution.
+1 Introduction
+Let
+Au=f, (1.1)
+whereA:H→His a linear closed operator, densely deﬁned in a Hilbert space H.
+Problem (1.1) is called ill-posed if Ais not a homeomorphism of HontoH, that is, either
+equation (1.1) does not have a solution, or the solution is non-unique , or the solution
+does not depend on fcontinuously. Let us assume that (1.1) has a solution, possibly
+non-unique. Let N(A) be the null space of A, andybe the unique normal solution to
+∗key words: ill-posed problems, regularizer, stable solution of ill-pose d problems
+†AMS2010 subject classiﬁcation: 47A52, 65F22, 65J20(1.1), i.e., y⊥N(A). Given noisy data fδ,/bardblfδ−f/bardbl ≤δ, one wants to construct a stable
+approximation uδ:=Rδfδof the solution y,/bardbluδ−y/bardbl →0 asδ→0.
+Traditionally(see, e.g., [2]) onecallsafamilyofoperators Rharegularizer forproblem
+(1.1) (with not necessarily linear operator A) if
+a)RhA(u)→uash→0 for any u∈D(A),
+b)Rhfδis deﬁned for any fδ∈Hand there exists h=h(δ)→0 asδ→0 such that
+/bardblRh(δ)fδ−y/bardbl →0 asδ→0. (∗)
+Inthisdeﬁnition yisﬁxedand( ∗)mustholdforany fδ∈B(f,δ) :={fδ:/bardblfδ−f/bardbl ≤δ}.
+In practice one does not know the solution yand the exact data f. The only available
+information is a family fδand some a priori information about for about the solution
+y. This a priori information often consists of the knowledge that y∈ K, whereKis a
+compactum in H. Thus
+y∈Sδ:={v:/bardblA(v)−fδ/bardbl ≤δ, v∈ K}.
+Weassumethattheoperator Aisknownexactly, andwealwaysassume that fδ∈B(f,δ),
+wheref=A(y).
+Deﬁnition: We call a family of operators R(δ)a regularizer if
+sup
+v∈Sδ/bardblR(δ)fδ−v/bardbl ≤η(δ)→0 asδ→0. (1.2)
+There is a crucial diﬀerence between our new Deﬁnition (1.2) and the standard deﬁnition
+(∗):
+In(∗)uis ﬁxed, while in (1.2)vis an arbitrary element of Sδand the supremum of
+the norm in (1.2)over all such vmust tend to zero as δ→0.
+The new deﬁnition is more realistic and better ﬁts computational nee ds because not
+only the solution yto (1.1) satisﬁes the inequality /bardblAy−fδ/bardbl ≤δ, but any v∈Sδsatisﬁes
+this inequality /bardblAv−fδ/bardbl ≤δ,v∈ K. The data fδmay correspond to any f=Av, where
+v∈Sδ, and not only to f=Ay, whereyis a solution of equation (1.1). Therefore it is
+more natural to use deﬁnition (1.2) than ( ∗).
+Our goal is to illustrate the practical diﬀerence between these two deﬁnitions, and to
+construct regularizer inthesense (1.2)forproblem(1.1)withanar bitrary, notnecessarily
+bounded, linear operator A, which is closed and densely deﬁned in H. This is done in
+Section 2. In Section 1 this is done for a class of equations (1.1) with n onlinear operators
+A:X→Y, whereXandYare Banach spaces. In this case we assume that
+A1)A:X→Yis a closed, nonlinear, injective map ,f∈ R(A),R(A) it is the range of
+A,
+and
+A2)φ:D(φ)→[0,∞),φ(u)>0ifu/ne}ationslash= 0,D(φ)⊆D(A),the setsK=Kc:={v:φ(v)≤
+c}are compactin Xfor every c=const >0,and ifvn→v,thenφ(v)≤liminf n→∞φ(vn).
+The last inequality holds if φislower semicontinuous . In Hilbert spaces and in
+reﬂexive Banach spaces norms are lower semicontinuous.
+2Let us give some examples of equations for which assumptions A1) an d A2) are
+satisﬁed.
+Example 1. Ais a linear injective compact operator, f∈ R(A),φ(v) is a norm on
+X1⊂X, whereX1is densely imbedded in X, the embedding i:X1→Xis compact,
+andφ(v) is lower semicontinuous.
+Example 2. Ais a nonlinear injective continuous operator f∈ R(A),A−1is not
+continuous, φis as in Example 1.
+Example 3. Ais linear, injective, densely deﬁned, closed operator, f∈ R(A),A−1is
+unbounded, φis as in Example 1, X1⊆D(A).
+Let us demonstrate by Example A that a regularizer in the sense (∗)may be not a
+regularizer in the sense (1.2).
+In Example B a theoretical construction of a regularizer in the sens e (1.2) is given for
+some equations (1.1) with nonlinear operators.
+In Section 2 a novel theoretical construction of a regularizer in th e sense (1.2) is given
+for a very wide class of equations (1.1) with linear operators A.
+Example A :Stable numerical diﬀerentiation.
+In this Example the results from [3] - [11] are used. This Example is bor rowed from
+[10].
+Consider stable numerical diﬀerentiation of noisy data. The problem is:
+Au:=/integraldisplayx
+0u(s)ds=f(x), f(0) = 0,0≤x≤1. (1.3)
+The data are: fδand a constant Ma, which deﬁnes a compact K, where/bardblfδ−f/bardbl ≤δ, the
+norm isL∞(0,1) norm, and Kconsists of the L∞functions which satisfy the inequality
+/bardblu/bardbla≤Ma,a≥0. The norm
+/bardblu/bardbla:= sup
+x,y∈[0,1]
+x/negationslash=y|u(x)−u(y)|
+|x−y|a+ sup
+0≤x≤1|u(x)|if 0≤a≤1,
+/bardblu/bardbla:= sup
+0≤x≤1(|u(x)|+|u′(x)|)+ sup
+x,y∈[0,1]
+x/negationslash=y|u′(x)−u′(y)|
+|x−y|a−1,1< a≤2.
+Ifa >1, then we deﬁne
+R(δ)fδ:=
+
+fδ(x+h(δ))−fδ(x−h(δ))
+2h(δ), h(δ)≤x≤1−h(δ),
+fδ(x+h(δ))−fδ(x)
+h(δ),0≤x < h(δ),
+fδ(x)−fδ(x−h(δ))
+h(δ),1−h(δ)< x≤1,(1.4)
+where
+h(δ) =caδ1
+a, (1.5)
+andcais a constant given explicitly (cf [4]).
+3We prove that (1.4) is a regularizer for (1.3) in the sense (1.2), and K:={v:/bardblv/bardbla≤
+Ma, a >1}. In this example we do not use lower semicontinuity of the norm φ(v) and
+do not deﬁne φ.
+LetSδ,a:={v:/bardblAv−fδ/bardbl ≤δ,/bardblv/bardbla≤Ma}. To prove that (1.4)-(1.5) is a regularizer
+in the sense (1.2) we use the estimate
+sup
+v∈Sδ,a/bardblR(δ)fδ−v/bardbl ≤sup
+v∈Sδ,a{/bardblR(δ)(fδ−Av)/bardbl+/bardblR(δ)Av−v/bardbl} ≤δ
+h(δ)+Maha−1(δ)≤
+≤caδ1−1
+a:=η(δ)→0 asδ→0.
+(1.6)
+Thus we have proved that (1.4)-(1.5) is a regularizer in the sense (1 .2).
+Ifa= 1, and M1<∞, then one can prove the following result:
+Claim:There is no regularizer for problem (1.3)in the sense (1.2)even if the regu-
+larizer is sought in the set of all operators, including nonl inear ones .
+More precisely, it is proved in [5], p.345, (see also [8], pp 197-235, wher e the stable
+numerical diﬀerentiation problem is discussed in detail) that
+inf
+R(δ)sup
+v∈Sδ,1/bardblR(δ)fδ−v/bardbl ≥c >0,
+wherec >0 is a constant independent of δand the inﬁmum is taken over all operators
+R(δ)acting from L∞(0,1)intoL∞(0,1), including nonlinear ones .
+On the other hand, if a= 1 and M1<∞, then a regularizer in the sense ( ∗) does
+exist, but the rate of convergence in (*) may be as slow as one wishe s, ifu(x) is chosen
+suitably (see [4], [8]).
+Example B: Construction of a regularizer in the sense (1.2)for some nonlinear
+equations.
+Assuming A1) and A2), let us construct a regularizer for (1.1) in the sense (1.2). We
+use the ideas from [10] and [11].
+DeﬁneFδ(v) :=/bardblAv−fδ/bardbl+δφ(v) and consider the minimization problem of ﬁnding
+the inﬁmum m(δ) of the functional Fδ(v) on a set Sδ:
+m(δ) := inf
+v∈SδFδ(v), S δ:={v:/bardblAv−fδ/bardbl ≤δ, φ(v)≤c}. (1.7)
+Here
+K=Kc:={v:φ(v)≤c}.
+The constant c >0 can be chosen arbitrary large and ﬁxed at the beginning of the
+argument, and then one can choose a smaller constant c1, speciﬁed below. Since Fδ(u) =
+δ+δφ(u) :=c1δ,c1:= 1+φ(u), where usolves (1.1), one concludes that
+m(δ)≤c1δ. (1.8)
+Letvjbe a minimizing sequence and Fδ(vj)≤2m(δ). Thenφ(vj)≤2c1. By assumption
+A2), asj→ ∞, one has:
+vj→vδ, φ(vδ)≤2c1. (1.9)
+4Takeδ=δm→0 and denote vδm:=wm. Then (1.9) and Assumption A2) imply the
+existence of a subsequence, denoted again wm, such that:
+wm→w, A (wm)→A(w),/bardblA(w)−g/bardbl= 0. (1.10)
+ThusA(w) =gand, since Ais injective by Assumption A1), it follows that w=u, where
+uis the unique solution to (1.1).
+Deﬁne now R(δ)fδby the formula R(δ)fδ:=vδ, wherevδis deﬁned in (1.9).
+Theorem 1.1. R(δ)is a regularizer for problem (1.1)in the sense (1.2).
+Proof.Assume the contrary:
+sup
+v∈Sδ/bardblR(δ)fδ−v/bardbl= sup
+v∈Sδ/bardblvδ−v/bardbl ≥γ >0, (1.11)
+whereγ >0 is a constant independent of δ. Sinceφ(vδ)≤2c1by (1.9), and φ(v)≤c, one
+can choose convergent in Xsequences wm:=vδm→˜w,δm→0, andvm→˜v, such that
+/bardblwm−vm/bardbl ≥γ
+2,/bardbl˜w−˜v/bardbl ≥γ
+2, andA(˜w) =g,A(˜v) =g. By the injectivity of Ait follows
+that ˜w= ˜v=u. This contradicts the inequality /bardbl˜w−˜v/bardbl ≥γ
+2>0. This contradiction
+proves the theorem.
+The conclusions A(˜w) =gandA(˜v) =g, that we have used above, follow from the
+inequalities /bardblA(vδ)−fδ/bardbl ≤δand/bardblA(v)−fδ/bardbl ≤δafter passing to the limit δ→0, using
+assumption A2). ✷
+2 Construction of a regularizer in the sense (1.2)for
+linear equations
+IfAis a linear closed densely deﬁned in Hoperator, then T=A∗Ais a densely deﬁned
+selfadjoint operator. Let Ta:=T+aI, wherea=const > 0. The operator T−1
+aA∗is
+densely deﬁned and closable. Its closure is a bounded operator, de ﬁned on all of H, and
+||T−1
+aA∗|| ≤1
+2√a.See [12]-[15] for details and other results. Let Esbe the resolution of the
+identity of the selfadjoint operator T,dρ:=d(Esy,y), andK:={u:/integraltext∞
+0s−2pdρ≤k2
+p},
+wherep∈(0,1) andkp>0 are constants.
+Our basic result is:
+Theorem 2.1. The operator Rδ=T−1
+a(δ)A∗is a regularizer for problem (1.1)in the
+sense(1.2)iflimδ→0δ
+a(δ)1/2= 0andlimδ→0a(δ) = 0. Moreover, if a(δ) =bpδ2
+2p+1,then
+sup
+y∈K,||Ay−fδ||≤δ/bardblR(δ)fδ−y/bardbl ≤Cpδ2p
+2p+1, (2.1)
+where
+Cp=1
+2/radicalbig
+bp+cpkpbp
+p, c p=pp(1−p)1−p, b p:= (4pcpkp)−2
+2p+1.
+5The above choice of a(δ)is optimal in the sense that the right-hand side of (2.2)(see
+below) is minimal for this choice of a(δ).
+Proof.
+Let
+ǫ:= sup
+y∈K,||Ay−fδ||≤δ||T−1
+aA∗fδ−y||:= sup||T−1
+aA∗fδ−y||.
+Then, with Ay=f, one has
+ǫ≤sup||T−1
+aA∗(fδ−f)||+sup||T−1
+aA∗Ay−y||:=J1+J2,
+where
+J1≤δ
+2√a,
+and
+J2
+2≤sup{a2||T−1
+ay||2} ≤sup/integraldisplay∞
+0a2
+(s+a)2d(Esy,y).
+Thus,
+J2
+2≤/parenleftbig
+max
+s≥0asp
+a+s/parenrightbig2k2
+p=c2
+pk2
+pa2p,
+because max s≥0asp
+a+sis attained at s=pa
+1−pand is equal to cpap, where
+cp:=pp(1−p)1−p, k2
+p:= sup
+y∈K/integraldisplay∞
+0s−2pd(Esy,y).
+Consequently,
+J2≤cpkpap,
+and
+ǫ≤δ
+2√a+cpkpap. (2.2)
+Minimizing the right-hand side of (2.2) with respect to a >0, one obtains inequality
+(2.1).
+The minimizer of the right-hand side of (2.2) is
+a=a(δ) =bpδ2
+2p+1, b p:= (4pcpkp)−2
+2p+1,
+and the minimum of the right-hand side of (2.2) is Cpδ2p
+2p+1, where
+Cp:=1
+2/radicalbig
+bp+cpkpbp
+p. (2.3)
+Theorem 2.1 is proved. ✷
+6References
+[1] Dunford, N., Schwartz, J., Linear Operators , Interscience, New York, 1958.
+[2] V. Morozov, Methods of solving incorrectly posed problems , Springer Verlag, New
+York, 1984.
+[3] Ramm, A.G., On numerical diﬀerentiation, Mathematics, Izvestija vuzov, 11,
+(1968), 131-135. (In Russian).
+[4] Ramm, A.G., Stable solutions of some ill-posed problems, Math. Meth . in the
+appl. Sci. 3, (1981), 336-363.
+[5] Ramm, A.G., Scattering by obstacles , D.Reidel, Dordrecht, 1986, pp.1-442.
+[6] Ramm, A.G., Random ﬁelds estimation theory , Longman Scientiﬁc and Wi-
+ley, New York, 1990.
+[7] Ramm,A.G., Inequalitiesforthederivatives, Math.Ineq.andApp l., 3,N1, (2000),
+129-132.
+[8] Ramm, A.G., Dynamical systems method for solving operator equations ,
+Elsevier, Amsterdam, 2007.
+[9] Ramm, A.G., Dynamical systems method for solving linear ill-posed pr oblems,
+Ann. Polon. Math., 95, N3, (2009), 253-272.
+[10] Ramm, A.G., On a new notion of regularizer, J.Phys A, 36 (2003), 2 191-2195.
+[11] Ramm, A.G., Regularization of ill-posed problems with unbounded op erators, J.
+Math. Anal. Appl., 271, (2002), 447-450.
+[12] Ramm, A.G., Ill-posedproblemswithunbounded operators, J. Ma th.Anal. Appl.,
+325, (2007), 490-495.
+[13] Ramm, A.G., Dynamical systems method (DSM) for selfadjoint op erators, J.
+Math. Anal. Appl., 328, (2007), 1290-1296.
+[14] Ramm, A.G., Iterative solution of linear equations with unbounded operators, J.
+Math. Anal. Appl., 330, N2, (2007), 1338-1346.
+[15] Ramm, A.G., On unbounded operators and applications, Appl. Mat h. Lett., 21,
+(2008), 377-382.
+7

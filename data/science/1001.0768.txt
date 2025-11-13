@@ -1,0 +1,440 @@
+arXiv:1001.0768v3  [hep-ph]  6 May 2010UCRHEP-T483
+Gauged B−xiLorigin of Rparity and its implications
+Hye-Sung Lee
+Department of Physics, Brookhaven National Laboratory, Up ton, NY 11973, USA
+Ernest Ma
+Department of Physics and Astronomy, University of Califor nia, Riverside, CA 92521, USA
+(Dated: January, 2010)
+Gauged B−Lis a popular candidate for the origin of the conservation of Rparity, i.e. R=
+(−)3B+L+2j, in supersymmetry, but it fails to forbid the eﬀective dimen sion-ﬁve terms arising from
+the superﬁeld combinations QQQL,ucucdcec, anducdcdcNc, which allow the proton to decay.
+Changing it to B−xiL, where xe+xµ+xτ= 3 (with xi/negationslash= 1) for the three families, would
+forbid these terms while still serving as a gauge origin of Rparity. We show how this is achieved
+in two minimal models with realistic neutrino mass matrices , and discuss their phenomenological
+implications.
+Introduction
+In the Minimal Supersymmetric Standard Model
+(MSSM) ofparticle interactions, the imposition of Rpar-
+ity, i.e.R= (−)3B+L+2j, whereB,L, andjstand for
+baryon number, lepton number, and spin, respectively,
+serves two purposes. One is to establish a candidate for
+the dark-matter of the Universe, because the lightest su-
+persymmetric particle (LSP) is absolutely stable, being
+oddunder R. Theotheristoforbidtheotherwiseallowed
+renormalizable superﬁeld terms LHu,LLec,LQdc, and
+ucdcdc, so that the proton does not decay as a result
+of these interactions. However, the higher-dimensional
+quadrilinear terms QQQLanducucdcecare still allowed,
+giving rise thus to eﬀective dimension-ﬁve terms in the
+Lagrangian which would also induce fast proton decay
+[1]. This is a serious problem for grand uniﬁcation, even
+at a scale as high as 1016GeV.
+With the addition of three neutral singlet superﬁelds
+Nc, desirable for neutrino masses, gauged B−Lbecomes
+possible. In that case, Rparity is better understood the-
+oretically as a discrete remnant of B−Lbreaking. How-
+ever, the oﬀending quadrilinear terms remain, together
+with the new term ucdcdcNc. To get rid of these terms,
+weproposeasimplesolution. Insteadofgauged B−L,we
+adopt a ﬂavor-dependent variation, i.e. B−xiL, where
+the usual leptons still have L= 1, but xe,µ,τfor the
+three families are not equal to 1. In fact, the idea that
+there is just one Ncand that xe,µ,τ= (3,0,0) or (0,3,0)
+or (0,0,3) has already been explored in the past [2–6].
+Ifxi/negationslash= 1, then all the unwanted quadrilinear terms are
+forbidden by gauged B−xiLso that proton stability is
+assured as shown for (0 ,0,3) case in Ref. [3].
+Here we assume that there are three Nc, with each xi
+nonzero. Unlike the previous (0 ,0,3) type ofmodels, this
+opens up a new possibility that the spontaneousbreaking
+ofB−xiLby suitably chosen Higgs singlet superﬁelds
+S1,2will result in an exact discrete residual symmetry
+which is just the usual Rparity. In the following, we
+will discuss the conditions on xiand construct two min-imal models with realistic neutrino mass matrices. We
+will examine their phenomenological constraints and the
+prognosis of their veriﬁcation at the Large Hadron Col-
+lider (LHC).
+Model
+Our minimal model consists of the usual particle con-
+tent of the MSSM plus three singlet superﬁelds Nc
+iwith
+L=−1 and two singlet superﬁelds S1,2withL=±2.
+Under the gauged U(1)Xsymmetry of B−xiL, quarks
+have charges 1/3 and leptons have charges −xi. The
+two usual Higgs doublet superﬁelds have charges 0 and
+the Higgs singlets S1,2have charges ∓2xS. The vari-
+ousxiandxSwill be determined by the requirements of
+anomaly cancellation and a realistic neutrino mass ma-
+trix.
+The anomaly-free conditions for the addition of U(1)X
+to the standard SU(3)C×SU(2)L×U(1)Ygauge group
+are easily written down. The [ SU(3)C]2U(1)Xand
+[U(1)X]3anomalies are automatically zero because of
+the vectorial nature of SU(3)CandU(1)X. The
+[gravity]2U(1)Xanomaly also vanishes for the same rea-
+son. The [ U(1)X]2U(1)Yanomaly is zero because the
+sum ofYcharges is zero separately for each family of
+quarksand foreach family ofleptons. The remainingtwo
+conditions, i.e. [ SU(2)L]2U(1)Xand [U(1)Y]2U(1)X, are
+given respectively by
+(3)(3)(1/3)−xe−xµ−xτ= 0, (1)
+(3)(3)[2(1 /6)2−(2/3)2−(−1/3)2](1/3)
++ [2(−1/2)2−(−1)2](−xe−xµ−xτ) = 0.(2)
+Both are satisﬁed if
+xe+xµ+xτ= 3. (3)
+The usual B−Lis recovered for xe=xµ=xτ= 1, and
+B−3Lτ[2] is obtained for xe=xµ= 0 and xτ= 3.2
+AsS1,2acquire vacuum expectation values, U(1)Xis
+broken. ( xe,xµ,xτ) as well as xSwill be chosen in such
+a way that a residual symmetry of B−xiLwill remain
+which is exactly Rparity, and that realistic neutrino
+masses and mixing are obtained via the canonical see-
+saw mechanism. We note that since the Higgs doublets
+do not transform under U(1)XandS1,2do not transform
+underSU(3)C×SU(2)L×U(1)Y, the resulting Zand
+Z′
+Xbosons do not mix. This avoids the stringent con-
+straint from precision electroweak measurements at the
+Zresonance. (See Ref. [7] and references therein.)
+To obtain Rparity (equivalently, matter parity) as a
+totalresidual symmetry from the breaking of B−xiL
+usingS1,2, these new singlet superﬁelds (with L=±2
+andB= 0) should satisfy |xS|= 1/3. Since B= 1/3
+for quarks and L= 1 for leptons, we obtain the usual
+deﬁnition of Rparity for all particles if 3 xe,µ,τare odd
+integers. For a detailed discussion about conditions to
+get aZNout of aU(1) gauge symmetry, see Ref. [8] and
+references therein.
+Flavor-dependent U(1) models have been widely stud-
+ied to address many issues (e.g., see Ref. [9]). Our idea
+of having a particular discrete symmetry out of a ﬂavor-
+dependent U(1) gauge symmetry can be viewed as a use-
+ful guide in constraining such models.
+Neutrino sector
+The general requirements discussed above would still
+allowaninﬁnite numberofpossiblemodels, untilrealistic
+neutrino masses and mixing are considered.
+If allxiare diﬀerent for the three families of leptons,
+the charged lepton mass matrix and the Dirac mass ma-
+trix linking νiwithNc
+jare both constrained to be diag-
+onal. To obtain mixing among the three neutrinos, the
+3×3 Majorana matrix spanning Nc
+jmust have enough
+nonzero entries. However, the only sources of such terms
+areS1,2Nc
+jNc
+kandNc
+jNc
+kifxj+xk= 0. With three dif-
+ferentxe,µ,τand just ±xSto work with, this is clearly
+impossible.
+We now assume that xµ=xτ, then some simple alge-
+bra will show that there are only two solutions (recalling
+thatS1,2haveL=±2):
+(I)xS=−xe=xµ, (4)
+(II)xS=−xµ= (xe+xµ)/2. (5)
+Together with Eq. (3), this means that
+(I)xe,µ,τ= (−3,3,3), xS= 3, (6)
+(II)xe,µ,τ= (9,−3,−3), xS= 3.(7)
+In model (I), the 3 ×3 Majorana mass matrix spanning
+Nc
+jhas all nonzero entries: Nc
+eNc
+µ,τare invariant mass
+terms,Nc
+eNc
+ecomes from /angbracketleftS2/angbracketright, andNc
+µ,τNc
+µ,τcome from/angbracketleftS1/angbracketright. Inmodel(II), the Nc
+eNc
+eentryiszero, butallothers
+arenonzero: Nc
+µ,τNc
+µ,τcome from /angbracketleftS2/angbracketright, andNc
+eNc
+µ,τfrom
+/angbracketleftS1/angbracketright. Both are general enough for obtaining a realistic
+neutrinomassmatrix,withmixingamongallthreelepton
+families.
+Baryon triality
+As discussed above, the requirement of a realistic neu-
+trino mass matrix using only S1,2demands |xS|= 3 in-
+stead of |xS|= 1/3. This means that the totaldiscrete
+symmetry from B−xiLis not just Rparity any more.
+It has been extended to a larger symmetry. Following
+the general arguments in Ref. [8], we ﬁnd that our total
+discrete symmetry is now Z6, which is a direct product
+ofRparity and baryon triality ( Z6=R2×B3). Un-
+der baryon triality ( B3=Z3) [10], baryons transform as
+ω= exp(2πi/3), so that the proton is absolutely stable,
+being the lightest particle with that charge. This result
+came as a pleasant surprise, because it was not our inten-
+tion to construct a model which contains B3. It points
+to a possible deep connection between neutrino mass and
+proton stability.
+In regard to baryon stability, there are other relevant
+anomaly-free U(1) gauge symmetry models [8, 11, 12],
+as well as discrete gauge symmetry models [10, 13, 14].
+Especially, we note that when model (I) is shifted by
+some hypercharge, it can reach the equivalent form of a
+model in Ref. [11].
+e−µ−τnonuniversality
+The salient prediction of our proposal is the existence
+of a new neutral gauge boson Z′
+X. It does not mix with
+the electroweak Zat tree level, but it couples to all
+quarks and leptons in a speciﬁed way. In particular, it
+breakse−µ−τuniversality. Thus it may be important
+as a one-loop eﬀect [4] in the precision measurements of
+Z→ℓ+ℓ−. However, this eﬀect is proportional to x2
+i,
+and its contribution to nonuniversality is zero for model
+(I).Asformodel(II), thepredictionisthatΓ( Z→e+e−)
+should be bigger than Γ( Z→µ+µ−) and Γ(Z→τ+τ−),
+and it is proportional to (81 −9)g2
+X. The present world
+averages are [15]
+Γe= 83.91±0.12 MeV, (8)
+Γµ= 83.99±0.18 MeV, (9)
+Γτ= 84.08±0.22 MeV. (10)
+After adding a kinematical correction of 0.19 MeV to Γ τ,
+we ﬁnd the deviation of Γ efrom the average of Γ µand
+Γτto be bounded at 95% C.L. by
+∆Γe/Γµ,τ<0.002. (11)3
+Letr≡M2
+Z′
+X/M2
+Z, then the one-loopradiativecorrection
+toZ→ℓ+ℓ−fromZ′
+Xexchange in model (II) is given
+by [16]
+∆Γe
+Γµ,τ=(81−9)g2
+X
+8π2F2(r), (12)
+where
+F2(r) =−7
+2−2r−(2r+3)lnr+2(1+r)2×
+/bracketleftbiggπ2
+6−Li2/parenleftbiggr
+1+r/parenrightbigg
+−1
+2ln2/parenleftbiggr
+1+r/parenrightbigg/bracketrightbigg
+.(13)
+In the above, Li 2(x) =−/integraltextx
+0(dt/t)ln(1−t) is the Spence
+function. For r≫1 (i.e.M2
+Z′
+X≫M2
+Z) which will be
+required by Tevatron data in any case (as shown below),
+F2≃r−1[11/9+ (2/3)lnr] and the resulting numerical
+bound is
+g2
+X/M2
+Z′
+X∼<0.05 TeV−2, (14)
+to a good approximation. There is also an overall correc-
+tion to Γ( Z→hadrons) /Γ(Z→leptons), but that eﬀect
+may be absorbed into the value of αSin QCD.
+LEP2 contact interaction
+The agreement of the SM and the LEP2 data provides
+the indirect bounds on the Z′
+Xmass. The strongest one
+for our models (I) and (II), where µandτhave the same
+chargesand ehas the chargeof oppositesign, comes from
+thee+e−→µ+µ−,τ+τ−channel with Λ−
+VV= 16 TeV
+[17]. (See Ref. [18] for some useful discussions.)
+TheZ′
+Xmass is bounded by
+M2
+Z′
+X∼>g2
+X
+4π|xexµ|(Λ−
+VV)2(15)
+for suﬃciently large MZ′compared to the LEP2 energy.
+It results
+MZ′
+X∼>1.4 TeV in model (I) , (16)
+MZ′
+X∼>2.3 TeV in model (II) ,(17)
+forgX= 0.1.
+Phenomenology of Z′
+X
+The direct production of Z′
+Xis possible at hadron col-
+lidersthroughits couplingto quarks. Its decayto leptons
+is then a clear signature. At present, there is a Tevatron
+limit on the cross section σ(p¯p→Z′
+X→e+e−) at a
+center-of-mass energy Ecm= 1.96 TeV, based on an inte-
+grated luminosity of L= 2.5 fb−1[19], and similarly for
+dimuons [20]. To compare against these results, we takeFIG. 1: Tevatron bounds on Z′
+Xmass in models (I) and (II).
+gX= 0.1 for deﬁniteness. We assume Γ Z′
+X= 0.01MZ′
+Xfor model (I) and Γ Z′
+X= 0.04MZ′
+Xfor model (II), which
+are approximately their true values if they only decay
+into particles of the Standard Model (SM), i.e. not their
+superpartners nor the additional singlets.
+For the numerical analysis, we use CompHEP/CalcHEP
+[21, 22] and the parton distribution functions of CTEQ6L
+[23]. Since the Tevatron bounds from dielectron and
+dimuon data are similar for the same coupling, we show
+only the dielectron result. We ﬁnd MZ′
+X∼>830 GeV for
+model (I) and MZ′
+X∼>940 GeV for model (II) as shown
+in Fig. 1. (Since |xµ|<|xe|in model (II), the bound
+from the dimuon data is less stringent.) We note also
+that the e−µ−τnonuniversality constraint of Eq. (14)
+is easily satisﬁed.
+For the LHC discovery reach (with the design energy
+Ecm= 14 TeV) through the dilepton Z′
+Xresonance, we
+use cuts pT>20 GeV, |η|<2.4 (for each lepton) and
+|minv(ℓ+ℓ−)|<3ΓZ′
+X. SM background at the LHC with
+these cuts is negligible, and we just require 10 signal
+eventstoclaim its discoveryat the LHC foraﬁxed ﬂavor.
+Figs. 2(a) and 2(b) show the LHC discovery reach us-
+ing dileptons for models (I) and (II) respectively. From
+the dilepton resonance only, model (I) cannot be dis-
+tinguished from the ﬂavor-independent case of B−L.
+In model (I), Z′
+Xwill be revealed by both e+e−and
+µ+µ−channels at the same luminosity ( L≃1 fb−1
+forMZ′
+X= 1.5 TeV). In model (II), the µ+µ−reso-
+nance will need a luminosity about an order of magni-
+tude larger than that for the e+e−resonance because
+σ(µ+µ−)/σ(e+e−)≃(−3)2/(9)2.
+Since Higgs doublets have zero charges under B−xiL,
+the channels which require nonzero charges such as the
+6-lepton resonance discussed in Ref. [24] will be absent.
+In the presence of Z′
+Xat the TeV scale, a (predomi-
+nantly right-handed) sneutrino as well as the usual neu-
+tralino can be a good LSP dark-matter candidate [25].4
+(a) (b)
+FIG. 2: The LHC discovery reach for (a) model (I) and (b) model (II). The required luminosity is the same for both e+e−
+andµ+µ−resonances in model (I). The required luminosity for the e+e−(solid line) resonance is about an order of magnitude
+smaller than that for the µ+µ−(dashed line) resonance in model (II).
+One-loop charged lepton processes
+There are two sources of lepton ﬂavor violation. One
+comes from explicit interactions linking NcthroughS1,2;
+the other through the mismatch of lepton and slepton
+mass matrices (which is common to all supersymmetric
+models). Since we choose xe/negationslash=xµ=xτ, the latter ap-
+plies only to the µ−τsector, whereas the former applies
+to all leptons, but for one-loop processes such as µ→eγ,
+they are negligible because of the smallness of neutrino
+masses.
+The muon anomalous magnetic moment ( aµ) does not
+violate lepton ﬂavor, so it has a contribution from Z′
+X,
+i.e. [26]
+∆aµ=3g2
+X
+4π2m2
+µ
+M2
+Z′
+X(18)
+for both models (I) and (II). Using the Tevatron bounds
+onMZ′
+XwithgX= 0.1, we ﬁnd this to be at most of
+order 10−11, which is negligible compared to the present
+experimental accuracy. On the other hand, since we are
+considering a supersymmetric model, there are one-loop
+contributions to aµfrom the neutralinos and charginos,
+which may account for the possible deviation in its mea-
+surement at the Brookhaven Alternating Gradient Syn-
+chrotron [27].
+Conclusion
+We have proposed a new U(1) gauge symmetry B−
+xiL, withxe,µ,τ= (−3,3,3) [model (I)] or (9 ,−3,−3)
+[model (II)], in the context of supersymmetry with three
+neutral singlets Nc
+e,µ,τ. The spontaneous breaking of this
+U(1)Xby the addition of singlets S1,2withL=±2 andxS= 3 accomplishes three objectives. (i) The conven-
+tionalRparity survives as an exact discrete symmetry,
+desirable for having the LSP as a good dark-matter can-
+didate. (ii) Realistic neutrino masses and mixing are ob-
+tained. (iii) An exact residual Z3symmetry, i.e. baryon
+trialityB3, emerges which makes the proton absolutely
+stable.
+The neutral gauge boson of this new U(1)Xhas large
+couplings to leptons over quarks: three or nine times
+larger than in the case of B−L. Using present Tevatron
+bounds with gX= 0.1, we ﬁnd MZ′
+Xto be greater than
+830 GeV in model (I), and 940 GeV in model (II). The
+indirect bounds from LEP2are 1 .4 TeV in model (I), and
+2.3TeVin model (II). It shouldbe accessibleat the LHC,
+possibly at a very early stage. To have a background-free
+signal of 10 dilepton events at the LHC, the Z′
+Xwith
+MZ′
+X= 1.5 TeV in model (I) may be discovered for an
+integratedluminosityofonlyabout1fb−1. Inmodel(II),
+because of the ﬂavor-dependent charges, the event rate
+of thee+e−resonance is predicted to be nine times that
+ofµ+µ−.
+This work was supported by U. S. Department of En-
+ergy Grants No. DE-AC02-98CH10886 (HL) and No.
+DE-FG03-94ER40837 (EM).
+[1] S. Weinberg, Phys. Rev. D 26, 287 (1982).
+[2] E. Ma, Phys. Lett. B 433, 74 (1998).
+[3] E. Ma and U. Sarkar, Phys. Lett. B 439, 95 (1998).
+[4] E. Ma and D. P. Roy, Phys. Rev. D 58, 095005 (1998).
+[5] X. J. Bi, X. G. He, E. Ma and J. Zhang, arXiv:0910.0771
+[hep-ph].
+[6] E. Salvioni, A. Strumia, G. Villadoro and F. Zwirner,
+arXiv:0911.1450 [hep-ph].5
+[7] J. Erler, P. Langacker, S. Munir and E. R. Pena, JHEP
+0908, 017 (2009).
+[8] T. Hur, H. S. Lee and C. Luhn, JHEP 0901, 081 (2009).
+[9] P. Langacker and M. Plumacher, Phys. Rev. D 62,
+013006 (2000).
+[10] L.E. IbanezandG. G. Ross, Nucl.Phys.B 368, 3(1992).
+[11] K. S. Babu, I. Gogoladze and K. Wang, Phys. Lett. B
+570, 32 (2003).
+[12] H. S. Lee, Phys. Lett. B 663, 255 (2008).
+[13] K. S. Babu, I. Gogoladze and K. Wang, Nucl. Phys. B
+660, 322 (2003).
+[14] H. K. Dreiner, C. Luhn and M. Thormeier, Phys. Rev. D
+73, 075007 (2006).
+[15] [Particle Data Group] C. Amsler et al., Phys. Lett. B
+667, 1 (2008).
+[16] C. D. Carone and H. Murayama, Phys. Rev. Lett. 74,
+3122 (1995); Phys. Rev. D 52, 484 (1995).
+[17] [The LEP Collaborations ALEPH, DELPHI, L3,
+OPAL, the LEP Electroweak Working Group,
+the SLD Electroweak and Heavy Flavour Groups].
+arXiv:hep-ex/0312023.[18] M. S. Carena, A. Daleo, B. A. Dobrescu and
+T. M. P. Tait, Phys. Rev. D 70, 093009 (2004).
+[19] [CDF Collaboration] T. Aaltonen et al., Phys. Rev. Lett.
+102, 031801 (2009).
+[20] [CDF Collaboration] T. Aaltonen et al., Phys. Rev. Lett.
+102, 091805 (2009).
+[21] A. Pukhov et al., arXiv:hep-ph/9908288.
+[22] A. Pukhov, arXiv:hep-ph/0412191.
+[23] J. Pumplin, D. R. Stump, J. Huston, H. L. Lai,
+P. M. Nadolsky and W. K. Tung, JHEP 0207, 012
+(2002).
+[24] V. Barger, P. Langacker and H. S. Lee, Phys. Rev. Lett.
+103, 251802 (2009).
+[25] H. S. Lee, K. T. Matchev and S. Nasri, Phys. Rev. D 76,
+041302 (2007).
+[26] F. Jegerlehner and A. Nyﬀeler, Phys. Rept. 477, 1
+(2009).
+[27] [Muon g-2 Collaboration] G. W. Bennett et al., Phys.
+Rev. Lett. 92, 161802 (2004); Phys. Rev. D 73, 072003
+(2006).

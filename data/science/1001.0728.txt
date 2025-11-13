@@ -1,0 +1,283 @@
+arXiv:1001.0728v1  [hep-ph]  5 Jan 2010NewextendedCrewther-typerelation
+A.L.Kataev∗†
+InstituteforNucleaerResearchof theAcademyofScienceso fRussia,117312,Moscow,Russia
+E-mail:kataev@ms2.inr.ac.ru
+S.V.Mikhailov
+BogoliubovLaboratoryofTheoreticalPhysics,JINR,14198 0,Dubna,Russia
+E-mail:mikhs@theor.jinr.ru
+We propose a conjecture about the detailed structure of the c onformal symmetry breaking term
+in the generalized Crewther relation. We conclude that this conjecture leads to new relations
+between the QCD expansioncoefﬁcientsof the Adler D-functi onand the polarizedBjorkensum
+ruleBjp.
+RADCOR 2009- 9thInternationalSymposiumonRadiativeCorr ections(ApplicationsofQuantumField
+Theoryto Phenomenology),
+October25-302009
+Ascona,Switzerland
+∗Speaker.
+†SecondpartofthetalkpresentedatatRADCOR2009-slightly improvedversionofpreprintCERN-PH-TH/2009-
+203, by A.L. Kataev and S.V. Mikhailov, issued October 23, 20 09, 6 pages The ﬁrst part, based on the work done in
+collaboratrion withV.T.Kim(PNPI,Gatchina) willbe submi ttedelswhere
+c/circlecopyrtCopyrightownedbytheauthor(s)underthetermsoftheCreat ive CommonsAttribution-NonCommercial-ShareAlikeLicen ce. http://pos.sissa.it/New extendedCrewther-typerelation A.L.Kataev
+1. Introduction
+The concept of conformal symmetry is lying below deﬁnite mod ern theoretical and phe-
+nomenological investigations in various massless quantum ﬁeld models (for the most recent re-
+views see [1, 2]). Among them are quantum electrodynamics (Q ED)and quantum chromodynam-
+ics (QCD).Moreover, even before the formulation of QCDthe s tudy of axial-vector-vector (AVV)
+triangle amplitude intheconformal symmetrylimitreveale ddeﬁnitefundamental consequences of
+this symmetry [3], [4]. In particular the simple relation be tween basic characteristics of two main
+inclusiveprocesses, namelybetweenﬂavour non-singlet pa rtsoftheAdlerD-function DNS
+A(as)and
+thenon-singlet(NS)coefﬁcientfunction K(as),whichenterintodeﬁnitionsoftheBjorkensumrule
+SBjpof thepolarized lepton-hadron scattering andinto theNSco ntribution oftheGross-Llewellyn
+Smith sum rule SNS
+GLSfor the neutrino-nucleon scattering was found. It can be wri tten down in the
+following form
+D(as)·K(as)=1 (1.1)
+whereas=αs/(4π)andαsistheQCDcoupling. Theentries intheLHSof thisbasic equat ion are
+deﬁned as
+DNS
+A=/parenleftBigg
+Nc∑
+fQ2
+f/parenrightBigg
+·D(as);SBjp=/parenleftbigg1
+6gA
+gV/parenrightbigg
+·K(as)SNS
+GLS=3·K(as). (1.2)
+However,itisknownthatintherenormalized quantumﬁeldmo delsconformal symmetryisbroken
+by the procedure of renormalizations of the coupling consta nt and the trace of energy-momentum
+tensor. Intheﬁrstcasetheeffectofconformalsymmetrybre akingisdescribedbytherenormalization-
+groupβ-function [5],whileinthesecond caseitleadstotheappear ance of theconformal anomaly
+which is proportional to the factor β(as)/as[6, 7, 8, 9, 10]. Careful studies of the structure of
+analytical results of NNLO perturbative QCD calculations o f the D-function [11, 12] and of the
+Bjorken polarized sumrule[14],written downthrough Casim ircolor factors CF,CAoftheSUc(N)
+gaugegroupandtheﬂavourfactor TFNF,allowedtorevealthatatthe a3
+s-levelthe“Crewtherunity"
+is receiving additional conformal-symmetry breaking (CSB )contribution, [15],
+D·K=1+β(as)
+as[power series in as] (1.3)
+which is proportional to the 2-loop approximation of the β-function. The application of the
+operator-product expansion method to the AVV diagram in the momentum space [16] gave ﬁrst
+indications, that the factor β(as)/asmay be really factorized in the RHS of Eq.(1.3) in all orders
+of perturbation theory. This property was proved later on in the coordinate space [17], [18]. The
+subsequent theoretical andphenomenological studiesofth econsequences ofthediscoveredinRef.
+[15] modiﬁcation of the original Crewther relation weremad e inRefs. [19] and Ref.[20].
+Inthisworkweareproposingnewextensionofthegeneralize d CrewtherrelationofRefs.[15],
+[17],specifying thestructure ofthepower seriesin asintheRHSof Eq.(1.3). Usingthemethodof
+the“detailed β-expansion”[21]wearepredictingsomerelationsbetween α4
+scontributionstothe D
+andK-functions, additionaltothose,whichfollowfromtheorig inalCrewtherrelationinQED[22].
+The letter ones were already checked by the analytical calcu lations of the INR-Karlsruhe-SINP
+collaboration [23]. We also emphasize the importance of kno wledge of the complete analytical
+2New extendedCrewther-typerelation A.L.Kataev
+a4
+sresults of DandK-functions for ﬁxing some still unknown additional coefﬁci ents in our new
+relations,andattheﬁrstlevelinthenewextendedCrewther -typerelation. Moredetailedtheoretical
+explanations are beyond the scope of this paper.
+2. New extended relation
+Inthissection wepropose thefollowing new“conjectured" e xtended form of theCSBtermin
+the RHSof Eq.(1.3):
+D(as)·K(as)=1+∑
+n/parenleftbiggβ(as)
+as/parenrightbiggn
+Pn(as), (2.1)
+where
+Pn(x):/braceleftBigg
+Pn(x)=x PnCF+O(x2)
+polynomial Pn(x)does not include the coefﬁcients of β-function
+The coefﬁcient functions D(as)andK(as)are taken in the MS-scheme at Q2=µ2, whereµis the
+renormalization scale of the MS-scheme and
+µ2d
+dµ2as=β(as)=−/parenleftbig
+b0a2
+s+b1a3
+s+b2a4
+s+.../parenrightbig
+(2.2)
+Atthelevelof order O(a3
+s)-corrections Eq.(2.1)wasobtained byrequiring theindepe ndence ofthe
+secondtermofthepowerseriesinthebracketsoftheRHSofEq .(1.3)fromtheﬁrstcoefﬁcient b0of
+the QCD β-function, which both contain TFNF-terms given in Ref.[15]. The concrete expressions
+for the polynomials Pn(as)have thefollowing form:
+P1(as) =−as3CF/braceleftbigg/parenleftbigg7
+2−4ζ3/parenrightbigg
++as/bracketleftbigg/parenleftbigg47
+9−16
+3ζ3/parenrightbigg
+CA−/parenleftbigg397
+18+136
+3ζ3−80ζ5/parenrightbigg
+CF/bracketrightbigg
++O(a2
+s)/bracerightbigg
+(2.3)
+P2(as) =as3CF/parenleftbigg163
+6−76
+3ζ3/parenrightbigg
++O(a2
+s) (2.4)
+P3(as) =O(as) (2.5)
+The results were conﬁrmed with the help “detailed β-function expansion” formalism of Ref.[21].
+Thecalculations oftheorder O(a4
+s)-corrections to DandK-functions should giveusthepossibility
+to ﬁx the order O(a3
+s),O(a2
+s)andO(as)- coefﬁcients Eqs.(2.3-2.5) respectively. We expect that
+they will have the following structure
+P(3)
+1(as) =a3
+sCF/bracketleftbigg
+C2
+Fas1+CFCAas2+C2
+Aas3/bracketrightbigg
+(2.6)
+P(2)
+2(as) =a2
+sCF/bracketleftbigg
+CFas4+CAas5/bracketrightbigg
+(2.7)
+P(1)
+3(as) =asCFas6 (2.8)
+where as ishould contain rational numbers and the terms, proportiona l toζ3,ζ5andζ7-functions,
+observed inthe analytical calculations of order O(a4
+s)-correction tothe Adler D-function [24].
+3New extendedCrewther-typerelation A.L.Kataev
+3. Relations between D andK coefﬁcients at a4
+s
+Let us specify our expectations from the analytical a4
+scalculations of DandKfunctions in a
+bit different form. Wewill deﬁne their perturbative as
+D=1+∑
+n(as)ndn,K=1+∑
+l(as)lkl. (3.1)
+Following the analysis of [21], we consider an expansion of t he perturbative coefﬁcients dnin a
+power series in b0,b1,b2,..., as
+d2=b0d2[1]+d2[0], (3.2)
+d3=b2
+0d3[2,0]+b1d3[0,1]+b0d3[1,0]+d3[0,0], (3.3)
+as opposed tothe standard expansion inapower series in NF,
+d3=N2
+Fd3(2)+N1
+Fd3(1)+N0
+Fd3(0).
+Heretheﬁrstargument n0ofthecoefﬁcients dn[n0,n1,...]corresponds tothepower of b0,whereas
+the second one n1corresponds to the power of b1, etc. The coefﬁcient dn[0,0,...,0]represents
+“genuine” corrections with powers ni=0 for all the coefﬁcients bi. If all the arguments of the
+coefﬁcient dn[...,m,0,...,0]to the right of the index mare equal to zero, then, for the sake of
+a simpliﬁed notation, we will omit these arguments and write insteaddn[...,m]. Thus one can
+write-down the analogous representation for thenext coefﬁ cientd4in thefollowing form:
+d4=b3
+0d4[3]+b1b0d4[1,1]+b2d4[0,0,1]+b2
+0d4[2]+b1d4[0,1]+b0d4[1]+d4[0].(3.4)
+The same ordering in the β-function elements applies for all higher coefﬁcients dnand forklas
+well. Thestandard naive non-abelianization (NNA)approxi mation estimates dnfrom theﬁrst term
+intheequationsabove,namely, dn≃bn−1
+0dn[n−1](seeRefs.[25,26]). Notethattheconsiderations
+of Ref.[25] are taking into account the terms in the coefﬁcie ntsdn, which are proportional to bi
+0
+with 1≤i≤(n−1), but the concrete expansions in higher order coefﬁcients of β-function with
+bi(i≥1)arenot included inthis renormalon-inspired approach.
+The conformal limit in (2.1) provides the relation between u nknown yet elements of 5-loop
+termsd4,k4, and already known parts of the 4-loop results. Indeed, Eq.( 1.1) is satisﬁed at β=0,
+whenallthecoefﬁcientshavegenuinecontentonly, dn(kn)=dn[0](kn[0]),thatprovidestheevident
+relation between these elements at any loops
+kn[0]+dn[0]+n−1
+∑
+l=1dl[0]kn−l[0]=0. (3.5)
+In particular, this gives a relation of the results of 5-loop calculations k4[0],d4[0]in the LHS of
+Eq.(3.5)
+k4[0]+d4[0]=2d1d3[0]−3d2
+1d2[0]+(d2[0])2+d4
+1, (3.6)
+and the expressions for di[0]up to4-loop level in itsRHS.Theexplicit form of CFandCA- depen-
+dence of the coefﬁcients d2[0],d3[0], which enter into Eq.(3.6), is derived in Ref. [21]. Note, th at
+4New extendedCrewther-typerelation A.L.Kataev
+the terms d4[0]andk4[0]should contain the dependence on two Casimir operators CFandCA. In
+viewofthisthedirectcheckofEq.(3.6)isstrongerthanalr eadyperformedinRef.[23]conﬁrmation
+of the study of the validity of its the projection onto the max imum power of CF, i.e.C4
+F, suggested
+in [22] as the check of the containing ζ3-term results for the QED part of d4-term, available from
+publication in Ref.[27]
+Using the conjecture of Eq.(2.1) one may predict others rela tions between the of d4(dn)and
+k4(kn)elements. For example, in virtue of the βfactorization, one can put for the coefﬁcient in
+front ofa2
+sb0,a3
+sb1,a4
+sb2,...,(for the term (β(as)/as)1in (2.1)) the chain of equations
+−P1=k2[1]+d2[1] =k3[0,1]+d3[0,1]=k4[0,0,1]+d4[0,0,1] =...
+=kn[0,0,...,1]+dn[0,0,...,1]=3CF/parenleftbigg7
+2−4ζ3/parenrightbigg
+,(3.7)
+that ﬁxestheterm P1in theP1. Theterm at a2
+sinEq.(2.3) generates another relation at a4
+slevel
+k4[0,1]+d4[0,1]=k3[1]+d3[1]+d1(k2[1]−k3[0,1]+d3[0,1]−d2[1]), (3.8)
+wheretheRHScanbeﬁxedafterapplyingthemethodof[21]tot hecoefﬁcientsofthe SBjpaswell.
+However, to use this equation in practise weshould know the a nalytical 5-loop results for the DNS
+A
+andSBjp(for later presentation see [28]).
+Acknowledgments
+This work was started at Dubna in August of 2009, when both of u s were participating at Bo-
+golyubov Conference on Quantum Field Theory and Elementary Particle Physics. We are grateful
+to K.G. Chetyrkin for discussions during this Conference. W e also wish to thank V.M.Braun and
+D.J. Broadhurst for useful communications prior and after t his event. One of us (ALK) is grateful
+to his colleagues for creating rather stimulating atmosphe re during his stay at Th Unit of CERN
+up to 24 October, 2009 and to the Members of Organizing Commit tee of RADCOR-2009 for the
+invitation, hospitality andﬁnancial support duringhisst ayatthisimportant Symposium. Thework
+of both of us was supported in part by the RFBR grant No. 08-01- 00686, while the work of ALK
+in part by thegrant of President of RFNS-1616.2008.2 aswell .
+4. Noteadded
+AfterourworkandtheoneofRef.[28]weresubsequentlypres entedandthevalidityofthegen-
+eralized Crewther relation, written down in the form of Eq.( 1.3) was demonstrated at the α4
+s-level
+[28], we checked that proposed by us new representation for t he conformal symmetry breaking
+term, written down in the form of Eq.(2.1), is valid at the α4
+s-level. The explicit analytical expres-
+sions of the coefﬁcients in Eqs.(2.6-2.8) were ﬁxed directl y from the analytical α4
+s-expression for
+Eq.(1.3),whichweretakenfromtheresultsofRef.[28]only . Itshouldbenotedthatafterthetalkof
+Ref.[28]wasreportedwelearnedthattheseresultswerepre sentedbeforeRADCOR2009aswellin
+thetalkofRef.[29]. Unfortunately, wewereunabletocheck ournewguesses prior RADCOR2009
+Workshop in view of the delay of the kind information by Prof. K.G.Chetyrkin about the previous
+report. Thus, considering this fact as the “closed-box” che ck, we are grateful to him for the real
+interest inour work.
+5New extendedCrewther-typerelation A.L.Kataev
+References
+[1] O.Aharony,S.S. Gubser,J. M.Maldacena,H.OoguriandY. Oz,Phys.Rept. 323(2000)183
+[2] V. M.Braun,G. P.KorchemskyandD.Mueller,Prog.Part.N ucl.Phys. 51(2003)311
+[3] R. J. Crewther,Phys.Rev.Lett. 28(1972)1421.
+[4] S. L.Adler,C. G.Callan, D.J. GrossandR. Jackiw,Phys.R ev.D6(1972)2982.
+[5] N.N.BogoliubovandD.V. Shirkov,Introductiontothe Th eoryofQuantizedFields,IV edition
+(1984),v10inN. N.Bogoliubov,CollectionofScientiﬁcWor ksin12volumes,Moscow,Nauka,
+2008,ed.A.D.Sukhanov.
+[6] M.S. ChanowitzandJ. R. Ellis,Phys.Lett.B 40(1972)397.
+[7] N.K. Nielsen,Nucl.Phys.B 120(1977)212.
+[8] S. L.Adler,J. C. CollinsandA. Duncan,Phys.Rev.D 15(1977)1712.
+[9] J. C. Collins,A. DuncanandS. D.Joglekar,Phys.Rev.D 16(1977)438.
+[10] P.Minkowski,BernePrint-76-0813(1976)
+[11] S. G.Gorishny,A.L. KataevandS. A.Larin,Phys.Lett.B 259(1991)144.
+[12] L.R. SurguladzeandM.A.Samuel,Phys.Rev.Lett. 66(1991)560[Erratum-ibid. 66(1991)2416].
+[13] K.G. Chetyrkin,Phys.Lett.B 391(1997)402
+[14] S. A.LarinandJ. A. M.Vermaseren,Phys.Lett.B 259(1991)345.
+[15] D.J. BroadhurstandA.L.Kataev,Phys.Lett.B 315(1993)179
+[16] G.T. GabadadzeandA.L.Kataev,JETPLett. 61(1995)448[PismaZh.Eksp.Teor.Fiz. 61(1995)
+439]
+[17] R. J. Crewther,Phys.Lett. B 397(1997)137
+[18] D.Muller(1996)-privatecommunicationto A.L.K.(unp ublished)
+[19] S. J.Brodsky,G.T.Gabadadze,A.L.KataevandH.J. Lu,P hys.Lett. B 372(1996)133
+[arXiv:hep-ph/9512367].
+[20] J. Rathsman,Phys.Rev.D 54(1996)3420
+[21] S. V.Mikhailov,JHEP 0706(2007)009[arXiv:hep-ph/0411397].
+[22] A.L. Kataev,Phys.Lett. B 668(2008)350
+[23] P.A. Baikov,K.G.ChetyrkinandJ.H. Kuhn,
+TalkpresentedbyK.G.Chetrkinat BogolyubovConference,D ubna,August,2009
+[24] P.A. Baikov,K.G. ChetyrkinandJ. H.Kuhn,Phys.Rev.Le tt.101(2008)012002
+[25] C. N.Lovett-TurnerandC. J. Maxwell,Nucl.Phys.B 452(1995)188
+[26] D.J. BroadhurstandA.L.Kataev,Phys.Lett.B 544(2002)154
+[27] P.A. Baikov,K.G. ChetyrkinandJ. H.Kuhn,PoS RADCOR2007 (2007)023
+[28] P.A.Baikov,K.G.ChetyrkinandJ.H.Kuhn,talkpresent edat 9thInternationalSymposiumon
+RadiativeCorrections(RADCOR2009),30October2009,Asco na,Switzerland.
+[29] P.A.Baikov,K.G.ChetyrkinandJ.H.Kuhn,talkpresent edat theConference“QCD: TheModern
+View ofthe StrongInteractions”5-9October2009,Berlin,G ermany.
+6

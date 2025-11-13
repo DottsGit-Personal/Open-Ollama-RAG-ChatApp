@@ -1,0 +1,270 @@
+arXiv:1001.0374v1  [hep-ex]  3 Jan 2010IHEP 2008-27
+OEF
+Observation of the destructive interference in
+the radiative kaon decay K−→µ−¯νγ
+O.G. Tchikilev, S.A. Akimenko, G.I. Britvich, A.P. Filin,
+A.S. Konstantinov, I.Y. Korolkov, V.M. Leontiev, V.F. Obra ztsov,
+V.A. Polyakov, V.I. Romanovsky, V.K. Semenov, V.A. Uvarov,
+O.P.Yushchenko
+Institute for High Energy Physics, Protvino, Russia
+V.N. Bolotov, V.A. Duk, A.I. Makarov, A.A. Khudiakov, V.P. N ovikov,
+A.Yu. Polyarush
+Institute for Nuclear Research, Moscow, RussiaAbstract
+Using data collected with the “ISTRA+” spectrometer at U70 p roton
+synchrotron of IHEP, we report the ﬁrst measurement of the de structive
+interference in the radiative kaon decay K−→µ−νγ. We ﬁnd the diﬀerence of
+the vector and axial form factors FV−FA= 0.126±0.027(stat)±0.043(syst).
+The measured value is two standard deviations above the O(p4) ChPT prediction
+equal to 0.055. Inclusion of exotic tensor interaction give sFV−FA= 0.144±
+0.044(stat)±0.035(syst)andFT=−0.0079±0.0113(stat)±0.0073(syst), i.e.
+−0.03< FT<0.01at90%CL, consistent both with zero and with recent
+theoretical prediction equal to |FT|= 0.022.
+1 Introduction
+The decay K−→µ−νγproceeds via two distinct mechanisms: the internal
+Bremsstrahlung (IB) with the photon emitted by the kaon or th e muon, and
+the structure-dependent(SD) decay involving emission of t he photon from
+intermediate states. SD is sensitive to the electroweak str ucture of the kaon
+and allows for good test of theories describing hadron inter actions and decays,
+like Chiral Perturbation Theory (ChPT)[1, 2]. This decay is also a good place
+for searches for possible tensor interactions, see theoret ical [3, 4, 5, 6, 7] and
+experimental [8, 9, 10, 11] papers, devoted mainly to the π→eνγdecay.
+The diﬀerential probability of the decay can be written in te rms ofx=2Eγ
+MK
+andy=2Eµ
+MK(whereMKis the kaon mass and EγandEµare the photon
+and muon energies in the kaon rest frame). In the most general case, which
+includes hypothetical tensor term it reads:
+dΓ
+dxdy=AIBfIB(x,y)+ASD[(FV+FA)2fSD+(x,y)+(FV−FA)2fSD−(x,y)]
+−AINT[(FV+FA)fINT+(x,y)+(FV−FA)fINT−(x,y)]+ATF2
+TfT(x,y)
+−AIBTFTfIBT(x,y)−ASDTFT(FV−FA)fSDT(x,y).
+fIB(x,y) = [1−y+r
+x2(x+y−1−r)][x2+2(1−x)(1−r)−2xr(1−r)
+x+y−1−r],(1)
+fSD+(x,y) = [x+y−1−r][(x+y−1)(1−x)−r], (2)
+1fSD−(x,y) = [1−y+r][(1−x)(1−y)+r], (3)
+fINT+(x,y) = [1−y+r
+x(x+y−1−r)][(1−x)(1−x−y)+r], (4)
+fINT−(x,y) = [1−y+r
+x(x+y−1−r)][x2−(1−x)(1−x−y)−r],(5)
+fT(x,y) = (x+y−1−r)(1+r−y) (6)
+fIBT= (1+r−x+y−1−r
+x−rx
+x+y−1−r) (7)
+fSDT=x(1+r−y) (8)
+wherer= (Mµ
+MK)2withMµbeing the muon mass and
+ASD= ΓKµ2α
+8π1
+r(1−r)2[MK
+FK]2, (9)
+AIB= 4r(FK
+MK)2ASD,AINT= 4r(FK
+MK)ASD,AT= 4ASD,ASDT= 4√rASD
+andAIBT= 8√r(FK
+MK)ASD.
+In these formulas FVandFAare the vector and axial form factors, FT
+is the tensor form factor. We use the prescription [3, 16] for the tensor
+interaction. αis the ﬁne structure constant, F Kis the charged kaon decay
+constant ( 155.5±0.2±0.8±0.2MeV [13], and ΓKµ2is the width of the
+Kµ2decay. As in the paper[19] a minus sign precedes the interfer ence terms,
+thus changing the sign of the form factors. Without this chan ge in sign the
+formulas coincide with the ones given in [3, 16]. SD+and SD−refer to the
+terms with diﬀerent photon polarizations and do not mutuall y interfere. Their
+interference with IB leads to the terms labeled INT+and INT−. The term
+SDT refers to SD−T interference, the interference with SD+is possible only
+in rather exotic models [4, 5, 6]. The interference between t he tensor and
+inner bremsstrahlung amplitudes is labeled as IBT.
+The x vs y plots for diﬀerent terms are illustrated in Figs.1 a nd 2. The
+quadrangle area in these ﬁgures is restricted by the conditi onxb< x <
+xb+ 0.1for theyinterval 0.49/emdash.cyr1.0 , where xb= 1.0−0.5(y+√y2−4r)
+is the border of the Dalitz plot. This area, characterized by considerable
+contribution from INT−,SD−, IBT and SDT terms, and favourable background
+conditions is used in our analysis.
+Generally form factors can depend on q2= (pK−pγ)2=M2
+K(1−x). In
+our analysis we assume either constant form factors or the ph enomenological
+2dependence for the vector and axial form factors as in [19]: FV(q2) =FV(0)/(1−
+q2/M2
+V)andFA(q2) =FA(0)/(1−q2/M2
+A)withMV= 0.870GeV and MA=
+1.270GeV. The theoretical situation with q2dependence of the form factors
+is controversial. For O(p4)ChPT calculations [1] there is no q2dependence,
+O(p6)ChPT calculations [17, 18] predict nearly linear dependenc e, similar
+to the phenomenological one. At the same time calculations [ 17, 18] in the
+framework of the light-front quark model(LFQM) give quite d iﬀerent dependence
+with form factors going to zero with q2increase.
+We assume also the q2independence of the tensor form factor FT.
+The absolute value of the sum of the vector and axial form fact ors is known
+with high precision: |FV+FA|= 0.155±0.008[19], whereas the diﬀerence
+FV−FAis still poorly known. The latest measurent [19] gives for FV−FA
+only the 90% conﬁdence level: −0.04< FV−FA<0.24, whereas the O(p4)
+ChPT prediction is equal to 0.055 [1, 2].
+The situation with the tensor contribution is controversia l. The measurements
+have been done mainly for pion decays[8, 9, 10, 11], The obser vation of
+the ISTRA experiment[8] was conﬁrmed in the preliminary res ult by the
+PIBETA Collaboration[9, 10] having statistically signiﬁc ant deviation from
+the standard model without tensor term. Latest PIBETA data[ 11] have however
+eliminated the evidence for the tensor term and give the limi t:−0.00052<
+FT<0.0004at the 90% CL. The searches for tensor terms are done also in
+the studies of the angular distributions in the Gamow-Telle rβdecays of the
+spin polarized atoms, see for example [15] and the reference s therein. These
+studies are still less restrictive than πe2γdata.
+It is of interest to note that in some theoretical models [16] FTfor kaon
+decay is larger by a factor of 1/tan(θC)∼4.4as compared with pion decay.
+HereθCis the Cabibbo angle.
+2 Experimental setup and event selection
+The experiment is performed at the IHEP 70 GeV proton synchro tron U70.
+The ISTRA+ spectrometer has been described in detail in pape rs onKe3
+[20, 21], Kµ3[22, 23] and π−π◦π◦decays [24]. Here we recall brieﬂy the
+characteristics relevant to our analysis. The ISTRA+ setup is located in
+the negative unseparated secondary beam line 4A of the U70. T he beam
+momentum is ∼25GeV/c with ∆p/p∼1.5%. The admixture of K−in the
+beam is∼3%, the beam intensity is ∼3·106per 1.9 sec U70 spill.
+3Figure 1: Dalitz plots for IB, SD+, SD−and INT−contributions. The vertical
+scale is logarithmic. The quadrangle area shows the region s tudied.
+4Figure 2: The same as in Fig.1 for INT+, T, IBT and SD−T terms.
+5During the physics run in November-December 2001 350 millio n trigger
+events were collected with high beam intensity. This inform ation is complemented
+by 124 M Monte Carlo (MC) events generated using Geant3 [25] f or the
+dominant K−decay modes, 100 M of them are the mixture of the dominant
+decay modes with the branchings exceeding 1 % and 24 M MC event s are
+the radiative Kµ2decays.
+Some information on the data processing and reconstruction procedures
+is given in [20, 21, 22, 23, 24], here we brieﬂy mention the det ails relevant
+for present analysis.
+The muon identiﬁcation (see [22, 23]) is based on the informa tion from
+the electromagnetic calorimeter SP 1and hadron calorimeter HC. The energy
+deposition in the SP 1is required to be compatible with the MIP signal in
+order to suppress charged pions and electrons. The sum of the signals in the
+HC cells associated with charged track is required to be comp atible with the
+MIP signal. The muon selection is further enhanced by the req uirement that
+the ratio r3of the HC energy in last three layers to the total HC energy
+exceeds 5 %. The used cut values are the same as in [23].
+Events with one reconstructed charged track and one reconst ructed shower
+in the calorimeter SP 1are selected.
+A set of cuts is developed to suppress various backgrounds an d/or to do
+data cleaning:
+0) We select events with good charged track having two recons tucted
+(x−zandy−z) projections and the number of hits in the matrix hodoscope
+MH below 3.
+1) Events with the reconstructed vertex inside the interval 400< z <
+1600cm are selected.
+2) The measured missing energy Emis=Ebeam−Eµ−Eγis required to
+be above zero.
+3) The events with missing momentum pointing to the SP 1working
+aperture are selected in order to suppress π−π◦background ( r >10cm,
+hereris the distance between the impact point of the missing momen tum
+and the SP 1center in the SP 1transverse plane).
+4) We require also the absence of the signal above the thresho ld in the
+calorimeter SP 2and the guard veto system GS.
+5) In order to suppress the remaining K π2contribution at yaround 0.8 we
+use the cut cos(φ(µγ))>−0.95whereφ(µγ)is the angle between transverse
+momenta of the muon and the photon.
+We look for the signal in the distributions over the eﬀective mass M(µ−γν),
+6whereνfour-momentum is calculated using the measured missing mom entum
+and assuming m ν= 0. Eﬀective mass spectra for the quadrangular region in
+Figs. 1 and 2 are shown in Figs. 3,4 and 5 for y-interval 0.49/emdash.cyr1.00 with the
+stepδy= 0.03.
+The eﬀective mass spectra have been parametrized by the sum o f the
+signal and of the background. The signal form have been found from the
+signal Monte Carlo events parametrized by the sum of two Gaus sians. The
+background have been found using the histogram smoothing of the MC
+background mass spectra by the HQUAD routine from the HBOOK p ackage [26].
+This background does not ideally describe the real data, esp ecially at low
+eﬀective masses. This discrepance has been taken into accou nt by addition
+of the term
+(P(4)+P(5)∗M)∗exp(−P(6)∗M) (10)
+to the MC background. It should be noted that the contributio n of this term
+in the signal regionis rather small.
+First parameter of the ﬁt gives the number of events in the kao n peak,
+second – the position of the peak, third – normalization of th e MC background.
+At small ythe signal is rather small, at large y, especially in the IB
+region, it dominates over the background. The peak at the eﬀe ctive mass
+0.43–0.45 GeV, seen in the histogram o) is the reﬂection of th e remaining
+Kπ2background.
+The resulting event distribution in the interval 0.49< y <1.00have been
+parametrized by function constructed using Phase Space sig nal MC events,
+weighted with corresponding terms (1)-(8) calculated usin g “true” MC xand
+yvalues in the corresponding δyintervals. The results of the ﬁt without
+tensor component are shown in Fig.6. Here the ﬁrst parameter isFV+FA
+ﬁxed at the value 0.155 taken from [19], the second parameter isFV−FA,
+the third parameter is the tensor form factor and the fourth p arameter is
+the normalization factor. In fact, the ﬁt results are insens itive to the value
+FV+FAsince the SD+and INT+contributions are negligible, see Fig.6.
+The ﬁt is not perfect, but satisfactory, χ2/NDF= 34.11/(17−2)with
+around three sigma deviation from the expected χ2andFV−FA= 0.126±
+0.027.
+Several sources of the systematic uncertainty have been stu died. The
+uncertainty given by poor knowledge of the background shape was obtained
+in two ways. First, by rescaling of the errors in the eﬀective mass distributions
+in order to have χ2equal to one in each bin and reﬁtting then. Second, by
+7Figure 3: Eﬀective mass m (µ−νγ) spectra for the y-interval 0.49/emdash.cyr0.67 with
+the step δy= 0.03.
+8Figure 4: Eﬀective mass m (µ−νγ)spectra for the y-interval 0.67/emdash.cyr0.85 with
+the step δy= 0.03.
+9Figure 5: Eﬀective mass m (µ−νγ)spectra for the y-interval 0.85-1.00 with
+the step δy= 0.03.
+10Figure 6: Results of ﬁt of the event distribution with FT= 0.
+11using polynomial parametrization instead of the form (10). First method
+leads to the deviation in the FV−FAequal to 0.0104, second /emdash.cyr to the
+0.0086, the maximum of these two values was used as the contri bution in the
+systematic uncertainty. The possible contribution from th ezvertex position
+was obtained using increased zinterval with maximum zequal to 1850 cm.
+This uncertainty is equal to 0.0329. The variation in the muo n selection
+criteria gives the value equal to 0.0167. And the ﬁt in the diﬀ erentyintervals
+gives the deviation equal to 0.0191. Adding the individual e rrors in quadrature
+we ﬁnd a total systematic error of 0.0428.
+We have tried also the ﬁt with non-zero tensor form factor. Th eχ2/NDF=
+31.97/(17−3),FV−FA= 0.144±0.044±0.035andFT=−0.0079±0.011±
+0.007.
+The ﬁt with constant vector and axial form factors gives: χ2/NDF=
+33.4/(17−2),FV−FA= 0.146±0.028±0.046withFT= 0andχ2/NDF=
+31.29/(17−3),FV−FA= 0.136±0.060±0.045andFT= 0.006±0.035±0.007.
+3 Conclusions
+Our conclusions are as follows: The study of the radiative ka on decay K−
+µ2γin
+a new region where SD−and INT−terms have maximum gives the value FV−
+FA= 0.126±0.027(stat)±0.043(syst). This value is 1.4 standard deviations
+aboveO(p4)ChPT prediction, equal to 0.055, and probably indicates the
+need for higher order calculations or for more elaborate ana lysis of the q2
+dependence of the form factors.
+The inclusion of the tensor component gives: FV−FA= 0.144±0.044±
+0.035. andFT=−0.0079±0.011±0.007, i.e.−0.03< FT<0.01at 90%CL.
+The work is supported in part by the RFBR grant N07-02-00957( IHEP
+group).
+12References
+[1] J. Bijnens, G. Ecker and J. Gasser, Nucl.Phys. B396 (1993 ) 81.
+[2] see J. Bijnens, G. Ecker and J. Gasser in the “The DAFNE phy sics
+handbook”, vol.I, Frascati, 1992.
+[3] E. Gabrielli, Phys.Lett. B301 (1993) 409.
+[4] M.V. Chizhov, Mod.Phys.Lett. A8 (1993) 2753.
+[5] M.V. Chizhov, Phys.Lett. B381 (1996) 359.
+[6] M.V. Chizhov, Phys.Part.Nucl.Lett. 2 (2005) 193.
+[7] P. Herczeq, Phys.Rev. D45 (1994) 247.
+[8] V.N. Bolotov et al., Phys.Lett. B243 (1990) 308.
+[9] D. Pocanic et al., Phys.Rev.Lett. 93 (2004) 181803.
+[10] E. Frlez et al., Phys.Rev.Lett. 93 (2004) 181804.
+[11] M. Bychkov et al., Phys.Rev.Lett. 103 (2009) 051802.
+[12] C. Amsler et al., Particle Data Group, Phys.Lett. B667 ( 2008) 1.
+[13] J. Rosner and S. Stone, Decay constants of charged pseud oscalar mesons,
+in [12].
+[14] W. Bertl, Form factors for radiative pion and kaon decay s, in [12]
+[15] J.R.A.Pitcairn et al., Phys.Rev. C79 (2009) 015501.
+[16] E. Gabrielli and L. Trentadue, Nucl.Phys. B792 (2008) 4 8.
+[17] C.Q. Geng, I.L. Ho and T.H. Wu, Nucl.Phys. B684 (2004) 28 1.
+[18] C.H. Chen, C.Q. Geng and C.C. Lih, Phys.Rev. D77 (2008)0 14004.
+[19] S.C. Adler et al., E787 Collaboration, Phys.Rev.Lett. 85 (2000) 2256.
+[20] I.V. Ajinenko et al., Phys.Atom.Nucl. 65(2002) 2064; Y ad. Fiz.
+65(2002)2125.
+13[21] O.P. Yushchenko et al., Phys. Lett. B589 (2004) 111.
+[22] I.V. Ajinenko et al., Phys.Atom.Nucl. 66(2003) 105; Ya d. Fiz. 66(2003)
+107.
+[23] O.P. Yushchenko et al., Phys. Lett. B581 (2004) 31.
+[24] I.V. Ajinenko et al., Phys. Lett. B567 (2003) 159.
+[25] R. Brun et al., CERN-DD/EE/84-1, CERN, Geneva, 1984.
+[26] CN/ASD Group, HBOOK Users Guide(version 4.22), Progra m Library
+Y250, CERN, Geneva, 1994;
+J. Allison, Comp.Phys.Comm. 77 (1993) 377.
+14

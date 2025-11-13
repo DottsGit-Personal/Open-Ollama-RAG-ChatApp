@@ -1,0 +1,274 @@
+arXiv:1001.0760v2  [hep-ph]  7 Jan 20107 January 2010
+arXiv:1001.0760v2 [hep-ph]
+No Eﬀect of Majorana Phases in Neutrino
+Oscillations
+C. Giunti
+INFN, Sezione di Torino, Via P. Giuria 1, I–10125 Torino, Ita ly
+Abstract
+It is shown that the Majorana phases of the neutrino mixing ma trix cannot
+have any eﬀect in neutrino oscillations, contrary to the argu ment presented in
+arXiv:0912.5266 . It is also shown that in a charged-current weak interaction pro-
+cess it is not possible to create a coherent superposition of diﬀerent ﬂavor neutrinos
+which is independent of the associated charged leptons.
+It has been argued in Ref. [1] that it is possible to observe the eﬀect of the Majorana
+phases of the neutrino mixing matrix in a neutrino oscillation experimen t with an initial
+beam described by a superposition of diﬀerent neutrino ﬂavors. Un fortunately, the argu-
+ment presented in Ref. [1] is invalid, as shown in the following. It is also in contradiction
+with the well known proof that the Majorana phases do not have an y eﬀect in neutrino
+oscillations in vacuum [2–4] as well as in matter [5].
+In the following we consider the simple νe-νµtwo-neutrino mixing framework con-
+sidered in Ref. [1]. In this framework, the left-handed ﬂavor neutr ino ﬁeldsνeL(x) and
+νµL(x) are unitary combinations of the left-handed massive neutrino ﬁeld sν1L(x) and
+ν2L(x) with respective masses m1andm2(see Ref. [6]):
+νaL(x) =/summationdisplay
+k=1,2UakνkL(x) (a=e,µ), (1)
+whereUis the 2×2 unitary mixing matrix. Flavor neutrinos are produced and detecte d
+through charged-current (CC) weak-interaction processes de scribed by the CC weak-
+interaction Lagrangian
+LCC(x) =g√
+2/summationdisplay
+a=e,µaL(x)γρνaL(x)Wρ(x)+H.c.
+=g√
+2/summationdisplay
+a=e,µ/summationdisplay
+k=1,2aL(x)γρUakνkL(x)Wρ(x)+H.c., (2)
+wheregis the coupling constant. In general, the 2 ×2 unitary mixing matrix can be
+written as
+U=/parenleftbiggcosϑeiω1sinϑei(ω1+α)
+−sinϑei(ω2−α)cosϑeiω2/parenrightbigg
+. (3)
+1However, two of the three phases are unphysical, because they c an be eliminated by
+rephasing the two Dirac charged-lepton ﬁelds without aﬀecting the respective kinetic
+and mass Lagrangians (the free Dirac Lagrangian is invariant under rephasing of the
+ﬁeld) and the Lagrangians of the other interactions to which charg ed leptons take part
+(electromagnetic and weak neutral-current). On the other hand , a Majorana ﬁeld cannot
+be rephased, because the Majorana mass term is not invariant und er rephasing of the
+ﬁeld (see Ref. [6]). Therefore, if the massive neutrino ﬁelds are of M ajorana type, one
+of the three phases in Eq. (3), or a linear combination of them, is phy sical [2–4,7]. This
+phase is called “Majorana phase”. The choice of the Majorana phas e is arbitrary. Let us
+consider two possibilities:
+(1) Rephasing the charged-lepton ﬁelds by
+eL(x)→eiω1eL(x), µ L(x)→ei(ω2−α)µL(x), (4)
+we obtain
+U(1)=/parenleftbiggcosϑsinϑeiα
+−sinϑcosϑeiα/parenrightbigg
+. (5)
+This is the most convenient choice, because it allows to write the mixing matrix as
+U(1)=/parenleftbigg
+cosϑsinϑ
+−sinϑcosϑ/parenrightbigg/parenleftbigg
+1 0
+0eiα/parenrightbigg
+=R(ϑ)D(α). (6)
+In this form, the Majorana phase αis factorized in the diagonal matrix D(α) =
+diag(1,eiα) on the right of the mixing matrix.
+(2) Rephasing the charged-lepton ﬁelds by
+eL(x)→eiω1eL(x), µ L(x)→eiω2µL(x), (7)
+we obtain
+U(2)=/parenleftbiggcosϑsinϑeiα
+−sinϑe−iαcosϑ/parenrightbigg
+=D†(α)R(ϑ)D(α). (8)
+This is the choice adopted in Ref. [1].
+In order to investigate if there is any eﬀect due to the Majorana ph aseαin neutrino
+oscillations, following Ref. [1] we consider an initial generic neutrino st ate which is a
+superposition of νeandνµ:
+|ν(0)∝angbracketright=Ae|νe∝angbracketright+Aµ|νµ∝angbracketright. (9)
+Since the mixing of states is given by
+|νa∝angbracketright=/summationdisplay
+k=1,2U∗
+ak|νk∝angbracketright(a=e,µ), (10)
+we have
+|ν(0)∝angbracketright=/parenleftbig
+AeU∗
+e1+AµU∗
+µ1/parenrightbig
+|ν1∝angbracketright+/parenleftbig
+AeU∗
+e2+AµU∗
+µ2/parenrightbig
+|ν2∝angbracketright. (11)
+The probability of νedetection at a time tis given by
+Pνe(t) =|∝angbracketleftνe|ν(t)∝angbracketright|2. (12)
+2Considering ultrarelativistic neutrinos, we obtain
+Pνe(t) =/vextendsingle/vextendsingle/vextendsingle/vextendsingleAe|Ue1|2+AµUe1U∗
+µ1+/parenleftbig
+Ae|Ue2|2+AµUe2U∗
+µ2/parenrightbig
+exp/parenleftbigg
+−i∆m2t
+2E/parenrightbigg/vextendsingle/vextendsingle/vextendsingle/vextendsingle2
+,(13)
+where ∆m2=m2
+2−m2
+1andEis the neutrino energy.
+Using the choice of phases U(1)of the mixing matrix, it is clear that there is no eﬀect
+of the Majorana phase in the oscillation probability, since the contrib ution ofαinUe2
+andU∗
+µ2cancels in the product:
+P(1)
+νe(t) =/vextendsingle/vextendsingle/vextendsingle/vextendsingleAecos2ϑ−Aµcosϑsinϑ+/parenleftbig
+Aesin2ϑ+Aµcosϑsinϑ/parenrightbig
+exp/parenleftbigg
+−i∆m2t
+2E/parenrightbigg/vextendsingle/vextendsingle/vextendsingle/vextendsingle2
+.
+(14)
+This is enough to confute the argument presented in Ref. [1] that it is possible to
+observe the eﬀect of the Majorana phases of the neutrino mixing m atrix in a neutrino
+oscillation experiment with an initial beam described by a superposition of diﬀerent
+neutrino ﬂavors. One can see it also by noting that the probability Pνe(t) in Eq. (13) is
+invariant under the rephasing
+Uak→eiφkUak(a=e,µ;k= 1,2), (15)
+which corresponds to the freedom to rephase arbitrarily the mass ive neutrino ﬁelds in
+the Dirac case, when the Majorana phase is unphysical. Indeed, a r ephasing of this type,
+U(1)
+a2→e−iαU(1)
+a2fora=e,µ, eliminates the Majorana phase in Eq. (5).
+It is however interesting to understand why the authors of Ref. [ 1] have been led to an
+incorrect conclusion as a consequence of their choice of phases U(2)of the mixing matrix.
+With this choice of phases the contribution of αdoes not cancel in Eq. (13):
+P(2)
+νe(t) =/vextendsingle/vextendsingle/vextendsingleAecos2ϑ−Aµeiαcosϑsinϑ
++/parenleftbig
+Aesin2ϑ+Aµeiαcosϑsinϑ/parenrightbig
+exp/parenleftbigg
+−i∆m2t
+2E/parenrightbigg/vextendsingle/vextendsingle/vextendsingle2
+. (16)
+The diﬀerence between P(1)
+νe(t) andP(2)
+νe(t) is an apparent paradox, because diﬀerent
+choices of the phases of the mixing matrix cannot induce diﬀerent ph ysical eﬀects.
+A hint towards the solution of the paradox comes from the fact tha t in Eq. (16) the
+Majorana phase appears always in the product Aµeiα, i.e. as a change of phase of Aµ.
+Hence one is led to ask if the phases of the coeﬃcients AeandAµin the initial neutrino
+state in Eq. (9) have physical meaning. The answer is that these ph ases have no physical
+meaning, because of the phase freedom of the charged-lepton ﬁe lds, which induces a
+phase freedom in the corresponding charged-lepton states and in the associated ﬂavor
+neutrino state. In order to clarify this statement, let us consider the complete leptonic
+state produced in a CC interaction process, for example in W+decay:
+|ψ(0)∝angbracketright=Ae|e+,νe∝angbracketright+Aµ|µ+,νµ∝angbracketright, (17)
+with
+Aa∝ ∝angbracketlefta+,νa|νaL(0)γρaL(0)W†
+ρ(0)|W+∝angbracketright(a=e,µ), (18)
+3at ﬁrst order in perturbation theory, neglecting the eﬀects of th e neutrino masses in
+the decay process. From Eq. (18) one can see that the phase fre edom of the charged-
+lepton ﬁelds implies that the phases of the initial amplitudes AeandAµare arbitrary
+and unphysical.
+This means that the state (9) cannot be realized in nature. In othe r words, it is not
+possible to create a coherent superposition of |νe∝angbracketrightand|νµ∝angbracketright. In fact, if the charged lepton
+is detected, the neutrino state is reduced to either |νe∝angbracketrightand|νµ∝angbracketright. On the other hand, if
+the charged lepton is not detected, one must sum all neutrino inter action probabilities
+over the diﬀerent charged lepton contributions. This is equivalent o f considering the
+neutrino state as an incoherent superposition of |νe∝angbracketrightand|νµ∝angbracketright, which is better described
+by a density matrix. In this case we have
+Pνe(t) =/summationdisplay
+a=e,µ/vextendsingle/vextendsingle∝angbracketlefta+,νe|ψ(t)∝angbracketright/vextendsingle/vextendsingle2, (19)
+with|ψ(t)∝angbracketrightgiven by, from Eq. (17),
+|ψ(t)∝angbracketright=/parenleftbig
+AeU∗
+e1|e+,ν1∝angbracketright+AµU∗
+µ1|µ+,ν1∝angbracketright/parenrightbig
+e−iE1t
++/parenleftbig
+AeU∗
+e2|e+,ν2∝angbracketright+AµU∗
+µ2|µ+,ν2∝angbracketright/parenrightbig
+e−iE2t, (20)
+whereE1andE2are, respectively, the energies of ν1andν2, such that for the ultrarela-
+tivistic neutrinos under consideration E2−E1≃∆m2/2E. The amplitudes in Eq. (19)
+are given by
+∝angbracketlefte+,νe|ψ(t)∝angbracketright=Ae/parenleftbig
+|Ue1|2e−iE1t+|Ue2|2e−iE2t/parenrightbig
+, (21)
+∝angbracketleftµ+,νe|ψ(t)∝angbracketright=Aµ/parenleftbig
+Ue1U∗
+µ1e−iE1t+Ue2U∗
+µ2e−iE2t/parenrightbig
+. (22)
+Inserting these two expressions in Eq. (19), we obtain
+Pνe(t) =|Ae|2Pνe→νe(t)+|Aµ|2Pνµ→νe(t), (23)
+with the standard transition probabilities
+Pνe→νe(t) = 1−sin22ϑsin2/parenleftbigg∆m2t
+4E/parenrightbigg
+, P νµ→νe(t) = sin22ϑsin2/parenleftbigg∆m2t
+4E/parenrightbigg
+.(24)
+These probabilities areindependent oftheMajoranaphase αinboththechoices ofphases
+U(1)andU(2)of the mixing matrix, as well asin any other choice allowed by the repha sing
+freedom of the charged-lepton ﬁelds. Hence we see that the corr ect probability to detect
+aνeis independent of the Majorana phase and is independent of the pha ses of the initial
+amplitudes AeandAµ. Thus, the initial neutrino created in a charged-current interact ion
+process which can produce both νeandνµis not described correctly by the coherent state
+in Eq. (9), but can be described by the density matrix operator
+ˆρ(0) =|Ae|2|νe∝angbracketright∝angbracketleftνe|+|Aµ|2|νµ∝angbracketright∝angbracketleftνµ|. (25)
+Another way of seeing that the probability Pνe(t) in Eq. (13) is unobservable is to
+notice that it is not invariant under the rephasing
+Uak→eiφaUak(a=e,µ;k= 1,2), (26)
+4which corresponds to the freedom to rephase arbitrarily the char ged-lepton ﬁelds, as
+done, for example, in Eqs. (4) and (7). In fact, this lack of invarian ce is the origin of the
+diﬀerence between P(1)
+νe(t) in Eq. (14) and P(2)
+νe(t) in Eq. (16).
+Let us ﬁnally investigate if the Majorana phase has a physical eﬀect in oscillations of
+a beam of neutrinos produced in a neutral-current interaction pro cess, which is the only
+possibility of neutrino production (and detection) besides the char ged-current processes
+considered above. In a neutral-current process, as for example Z0decay, neutrinos and
+antineutrinos are produced together and the diﬀerent mass or ﬂa vor eigenstates have
+the same initial amplitude, because neutral current interactions a re ﬂavor-blind. In the
+two-neutrino framework the initial neutrino state is
+|ψ(0)∝angbracketright=1√
+2(|ν1,¯ν1∝angbracketright+|ν2,¯ν2∝angbracketright) =1√
+2(|νe,¯νe∝angbracketright+|νµ,¯νµ∝angbracketright). (27)
+It was shown in Ref. [8] that ﬂavor transitions occur only if both the neutrino and the
+antineutrino are detected. Hence, we consider the case of detec tion of aνaat the time t
+and a ¯νbat the time ¯t, witha,b=e,µ. The relevant neutrino state is
+|ψ(t,¯t)∝angbracketright=1√
+2/parenleftBig
+|ν1,¯ν1∝angbracketrighte−i(E1t+¯E1¯t)+|ν2,¯ν2∝angbracketrighte−i(E2t+¯E2¯t)/parenrightBig
+, (28)
+where¯E1and¯E2are, respectively, the energies of ¯ ν1and ¯ν2, such that for the ultrarela-
+tivistic antineutrinos under consideration ¯E2−¯E1≃∆m2/2¯E. The detection probability
+is given by
+Pνa,¯νb(t,¯t) =|∝angbracketleftνa,¯νb|ψ(t,¯t)∝angbracketright|2
+=1
+2/parenleftbig
+|Ua1|2|Ub1|2+|Ua2|2|Ub2|2/parenrightbig
++Re/braceleftbigg
+Ua1U∗
+b1U∗
+a2Ub2exp/bracketleftbigg
+−i/parenleftbigg∆m2t
+2E+∆m2¯t
+2¯E/parenrightbigg/bracketrightbigg/bracerightbigg
+.(29)
+We conﬁrm that ﬂavor transitions occur only if both the neutrino an d the antineutrino
+are detected, as shown in Ref. [8], because when the neutrino or an tineutrino are not
+detected, the corresponding probabilities are
+P¯νb=/summationdisplay
+a=e,µPνa,¯νb(t,¯t) =1
+2, P νa=/summationdisplay
+b=e,µPνa,¯νb(t,¯t) =1
+2. (30)
+These are the same ﬂavor probabilities as those in the initial state in E q. (27).
+Moreover, the probability Pνa,¯νb(t,¯t) is invariant under the rephasing in Eq. (15).
+Therefore, it is independent of the Majorana phase. One can also v erify it explicitly
+using the two choices of phases U(1)andU(2)of the mixing matrix.
+In conclusion, we have shown that the Majorana phases of the neu trino mixing matrix
+cannot have any eﬀect in neutrino oscillations, in agreement with Ref s. [2–5] and contrary
+to the argument recently presented in Ref. [1]. We have also shown t hat in a charged-
+current weak interaction process it is not possible to create a cohe rent superposition of
+diﬀerent ﬂavor neutrinos which is independent of the associated ch arged leptons.
+5References
+[1] R. Adhikari and P. B. Pal, arXiv:0912.5266 .
+[2] S. M. Bilenky, J. Hosek and S. T. Petcov, Phys. Lett. B94, 495 (1980).
+[3] M. Doi, T. Kotani, H. Nishiura, K. Okuda and E. Takasugi, Phys. Le tt.B102, 323
+(1981).
+[4] J. Schechter and J. W. F. Valle, Phys. Rev. D23, 1666 (1981).
+[5] P. Langacker, S. T. Petcov, G. Steigman and S. Toshev, Nucl. P hys.B282, 589
+(1987).
+[6] C. Giunti and C. W. Kim, Fundamentals of Neutrino Physics and Astrophysics
+(Oxford University Press, Oxford, UK, 2007).
+[7] J. Schechter and J. W. F. Valle, Phys. Rev. D22, 2227 (1980).
+[8] A. Y. Smirnov and G. T. Zatsepin, Mod. Phys. Lett. A7, 1272 (1992).
+6

@@ -1,0 +1,378 @@
+arXiv:1001.0019v1  [gr-qc]  30 Dec 2009On the instability of Reissner-Nordstr¨ om black holes in de Sitter backgrounds
+Vitor Cardoso∗
+CENTRA, Departamento de F´ ısica, Instituto Superior T´ ecn ico,
+Av. Rovisco Pais 1, 1049-001 Lisboa, Portugal &
+Department of Physics and Astronomy, The University of Miss issippi, University, MS 38677-1848, USA
+Madalena Lemos†and Miguel Marques‡
+CENTRA, Departamento de F´ ısica, Instituto Superior T´ ecn ico,
+Av. Rovisco Pais 1, 1049-001 Lisboa, Portugal
+(Dated: November 3, 2018)
+Recent numerical investigations have uncovered a surprisi ng result: Reissner-Nordstr¨ om-de Sitter
+black holes are unstable for spacetime dimensions larger th an 6. Here we prove the existence of
+such instability analytically, and we compute the timescal e in the near-extremal limit. We ﬁnd very
+good agreement with the previous numerical results. Our res ults may me helpful in shedding some
+light on the nature of the instability.
+PACS numbers: 04.50.Gh,04.70.-s
+I. INTRODUCTION
+In physics, stability of a given conﬁguration (solution
+of some set of equations), is a useful criterium for rele-
+vance of that solution. Unstable conﬁgurations are likely
+not tobe realizablein practice, and representaninterme-
+diate stage in the evolution of the system. Nevertheless,
+the instability itself is of great interest, since an under-
+standing of the mechanism behind it may help one to
+better grasp the physics involved. In particular, it is of
+interest to be able to predict which other systems display
+similar instabilities, or even have a deeper understanding
+of the physics behind the instability (why is the system
+unstable? is there some fundamental principle behind
+the instability?).
+In General Relativity, the Kerr family exhausts the
+blackhole solutionsto the electro-vacEinstein equations.
+Kerr black holes are stable, and can therefore describe
+astrophysicalobjects. However,there aremanyinstances
+of instabilities aﬄicting objects with an event horizon,
+such as the Gregory-Laﬂamme [1], the ultra-spinning [2]
+or superradiant instabilities [3] and other instabilities of
+higher-dimensional black holes in alternative theories [4,
+5](for a review see Ref. [6]).
+Konoplya and Zhidenko (hereafter KZ) recently stud-
+ied small perturbations in the vicinity of a charged black
+hole in de Sitter background, a Reissner-Nordstr¨ om de
+Sitter black hole (RNdS) [7]. Their (numerical) results
+show that when the spacetime dimensionality D >6, the
+spacetime is unstable, provided the charge is larger than
+agiventhreshold, determined byKZforeach D. Because
+∗Electronic address: vitor.cardoso@ist.utl.pt
+†Electronic address: madalena.dal@gmail.com
+‡Electronic address: miguel.e.marques@gmail.comthe results are so surprising (the mechanism behind it is
+not yet understood), we set out to to investigate this in-
+stability and hopefully understand it better. Our results
+can be summarized as follows: (i) we can prove analyti-
+cally the existence of unstable modes for charge Qhigher
+thanacertainthreshold. (ii)inthenear-extremalregime,
+we are able to ﬁnd an explicit solution for the unstable
+modes, determining the instability timescale analytically.
+We hope that our incursion in this topic helps to better
+understand the physics at work.
+II. EQUATIONS
+This work focuses on the higher dimensional RNdS ge-
+ometry, described by the line element
+ds2=−f dt2+f−1dr2+r2dΩ2
+n, (1)
+wheredΩ2
+nis the line element of the nsphere and
+f= 1−λr2−2M
+rn−1+Q2
+r2n−2. (2)
+the background electric ﬁeld is E0=q/rn, withqthe
+electric charge. The quantities MandQare related to
+the physical mass M and charge qof the black hole [8],
+andλto the cosmological constant. The spacetime di-
+mensionality is D=n+2.
+The above geometry possesses three horizons: the
+black-holeCauchyhorizonat r=ra, the black hole event
+horizon is at r=rband the cosmological horizon is at
+r=rc, whererc> rb> ra, the only real, positive zeroes
+off. For convenience, we set rb= 1, i.e., we measure all
+quantities in terms of the event horizon rb. We thus get
+2M= 1+Q2−λ, (3)2
+Furthermore, we can also write
+λ=r−4−n
+c(rn+2
+c−r3
+c)(rn+2
+c−Q2r3
+c)
+rn+2c−rc.(4)
+For a ﬁxed rcand spacetime dimension D, the existence
+ofaregulareventhorizonimposesthatthecharge Qmust
+be smaller than a certain value Qext. With our units this
+maximum charge is
+Q2
+ext=rn
+c/parenleftbig
+−2rc+(n+1)rn
+c−(n−1)rn+2
+c/parenrightbig
+−rc/parenleftbig
+rc(n+1)−2nrnc+(n−1)r2n+1c/parenrightbig.(5)
+Gravitational perturbations of this spacetime couple to
+the electromagnetic ﬁeld, and were completely character-
+ized by Kodama and Ishibashi [8]. They can be reduced
+to a set of two second order ordinary diﬀerential equa-
+tions of the form,
+d2
+dr2∗Φ±+/parenleftbig
+ω2−VS±/parenrightbig
+Φ±= 0, (6)where the tortoise coordinate r∗and the potentials VS±
+are deﬁned through
+r∗≡/integraldisplay
+f−1dr, V S±=fU±
+64r2H2
+±.(7)
+We have
+H+= 1−n(n+1)
+2δx, (8)
+H−=m+n(n+1)
+2(1+mδ)x, (9)
+and the quantities U±are given by
+U+=/bracketleftbig
+−4n3(n+2)(n+1)2δ2x2−48n2(n+1)(n−2)δx
+−16(n−2)(n−4)]y−δ3n3(3n−2)(n+1)4(1+mδ)x4
++4δ2n2(n+1)2/braceleftbig
+(n+1)(3n−2)mδ+4n2+n−2/bracerightbig
+x3
++4δ(n+1)/braceleftbig
+(n−2)(n−4)(n+1)(m+n2K)δ−7n3+7n2−14n+8/bracerightbig
+x2
++/braceleftbig
+16(n+1)/parenleftbig
+−4m+3n2(n−2)K/parenrightbig
+δ−16(3n−2)(n−2)/bracerightbig
+x
++64m+16n(n+2)K, (10)
+U−=/bracketleftbig
+−4n3(n+2)(n+1)2(1+mδ)2x2+48n2(n+1)(n−2)m(1+mδ)x
+−16(n−2)(n−4)m2/bracketrightbig
+y−n3(3n−2)(n+1)4δ(1+mδ)3x4
+−4n2(n+1)2(1+mδ)2/braceleftbig
+(n+1)(3n−2)mδ−n2/bracerightbig
+x3
++4(n+1)(1+ mδ)/braceleftbig
+m(n−2)(n−4)(n+1)(m+n2K)δ
++4n(2n2−3n+4)m+n2(n−2)(n−4)(n+1)K/bracerightbig
+x2
+−16m/braceleftbig
+(n+1)m/parenleftbig
+−4m+3n2(n−2)K/parenrightbig
+δ
++3n(n−4)m+3n2(n+1)(n−2)K/bracerightbig
+x
++64m3+16n(n+2)m2K. (11)
+The variables x,yand parameters µ,mare deﬁned
+through
+x≡2M
+rn−1, y≡λr2, (12)
+µ2≡M2+4mQ2
+(n+1)2, m≡k2−nK,(13)
+andthe quantity δis implicitly givenby µ= (1+2mδ)M.
+Note that the following relations holds Q2= (n+
+1)2M2δ(1+mδ).
+Note also that for the spacetime considered in this pa-
+perK= 1, whichmeansthatthe eigenvalues k2aregivenbyk2=l(l+n−1), where lis the angular quantum
+number, that gives the multipolarity of the ﬁeld. The
+behavior of the potentials varies considerably over the
+range of parameters. In Fig. 1 we show V−forD= 8,
+rc= 1/0.95,l= 2andthreediﬀerentvaluesofthecharge,
+Q= 0.2,0.35,0.44.
+III. A CRITERIUM FOR INSTABILITY
+A suﬃcient (but not necessary) condition for the exis-
+tence of an unstable mode has been proven by Buell and3
+/s48/s44/s48/s48 /s48/s44/s48/s49 /s48/s44/s48/s50 /s48/s44/s48/s51 /s48/s44/s48/s52 /s48/s44/s48/s53/s45/s50/s48/s50/s52/s54
+/s49/s48/s52
+/s32/s86
+/s45/s49/s48/s52
+/s32/s86
+/s45
+/s32/s32/s86
+/s45
+/s114/s45/s49/s32/s81/s61/s48/s46/s50/s48
+/s32/s81/s61/s48/s46/s51/s53
+/s32/s81/s61/s48/s46/s52/s52/s49/s48/s51
+/s32/s86
+/s45
+FIG. 1: Behavior of V−for diﬀerent parameters, for D= 8.
+Here we ﬁx the event horizon at rb= 1, and the cosmological
+horizon at rc= 1/0.95. We consider l= 2 modes and three
+diﬀerent charges, Q= 0.2,0.35,0.44.
+Shadwick [9] and is the following,
+/integraldisplayrc
+rbV
+fdr <0. (14)
+The instability region is depicted in ﬁgure 2 for several
+/s48/s44/s48 /s48/s44/s50 /s48/s44/s52 /s48/s44/s54 /s48/s44/s56 /s49/s44/s48/s48/s44/s48/s48/s44/s50/s48/s44/s52/s48/s44/s54/s48/s44/s56/s49/s44/s48/s32
+/s32/s81/s47/s81
+/s101/s120/s116
+/s114
+/s98/s47/s114
+/s99
+FIG. 2: The parametric region of instability in Q/Qext−rb/rc
+coordinates, according to criterim (14), for l= 2. Top to
+bottom, D= 7,8,9,10,11.
+spacetime-dimension D, which can be compared with the
+numerical results by KZ, their ﬁgure 4. It is apparent
+that condition (14) very accurately describes the numer-
+ical results for rb/rc∼1, a regime we explore below in
+Section IV. As one moves away from extremality cri-
+terium (14) is just too restrictive. An improved analysis
+and reﬁned criterium would be necessary to describe the
+whole rangeofthe numericalresults. Nevertheless, ﬁgure2 is very clear: higher-dimensional ( D >6) RNdS black
+holes are unstable for a wide range of parameters.
+IV. AN EXACT SOLUTION IN THE NEAR
+EXTREMAL RNDS BLACK HOLE
+Let us now specialize to the near extremal RNdS black
+hole, which we deﬁne as the spacetime for which the cos-
+mological horizon rcis very close (in the rcoordinate)
+to the black hole horizon rb, i.e.rc−rb
+rb≪1. The wave
+equationin this spacetime can be solvedexactly, in terms
+of hypergeometric functions [10]. The key point is that
+the physical region of interest (where the boundary con-
+ditions are imposed), lies between rbandrc. Thus,
+f∼2κb(r−rb)(rc−r)
+rc−rb, (15)
+where we have introduced the surface gravity κbassoci-
+ated with the event horizon at r=rb, as deﬁned by the
+relationκb=1
+2df/drr=rb. For near-extremal black holes,
+it is approximately
+κb∼(rc−rb)(n−1)
+2r2
+b/parenleftbig
+1−nQ2/parenrightbig
+.(16)
+In this limit, one can invert the relation r∗(r) of (7) to
+get
+r=rce2κbr∗+rb
+1+e2κbr∗. (17)
+Substituting this on the expression (15) for fwe ﬁnd
+f=(rc−rb)κb
+2cosh(κbr∗)2. (18)
+As such, and taking into account the functional form of
+the potentials for wave propagation, we see that for the
+near extremal RNdS black hole the wave equation (6) is
+of the form
+d2Φ(ω,r)
+dr2∗+/bracketleftBigg
+ω2−V0
+cosh(κbr∗)2/bracketrightBigg
+Φ(ω,r) = 0,(19)
+with
+V0=(rc−rb)κb
+2VS±(rb)
+f(20)
+The potential in (19) is the well known P¨ oshl-Teller po-
+tential [11]. The solutions to (19) were studied and they
+are of the hypergeometric type, (for details see Refs.
+[12, 13]). Itshouldbesolvedunderappropriateboundary
+conditions:
+Φ∼e−iωr∗, r∗→ −∞ (21)
+Φ∼eiωr∗, r∗→ ∞. (22)4
+These boundary conditions impose a non-trivial condi-
+tion onω[12, 13], and those that satisfy both simultane-
+ously are called quasinormal frequencies. For the P¨ oshl-
+Teller potential one can show [12, 13] that they are given
+by
+ω=κb/bracketleftBigg
+−/parenleftbigg
+j+1
+2/parenrightbigg
+i+/radicalBigg
+V0
+κ2
+b−1
+4/bracketrightBigg
+, j= 0,1,....
+(23)
+We conclude therefore that an instability is present
+TABLE I: The threshold of instability for near-extremal
+RNdS black holes (i.e., black holes for which the cosmologic al
+and event horizon almost coincide) for l= 2 modes. We show
+the prediction from the exact, analytic expression obtaine d
+in the near extremal limit (24), which we label Q/QN
+extand
+the one from criterium (14) which we label as Q/QV
+ext. Both
+these results are compared to the numerical results by KZ.
+D
+7 8 9 10 11 D→ ∞
+Q/QN
+ext0.913 0.774 0.683 0.617 0.567p
+2/D
+Q/QV
+ext0.913 0.775 0.684 0.618 0.568p
+2/D
+Q/QNum
+ext0.94 0.78 0.68 0.61 0.55 —
+whenever V0is negative. The threshold of stability in
+the near-extremal regime is therefore given by
+VS±(rb)
+f= 0, (24)
+The expression for VS±(rb)/fis lengthy, and we won’t
+presentit here. Thevaluesofthe charge Q/Qextthat sat-
+isfy the condition above are given in Table I (for l= 2),
+and compared to the prediction from the analysis in Sec-
+tion III, criterium (14). The agreement is excellent. Fur-thermore, we compare these predictions against the nu-
+merical results by KZ, extrapolated to the extremal limit
+(ρ= 1 in KZ notation). The agreement is remarkable.
+V. CONCLUSIONS
+We have shown analytically that charged black holes
+in de Sitter backgrounds are unstable for a wide range of
+charge and mass of the black hole, conﬁrming previous
+numerical studies [7]. The stability properties of the ex-
+tremalD= 6 black hole remain unknown. Our methods
+and results and inconclusive at this precise point, further
+dedicated investigations would be necessary.
+Ouranalyticalresultinthenear-extremalregimecould
+be used to investigate further the nature of this instabil-
+ity, something we have not attempted to do here. A
+possible reﬁnement concerns the large- Dlimit of the in-
+stability, where it couldbe possible to ﬁnd an analytical
+expression throughout all range of parameters. We have
+inmind resultsandtechniquessimilartothoseofKoland
+Sorkin [14]. It would also be interesting to investigate
+the stability properties, using this or other techniques, of
+near-extremal Kerr-dS black holes, which have recently
+been conjectured to have an holographic description [15].
+Acknowledgements
+We warmly thank Roman Konoplya and Alexander
+Zhidenko for useful correspondence and for sharing their
+numerical results with us. This work was partially
+funded by Funda¸ c˜ ao para a Ciˆ encia e Tecnologia (FCT)-
+Portugal through projects PTDC/FIS/64175/2006,
+PTDC/ FIS/098025/2008,PTDC/FIS/098032/2008and
+CERN/FP/109290/2009.
+[1] R. Gregory and R. Laﬂamme, Phys. Rev. Lett. 70, 2837
+(1993); H. Kudoh, Phys. Rev. D 73, 104034 (2006);
+V. Cardoso and O. J. C. Dias, Phys. Rev. Lett. 96,
+181601 (2006).
+[2] R. Emparan and R. C. Myers, JHEP 0309, 025 (2003);
+O. J. C. Dias, P. Figueras, R. Monteiro, J. E. Santos and
+R. Emparan, arXiv:0907.2248 [hep-th].
+[3] V. Cardoso, O. J. C. Dias, J. P. S. Lemos and S. Yoshida,
+Phys. Rev. D 70, 044039 (2004) [Erratum-ibid. D 70,
+049903 (2004)]; V. Cardoso and O. J. C. Dias, Phys.
+Rev. D70, 084011 (2004); V. Cardoso and S. Yoshida,
+JHEP0507, 009 (2005); V. Cardoso, O. J. C. Dias and
+S. Yoshida, Phys. Rev. D 74, 044008 (2006); V. Car-
+doso and J. P. S. Lemos, Phys. Lett. B 621, 219 (2005);
+H. Kodama, Prog. Theor. Phys. Suppl. 172, 11 (2008);
+A. N. Aliev and O. Delice, Phys. Rev. D 79, 024013
+(2009); H. Kodama, R. A. Konoplya and A. Zhidenko,
+Phys.Rev.D 79, 044003(2009); K.Murata, Prog. Theor.
+Phys.121, 1099 (2009); N. Uchikata, S. Yoshida and T.
+Futamase, Phys. Rev. D 80, 084020 (2009).[4] G. Dotti and R. J. Gleiser, Phys. Rev. D 72, 044018
+(2005); R. J. Gleiser and G. Dotti, Phys. Rev. D 72,
+124002 (2005); M. Beroiz, G. Dotti and R. J. Gleiser,
+Phys. Rev. D 76, 024012 (2007).
+[5] T. Takahashi and J. Soda, Phys. Rev. D 79, 104025
+(2009); T. Takahashi and J. Soda, arXiv:0907.0556 [gr-
+qc].
+[6] T. Harmark, V. Niarchos and N. A. Obers, Class. Quant.
+Grav.24, R1 (2007).
+[7] R. A. Konoplya and A. Zhidenko, Phys. Rev. Lett. 103,
+161101 (2009).
+[8] H. Kodama and A. Ishibashi, Prog. Theor. Phys. 111,
+29 (2004).
+[9] W. F. Buell and B. A. Shadwick, Am. J. Phys. 63, 256
+(1995).
+[10] V. Cardoso and J. P. S. Lemos, Phys. Rev. D 67, 084020
+(2003).
+[11] G. P¨ oshl and E. Teller, Z. Phys. 83, 143 (1933).
+[12] E. Berti, V. Cardoso and A. O. Starinets, Class. Quant.
+Grav.26, 163001 (2009).5
+[13] V. Ferrari and B. Mashhoon, Phys. Rev. D 30, 295
+(1984).
+[14] B. Kol and E. Sorkin, Class. Quant. Grav. 21, 4793(2004).
+[15] D. Anninos and T. Hartman, arXiv:0910.4587 [hep-th].

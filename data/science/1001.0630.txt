@@ -1,0 +1,247 @@
+The  Boundary  Conditions  Geometry  in  
+Lattice-Ising  model 
+ 
+You-gang Feng 
+ 
+Department of Basic Science, College of Scien ce, Gui Zhou University. Cai Jia Guan, Guiyang 
+550003, China 
+E-mail: ygfeng45@yahoo.com.cn 
+ 
+ 
+   We found that the differential topology of the lattice-system of Ising model 
+determines whether there can be the cont inuous phase transition , the geometric 
+topology of the space the latt ice-system is embedded in determines whether the 
+system can become ordered. If the system  becomes ordered it may not admit the 
+continuous phase transition. The spin-projection orie ntations are strongly influenced 
+by the geometric topology of the spac e the lattice-system is embedded in.  
+ 
+Keywords:  Ising model, periodic boundary, sp in-projection orientation, topology  
+PACS: 64.60. Cn, 05.50.+q, 02.40.Pc 
+ 
+1. Introduction 
+ 
+Physicists worked on Ising models for many years have obtained brilliant 
+achievements in the theory of  continuous phase transition. The model’s charm is that 
+the studying and researching will never be  at an end; some  new properties and 
+problems will be discovered and explored. Kadanoff pointed out, “The physical problem of critical phenomena reduces to the mathematical problem of enumerating 
+and describing the different universality class.”
+[]1 The late Chinese mathematician 
+Xing-sheng Chen, well-known for his great achievements in differential topology 
+around the world, said, “Physics ju st is geometry, and they ar e in one family.” In this 
+paper we will discuss how the difference be tween differential and geometric topology 
+influences on the magnetic order of the lattice system of Ising model. 
+   
+2. Applications 
+ 
+It used to be that the discussion about th e continuous phase transition of Ising model 
+is concentrated on the property of derivatives of order 2 of the system’s free energy at 
+ 1the critical temperature. If it is divergen t the system will have magnetic order below 
+the critical temperature, if it is not divergent the ordered stat e of system will not 
+appear. If we regard the thermodynamic proper ties of the system as a kind of manifold, 
+and the system’s free energy is a functi on defined in the coordinate system.  
+The property of derivatives of order 2 of the free energy reflects the differential  
+topology of the manifold. The phase transi tions of the systems with  the same 
+differential topology belong to one kind of pha se transitions—a phase transition of the 
+second kind. The order parameters are actually  the invariance linked to the differential 
+topology of such systems. C onsequently, the discussion about the phase transition of 
+the Ising model has a meaning in terms of  differential topology, although people did 
+not pay much attention to relate the pha se-transition property to the property of 
+differential topology, and were willing to cons ider it as a physical property only. As a 
+result of this, they were so indifferent to the geometric topological property of the 
+space in which the lattice system is embedded, that the selection of spin-projection orientations has never been mentioned. This aspect is dependent upon the geometric topology of the space. Consider ing the spin-projection orientations, the lattice gas will 
+not be equivalent to the Ising model because the lattice gas itself has not any 
+projecting orientation . 
+[]2
+  The property of differential topology and the property of geometry topology are 
+two distinct properties of topology: the form er determines whether there can exist the 
+continuous phase transition in a lattice system, and the la ter determines whether the 
+system can become ordered. Being a continuous phase transition, the system will 
+certainly become ordered, which was proved by physicists. But if the system behaves 
+ordered, it may not be in the state of c ontinuous phase transition for some systems. 
+This results from the difference between th e two topologies above mentioned. So it is 
+necessary to discuss the infl uence of the geometric topol ogy on the magnetic order of 
+the Ising model. We will discuss the probl ems in the following three respects . 
+First, the geometric topology of the em bedding space for the lattice system will 
+restrict the spin-projection orientations. A key point of the Onsager’s solution is his 
+periodic boundary conditions. Under the condi tions, as illustrated in FIG .1, the two  
+ 
+ 
+ 0 xy  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ FIG. 1 
+ 2 
+ 
+lattices in sites (- ) ,y∞  or (x,-  and (+)∞ ) ,y∞  or (x,+ )∞ have the same spin state. 
+The periodic boundary conditions change th e plane square-lattice system into a 
+torus-lattice system, which should be embedde d in 3-dimensional Euclidean space. If 
+a lattice system can become ordered, it will be in one of  the following two states: The 
+entire lattice system can be referred to as  a lattice with total spin. So, the space is 
+simply connected; or there is a non-vanishing vector field, of which the appearance is 
+dependent upon the geometric topology of th e lattice system.  The torus-lattice 
+system is not contractible because of its geometric topological structure [. FIG .2 
+shows that three simple closed curves on th e torus, and only one’s inner block of   ]3
+ 
+ 
+               A
+B
+C
+FIG.2 
+ 
+which, the curve B inner block, can become  contractible. The singularity of the 
+Onsager’s equation indicated that the sy stem certainly has the continuous phase 
+transition, which implied the system is ordered but contractible. We noticed that there 
+are only two spin states for the Ising m odel: spin-up and spin-down, and there are 
+only three important sp in-projection orientations in va rious projecting orientations: 
+the directions normal to the plane, parallel to  the x-axis and to the y-axis as illustrated 
+in FIG.1. In fact, the partiti on function of the system is not affected by the projecting 
+orientations because there is no the spin-pro jection orientation term in it. We found 
+that the spin-projection orientation norma l to the plane with the periodic boundary 
+conditions is forbidden. The reason is that if the system were ordered, the total spin-projection orientation of  the system should be normal to the torus surface, which 
+cannot shrink. Then its projecting orient ation is uncertain because the normal 
+orientations of the torus are different and divergent everywhere.  
+However, if the spin-projection orientations are parallel to the x-axis or to the 
+y-axis, the situation is completely differ ent. Let the total spin of the system be  
+below its critical temperature, the average lattice spin be , and ,  be 
+the total number of the lattices in the system, S
+s N S s/= N
+∞→N , and 0≠s , in accord with the 
+thermodynamic limit condition. When the toru s-lattice system becomes ordered, there 
+is a continuous non-vanishing vector field on the torus, as illustrated in FIG 3 each 
+ 
+ 
+ 3 
+ 
+ 
+ 
+  
+   
+ 
+ 
+ 
+ 
+ FIG . 3 
+ 
+ 
+little arrow represents an average lattice spin, which means that the topological 
+property of torus allows the system to be or dered. It is the geometric topology that not 
+only determines system is ordered, but also restricts the spin-projection orientations. 
+Onsager’s solution means that the torus syst em’s differential topology is equivalent to 
+the plane system’s differential topology, but the principle of topology tells us that their 
+geometry topology are different. Notwithstanding they cannot change into each other 
+automatically, (i.e., they are not one-to-one). 
+In fact, the free energy of the torus-lattice system is different from the free- energy 
+of the plane square-lattice system. The part ition function of the la tter is defined as 
+ 
+∑∑∑ − + − = − =
+ii iss s B B B T kH
+T kH
+T kHQ) 1() 2 (
+) exp( ) exp( ) exp(            ( 1 )  
+∑− =
+j ij is s J H
+,                        ,                              ( 2 )  
+where H is the system Hamiltonian,  is a spin-coupling constant ,  
+denotes the sum over all possibl e nearest neighbor lattices, ∑
+j i,J
+∑
+is does the sum over 
+all possible states of spins,  is the sum over all possible states of spins with the 
+periodic boundary conditions, and denotes the sum over all possible states of 
+spins which fail to keep the conditions. The first term on the right hand of Eq.(1) is expressed by ∑) 1 (
+is
+∑) 2 (
+is
+∑− =1
+1 ) exp(
+is BT kHQ                                                   ( 3 )  
+Obviously,  is the partition function of the lattice system with the periodic 1Q
+ 4boundary conditions, namely, the partition func tion of the torus-lattice system. The 
+free-energy of the plane square-lattice system and the free-energy of the torus-lattice 
+system are respectively given by 
+Q T k FBln−=                              ( 4 )  
+1 1 lnQ T k FB−=                             ( 5 )  
+Because of the exponential f unction property, we have 
+ 
+                   ,         ,                         ( 6 )  01〉Q1Q Q〉 0〉Q
+the difference between  and  is 1F F
+0 ) ln(
+11 〉 = − = ΔQQT k F F FB                        ( 7 )  
+Under the thermodynamic limit condition FΔ changes into infinitesimal but 
+non-zero, which makes the critical temperature of the torus-lattice system infinitely 
+close to the critical temper ature of the plane square-l attice system so that the 
+Onsager’s solution can be regarded as an exact solution of the plane square-lattice 
+system. The infinitesimal difference 0〉ΔF shows that the original state cannot 
+change into the state w ith the periodic boundary condi tions in the thermodynamic 
+equilibrium state, and the small offset of the free-energy makes the transformation of 
+the topological structure of the system so great that its fundamental group is 
+completely different from the original []3. The thermodynamic limit guarantees the 
+systems with and without the periodic bounda ry conditions have the same property of 
+differential topology so as to have the same property of the continuous phase 
+transition. This is not only seen in the plane- lattice system, but also will be seen in the 
+one-dimensional lattice system []2. Furthermore, if the spin states of all lattices at the 
+boundary are the same (which is one kind of the periodic boundary conditions) these 
+lattices themselves will gather up to one lattice to make the plane-lattice system 
+become a sphere-lattice system. The solution of  such a system will also be equivalent 
+to Onsager’s solution because of its peri odic boundary conditions, and there exists 
+certainly the continuous phase transition. Its geometric topology shows the sphere 
+surface is simply connected , which allows the system to be ordered. However, 
+there is no non-vanishing vector field on the sphere surface because of the “hairy ball 
+theorem”[, which is distinct from the torus-la ttice system. When the sphere-lattice 
+system becomes ordered its total spin-proje ction orientation will be along the sphere 
+radial, which is arbitrary. []3
+]3
+ 5  The second sense of the influence of the geometric properties is that the ordered 
+system is not equivalent to  its appearance of continuous phase transition all the time. 
+A one-dimensional Ising model can be cons tructed on each site, which coordinate 
+positions are  on which is laid one lattice spin with free degree 
+. Such a system can be referred as to a Ising model on the real line. Using the 
+periodic boundary conditions, it is proved th at the 1-dimensional system has not the 
+continuous phase transition. The periodic boundary conditi ons changed the real line 
+into a circle embedded in a plane, which means that the circle-lattice system also 
+cannot have the continuous phase transition li ke the real-line-lattice system because of 
+the the thermodynamic limit c ondition. However, the real -line–lattice system can 
+become ordered because of its simply connected,...., 2 , 2 , 1 , 1 , 0− + − + = x
+1=n
+[]3. In other words, the whole lattice 
+system can be looked as a lattice with th e total spin, but ther e is no non-vanishing 
+vector field. The circle is not simply  connected, and it allows the non-vanishing 
+vector field to exist, which direction is cl ockwise or anticlockwis e. Here, we noticed 
+that the 1-dimensional lattice system with or without th e periodic boundary conditions 
+have the same property of differential t opology but the geometric topology makes 
+them appear in different spin-projection orientations. The key point to cause the 
+system to become ordered is its geomet ric topology, not its di fferential topology. 
+While the free degree of spin changes from 1=n  into 〈+∞〈n1 , the chain–lattice 
+system can also become ordered w ithout the continuous phase transition . We 
+cannot say that all these phe nomena are physical abnormalities for all possible values 
+of . As a matter of fact, they just s how a common regular pattern, namely, 
+agreement with their geom etric topology and differential topology parameters []2
+n
+   Last, the spin-projection orientations  also depend on the dimensionality of the 
+embeding space for the lattice system. If the embedded space is 2-dimensional, the 
+spin-projection orientation is forbidden in  the plane’s normal direction for a plane 
+lattice system or the ci rcle-lattice system. The torus must be embedded in 
+3-dimensional space, and its non- vanishing vector field is al so 2-dimensional at least. 
+In the 1-dimensional space the spin-projec tion orientation normal to the real line 
+cannot exist. 
+ 
+3.Conclusion 
+ 
+  In summary, we found that the differ ential topology of the la ttice-system of the 
+Ising model determines whether there can be the continuous phase transition. The geometric topology of the space the lattice-system embedded in determines whether the system can become ordered. Also if the system behaves ordered it may not have a continuous phase transition. Thus the spin -projection orientations are strongly 
+influenced by the geometric topology of  the lattice-system embedding space in. 
+ 6References 
+[]1 L. P. Kadanoff, Statistical Physics: Static s, Dynamics and Renormalizeation 
+(World Scientific, Singapore,2000) p. 266 
+[]2 R. K. Pathria, Statistical Mechanics (Butterworth Heinemann, Oxford, 2001) p. 
+372-376, 319-321  
+[]3 M. A. Armstrong, Basic Topology (Springer-Verlag, Ne w York, 1983) p. 173, 198, 
+96 
+ 7

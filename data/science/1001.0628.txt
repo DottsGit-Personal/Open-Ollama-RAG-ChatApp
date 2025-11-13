@@ -1,0 +1,291 @@
+arXiv:1001.0628v2  [math.PR]  7 Apr 2010On the distribution of the Brownian motion process
+on its way to hitting zero
+Konstantin Borovkov1
+Dept. of Maths & Stats, University of Melbourne,
+Parkville 3010, Australia
+email:borovkov@unimelb.edu.au .
+Abstract
+We presentfunctional versionsof recent resultsontheuniv ariatedistributions
+of the process Vx,u=x+Wuτ(x),0≤u≤1, where W•is the standard Brownian
+motion process, x >0 andτ(x) = inf{t >0 :Wt=−x}.
+AMS 2000 Subject Classiﬁcation: 60J65
+Key words: Brownian motion, hitting time, Brownian meander , Bessel bridge.
+Let{Wt}t≥0be the standard univariate Brownian motion process and, for x >0,
+Wx,t:=x+Wt, t≥0, τ(x) := inf{t >0 :Wx,t= 0}.
+As is well known, τ(x) is a proper random variable with density
+px(t) =xe−x2/2t
+√
+2πt3, t > 0, (1)
+so one can introduce
+Vx,u:=Wx,uτ(x),0≤u≤1.
+These random variables were studied in the recent paper [5], where it was shown
+(Theorem 1.1) that, for any ﬁxed u∈(0,1), Vx,uhas density
+px,u(y) :=d
+dyP(Vx,u≤y)
+=4/radicalbig
+u(1−u)xy2
+π(uy2+(1−u)(y−x)2)(uy2+(1−u)(y+x)2), y > 0,(2)
+∼4x/radicalbig
+u(1−u)
+πy2asy→ ∞ (3)
+1Research supported by ARC Discovery Grant DP0880693.
+12
+(here and in what follows, a∼bmeans that a/b→1). Representation (2) implies, in
+particular, that, for any ﬁxed u∈[0,1], one has
+Vx,ud=xV1,u. (4)
+Using a direct tedious calculation, it was also demonstrated in Section 3 of [5] that, for
+a ﬁxedu∈(0,1), the density px,ucoincides with that of a “scaled Brownian excursion
+at the corresponding time, averaged over its length”. The mathem atical formulation
+of that result was given by formula (3.3) in [5] that can be rewritten a s follows. Let
+{RT
+x,t}t≤Tbe a three-dimensional Bessel bridge of length Tpinned at xat timet= 0
+and at 0 at time t=T, which is independent of our process Wx,•(and hence of τ(x)).
+Recall that one can represent the process as
+RT
+x,t=/vextenddouble/vextenddoubleW(3)
+x,t−tT−1W(3)
+x,T/vextenddouble/vextenddouble,0≤t≤T, (5)
+where
+W(3)
+x,t= (x,0,0)+W(3)
+t, t≥0, (6)
+W(3)
+•being a standard three-dimensional Brownian motion process and /bardbl · /bardblthe Eu-
+clideannormin R3. Theabove-mentionedformulafrom[5]isequivalenttotheassertio n
+that, for any ﬁxed u∈[0,1],one has
+Vx,ud=Rτ(x)
+x,uτ(x). (7)
+Note that RT
+x,•is not exactly an excursion (an excursion returns to the same point
+where it started) but, rather, a time-reversed Brownian meande r (see e.g. p.63 in [2]),
+and that on the right-hand side of (7) it is averaged not over its leng th, but rather of
+that of an independent version of Wx,•on its way to hitting zero.
+Observe also that, due to the self-similarity of the Brownian motion p rocess, rep-
+resentation (5)–(6) implies that
+RT
+x,•Td=T1/2RT−1/2x,•
+(as processes in C[0,1]), where we put Rx,t:=R1
+x,t.
+The main aim of the present note is to give simple proofs to functional versions
+of (4) and (7) (that had “remained elusive”, as was noted in [5]).
+Theorem 1 For anyx >0,
+{Vx,u}u≤1d={xV1,u}u≤1. (8)
+Furthermore, there exists a regular version of the conditio nal distribution of V1,•in
+C[0,1]givenτ(1) =Tthat coincides with the law of T1/2RT−1/2,•, and therefore, if
+τd=τ(1)is independent of the Brownian motion process from represen tation(5)–(6),
+then one has
+{V1,u}u≤1d={τ1/2Rτ−1/2,u}u≤1. (9)3
+Before proceeding to prove Theorem 1, we will make the following obs ervation.
+That the asymptotic behaviour (3) holds is most natural in view of re presentation (9)
+and the form (1) of the density of τ(x), the latter implying that τ1/2has the density
+/radicalbigg
+2
+πy−2e−1/2y2, y > 0.
+Moreover, since Wx,•isamartingalewith Wx,0=x, fromtheoptionalsamplingtheorem
+one immediately obtains that, using notation
+ˆXt:= sup
+s≤tXs,ˇXt:= inf
+s≤tXs
+for the maximum and minimum processes of X•, one has
+P(ˆVx,1> y) =P/parenleftbigˆWx,τ(x)> y/parenrightbig
+=xy−1, y > x, (10)
+with the same asymptotic behaviour ∝y−2asy→ ∞for the density.
+Finally, denoting by qx,y,u(z) the density of a random variable following the condi-
+tional distribution L/parenleftbig
+y−1Vx,u|ˆVx,1> y/parenrightbig
+ofy−1Vx,ugivenˆVx,1> y(here and in what
+follows,L/parenleftbig
+X|C/parenrightbig
+denotes the conditional distribution of the random element Xin the
+respective measureable space given condition C), it is easily seen from (2), (3) and (10)
+that, for any ﬁxed x,z >0 andu∈(0,1),
+qx,y,u(z)∼4/radicalbig
+u(1−u)
+πz2asy→ ∞.
+Proof of Theorem 1. First we observe that
+Wx,t=x(1+x−1Wt) =x/tildewiderW1,tx−2, t≥0, (11)
+where/tildewiderW1,•is a Brownian motion process starting at 1. All quantities related to t his
+process we will label with tilde. As τ(x) is the ﬁrst time the LHS of (11) turns into
+zero, we see that /tildewideτ(1) =τ(x)x−2.Therefore
+Vx,u=Wx,uτ(x)=x/tildewiderW1,u/tildewideτ(1)=x/tildewideV1,u, u∈[0,1],
+which proves (8). So from now on, we can assume without loss of gen erality that x= 1.
+Next let, for some functions fj∈C[0,1] and numbers rj>0, j= 1,2,...,n,
+A:=/intersectiondisplay
+j≤n{f∈C[0,1] :/bardblf−fj/bardbl< rj}
+be a ﬁnite intersection of open balls in C[0,1] (/bardbl·/bardblstands for the uniform norm). For
+T,h,δ > 0, put
+AT:={f(•/T) :f∈A} ⊂C[0,T], ε(δ) := max
+j≤nωfj(δ),4
+whereωf(δ) := sup0≤s<t≤s+δ≤1|f(s)−f(t)|is the continuity modulus of the function f.
+Finally, we denoteby Aε(h/T)
+Ttheε(h/T)-neighbourhoodof AT(intheuniformtopology
+onC[0,T]) and introduce the event
+BT,h:=/braceleftbig
+{W1,t}t∈[0,T]∈Aε(h/T)
+T/bracerightbig
+.
+Now, using the Markov property and the well-know relations
+P/parenleftbigˇWT+h<0|WT=y/parenrightbig
+= 2Φ(yh−1/2),P/parenleftbigˇW1,T>0|W1,T=y/parenrightbig
+= 1−e−2y/T, y >0,
+whereΦ = 1−Φ,Φ being the standard normal distribution function, we have
+P/parenleftbig
+V1,•∈A, τ(1)∈(T,T+h)/parenrightbig
+≤P/parenleftbig
+BT,h, τ(1)∈(T,T+h)/parenrightbig
+=/integraldisplay∞
+0P/parenleftbig
+BT,h, τ(1)∈(T,T+h)|W1,T=y/parenrightbig
+P(W1,T∈dy)
+=/integraldisplay∞
+0P/parenleftbig
+BT,h,ˇW1,T>0,ˇW1,T+h<0|W1,T=y/parenrightbig
+P(W1,T∈dy)
+=/integraldisplay∞
+0P/parenleftbig
+BT,h,ˇW1,T>0|W1,T=y/parenrightbig
+P/parenleftBig
+min
+t∈[T,T+h]W1,t<0/vextendsingle/vextendsingle/vextendsingleW1,T=y/parenrightBig
+P(W1,T∈dy)
+=/integraldisplay∞
+0P/parenleftbig
+BT,h|ˇW1,T>0,W1,T=y/parenrightbig
+P/parenleftbigˇW1,T>0|W1,T=y/parenrightbig
+2Φ(yh−1/2)P(W1,T∈dy)
+= 2/integraldisplay∞
+0P/parenleftbig
+BT,h|ˇW1,T>0,W1,T=y/parenrightbig/parenleftbig
+1−e−2y/T/parenrightbig
+Φ(yh−1/2)P(W1,T∈dy)
+= (4+o(1))h1/2/integraldisplayh1/4
+0P/parenleftbig
+BT,h|ˇW1,T>0,W1,T=y/parenrightbig
+gT(yh−1/2)dy+o(h) (12)
+ash↓0,where
+gT(u) =1√
+2πuT−3/2e−1/(2T)Φ(u), u > 0,
+and we used Mills ratio to infer that/integraltext∞
+h1/4=o(h)
+Next we will show that the probability in the last integrand in (12) conv erges to
+the respective probability for the Brownian meander process as y↓0.
+Recall that the Brownian meander process {W⊕
+s}s≤1can be deﬁned as follows (see
+e.g. [4] or p.64 in[2]): letting ζ:= sup{t≤1 :Wt= 0}bethe last zero ofthe Brownian
+motion in [0 ,1], we set
+W⊕
+s:= (1−ζ)−1/2/vextendsingle/vextendsingleWζ+(1−ζ)s/vextendsingle/vextendsingle,0≤s≤1.
+This is a continuous nonhomogeneous Markov process whose trans ition density can be
+found e.g. in [4] (relations (1.1) and (1.2)). It is known that the cond itional version
+of the process pinned at x >0 at time s= 1 coincides in distribution with the three-
+dimensional Bessel process starting at zero and also pinned at xat times= 1 (see e.g.
+p.64 in [2]), which can be written as
+L/parenleftbig
+{W⊕
+s}s≤1|W⊕
+1=x/parenrightbig
+=L/parenleftbig
+{/bardblW(3)
+s/bardbl}s≤1|/bardblW(3)
+1/bardbl=x/parenrightbig
+.5
+It is not hard to deduce from here, the spherical symmetry of the Brownian motion
+processW(3)
+•and representation (5)–(6) above that
+L/parenleftbig
+{W⊕
+s}s≤1|W⊕
+1=x/parenrightbig
+=L/parenleftbig
+{/bardblW(3)
+x,1−s−(1−s)W(3)
+x,1/bardbl}s≤1/parenrightbig
+=L/parenleftbig
+{Rx,1−s}s≤1/parenrightbig
+.(13)
+An alternative insightful interpretation of the Brownian meander is given by the
+fact that its distribution (in C[0,1]) coincides with the weak limit of conditional dis-
+tributions of W•conditioned to stay above −ε↑0 :
+L/parenleftbig
+{W⊕
+s}s≤1/parenrightbig
+= w-lim
+ε↓0L/parenleftbig
+{Ws}s≤1|ˇW1>−ε/parenrightbig
+(Theorem (2.1) in [4]; w-lim stands for the limit in weak topology). A cond itional
+version of a result of this type is used in the calculation displayed in (14 ) below.
+Now return to the probability in the integrand in the last line in (12) and recall the
+well-known property of Brownian bridges that conditioning a Brownia n motion on its
+arrival at a point y/ne}ationslash= 0 at time Tis equivalent to conditioning on its arrival to zero
+at that time and then adding the deterministic linear trend componen tyt/T. This
+implies that, for any ε≥ε(h/T),
+P/parenleftbig
+BT,h|ˇW1,T>0,W1,T=y/parenrightbig
+=P/parenleftbig
+{W1,t+ytT−1}t≤T∈Aε(h/T)
+T|W1,T= 0;W1,s>−ysT−1,s∈[0,T]/parenrightbig
+=P/parenleftbig
+{WT−t+ytT−1}t≤T∈Aε(h/T)
+T|WT= 1;Ws>−y(T−s)T−1,s∈[0,T]/parenrightbig
+=P/parenleftbig
+{T1/2W1−v+yv}v≤1∈Aε(h/T)|W1=T−1/2;Wv>−yT−1/2(1−v),v∈[0,1]/parenrightbig
+≤P/parenleftbig
+{T1/2W1−v+yv}v≤1∈Aε|W1=T−1/2;Wv>−yT−1/2(1−v),v∈[0,1]/parenrightbig
+→P/parenleftbig
+{T1/2W⊕
+1−v}v≤1∈Aε|W⊕
+1=T−1/2/parenrightbig
+=P/parenleftbig
+{T1/2RT−1/2,s}s≤1∈Aε/parenrightbig
+(14)
+asy↓0,where the second last relation follows from the weak convergence e stablished
+in Theorem 6 in [3] (as it is obvious that Aεhas null boundary w.r.t. the limiting
+distribution) and the last one follows from (13).
+Sinceε(h/T)→0 ash↓0, andAhas a null boundary under L/parenleftbig
+{T1/2RT−1/2,s}s≤1/parenrightbig
+,
+we conclude from (12) (changing there the variables: u=yh−1/2) that
+limsup
+h↓01
+hP/parenleftbig
+V1,•∈A, τ(1)∈(T,T+h)/parenrightbig
+≤limsup
+h↓04P/parenleftbig
+T1/2RT−1/2,•∈A/parenrightbig/integraldisplayh−1/4
+0gT(u)du
+=P/parenleftbig
+T1/2RT−1/2,•∈A/parenrightbig
+p1(T), (15)
+owing to/integraltext∞
+0uΦ(u)du=1
+4and (1).6
+As the same argument as employed in (14) and (15) will also work for t he comple-
+ment ofA, we obtain that
+P/parenleftbig
+V1,•∈A, τ(1)∈(T,T+h)/parenrightbig
+∼P/parenleftbig
+T1/2RT−1/2,•∈A/parenrightbig
+p1(T)hash↓0.
+This relation implies that, for any ﬁxed 0 < T1< T2<∞,
+P/parenleftbig
+V1,•∈A, τ(1)∈(T1,T2)/parenrightbig
+=/integraldisplayT2
+T1P/parenleftbig
+T1/2RT−1/2,•∈A/parenrightbig
+p1(T)dT.
+Since intersections of ﬁnite collections of open balls form determining classes in sepa-
+rable spaces (see e.g. Section I.2 in [1]), this completes the proof of the theorem.
+Acknowledgment. The author is grateful to the referee whose valuable comments
+helped to improve the exposition of the paper.
+References
+[1] Patrick Billingsley. Convergence of Probability Measures. 2nd edn. Wiley, New
+York, 1999. MR1700749
+[2] Andrei N. Borodin and Paavo Salminen. Handbook of Brownian motion—facts and
+formulae. 2nd edn. Birkh¨ auser Verlag, Basel, 2002. MR1912205
+[3] Konstantin Borovkov and Anrew N. Downes. On boundary cross ing probabilities
+for diﬀusion processes. Stoch. Proc. Appl. 2009. DOI 10.1016/j.spa.2009.11.002
+[4] Richard T. Durrett, Donald L. Iglehart and Douglas R. Miller. Weak convergence
+to Brownian meander and Brownian excursion. Ann. Probab. 5:117–129, 1977.
+MR0436353
+[5] Fima C. Klebaner and Pavel Chigansky. Distribution of the Brownia n motion on
+its way to hitting zero. Electr. Comm. Probab. 13:641–648, 2008. MR2466191

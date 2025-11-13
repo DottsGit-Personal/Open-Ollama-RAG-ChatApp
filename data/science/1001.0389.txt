@@ -1,0 +1,286 @@
+arXiv:1001.0389v1  [hep-ph]  3 Jan 2010αsDetermination from τDecays: Theoretical Status∗
+Antonio Pich
+Departament de F´ ısica Te` orica, IFIC, Universitat de Val` encia - CSIC
+Apt. Correus 22085, E-46071 Val` encia, Spain
+The totalτhadronic width can be accurately calculated using analyt-
+icity and the operator product expansion. The result turns out to be very
+sensitive to the value of αs(m2
+τ), providing a precise determination of the
+strong coupling constant. The theoretical description of this obs ervable is
+updated, including the recently computed O(α4
+s) contributions. The exper-
+imental determination of αs(m2
+τ) and its actual uncertainties are discussed.
+PACS numbers: 12.38.-t, 12.38.Bx, 12.38.Qk
+1. Introduction
+The inclusive hadronic decay width of the τlepton provides one of the
+most precise measurements of the strong coupling [1–7]. Mor eover, the
+comparison of αs(m2
+τ) withαsdeterminations at higher energies constitutes
+the most accurate test of asymptotic freedom, successfully conﬁrming the
+predicted running of the QCD coupling at the four-loop level .
+The calculation of the O(α4
+s) contribution [8] has triggered a renewed
+theoretical interest on the αs(m2
+τ) determination, since it allows to push
+the accuracy to the four-loop level [8–13]. However, the rec ent theoretical
+analysesslightly disagreeontheﬁnalresult, givingriset oarangeofdiﬀerent
+values forαs(m2
+τ). The diﬀerences among these results, shown in Table 1,
+are too large compared with the claimed O(α4
+s) accuracy and originate in
+the diﬀerent inputs or theoretical procedures which have bee n adopted.
+In the following I try to clarify the reasons behind these num erical dis-
+crepancies andreassesstheactual uncertainties ofthe τdecay determination
+ofαs. Using all present experimental and theoretical knowledge , I derive
+the value
+αs(m2
+τ) = 0.342±0.012. (1)
+∗Presented at the Flavianet topical workshop on Low energy constraints on extensions
+of the Standard Model , Kazimierz, Poland, 23-27 July 20092
+Reference Method δP αs(m2
+τ)
+Baikov et al. [8] CIPT, FOPT 0.1998±0.00430.332±0.016
+Davier et al. [9] CIPT 0.2066±0.00700.344±0.009
+Beneke-Jamin [10] BSR + FOPT 0.2042±0.00500.316±0.006
+Maltman-Yavin [11] PWM + CIPT — 0.321±0.013
+Menke [12] CIPT, FOPT 0.2042±0.00500.342+0.011
+−0.010
+Caprini-Fischer [13] BSR + CIPT 0.2042±0.00500.320+0.011
+−0.009
+Table 1. O(α4
+s) determinations of αs(m2
+τ).
+2. Theoretical framework
+The inclusive character of the total τhadronic width renders possible
+an accurate calculation of the ratio [1–5]
+Rτ≡Γ[τ−→ντhadrons(γ)]
+Γ[τ−→ντe−¯νe(γ)]=Rτ,V+Rτ,A+Rτ,S.(2)
+The theoretical analysis involves the two-point correlati on functions for the
+left-handed quark currents Lµ
+ij=¯ψjγµ(1−γ5)ψi(i,j=u,d,s):
+Πµν
+ij(q)≡i/integraldisplay
+d4xeiqx/an}bracketle{t0|T(Lµ
+ij(x)Lν
+ij(0)†)|0/an}bracketri}ht
+=/parenleftBig
+−gµνq2+qµqν/parenrightBig
+Π(1)
+ij(q2) +qµqνΠ(0)
+ij(q2).(3)
+Using analyticity, Rτcan be written as a contour integral in the complex
+s-plane running counter-clockwise around the circle |s|=m2
+τ:
+Rτ= 6πi/contintegraldisplay
+|s|=m2τds
+m2τ/parenleftbigg
+1−s
+m2τ/parenrightbigg2/bracketleftbigg/parenleftbigg
+1+2s
+m2τ/parenrightbigg
+Π(0+1)(s)−2s
+m2τΠ(0)(s)/bracketrightbigg
+,
+(4)
+where Π(J)(s)≡ |Vud|2Π(J)
+ud(s) +|Vus|2Π(J)
+us(s). This expression requires
+the correlators only for complex sof orderm2
+τ, which is signiﬁcantly larger
+than the scale associated with non-perturbative eﬀects. Usi ng the Opera-
+tor Product Expansion (OPE) to evaluate the contour integra l,Rτcan be
+expressed as an expansion in powers of 1 /m2
+τ. The uncertainties associated
+with the use of the OPE near the time-like axis are heavily sup pressed by
+the presence in (4) of a double zero at s=m2
+τ[1,9,14].
+The theoretical prediction for the Cabibbo-allowed decay w idth can be
+written as [1]
+Rτ,V+A=NC|Vud|2SEW{1+δP+δNP}, (5)3
+whereNC= 3 is the number of quark colours and SEW= 1.0201±0.0003
+contains the electroweak radiative corrections [15–17]. T he dominant cor-
+rection (∼20%) is the perturbativeQCDcontribution inthemassless-q uark
+limitδP, whichis already knownto O(α4
+s) [1,8]. Quarkmass eﬀects [1,18,19]
+are tiny for the Cabibbo-allowed current and amount to a negl igible correc-
+tion smaller than 10−4[1,10].
+Non-perturbative contributions are suppressed by six powe rs of theτ
+mass [1] and, therefore, are very small. Their numerical siz e has been deter-
+mined from the invariant-mass distribution of the ﬁnal hadr ons inτdecay,
+through the study of weighted integrals [20] which can be cal culated theo-
+retically in the same way as Rτ. The predicted suppression [1] of the non-
+perturbative corrections has been conﬁrmed by ALEPH [21], C LEO [22]
+and OPAL [23]. The most recent analysis [6] gives
+δNP=−0.0059±0.0014. (6)
+The measured values of the τlifetime and leptonic branching ratios im-
+plyRτ= 3.640±0.010 [9]. Subtracting the Cabibbo-suppressed contribu-
+tionRτ,S= 0.1615±0.0040 [9], one obtains Rτ,V+A= 3.479±0.011. Using
+|Vud|= 0.97418±0.00027 [24] and (6), the pure perturbative contribution
+toRτis determined to be:
+δP= 0.2038±0.0040. (7)
+3. Perturbative contribution to R τ
+In the chiral limit ( mu=md=ms= 0), the vector and axial-vector
+currents are conserved. This implies sΠ(0)(s) = 0; therefore, only the cor-
+relator Π(0+1)(s) contributes to Eq. (4). The result is more conveniently
+expressed in terms of the logarithmic derivative of the two- point correlation
+function of the vector (axial) current, Π( s) =1
+2Π(0+1)(s), which satisﬁes an
+homogeneous renormalization–group equation:
+D(Q2)≡ −Q2d
+dQ2Π(Q2) =NC
+12π2/summationdisplay
+n=0Kn/parenleftBigg
+αs(Q2)
+π/parenrightBiggn
+.(8)
+With the choice of renormalization scale µ2=Q2≡ −sall logarithmic
+corrections, proportional to powers of log( −s/µ2), have been summed into
+the running coupling. The Kncoeﬃcients are known to order α4
+s. For
+nf= 3 quark ﬂavours, one has [8,25–29]: K0=K1= 1,K2= 1.63982,
+KMS
+3= 6.37101 andKMS
+4= 49.07570.
+The perturbative component of Rτis given by
+δP=/summationdisplay
+n=1KnA(n)(αs), (9)4
+LoopsA(1)(αs)A(2)(αs)A(3)(αs)A(4)(αs)A(5)(αs)δP
+10.13247 0.01570 0.001698 0.000169 0.0000154 0.1773
+20.13523 0.01575 0.001629 0.000151 0.0000124 0.1788
+30.13540 0.01565 0.001597 0.000145 0.0000115 0.1784
+40.13529 0.01557 0.001579 0.000142 0.0000112 0.1779
+Table 2. Exact results for A(n)(αs) (n≤5) at diﬀerent β-function approximations,
+and corresponding values of δP=/summationtext4
+n=1KnA(n)(αs), forαs(m2
+τ)/π= 0.1.
+where the functions [2]
+A(n)(αs)≡1
+2πi/contintegraldisplay
+|s|=m2τds
+s/parenleftbiggαs(−s)
+π/parenrightbiggn/parenleftBigg
+1−2s
+m2τ+2s3
+m6τ−s4
+m8τ/parenrightBigg
+(10)
+are contour integrals in the complex plane which only depend on the strong
+coupling. Using the exact solution (up to unknown βn>4contributions) for
+αs(s) given by the renormalization-group β-function equation, they can be
+numerically computed with a very high accuracy [2].
+Table 2 gives the numerical values for A(n)(αs) (n≤5) obtained at the
+one-, two-, three- and four-loop approximations (i.e. βn>1= 0,βn>2= 0,
+βn>3= 0 andβn>4= 0, respectively), together with the corresponding re-
+sults forδP=/summationtext4
+n=1KnA(n)(αs), takingαs(m2
+τ)/π= 0.1. The perturbative
+convergence is very good. Theerrorinducedby thetruncatio n of theβfunc-
+tion at fourth order can be conservatively estimated throug h the variation
+of the results at ﬁve loops, assuming β5=±β2
+4/β3=∓443, i.e. a geometric
+growth of the βfunction. Higher-order contributions to the Adler functio n
+D(Q2) will be taken into account adding the ﬁfth-order term K5A(5)(αs)
+withK5= 275±400. Including, moreover, the5-loop variation withchange s
+of the renormalization scale in the range µ2∈[0.5,1.5], one gets the ﬁnal
+resultδP= 0.1810±0.0045K5±0.0013β5±0.0013µ= 0.1810±0.0049 for
+αs(m2
+τ)/π= 0.1.
+Adopting this very conservative procedure, the experiment al value ofδP
+given in Eq. (7) implies the strongcoupling determination q uoted in Eq. (1).
+4. Discussion on previous O(α4
+s) determinations of αs(m2
+τ)
+The integrals A(n)(αs) can be expanded in powers of aτ≡αs(m2
+τ)/π,
+A(n)(αs) =an
+τ+O(an+1
+τ). One recovers in this way the naive perturbative
+expansionδP=/summationtext
+n=1(Kn+gn)an
+τ≡/summationtext
+n=1rnan
+τ[2]. This approximation
+is known as ﬁxed-order perturbation theory (FOPT), while the improved
+expression (9), keeping the non-expanded values for the int egralsA(n)(αs),5
+is usuallycalled contour-improved perturbation theory (CIPT) [2,30]. FOPT
+gives rise to a pathological non-convergent series (its rad ius of convergence
+is slightly smaller than the physical value of aτ), because the long running
+ofαs(s) along the circle |s|=m2
+τgenerates very large gncoeﬃcients, which
+depend on Km<nandβm<n[2]:g1= 0,g2= 3.56,g3= 19.99,g4=
+78.00,g5= 307.78. These corrections are much larger than the original Kn
+contributions and lead to values of αs(m2
+τ) smaller than (1). FOPT suﬀers
+from a huge renormalization-scale dependence [2]. As shown in a recent
+detailed analysis [12], the actual FOPT uncertainties are m uch larger than
+usually estimated. Once this is taken properly into account , the FOPT
+results are consistent with CIPT, but their huge uncertaint ies make them
+irrelevant.
+An ad-hoc model of higher-order coeﬃcients for the Adler fun ction has
+been recently advocated [10]. The model mixes three diﬀerent types of
+renormalons ( n=−1, 2 and 3) plus a linear polynomial, trying to enforce a
+cancelation of the Knandgncoeﬃcients in order to get a better behaviour
+of the FOPT series. It contains 5 free parameters which are de termined
+by the known coeﬃcients of the Adler series and the chosen val ue ofK5.
+Making a Borel summation of the full renormalon series (BSR) , one gets a
+sizeable positive contribution to δPfrom higher orders, implying a smaller
+value forαs(m2
+τ) independently of the adopted FOPT [10] or CIPT [13]
+procedure. Thismodelconstitutes aninterestingexampleo fpossiblehigher-
+order corrections, makingapparent that theassociated unc ertainties have to
+becarefullyestimated. However, itcannotbeusedtodeterm inethephysical
+value ofαs, because the result is model dependent. Diﬀerent assumption s
+about the unknown Kncoeﬃcients would lead to diﬀerent central values for
+αs.
+The determination of αs(m2
+τ) in Eq. (1) agrees with Refs. [6,12] and
+with the CIPT value in Ref. [8]. It is somewhat larger than the (CIPT)
+result extracted in Ref. [11] from pinched-weight moments ( PWM) of the
+hadronic distribution, which seems to correspond to a very d iﬀerent value of
+δNP. After evolution up to the scale MZ[31], the strong coupling in Eq. (1)
+decreases to
+αs(M2
+Z) = 0.1213±0.0014, (11)
+in excellent agreement with the direct measurements at the Z peak.
+Acknowledgements
+This work has been supported in part by the EU Contract MRTN-
+CT-2006-035482 (FLAVIAnet), by MICINN, Spain (grants FPA2 007-60323
+and Consolider-Ingenio 2010 CSD2007-00042 –CPAN–) and by G eneralitat
+Valenciana (Prometeo/2008/069, ACOMP/2009/312).6
+REFERENCES
+[1] E. Braaten, S. Narison and A. Pich, Nucl. Phys. B 373 (1992) 581 .
+[2] F. Le Diberder and A. Pich, Phys. Lett. B 286 (1992) 147.
+[3] S. Narison and A. Pich, Phys. Lett. B 211 (1988) 183.
+[4] E. Braaten, Phys. Rev. Lett. 60 (1988) 1606; Phys. Rev. D 39 (1989) 1458.
+[5] A. Pich, Nucl. Phys. B (Proc. Suppl.) 39B,C (1995) 326;
+arXiv:hep-ph/9701305.
+[6] M. Davier, A. H¨ ocker and Z. Zhang, Rev. Mod. Phys. 78 (2006) 1043;
+[7] A. Pich, Nucl. Phys. B (Proc. Suppl.) 186 (2009) 187.
+[8] P.A. Baikov, K.G. Chetyrkin and J.H. K¨ uhn, Phys. Rev. Lett. 101 (2008)
+012002.
+[9] M. Davier et al., Eur. Phys. J. C 56 (2008) 305.
+[10] M. Beneke and M. Jamin, JHEP 0809 (2008) 044.
+[11] K. Maltman and T. Yavin, Phys. Rev. D 78 (2008) 094020.
+[12] S. Menke, arXiv:0904.1796 [hep-ph].
+[13] I. Caprini and J. Fischer, Eur. Phys. J. C 64 (2009) 35.
+[14] O. Cata, M. Golterman and S. Peris, Phys. Rev. D 77 (2008) 093 006.
+[15] W.J. Marciano and A. Sirlin, Phys. Rev. Lett. 61 (1988) 1815.
+[16] E. Braaten and C.S. Li, Phys. Rev. D 42 (1990) 3888.
+[17] J. Erler, Rev. Mex. Phys. 50 (2004) 200.
+[18] A. Pich and J. Prades, JHEP 9910 (1999) 004; 9806 (1998) 013 .
+[19] P.A. Baikov, K.G. Chetyrkin and J.H. K¨ uhn, Phys. Rev. Lett. 95 (2005)
+012003.
+[20] F. Le Diberder and A. Pich, Phys. Lett. B 289 (1992) 165.
+[21] ALEPH Collaboration, Phys. Rep. 421 (2005) 191; Eur. Phys. J . C 4 (1998)
+409; Phys. Lett. B 307 (1993) 209.
+[22] CLEO Collaboration, Phys. Lett. B 356 (1995) 580.
+[23] OPAL Collaboration, Eur. Phys. J. C 7 (1999) 571.
+[24] C. Amsler et al., The Review of Particle Physics , Phys. Lett. B 667 (2008) 1.
+[25] K.G. Chetyrkin, A.L. Kataev and F.V. Tkachov, Phys. Lett. 85B (1979) 277.
+[26] M. Dine and J. Sapirstein, Phys. Rev. Lett. 43 (1979) 668.
+[27] W. Celmaster and R. Gonsalves, Phys. Rev. Lett. 44 (1980) 56 0.
+[28] S.G. Gorishny, A.L. Kataev and S.A. Larin, Phys. Lett. B 259 (19 91) 144.
+[29] L.R. Surguladze and M.A. Samuel, Phys. Rev. Lett. 66 (1991) 56 0.
+[30] A.A. Pivovarov, Z. Phys. C 53 (1992) 461.
+[31] G. Rodrigo, A. Pich and A. Santamaria, Phys. Lett. B 424 (1998 ) 367.

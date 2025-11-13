@@ -1,0 +1,313 @@
+arXiv:1001.0134v2  [astro-ph.HE]  22 Sep 2010Draft version September 8, 2018
+Preprint typeset using L ATEX style emulateapj v. 11/10/09
+THE SPECTRUM OF COSMIC RAYS ESCAPING FROM RELATIVISTIC SHOC KS
+Boaz Katz1, Peter M ´esz´aros2and Eli Waxman1
+Draft version September 8, 2018
+ABSTRACT
+We derive expressions for the time integrated spectrum of Cosmic R ays (CRs) that are accelerated
+in a decelerating relativistic shockwaveand escape ahead of the sho ck. It is assumed that at any given
+time the CRs have a power law form, carry a constant fraction of th e energy Eof the shocked plasma,
+andescapecontinuouslyatthemaximalenergyattainable. Thespe ctrumofescapingparticlesishighly
+sensitive to the instantaneous spectral index due to the fact tha t the minimal energy, εmin∼Γ2mpc2
+where Γ is the shock Lorentz factor, changes with time. In particu lar, the escaping spectrum may be
+considerably harder than the canonical N(ε)∝ε−2spectrum. For a shock expanding into a plasma
+of density n, a spectral break is expected at the maximal energy attainable at the transition to non
+relativistic velocities, ε∼1019(ǫB/0.1)(n/1cm−3)1/6(E/1051erg)1/3eV where ǫBis the fraction of the
+energy ﬂux carried by the magnetic ﬁeld. If ultra-high energy CRs a re generated in decelerating
+relativistic blast waves arising from the explosion of stellar mass obje cts, their generation spectrum
+may therefore be diﬀerent than the canonical N(ε)∝ε−2.
+Subject headings: cosmic rays
+1.INTRODUCTION
+Cosmic rays (CRs) are widely believed to be accel-
+erated in collisionless shock waves in various systems
+(see e.g. Blandford & Eichler 1987; Axford 1994). In
+particular, supernova remnant (SNR) shocks propagat-
+ing subrelativistically are thought to accelerate pro-
+tons up to ∼1015eV (see e.g. Ginzburg & Syrovatskii
+1969), while non or trans-relativistic internal shocks
+or ultra-relativistic external shocks of the jets of ac-
+tive galactic nuclei (AGNs, see e.g. Berezinsky 2008) or
+gamma-ray bursts (GRBs, Waxman 1995; Vietri 1995;
+Milgrom & Usov 1995) may be the sources of Ultra High
+Energy CRs (UHECRs) up to the GZK energies of ∼
+few×1020eV.
+In cases where the shocked material expands consider-
+ably before releasing the CRs, most of the cosmic rays
+loose most of their energy by adiabatic losses before es-
+caping. Thus, the instantaneous spectrum of CRs at a
+given time and the integrated spectrum of the CRs es-
+caping from the system may be diﬀerent.
+In this paper, we write down simple analytic expres-
+sions forthe spectrum ofescapingCRs from a relativistic
+decelerating shock wave assuming that at any given time
+(a) CRs escape at the maximal energy attainable at that
+time, (b) the CRs have a power law energy spectrum,
+and (c) the CRs carry a constant fraction of the shocked
+thermal plasma. We show that even under these simple,
+widely acceptable assumptions, the resulting spectrum
+may be non trivial and in particular signiﬁcantly harder
+than the canonical N(ε)∝ε−2spectrum.
+In section §2 we formulate our basic assumptions and
+give general expressions for the resulting ﬂux. In section
+§3 we focus on energy conserving blast waves expanding
+in a uniform medium. The implications of the results
+are discussed in §4. Expressions for the escaping CR
+1Weizmann Institute of Science, Rehovot, Israel
+2Dpt. of Astronomy & Astrophysics; Dpt. of Physics; Center
+for Particle Astrophysics,Pennsylvania State University , Univer-
+sity Park, PA 16802, USAspectrum expected in other scenarios, including power
+law density proﬁles, radiative shocks, and a jet injection
+with constant luminosity, are derived in §A.
+2.BASIC MODEL AND ASSUMPTIONS
+Consider CRs that are accelerated by an expanding
+shock wave which is decelerating due to interaction with
+an external medium.
+2.1.Assumptions
+(i) The basic assumption that we make is that at any
+given time (or shock radius R), particles escape at the
+maximal energy εmaxattainable at that time. Speciﬁ-
+cally, it is assumed that εNesc(ε), the number of CRs
+ejected within a logarithmic energy interval around ε,
+is similar to the number of particles in the system,
+εN(ε,R), at the radius Rfor which the maximal energy
+εmaxis equal to ε,
+εNesc(ε)∼εN(ε,R|εmax=ε). (1)
+Here and everywhere else in this letter, all quantities
+are measured in the observer frame. This assumption
+is expected to be true whenever the acceleration is lim-
+ited by the ﬁnite size of the system (for a recent dis-
+cussion see e.g. Caprioli et al. 2009). Note that for
+a relativistic shock with Lorenz factor Γ, only parti-
+cles that move in the shock propagation direction to
+within an angular deviation of 1 /Γ, can outrun the shock
+and escape. This does not introduce a further correc-
+tion however, due to the fact that all particles in the
+shocked region, including the thermal and accelerated
+particles, are beamed in the observer frame to an an-
+gular separation of 1 /Γ (for examples of the expected
+angular distribution of CRs in relativistic shocks see
+e.g. Kirk & Schneider 1987; Bednarz & Ostrowski 1998;
+Kirk et al. 2000; Keshet & Waxman 2005).
+For concreteness we further make the following as-
+sumptions.
+(ii) At any given radius R, the energy spectrum of CRs2 Katz et al.
+is a power law, N(ε)∝ε−2−xforεmin< ε < ε max, with
+x >0 and with total energy ECR. The spectrum can be
+expressed as
+ε2N(ε) =xECR/parenleftbiggε
+εmin/parenrightbigg−x
+, (2)
+where we assumed that ( εmax/εmin)−x≪1.
+(iii) The minimal, maximal and total cosmic ray energies
+are power law functions of the radius,
+εmin∝R−αmin, εmax∝R−αmax, ECR∝R−αE.(3)
+2.2.Resulting spectra
+Under the aboveassumptions, the spectrum of escaped
+particles is given by
+ε2Nesc(ε)∝ε−xesc(4)
+with
+xesc=x−(αminx+αE)/αmax. (5)
+For the case αmin= 0, this reduces to equation (28) of
+Ohira et al. (2009).
+Equation (5) is valid for x >0. We note that for the
+limiting value, x= 0, a logarithmic correction is intro-
+duced to the spectrum of escaped CRs, due to the loga-
+rithmic dependence of the total CR energy on εmin,max,
+ECR= log(εmax/εmin)ε2N(ε). Forx <0, the energy
+carried by the CRs is dominated by the particles with
+largest energies, ε=εmax. The resulting escaped spec-
+trum satisﬁes xesc=αE/αmaxand is not sensitive to the
+form of the instantaneous spectrum.
+3.ENERGY CONSERVING BLAST WAVES
+We next apply the abovegeneralresult to simple cases,
+focusing on a blast wave of ﬁxed energy which starts oﬀ
+ultra-relativistic, and then decelerates to non relativis-
+tic velocity. The non relativistic and relativistic stages
+are analyzed in §3.1 and§3.2 respectively. The spec-
+trum resulting from the combination of the two stages is
+addressed in §4.
+3.1.Non-relativistic expansion
+Perhaps the simplest case to consider is the case of
+constant CR minimal energy εminand total energy ECR
+(αE,αmin= 0). This is expected in the Sedov-Taylor
+phase of non relativistic blast waves. The energy in CRs
+is dominated by the relativistic CRs, ε > m pc2, and is
+commonly assumed to be a constant fraction fof the
+total energy Ein the system. Hence εmin∼mpc2and
+ECR=fE, both independent of the shock radius. Eq.
+(5) implies that the escaped spectrum is the same as the
+instantaneous spectrum,
+xesc=x,i.e. Nesc(ε)∝ε−2−x. (6)
+This result can be obtained directly from Eq. (1) by not-
+ing that the entire spectrum, up to the maximal energy
+εmax(R), is independent of radius.
+3.2.Ultra-relativistic expansion
+We next consider the case of ultra-relativistic expan-
+sion. Below and in §A we make the following assump-
+tions in addition to assumptions (i)-(iii) above:(iv) The minimal CR energy is the energy of the thermal
+particles,
+εmin∼εth∼Γ2mpc2; (7)
+(v) TheCR pressureisa radiusindependent fraction fCR
+of the momentum ﬂux in the shock frame, pCR∝Γ2ρ,
+implying
+ECR∝R3Γ2ρ; (8)
+(vi) The maximal CR energy is the maximal energy of
+CRsthat areconﬁned by aﬂuid rest framemagnetic ﬁeld
+Brest(equivalent to Diﬀusive Shock Acceleration in the
+Bohm limit),
+εmax∼eEobsδR∼eBrestR∝e(Γρ1/2)R,(9)
+whereEobs∼ΓBrestis the electric ﬁeld in the ob-
+server frame corresponding to a magnetic ﬁeld Brest∼
+(8πΓ2ρc2ǫB)1/2in the rest frame of the shocked plasma,
+assumed to carry a constant fraction ǫBof the momen-
+tum ﬂux, and δR∼R/Γ is the maximal distance that a
+cosmic ray can propagate along the electric ﬁeld in the
+observer frame.
+3.2.1.Ultra-relativistic impulsive expansion
+WenextconsideraBlandford-McKee(energyconserv-
+ing; Blandford & McKee 1976) shock expanding into a
+uniform medium. By assumption αE= 0. Using equa-
+tions (7)-(9), αmax= 1/2 andαmin= 3 are obtained.
+Using (5) we ﬁnd xesc=−5x, or
+Nesc(ε)∝ε5x−2. (10)
+4.DISCUSSION
+The spectral index of escaped CRs, given by Eq. (10),
+may be surprisingly hard if the instantaneous spectrum
+(equ.[2]) is softer than a ﬂat spectrum, i.e. x >0. The
+basic reason for this is the fact that the minimal CR
+energyεmin∼Γ2mpc2changes with radius much faster
+than the maximal energy, implying that at later times
+(corresponding to lower escaped energies) there is much
+lessCR energyat the escaping, highend ofthe spectrum.
+Forexample,considerthecommonlyassumedDiﬀusive
+Shock Acceleration (DSA) mechanism (Krymskii 1977;
+Axford et al. 1977; Bell 1978; Blandford & Ostriker
+1978), which for ultra-relativistic shocks with isotropic,
+small-angle scattering, leads to an instantaneous
+spectrum N∝ε−20/9(Keshet & Waxman 2005;
+Bednarz & Ostrowski 1998; Kirk et al. 2000). Using Eq.
+(10), this implies a very hard escaping spectrum, Nesc∝
+ε−8/9. We emphasize that DSA has not been shown to
+work based on ﬁrst principles and even if it does, the
+resulting spectrum is sensitive to the scattering mecha-
+nism (e.g. Keshet & Waxman 2005; Keshet 2006) which
+is poorly understood. In fact, the instantaneous spec-
+trum does not necessarily need to have a power-law form
+(e.g. Caprioli et al. 2009; Ohira et al. 2009) or to have a
+constant spectral index(e.g. Ellison & Double 2004).
+Note that an instantaneous spectrum that is ﬂat N∝
+ε−2(e.g. Katz et al. 2007) or harder (e.g. Keshet 2006;
+Stecker et al. 2007, and others) can be obtained in spe-
+ciﬁc particle acceleration models. These models, how-
+ever, are diﬀerent from the possible hard spectrum of
+escaping particles discussed above. In fact, such hardCR spectrum 3
+instantaneous spectra lead to a ﬂat escaped spectrum
+Nesc(ε)∝ε−2[see discussion following eq. (5)]. The
+important point is that the escaping spectrum is highly
+uncertain, very sensitive to the acceleration mechanism,
+and may be considerably harder than Nesc(ε)∝ε−2.
+Once the shock decelerates to non relativistic speeds,
+the integrated escaping spectrum changes its form. In
+the subsequent Sedov-Taylor phase, the minimal CR en-
+ergy does not change any more, εmin∼mpc2, and the
+escaping spectrum will be similar to the instantaneous
+spectrum [see Eq. (6)]. Note that in the extreme case
+in which CRs carry most of the energy, and assuming
+they are accelerated by non-linear DSA (for a recent re-
+view see Malkov & Drury 2001), the instantaneous spec-
+trum may not be a power law and correspondingly the
+escaping spectrum is diﬀerent than that given here (e.g.
+Caprioli et al. 2009; Ohira et al. 2009). In any case, a
+signiﬁcant break is expected in the escaping spectrum at
+an energy ε∗equal to the maximal energy achievable at
+the transition from relativistic to non-relativistic shock
+velocities. Using Eq. (9) for Γ β∼1, the break is ex-
+pected at
+ε∗∼eBrestR∼(8πρc2ǫB)1/2[3E/(4πρc2)]1/3
+∼1019ǫB,−1n1/6
+0E1/3
+51eV, (11)where we have taken, as an example, a gamma-ray burst
+source with E= 1051E51erg,ρ=n mpis the ambient
+densitywith n=n0cm−3, andǫB= 0.1ǫB,−1. Thespec-
+tral index above this energy will be −2−xesc=−2+5x,
+as given by Eq. (10). We note that the energy range
+wherexesc=−5xis limited between ε∗and max( ε)∼
+εmax(Γ0) whereΓ 0isthe initialLorentzfactor. The max-
+imal energy scales with Γ as εmax∝Γ1/3resulting in a
+narrow energy range ε∗/lessorsimilarε/lessorsimilarΓ1/3
+0ε∗. While this range
+depends on model parameters, it does point to a possible
+mechanism for achieving a hardening of the spectrum at
+the high end of the CR spectrum.
+We conclude that the spectrum of UHECRs, may be
+diﬀerent than ε−2, and possibly considerably harder, e.g.
+if they originate from a relativistic decelerating blast-
+waveresultingfromtheexplosionofastellarmassobject.
+ACKNOWLEDGMENTS
+BK & EW acknowledge support by ISF, AEC and
+Minerva grants. PM acknowledges support from NSF
+PHY-0757155 grant.
+REFERENCES
+Axford, W. I. , Leer, E. & Skadron, G. 1977, Proc. 15th Int.
+Cosmic Ray Conf., Plovdiv (Budapest: Central Research
+Institute for Physics), 11, 132
+Axford, W. I. 1994, ApJS, 90,937
+Bednarz, J. & Ostrowski, M. 1998, Physical Review Letters, 8 0,
+3911
+Bell, A. R. 1978, MNRAS, 182, 147
+Bednarz, J., & Ostrowski, M. 1998, Physical Review Letters, 80,
+3911
+Berezinsky, V. 2008, Advances in Space Research, 41, 2071
+Blandford, R. D. & Ostriker J. 1978, ApJ, 221, L29
+Blandford, R. & Eichler, D. 1987, Phys. Rep., 154, 1
+Blandford, R. D. & McKee, C. F. 1976, Phys. Fluids, 19, 1130
+Caprioli, D., Blasi, P., & Amato, E. 2009, MNRAS, 396, 2065
+Drury, L. O. 1983, Reports on Progress in Physics, 46, 973
+Ellison, D. C., & Double, G. P. 2004, Astroparticle Physics, 22,
+323Ginzburg, V. L., & Syrovatskii, S. I. 1969, Topics in Astroph ysics
+and Space Physics, New York: Gordon and Breach, 1969,
+Katz, B., Keshet, U., & Waxman, E. 2007, ApJ, 655, 375
+Keshet, U. & Waxman, E. 2005, Physical Review Letters, 94,
+111102
+Keshet, U. 2006, Physical Review Letters, 97, 221104
+Kirk, J. G., & Schneider, P. 1987, ApJ, 315, 425
+Kirk, J. G., Guthmann, A. W., Gallant, Y. A., & Achterberg, A.
+2000, ApJ, 542, 235
+Krymskii, G. F. 1977, Dokl. Akad. Nauk SSSR, 234, 1306
+Malkov, M. A. & Drury, L. O’C. 2001, Rep. Prog. Phys. 64 429
+Milgrom, M., & Usov, V. 1995, ApJ, 449, L37
+Ohira, Y., Murase, K., & Yamazaki, R. 2009, arXiv:0910.3449
+Stecker, F. W., Baring, M. G., & Summerlin, E. J. 2007, ApJ,
+667, L29
+Vietri, M. 1995, ApJ, 453, 883
+E. Waxman, Astrophys. J. 452, L1 (1995).4 Katz et al.
+TABLE 1
+Spectral indexes of escaping CRs for different relativisti c scenarios
+Scenario Conserved quantity αΓ xesc[ρ∝R0]xesc[ρ∝R−2]
+Impulsive, Energy conserving E∼Γ2ρR3(3−αρ)/2−5x −x
+Impulsive, Radiative MΓ∼ΓρR33−αρ−3/2−2x −1/2−x
+Continuous injection L=const. L∼4πρΓ4c3R2(2−αρ)/4-4+3x 2-x
+The value of the spectral index xescis given by Eqs. (A5) and (A6) for the various scenarios. N(ε)∝ε−2−xesc.
+APPENDIX
+OTHER PARTICULAR CASES
+Consider an ultra-relativistic shock, which expands into a medium with a density proﬁle
+ρ∝R−αρ(A1)
+with a bulk Lorentz factor
+Γ∝R−αΓ. (A2)
+Using Eqs. (7)-(9) and (A1) we ﬁnd:
+αmin= 2αΓ, αmax=αΓ+1
+2αρ−1,andαE= 2αΓ+αρ−3. (A3)
+Substituting this in equation (5) we ﬁnd
+xesc= 3−2αΓ−αρ+(2−αρ)+2αΓ
+(2−αρ)−2αΓx. (A4)
+For a uniform density distribution, αρ= 0, and for a wind-like density distribution, αρ= 2, this reduces to
+xesc=3−2αΓ
+αΓ−1+1+αΓ
+1−αΓx, (A5)
+and
+xesc=1−2αΓ
+αΓ+1−x (A6)
+respectively. The escaping spectrum is then
+Nesc(ε)∝ε−2−xesc, (A7)
+which is ﬂatter then −2 forxesc<0. The expected spectral indices xesc, for various physical scenarios, are provided
+in table 1.

@@ -1,0 +1,118 @@
+A new Rational Generating Function for the Frobenius Coin Problem
+Deepak Ponvel Chermakani, IEEE Member
+deepakc@pmail.ntu.edu.sg  d.chermakani@sms.ed.ac.uk deepakc@usa.com  deepakc@myfastmail.com
+Abstract: -     An important question arising from the Frobenius Coin Problem is to decide whether or not a given 
+monetary sum S can be obtained from N coin denominations. We develop a new Generating Function G(x), where the 
+coefficient of xiis equal to the number of ways in which coins from the given denominations can be arranged as a 
+stack whose total monetary worth is i. We show that the Recurrence Relation for obtaining G(x), is linear, enabling 
+G(x) to be expressed as a rational function, that is, G(x) = P(x)/Q(x), where both P(x) and Q(x) are Polynomials whose 
+degrees are bounded by the largest coin denomination.
+1.     Introduction
+In the language of mathematics, the Frobenius Coin Problem is as follows: - Let A 1, A 2, …A Nbe fixed positive integers. Find 
+the largest integer S, such that S ≠A1X1+ A 2X2+ … + A NXN, for all non-negative integers X 1, X 2, …X N[2]. An important 
+question arising from the Frobenius Coin Problem is therefore to decide whether or not, for some given target positive integer 
+S, there exist non-negative integers X 1, X 2, … X N, such that S = A 1X1+ A 2X2+ … + A NXN[1].
+     If we denote F ito be an integer sequence, such that F iis the number of ways in which i can be expressed using the given N 
+coin denominations, then one can obtain a Generating Function given by SUMMATION (F iXi, i being integers ≥0) [3]. The 
+Generating Function helps predict whether or not some monetary sum S can be obtained using the given coin denominations, 
+and is expressible as P(x)/Q(x) where both P(x) and Q(x) are Polynomials. It has been proved that if N is fixed, then the
+Generating Function for F ican be expressed as a sum of short rational functions [4]. For N ≥ 4, there is no explicit bound on 
+the number of terms in P(x) [3][5], though Q(x) is bounded [3][5].
+     In this paper, we do not aim to develop a Generating Function explicitly for the Frobenius Coin Problem, i.e. for the 
+sequence F imentioned in the above paragraph. Instead, we develop a Generating Function for the sequence of integers 
+(which we shall denote as E i) representing the number of ways that coins from the given N denominations may be arranged 
+as a stack, one coin over the other, such that the sum of the values of all coins in this stack add up to i. Clearly, the sequence 
+Fiis different from E i, for example, given 2 coin denominations of 2 units and 5 units, then F 7is 1, while E 7is 2. It is also 
+clear that F iis 0, if and only if, E iis 0. And we shall see that the Generating Function for E ican be expressed as a rational 
+function, i.e. as P(x)/Q(x), where both P(x) and Q(x) are Polynomials, and where the degrees, of both P(x) and Q(x), are 
+equal to L, the largest coin denomination.
+     In the next Section 2, we shall prove a Theorem on a Linear Integer Recurrence Relation, and demonstrate how it 
+represents the sequence E i. In Section 3, we shall show the Generating Function for E i.
+2.     The Linear Integer Sequence E i
+Theorem-1 : Let L be the largest of the given N coin denominations, and the binary vector <B 1, B2, …B j, …B L-1, BL> be 
+such that B jis 1, if j is a coin denomination, and 0 otherwise. Then the number of ways that coins from the given 
+denominations may be arranged as a stack, such that the total monetary worth of the stack is equal to i, is given by the 
+following Linear Recurrence Relation for E i
+E0= 1, and,
+Ei= B LEi-L+ B L-1Ei-L+1+ …+ B 2Ei-2+ B 1Ei-1when iis an integer greater than 0, and,
+Ei= 0 when iis an integer lesser than 0.
+Proof : Expanding the sequence E iand expressing solely in terms of the B vector, we get the following
+E1= B 1
+E2= B 2+ B 12
+E3= B 3+ B 2B1+ B 1B2+ B 13= B 3+ 2B 1B2+ B 13
+E4= B 4+ B 3B1+ B 22+ B 2B12+ B 1B3 + 2B 12B2+ B 14= B 4+ 2B 1B3+ B 22+ 3B 12B2+ B 14
+E5= B 5+ 2B 1B4+ 2B 2B3+ 3B 22B1+ 4B 2B13+ 3B 12B3+ B 15
+and so on, showing that the sum of subscripts in each of the terms generated so far, are the same as the subscript of the 
+corresponding E i, and represent all possible stack formations. Next, let us prove by induction, that if we assume that the expressions via the B vector for E i-L, Ei-L+1, … E i-2, Ei-1represent all possible stack formations with monetary worth equal to 
+their corresponding subscripts, then E i= B LEi-L+ B L-1Ei-L+1+ …+ B 2Ei-2+ B 1Ei-1will represent all possible stack formations 
+of monetary value equal to i. To show this is true, we shall verify two things.
+First, we verify that all terms of the form B 1K1B2K2B3K3 … B LKLare represented in E ifor non-negative integers K 1, 
+K2…K Lsuch that K 1+ 2K 2+…+ LK L= i. If, for all integers tless than i, one were to consider all possible ways of 
+representing terms in E t(i.e. the sum of subscripts in the product should be equal to i), then it suffices to have the element B i-t
+appended to the terms of E t, and represent that product in E i, because every term in E pis the subset of some term in E q, where 
+p< q. For example, E tneed not be multiplied by the product B t1Bt2Bt3, where t1+t2+t3 = i-t, because terms generated by this 
+product would already be coming into E ithrough other routes, namely from B t1Ei-t1, from B t2Ei-t2, and from B t3Ei-t3.
+Second, we verify the coefficient of the term B 1K1B2K2B3K3 … B LKLin E i, where K 1, K 2…K Lare positive integers. 
+Clearly, this term gets linearly additive contributions from the coefficient of B 1K1-1B2K2B3K3 … B LKLin E i-1, from the 
+coefficient of B 1K1B2K2-1B3K3 … B LKLin E i-2, …and so on, and finally from the coefficient of B 1K1B2K2B3K3 … B LKL-1in E i-L.
+So, if n! denotes the factorial of n, then the coefficient of B 1K1B2K2B3K3 … B LKLin E i, is equal to the following.
+)!1 ...(!!!)!1 ... (.....! ...)!1 ( ! !)!1 ... (
+! ...! )!1 ( !)!1 ... (
+! ...!! )!1 ()!1 ... (
+3 2 12 1
+3 2 12 1
+3 2 12 1
+3 2 12 1
+
+LL
+LL
+LL
+LL
+K KKKK K K
+K K KKK K K
+K K K KK K K
+K KK KK K K
+For each of the above L additive components, multiply and divide the jthcomponent by K j, to obtain the following.
+!...!!!)!... (
+3 2 12 1
+LL
+K KKKK K K, which verifies to be the number of ways of arranging the term B 1K1B2K2B3K3 … B LKLin a stack.
+Finally, as B jis either 1 or 0, depending on whether or not coin denomination j is available, the value of E iwill 
+always equal the number of ways in which a monetary stack worth i, may be obtained from the given coin denominations.
+Hence Proved Theorem-1
+3.     The Generating Function
+The corresponding Generating Function G(x), for the sequence E imentioned in Section 2, can be shown to be given by
+1 ...1) ( ...) ... ( ) ... ()(
+11
+11 1 2 3 1 1 3 22
+1 2 1 1 2 11
+      
+   
+   
+xB x B xBE Bx E EB E B B x E EB E B B xxGL
+LL
+LL L L LL
+L L L LL
+4.     Conclusion
+In this paper, we presented a Linear Recurrence Relation for the integer sequence E i, representing the number of ways in 
+which a stack of coins worth i, may be built from the given coin denominations. This linearity enabled its Generating 
+Function G(x) to be expressed as a rational function, i.e. as P(x)/Q(x), where both P(x) and Q(x) are Polynomials, and where 
+the degrees of both P(x) and Q(x), are bounded by the largest coin denomination. As E iis zero, if and only if, a monetary 
+amount of icannot be obtained from the coin denominations, G(x) will be of use to the Frobenius Coin Problem.
+References
+[1] Sebastian Bocker, Zsuzsanna Liptak, The Money Changing Problem Revisited: Computing the Frobenius Number in Time O( k a 1), 
+Sep-2005, Computing and Combinatorics, Volume 3595/2005, Lecture Notes in Computer Science, Springer Berlin Heidelberg, ISBN 978-
+3-540-28061-3.
+[2] Jorge L. Ramirez Alfonsin, The Diophantine Frobenius problem , Oxford University Press, Oxford, 2006.
+[3] Matthias Beck, The Coin Exchange Problem of Frobenius , San Fransisco State University, 
+http://math.sfsu.edu/beck/papers/frobeasy.slides.pdf
+[4] Alexander Barvinok, Kevin Woods, Short rational generating functions for lattice point problems , Journal of the American 
+Mathematical Society, Volume 16 pp 957-979, April-2003.
+[5] Book Chapter, The Coin-Exchange Problem of Frobenius , Chapter 1, pp 3-24, Computing the Continuous Discretely, Springer 
+Publishers New York, ISBN 978-0-387-46112-0, Nov-2007.
+About the Author
+I, Deepak Ponvel Chermakani, have written this paper, out of my own interest and initiative, during my spare time. I am currently a student 
+at the University of Edinburgh UK (www.ed.ac.uk), where since Sep-2009, I have been enrolled in a fulltime one year Master Degree
+course in Operations Research with Computational Optimization . In Jul-2003, I completed a four year fulltime four year Bachelor Degree 
+course in Electrical and Electronic Engineering , from Nanyang Technological University Singapore (www.ntu.edu.sg). I completed my 
+high schooling from the National Public School in Bangalore in India in Jul-1999.

@@ -1,0 +1,464 @@
+arXiv:1001.0426v2  [cond-mat.quant-gas]  25 Mar 2010Thermodynamic properties of a dipolar Fermi gas
+J.-N. Zhang and S. Yi
+Key Laboratory of Frontiers in Theoretical Physics, Instit ute of Theoretical Physics,
+Chinese Academy of Sciences, Beijing 100190, China
+(Dated: November 16, 2018)
+Based on the semiclassical theory, we investigate the therm odynamic properties of a dipolar
+Fermi gas. Through a self-consistent procedure, we numeric ally obtain the phase-space distribution
+function at ﬁnite temperature. We show that the deformation s in both momentum and real space
+become smaller and smaller as the temperature is increased. For the homogeneous case, we also
+calculate pressure, entropy, and heat capacity. In particu lar, at the low-temperature limit and in the
+weak interaction regime, we obtain an analytic expression f or the entropy which agrees qualitatively
+with our numerical result. The stability of a trapped gas at ﬁ nite temperature is also explored.
+PACS numbers: 03.75.Ss, 74.20.Rp, 67.30.H-, 05.30.Fk
+I. INTRODUCTION
+The experimental success in creating ultracold
+40K87Rb molecular gas near quantum degeneracy [1–4]
+has drawn considerable attention to in studying the fun-
+damental properties of degenerate dipolar Fermi gases.
+Within the framework of the semi-classical theory, the
+groundstate properties, the collectiveexcitation, and the
+free expansion dynamics of a normal state dipolar Fermi
+gas were studied theoretically [5–7]. A recent theoret-
+ical work based on a variational approach reveals that,
+due to the Fock exchange interaction, the momentum
+distribution is stretched along the direction of dipole mo-
+mentsuchthattheFermisurfacebecomesanellipsoid[8].
+This result was conﬁrmed numerically for both homoge-
+neous [9] and trapped [10] systems. Taking into account
+the eﬀect of the exchange interaction, further theoretical
+work regarding the normal state of the zero tempera-
+ture dipolar Fermi gas includes studying the free expan-
+sion [7, 11], collective excitation [6, 11], zero sound [9],
+and the Fermi liquid properties [12].
+Another interesting feature of the dipole-dipole inter-
+action is that the partially attractive dipolar force is
+responsible for the formation of anisotropic BCS pair-
+ing [13–16]. With the recent experimental development
+on control the hyperﬁne states of40K87Rb molecules [3,
+4], the BCS pairings in a mixture of fermionic polar
+molecules with two diﬀerent hyperﬁne states are also
+studied theoretically [17–19]. In particular, the eﬀects
+of the Fock exchange interaction to pairing was consid-
+ered in Ref. [16, 18].
+In this paper, we extend our previous work on the
+ground state properties of the dipolar Fermi gases to ﬁ-
+nite temperature case. Employing the semi-classical the-
+ory, we numerically obtain the phase-space distribution
+function through a self-consistent procedure. We show
+that thedeformationsofthe distributionfunction in both
+momentum and real space become smaller and smaller as
+the temperature is increased. For homogeneous system,
+we also calculate the thermodynamic quantities such as
+pressure,entropy,andheatcapacity. Inparticular,atlow
+temperature limit and in weak interaction regime, we de-rive an analytic expression for the entropy, which agrees
+qualitatively with our numerical result. For the trapped
+gases, we also explore the temperature dependence of the
+stability.
+The remainder of this paper is organized as follows.
+In Sec. II, we introduce our model and brieﬂy outline
+the semi-classical theory for a dipolar Fermi gas at ﬁnite
+temperature. The numerical and analytical results are
+presented in Sec. III. Finally, we conclude in Sec. IV.
+II. THEORY
+Here we consider a system of Nspin polarized dipolar
+fermions interacting via dipole-dipole interaction
+Vd(r) =cd
+r3/parenleftbigg
+1−3z2
+r2/parenrightbigg
+, (1)
+wherecd=d2/(4πε0) withdbeing the electric dipole
+moment. For simplicity, we have assumed that the
+dipole moments of all fermions are orientated along z-
+axis. Additionally, we shall consider both homogeneous
+and trapped systems. In the former case, Uextcan be
+regarded as a box of volume V; while for the latter, the
+trap is assumed to be a harmonic potential with axial
+symmetry, i.e.,
+Uext(r) =1
+2mω2λ−2/3(x2+y2+λ2z2),(2)
+whereωis the geometric average of the trap frequencies
+andλis trap aspect ratio.
+Within the framework of the semiclassical theory, the
+thermodynamic properties are completely characterized
+by the phase-space distribution function f(r,k), which,
+at ﬁnite temperature T, satisﬁes the Fermi-Dirac statis-
+tics
+f(r,k) =1
+e(ε(r,k)−µ)/kBT+1, (3)
+whereµis the chemical potential introduced to ﬁx the2
+01200.51
+kρ/k0
+Ff(kρ,0) (a)
+012300.51
+kz/k0
+F
+f(0,kz) (b)
+0 1 2 30.40.60.81
+kBT/ǫ0
+Fα
+  
+(c)
+Dh= 0.1
+Dh= 0.2
+Dh= 0.3
+FIG. 1: (Color online). (a) and (b) represent, respectively ,
+thephase-spacedistributionfunctions f(kρ,0)andf(0,kz)for
+Dh= 0.3. The corresponding temperatures are kBT/ǫ0
+F= 1
+(solid lines), 0 .5 (dashed lines), 1 /3 (dash-dotted lines), and
+0.1 (dotted line). (c) The temperature dependence of αfor
+various dipolar interaction strengths. The horizontal lin es
+denote the values of αat zero temperature.
+total number of particles such that
+/integraldisplaydrdk
+(2π)3f(r,k) =N. (4)
+The dispersion relation of the quasi-particle takes the
+form
+ε(r,k) =/planckover2pi12k2
+2m+Uext(r)+/integraldisplaydr′dk′
+(2π)3f(r′,k′)Vd(r−r′)
+−/integraldisplaydk′
+(2π)3f(r,k′)/tildewideVd(k−k′), (5)
+where/tildewideVd(k) =cd4π
+3/parenleftBig
+3k2
+z
+k2−1/parenrightBig
+is the Fourier transform
+ofVd(r) and the last two terms represent the mean-ﬁeld
+potentials originating from Hartree direct and Fock ex-
+change interactions, respectively. We remark that the lo-
+cal density approximation has been employed to obtain
+Eq. (3) for the trapped system.
+Equations (3)-(5) form a closed system of equations
+whichcanbesolvednumericallythroughaniterativepro-
+cedure to obtain the phase-space distribution function
+f(r,k). Within semi-classical approximation, the total
+energy at the ﬁnite temperature takes the same form as
+that at zero temperature, i.e.,
+E=1
+(2π)3/integraldisplay
+drdk/bracketleftbigg/planckover2pi12k2
+2m+Uext(r)/bracketrightbigg
+f(r,k)
++1
+2(2π)6/integraldisplay
+drdkdr′dk′f(r,k)f(r′,k′)Vd(r−r′)
+−1
+2(2π)6/integraldisplay
+drdkdk′f(r,k)f(r,k′)/tildewideVd(k−k′),123Ekin/(Nǫ0F)
+(a)
+−0.4−0.20Eexc/(Nǫ0F)
+(b)
+00.5 11.5 2−2−101
+kBT/ǫ0
+Fµ/ǫ0F(c)
+FIG. 2: (Color online). The temperature dependence of Ekin
+(a),Eexc(b), and µ(c). The dimensionless dipolar interaction
+strength are Dh= 0 (dash-dotted lines), 0 .2 (dashed lines),
+and 0.3 (solid lines).
+where the ﬁrst line represents the kinetic ( Ekin) and po-
+tential (Epot) energies, and last two lines are, respec-
+tively, the direct ( Edir) and exchange ( Eexc) interaction
+energies. Finally, we point out that, for axially sym-
+metric system, the phase-space distribution function re-
+duces to f(r,k) =f(ρ,z,kρ,kz), where ρ=/radicalbig
+x2+y2
+andkρ=/radicalBig
+k2x+k2y. This fact can be used to simplify
+the numerical integration [10].
+III. RESULTS
+In this section, we present our results on the thermo-
+dynamic properties of a dipolar Fermi gas. For a homo-
+geneous gas, we ﬁrst obtain the phase-space distribution
+function numerically, which allows us to calculate other
+thermodynamicquantities,suchaspressure,entropy,and
+heat capacity. At low temperature limit and in weak in-
+teraction regime, we also derive an analytic expression
+for the entropy, which qualitatively agrees with our nu-
+merical result. In the second part of this section, we
+present the numerical results on the thermodynamics of
+the trapped systems.
+A. Homogeneous case
+For a homogeneous gas, the phase-space distribu-
+tion function reduces to a function of momentum, i.e.,
+f(r,k) =f(k). To present our results, it is convenient3
+012PV/(Nǫ0F)(a)
+0123S/(NkB)(b)
+00.5 11.5 200.511.5
+kBT/ǫ0
+FCV/(NkB)(c)
+FIG. 3: (Color online). The temperature dependence of the
+pressure (a), entropy (b), and heat capacity (c). The dimen-
+sionless dipolar interaction strength are Dh= 0 (dash-dotted
+lines), 0.2 (dashed lines), and 0 .3 (solid lines).
+to introduce a dimensionless dipolar interaction strength
+Dh=ncd
+ǫ0
+F,
+wheren=N/Vis the number density of the system and
+ǫ0
+F=/planckover2pi12(k0
+F)2/(2m) withk0
+F= (6π2n)1/3. We note that
+k0
+Fandǫ0
+Fare, respectively, the Fermi wavevector and
+Fermi energy of an ideal Fermi gas.
+We plot the phase-space distribution function f(k)
+in Fig. 1 (a) and (b) for various temperatures and
+Dh= 0.3. At low temperature, the momentum distri-
+bution is clearly stretched along z-axis. However, as one
+increases the temperature, the momentum distribution
+becomes less anisotropic. Such behavior can be most
+easily visualized by calculating the aspect ratio of the
+cloud in momentum space α≡/radicalbig
+/angbracketleftk2x/angbracketright//angbracketleftk2z/angbracketright. Figure 1
+(c) shows the temperature dependence of αcorrespond-
+ing to various dipolar interaction strengths. For small
+T,αapproaches to the value at zero temperature; as one
+increases the temperature, αgoes to unit asymptotically.
+Due to the spatial homogeneity of the system, the di-
+rect dipolar interaction energy vanishes. Therefore, the
+total energy only contains the contributions from kinetic
+energy and Fock exchange interaction. In Fig. 2 (a) and
+(b), we plot, respectively, EkinandEexcas functions
+of the temperature. The kinetic energy corresponding
+to stronger dipolar interaction is larger than that with
+weaker dipolar interaction, since the stronger dipolar in-
+teraction results in larger momentum space deformation.
+As to the exchange interaction energy, we see that Eexc
+vanishesas αapproaches1athightemperaturelimit. Wealsoplot the temperature dependence ofthe chemical po-
+tential in Fig. 2 (c). Clearly, µdecreases as one increases
+T, in analogy to the ideal Fermi gas. In addition, the
+chemical potential is also a decreasing function of Dh.
+This can be most easily understood at zero temperature
+limit, where the chemical potential becomes [20]
+µ0
+ǫ0
+F≃/parenleftbigg
+1−8π2
+15D2
+h/parenrightbigg2/3
+(6)
+in weak interaction regime ( Dh≪1). Equation (6) in-
+dicates that, for given density n, the chemical potential
+decreases as the dipolar interaction strength grows.
+To calculate other thermodynamic quantities, we work
+with the thermodynamic potential
+Ω(T,V,µ) =E−TS−µN, (7)
+where
+S
+VkB=−/integraldisplaydk
+(2π)3/braceleftBig
+f(k)lnf(k)+[1−f(k)]ln[1−f(k)]/bracerightBig
+.
+isthe entropyofthesystem. Thepressuredirectlyrelates
+to the thermodynamics potential as PV=−Ω(T,V,µ)
+and the heat capacity can also be evaluated using the
+deﬁnition CV=T/parenleftbig∂S
+∂T/parenrightbig
+VN. In Fig. 3, we present the
+temperature dependence of P,S, andCVcorresponding
+to diﬀerent dipolar interaction strengths. As a compar-
+ison, we also plot the results for an ideal Fermi gas. In
+general, the results for dipolar Fermi gases approach to
+those corresponding to the ideal gas at high temperature
+limit.
+Figure 3 (a) also indicates that, at a given tempera-
+ture,Pis a decreasing function of Dh, in agreement with
+the zero temperature result [11]. This can be understood
+since the overall dipolar interaction is attractive for ho-
+mogeneous gas. In addition, even though Svanishes at
+zero temperature, the entropy for given T/negationslash= 0 also ex-
+hibits a similar dependence on Dhas the pressure [Fig. 3
+(b)]. Furthermore, The temperature and interaction de-
+pendence of the heat capacity, shown in Fig. 3 (c), can
+be naturally deduced from the behavior of th entropy.
+To gain more insight into the entropy, we shall derive
+an analytical expression for Sat low temperature limit.
+To this end, we note that when T→0, the derivative of
+Swith respect to Tat constant Vandµcan be approx-
+imately expressed as [21]
+T/parenleftbigg∂S
+∂T/parenrightbigg
+Vµ=V/integraldisplaydk
+(2π)3(ε0(k)−µ)∂f(k,T)
+∂T,
+where we have explicitly expressed fas a function of
+the temperature Tand the zero temperature dispersion
+relation for the quasi-particle is [12]
+ε0(k)≃/planckover2pi12k2
+2m−2ǫ0
+FDhP2(cosθ)I/parenleftbiggk
+k0
+F/parenrightbigg
+,4
+FIG. 4: (Color online). The phase-space distribution func-
+tionf(ρ,z,0,0) of a trapped gas in spherical potential for
+kBT/(N1/3/planckover2pi1¯ω) = 0.2 (a), 0.5 (b), and 1 (c). The dimension-
+less dipolar interaction strength is Dt= 1.
+withP2(·) is the second order Legendre function, θis the
+polar angle of k, and
+I(x) =π
+12/braceleftBigg
+3x2+8−3
+x2+3/parenleftbig
+1−x2/parenrightbig3
+2x3ln/vextendsingle/vextendsingle/vextendsingle/vextendsingle1+x
+1−x/vextendsingle/vextendsingle/vextendsingle/vextendsingle/bracerightBigg
+.
+Followingthe same procedure asthat in Ref. [21], we ﬁnd
+S(T,V,µ)≃T/parenleftbigg∂S
+∂T/parenrightbigg
+Vµ≃V
+12k2
+BTA(µ,cd),(8)
+where
+A(µ,cd) =/integraldisplay/bracketleftbigg
+k2dk
+dε0(k,θ)/bracketrightbigg
+ε0(k,θ)=µsinθdθ.
+We note that Eq. (8) is not the entropy in usual sense
+as it is a function of µ. To proceed further, we change
+variable from µtoNby using Eq. (6), which yields, at
+low temperature limit and in weak interaction regime,
+S(T,V,N)
+NkB≃π2
+2kBT
+ǫ0
+F/parenleftbigg
+1−8π2
+15D2
+h/parenrightbigg1/3/parenleftbigg
+1+7π2
+45D2
+h/parenrightbigg
+.
+This expression clearly indicates that the entropy is de-
+creasing function of Dh, in qualitative agreement with
+our numerical results.
+B. Trapped case
+Now we turn to study the trapped case, for which we
+shall adopt a set of dimensionless units based on the har-
+monic oscillator length ¯ a=/radicalbig
+/planckover2pi1/(mω):N1/6¯afor length,
+N1/6¯a−1for wave vector, and N1/3/planckover2pi1ωfor energy. Un-
+der these choices, we may deﬁne a dimensionless dipolar
+interaction strength
+Dt=N1/6cd
+/planckover2pi1ω¯a3.
+In addition, the normalization condition for phase-space
+distribution function becomes (2 π)−3/integraltext
+drdkf(r,k) = 1.
+In Fig. 4, we present the typical results for phase-
+space distribution function f(ρ,z,0,0) for a gas trapped0.80.91α
+(a)
+00.5 11.5 20.80.91
+kBT/(N1/3¯hω)β
+(b)
+FIG. 5: (Color online). The temperature dependence of the
+deformation parameters α(a) and β(b) forλ= 0.1 (solid
+lines), 1 (dashed lines), and 10 (dash-dotted lines). The di -
+mensionless dipolar interaction strength are Dt= 1.
+00.20.40.60.81246810
+kBT/(N1/3¯hω)D∗
+t
+  
+λ= 0.1
+λ= 1
+λ= 10
+FIG. 6: (Color online). The temperature dependence of the
+critical dipolar interaction strengths for various trap ge ome-
+tries.
+in a spherical potential. Similar to the momentum space
+distribution for a homogeneous gas (Fig. 1), the distri-
+bution function in real space becomes elongated along
+z-axis at low temperature. However, the deformation
+becomes smaller and smaller as the temperature is in-
+creased. To characterize the real space deformation,
+we deﬁne the deformation parameter in real space as
+β≡λ−1/radicalbig
+/angbracketleftx2/angbracketright//angbracketleftz2/angbracketright, where the inclusion of the factor
+λ−1is to eliminate the deformation caused by trapping
+potential such that β= 1 for a noninteracting gas. Fig-
+ure 5 (a) and (b) plot, respectively, the temperature de-
+pendence of the deformation parameters in momentum
+and real spaces. As expected, stronger dipolar interac-
+tion induces larger deformations in momentum and real
+spaces. However, both αandβapproach unit at high
+temperature limit.
+Finally, we explore the stability of the trapped gases
+at ﬁnite temperature. Similar to the zero temperature
+case [8, 10], due to the partially attractive feature of the
+dipolar interaction, there also exists a critical dipolar in-
+teraction strength D∗
+tfor a given temperature T, beyond5
+which the system becomes unstable. In Fig. 6, we plot
+the temperature dependence of the critical dipolar inter-
+action strength for various trap geometries. It can be
+seen that, independent of the trap aspect ratio λ,D∗
+t
+is an increasing function of T. This can be understood
+ashigher temperature correspondsto smallermomentum
+and real space deformations, resulting in smaller dipolar
+interaction. In addition, higher temperature also yields
+higher kinetic energy which stabilizes the system.
+IV. CONCLUSIONS
+To conclude, based on the semi-classical theory, we
+have studied the thermodynamics of a dipolar Fermi gasby numerically ﬁnding the phase-space distribution func-
+tion. We show that the deformations in both momentum
+and real space becomes smaller and smaller as one in-
+creasesthe temperature. Forhomogeneousgases, we also
+calculate pressure, entropy, and heat capacity. In partic-
+ular, at low temperature limit and in weak interaction
+regime, we obtain an analytic expression for the entropy,
+whichagreesqualitativelywithournumericalresult. The
+stability diagram for a trapped gas at ﬁnite temperature
+is also obtained.
+This work was supported by NSFC through grants
+10974209 and 10935010, by the National 973 program
+(Grant No. 2006CB921205), and by the “Bairen” pro-
+gram of Chinese Academy of Sciences.
+[1] K.-K. Ni, S. Ospelkaus, M. H. G. de Miranda, A. Pe’er,
+B. Neyenhuis, J. J. Zirbel, S. Kotochigova, P. S. Julienne,
+D. S Jin, and J. Ye, Science 322, 231 (2008).
+[2] S. Ospelkaus, K.-K. Ni, M. H. G. de Miranda, B. Neyen-
+huis, D. Wang, S. Kotochigova, P. S. Julienne, D. S. Jin,
+J. Ye, Faraday Discuss. 142, 351 (2009).
+[3] K.-K. Ni, G. Qu´ em´ ener, B. Neyenhuis, D. Wang, M.
+H. G. de Miranda, J. L. Bohn, J. Ye, and D. S. Jin,
+arXiv:0908.3931 (2009).
+[4] S. Ospelkaus, K.-K. Ni, D. Wang, M. H. G. de Miranda,
+B. Neyenhuis, G. Qu´ em´ ener, P. S. Julienne, J. L. Bohn,
+D. S. Jin, J. Ye, arXiv:0912.3854 (2009).
+[5] K. G´ oral, B.-G. Englert, and K. Rz¸ a˙ zewski, Phys. Rev.
+A63, 033606 (2001).
+[6] K. G´ oral, M. Brewczyk, and K. Rz¸ a˙ zewski, Phys. Rev. A
+67, 025601 (2003).
+[7] L. He, J.-N. Zhang, Y.-B. Zhang, and S. Yi, Phys. Rev.
+A77031605, (2008).
+[8] T. Miyakawa, T. Sogo, H. Pu, Phys. Rev. A 77, 061603
+(2008).
+[9] S. Ronen and J. L. Bohn, arXiv:0906.3753 (2009).[10] J.-N. Zhang and S. Yi, Phys. Rev. A 80, 053614 (2009).
+[11] T. Sogo, L. He, T. Miyakawa, S. Yi, H. Lu, and H. Pu,
+New. J. Phys. 11, 055017 (2009).
+[12] C.-K. Chan, C. Wu, W. Lee, and S. Das Sarma,
+arXiv:0906.4403 (2009).
+[13] L. You and M. Marinescu, Phys. Rev. A 60, 2324 (1999).
+[14] M. A. Baranov, M. S. Mar’enko, Val. S. Rychkov, and G.
+V. Shlyapnikov, Phys. Rev. A 66, 013606 (2002).
+[15] M.A. Baranov, L. Dobrek, and M. Lewenstein, Phys.
+Rev. Lett. 92, 250403 (2004).
+[16] C. Zhao, L. Jiang, X. Liu, W. M. Liu, X. Zou, and H. Pu
+arXiv:0910.4775 (2009).
+[17] K. V. Samokhin and M. S. Mar’enko, Phys. Rev. Lett.
+97, 197003 (2006).
+[18] T. Shi, J.-N. Zhang, C.-P. Sun, and S. Yi,
+arXiv:0910.4051 (2009).
+[19] C. Wu and J. E. Hirsch, arXiv:0910.4940 (2009).
+[20] Equation (6) is diﬀerent from that obtained in Ref. [9].
+[21] A. L.FetterandJ. D. Walecka, Quantum theory of many-
+particle systems , (Dover Publications, Mineola, 2003).

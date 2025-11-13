@@ -1,0 +1,196 @@
+arXiv:1001.0411v1  [gr-qc]  3 Jan 2010October 29, 2018 17:23 WSPC - Proceedings Trim Size: 9.75in x 6.5in hoqufo
+1
+Holographic Quantum Foam
+Y. Jack Ng
+Institute of Field Physics, Department of Physics and Astro nomy,
+University of North Carolina, Chapel Hill, NC 27599-3255, U SA
+E-mail: yjng@physics.unc.edu
+Due to quantum ﬂuctuations, probed at small scales, spaceti me is very complicated
+—something akin incomplexity to a turbulent frothwhich the late John Wheeler dubbed
+quantum foam, aka spacetime foam. Our recent work suggests t hat (1) we may be close
+to being able to detect quantum foam with extragalactic sour ces once the Very Large
+Telescope Interferometers (VLTI) are fully operational; ( 2) dark energy is arguably a
+cosmological manifestation of quantum foam, the constitue nts of which obey inﬁnite
+statistics; (3) in the gravitational context, turbulence i s closely related to holographic
+quantum foam, partly validating Wheeler’s picture of a turb ulent spacetime.
+Keywords : quantum foam, holography, turbulence, dark energy, inﬁni te statistics
+1. Introduction
+At microscopic scales our world is known to obey quantum mechanics w hich is
+characterized by an indeterminism giving rise to ﬂuctuations in measu rements. If
+spacetime, like all matter and energy, undergoes quantum ﬂuctua tions, there will be
+an intrinsic limitation to the accuracy with which one can measure a dist ancel, for
+that distance ﬂuctuates by δl. On fairly general grounds, we expect δl/greaterorsimilarl1−αlα
+P,1
+wherelPis the Planck length, the characteristic length scale in quantum grav ity.
+The parameter α∼1 speciﬁes the diﬀerent quantum foam models. (The canonical
+model2corresponds to α= 1 with δl∼lP.)
+Applying quantum mechanics and black hole physics (from general re lativity),
+we3ﬁnd that a distance lﬂuctuates by an amount ∼l1/3l2/3
+P. The corresponding
+quantum foam model with α= 2/3 has become known as the holographic model
+since it can be shown1to be consistent with the holographic principle.4
+2. Turbulence and Holography
+There are deep similarities between the problem of quantum gravity a nd turbu-
+lence.5The connection between these seemingly disparate ﬁelds is provided by
+the role of diﬀeomorphism symmetry in classical gravity and the volum e pre-
+serving diﬀeomorphisms of classical ﬂuid dynamics. Furthermore, in the case
+of irrotational ﬂuids in three spatial dimensions, the equation for t he ﬂuctua-
+tions of the velocity potential can be written in a geometric form6of a har-
+monic Laplace–Beltrami equation:1√−g∂a(√−ggab∂bϕ) = 0 . Here, apart from a
+conformal factor, the eﬀective space time metric has the canonic al ADM form
+ds2=ρ0
+c[c2dt2−δij(dxi−vidt)(dxj−vjdt)], where cis the sound velocity and
+viare the components of the ﬂuid’s velocity vector. We observe that in this ex-
+pression for the metric, the velocity of the ﬂuid viplays the role of the shift vector
+Niwhich is the Lagrange multiplier for the spatial diﬀeomorphism constr aint (theOctober 29, 2018 17:23 WSPC - Proceedings Trim Size: 9.75in x 6.5in hoqufo
+2
+momentum constraint) in the canonical Dirac/ADM treatment of Ein stein gravity:
+ds2=N2dt2−hij(dxi+Nidt)(dxj+Njdt). Hence in the ﬂuid dynamics context,
+Ni→vi, and a ﬂuctuation of viwould imply a ﬂuctuation of the shift vector.
+This is possible provided the metric of spacetime ﬂuctuates, which is a very loose,
+intuitive, semi-classical deﬁnition of the quantum foam.
+But which quantum foam model? Recall δℓ∼ℓ1−αℓα
+P. If one deﬁnes the velocity
+asv∼δℓ
+tc, where the natural characteristic time scale is tc∼ℓP
+c, then it follows that
+v∼c/parenleftbigℓ
+ℓP/parenrightbig1−α. It is now obvious that a Kolmogorov-like scaling7in turbulence has
+been obtained, i.e., the velocity scales as v∼ℓ1/3and the two-point function has
+the needed two-thirds power law provided that α= 2/3. Since the velocities play
+the role of the shifts, they describe how the metric ﬂuctuates at t he Planck scale.
+The implication is that at short distances, spacetime is a chaotic and s tochastic
+ﬂuid in a turbulent regime8with the Kolmogorov length l. The energy cascades are
+a property of the spacetime foam. But we emphasize that this inter pretation of the
+Kolmogorov scaling in the quantum gravitational setting is valid only fo r the case
+of holographic quantum foam (corresponding to α= 2/3).a
+3. Detectability of Quantum Foam with Extragalactic Source s
+We10suggested that spacetime foam might be uncovered by looking for u nresolved
+cores in the images of distant quasars.11The point is that, due to quantum foam-
+induced ﬂuctuations in the phase velocity of an incoming light wave fro m a distant
+point source, the wave front itself develops a small scale “foamy” s tructure. This
+results in the wave vector acquiring a cumulative random ﬂuctuation in direction
+with an angular spread of the order of ∆ φ/2π, where ∆ φ= 2πδl/λ= 2πNl1−αlα
+P/λ
+is the ﬂuctuation in the phase of the electromagnetic wave with wave lengthλafter
+traveling a distance lfrom the distant source. In eﬀect, spacetime foam creates a
+“seeing disk” whose angular diameter is10∆φ/(2π)∼(l/λ)1−α(lP/λ)α.b
+For a telescope or interferometer with baseline length D, this means that dis-
+persion (on the order of ∆ φ/2πin the normal to the wave front) will be recorded
+as a spread in the angular size of a distant point source, causing a re duction in
+the Strehl ratio, and/or the fringe visibility when ∆ φ/2π∼λ/Dfor a diﬀraction
+limited telescope.cThus, in principle, for arbitrarilylargedistances spacetime foam
+aUpdate: Recently we9have proposed a string theory of turbulence that explains th e Kolmogorov
+scaling in 3 + 1 dimensions and the Kraichnan and Kolmogorov s calings in 2 + 1 dimensions.
+We argue that this string theory of turbulence should be unde rstood from the viewpoint of the
+AdS/CFT dictionary. We ﬁnd that not only can string theory be useful i n formulating a theory
+of turbulence, but the physics of turbulence may provide som e guidance to understanding the
+quantum foam phase of strong quantum gravity.
+bThis is partly based on the intuition that cumulative ﬂuctua tions in lengths are comparable in
+all directions. (In particular, we have assumed the samecumulative factors1for both transverse
+and longitudinal directions.) But we should keep in mind tha t this intuition, though reasonable,
+could be wrong; after all, spatial isotropy is here “spontan eously” broken with the detected light
+being from a particular direction.
+cFor example , for a quasar of 1 Gpc away, at an infrared wavelen gth of the order of 2 microns, theOctober 29, 2018 17:23 WSPC - Proceedings Trim Size: 9.75in x 6.5in hoqufo
+3
+sets a lower limit on the observable angular size of a source at a given w avelength
+λ. Furthermore, the disappearance of “point sources” will be stro ngly wavelength
+dependent happening ﬁrst at short wavelengths. Interferomet er systems (like the
+VLTI when it reaches its design performance) with multiple baselines m ay have
+suﬃcient signal to noise to allow for the detection of quantum foam ﬂ uctuations.
+More recently we12have considered the feasibility of using various existing or
+proposed telescopes (for wavelengths from hard X-rays down to radio waves) to test
+the diﬀerent spacetime foam models. Figure 1 shows the prediction m ade for three
+diﬀerent models of spacetime foam corresponding to α= 2/3,0.6,1/2 respectively,
+for the size of observed haloes produced by accumulated phase dis persion for a
+source at two redshifts, respectively z= 4 and z= 1. The labeled arrows delineate
+the diﬀraction limited response of various telescopes. If the arrow representing a
+telescope’s diﬀraction limited response lies below the halo size curve fo r a given α,
+that model may be excluded by observations.dWe notice that the VLTI appears
+to be the most promising to test the holographic model.
+4. Holographic Quantum Foam Cosmology and Inﬁnite Statisti cs
+If there is unity of physics connecting the very small and the very la rge, then it is
+natural to apply holographic quantum foam physics to cosmology.1,13We ﬁnd that,
+according to the cosmololgy inspired by holographic quantum foam (d ubbed HFC),
+the cosmic density is ρ= (3/8π)(RHlP)−2∼(H/lP)2, consistent with observation
+(His the Hubble parameter of the observable universe and RHis the Hubble ra-
+dius),eand that the cosmic entropy is given by I∼(RH/lP)2. Furthermore, with
+the aid of archived data from the Hubble Space Telescope indicating t he demise
+of theα= 1/2 model, HFC has provided another argument for the existence of
+dark energy (indepenent of other cosmological/astrophysical ob servations of recent
+years). Successes of the conventional big bang cosmology, such as nucleosynthesis,
+can also be incorporated into HFC.
+Here we concentrate on one crucial question: What is the overridin g diﬀerence
+between conventional matter and dark energy (perhaps also dar k matter) according
+toHFC? Since darkenergycarriesmost ofthe energyofthe Univer se,let us focuson
+its constituent particles. Consider a perfect gas of Nparticles obeying Boltzmann
+holographic model of spacetime foam predicts a phase ﬂuctua tion ∆φ∼2π×10−9radians. On the
+other hand, an infrared interferometer with D∼100 meters (like the VLTI) has λ/D∼5×10−9.
+dUpdate: Recently we12have elaborated on our proposal to detect quantum foam with e xtragalac-
+tic sources and have argued that the apppropriate distance m easure for calculating the expected
+angular broadening is the total line-of-sight comoving dis tance. We then deal with recent data and
+the constraints they put on spacetime foam models. Thus far, images of high-redshift quasars from
+the Hubble Ultra-Deep Field (UDF) provide the most stringen t test of spacetime foam theories.
+Indeed, we see a slight wavelength-dependent blurring in th e UDF images selected for this study.
+Using existing data in the HST archive we ﬁnd it is impossible to rule out the α= 2/3 model, but
+exclude all models with α <0.65.
+eSince critical cosmic energy density is the hallmark of the i nﬂatonary paradigm, HFC may sup-
+plement/implement inﬂation in solving some of the classic c osmological problems.October 29, 2018 17:23 WSPC - Proceedings Trim Size: 9.75in x 6.5in hoqufo
+4
+Fig. 1. Detectability of various models of foamy spacetime w ith existing and planned telescopes.
+statistics at temperature Tin a volume V. For the problem at hand, we take V∼
+R3
+H,N∼(RH/lP)2≫1andT∼R−1
+H(the averageenergycarriedby eachparticle).
+A standard calculation yields the partition function ZN= (N!)−1(V/λ3)N, where
+λ∼T−1. We get, for the entropy of the system, S=N[ln(V/Nλ3) + 5/2]. The
+important point to note is that, since V∼λ3, the entropy Sbecomes nonsensically
+negative.But the solutionis pretty obvious:the Ninside the login Ssomehowmust
+be absent. In that case, the Gibbs 1 /N! factor must be absent from the partition
+function ZN, accordingly the “particles” are distinguishable and nonidentical, an d
+the entropy becomes S=N[ln(V/λ3)+3/2].October 29, 2018 17:23 WSPC - Proceedings Trim Size: 9.75in x 6.5in hoqufo
+5
+Now the only known consistent statistics in greater than two space dimensions
+without the Gibbs factor is inﬁnite statistics (sometimes called “quan tum Boltz-
+mann statistics”).14,15Thus the “particles” constituting dark energy obey inﬁnite
+statistics, instead of the familiar Fermi or Bose statistics.13(Using the Matrix the-
+ory approach, Jejjala, Kavic and Minic16have also argued that dark energy quanta
+obey inﬁnite statistics.) This is the crucial diﬀerence between the co nstituents of
+dark energy and ordinary matter, according to HFC. Since each “p article” has such
+long wavelength( ∼RH), dark energyacts like a (dynamical) cosmologicalconstant.
+But to get the correct equation of state and an appropriate tran sition from an ear-
+lier decelerating to a recent accelerating cosmic expansion, one may need to take
+into account the coupling between pressureless dark matter and h olographic dark
+energy.17Finally we note that a theory of particles obeying inﬁnite statistics ca n-
+not be local.15But intuitively holographic theories also possess non-locality. Thus
+it is not surprising that non-locality is present in HFC, a cosmology tha t is inti-
+mately connected to holography.1,13The appearance of inﬁnite statistics in HFC is
+suggestive of a holographic view of spacetime.
+Acknowledgments
+This work was supported in part by the US Department of Energy.
+References
+1. Y. J. Ng, Entropy 10, 441 (2008) [arXiv:0801.2962[hep-th]] and references the rein.
+2. C. W. Misner, K. S. Thorne and J. A. Wheeler, Gravitation (Freeman, San Francisco,
+1973). For the α= 1/2 model, see G. Amelino-Camelia, Nature398, 216 (1999).
+3. Y. J. Ng and H. Van Dam, Mod. Phys. Lett. A 9, 335 (1994); 10, 2801 (1995);
+F. Karolyhazy, Nuovo Cim. A 42, 390 (1966); S. Lloyd and Y. J. Ng, Sci. Am. 291,
+#5, 52 (2004).
+4. G. ’tHooft, in Salamfestschrift , (World Scientiﬁc, Singapore, 1993); L. Susskind, J.
+Math. Phys. 36, 6377 (1995).
+5. V. Jejjala, D. Minic, Y.J. Ng, and C.H. Tze, Class. Quant. Grav. 25, 225012 (2008)
+[arXiv:0806.0030[hep-th]].
+6. W. Unruh, Phys. Rev. D 51, 282 (1995).
+7. A. N. Kolmogorov, Dokl. Akad. Nauk SSSR 30, 299 (1941); 32, 16 (1941).
+8. J. A. Wheeler, Phys. Rev. 97, 511 (1955).
+9. V. Jejjala, D. Minic, Y.J. Ng, and C.H. Tze, arXiv:0912.27 25[hep-th].
+10. W. Christiansen, Y. J. Ng and H. van Dam, Rev. Phys. Lett. 96, 051301 (2006).
+11. R. Lieu & L. W. Hillman, ApJ585, L77 (2003); R. Ragazzoni, M. Turatto, &
+W. Gaessler, ApJ587, L1 (2003); Y J. Ng, W. Christiansen & H. van Dam, ApJ
+591, L87 (2003); E. Steinbring, ApJ655, 714 (2007).
+12. W.A.Christiansen, D.J. E. Floyd, Y.J. NgandE. S.Perlma n, arXiv:0912.0535[astro-
+ph] and references therein.
+13. Y. J. Ng, Phys. Lett. B 657, 10 (2007) [arXiv:gr-qc/0703096].
+14. S. Doplicher, R. Haag, and J. Roberts, Commun. Math. Phys. 23, 199 (1971).
+15. O. W. Greenberg, Phys. Rev. Lett. 64, 705 (1990).
+16. V. Jejjala, M. Kavic, and D. Minic, arXiv:0705.4581[hep -th].
+17. W. Zimdahl and D. Pavon, arXiv:0606555[astro-ph].

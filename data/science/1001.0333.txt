@@ -1,0 +1,294 @@
+arXiv:1001.0333v1  [astro-ph.SR]  2 Jan 2010Version 5.2 — 28 December 2009
+Kepler-6b: A Transiting Hot Jupiter Orbiting a Metal-Rich S tar†
+Edward W. Dunham1, William J. Borucki2, David G. Koch2, Natalie M. Batalha3,
+Lars A. Buchhave4,5, Timothy M. Brown6, Douglas A. Caldwell7, William D. Cochran8,
+Michael Endl8, Debra Fischer17, Gabor F˝ ur´ esz4, Thomas N. Gautier III9, John C. Geary4,
+Ronald L. Gilliland10, Alan Gould16, Steve B. Howell11, Jon M. Jenkins7, Hans Kjeldsen15,
+David W. Latham4, Jack J. Lissauer2, Geoﬀrey W. Marcy12, Soren Meibom4,
+David G. Monet13, Jason F. Rowe14,7, Dimitar D. Sasselov4
+ABSTRACT
+†Based in part on observations obtained at the W. M. Keck Observat ory, which is operated by the
+University of California and the California Institute of Technology.
+1Lowell Observatory, Flagstaﬀ, AZ 86001
+2NASA Ames Research Center, Moﬀett Field, CA 94035
+3San Jose State University, San Jose, CA 95192
+4Harvard-Smithsonian Center for Astrophysics, Cambridge, MA 02 138
+5Niels Bohr Institute, Copenhagen University, DK-2100 Copenhage n, Denmark
+6Las Cumbres Observatory Global Telescope, Goleta, CA 93117
+7SETI Institute, Mountain View, CA 94043
+8University of Texas, Austin, TX 78712
+9Jet Propulsion Laboratory/California Institute of Technology, Pa sadena, CA 91109
+10Space Telescope Science Institute, Baltimore, MD 21218
+11National Optical Astronomy Observatory, Tucson, AZ 85719
+12University of California, Berkeley, Berkeley, CA 94720
+13US Naval Observatory, Flagstaﬀ Station, Flagstaﬀ, AZ 86001
+14NASA Postdoctoral Program Fellow
+15University of Aarhus, Aarhus, Denmark
+16Lawrence Hall of Science, Berkeley, CA 94720
+17Yale University, New Haven, CT 06510– 2 –
+We announce the discovery of Kepler-6b, a transiting hot Jupiter o rbiting a
+star with unusually high metallicity, [Fe /H] = +0.34±0.04. The planet’s mass is
+about 2/3 that of Jupiter, MP= 0.67MJ, and the radius is thirty percent larger
+than that of Jupiter, RP= 1.32RJ, resulting in a density of ρP= 0.35gcm−3, a
+fairly typical value for such a planet. The orbital period is P= 3.235 days. The
+host star is both more massive than the Sun, M⋆= 1.21M⊙, and larger than the
+Sun,R⋆= 1.39R⊙.
+Subjectheadings: planetarysystems—stars: individual(Kepler-6,KIC10874614,
+2MASS 19472094+4814238) — techniques: spectroscopic
+1. INTRODUCTION
+TheKeplermission was launched on March 6, 2009 to undertake a search for Ea rth-size
+planets orbiting in the habitable zones of stars similar to the Sun. Kepleruses the transit
+photometry approach for this task (Borucki et al. 2010a). Kepler’s commissioning process
+went very well and the system is providing data of exceptional phot ometric quality (Koch
+et al. 2010a). Indeed, the ﬁnal commissioning data, 9.7 days of scie nce-like observations of
+50000 stars selected from the Kepler Input Catalog (KIC) (Koch et al. 2010a), were of such
+high quality that they are now commonly, if incorrectly, referred to as the “quarter 0” data.
+A number of KeplerObjects of Interest (KOIs) simply fell out of this dataset, includin g
+the present object, known as KOI-17. Its transit signal is huge b yKeplerstandards, and
+excellent light curve results were obtained quickly. The follow-up spe ctroscopic observations
+took somewhat longer since observations were not planned to be un dertaken so soon after
+commissioning. As a result the ﬁrst data intended for science, 33.5 d ays of observations of
+150000 KIC stars, became available in the meantime and were folded in with the original
+test data for the analysis presented here. The 1.3 day gap betwee n these two sets of data
+contained one transit of Kepler-6b. Haas et al. (2010) provide add itional details regarding
+theKeplerdata used in this analysis.
+Because the pace of early Keplerextrasolar planet discoveries is limited by the radial-
+velocity follow-up observations, the ﬁrst objects to be announce d tend to be those most
+easily conﬁrmed spectroscopically. Kepler-6b (= KIC 10874614, α= 19h47m20s.94,δ=
++48◦14′23′′.8, J2000, KIC r= 13.253mag) is one of these objects.– 3 –
+2. KEPLER PHOTOMETRY
+TheKeplerscience data for the primary transit search mission are the long cad ence
+data (Jenkins et al. 2010a). These consist of sums very nearly 30 m inutes in length (with
+rigorously the same integration time) of each pixel in the aperture c ontaining the target star
+inquestion. These dataproceedthroughananalysispipelinetoprod ucecorrectedpixel data,
+thensimpleunweighted aperturephotometrysums areformedtop roduceaphotometrictime
+series for each object (Jenkins et al. 2010b). The many thousand s of photometric time series
+are then processed by the transiting planet search (TPS) pipeline e lement (Jenkins et al.
+2010b). ThecandidatetransiteventsidentiﬁedbyTPSwerethenv ettedbyvisual inspection.
+The light curves produced by the photometry pipeline tend to show d rifts due to an
+extremely small, slow focus change (Jenkins et al. 2010a), and ther e are also sometimes low
+frequency variations in the stellar signal that can make analysis of t he transit somewhat
+problematic. These low frequency eﬀects can be removed by modes t ﬁlters that have only an
+insigniﬁcant eﬀect on the transit signal (Koch et al. 2010b). The un folded and folded light
+curves for Kepler-6b produced in this manner are shown in Figure 1.1
+Figure 1 illustrates two of the ways we reject false positives based o n theKeplerlight
+curves alone. The lower part of the ﬁgure shows the planetary tra nsit (referred to the left
+ordinate). Thepointsmarkedwith+and ×symbolsrefertoalternatingevenandoddtransit
+events. This aids in detecting eclipsing binary stars with nearly, but n ot quite equal primary
+and secondary minima. No such deviation is observed for Kepler-6. T he upper curve shows
+the time of secondary minimum, assuming zero eccentricity. The ver tical scale, on the right,
+is magniﬁed and measured in parts per million to help search for a small s econdary minimum
+that might be due to occultation of an M dwarf companion. Again, no s uch signature is
+visible.
+3. FOLLOW-UP OBSERVATIONS
+The crucial importance of ground-based follow-up observations w as recognized long ago
+(Latham 2003) and a well-established plan was in place by the time of lau nch. This has
+evolved somewhat and our current approach is described by Gautie r et al. (2010). The
+key features are: 1) carry out high resolution reconnaissance sp ectroscopy to determine the
+stellar properties and the star’s suitability for radial-velocity work, and to search for signs of
+1The time series photometry and radial velocity data, including bisect or spans, may be retrieved from
+the MAST/HLSP data archive at http://archive.stsci.edu/prepds/ keplerhlsp.– 4 –
+stellar companions; 2) search for faint blended eclipsing binaries thr ough the centroid shift
+approach (Batalha et al. 2010) and by means of high resolution imagin g; and 3) detect the
+stellar reﬂex motion with precise radial-velocity measurements. In t he future we hope to
+improve our constraints on stellar properties by including both aste roseismology results for
+at least the brighter host stars (Gilliland et al. 2010a) and parallaxes (Monet et al. 2010) for
+every target. These results are not available for Kepler-6 at this t ime.
+3.1. Reconnaissance Spectroscopy
+The reconnaissance spectra for Kepler-6 were carried out very e arly inthe follow-up pro-
+gram, so observations were obtained with several of our resourc es for comparison purposes:
+the TRES spectrograph on the Tillinghast telescope (by L. Buchhav e and D. Latham), the
+McDonald 2.7-m Coude spectrograph (by M. Endl and W. Cochran), and the FIES spec-
+trograph on the Nordic Optical Telescope (by L. Buchhave and G. F ˝ ur´ esz). The spectra
+indicated that Kepler-6 was well suited for precise radial-velocity wo rk and no evidence
+of double lines or a stellar companion was seen. The best data on stella r properties were
+determined later and are discussed below.
+The mean radial velocity of Kepler-6 was determined by C. Chubak wit h two HIRES
+spectrausingtelluriclinestosettheirzeropoint. Observationsoft heradialvelocitystandard
+HD182488 using the same approach produced a mean value of −21.50±0.18kms−1, in good
+agreement with the adopted value of -21.508kms−1. Observations with FIES and TRES
+using the same standard star to determine their zero points were in good agreement with
+the HIRES velocity. The average of these values is shown in Table 2.
+3.2. High-Resolution Imaging and Centroid Motion
+Kepler-6 has a companion 4 .1′′distant and 3.8 magnitudes fainter as seen in both a
+HIRES guide camera image and a PHARO Jband AO image obtained with the Palomar
+Hale telescope (Gautier and Ciardi). A WIYN speckle image (Howell) sho ws only a single
+star within its 2′′square box. There are apparently two additional components bot h ap-
+proximately 5.4 magnitudes fainter and 11 .5′′distant that appear in the KIC as KIC IDs
+10874615 and 10874616. These two objects refer to a single star and erroneously appear as
+two objects in the KIC. This star is very close to the edge of the ape rture containing Kepler-
+6. The observed shift in the Keplerintensity weighted mean image centroid during transit,
+(−0.1, +0.3) millipixels in the (column, row) directions is consistent with the expec ted shift– 5 –
+if thefaint companions arenot thesource of thetransit signature . If thefainter, moredistant
+star is fully in the aperture the expected shift is (0 .0, +0.3) millipixels and if it is completely
+out of the aperture the expected shift is ( −0.1, +0.4) millipixels, both being consistent with
+the observed centroid shift. On the other hand if the closer, brigh ter background star is the
+transit source the expected shift is 30 times larger, ruling out this p ossibility. The fainter
+object is too faint to produce the observed transit depth even if it disappears entirely during
+the transit, and if it could the resulting centroid shift would be nearly a factor of 100 larger
+than the observed shift. The typical sensitivity level for detectio n of centroid shifts is on the
+order of 0.1 millipixel or somewhat less. See Batalha et al. (2010) for a detailed discussion
+of this approach for candidate vetting.
+3.3. PRECISE RADIAL VELOCITIES
+Precise velocities were obtained by using HIRES onthe Keck 1 telesco pe with iodine cell
+radial-velocity reference. A modiﬁed version of the standard HIRE S iodine cell reduction
+pipeline that includes improved cosmic ray rejection and sky brightne ss suppression was
+applied to these spectra by J. Johnson. The reduction pipeline modiﬁ cation was necessary
+because of the faintness of this star compared to the bright star s normally observed for radial
+velocity planet search work. The nearby companion mentioned earlie r is suﬃciently far away
+on the sky that it does not interfere with the HIRES work. The phas ed velocities are shown
+in Figure 2 with a ﬁt to a circular orbit whose phase and period are ﬁxed by the observed
+transit times.
+The Monte Carlo analysis described below shows no evidence of orbita l eccentricity. In
+this analysis the eccentricity and longitude of periastron were para meterized as esinωand
+ecosω. The probability distribution for these parameters is symmetrical w ith zero mean
+and a standard deviation of 0.029.
+The rms of the velocity residuals is 5 .7ms−1with the point nearest transit omitted from
+the ﬁt. This point is potentially aﬀected by the Rossiter-McLaughlin e ﬀect. Its residual of
+12ms−1islargerthanalltheothervelocity pointsandisinthesenseofaprog radeorbit. The
+rotational velocity given in Table 2 would result in an R-M amplitude of 20 ms−1, certainly
+detectable with further careful spectroscopy. An analysis of th e line bisectors (Figure 2)
+shows an rms of 6 .8ms−1with no organized structure that might result from a triple system
+(Mandushev et al. 2005).– 6 –
+4. DISCUSSION
+A Monte Carlo bootstrap procedure developed by Rowe and Brown, outlined in Koch
+et al. (2010b) and Borucki et al. (2010b), that simultaneously ﬁts the light curve and the
+radial velocities, and that is consistent with stellar evolution models, was carried out to
+produce most of the stellar and planetary properties presented in Table 2. The model light
+curve (Mandel & Agol 2002) was integrated over the long cadence integration period prior
+to ﬁtting to the Keplerdata. We note that the nearby companion star alluded to earlier
+is only about one Keplerpixel away from Kepler-6, so its light is included in the Kepler
+aperture. The fainter, more distant star is partially included in the a perture as well. This
+has the eﬀect of diluting the depth of the transit by 3 .3±0.4%. This eﬀect has been taken
+into account in the modeling process including the dilution uncertainty due to the partial
+inclusion of the more distant star. The derived planetary density, 0 .352+0.018
+−0.022gcm−3, places
+it in a well-populated area of the mass-radius relationship for curren tly known extrasolar
+planets.
+Several spectra obtained with HIRES without the iodine cell were su bjected to an SME
+analysis (Valenti & Piskunov 1996) by D. Fischer to provide the rema ining stellar properties
+reported in Table 2. In this analysis log gwas frozen at the transit-derived value since it
+is more reliable than the SME value, which was 4.59 if allowed to ﬂoat. The discrepancy
+between the transit value of log gand the SME value is signiﬁcant. Gilliland et al. (2010b)
+and Nutzman et al. (2010) ﬁnd a similar eﬀect in their comparison of log gderived from
+transit ﬁts, asteroseismology constraints, and SME spectral an alysis in the case of HD17156
+([Fe/H] = +0.24). In that case the discrepancy in log gis smaller, 0.12, but is in the same
+sense. Bakos et al. (2009) ﬁnd a similar situation for HAT-P-13 ([Fe /H] = +0 .41) with
+a loggdiscrepancy of +0.14. This suggests that there is a systematic err or in the log g
+values derived from SME analysis for high metallicity stars. However, Burke et al. (2007)
+ﬁnd only a small log gdiscrepancy of +0.02 in the case of XO-2 ([Fe /H] = +0.45) and the
+discrepancy for HD80606 ([Fe /H] = +0.4) is only +.01 (Naef et al. 2001; Winn et al. 2009).
+Further comparisons of spectroscopic log gvalues with precise values derived from transits
+and asteroseismology are likely to be fruitful.
+Funding for this Discovery mission is provided by NASA’s Science Mission Directorate.
+It is with pleasure that we acknowledge the outstanding work done b y the entire Kepler
+team during development, launch, commissioning, and the ongoing op erations of the Kepler
+mission. It is an honor and a privilege to work with such a talented and d edicated group of
+people.– 7 –
+We thank the anonymous referee for several excellent suggestio ns that improved the
+paper.
+Facilities: The Kepler Mission, Tillinghast (TRES), NOT (FIES), McDonald 2.7-m
+(Coude Spectrograph), Keck:I (HIRES), WIYN (Speckle), Paloma r Hale (PHARO/NGS)
+REFERENCES
+Bakos, G. ´A., et al. 2009, ApJ, in press (arXiv0907.3525B)
+Batalha, N., et al. 2010, ApJ, this issue
+Borucki, W. J., et al. 2010a, Science, Submitted
+Borucki, W. J., et al. 2010b, ApJ, this issue
+Burke, C. J., et al. 2007, ApJ, 671, 2115
+Gautier, T. N., et al. 2010, ApJ, this issue
+Gilliland, R. L., et al. 2010a, PASP, in press
+Gilliland, R. L., et al., 2010b, ApJ, Submitted
+Haas, M. R., et al. 2010, ApJ, this issue
+Jenkins, J. M., et al. 2010a, ApJ, this issue
+Jenkins, J. M., et al. 2010b, ApJ, this issue
+Koch, D. G., et al. 2010a, ApJ, this issue
+Koch, D. G., et al. 2010b, ApJ, this issue
+Latham, D. W. 2003. In Scientiﬁc Frontiers in Research on Extraso lar Planets, ASP Conf.
+Ser. 294, eds. D. Deming & S. Seager (San Francisco: ASP), 409
+Mandel, K., & Agol, E. 2002, ApJ, 580, L171
+Mandushev, G., et al. 2005, ApJ, 621, 1061
+Monet, D., et al. 2010, ApJ, this issue
+Naef, D., et al. 2001, A&A, 375, L27– 8 –
+Nutzman, P., et al. 2010, ApJ, Submitted
+Valenti, J. A., & Piskunov, N. 1996, A&AS, 118, 595
+Winn, J. N., et al. 2009, ApJ, 703, 2091
+This preprint was prepared with the AAS L ATEX macros v5.2.– 9 –
+Fig. 1.— The detrended light curve for Kepler-6. The time series for t he entire data set is
+plotted in the upper panel. The lower panel shows the photometry f olded by the 3 .234723-
+day period. The model ﬁt to the primary transit is overplotted in red (vertical axis on the
+left), and our attempt to ﬁt a corresponding secondary eclipse is s hown in green with the
+expanded and oﬀset scale on the right.– 10 –
+     -50050100Radial velocity (m s-1)
+       -15015 Residual (m s-1)
+0.0 0.2 0.4 0.6 0.8 1.0
+Phase -15015 Bisector
+var. (m s-1)
+Fig. 2.— The orbital solution for Kepler-6. The observed radial veloc ities obtained with
+HIRES on the Keck 1 Telescope are plotted in the top panel togethe r with the velocity curve
+for a circular orbit with the period and time of transit ﬁxed by the pho tometric ephemeris.
+The middle panel shows the residuals to the ﬁt. The point potentially a ﬀected by the
+Rossiter-McLaughlin eﬀect is the one at the smallest phase. With this point omitted from
+the ﬁt the rms of the residuals is 5.7 ms−1. The lower panel shows the line bisector variation.
+No structure connected to the radial velocity curve is evident.– 11 –
+Table 1. Relative Radial-Velocity Measurements of Kepler-6
+BJD Phase RV σRV
+(ms−1) (ms−1)
+2454986.087289 0.769 +68 .42 4.48
+2454987.087348 0.078 −59.94 4.59
+2454988.077695 0.384 −67.64 4.75
+2454989.019649 0.676 +48 .64 4.64
+2454995.112273 0.559 +18 .56 4.79
+2455014.881155 0.671 +51 .75 4.54
+2455015.984052 0.012 −34.79 4.65
+2455017.067098 0.346 −75.84 4.94
+2455044.019956 0.679 +50 .59 5.42– 12 –
+Table 2. System Parameters for Kepler-6
+Parameter Value Notes
+Transit and orbital parameters
+Orbital period P(d) 3 .234723±0.000017 A
+Midtransit time E(HJD) 2454954 .48636±0.00014 A
+Scaled semimajor axis a/R⋆ 7.05+0.11
+−0.06A
+Scaled planet radius RP/R⋆ 0.09829+0.00014
+−0.00050A
+Impact parameter b≡acosi/R⋆ 0.398+0.020
+−0.039A
+Orbital inclination i 86.◦8±0.3 A
+Orbital semi-amplitude K(ms−1) 80 .9±2.6 A,B
+Orbital eccentricity e 0 (adopted) A,B
+Center-of-mass velocity γ(ms−1) −18.3±3.5 A,B
+Observed stellar parameters
+Eﬀective temperature Teﬀ(K) 5647 ±44 C
+Spectroscopic gravity log g(cgs) Fixed at transit value C
+Metallicity [Fe/H] +0 .34±0.04 C
+Projected rotation vsini(kms−1) 3 .0±1.0 C
+Mean radial velocity (kms−1) −49.14±0.10 B
+Derived stellar parameters
+MassM⋆(M⊙) 1 .209+0.044
+−0.038C,D
+RadiusR⋆(R⊙) 1 .391+0.017
+−0.034C,D
+Surface gravity log g⋆(cgs) 4 .236±0.011 C,D
+Luminosity L⋆(L⊙) 1 .99+0.24
+−0.21C,D
+Age (Gyr) 3.8±1.0 C,D
+Planetary parameters
+MassMP(MJ) 0 .669+0.025
+−0.030A,B,C,D
+RadiusRP(RJ, equatorial) 1 .323+0.026
+−0.029A,B,C,D
+Density ρP(gcm−3) 0 .352+0.018
+−0.022A,B,C,D
+Surface gravity log gP(cgs) 2 .974+0.016
+−0.022A,B,C
+Orbital semimajor axis a(AU) 0 .04567+0.00055
+−0.00046E
+Equilibrium temperature Teq(K) 1500 ±200 F
+Note. —
+A: Based on the photometry.
+B: Based on the radial velocities assuming an elliptical orb it.
+C: Based on an SME analysis of the HIRES spectra.
+D: Based on the Yale-Yonsei stellar evolution tracks.
+E: Based on Newton’s version of Kepler’s Third Law and total m ass.
+F: Assumes Bond albedo = 0.1 and complete redistribution. Th e uncertainty
+reﬂects the uncertainties in these assumptions.

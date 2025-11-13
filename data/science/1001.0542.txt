@@ -1,0 +1,383 @@
+arXiv:1001.0542v2  [cond-mat.str-el]  30 Apr 2010Valence bond glass on an fcc lattice in the double perovskite Ba2YMoO 6.
+M. A. de Vries,1,2,∗A. C. Mclaughlin,3and J.-W. G. Bos4,5
+1School of Physics and Astronomy, E. C. Stoner Laboratory, Un iversity of Leeds, Leeds. LS2 9JT, UK
+2School of Physics & Astronomy, University of St-Andrews, th e North Haugh, KY16 9SS, UK
+3Department of Chemistry, University of Aberdeen, Meston Wa lk, Aberdeen AB24 3UE, UK
+4School of Chemistry, University of Edinburgh, King’s Build ings, Mayﬁeld Road, Edinburgh EH9 3JZ, UK
+5Department of Chemistry - EPS, Heriot-Watt University, Edi nburgh, EH14 4AS, UK
+(Dated: October 29, 2018)
+We report on the unconventional magnetism in the cubic B-sit e ordered double perovskite
+Ba2YMoO 6, using AC and DC magnetic susceptibility, heat capacity and µSR. No magnetic order
+is observed down to 2 K while the Weiss temperature is ∼ −160 K. This is ascribed to the geo-
+metric frustration in the lattice of edge-sharing tetrahed ra with orbitally degenerate Mo5+s= 1/2
+spins. Our experimental results point to a gradual freezing of the spins into a disordered pattern of
+spin-singlets, quenching the orbital degeneracy while lea ving the global cubic symmetry unaﬀected,
+and providing a rare example of a valence bond glass.
+PACS numbers: 75.10.Jm, 76.75.+i, 75.40.Cx
+Magnetic insulators with lattices in which antiferro-
+magnetic (AF) bonds are geometrically frustrated have
+been studied widely in the pursuit of exotic quantum
+groundstatessuchasspinliquid[1,2]. Suchnon-classical
+ground states have mainly been sought in low dimen-
+sional structures such as the triangular lattice system
+κ-(BEDT-TTF) 2Cu2(CN)3[3] and the kagome antifer-
+romagnet herbertsmithite [4]. Materials with a geomet-
+rically frustrated face centred cubic (fcc) lattice have in
+this respect received much less attention. The 12 near-
+neighbourmagneticbonds J1betweenthe[000]and[1
+21
+20]
+spins on the fcc lattice form a network of edge-sharing
+tetrahedra (Fig. 1). When these bonds are AF ( J1>0)
+the magnetism is geometrically frustrated, giving rise
+to a large (but not macroscopically large [5] as for the
+kagome lattice) ground-state manifold of spin conﬁgura-
+tions unrelated by symmetry. Further neighbour inter-
+actions (J2) along the 6 [100] vectors lift this degeneracy
+only partially; J2<0 (along the 6 [100] vectors) leads to
+type I order, weak AF exchange (0 < J2<2J1) to type
+III order and stronger AF exchange J2>2J1to type II
+order. Thermal/quantum ﬂuctuations and quenched dis-
+order have been shown to result in a bias for respectively
+collinearandanti collinearstateswithin these degenerate
+ground state manifolds [6–8], an entropic selection eﬀect
+termed “order from disorder” [9]. This is in agreement
+with experiments on well-known compounds of rock-salt
+structure such as MnO [10, 11], Cd 1−xMnxTe [12], NiO,
+MnSe [10]. Classical type I, II or III order has also been
+conﬁrmed for s= 1/2 [13–15] although less is known
+about the physics at the boundaries between the classi-
+cal phases. In this Letter we describe the unconventional
+magnetism in the compound Ba 2YMoO 6, providing ex-
+perimental evidence that an exotic valence bond glass
+(VBG) [16, 17] state can stabilize at the boundary be-
+tween the known classical phases on the fcc lattice. Such
+a disordered state has been predicted to be possible evenin the absence of structural disorder, as an example of a
+non-equilibrium quantum ground state [16].
+FIG.1: FourMoO 6octahedra(shadedgrey)andYions (large
+spheres) in the cubic unit cell of Ba 2YMoO 6(left). The Mo5+
+ions form a lattice of edge-sharing tetrahedra (right). The
+cubic lattice constant is 8.389 ˚A.
+The B-site ordered double perovskites are of general
+stoichiometry A2BB′O6where the Asite typically hosts
+alkaline-earths and lanthanides and the Bsites can host
+3d, 4dand 5dtransition metal (TM) ions. Depending on
+the combination of BandB′site ions, electronic phases
+from strongly correlated metals via half-metals [18] and
+semiconductors [19, 20] to Mott insulating can be real-
+ized. Mott insulating 4 dand 5dTM compounds are rare.
+Theoccurrenceofthis insulatingphasein thedouble per-
+ovskitesisduetothelargedistancebetweentheTM ions,
+of the order of 5 to 6 ˚A. Examples of Mott insulators
+are Ba 2LaRuO 6and Ca 2LaRuO 6[21], respectively type
+III and type I antiferromagnets. Sr 2CaReO 6[22] and
+Sr2MgReO [23] (the Re6+hass= 1/2) have spin-glass
+ground states, consistent with a negligible J2along the
+pathway Re-O- B′-O-Re. There is a large group of Mo5+
+compoundsBa 2LnMoO6withLn=Nd, Sm, Eu,Gd, Dy,
+Er,YbandY[24]. TheMo5+hasasinglyoccupied4 dt2g
+level with s= 1/2. Due to the strong spin-orbit coupling
+in 4dTM ions in a cubic crystal ﬁeld this is expected to
+lead to a j= 3/2 triplet [25, 26]. Only the larger lan-
+thanide compounds ( Ln= Nd, Sm and Eu) have N´ eel
+order (Type I, implying J2<0) coinciding with a weak2
+Jahn-Teller distortion [24, 27, 28], while the exchange
+interaction is of the order of 100 K [24]. The other com-
+pounds were found to be paramagnetic and with cubic
+symmetry at all temperatures. Ba 2YMoO 6is the sim-
+plest of these compounds because the Y3+ion does not
+carry a magnetic moment. The magnetic exchange is
+mainly via the 90◦B’-O-O-B’ π−πbonds [21, 24], giv-
+ing rise to 12 near-neighbour AF J1bonds for each spin,
+across the edges of the tetrahedra (Fig. 1).
+Polycrystalline Ba 2YMoO 6was prepared by the solid
+state reaction of stoichiometric oxides of Y 2O3, MoO 3
+and BaCO 3powders of at least 99.99% purity. These
+were ground, die-pressed into a pellet and heated under
+ﬂowing 5% H 2/N2. The ﬁnal synthesis temperature was
+1200-1250◦C with three intermediate regrinding steps to
+ensure phase homogeneity. It was found that a ﬁrst heat-
+ing step of ∼2 hr at 900◦C in air and thorough homoge-
+nization helps to prevent the formation of BaMoO 4and
+Y2O3impurities. Phase purity was conﬁrmed by labo-
+ratory X-ray powder diﬀraction. In a related paper [29]
+neutron powder diﬀraction results are discussed, which
+show that the Y/Mo site disorder is less than 1%. The
+diamagneticanalog,Ba 2YNbO 6, waspreparedat1200◦C
+in air from YNbO 4and BaCO 3. The sample magnetisa-
+tion was measured on a Quantum Design magnetic prop-
+erty measurement system (MPMS) in ﬁelds up to 5 T.
+The heat capacity was measured on a Quantum Design
+physical property measurement system (PPMS), using
+7.0 mg of a sintered pellet. The µSR experiment was
+carried out at MUSR at ISIS, UK.
+0 50 100 150 200 250 300
+T (K)036912χ 103 (emu/mol)Curie-Weiss fits
+"bulk" magnetism
+χ (T) in 1 T
+0 2 4 6 8
+H (T)0123
+M 10-2(emu/mol) M(H), 5 K
+M(H), 2.3 K
+fit to 5 K data
+fit to 2.3 K data
+00.40.81.21.6
+χ-1 10-3 (mol/emu)
+FIG. 2: (color online) The DC magnetic susceptibility χ(x,
+left axis) and χ−1(x, right axis) of Ba 2YMoO 6measured in 1 T.
+Curie-Weiss ﬁts in the two linear regimes in χ−1are indicated
+in grey (red) and the black line gives the diﬀerence between t he
+total susceptibility and the low-temperature Curie term. T he
+inset shows M(H)at 2.3 (+) and 5 K ( ◦) and ﬁts to the data
+with Brillouin functions, accounting for 7% of the Mo s= 1/2
+spins at 5K but only for 2% at 2.3 K.
+TheDC magneticsusceptibilitymeasuredina1Tﬁeldis shown in Fig. 2. A Curie-Weiss ﬁt to the high temper-
+ature susceptibility yields a Weiss temperature of -160 K
+and a Curie constant of 0.25 emu mol−1K−1, small com-
+pared to the 0.38 emu mol−1K−1expected for s= 1/2.
+This diﬀerence is attributed to strong quantum ﬂuctu-
+ations common in low-spin antiferromagnets and previ-
+ously observed in double perovskites [26]. Below 25 K a
+second linear regime is observed in χ−1, corresponding
+(for a 1 T ﬁeld) to a ∼10% fraction of all the s= 1/2
+moments (or ∼5% if they have the full j= 3/2 where
+gJ= 4/3) and a Weiss temperature of −2.3 K indicat-
+ing weak AF exchange. This fraction is too large to be
+ascribed directly to either structural disorder or an im-
+purity phase in the sample. Furthermore, ﬁts to M(H)
+measured at 2.3 and 5 K (inset of Fig. 2) with Brillouin
+functions lead to estimates of respectively 2 and 7% of
+all spins, compared to 10% for ﬁts to the M(T) curve.
+This suggests that the apparently quasi-free spins are an
+emergent property of the (disorder free) system.
+0 50 100 150
+T (K)-0.4-0.200.20.40.60.8
+χ'' 103(emu/mol)1 kHz
+3 kHz
+5 kHz
+9 kHz
+0123456χ' 103 (emu/mol)dc
+FIG. 3: (Color online) The temperature dependence of the
+dispersive (left axis, open symbols) anddissipative (righ taxis,
+ﬁlled symbols) components of the ACsusceptibility. The sol id
+lines are guides to the eye.
+The AC susceptibility measured with a ﬁeld amplitude
+of 5 Oe and zero DC oﬀset ﬁeld is shown in Fig. 3. The
+dispersive part of the AC susceptibility ( χ′) is almost
+frequency independent and is comparable to the diverg-
+ing low temperature DC susceptibility. The dissipative
+part (χ′′) shows a frequency dependent maximum be-
+tween 26 and 70 K. Remarkably, the maximum gradually
+gets sharperas the frequency increases, instead ofweaker
+as expected for a spin-glass transition. The agreement
+between the DC susceptibility and χ′below 20 K is a
+strong indication that the Curie-term can be ascribed to
+the weakly coupled spins.
+The heat capacity associated with the single Mo5+
+4delectron in Ba 2YMoO 6(as shown in Fig. 4) was ob-
+tainedfromcomparisonwith the heatcapacityofthe dia-
+magnetic analogue Ba 2YNbO 6. The heat capacity from
+phonons of Ba 2YMoO 6is expected to be lower than for
+Ba2YNbO 6by a factor 0.991 due to the mass diﬀerence3
+between the Mo and Nb nuclei. However this is small
+compared to the experimental error in the sample mass
+which is known with 10% accuracy. For this reason the
+heat capacity was measured well into the paramagnetic
+regime and matched to the heat capacity of Ba 2YNbO 6
+above 200 K (150 K) for the zero-ﬁeld (9 T) measure-
+ments [30]. The magnetic entropy is gradually released
+over a wide range of temperatures with a broad maxi-
+mum around 50 K. No anomalies corresponding to phase
+transitions are observed, only a gradualfreezing, quench-
+ing all degrees of freedom associated with the orbitally
+degenerate t2gs= 1/2 4delectrons. As shown in the
+inset of Fig. 4, the total entropy recovered Stot= 12±2
+JK−1mol−1, close to the Rln4 = 11 .5 expected for a
+j= 3/2 quadruplet (the j=l−s= 1/2 doublet lies at
+much higher energies [25, 26]). Below 25 K only ∼5%
+of the entropy is released, in agreement with the Curie
+ﬁt to the low temperature susceptibility which was found
+to correspond to ∼5% of the Mo5+if these remaining
+spins have j= 3/2. In a 9 T magnetic ﬁeld most of the
+magnetic entropy shifts to lower temperatures.
+0 50 100 150 200
+T (K)00.050.10.150.2C/T (JK-2mol-1)zero field
+9 Tesla
+0 50 100 150 200
+T (K)051015Stot (JK-1mol-1)
+FIG. 4: (Color online) The magnetic heat capacity obtained
+by subtracting the heat capacity of the diamagnetic analogu e
+Ba2YNbO 2in zero ﬁeld (black dots) and in 9 Tesla (open
+squares). The experimental error for the 9 T data is com-
+parable to that indicated for the zero ﬁeld data (grey area).
+The inset shows the total entropy release as a function of
+temperature in zero ﬁeld (black line) and in 9 T (red line).
+To gain a better understanding of the gradual freezing
+and the appearance of apparently weakly-coupled spins
+aµSR experiment was carried out. The zero-ﬁeld muon
+spin relaxation spectra at 120 K, 5 K and 1.4 K are
+shown in Fig. 5. There is no evidence of muon relax-
+ation due to nuclear spins which conﬁrms that the main
+muon stopping site is near the O2−ions. At 120 K there
+is no muon relaxation, as expected for a paramagnetic
+state. Remarkably, at 5 K a muon relaxation is still
+only just detectable. If the maximum in the AC sus-
+ceptibility is due to a conventional spin-glass transition0 2 4 6 8 10
+t (µs)00.20.40.60.81P
+120 K
+5 K
+1.4 K
+1 10 100
+T (K)00.020.040.06 λ
+FIG. 5: (Color online) The muon spin relaxation at 120, 5and
+1.4 K. The relaxation follows an exponential decay ( P(t) =
+exp[−t/λ]β, solid lines) with β= 1 for all but the 1.4 K data,
+whereβ= 0.7. Thetemperature dependenceoftherelaxation
+rateλis shown in the inset.
+a Lorentzian Kubo-Toyabe muon relaxation is expected
+below the spin glass transition, as observed in the re-
+lated system Sr 2MgReO 6[23]. The very slow muon re-
+laxation observed at 5 K in Ba 2YMoO 6indicates there
+are no static moments. At the same time the heat capac-
+ity data shows that at 5 K most of the magnetic entropy
+associated with j= 3/2 is quenched, implying static or-
+der. The majority of spins must therefore have bound
+into (non-magnetic) static spin-singlet “valence bonds”
+inwhichalsothe orbitaldegreesoffreedomarequenched.
+The moderate increasein the muon relaxationrate below
+5 K is then due to slowing-downof a small fraction of the
+spins which are left isolated as domain walls or defects
+in a (disordered) valence bond crystal (VBC). The best
+characterization of this state is probably a valence bond
+glass (VBG) as described in Ref. 17.
+The magnetic properties of Ba 2YMoO 6are very diﬀer-
+ent to those of the related compound Sr 2MgReO 6[23],
+where a ﬁrst order transition to a conventional spin glass
+state is observed. That the crossover in Ba 2YMoO 6is
+not a conventional spin-glass transition is also clear from
+the unusual frequency dependence of the AC susceptibil-
+ity. The gradual freezing and cross-over region around
+50 K are consistent with a pseudogap predicted for the
+VBG [17]. This gap, which corresponds to a spin-singlet
+dimerization energy scale, is ﬁlled by levels correspond-
+ing to emergent weakly-coupledspins which give rise to a
+diverging susceptibility as the temperature is decreased.
+In close agreementwith Ref. 17 the observedlow temper-
+ature susceptibility follows a power law χ∝(T−Ts)−γ
+withγ≈1. Asnotedearlier,thiscontributionfromeﬀec-
+tively weakly-coupledspins can not be related one-to-one
+to any structural disorder but arises as a cooperative ef-
+fect, due to the amorphous arrangement of spin-singlets.
+The heat capacity does not become zero at the lowest
+temperature measured which is consistent with a small4
+residual entropy and an ungapped spectrum as expected
+for the VBG.
+The classical ground-stateenergy is highest when J2≈
+2J1, at the cross-over between type III ( J2<2J1) and
+type II magnetism (the energy per spin is −J1/2+J2/4
+forJ2≤2J1). One possibility is that around this cross-
+over a spin-singlet state is energetically favored. A com-
+plete explanation of why spin-singlets stabilize will in the
+present case also involve the orbital degrees of freedom;
+It is the valence-bond formation rather than a Jahn-
+Teller eﬀect that ﬁxes the orbital orientation. This could
+be accompanied by local structural distortions which do
+not lead to experimentally observable [24, 29] structural
+changes because the valence bonds do not form a regular
+pattern within the crystal. As ﬁrst observed by Goode-
+nough and Battle [21], the band width is an important
+factor in understanding the magnetism in double per-
+ovskites with 4 dand 5dtransition metal ions. Because
+Ba2YMoO 6is a relatively wide-band insulator it could
+also be that the stability of a spin-singet state can be
+understood in terms of the t−Jmodel [31].
+In conclusion, the B-site ordered double perovskite
+Ba2YMoO 6has Mo5+ions with a singly-occupied de-
+generate t2gorbital in a cubic crystal ﬁeld and with
+s= 1/2. These moments are located on an fcc lattice
+and coupled antiferromagnetically, with a Weiss temper-
+ature of −160 K. At high temperature the single-ionic
+j= 3/2 moments are strongly reduced by quantum ﬂuc-
+tuations, consistent with the formation of stable spin-
+singlet dimers at low temperatures. Remarkably, the
+dimerizationpatternappearstobedisordered,givingrise
+to emergent eﬀectively unpaired spins with a diverging
+susceptibility as the temperature is reduced, in agree-
+ment with theoretical predictions of a VBG [17]. It is
+proposed that the stabilisation of spin-singlets is a result
+of the ﬁne-tuning of the ratio J2/J1to the boundary be-
+tween the classical type II and type III phases. Clearly
+the present results provide a strong motivation for fur-
+ther theoretical explorations of the phase diagram of the
+fcc antiferromagnet and of the interplay between spin
+and orbital degrees of freedom in 4 dand 5dtransition
+metal compounds. This is the ﬁrst observation of a VBG
+in a quantum magnet. Further experimental studies are
+needed to understand the relationship between the struc-
+tural and magnetic disorder in this class of materials.
+The Royal Society of Edinburgh (JWGB) and Lever-
+hulme Trust (ACM) are acknowledged for ﬁnancial sup-
+port. C. L. Henley and H. M. Rønnow are gratefully
+acknowledged for fruitful discussions. S. J. Ray, P. King
+and P. Baker are gratefully acknowledged for assistance
+with the µSR experiments.
+∗Electronic address: m.a.devries@physics.org[1] J. E. Greedan, J. of Mat. Chem. 11, 37 (2001).
+[2] G. Misguich and C. Lhuillier, in Frustrated spin systems ,
+edited by H.T.Diep (World Scientiﬁc, Singapore, 2005),
+pp. 229.
+[3] Y. Shimizu, K. Miyagawa,K. Kanoda,M. Maesato and G.
+Saito, Phys. Rev. Lett. 91, 107001 (2003).
+[4] M. P. Shores, E. A. Nytko, B. M. Bartlett, and D. G.
+Nocera, J. Am. Chem. Soc. 127, 13462 (2005).
+[5] M. E. Lines and E. D. Jones, Phys. Rev. 139, A1313
+(1965).
+[6] Y. Yamamoto and T. Nagamiya, J. Phys. Soc. Jpn 32,
+1248 (1972).
+[7] C. L. Henley, J. Appl. Phys. 61, 3962 (1987).
+[8] T. Yildirim, A. B. Harris, and E. F. Shender, Phys. Rev.
+B58, 3144 (1998).
+[9] J. Villain, R. Bidaux, J. Carton, and R. Conte, J. de
+Physique (Paris) 41, 1263 (1980).
+[10] C. G. Shull, W. A. Strauser, and E. O. Wollan, Phys.
+Rev.83, 333 (1951).
+[11] A. L. Goodwin, M. G. Tucker, M. T. Dove, and D. A.
+Keen, Phys. Rev. Lett. 96, 047209 (2006).
+[12] R. R. Galazka, S. Nagata, and P. H. Keesom, Phys. Rev.
+B22, 3344 (1980).
+[13] T. Oguchi, H. Nishimori, and Y. Taguchi, J. Phys. Soc.
+Jpn.54, 4494 (1985).
+[14] N.-G. Zhang, C. L. Henley, C. Rischel, and K. Lefmann,
+Phys. Rev. B 65, 064427 (2002).
+[15] K. Lefmann and C. Rischel, Eur. Phys. J. B 21, 313
+(2001).
+[16] C. Chamon, Phys. Rev. Lett. 94, 040402 (2005).
+[17] M. Tarzia and G. Biroli, Europhys. Lett. 82, 67008
+(2008).
+[18] K. Kobayashi et al., Nature 395, 677 (1998).
+[19] J.-W. G. Bos and J. P. Attﬁeld, Chem. Mat. 16, 1822
+(2004).
+[20] J.-W. G. Bos and J. P. Attﬁeld, J. Mat. Chem. 15, 715
+(2005).
+[21] P. D. Battle, J. B. Goodenough, and R. Price, J. Solid
+St. Chem. 46, 234 (1983).
+[22] C. R. Wiebe, J. E. Greedan, G. M. Luke, and J. S. Gard-
+ner, Phys. Rev. B 65, 144413 (2002).
+[23] C. R. Wiebe et al., Phys. Rev. B 68, 134410 (2003).
+[24] E. J. Cussen, D. R. Lynham, and J. Rogers, Chem. Mat.
+18, 2855 (2006).
+[25] J. B. Goodenough, Phys. Rev. 171, 466 (1968).
+[26] A. S. Erickson et al., Phys. Rev. Lett. 99, 016404 (2007).
+[27] A. C. Mclaughlin, Solid State Commun. 137, 354 (2006).
+[28] A. C. Mclaughlin, Phys. Rev. B 78, 132404 (2008).
+[29] A. C. McLaughlin, M. A. de Vries, and J.-W. G. Bos, To
+be puslished, 2010.
+[30] The data thus obtained gives a lower limit to the heat
+capacity associated with the singly occupied 4 d t2glevel,
+which is suﬃcient for the present purpose.
+[31] E. Dagotto, Thet−Jand frustrated Heisenberg Models:
+a status report on numerical studies (World Scientiﬁc,
+Singapore 1991).
+[32] After submission of this paper a preprint on Ba 2YMoO 6
+by Aharen et al.(cond-mat/1001.1665 (2010)) has ap-
+peared. Their conclusions are broadly in agreement with
+our observations.

@@ -1,0 +1,281 @@
+arXiv:1001.0293v2  [hep-ph]  13 Jan 2010The Aligned Two-Higgs-Doublet Model∗
+Paula Tuz ´on
+and
+Antonio Pich
+Departament de F´ ısica Te` orica, IFIC, Universitat de Val` encia - CSIC
+Apt. Correus 22085, E-46071 Val` encia, Spain
+In the two-Higgs-Doublet model the alignment of the Yukawa ﬂavou r
+matrices of the two scalar doublets guarantees the absence of tr ee-level
+ﬂavour-changing neutral couplings. The resulting fermion-scalar interac-
+tions are parameterized in terms of three complex parameters ζf, leading
+to a generic Yukawa structure which contains as particular cases a ll known
+speciﬁc implementationsofthemodelbasedon Z2symmetries. Thesethree
+complex parameters are potential new sources of CP violation.
+PACS numbers: 12.60.Fr, 12.15.-y, 12.15.Ji, 14.80.Cp
+1. The generic two-Higgs-doublet model
+The two-Higgs-doublet model (THDM) [1, 2] is one of the most s im-
+plest extensions of the Standard Model (SM) and brings many i nterest-
+ing phenomenological features (new sources of CP violation , dark mat-
+ter candidates, axion phenomenology ...). It is a gauge theo ry with the
+same fermion content as the SM and two Higgs doublets φa(a= 1,2)
+with hypercharge Y=1
+2. The neutral components of the scalar dou-
+blets acquire vacuum expectation values that are, in genera l, complex:
+<0|φT
+a(x)|0>=1√
+2(0,vaeiθa). One can ﬁx θ1= 0 through an appropriate
+U(1)Ytransformation, leaving the relative phase θ≡θ2−θ1.
+A global SU(2) transformation in the scalar space ( φ1,φ2) allows us to
+deﬁne the so-called Higgs basis (Φ 1,Φ2) where only one doublet acquires a
+∗Presented at the Flavianet topical workshop on Low energy constraints on extensions
+of the Standard Model , Kazimierz, Poland, 23-27 July 20092
+vacuum expectation value v≡/radicalBig
+v2
+1+v2
+2:
+/parenleftbiggΦ1
+−Φ2/parenrightbigg
+≡1
+v/bracketleftbiggv1v2
+v2−v1/bracketrightbigg /parenleftbiggφ1
+e−iθφ2/parenrightbigg
+, (1)
+Φ1=/bracketleftBigg
+G+
+1√
+2(v+S1+iG0)/bracketrightBigg
+, Φ2=/bracketleftBigg
+H+
+1√
+2(S2+iS3)/bracketrightBigg
+.(2)
+In addition to the three Goldstone ﬁelds G±(x) andG0(x), there are ﬁve
+physical degrees of freedom in the scalar sector: two charge d ﬁeldsH±(x)
+and three neutrals ϕ0
+i(x) ={h(x),H(x),A(x)}, which are related to the Si
+ﬁelds through an orthogonal transformation ϕ0
+i(x) =RijSj(x). The form
+ofRijdepends on the scalar potential, which could violate CP in it s most
+general version; in this case the resulting mass eigenstate s will not have a
+deﬁnite CP parity. If it is CP symmetric, the CP admixture dis appears.
+1.1. Yukawa sector
+The most general Yukawa Lagrangian is given by
+LY=−¯Q′
+L(Γ1φ1+Γ2φ2)d′
+R−¯Q′
+L(∆1/tildewideφ1+∆2/tildewideφ2)u′
+R
+−¯L′
+L(Π1˜φ1+Π2˜φ2)l′
+R+ h.c. , (3)
+where¯Q′
+Land¯L′
+Lare the left-handed quark and lepton doublets, respec-
+tively, and ˜φa(x)≡iτ2φ∗
+athe charge-conjugated scalar ﬁelds. All fermionic
+ﬁelds are written as NG–dimensional vectors and the couplings Γ a, ∆aand
+ΠaareNG×NGcomplex matrices in ﬂavour space. Moving to the Higgs
+basis, the Lagrangian reads
+LY=−√
+2
+v/braceleftBig¯Q′
+L(M′
+dΦ1+Y′
+dΦ2)d′
+R+¯Q′
+L(M′
+u˜Φ1+Y′
+u˜Φ2)u′
+R
++¯L′
+L(M′
+l˜Φ1+Y′
+l˜Φ2)l′
+R+ h.c./bracerightBig
+. (4)
+Here,M′
+f(f=u,d,l) are the non-diagonal fermion mass matrices and Y′
+f
+contain the Yukawa couplings to the scalar doublet that does n’t acquire a
+vacuum expectation value. Each right-handed fermion coupl es to two diﬀer-
+ent matrices that in general cannot be diagonalized simulta neously. In the
+fermion mass-eigenstate basis f(x), theM′
+fmatrices become the diagonal
+mass matrices Mf, whileY′
+fbecomeYfwhich remain non-diagonal and un-
+related to Mf. This originates dangerous ﬂavour-changing neutral-curr ent
+(FCNC) interactions, which are tightly constrained phenom enologically.3
+To avoid this problem one can assume that the non-diagonal Yu kawa
+couplings are proportional to thegeometric mean of thetwo f ermion masses,
+gij∝√mimj[3]. This kind of phenomenologically viable models, known
+as Type III THDM [4], can be obtained assuming particular tex tures of
+the Yukawa matrices [3]. Another possibility is to make the s calars heavy
+enough to suppress low-energy FCNC eﬀects. However, this ass umption
+leads to a phenomenologically non relevant THDM.
+A more elegant solution is to impose a discrete Z2symmetry to enforce
+that only one scalar doublet couples to a given right-handed fermion [5]; one
+of the two Yukawa matrices has to be zero. One requires the Lag rangian
+to remain invariant under the change φ1→φ1,φ2→ −φ2,QL→QL,
+LL→LL, and appropriate transformation properties for the right- handed
+fermions. Therearefournon-equivalent choices: theTypeI (onlyφ2couples
+to fermions) [6, 7, 8], Type II ( φ1couples to dandlandφ2tou) [7, 9, 8],
+Type X or leptophilic ( φ1couples to fermions and φ2to quarks) and Type
+Y (φ1couples to dandφ2touandl) models [8, 10, 11, 12, 13]. The Z2
+symmetry can be also implemented in the Higgs basis, forcing all fermions
+to couple to Φ 1; thisinertdoublet model is a natural frame for dark matter
+[14, 15, 16].
+2. Aligned THDM
+Amoregeneral waytoavoid tree-level FCNCsistorequirethe alignment
+in ﬂavour space of the Yukawa coupling matrices [17]:
+Γ2=ξde−iθΓ1,∆2=ξ∗
+ueiθ∆1,Π2=ξle−iθΠ1, (5)
+withξfarbitrary complex numbers. The alignment guarantees that t he ma-
+tricesY′
+fandM′
+fare proportional and can be simultaneously diagonalized:
+Yd,l=ζd,lMd,l, Y u=ζuMu, ζ f≡ξf−tanβ
+1+ξftanβ,(6)
+where tan β≡v2/v1. In terms of mass-eigenstate ﬁelds, the Yukawa La-
+grangian takes then the form:
+LY=−√
+2
+vH+(x){¯u(x)[ζdVMdPR−ζuMuVPL]d(x)+ζl¯ν(x)MlPRl(x)}
+−1
+v/summationdisplay
+ϕ,fϕ0
+i(x)yϕ0
+i
+f¯f(x)MfPRf(x) + h.c. , (7)
+whereVis the CKM matrix, PR,L≡1±γ5
+2andyϕ0
+i
+fare neutral couplings of
+the physical scalar ﬁelds [17]. Therefore, within this appr oach:4
+Table 1. Choices of ξfassociated with Z2models and corresponding values of ζf.
+Model (ξd,ξu,ξl) ζdζuζl
+Type I (∞,∞,∞) cotβcotβcotβ
+Type II (0,∞,0) −tanβcotβ−tanβ
+Type X (∞,∞,0) cotβcotβ−tanβ
+Type Y (0,∞,∞)−tanβcotβcotβ
+Inert (tanβ,tanβ,tanβ)0 00
+– All scalar-fermion couplings are proportional to the corr esponding
+fermion masses.
+– The neutral Yukawas are diagonal in ﬂavour.
+– The only source of ﬂavour-changing interactions is the qua rk-mixing
+matrix V in the charged sector.
+– All leptonic couplings are diagonal in ﬂavour, since there are no right-
+handed neutrinos in the theory.
+– There are only three new parameters ζf, which encode all possible
+freedom allowed by the alignment conditions. These couplin gs satisfy
+universality among the diﬀerent generations, i.e. there is t he same
+universal coupling for all fermions with a given electric ch arge. They
+are also invariant under global SU(2) transformations of th e scalar
+ﬁeldsφa→φ′
+a=Uabφb[18], i.e. they are scalar basis independent.
+– The usual models based on Z2symmetries are recovered taking the
+appropriated limits shown at Table 1.
+– Theζfcan be arbitrary complex numbers. Their phases introduce
+new sources of CP violation without tree-level FCNCs.
+Lepton-ﬂavour-violating neutral couplings are identical ly zero to all or-
+ders in perturbation theory, because of the absence of right -handed neu-
+trinos. So, the usually adopted Z2symmetries are not necessary in the
+lepton sector, making the Type X and Y models less compelling . From a
+phenomenological point of view, the coupling ζlcould take any value.
+Quantum corrections could introduce some misalignment of t he quark
+Yukawa coupling matrices, generating small FCNCs suppress ed by the cor-
+responding loop factors. However, the ﬂavour mixing induce d by loop cor-
+rections has a very characteristic structure [17] which res embles the popular
+Minimal Flavour Violation scenarios [19]. This restrictio n in the structure
+of the local FCNC terms is due to the following symmetry of the aligned
+THDM: the Lagrangian remains invariant under ﬂavour-depen dent phase5
+transformations of thediﬀerent fermionmass eigenstates, fi(x)→eiαf
+ifi(x),
+provided the quark mixing matrix is transformed as Vij→eiαu
+iVije−αd
+j[17].
+The only possible FCNC terms are then of the type ¯ ui[V(Md)nV†]ijujand
+¯di[V†(Mu)mV]jdj(n,m >0), or similar structures with additional factors
+ofVandV†[17]. Structures of this type have been recently discussed i n
+Ref. [20].
+3. Phenomenology
+One of the most distinctive features of the THDM is the presen ce of a
+charged scalar H±. Assuming that Br( H+→c¯s) +Br(H+→τ+ντ) = 1,
+the combined LEP data on e+e−→H+H−constrain MH±>78.6 GeV
+(95% CL) [21]. The CDF [22] and D0 [23] collaborations have se arched for
+t→H+bdecays with negative results. CDF assumes Br( H+→c¯s) = 1
+(ζl<< ζu,d), while D0 adopts the opposite hypothesis Br( H+→τντ) = 1
+(ζl>> ζu,d). Both experiments ﬁnd upper bounds on Br( t→H+b) around
+0.2 (95% CL) for charged scalar masses between 60 and 155 GeV. This
+implies|ζu|<0.3−2.5, where the exact number depends on MH±.
+Onecan also extract information from thesemileptonic deca ys of a pseu-
+doscalar meson P+→l+νl, which are sensitive to H+exchange due to
+the helicity suppression of the SM amplitude: Γ( P+
+ij→l+νl)/Γ(P+
+ij→
+l+νl)SM=|1−∆ij|2, where the new physics information is encoded in
+∆ij= (mP±
+ij/MH±)2ζ∗
+l(ζumui+ζdmdj)/(mui+mdj). The correction ∆ ij
+is in general complex and its real part can have either sign. T o determine
+its size one needs to know Vijand a theoretical determination of the me-
+son decay constant. From the present knowledge of B+→τ+ντ[24], we
+obtain|1−∆ub|= 1.32±0.20 which implies MH±//radicalBig
+|Re(ζ+
+lζd)|>5.7 GeV
+(90% CL). With fDs= 242±6 MeV [25], the recent CLEO measurement
+Br(D+
+s→τ+ντ) = (5.62±0.64)% [26] implies |1−∆cs|= 1.07±0.05 and
+MH±//radicalBig
+|Re(ζ+
+lζu)|>4.4 GeV (90% CL).
+FCNC processes such as b→sγorP0−¯P0mixing are also very sen-
+sitive to scalar contributions and give strong constraints on the parameter
+space (MH±,ζu,d). A detailed phenomenological analysis will be presented
+somewhere else.
+Acknowledgements
+This work has been supported in part by the EU Contract MRTN-C T-
+2006-035482 (FLAVIAnet), by MICINN, Spain [grants FPA2007 -60323 and
+Consolider-Ingenio 2010 CSD2007-00042 CPAN] and by Genera litat Valen-6
+ciana (PROMETEO/2008/069). P.T is indebted to the Spanish M ICINN
+for a FPU fellowship.
+REFERENCES
+[1] J. Gunion, H.E. Haber, G. Kane and S. Dawson, The Higgs Hunters Guide
+(Addison-Wesley, New York, 1990).
+[2] G.C. Branco, L. Lavoura and J. P. Silva, CP Violation (Oxford University
+Press, Oxford, England, 1999).
+[3] T.P. Cheng and M. Sher, Phys. Rev. D35(1987) 3484. J.L. Diaz-Cruz,
+R. Noriega-Papaqui and A. Rosado, Phys. Rev. D69(2004) 095002.
+[4] D. Atwood, L. Reina and A. Soni, Phys. Rev. D55(1997) 3156.
+[5] S.L. Glashow and S. Weinberg, Phys. Rev. D15(1977) 1958.
+[6] H.E. Haber, G.L. Kane and T. Sterling, Nucl. Phys. B161(1979) 493.
+[7] L.J. Hall and M.B. Wise, Nucl. Phys. B187(1981) 397.
+[8] M. J. Savage, Phys. Lett. B266(1991) 135.
+Constraining ﬂavor changing neutral currents with B —¿ mu+ mu-. M artin J.
+Savage Published in Phys.Lett.B266:135-141,1991.
+[9] J.F. Donoghue and L.F. Li, Phys. Rev. D19(1979) 945.
+[10] V.D. Barger, J.L. Hewett and R.J.N. Phillips, Phys. Rev. D41(1990) 3421.
+[11] Y. Grossman, Nucl. Phys. B426(1994) 355.
+[12] A.G. Akeroyd and W.J. Stirling, Nucl. Phys. B447(1995) 3. A.G. Akeroyd,
+Phys. Lett. B377(1996) 95; J. Phys. G24(1998) 1983.
+[13] M. Aoki et al., Phys. Rev. D80(2009) 015017.
+[14] E. Ma, Mod. Phys. Lett. A23(2008) 647. Phys. Rev. D73(2006) 077301.
+N.G. Deshpande and E. Ma, Phys. Rev. D18(1978) 2574.
+[15] R. Barbieri, L.J. Hall and V.S. Rychkov, Phys. Rev D74(2006) 015007.
+[16] L. L´ opez Honorez et al., JCAP0702(2007) 028.
+[17] A. Pich and P. Tuzon, Phys. Rev. D80(2009) 091702.
+[18] S. Davidson and H.E. Haber, Phys. Rev. D72(2005) 035004, 099902(E).
+I.F. Ginzburg and M. Krawczyk, Phys. Rev. D72(2005) 115013. F.J. Botella
+and J.P. Silva, Phys. Rev. D51, 3870 (1995).
+[19] R.S. Chivukula and H. Georgi, Phys. Lett. B188(1987) 99. L.J. Hall and
+L. Randall, Phys. Rev. Lett. 65(1990)2939.A.J. Buraset al., Phys. Lett. B500
+(2001) 161. G. D’Ambrosio et al., Nucl. Phys. B645(2002) 155. V. Cirigliano
+et al.,Nucl. Phys. B728(2005) 121.
+[20] F.J. Botella, G.C. Branco and M.N. Rebelo, arXiv:0911.1753 [hep-ph ].
+[21] ALEPH, DELPHI, L3 and OPAL Collaborations, The LEP Working Gr oup
+for Higgs Boson Searches, LHWG note 2001-05 [arXiv:hep-ex/0107 031].
+[22] CDF Collaboration, arXiv:0907.1269 [hep-ex].7
+[23] D0 Collaboration, arXiv:0906.5326 [hep-ex].
+[24] M. Antonelli et al., arXiv:0907.5386 [hep-ph].
+[25] E. Follana et. al., Phys. Rev. Lett. 100, 062002 (2008). C. Bernard et al., PoS
+LATTICE2008 (2008) 278. B. Blossier et al., JHEP0907(2009) 043.
+[26] CLEO Collaboration, Phys. Rev. D79(2009) 052001, 052002.

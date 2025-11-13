@@ -1,0 +1,337 @@
+arXiv:1001.0308v2  [quant-ph]  28 Nov 2010How to prepare quantum states that follow classical paths
+Pouria Pedram∗
+Plasma Physics Research Center, Science and Research Branc h, Islamic Azad University, Tehran, Iran
+November 5, 2018
+Abstract
+We present an alternative quantization procedure for the on e-dimensional non-relativistic quan-
+tum mechanics. We show that, for the case of a free particle an d a particle in a box, the complete
+classical and quantum correspondence can be obtained using this formulation. The resulting wave
+packets do not disperse and strongly peak on the classical pa ths. Moreover, for the case of the free
+particle, they satisfy minimum uncertainty relation.
+Keywords : Quantum mechanics; Classical-quantum correspondence; Wave p ackets.
+Pacs: 03.65.-w
+1 Introduction
+Schr¨ odinger equation Hψ=i¯h˙ψis the main equation of non-relativistic quantum physics which can be
+obtained upon the quantization procedure /vector p→ −i¯h/vector∇andH→i¯h∂tin the Hamiltonian formulation of
+quantum mechanics [1, 2]. In fact, this equation determines the time evolution of the particle’s wave
+function. Often, weareinterestedtoﬁnd solutionsin suchawayth at theyfollowtheclassicaltrajectories
+without dispersion and peak on them. But, the construction of suc h kind of wave packets, except for the
+case of the simple harmonic oscillator, is not an easy task. For instan ce, for the case of a free particle,
+the initial wave function disperses quickly as the particle moves.
+The problem of classical and quantum correspondence has attrac ted much attention in the literature
+[3]. These eﬀorts have begun by Schr¨ odinger [4] and followed by oth ers in the context of the coherent
+states. These wavepacketsare speciﬁc kind of quantum states t hat describe a maximal kind ofcoherence
+∗pouria.pedram@gmail.com
+1and a classical kind of behavior [5]. In quantum physics, we can const ruct such kind of quantum states
+by the superposition of the energy eigenstates which would peak ar ound the classical trajectories. But,
+in most cases, the wave packets do not maintain their shape and eve ntually disperse.
+One possible way to solve this problem is using an alternative quantizat ion method. In fact, we need
+to change the diﬀerential structure of the Schr¨ odinger equatio n which has a parabolic form. It has been
+shown that in the context of quantum cosmology, the hyperbolic na ture of its main equation gives us
+the possibility of complete classical and quantum correspondence [6 , 7]. So, the resulting wave packets
+strongly peak on the classical trajectories and never disperse.
+Here, we ﬁrst consider a one-dimensional model in the presence of an external general potential.
+Then, we use an alternative classical picture which, after quantiza tion, results in a hyperbolic diﬀerential
+equation. For the case of a free particle and a particle in a box, we so lve this equation and construct
+wave packets using appropriate initial conditions. We show that the se wave packets follow the classical
+paths and strongly peak on them in the whole conﬁguration space.
+2 The model
+Let us consider a harmonic oscillator as a simple example. In the classic al domain, this model has a
+well-known solution u(t) =Acos(ωt+δ1). Note that, time explicitly appears in this solution which
+parameterize the temporal behavior of u. To eliminate the explicit presence of t, we can use an another
+general solution with the same total energy but diﬀerent phase i.e.v(t) =Acos(ωt+δ2). Now, we can
+write the variable uin terms of vinstead oft, namely
+u= cos(∆)v±sin(∆)/radicalbig
+A2−v2, (1)
+where ∆ = δ1−δ2and−A≤u,v≤A. So, in general, the trajectory is an ellipse which for ∆ = π/2
+represents a circle. This example shows that we can alwaysparamet erizethe solution in terms of another
+one which has the same energy but with arbitrary phase shift. More over, for each model, the trajectories
+are unique due to the speciﬁc form of the potential.
+2Since the both solutions have a same energy and obey a same equatio n of motion we have
+
+
+p2
+u2m+V(u) =E,
+p2
+v2m+V(v) =E.(2)
+Since the right hand sides are equal, we obtain
+F ≡p2
+u
+2m−p2
+v
+2m+V(u)−V(v) = 0. (3)
+Inthequantummechanicaldomain, weneedtoquantizeaboveequa tion. Theoperator Fcanbeobtained
+upon quantization procedure pu→ −i¯h∂
+∂uandpv→ −i¯h∂
+∂v. So, we demand that Fannihilate the
+wave function i.e.
+FΨ(u,v) = 0, (4)
+or, equivalently
+/braceleftbigg
+−¯h2
+2m∂2
+∂u2+¯h2
+2m∂2
+∂v2+V(u)−V(v)/bracerightbigg
+Ψ(u,v) = 0. (5)
+Therefore, Eq. (5) is an alternative quantum mechanical equation which has a diﬀerent structure with
+respect to the Schr¨ odinger equation, but both explain the same p hysics.
+Although there is no intrinsic preference between these two pictur es, the later has some additional
+advantages. This is due to the hyperbolic form of Eq. (5) which gives us freedom for choosing the initial
+wave function and its initial slope. On the other hand, the solutions o f a hyperbolic equation are usually
+highly oscillatory. Since the oscillation around the classical paths is no t acceptable, we need to choose
+appropriate initial conditions to guarantee the classical–quantum c orrespondence.
+In the next section, to show the method, we consider the case of a free particle. For this case, the
+trajectories in both u−tandu−vplanes are straight lines. Since Eq. (5) admits solutions which never
+disperseandstronglypeakontheclassicalpaths, weshowthatth e classicalandquantumcorrespondence
+arises naturally from this formulation.
+33 Free particle
+For the case of the free particle ( V= 0), we have
+
+
+u(t) =βut+u0,
+v(t) =βvt+v0,(6)
+whereβis the particle’s velocity. Since both solutions have a same total ener gy, we also have |βu|=|βv|
+which results in u=±v+u0∓v0. So, the trajectories are straight lines with unit absolute slope.
+It is straightforward to check that, for V= 0, cos(ku)cos(kv) and sin(ku)sin(kv) are the eigenfunc-
+tions of Eq. (5). Therefore, the general solution is
+Ψ(u,v) =1√
+2π/integraldisplay∞
+−∞[A(k)cos(ku)cos(kv)
++iB(k)sin(ku)sin(kv)]dk. (7)
+To ﬁnd the complete form of the wave packet, we need to specify th e coeﬃcients A(k) andB(k). These
+coeﬃcients can be determined from the initial form of the wave pack et atv= 0
+Ψ(u,0) =1√
+2π/integraldisplay∞
+−∞A(k)cos(ku)dk, (8)
+∂Ψ(u,v)
+∂v/vextendsingle/vextendsingle/vextendsingle/vextendsingle
+v=0=i√
+2π/integraldisplay∞
+−∞B(k)sin(ku)kdk. (9)
+It is obvious that the presence of B(k) dose not have any eﬀect on the form of the initial wave function
+but it is responsible for the slope of the wave function at v= 0, and vice versa for A(k). Moreover,
+a complete description of the problem would include the speciﬁcation o f both of these quantities. On
+the other hand, since we are interested to construct wave packe ts with classical properties, we need to
+assume a speciﬁc relationship between these coeﬃcients. The pres cription is that these coeﬃcients have
+the same functional form [6, 7] i.e.
+A(k) =B(k), (10)
+which results in the following wave packet
+Ψ(u,v) =1√
+2π/integraldisplay∞
+−∞A(k)[cos(ku)cos(kv)
++isin(ku)sin(kv)]dk. (11)
+4To completely determine the wave packet, we should specify A(k). We can ﬁnd A(k) by choosing an
+appropriate initial wave function such as two Gaussians at u=±d
+Ψ(u,0) =e−α(u−d)2+e−α(u+d)2. (12)
+This choice of initial condition, using inverse fourier transform, is re lated to
+A(k) =/radicalbigg
+2
+αe−k2
+4αcos(kd), (13)
+which gives
+Ψ(u,v) =1−i
+2/parenleftBig
+e−α(u+v+d)2+e−α(u+v−d)2
++ie−α(u−v+d)2+ie−α(u−v−d)2/parenrightBig
+. (14)
+Figure 1 shows the initial wave function and its initial slope for d= 4 andα= 1. Since, from Bohmian
+interpretation of the quantum mechanics, the initial derivative of t he imaginary part of the wave packet
+corresponds to the initial classical velocity, the presence of a non zero and appropriate form of B(k) can
+be justiﬁed. The plot of the initial slope of the wave packet contains a negative and a positive peaks
+which correspond to a incoming or outgoing particle, respectively. F igure 2 shows the resulting wave
+packet ford= 2 andα= 1. As it can be seen from the ﬁgure, this wave packet never disper ses and
+strongly peaks on the classical trajectory. Moreover, the heigh t of the crest of the wave packet, which
+from WKB approximation corresponds to the inverse velocity of the particle, is constant along the
+classical path. This behavior is in complete agreement with the classic al picture. However, the square
+of the wave packet increases at the intersection points of the tra jectories which correctly corresponds
+to the probability of two possible particle’s directions of motion. Note that our choice of the expansion
+coeﬃcients (13) corresponds to a free particle with a positive or ne gative momentum which is located
+initially at u=±d.
+5-6 -4 -2 2 4 6u0.20.40.60.81/CapPsi/LParen1u,0/RParen1
+-6 -4 -2 2 4 6u
+-0.75-0.5-0.250.250.50.75/Minus/Imagi/PartialDiff/CapPsi/FractionBarExt/FractionBarExt/FractionBarExt/FractionBarExt/FractionBarExt/FractionBarExt/FractionBarExt/FractionBarExt/FractionBarExt/PartialDiffv/VertBar1v/Equal0
+Figure 1: The initial wave function (left) and the initial derivative of t he wave function (right) for d= 4
+andα= 1.
+-5
+0
+5u
+0246
+v00.250.50.751
+/VertBar1/CapPsi/VertBar12
+-5
+0
+5u-5
+0
+5u
+0246
+v00.250.50.751
+/VertBar1/CapPsi1/VertBar12
+-5
+0
+5u-5
+0
+5u
+0246
+v00.20.4
+/VertBar1/CapPsi2/VertBar12
+-5
+0
+5u
+-5 0 5
+u0246
+v
+00.250.50.751/VertBar1/CapPsi/VertBar12046
+-5 0 5
+u0246
+v
+00.250.50.751/VertBar1/CapPsi1/VertBar12046
+-5 0 5
+u0246
+v
+00.20.4
+/VertBar1/CapPsi2/VertBar12046
+Figure 2: Up: the square of the wave packet |Ψ(u,v)|2(left), [Re[Ψ( u,v)]]2(middle), and [Im[Ψ( u,v)]]2
+(right) ford= 2 andα= 1, Down: the respective upper view.
+64 Particle in a box
+For a particle in a box, we have
+V(q) =
+
+0 −L
+2<q<L
+2,
+∞ otherwise,(15)
+whereqstands foruorv. For this case, the trajectories also are straight lines with unit abs olute slope.
+Moreover, this model has well-known orthonormal even and odd eig enfunctions
+ψn(q) =
+
+/radicalBig
+2
+Lcos(nπq
+L), n = 1,3,5,...,
+/radicalBig
+2
+Lsin(nπq
+L), n = 2,4,6,....(16)
+Now, using the exact form of the eigenstates, we ﬁnd the following w ave packet
+Ψ(u,v) =/summationdisplay
+n=1,3,5,...A(n)cos(nπu
+L)cos(nπv
+L)
++i/summationdisplay
+n=2,4,6,...A(n)sin(nπu
+L)sin(nπv
+L). (17)
+If we demand that this solution satisﬁes the initial condition of Eq. (1 2), we obtain the following form
+of the expansion coeﬃcients
+A(n) =−ienπ(nπ+4iαdL)
+4αL2
+L/radicalbig
+α/π/bracketleftbigg
+−Erﬁ(nπ+2iαL(d−L)
+2√αL)
++e2idnπ
+L/parenleftbigg
+Erﬁ(nπ−2iαL(d−L)
+2√αL)
+−Erﬁ(nπ−2iαL(d+L)
+2√αL)/parenrightbigg
++ Erﬁ(nπ+2iαL(d+L)
+2√αL)/bracketrightbigg
+, (18)
+where Erﬁ( x) is the imaginary error function Erﬁ( x)≡ −iErf(ix). Figure 3 shows the wave packet
+ford= 1.5 andα= 5. Classically, the particle is free inside the well and moves with positiv e or
+negative initial velocity from any arbitrary position in the range −L/2< u,v < L/ 2. As it can seen
+from the ﬁgure, the wave packet follows the classical path and str ongly peaks on it which is in complete
+agreement with the classical scenario. In fact, the value of ddetermines the initial classical position and
+the presence of two rectangles with opposite directions indicates t he two possible directions of motion.
+7-4
+-2
+0
+2
+4-4-2024
+01234
+-4
+-2
+0
+2
+4 -4 -2 0 2 4-4-2024
+01234-4-2024
+Figure 3: The square of the wave packet |Ψ(u,v)|2(left), and the respective upper view (right) for
+d= 1.5 andα= 5.
+Since the height of the crest of the wave packet is constant along t he classical trajectory, the probability
+of ﬁnding the particle is constant along the classical path. On the ot her hand, since the classical velocity
+of the particle for this case is a constant of motion, the classical pr obability of ﬁnding the particle is
+also constant along its trajectory. So, the classical probability co mpletely coincides with the quantum
+mechanical probability.
+5 Classical limit, notion of time, uncertainty principle, a nd the
+conservation law
+Now, we can deﬁne the classical wave packet which is nearly zero bey ond the classical path as follows:
+Ψcl(u,v)≡lim
+α→∞Ψ(u,v). (19)
+Thiswavepackethasthe desiredpropertyΨ cl(u,v)/ne}ationslash= 0at{u=ucl,v=vcl}andΨ cl(u,v)≃0elsewhere.
+In fact, the wavepacket does not disperse even for largevalues o fα. This is in contrastwith the solutions
+of the Schr¨ odinger equation which usually disperses quickly as the p article moves.
+The notion of time does not appear explicitly in our main equation (5). H owever, as we have shown,
+the results depend on time in an implicit manner. We also encounter this phenomenon in the context of
+quantum cosmology where its main equation, which is the Wheeler-DeW itt equation, does not contain
+time. Moreover, it is a hyperbolic diﬀerential equation and in particula r conditions can be written in
+8the form of Eq. (5) [6]. Therefore, our approach can be considere d as a bridge between relativistic
+and non–relativistic quantum mechanics. On the other hand, we can ﬁnd the notion of time using the
+Bohmian interpretation of quantum mechanics, namely
+pµ=∂µS, (20)
+where Ψ = Rexp(iS). So, we can obtain the time evolution of each variable using this inter pretation.
+Although this deﬁnition of time is not genuine, at the classical limit ( α→ ∞) it will coincide with the
+classical time as desired.
+At this point, we encounter an important question: do these wave p ackets satisfy the Heisenberg
+uncertainty relation? For the case of a free particle, using the exp licit form of the wave packet (14), we
+can check the uncertainty principle, for instance at v= 0. At this point, the uncertainties in uandpu
+take the following form
+(∆u)2=1
+4α+d2
+2/parenleftbig
+1+tanh(d2α)/parenrightbig
+−
+/radicalBig
+2
+πα+d2e2d2αErf(√
+2αd2)
+1+e2d2α
+2
+, (21)
+(∆pu)2=α¯h2/bracketleftbigg
+1−4α
+1+e2d2α/parenleftbigg
+d2α−2/π
+1+e2d2α/parenrightbigg/bracketrightbigg
+, (22)
+where the integration is over {0,∞}. Since the initial wave function contains two well-separated Gaus-
+sians located at ±d(αd2>1), we have (∆ u)2≃1
+4αand (∆pu)2≃α¯h2which results in (∆ u)2(∆pu)2≃
+¯h2/4. So, similar to the coherent states, the initial form of the wave pa cket satisﬁes the minimized
+uncertainty relation for all values of dandαsubjected to αd2>1. Since the wave packet preserves its
+shape during the motion, we expect that this result also holds for ot her values of v.
+Note that, in this formulation, the total probability at ﬁxed uorvis not a conserved quantity. In
+fact, the wave packets which are solutions of the Eq. (5) satisfy t he following conservation law
+∂µJµ= 0, (23)
+9where the probability current is deﬁned as
+Jµ=¯h2
+2m(Ψ∗∂µΨ−Ψ∂µΨ∗). (24)
+Therefore, the probability interpretation of Eq. (5) is similar to the Klein–Gordon equation.
+6 Conclusions
+In this paper, we have presented an alternative quantization proc edure which results in a hyperbolic dif-
+ferential equation. We showed that, for the case of a free partic le and a particle in a box, the structure of
+the underlyingquantum mechanicalequationandappropriateinitial conditionsled tocompleteclassical–
+quantum correspondence. The wave packets never dispersed an d followed the classical trajectories in
+the whole conﬁguration space and strongly peaked on them.
+References
+[1] E. Schr¨ odinger, Ann. der Physik, 79, 361 (1926).
+[2] E. Schr¨ odinger, Ann. der Physik, 80, 437 (1926); 81, 109 (1926).
+[3] A. O. Bolivar, Quantum-classical correspondence: dynamical quantizati on and the classical limit
+(Springer, New York, 2004).
+[4] E. Schr¨ odinger, Naturwissenschaften. 14, 664 (1926).
+[5] R. J. Glauber, Phys. Rev. Lett. 10, 84 (1963); A. M. Perelomov, Generalized coherent states and
+their applications (Springer, Berlin, 1986).
+[6] P. Pedram, Phys. Lett. B 671, 1 (2009).
+[7] P. Pedram, JCAP 07, 006 (2008).
+10

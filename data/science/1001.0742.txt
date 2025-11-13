@@ -1,0 +1,74 @@
+arXiv:1001.0742v1  [astro-ph.HE]  5 Jan 2010Highlights of Astronomy, Volume 15
+XXVIth IAU General Assembly, August 2006
+Ian F Corbett, ed.c/circlecopyrt2009 International Astronomical Union
+DOI: 00.0000/X000000000000000X
+QPO-jet relation in X-ray binaries
+Tomaso M. Belloni1
+1INAF–Osservatorio Astronomico di Brera, Via E. Bianchi 46, I-23807 Merate, Italy
+email: tomaso.belloni@brera.inaf.it
+Abstract.
+In the past years, a clear picture of the evolution of outburs ts of black-hole X-ray binaries has
+emerged. While the X-ray properties can be classiﬁed into ou r distinct states, based on spectral
+and timing properties, the observations in the radio band ha ve shown strong links between
+accretion and ejection properties. Here I brieﬂy outline th e association between X-ray timing
+and jet properties.
+Keywords. accretion, accretion disks, X-rays: binaries, stars: outﬂ ows
+1. Fast time variability
+The fast time variability observed in the X-ray emission from Black-Ho le Binaries
+(BHB) can be extremely strong and complex. It is clearly connected to the spectral evo-
+lution throughout their outbursts, which can be described throug h the use of Hardness-
+Intensity Diagrams (HID; see Belloni 2009 and references therein ). A total fractional ms
+variability of ∼40% is a major “disturbance” of the accretion ﬂow that can hardly b e
+ignored when trying to understand its properties. Concentrating on the most basic prop-
+erties,wecanidentifytwocategories: loudstates(LHSandHIMSinBelloni (2009)),char-
+acterized by strong ﬂat-top noise components in the power spect ra, with total fractional
+variability 10-40%, and quietstates (SIMS and HSS), with less variability in the form
+of a power law component. Quasi-Periodic Oscillations (QPO) are obse rved in all states,
+with a complex phenomenology. However, the HIMS-SIMS transition is very abrupt and
+involves the interplay between two very diﬀerent “ﬂavors” of QPO. This transition can
+be marked in a HID with a it QPO line (see Fig. 1). At the same time, the hig h-energy
+part of the X-ray spectrum undergoes abrupt changes through the transition (see Motta
+et al. 2009).
+2. Jet ejection
+The radio properties of BHB display an evident connection with the X- ray states and
+transitions (see e.g. Fender 2006). A relation with the states evolu tion was presented by
+Fender, Belloni & Gallo (2004) on the basis of four well-studied syste ms. At its basis,
+the uniﬁed picture of disk-jet coupling presented there identiﬁes t wo regions of the HID:
+the hard region where a steady, compact and mildly relativistic jet is o bserved, and the
+soft region where there is no evidence of nuclear emission from the b inary (see Fig. 1).
+The transition between these two regions marks the ejection of a f ast relativistic jet,
+observed as a bright radio ﬂare or, when imaged, as a superluminal j et. The position of
+this transition was dubbed “jet line”.
+119120 T. M. Belloni
+Figure 1. Left: schematic HID with the two regions identiﬁed through t ime variability and the
+‘QPO line’ between them. Right: same HID, with the radio regi ons and the jet line’. The two
+fundamental lines do not coincide.
+3. How do they connect?
+Fender, Belloni & Gallo (2004) identiﬁed the jet line with the QPO line. Th is identiﬁ-
+cation would lead to the attractive conclusion that the plasma respo nsible for the noise
+would be the one ejected inform of a jet. However, Fender, Homan & Belloni (2009)
+recently reported, on the basis of a larger sample of sources, tha t the two lines do not
+always coincide, but are close. There seems not to be a direct causa l connection, as some-
+times one precedes the other and vice versa. However, the close a ssociation suggests that
+both ejection and change in timing properties are the outcome of a c omplex physical
+transition that takes place on a longer time scale.
+4. Discussion
+The scheme outlined above, based on the HID and fast timing proper ties can be
+extended to neutron-star systems and even to white-dwarf bina ries (see Belloni 2009;
+K¨ ording et al. 2008; Fender 2009; Tudose et al. 2009). It is clear t hat its properties
+are intimately connected to the spectral state and to the charac teristics of the jet. An
+important key is the study of the correlated variability at optical wa velengths (see e.g.
+Kanbach et al. (2001), Gandhi et al. (2001)), which can shed light o n this connection.
+References
+Belloni, T.M. 2009, in: T.M. Belloni (ed.), The Jet Paradigm: from Microquasars to Quasars ,
+Lecture Notes in Physics (Heidelberg: Springer), in press ( arXiv:0909.2474)
+Fender, R. 2006, in: Lewin, W.H.G. & van der Klis, M. (eds.), Compact stellar X-ray sources ,
+Cambridge Astrophysics Series, No. 39, Cambridge Universi ty Press, p. 381
+Fender, R.P. 2009, in: T.M. Belloni (ed.), The Jet Paradigm: from Microquasars to Quasars ,
+Lecture Notes in Physics (Heidelberg: Springer), in press ( arXiv:0909.2572)
+Fender, R.P., Belloni, T. & Gallo, E. 2004, MNRAS , 355, 1105
+Kanbach, G., et al., 2004, Nature, 324, 23
+Gandhi, P., et al., 2008, MNRAS , 390, L29
+K¨ ording, E., et al., 2004, Science, 320, 1318
+Motta, S., Belloni, T. & Homan, J. 2009, MNRAS in press (arXiv:0908.2451)
+Tudose, V., et al., 2009, MNRAS in press (arXiv:0909.3604)

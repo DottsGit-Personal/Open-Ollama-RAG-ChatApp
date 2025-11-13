@@ -1,0 +1,301 @@
+ 1  
+ 
+On the application of Canonical Perturbation Theory  
+up to the dissociation threshold 
+ 
+ 
+ 
+ 
+Sahin BUYUKDAGLI and Marc JOYEUX (a)  
+Laboratoire de Spectrométrie Physique (CNRS UMR 558 8), 
+Université Joseph Fourier Grenoble 1, 
+BP 87, 38402 St Martin d'Hères Cedex, France  
+ 
+ 
+ 
+Submitted to :  Chemical Physics Letters 
+ 
+ 
+Abstract : We investigate a model system consisting of a Morse  oscillator strongly coupled 
+to a doubly-degenerate bending degree of freedom an d show that Canonical Perturbation 
+Theory is able to provide a fairly precise, though not exact, approximation of the Hamiltonian 
+up to the dissociation threshold. Quantum mechanica l results and classical ones are discussed 
+in this Letter.  
+ 
+(a) email : Marc.JOYEUX@ujf-grenoble.fr  2  We have recently shown how canonical perturbation theory (CPT) can be adapted to 
+investigate the highly excited dynamics of semi-rig id molecules, floppy molecules (i.e. 
+molecules with several equilibrium positions), and non-adiabatic systems (i.e. molecules with 
+several crossing diabatic electronic surfaces) : Fo r a recent review, see for example Ref. [1] 
+and references therein. Whether based on classical mechanics, like the Birkhoff-Gustavson 
+method [2] and the Lie transform one [3], or quantu m mechanics, like the Van-Vleck 
+procedure [4], the purpose of CPT is always to rewr ite the Hamiltonian of the investigated 
+system in terms of as complete as possible a set of  classical constants of the motion or good 
+quantum numbers. The transformed Hamiltonian, whose  dynamics can usually be analyzed in 
+great detail thanks to the conserved quantities, th en provides the keys for understanding the 
+principal properties of the initial system. For exa mple, we have used CPT to characterize the 
+bifurcations of semi-rigid molecules and the isomer ization dynamics of floppy molecules 
+[5,6], to detect monodromy, a rather newly describe d mathematical concept [7], in floppy 
+molecules [8,9] as well as in CO 2 [10], to understand the effect of the X 2A1-A2B2 conical 
+intersection on the vibronic spectrum of NO 2 and imagine an efficient method to adjust the 
+coefficients of an effective Hamiltonian which desc ribes this intersection [11], and to define 
+meaningful local modes for the study of intramolecu lar vibrational energy redistribution in 
+floppy molecules like H 2O2 [12]. The purpose of the present Letter is to answ er the following 
+question : Up to what energy is CPT expected to des cribe correctly a molecule with a 
+dissociation threshold ? Indeed, it is well known, that a Morse oscillator 
+2)( 2
+21) 1 (0RR
+RMeDpH−−−+ =α is formally equivalent, up to the dissociation thr eshold, to 
+an anharmonic oscillator 2xI IH+=ω, where I is the action integral of the harmonic 
+oscillator ( )(21+=nIh in the semiclassical limit), 2/ 12)/2 (MDαω=  its fundamental 
+frequency, and )4/( 2D xω−=  the first anharmonicity. This result is obtained w hen solving  3 analytically Schrödinger's equation [13], but also when performing second order CPT [14] 
+(higher orders lead to null corrections). A Morse o scillator is therefore perfectly well 
+described by CPT up to the threshold. But what abou t a Morse oscillator coupled to another 
+degree of freedom ? To our knowledge, this point ha s not been studied in detail and it is the 
+goal of this Letter to provide an indication of wha t can be expected with this respect. More 
+precisely, we investigated a model system consistin g of a Morse oscillator strongly coupled to 
+a doubly-degenerate bending degree of freedom and s howed that CPT is still able to provide a 
+fairly precise, though not exact, approximation of the Hamiltonian up to the dissociation 
+threshold. Quantum mechanical results and classical  ones will successively be briefly 
+discussed in the remainder of this article. 
+ The Hamiltonian we studied describes the vibration s of a linear triatomic molecule 
+expressed in Jacobi coordinates, with the non-disso ciating stretching degree of freedom 
+frozen at equilibrium. It writes 
+)( 2)(
+22
+2
+2
+022 0 0)cos 1 () 1 ()
+sin )( 11(21
+21 RR RR
+Re C eDp
+p
+mr MR pMH−− −−−+ −+ + + + =α α ϕ
+γγ
+γ
+            (1) 
+where R is the Morse oscillator coordinate and Rp its conjugate momentum, γ the Jacobi 
+bending angle and γp its conjugate momentum, ϕp the vibrational angular momentum 
+arising from the degeneracy of the bending motion, and 2MR  and 2
+0mr  the moments of 
+inertia associated with the Morse oscillator and th e frozen stretch degree of freedom, 
+respectively. The last term in the right-hand side of Eq. (1) describes a realistic stretch-bend 
+interaction potential, in the sense that the bend b ehaves like an harmonic oscillator close to 
+the bottom ( R,γ)=( 0R,0) of the potential energy surface (PES), while th e potential no longer 
+depends on γ at very large R stretches (cf. Fig. 1). Moreover, the geometry of the PES 
+depends crucially on the relative values of C and D : Indeed, if DC≤, there exists a saddle at  4 πγ=, which is located below the dissociation threshold , while there is no such saddle in the 
+case where DC> (cf. Fig. 1). Numerical values used throughout thi s work are α=2.5 Å -1, 
+0R=2.5 Å, 2
+0mr =1.6948 10 -27  kg.Å 2, 2
+0MR =8.0370 10 -27  kg.Å 2, D=15000 cm -1, and C=5625 
+cm -1 or C=18750 cm -1. These values result in a stretch fundamental freq uency of about 2700 
+cm -1 and a bend frequency of about 450 cm -1 ( C=5625 cm -1) or 830 cm -1 ( C=18750 cm -1). 
+ Exact eigenvalues and eigenvectors of the Hamilton ian of Eq. (1) were first obtained 
+by expanding H up to very high order (300) with respect to the R coordinate in the 
+neighbourhood of R=0R and diagonalizing the Hamiltonian matrix of size 3 000*3000 built in 
+the direct product basis of the rotating Morse osci llator and the free rotor. 98 rotationless 
+(0==lJ ) bound states with up to 40 quanta of excitation i n the bend degree of freedom and 
+8 quanta in the stretch were obtained for C=5625 cm -1, and 48 rotationless bound states with 
+up to 20 quanta of excitation in the bend and 7 qua nta in the stretch for C=18750 cm -1. All 
+states are converged to better than 0.01 cm -1. The list of assigned states can be obtained by 
+sending an email to the authors. 
+ CPT calculations were then performed, in order to compare exact and perturbative 
+results. The procedure to use, as well as the form of the transformed Hamiltonian, actually 
+depend on the relative values of C and D. Indeed, if DC≤, wave functions may be 
+delocalized over the whole range πγ≤≤0 , because of the saddle at πγ=. In this case, the 
+procedure we derived for floppy molecules [1,6] mus t be used. The first step of this procedure 
+consists in expanding the Hamiltonian in the neighb ourhood of a Minimum Energy Path 
+(MEP) in Taylor series with respect to the stretch coordinate and in Fourier series with respect 
+to the bend coordinate. After transformation of the  stretch coordinates into dimensionless 
+creation and annihilation operators ),(11aa+, the expanded Hamiltonian writes  5 ∑+=
+NPMmkNPM mk
+kmMPN J aa h H
+,,,,2
+11)()(cos )( σγ       (2) 
+where the kmMPN h are real coefficients, and P is equal to 0 or 1. The operator γγσ∂∂=sin  
+arises from the non-commutativity of γcos  and 22
+2sin 1
+sin 12sin 
+ϕγγ γγγ
+∂∂
+∂∂
+∂∂− −=J . A series 
+of canonical transformations )exp( )exp( SHS H − →  is then applied, where S is chosen such 
+as to cancel the terms with mk≠ up to increasingly higher values of mk+. After a certain 
+number of transformations, called the "order" of th e perturbation series, the remaining terms 
+with mk≠, which have hopefully become very small in the inv estigated region of the phase 
+space, are finally neglected, so that one is left w ith a perturbative Hamiltonian of the form 
+∑=
+NPMkNPM k
+kMPN J nk H
+,,,2
+1)()(cos σγ        (3) 
+where the kMPN k are real coefficients and 111aan+= denotes the stretch quantum number. 
+The eigenvalues and eigenvectors of the Hamiltonian  of Eq. (3) are easily obtained from the 
+diagonalization of matrices of approximate size 60* 60 built in the basis of the free rotor. It is 
+reminded, that application of CPT leads to so-calle d "asymptotic" series, which means that the 
+eigenvalues and eigenvectors of the Hamiltonian of Eq. (3) converge towards those of the 
+exact Hamiltonian up to a certain order and then di verge again. The order at which the series 
+diverges is connected to the famous small divisor p roblem and cannot be determined a priori . 
+As can be seen in Fig. 1, there exist two MEPs in t he case where DC≤ : the first one is 
+0=γ (the horizontal axis), while the second one, shown  as a dot-dashed line in Fig. 1, can be 
+expressed as )(γMEP MEP RR= . It turns out that, for C=5625 cm -1, use of the two MEP 
+results in very similar accuracies : expansion arou nd 0=γ leads to an absolute average error 
+between the 98 exact and perturbative eigenvalues sm aller than 10 cm -1 for all perturbation 
+orders comprised between (or equal to) 4 and 13, wit h a minimum error of 6.75 cm -1 at order  6 10, while expansion around ) (γMEP MEP RR=  leads to an average error smaller than 10 cm -1 
+for all orders comprised between 6 and 11, with a mi nimum error of 6.25 cm -1 at order 9. 
+ In contrast, the range of values, which γ can reach, is narrower and localized above the 
+minimum of the PES in the case where DC>, so that one can use the usual procedure for 
+semi-rigid molecules [1,14]. Accordingly, the Hamilt onian is first expanded in Taylor series 
+around the minimum of the PES and rewritten in terms  of the ladder operators associated with 
+dimensionless normal coordinates. The series of can onical transformations 
+)exp( )exp( SHS H − →  is then applied in order to keep in the perturbati ve Hamiltonian only 
+the terms which depend on the stretch quantum numbe r 111aan+= and the bend quantum 
+number yyxxaaaan22222+ ++ = , where 2 x and 2 y denote the two components of the 
+degenerate bending motion. The obtained polynomes i n 1n and 2n are called Dunham 
+expansions (see Eq. (4) below). For C=18750 cm -1, the convergence of the Dunham 
+asymptotic series is however exceedingly slow. Examin ation of the differences between exact 
+and perturbative energies shows that this slow conver gence is due to a non-negligible 1:2 
+Fermi resonance between the two degrees of freedom. W hen taking this resonance into 
+account in the choice of the successive operators S, the perturbative Hamiltonian is obtained 
+in the form 
+c.c. ) )( (2
+22
+2
+,21 1
+,21++ + = ∑ ∑+
+yx
+mkmk
+km 
+mkmk
+km aannfannhH      (4) 
+where the km h and km f are real coefficients. The first term in the right -hand side of Eq. (4) is 
+the polynomial Dunham expansion and the second one t he Fermi resonance. Again, the 
+eigenvalues and eigenvectors of the Hamiltonian of E q. (4) are very easily obtained from the 
+diagonalization of small matrices of size less than  11*11 built in the direct product basis of 
+the non-degenerate and doubly-degenerate harmonic o scillators. The average absolute error  7 between the exact and perturbative energies of the 4 8 bound states is 12.8 cm -1 at 10th order 
+of CPT, but it increases again rapidly at orders la rger than 13. To illustrate more clearly the 
+agreement between exact and perturbative results, th e wave functions for 3 states are shown in 
+Fig. 2. These states (#42, #43 and #47) have respec tive energies 14578, 14667 and 14929 cm -1 
+above the minimum of the PES, that is, they are loc ated close to the dissociation threshold at 
+15000 cm -1. Comparison of the bottom row (exact calculations) and the top one (perturbative 
+results) shows that the wave functions are indeed ver y similar. 
+ Conclusion of the first, quantum mechanical part o f this study is therefore that, when 
+the geometry of the PES is not too complex, CPT is able to provide approximations of 
+dissociating systems with several degrees of freedo m, which are simple and nevertheless 
+precise up to the threshold. In the remainder of th is Letter, we next present a few results of the 
+classical analysis, which give a clear illustration  of the simplifications brought to the 
+investigated system by the CPT procedure. 
+ The left column of Fig. 3 shows the ) ,(RpR Poincaré surfaces of section (SOS) at γ=0 
+and the ),(γγp SOS at R=2.5 Å for the exact Hamiltonian of Eq. (1) with C=5625 cm -1 at an 
+energy E=13000 cm -1 above the minimum of the PES, that is, 2000 cm -1 below the threshold. 
+The ),(RpR SOS displays the usual elongated triangular form of  dissociating coordinates, 
+while the ),(γγp SOS looks essentially like that of the pendulum. Howe ver, at this energy, 
+many tori have already split into resonance islands  and a thin macroscopic chaotic region has 
+appeared around the separatrix between rotation-like  and vibration-like motions, the size of 
+which increases rapidly when energy approaches the d issociation limit. The right column of 
+Fig. 3 shows the corresponding surfaces of section a t the same energy for the transformed 
+Hamiltonian of Eq. (3), that is, the ) ,(11pq SOS at γ=0 and the ),(γγp SOS at 1q=0. The 
+transformed Hamiltonian being separable, one should not be surprised to notice that all the  8 subtleties (resonance islands, chaos) of the preced ing SOS have disappeared. Moreover, as we 
+already stated, the canonical transformation maps t he Morse oscillator on a slightly 
+anharmonic one. Therefore, the two SOS on the right- hand side of Fig. 3 can hardly be 
+distinguished from those of the harmonic oscillator  and the pendulum, respectively. 
+Nonetheless, it is emphasized that the essential geo metrical features of the original 
+Hamiltonian are preserved. For example, the periods and action integrals of the periodic orbits 
+[R], [ γ] and [SN], which organize the classical phase space and also act as backbones for the 
+quantum mechanical wave functions [5,6] (see below), agree almost perfectly for the two 
+systems. 
+ Fig. 4 displays the same information for the the e xact Hamiltonian of Eq. (1), with C 
+however equal to 18750 cm -1, and the perturbative Hamiltonian of Eq. (4). More precisely, the 
+right column of Fig. 3 shows the ) ,(11pq SOS at 2q=0 and the ) ,(22pq SOS at 1q=0. In 
+addition to the fact that γ remains localized in the well centred around γ=0, the essential 
+difference between Figs. 3 and 4 results from the pe riod-doubling bifurcation, which the [R] 
+periodic orbit (PO) undergoes around 10000 cm -1. At this bifurcation, the [R] PO becomes 
+unstable - we therefore label it [R*] above the bifu rcation's energy - while the same PO 
+covered twice, which is labelled [2R], remains stable  and progressively acquires, with 
+increasing energies, a pronounced ⊃ shape in the ( R,γ) plane. This bifurcation is due to the 1:2 
+Fermi resonance between the stretching and bending d egrees of freedom and has been 
+observed, for example, in the spectra of CO 2 and CS 2. Macroscopic chaos first appears around 
+the separatrix encompassing [R*] and develops more rapidly than in Fig. 3, because of the 
+higher value of the coupling coefficient C. It is again observed, in the right column of Fig.  4, 
+that CPT drastically simplifies the appearance of t he SOS, although it preserves the essential 
+organization of the classical phase space around th e [R*], [2R] and [ γ] POs. Let us finally 
+note that these three POs have been plotted in Fig. 2 on top of the quantum mechanical wave  9 functions for states #42, #43 and #47. One can chec k, as usual, that the POs, in addition to 
+organizing the classical phase space, also play the  role of backbones for the quantum wave 
+functions. The agreement between exact and perturbat ive quantum results suggests that the 
+quantum world is much more sensitive to the properti es of these POs than to the other details 
+(resonance islands, chaos, etc...) of the classical  mechanics. 
+ In conclusion, we have shown that CPT is able to pro vide a fairly precise, though not 
+exact, approximation of the Hamiltonian of a vibrati ng molecular system with several degrees 
+of freedom up to the dissociation threshold. The me thod probably fails for too complex PES 
+and/or too strong couplings but it is still expecte d to be very useful for studying the highly 
+excited dynamics of a large variety of molecules.  10 REFERENCES 
+ 
+[1] M. Joyeux and D. Sugny, Can. J. Phys. 80 (2002) 1459 
+[2] F. Gustavson, Astron. J. 71 (1966) 670 
+[3] A.J. Dragt and J.M. Finn, J. Math. Phys. 17 (197 6) 2215 
+[4] E.C. Kemble, The fundamental principles of quan tum mechanics, McGraw-Hill, New-
+York, 1937 
+[5] M. Joyeux, S.C. Farantos and R. Schinke, J. Phy s. A 106 (2002) 5407 
+[6] M. Joyeux, S. Yu. Grebenshchikov, J. Bredenbeck, R. Schinke and S.C. Farantos, Adv. 
+Chem. Phys. 130 (2005) 267 
+[7] J.J. Duistermaat, Commun. Pure Appl. Math. 33 (1 980) 687 
+[8] M. Joyeux, D.A. Sadovskii and J. Tennyson, Chem.  Phys. Lett. 382 (2003) 439 
+[9] K. Efstathiou, M. Joyeux and D.A. Sadovskii, Phy s. Rev. A 69 (2004) 032504 
+[10] R.H. Cushman, H.R. Dullin, A. Giacobbe, D.D. Holm, M. Joyeux, P. Lynch, D.A. 
+Sadovskii and B.I. Zhilinskii, Phys. Rev. Lett. 93 (2004) 024302 
+[11] M. Joyeux, R. Jost and M. Lombardi, J. Chem. P hys. 119 (2003) 5923 
+[12] M. Joyeux, J. Chem. Phys. 122 (2005) 074303 
+[13] S. Flügge, Practical quantum mechanics, Spring er, New York, 1974 
+[14] E.L. Sibert, J. Chem. Phys. 88 (1988) 4378 
+  11 FIGURE CAPTIONS 
+ 
+Figure 1  : Contour plots of the potential energy surface of  Eq. (1) for coupling constants 
+C=5625 cm -1 (top plot) and C=18750 cm -1 (bottom plot). Contour lines range from 1000 cm -1 
+to 16000 cm -1 above the minimum of the PES, with increments of 10 00 cm -1. Filled circles 
+indicate the positions of the minimum of the PES (o n the γ=0 axis), as well as the saddle (on 
+the γ=π axis) for C=5625 cm -1. In this later plot, the dot-dashed line shows the 
+)(γMEP MEP RR=  Minimum Energy Path between the two equilibria. The dissociation 
+threshold is located at 15000 cm -1 above the bottom of the PES and the saddle at arou nd 9140 
+cm -1. 
+ 
+Figure 2  : Bottom : Contour plots in the ( R,γ) plane of the wave functions of states #42 
+(E=14578.26 cm -1), #43 ( E=14667.04 cm -1) and #47 ( E=14928.51 cm -1) for the Hamiltonian 
+of Eq. (1) with C=18750 cm -1. The thick lines indicate the positions of the [ γ], [R*] and [2R] 
+periodic orbits at corresponding energies (the [R*]  PO lies on top of the R axis) and the dot-
+dashed lines the contours of the PES at E=5000, 10000 and 14900 cm -1. Top : Same plots, in 
+the ),(21qq plane, for the Hamiltonian of Eq. (4) obtained from  10th order CPT. 
+ 
+Figure 3  : Left column : ) ,(RpR SOS at γ=0 and ),(γγp SOS at R=2.5 Å for the 
+Hamiltonian of Eq. (1) with C=5625 cm -1 at E=13000 cm -1 (that is, 2000 cm -1 below the 
+threshold). Filled circles indicate the positions o f some periodic orbits. Right column : 
+),(11pq SOS at γ=0 and ),(γγp SOS at 1q=0 for the 8th order perturbative Hamiltonian of 
+Eq. (3) at the same energy. 
+  12 Figure 4  : Left column : ) ,(RpR SOS at γ=0 and ),(γγp SOS at R=2.5 Å for the 
+Hamiltonian of Eq. (1) with C=18750 cm -1 at E=13000 cm -1 (that is, 2000 cm -1 below the 
+threshold). Filled circles indicate the positions o f some periodic orbits. Right column : 
+),(11pq SOS at 2q=0 and ) ,(22pq SOS at 1q=0 for the 10th order perturbative Hamiltonian 
+of Eq. (4) at the same energy.  13 FIGURE 1 
+ 
+ 
+ 
+ 
+ 
+  14 FIGURE 2 
+ 
+ 
+ 
+ 
+ 
+  15 FIGURE 3 
+ 
+ 
+ 
+ 
+ 
+  16 FIGURE 4 
+ 
+ 
+ 
+ 
+ 
+ 

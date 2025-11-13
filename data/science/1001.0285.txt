@@ -1,0 +1,414 @@
+ 1Interaction  of (-)-epigallocatechin gallate with silver nanoparticles 
+Goutam Kumar Chandra1, Debi Ranjan Tripathy2, Swagata Dasgupta2 and Anushree Roy1* 
+1Department of Physics, Indian Institu te of Technology Kharagpur, 721302, India 
+2Department of Chemistry, Indian Institute of Technology Kharagpur, 721302, India 
+ 
+Abstract 
+Interactions between silver nanoparticles and (-)-epigallocatechin gallate (EGCG) have 
+been investigated. Prior to the addition of  EGCG molecules the silver particles are 
+stabilized by borate ions. Studies on the surface plasmon resonance band of silver particles suggest that the EGCG  molecules remove the borate ions from the surface of the 
+metal particles due to the chelating propert y of the ions. The complex formation by 
+EGCG and borate ions has b een confirmed by NMR studies and pH titration. A possible 
+scheme of interaction between the two has been proposed.  Key words:  Silver colloid, EGCG, UV-Vis, NMR 
+ PACS codes:  87.64.k, 87.14.ej, 82.70.Dd, 68.43.Mn 
+ 
+ 
+     
+ 
+Electronic mail: anushree@phy.iitkgp.ernet.in                         21. Introduction 
+Polyphenols are natural substances, presen t in beverages obtained from plants, 
+fruits and vegetables, such as red wine and tea. The dominant and most important 
+catechin in green tea is (-)-E pigallocatechin gallate (EGCG) , a potent antioxidant, which 
+has been reported to show an ti-cancer activity and is pres ently under investigation in 
+clinical studies [1-3]. Silver ions (Ag+) and silver-based com pounds are also known to 
+exhibit strong antimicrobial effects [4, 5]. Th e active ingredients in silver-based drugs are 
+“oligodynamic” silver ions [6]. In medical litera ture, an interesting case-history reveals 
+the oncolytic role of Ag+ [7]. This case history also reports the role of EGCG in anti-
+cancer dietary therapy. However, Ag+ can have only limited usefulness as an 
+antimicrobial agent due to the interfering effect s of their salts [8]. Su ch adverse effects of 
+Ag+ can be avoided by using the corresponding me tal nanoparticles. Use of silver (Ag) 
+nanoparticles is an efficient and reliable tool  for improving the biocompatibility of Ag in 
+different biological processes. It is common knowledge that the biol ogical activities of 
+several polyphenols are affected by transition metal ions [9-11] . With increased use of Ag 
+nanoparticles as drug carriers it would be interesting to inve stigate its inte raction with 
+EGCG.  
+2. Experimental 
+Silver colloids are prepared by using sodium borohydride (NaBH 4) as a reducing 
+agent. Silver nitrate (AgNO 3), sodium borohydride (NaBH 4) of analytical reagent grade 
+(SRL, India), were used to prepare the silver sol.  A colloidal silver solution was prepared 
+in deionized water following the method desc ribed by Creighton et al [12]. In this 
+chemical route, AgNO 3 is reduced by an excess amount of NaBH 4. 2.2 mM AgNO 3 was  3added dropwise to 1 mM NaBH 4 at 4oC. Vigorous stirring for 20 minutes was necessary 
+to stabilize the colloid al solution. Later, it was left at room temperature for approximately 
+1 hour till the solution became transparen t yellow. EGCG was obtained from Sigma-
+Aldrich (USA).  
+UV-Visible (UV-Vis) spectra were recorded usi ng a spectrophotometer, Model 
+Lambda-45 (Make Perkin-Elmer). For optical absorption measurements the samples were 
+kept in a microcuvette with an  optical pathlength of 1 cm. 1H NMR spectra were recorded 
+on a Bruker 400 MHz spectrometer at 22.5 ºC. 
+3. Results and Discussion 
+3.1 Formation of borate esters of EGCG 
+The pH of the Ag sol is measured to be 8.43, which remains constant during the 
+time course of the experiment. Just afte r addition of 0.5 mM of EGCG, the pH of 
+colloidal solution decreases to 7.72. As time pr ogresses the pH of the solution gradually 
+decreases further. After 8 hrs the pH of the solution reaches a value ~ 7.30 and remains 
+constant with time as shown in Fig. 1.  The acid dissociation constants of EGCG 
+molecules (inset of Fig. 1) [13] indicate th at in a basic medium deprotonation of the 
+aromatic OH groups of the molecule occurs.  The decrease in pH of the colloidal solution 
+after addition of EG CG, thus, indicates the release of H+ due to such an ad-molecule in 
+the sol. We believe that the pH of the solution decreases further due the formation of borate esters of  EGCG [14]. 
+The complexation of EGCG with borat e ion has been demonstrated by NMR 
+spectroscopic measurements. The 
+1H NMR spectrum of the gallate and pyrogallol moiety 
+o f  E G C G  i n  D 2O in water suppression mode are ( δ6.883(s)2H) and  (δ6.474(s)2H)  4(shown in Fig. 2(a)). In presence of NaOH the 1H NMR spectrum of gallate and 
+pyrogallol moiety of EGCG in D 2O in water suppression mode are ( δ6.869(s)2H) and  
+(δ6.469(s)2H) (shown in Fig. 2(b)). However, in presence of NaBH 4 the 1H NMR 
+spectrum of gallate and pyrogallol moiety of EGCG in D 2O in water suppression mode 
+are (δ6.878(s) and δ6.748(s) 2H) and ( δ6.467(S) and δ6.345(s) 2H) (shown in Fig. 2(c)). 
+Due to the formation of a chelate involving the ortho phenolic group with borate, there is 
+a split in the NMR spectrum along with broa dening [15-16]. We have seen that two 
+protons show more shielding which is only po ssible if boron is tetra coordinated and with 
+a negative charge. Since the two aromatic pr otons of ring A are deuterated they do not 
+appear here.  The possible path of the reaction of EGCG and borate ions is proposed in 
+Scheme 1. 
+3.2 Stability of meta l colloids with EGCG in solution 
+Furthermore, studies on the surface pl asmon resonance (SPR) band of the Ag 
+particle provide direct evid ence of the interaction between  Ag colloids and EGCG. The 
+SPR band of Ag colloids (shown in Fig. 3) appears at 397 nm. The measurements were 
+carried out immediately after di rect addition of EGCG molecu les (0.5 mM in the sol) in 
+the metal sol and subsequently at half hour in tervals over a duration of 3 hrs. The broken 
+lines in Fig. 3 demonstrate the change in spectral profile of the plasmon band of Ag 
+colloids at different time intervals on additi on of EGCG (for clarity, we have shown only 
+a few characteristic spectra taken just after mi xing (0 hr), after 1 hr, 2 hrs and 3 hrs). We 
+observe (i) an increase in inte nsity of the absorption maximu m and (ii) a red shift (by 8 
+nm) of the absorption maximum of plasmon ba nd on addition of EGCG in the beginning, 
+which remains constant at a later time.  5The nanosized particles possess a very large surface-to-volume ratio, and 
+consequently their properties are mostly governed by the surface states. It is well known that the SPR band of Ag colloids in solutio n is strongly influenced by any chemical 
+modification of the surface, depending on wh ether the ad-molecule is nucleophilic and 
+therefore donates electron density into the pa rticle surface (blue-shift of the SPR band), 
+or is electrophilic and withdr aws electron density from the particle surface (red-shift of 
+the SPR band). In the present case, the Ag part icles in the sol are stabilized by the anions 
+(borate ions). Thus the red-shift of the SPR band of the Ag colloids (shown in Fig. 3) by 
+addition of EGCG indicates a decrease of el ectron density (anions) from the colloidal 
+surface that indicates a desorption or removal of anions (borate ions) from the surface of 
+the metal particles.  
+As the Ag colloids in our experiments ar e suspended in an aqueous solution and 
+excess NaBH
+4 was used in the chemical synthesis, the following experiments were 
+performed to obtain a clearer view on the me tal-molecule interaction. The absorption 
+band of an aqueous solution of EGCG  appe ars at 275 nm (solid line in Fig. 4(a)) 
+whereas, a double peak absorption band of  0.5 mM of EGCG in 1 mM NaBH 4 (same 
+concentration as added during synthesis of Ag sol)   solution  appears at 279 nm and 316 
+nm (shown by dotted line in Fig. 4(a)). This feature of the absorp tion band of EGCG in 
+NaBH 4 solution, most likely arises from the deprotonated EGCG molecule and the 
+corresponding borate esters of EGCG. The absorption spectra obtained on successive 
+addition of 0.5 mM aqueous solution of EGCG and NaBH 4 solution of EGCG to Ag 
+colloids is given in Fig. 4(b) and Fig. 4(c) , respectively. On addition of an aqueous 
+solution of EGCG to Ag colloids, the char acteristic absorption ba nd at 275 nm of EGCG  6remains unchanged and another weak shoul der originating from the EGCG-borate 
+complex appears at a higher wavelength (indicate d by an arrow in Fig. 4(b)). Initially we 
+observe an increase in intensity and a red sh ift of the plasmon band of the metal colloid 
+by ~ 8 nm. Subsequently, there is a further red shift of the plasmon band (as shown in 
+Fig. 4(b)) for the higher conc entration of the added molecu le. However, on addition of 
+NaBH 4 solution of EGCG in Ag sol , along with the appearance  of the characteristic 
+double peak structure of deproton ated EGCG and borate ester in  the spectra, there is an 
+increase in intensity and red-shift by ~ 4 nm  of the absorption maximum of plasmon band 
+of silver colloids (Fig. 4(c)). The relative shift of the plasmon band in above two cases 
+has been compared in Fig. 5. The smaller shif t in plasmon band in Fig. 4(c) than what 
+was observed in Fig. 4(b) (shown by filled and open circles, respectively, in Fig. 5), can be explained by the fact that in case of the aqueous solution of EGCG in Ag colloids, the 
+ad-molecules are free to strip off the borate ions present at the surface of the Ag colloids 
+and can form a complex. However, for EGCG dissolved in NaBH
+4 solution the molecules 
+are deprotonated and form a complex with borat e ions (prior to addition to the colloidal 
+solution of Ag). Thus, the probability of the EGCG molecules to interact with the borate ions present on the surface of th e Ag colloids is lower in comparison to the previous case 
+where the interaction of EGCG occurs directly with the sol.  The above results, once 
+again, indicate that EGCG molecules interact  with the borate ions on the surface of Ag 
+particles.  
+3.3 Change in surface charge of Ag colloids in presence of EGCG 
+Next we estimate the change in surf ace charge and surface potential of Ag 
+colloidal particles due to the interaction wi th the EGCG molecules. The shift in the  7wavelength of absorption maximum of the plasmon band before ( λ0) and after ( λ) 
+desorption of the anions from the partic le surface is given by the equation [17], 
+ 
+                                             …………………… (1)  
+where [Ag] is the net silver concentration in th e colloid (distributed in all particles of the 
+colloidal solution) and [anion] is the concentration of anions removed from the particle 
+surface. The spectral shift ( λ-λ0) in Fig. 3 is 61 meV. Hence, we estimate the fractional 
+change in charge density  upon desorption of anions from the surface of th e Ag particles to 
+be ∆[]
+[]Aganionq=  = 0.04, which is equivalent to ~ 0.5×10-4 M concentration of borate ions 
+(anion)  in solution for [Ag]=1.2 ×10-3 M (used during sample preparation).  
+To estimate the change in surface potential  of the Ag particles due to desorption 
+of anions from the surface by EGCG, we have studied the change in maximum wavelength of the SPR band of Ag  colloids with different concentrations of EGCG in the 
+solution (shown in Fig. 6). From the shift in  the plasmon band and using the expression in 
+Eq. 1, we estimate the fractional change in char ge density of metal particles with increase 
+in concentration of EGCG in solution. The change in surface potential arising from the 
+change in charge ∆q on the surface of particle of ra dius R as estimated using the 
+expression ∆V = ∆q/4πεR [18] is shown in inset of Fig. 6. It is clear that as we increase 
+the concentration of EGCG there is an initial increase in ∆V. At around 0.2 to 0.3 mM 
+concentration of EGCG, ∆V reaches a maximum value and then decreases with further 
+increase in the concentration of the ad-mol ecule. A possible explanation to the observed 
+change in surface potential of the Ag collo id on addition of EGCG is given. With []
+[]2/1
+0Aganion1⎟⎟
+⎠⎞
+⎜⎜
+⎝⎛+ =λλ 8increase in concentration, as  more EGCG molecules are av ailable in the solution, higher 
+amounts of borate ions are removed from the surface of Ag colloids and thus, the surface 
+potential of the colloids increases as shown in  Fig. 6. However, with further increase in 
+concentration of EGCG, the ex cess ad-molecules (after removing the negative ions layers 
+from the colloidal surface) or the complex start to interact directly w ith the surface of the 
+colloids (by neutralizing the particles) wh ich decreases the surface potential of the 
+particle. 
+ 
+Spectroscopic measurements thus indica te that the added EGCG molecules are 
+capable of stripping off borate ions from the surface of the Ag colloidal particles in the 
+sol with the formation of borate esters. This study has far reaching implications in terms 
+of the usage of metal nanoparticles as drug carriers. Changes in chemical composition and surface charge for such drug-nanoparticle combinations require further investigation 
+to be able to use them ef fectively and beneficially. 
+ 
+ 
+Acknowledgments 
+A. Roy and S. Dasgupta thank DRDO, India fo r financial assistance. D. R. Tripathy is 
+thankful to CSIR, India for a Junior Research Fellowship.  
+ 
+         9References  
+ 
+[1] S. Valcic, B. N. Timmermann, D. S. Alberts, G. A. Wächter, M.  Krutzsch, J. Wymer, 
+J. M. Guillén, Anti-Cancer Drugs 7(4), 461 (1996).  [2] H. L. Gensler, B. N. Timmermann, S. Valc ic, G. A. Wächter, R. Dorr, K. Dvorakova, 
+D. S. Alberts, Nutr. Cancer 26(3), 325 (1996).  [3] M. Barthelman, W. B. Ba ir III, K. K. Stickland, W. Chen, B. N. Timmermann, S. 
+Valcic, Z. Dong, G. T. Bowden, Carcinogenesis 19, 2201 (1998).  [4] F. Furno, K. S. Morley, B. Wong, B. L.  Sharp, P. L. Arnold, S. M. Howdle et al., J 
+Antimicrob Chemother 54, 1019 (2004).  [5] S. Abuskhuna, J. Briody, M. McCann, M. De vereux, K. Kavanagh, J. B. Fontecha et 
+al., Polyhedron 23, 1249 (2004).  [6] Von Nageli C., Naturforsch Ges, Denkschriften der Schweiz. 33, 1 (1893).  [7] http://www.imref.org/articles/pdfs/Townsend_III.pdf
+. 
+ [8] J. S. Kim, E. Kuk, K. N. Yu, J. H. Kim, S.  J. Park, H. J. Lee, S. H. Kim, Y. K. Park, 
+Y. H. Park, C. Y. Hwang, Y. K. Kim, Y. S. Lee, D. H. Jeong, M. H. Cho, Nanomedicine 
+3, 95 (2007). 
+ 
+[9] S. A. Jovanovic, M. G. Simic,  S. Steenken, Y. Hara, J. Chem . Soc., Perkin Trans. 2,    
+2365 (1998).  [10] A. Furukawa, S. Oikawa, M. Mura ta, Y. Hiraku, S. Kawanishi, Biochem. 
+Pharmacol. 66, 1769 (2003).  [11] S. Azam, N. Hadi, N. U. Khan, S. M. Hadi, Toxicol. Vitro 18, 55 (2004).
+ 
+ 
+[12] J.A. Creighton, C.G. Blatchford, M. Gr ant Albrecht, J. Chem. Soc. Faraday Trans.  
+75, 790 (1979).  [13] M. Kumamoto, T. Sonda , K. Nagayama, M. Tabata, Biosci. Biotechnol. Biochem. 
+65(1), 126 (2001). 
+ 
+ [14] J. Böesken,  N. Vermaas, J. Phys. Chem. 35(5), 1477 (1931).  
+ [15] J. Knoeck, J. K. Taylor, Anal ytical Chemistry 41(13), 1730 (1969).  
+ 
+[16] R. Pizer, P. J. Ricatto, Inorg. Chem. 33,  4985 (1994).  
+ [17] A. Henglein, Chem. Mater. 10, 444 (1998).   10 
+[18] P. C. Hiemenz, in Principles of Colloid and Surface Chemistry  edited Marcel 
+Dekker, Inc. New York (1986), p.746.      
+ 
+    
+ 
+  
+ 
+  
+ 
+  
+ 
+   
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+    11Figure Captions 
+ 
+Figure 1. Change in pH of Ag colloids on addition of  EGCG in the sol.  Inset presnts the 
+structure of the EGCG molecule and th e pKa value of two protons are shown. 
+ Figure2.  (a) 1H NMR spectrum of EGCG in D
+2O in water suppression mode. (b) 1H 
+NMR spectrum of EGCG and NaOH in D 2O in water suppression mode, (c) 1H NMR 
+spectrum of EGCG and NaBH 4 in D 2O in water suppression mode.  
+ 
+Figure 3.  Time dependent study of the plasmon band of Ag colloids on addition of 
+EGCG in the sol.  Figure 4.  (a) The solid and dash lines represent the absorption spectra of EGCG in 
+aqueous solution and EGCG in NaBH
+4 solution respectively. (b) Titration of Ag colloids 
+with 0.5 mM EGCG in aqueous solution. (c) Titration of Ag  colloids with 0.5 mM EGCG 
+in NaBH 4 solution.  The red arrows indicate the order of the spectra taken with increase 
+in volume ratio of EGCG.  Figure 5. Comparison between the relative shift of  the plasmon band in case of aqueous 
+solution of EGCG (filled circles)  and NaBH
+4 solution of EGCG (open circles) in Ag 
+colloids.  Figure 6.  Concentration dependent study of the plasmon band of Ag colloids on addition 
+of different concentration of EG CG in the Ag sol. Inset of the figure shows the change in 
+surface potential of the Ag colloids ( ∆V) with different concentration (C-EGCG) of 
+EGCG.  
+ Scheme 1.  Complex formation of EGCG with NaBH
+4.  
+    
+  
+         
+  120.0 2.5 5.0 7.5 24.07.27.47.67.8
+  pH of the solution
+Time (hr)(S)(S)O
+O
+OHO
+OHOH
+OH
+OH
+OH
+OH
+OHAB
+C
+pKa 7.59pKa 7.87
+(c) (a
+(b
+)Figures 
+ 
+ 
+  
+ 
+   
+ 
+  
+ 
+  
+ 
+  
+Figure 1 
+ 
+ 
+ 
+ 
+   
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+ 
+Figure 2   13BNaB(OH) 4
+(S)(S)O
+O
+OOH
+OH
+OH
+OH
+O
+OHO
+OHA
+CB
+B(OH)4(S)(S)O
+O
+OOH
+OH
+OH
+OH
+OH
+OHHO
+OH
+CA
+B
+(S)(S)O
+O
+OO
+O
+O
+O
+O
+OHO
+OHB
+BOH
+OHA
+CNaBH4 + H2O  NaBO2+4 H2
+ 
+ 
+  
+Scheme 1 
+   14400 5000.00.20.40.60.81.01.21.4
+  
+Ag Coll
+T=0 min
+T=1 hr
+T=2 hr
+T=3 hrAbsorbance (Arb. units)
+Wavelength (nm)
+200 250 300 350 400 4500.00.20.40.60.81.0(a)
+  Absorbance (Arb. units)
+Wavelength (nm) 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Figure 4
+ 
+      
+ 
+  200 300 400 500 6000.00.51.0
+  Absorbance (a.u.)
+Wavelength (nm)200 300 400 500 6000.00.20.40.60.81.0 (c)
+  Absorbance (a.u.)
+Wavelength (nm)(b)  150.00 0.02 0.04 0.06 0.085678910111213
+  Relative shift of plasmon band (nm)Concentration of EGCG (mM)
+300 400 500 6000.00.51.01.52.02.5 Bare Ag colloids
+ 0.02 mM EGCG
+ 0.05 mM EGCG
+ 0.1 mM EGCG
+ 0.2 mM EGCG
+ 0.3 mM EGCG
+ 0.5 mM EGCG
+ 0.6 mM EGCG
+ 0.7 mM EGCG
+  Absorbance (Arb. units)
+Wavelength (nm)0.00 0.25 0.50 0.756.57.07.58.08.59.09.510.0
+  ∆V (mV)
+C-EGCG(mM) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+Figure 5
+ 
+ 
+ 
+ 
+  
+ 
+   
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 6  
+ 
+  

@@ -1,0 +1,330 @@
+arXiv:1001.0230v1  [math.AC]  1 Jan 2010CUBIC RINGS AND THEIR IDEALS
+YURIY A. DROZD AND RUSLAN V. SKURATOVSKII
+Abstract. We give an explicit description of cubic rings over a
+discrete valuation ring, as well as a description of all ideals of such
+rings.
+Introduction
+Ideals of local rings have been studied by a lot of authors from quite
+diﬀerent viewpoints. One of the questions that arise with this respe ct
+is on the number of parameters par(C) deﬁning the ideals of such a
+ringCup to isomorphism, especially when it is reduced and of Krull
+dimension 1. Certainly, it makes sense if the residue ﬁeld kis inﬁnite.
+In [8] it was shown that par( C) = 0, i.e. Chas a ﬁnite number of
+ideals (up to isomorphism), if and only if CisCohen–Macaulay ﬁnite ,
+i.e. has a ﬁnite number of indecomposable non-isomorphic Cohen–
+Macaulay modules (in the 1-dimensional reduced case they coincide
+with torsion free modules). Then Schappert [12] proved that a plan e
+curve singularity has at most 1-parameter families of ideals if and only
+if it dominates one of the strictly unimodal plane curve singularities
+in the sense of [14], or, the same, unimodal andbimodalplane curve
+singularities in the sense of [1]. In [7] this result was generalized to all
+curve singularities. Note that this time par( C) = 1 doesnot imply that
+CisCohen–Macaulay tame , i.e. has at most 1-dimensional families of
+indecomposable Cohen–Macaulay modules. Tameness means that C
+dominates a singularity of type Tpq[5]. The case par( C)>1 had
+not been studied before the second author described the one bra nch
+singularities of type Wsuch that par( C)≤2 [13].
+In this paper we study the cubic rings . We describe all such rings,
+their ideals and, in particular, establish the value par( C) for any cubic
+ringC. As a consequence, we show that a cubic ring is Gorenstein if
+and only if it is a plane curve singularity (i.e. its embedding dimension
+equals 2).
+1.Generalities
+Wedenoteby Dadiscretevaluationringwiththeringoffractions K,
+the maximal ideal m=tDand the residue ﬁeld k=D/tD. Acubic
+ringoverDis, by deﬁnition, a D-subalgebra Cin a 3-dimensional
+2000Mathematics Subject Classiﬁcation. Primary 13C05, Secondary 16G60.
+12 YURIY A. DROZD AND RUSLAN V. SKURATOVSKII
+semisimple K-algebra L, which is a free D-module of rank 3. We
+also denote Athe integral closure of DinLand always suppose that
+Ais ﬁnitely generated as C-module. Equivalent condition (see, for
+instance, [3]): the m-adic completion ˆCof the ring Chas no nilpotent
+elements. It isalways thecaseifthealgebra Lisseparable , forinstance,
+if charK= 0. We also set Am=tmA+DandJm=tAm−1=
+radAm(m >0).
+In what follows, an idealmeans a fractional C-idealinK, i.e. a
+ﬁnitely generated C-submodule M⊆Ksuch that KM=K. Then
+Mis a freeD-module of rank 3. We are going to describe all ideals of
+cubic rings up to isomorphism. It is known (see, for instance, [9]) tha t
+there is a one-to-one correspondence between C-ideals and ˆC-ideals,
+mapping Mto itsm-adic completion. This correspondence reﬂects
+isomorphisms , i.e. maps non-isomorphic ideals to non-isomorphic. So,
+in what follows we may (and will) suppose that Discomplete with
+respect to the m-adic topology.
+Recall also that the embedding dimension edimCof a local noether-
+ian ringCwith the maximal ideal Jand the residue ﬁled kis deﬁned
+as dim kJ/J2. IfCis of Krull dimension 1 and edim C= 2,Cis called
+aplane curve singularity . In the geometric case, when Ccontains a
+subﬁeld of representatives of k, it actually means that there is a plane
+curveCsuch that Cis the completion of the local ring of a singular
+pointx∈C.
+From the general theory of ramiﬁcation in ﬁnite extensions we see
+that the following cases can happen:
+One branch, ramiﬁed case: L is a ﬁeld, the maximal ideal of
+AequalsτA,A/τA≃kandtA=τ3A.
+One branch, non-ramiﬁed case: L isaﬁeld, themaximalideal
+ofAequalstAandA/tA=k[¯θ] is a cubic extension of the
+ﬁeldk, where ¯θis a root of an irreducible cubic polynomial
+f(x)∈k[x].
+Two branches, ramiﬁed case: L =K1×K, where K1is a
+quadratic extension of K,A=D1×D, the maximal ideal of
+D1isτD1,D1/τD1≃kandtD1=τ2D1.
+Two branches, non-ramiﬁed case: L =K1×K, whereK1is
+a quadratic extension of K,A=D1×D, the maximal ideal of
+D1istD1andD1/τD1=k[¯θ] is a quadratic extension of the
+ﬁeldk, where¯θis a root of an irreducible quadratic polynomial
+f(x)∈k[x].
+Three branches case: L =K3,A=D3.
+We recall [10, 2] that, for any cubic ring C, every ideal of Cis
+isomorphic either to an over-ring ofC, i.e. a cubic ring Bsuch that
+C⊆B⊂L, or to the dual ideal B∗= Hom D(B,D) of such an
+over-ring. Hence, to describe all ideals of C, we only need to describeCUBIC RINGS AND THEIR IDEALS 3
+over-rings of C. Obviously, any cubic ring in Lcontains some Am.
+Therefore, to describe all cubic rings (so their ideals as well), we hav e
+to describe the over-rings of Am. IfBis an over-ring of C, they also
+say that Bdominates C.
+Since the unique (up to isomorphism) A-ideal isAitself, we proceed
+by induction: supposing that all over-rings of Amare known, we ﬁnd
+all over-rings of Am+1. IfCis an over-ring of Am+1, thenB=CAmis
+an over-ring of Am,tB⊂CandC/tBis ak-subalgebra in B/tB. If
+B⊇Am−1, thentB⊇Jm, hence,C⊇Jm+D=Am. Therefore, the
+following procedure gives all over-rings of Am+1which are not over-
+rings ofAm:
+Procedure.
+•For every over-ring BofAm, which is not an over-ring of Am−1,
+calculate ¯B=B/tB. Set¯A= (Am+tB)/tB⊆¯B.
+•Find all proper subalgebras S⊂¯Bsuch that ¯AS=¯B. Equiv-
+alently, the natural map S→B/BJmmust be surjective.
+•For each such Stake its preimage in B.
+2.Calculations
+2.1.One branch, ramiﬁed case. We set
+C2r(α) =D+trαD+t2rA,wherev(α) = 1,
+C2r+1(α) =D+trαD+t2r+1A,wherev(α) = 2,
+wherevis the discrete valuation related to the ring A, i.e.v(α) =k
+means that α∈τkD\τk+1D. Note that C0(α) =A. Obviously, αcan
+be uniquely chosen as τ+aτ2forC2rand asτ2+atτforC2r+1, where
+a∈Dis deﬁned modulo tr.
+Theorem 2.1. Every over-ring of Amcoincides with tkCr(α)+Dfor
+somek,rsuch that r+k≤mand some α. The rings Cr(α)are just
+all plane curve singularities in this case.
+Proof.Form= 1 itis easyandknown [8,11]. So, we usethe Procedure
+form >1, setting B=tkCr(α) +D, wherek+r=m. Then the
+basis of¯Bconsists of the classes of the elements {1,thα,tmτs}, where
+h=k+ [r/2],s∈ {1,2}ands≡r(mod 2). Since thα /∈Jm, the
+subalgebra Snecessarily contains the class of thα+ctmτsfor some
+c∈D. Ifk= 0, then m=randv(tmτs) = 2v(thα). Therefore, ¯B
+has no proper subalgebra containing the class of thα+ctmτs. Ifk >0,
+the preimage of SisD+ (thα+ctmτs)D+tm+1A. It coincides with
+tk−1Cr+2(α′)+Dwhereα′=α+ctm−hτs.
+Now one easily checks that edim Cr(α) = 2, while edim C= 3 for all
+other rings. /square4 YURIY A. DROZD AND RUSLAN V. SKURATOVSKII
+2.2.One branch, non-ramiﬁed case. We setCr(α) =D+trαD+
+t2rA0, whereα∈A×\D. Again C0(α) =A0. Note that αcan be
+uniquely chosen as θ+aθ2, whereθis a ﬁxed preimage of ¯θinD1and
+a∈Dis deﬁned modulo tr.
+Theorem 2.2. Every over-ring of Amcoincides with tkCr(α)+Dfor
+somek,randαwith2r+k≤m. The rings Cr(α)are just all plane
+curve singularities in this case.
+Proof.Form= 1 it is obvious. So, using the Procedure for m >1, we
+setB=tkCr(α)+Dwith 2r+k=m. Then a basis of ¯Bconsists of
+the classes of elements {1,tr+kα,tmα2}for some α2∈A×\(D+αD).
+Sincetr+kα /∈Jm,Smust contain the class of an element tr+kα′=
+tr+kα+ctmα2for some c∈D. As above, it is impossible if k= 0. If
+k >0, thenthepreimageof SisD+tr+kα′+tm+1A=tk−1Cr+1(α′)+D.
+Now one easily checks that edim Cr(α) = 2, while edim C= 3 for all
+other rings. /square
+2.3.Two branches, ramiﬁed case. We denote by vthe valuation
+deﬁned by the ring D1, byethe idempotent in Asuch that eA=D1
+and set
+Cl,q(α) =D+tl(e+tqα)D+trA,wherer= 2l+q,
+Cr(α) =D+trαD+t2r+1A.
+In both cases α∈D1andv(α) = 1, where vis the valuation deﬁned by
+the ringD1. Obviously, αcan be uniquely chosen as aτ, wherea∈D
+is deﬁned modulo r. Note that C0,q(α) =D+e1D+tqAare just all
+decomposable rings in this case and C0,0(α) =A.
+Theorem 2.3. Every over-ring of Amcoincides with either tkCl,r(α)+
+DortkCr(α)+D, wherek+r≤m. The rings Cl,q(α)andCr(α)are
+just all plane curve singularities in this case.
+Proof.The case m= 1 is obvious. So, using the Procedure, we suppose
+thatm >1 andk+r=m. IfB=tkCl,q(α)+D, a basis of ¯Bconsists
+of the classes of {1,tk+l(e+tqα),tmτ}. Sincetk+l(e+tqα)/∈Jm, the
+subalgebra Smust contain the classe of tk+l(e+tqα′) for some α′∈D1
+withv(α′) = 1. Again the case k= 0 is impossible. If k >0, the
+preimage of Scoincides with tk−1Cl+1,q+D. IfB=tkCr(α)+D, the
+calculations are quite similar.
+Now one easily checks that edim Cl,q(α) = edim Cr(α) = 2, while
+edimC= 3 for all other rings. /square
+2.4.Two branches, non-ramiﬁed case. We set
+Cl,q(α) =D+tl(e1+tqα)D+trA,wherer= 2l+q
+andα∈D1\(e1D+tD).CUBIC RINGS AND THEIR IDEALS 5
+Thenαcan be chosen as aθ, whereθis a ﬁxed preimage of ¯θinD1and
+a∈Dis uniquely deﬁned modulo tl. AgainC0,q(α) =D+e1D+tqA
+are just all decomposable rings in this case. Especially, C0,0(α) =A.
+Theorem 2.4. Every over-ring of Amcoincides with one of the rings
+tkCl,q(α)+D, wherek+r≤m. The rings Cl,q(α)are just all plane
+curve singularities in this case.
+We omit the proof in this case, since it practically repeats the cal-
+culations in the other cases.
+2.5.Three branches case. We set
+Cl,q(α) =D+tlαD+trA,
+whereα=e+tqae′,e/\e}atio\slash=e′are primitive idempotent in A,r= 2l+q,
+a∈D×anda/\e}atio\slash≡1(modt) ifq= 0. Obviously, ais unique modulo
+tl. AgainC0,q(α) =D+eD+tqAare just all decomposable rings in
+this case and C0,0=A. Note also that if C=D+tlαD+trA, where
+α=e+ae′as above with a≡1(modt), then, for a≡1(modtl),
+C=tlC0,q(1−e−e′) +D, and for a≡1(modtq) with 0 < q < l,
+C=Cl,q(α′) for some α′.
+Theorem 2.5. Every over-ring of Amcoincides with tkCl,q(α)+Dfor
+someαand some l,qwithk+r≤m. The rings Cl,q(α)are just all
+plane curve singularities in this case.
+We also omit the proof in this case, since it practically repeats the
+calculations in the other cases.
+2.6.Table of plane curve cubic singularities. Wepresent in Table
+1 below all plane curve cubic singularities. In this table sis the num-
+ber of branches,∗marks the unramiﬁed cases (related to the residue
+ﬁeld extensions, hence impossible if kis algebraically closed); x,yare
+generators of the maximal ideal, v(a) denotes the multivaluation of an
+elementa∈A, i.e. the vector of valuations of its components with re-
+spect to the decomposition of Ainto the product of discrete valuation
+rings. The column “type” shows the correspondence with the Arno ld’s
+classiﬁcation [1, §15]. If char k= 0 and Ais ramiﬁed, it actually
+shows the place of the rings in this classiﬁcation. If char k= 0 and C
+is non-ramiﬁed, it shows the place of the ring in this classiﬁcation afte r
+the natural extension of the ﬁeld k. The validation of this column is
+given in [7, Section 2.3]. Note that, following [7], we denote by El,qthe
+singularities Jl,qin the sense of [1]. Such notations seem more uniform.
+Note also that the singularities of types E1andE2are actually not
+cubic, but quadratic, and coincide with those of types A1andA2of
+[1]. Finally, the last column, “par” shows the number of parameters p
+from the residue ﬁeld kwhich deﬁne a unique ring of this type. We
+will consider this value in the last section. It does not coincide with
+themodality in the sense of [1]; the latter equals p−1.6 YURIY A. DROZD AND RUSLAN V. SKURATOVSKII
+Table 1.
+sname v(x)v(y)typepar
+1C2r(α)(3) (3r+1) E6rr
+C2r+1(α)(3) (3r+2)E6r+2r
+1∗Cr(α)(1) (r)E∗
+r,0r
+2Cr(α)(2,1)(2r+1,∞)E6r+1r
+Cl,q(α)(2,1)(2l,∞)El,2q+1l
+2∗Cl,q(α)(1,1)(l,∞)E∗
+l,2ql
+3Cl,q(α)(1,1,1)(l,l+q,∞)El,2ql
+Remark. Thetamecubic plane curve singularities T3,q(q≥6) [4, 5]
+coincide with those of types E2,q−6.
+3.Ideals
+As we have mentioned above, every ideal of a cubic ring Cis isomor-
+phic either to an over-ring B⊇Cor to its dual B∗= Hom D(B,D). If
+CisGorenstein (for instance, if it is a plane cubic singularity), then
+C∗≃C, thusB∗≃HomC(B,C). Therefore, to calculate B∗, one has
+to choose a Gorenstein subring C⊆Band to calculate
+HomC(B,C)≃ {λ∈L|λB⊆C}={λ∈C|λB⊆C}
+(the latter equality holds since 1 ∈B). This remark easily leads to the
+following result.
+Theorem 3.1. The duals to the cubic rings are as follows:
+One branch ramiﬁed case: IfB=D+tkCr(α), thenB∗≃
+D+t[r/2]αD+tk+rA.
+One branch non-ramiﬁed case: IfB=D+tkCr(α), then
+B∗≃D+trαD+tk+2rA.
+Two branches ramiﬁed case: (1)IfB=D+tkCl,q(α), then
+B∗≃D+tl(e+tqα)D+tk+2l+qA.
+(2)IfB=D+tkCr(α), thenB∗≃D+trαD+tk+2r+1A.CUBIC RINGS AND THEIR IDEALS 7
+Two branches non-ramiﬁed case: IfB=D+tkCl,q(α), then
+B∗≃D+tl(e+tqα)D+tk+2l+qA.
+Three branches case: IfB=D+tkCl,q(α), thenB∗≃D+
+tlαD+tk+2l+qA.
+Proof.The proof is immediate if we choose for a Gorenstein subring
+C⊆Btheplanecurvesingularity C=Ck+r(α)orCk+l,q(α)depending
+on the shape of B. For instance, in two branches ramiﬁed case, if
+B=D+tkCl,q(α) andC=D+Cl+k,q(α), then
+B∗≃ {λ∈C|λB⊆C}=tkD+tk+l(e+tqα)D+t2k+2l+qA
+≃D+tl(e+tqα)D+tk+2l+qA. /square
+Corollary 3.2. If a cubic ring is Gorenstein, it is a plane curve sin-
+gularity.
+Note that it is no more the case for the extensions of bigger degree s.
+For instance, the rings Ppqfrom [5], which are quartic, are Gorenstein
+(they are complete intersections) but of embedding dimension 3.
+4.Geometric case. Number of parameters
+In this section we suppose that our rings are of geometric nature ,
+i.e.D=k[[t]], where kis algebraically closed. Then one can consider
+thenumber of parameters par(C) deﬁning C-ideals (see [4, Section
+2.2] or [6, Section 3], where it is denoted by par(1; C,A)). Actually, it
+coincides with the minimal possible number pfor which there is a ﬁnite
+set offamilies of ideals Ik(1≤k≤m) of dimensions at most psuch
+that every C-ideal is isomorphic to one belonging to some family Ik.
+Equivalently, it is the maximal possible psuch that is a p-dimensional
+family of ideals Iwhere every isomorphism class of ideals only occurs
+ﬁnitely many times. In [7] a criterion was established in order that
+par(C)≤1. For cubic rings it means that Cdominates a singularity
+of typeEm(18≤m≤20) orE3,i. The following results give the exact
+value of par( C) for all cubic rings of geometric nature. (Note that no
+unramiﬁed case can occur for such rings.)
+Theorem 4.1. IfCis a cubic ring of geometric nature, par(C)≤n
+if and only if Cdominates one of the singularities of type E12n+i(6≤
+i≤8)orE2n+1,q(q≥0).
+Proof.Certainly, we have to prove that
+(1) every ring of one of the listed types have at most n-parameter
+families of ideals;
+(2) ifCdominates no ring of the listed types, it has ( n+ 1)-
+parameter families of ideals.
+Since the calculations in all cases are similar, we only consider the
+one branch ramiﬁed case. Note ﬁrst that the rings C2r(α) as well as8 YURIY A. DROZD AND RUSLAN V. SKURATOVSKII
+C2r+1(α) form a r-parametric family. Indeed, we can choose in the
+ﬁrst case α=τ+aτ2, and in the second one α=τ2+aτ4, where
+a∈Dis deﬁned modulo tr, and such a presentation is unique. The
+same is true also for tkC2r(α)+DandtkC2r+1(α)+Dfor anyk. Since
+C2r(α)⊇A2rfor allα, we get par( A2r)≥r.
+LetCdominate neither a ring of type E12n+6, i.e.C4n+2(α), nor
+a ring of type E12n+8, i.e.C4n+3(α). Then it contains no element of
+valuation smaller than 6 n+6, soC⊆A2n+2. Hence, par( C)≥n+1.
+On the other hand, consider the ring C2r+q(α), where q∈ {0,1}.
+Its over-rings are of the kind D+tkC2m+q(β), where k+m≤rand
+k+2m≤2r. Moreover, let α=τq+1+aτ2q+2andβ=τq+1+bτ2q+2.
+Thenbis deﬁned modulo tmandb≡a(modtr−m−k). Therefore, the
+over-rings with the ﬁxed m,kform ap-parameter family, where p=
+min(m,r−m−k). Hence, 2 p≤randp≤[r/2]. If we set r= 2n+1,
+we get that par( C4n+2(α))≤nand par(C4n+3(α))≤nfor all possible
+α. It accomplishes the proof. /square
+Obvious considerations give the number of parameters for special
+rings.
+Corollary 4.2.
+par(Cr(α)) = [r/2],
+par(Cl,q(α)) = [l/2],
+par(Am) = [m/2].
+References
+[1] V.I.Arnold, A.N.Varchenko,S.M.Gusein-Zade.Singularitieso fDiﬀerentiable
+Maps. Vol. 1. Nauka, Moscow, 1982.
+[2] Y.A.Drozd. Ideals of commutative rings. Matem. Sbornik, 101 ( 1976), 334–
+348.
+[3] Y.A.Drozd. On the existence of maximal orders, Matem. Zamet ki, 37 (1985),
+313–315.
+[4] Y.A.Drozd. Cohen-Macaulay modules over Cohen-Macaulay alge bras. CMS
+Conference Proceedings, 19 (1996), 25–53.
+[5] Y.A.Drozd, G.-M.Greuel. Cohen-Macaulay module type, Compos itio Math.,
+89 (1993) 315-338.
+[6] Y.A.Drozd, G.-M.Greuel. Semi-continuity for Cohen-Macaulay m odules.
+Math. Ann., 306 (1996), 371–389.
+[7] Y.A.Drozd, G.-M.Greuel. On Schappert characterization of un imodal
+plane curve singularities. Singularities: The Brieskorn Anniversary V olume.
+Birkh¨ auser, 1998, 3-26.
+[8] Y.A.Drozd, A.V.Roiter. Commutative rings with a ﬁnite number o f integral
+indecomposable representations. Izvestia Acad. Nauk SSSR. Ser . matem., 31
+(1967), 783-798.
+[9] D.K.Faddeev. Introduction to multiplicative theory of modules o f integral
+representations. Trudy Mat. Inst. Steklova, 80 (1965), 145–1 82.
+[10] D.K.Faddeev. On the theory of cubic Z-rings. Trudy Matem. Inst. Steklova
+80, (1965), 183–187.CUBIC RINGS AND THEIR IDEALS 9
+[11] H.Jacobinski. Sur les ordres commutatifs avec un nombre ﬁni d e r´ eseaux
+ind´ ecomposables. Acta Math., 118 (1967), 1-31.
+[12] A.Schappert. A characterizationof strictly unimodal plane cu rve singularities.
+Lecture Notes in Math. 1273 (1987), 168–177.
+[13] R.Skuratovskii. Ideals of singularities of type W. Ukrainian J. Math.
+[14] C.T.C.Wall. Classiﬁcation of unimodal isolated singularities of comple te inter-
+sections. Proc. Symp. Pure Math. 40(2) (1983), 625–640.
+Institute of Mathematics, National Academy of Sciences of U kraine,
+Tereschenkivska 3, 01601 Kyiv, Ukraine
+E-mail address :drozd@imath.kiev.ua
+URL:www.imath.kiev.ua/ ∼drozd
+Kyiv National Taras Shevchenko University, Department of M e-
+chanics and Mathematics, Volodymyrska 60, 01601 Kyiv, Ukra ine
+E-mail address :ruslcomp@mail.ru

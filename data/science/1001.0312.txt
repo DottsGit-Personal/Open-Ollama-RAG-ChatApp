@@ -1,0 +1,392 @@
+arXiv:1001.0312v2  [math.CO]  5 Sep 2010The Method of Combinatorial Telescoping
+William Y.C. Chen1, Qing-Hu Hou2and Lisa H. Sun3
+Center for Combinatorics, LPMC-TJKLC
+Nankai University
+Tianjin 300071, P.R. China
+1chen@nankai.edu.cn,2hou@nankai.edu.cn,3sunhui@nankai.edu.cn
+Abstract. We present a method for proving q-series identities by combinatorial telescoping,
+in the sense that one can transform a bijection or a classiﬁca tion of combinatorial objects
+into a telescoping relation. We shall illustrate this metho d by giving a combinatorial proof
+of Watson’s identity which implies the Rogers-Ramanujan id entities.
+Keywords. Watson’s identity, Sylvester’s identity, Rogers-Ramanuj an identities, combina-
+torial telescoping
+AMS Subject Classiﬁcation. 05A17; 11P83
+1 Introduction
+The main objective of this paper is to present the method of co mbinatorial telescoping for
+provingq-series identities. A benchmark of this approach is the clas sical identity of Watson
+which implies the Rogers-Ramanujan identities.
+There have been many combinatorial proofs of the Rogers-Ram anujan identities. Schur
+[13] provided an involution for the following identity whic h is equivalent to the ﬁrst Rogers-
+Ramanujan identity:
+∞/productdisplay
+k=1(1−qk)/parenleftBigg
+1+∞/summationdisplay
+k=1qk2
+(1−q)(1−q2)···(1−qk)/parenrightBigg
+=∞/summationdisplay
+k=−∞(−1)kqk(5k−1)/2.
+Andrews[1]provedtheRogers-Ramanujanidentitiesbyintr oducingthenotionof k-partitions.
+Garsia and Milne [9] gave a bijection by using the involution principle. Bressoud and Zeil-
+berger [5,6] provided a diﬀerent involution principle proof based on an algebraic proof due to
+Bressoud [4]. Boulet and Pak [3] found a combinatorial proof which relies on the symmetry
+properties of a generalization of Dyson’s rank.
+Let us consider a summation of the following form
+∞/summationdisplay
+k=0(−1)kf(k). (1.1)
+1Suppose that f(k) is a weighted count of a set Ak, that is,
+f(k) =/summationdisplay
+α∈Akw(α).
+Motivated by the idea of creative telescoping of Zeilberger [16], we aim to ﬁnd sets Bkand
+Hkwith a weight assignment wsuch that there is a weight preserving bijection
+φk:Ak−→Bk∪Hk∪Hk+1, (1.2)
+where∪stands for disjoint union. Since φkandφk+1are weight preserving, both φ−1
+k(Hk+1)
+andφ−1
+k+1(Hk+1) have the same weight as Hk+1. Realizing that φ−1
+k(Hk+1)⊆Akand
+φ−1
+k+1(Hk+1)⊆Ak+1, they cancel each other in the sum (1.1). More precisely, if w e set
+g(k) =/summationdisplay
+α∈Bkw(α) andh(k) =/summationdisplay
+α∈Hkw(α),
+then the bijection (1.2) implies that
+f(k) =g(k)+h(k)+h(k+1). (1.3)
+To see that the above equation is indeed a telescoping relati on with respect to the sum (1.1),
+let
+f′(k) = (−1)kf(k), g′(k) = (−1)kg(k), h′(k) = (−1)kh(k).
+Thus we have
+f′(k) =g′(k)+h′(k)−h′(k+1). (1.4)
+Just like the conditions for the creative telescoping, we su ppose that H0=∅andHkvanishes
+for suﬃciently large k. Summing (1.4) over k, we deduce the following relation
+∞/summationdisplay
+k=0(−1)kf(k) =∞/summationdisplay
+k=0(−1)kg(k), (1.5)
+which is often an identity we wish to establish.
+The above approach to proving an identity like (1.5) is calle d combinatorial telescoping.
+It can be seen that the bijections φklead to a correspondence between A=∞/uniontext
+k=0Akand
+B=∞/uniontext
+k=0Bkafter the cancelations of Hk’s. To be more speciﬁc, we can derive a bijection
+φ:A\∞/uniondisplay
+k=0φ−1
+k(Hk∪Hk+1)−→B
+and an involution
+ψ:∞/uniondisplay
+k=0φ−1
+k(Hk∪Hk+1)−→∞/uniondisplay
+k=0φ−1
+k(Hk∪Hk+1),
+2given byφ(α) =φk(α) ifα∈Akand
+ψ(α) =
+
+φ−1
+k−1φk(α),ifα∈φ−1
+k(Hk),
+φ−1
+k+1φk(α),ifα∈φ−1
+k(Hk+1).
+In the examples of this paper, the set Akis of the following form
+Ak=∞/uniondisplay
+n=0An,k.
+Fix an integer n, for any nonnegative integer k, we can establish a bijection φn,ksuch that
+the corresponding set Bn,kis related to An,k,An−1,k,...,A n−r,kfor an integer r. Let
+Fn,k=/summationdisplay
+α∈An,kw(α)
+be a weighted count of the set An,k, and let
+Fn=∞/summationdisplay
+k=0(−1)kFn,k.
+By (1.5), the bijections {φn,k}∞
+k=0imply a recurrence relation of Fn, which leads to an explicit
+expressionu(n) forFnby iteration. Finally, we deduce the following identity
+∞/summationdisplay
+k=0(−1)kf(k) =∞/summationdisplay
+k=0(−1)k∞/summationdisplay
+n=0Fn,k=∞/summationdisplay
+n=0Fn=∞/summationdisplay
+n=0u(n). (1.6)
+As a simple example, one can easily give a combinatorial tele scoping proof of the classical
+identity of Gauss, see also, [7,11,12]:
+n/summationdisplay
+k=0(−1)k/bracketleftbiggn
+k/bracketrightbigg
+=/braceleftBigg
+0, n odd,
+(1−q)(1−q3)···(1−qn−1), neven.
+Let us consider the following reformulation
+n/summationdisplay
+k=0(−1)k1
+(q;q)k(q;q)n−k=
+
+0, n odd,
+1
+(1−q2)(1−q4)···(1−qn), neven.(1.7)
+Let
+Pn,k={(λ,µ):λ1≤k, µ1≤n−k},
+whereλandµare partitions, and let
+Hn,k={(λ,µ)∈Pn,k:mk(λ)<mn−k(µ)},
+wheremk(λ)denotesthenumberofoccurrencesofthepart kinλandweadopttheconvention
+thatm0(λ) = +∞. By deﬁnition, Hn,k=∅fork= 0 ork >n. For any integers n≥1 and
+k≥0, we shall construct a bijection
+φn,k:Pn,k−→ {0,n,2n,...}×Pn−2,k∪Hn,k∪Hn,k+1.
+3Let (λ,µ)∈Pn,k. Ifmk(λ)< mn−k(µ), then (λ,µ)∈Hn,k. In this case, φn,k/parenleftbig
+(λ,µ)/parenrightbig
+=
+(λ,µ). Ifmk(λ)≥mn−k(µ), we letmn−k(µ) =t. In this case, if µt+1=n−1−k, we
+increase each of the ﬁrst tparts ofλby one and decrease each of the ﬁrst tparts ofµby
+one. It is easily seen that the resulting pair of partitions ( λ′,µ′) belongs to Hn,k+1and we
+setφn,k/parenleftbig
+(λ,µ)/parenrightbig
+= (λ′,µ′). Finally, if µt+1≤n−2−k, then we set
+φn,k/parenleftbig
+(λ,µ)/parenrightbig
+=/parenleftbig
+tn,(ˆλ,ˆµ)/parenrightbig
+∈ {0,n,2n,...}×Pn−2,k,
+whereˆλ= (λt+1,λt+2,...) and ˆµ= (µt+1,µt+2,...) are the partitions obtained from λandµ
+by removing the ﬁrst tparts. Deﬁne the weight function wonPn,kand{0,n,2n,...}×Pn−2,k
+as follows
+w(λ,µ) =q|λ|+|µ|,andw(tn,(λ,µ)) =qtn+|λ|+|µ|,
+where|λ|=λ1+λ2+···. It can be checked that φn,kis weight preserving. Hence we obtain
+the following recurrence relation
+Fn(q) =1
+1−qnFn−2(q), (1.8)
+whereFn(q) denotes the sum on the left hand side of (1.7). By iteration o f (1.8), we arrive
+at (1.7).
+It should be noted that the bijections φn,klead to an involution on Pn,k, which can be
+considered as a variation of the involution given by Chen, Ho u and Lascoux [7].
+In Section 2, we use the idea of combinatorial telescoping to give a proof of Watson’s
+identity [15] in the following form, see also [10, Section 2. 7],
+∞/summationdisplay
+k=0(−1)k1−aq2k
+(q;q)k(aqk;q)∞a2kqk(5k−1)/2=∞/summationdisplay
+n=0anqn2
+(q;q)n, (1.9)
+where
+(a;q)k= (1−a)(1−aq)···(1−aqk−1),and (a;q)∞=∞/productdisplay
+i=0(1−aqi).
+Settinga= 1, Watson’s identity reduces to Schur’s identity [3]
+1
+(q;q)∞∞/summationdisplay
+k=−∞(−1)kqk(5k−1)/2=∞/summationdisplay
+n=0qn2
+(q;q)n.
+Applying Jacobi’s triple product identity to the left hand s ide, we are led to the ﬁrst Rogers-
+Ramanujan identity. Similarly, setting a=qin Watson’s identity yields the second Rogers-
+Ramanujan identity.
+Here is a sketch of the proof. Assume that the k-th summand regardless of the sign on
+the left hand side of (1.9) is the weight of a set Pk. We further divide Pkinto a disjoint union
+of subsetsPn,k,n= 0,1,..., by considering the expansion of the summand in the paramete r
+a. For a positive integer nand a nonnegative integer k, we can construct a bijection
+φn,k:Pn,k→ {n}×Pn,k∪{2n−1}×Pn−1,k∪Hn,k∪Hn,k+1. (1.10)
+4Let
+Fn(a,q) =∞/summationdisplay
+k=0(−1)k/summationdisplay
+α∈Pn,kw(α).
+The bijections φn,kyield a recurrence relation
+Fn(a,q) =qnFn(a,q)+aq2n−1Fn−1(a,q), n≥1.
+By iteration, we ﬁnd that Fn(a,q) =anqn2/(q;q)n, and hence (1.9) holds.
+As another example, it can be seen that the method of combinat orial telescoping also
+applies to Sylvester’s identity [14]
+∞/summationdisplay
+k=0(−1)kqk(3k+1)/2xk1−xq2k+1
+(q;q)k(xqk+1;q)∞= 1. (1.11)
+This identity has been investigated by Andrews [1,2].
+2 Watson’s identity
+In this section, we shall use Watson’s identity as an example to illustrate the idea of com-
+binatorial telescoping. Let us recall some deﬁnitions conc erning partitions. A partition is a
+non-increasing ﬁnite sequence of positive integers λ= (λ1,...,λ ℓ). The integers λiare called
+thepartsofλ. The sum of parts and the number of parts are denoted by |λ|=λ1+···+λℓ
+andℓ(λ) =ℓ, respectively. The number of k-parts inλis denoted by mk(λ). The special
+partition with no parts is denoted by ∅. We shall use diagrams to represent partitions and
+use columns instead of rows to represent parts.
+Set
+Pk={(τ,λ,µ):τ= (k2k,k−1,...,2,1), λℓ(λ)≥k, λi/\e}atio\slash= 2k, µ1≤k},(2.1)
+wherek2kdenotes 2koccurrences of a part k. In other words, τis a trapezoid partition
+with|τ|=k(5k−1)/2,λis a partition with parts at least kbut not equal to 2 k, andµis a
+partition with parts at most k. In particular, we have P0={(∅,λ,∅)}. It is clear that the
+k-th summand of the left hand side of (1.9) without sign can be v iewed as the weight of Pk,
+that is,/summationdisplay
+(τ,λ,µ)∈Pkaℓ(λ)+2kq|τ|+|λ|+|µ|.
+According to the exponent of ain the above deﬁnition, we divide Pkinto a disjoint union
+of subsets
+Pn,k={(τ,λ,µ)∈Pk:ℓ(λ) =n−2k}, (2.2)
+withPn,0={(∅,λ,∅)∈P0:ℓ(λ) =n}andPn,k=∅forn <2k. The elements of Pn,kare
+illustrated in Figure 2.1.
+We have the following combinatorial telescoping relation f orPn,k.
+5n
+k λ
+/bracehtipupleft/bracehtipdownright/bracehtipdownleft/bracehtipupright
+τ ≥kbut without 2 kµ
+Figure 2.1: The diagram ( τ,λ,µ)∈Pn,k
+Theorem 2.1 Let
+Hn,k={(τ,λ,µ)∈Pn,k:mk(λ)+2>mk(µ)}. (2.3)
+Then, for any positive integer nand any nonnegative integer k, there is a bijection
+φn,k:Pn,k−→ {n}×Pn,k∪{2n−1}×Pn−1,k∪Hn,k∪Hn,k+1. (2.4)
+Proof.The bijection is essentially a classiﬁcation of Pn,kinto four cases. Let ( τ,λ,µ) be a
+3-tuple of partitions in Pn,k.
+Case 1.mk(λ)+2>mk(µ). In this case, ( τ,λ,µ)∈Hn,kand the image of ( τ,λ,µ) is deﬁned
+to be itself.
+Case 2.mk(λ) + 2≤mk(µ) andm2k+1(λ) = 0. Denote the set of 3-tuples ( τ,λ,µ) in this
+case byUn,k. Note that
+Un,0={(∅,λ,∅)∈Pn,0:m1(λ) = 0}.
+Sincemk(µ)≥mk(λ)+2, we can remove ( mk(λ)+2)k-parts from µto generate a partition
+µ′. In the meantime, we change each k-part ofλinto a 2k-part in order to obtain a partition
+λ′whose minimal part is strictly greater than k.
+Next, we decrease each part of λ′by one in order to producea partition λ′′whose minimal
+part is greater than or equal to k. Sinceλcontains no parts equal to 2 k+1, we see that λ′′
+contains no parts equal to 2 k. Thus we obtain a bijection ϕ1:Un,k→ {n}×Pn,kdeﬁned by
+(τ,λ,µ)/mapsto→(n,(τ,λ′′,µ′)). This case is illustrated by Figure 2.2.
+k λ′′µ′k k n −2k
+Figure 2.2: The resulting partition under the bijection ϕ1.
+Case 3.mk(λ)+2≤mk(µ),m2k+1(λ)>0 andmk+1(λ)+m2k+2(λ) = 0. Denote the set of
+3-tuples (τ,λ,µ) in this case by Vn,k. We remark that when k= 0, one 1-part is regarded as
+a (2k+1)-part and the other 1-parts are regarded as ( k+1)-parts so that
+Vn,0={(∅,λ,∅)∈Pn,0:m1(λ) = 1 andm2(λ) = 0}.
+6Letλ′,µ′be given as in Case 2. We can remove one (2 k+1)-part from λ′and decrease each
+of the remaining parts by two in order to obtain λ′′. This leads to a bijection ϕ2:Vn,k→
+{2n−1}×Pn−1,kas given by ( τ,λ,µ)/mapsto→(2n−1,(τ,λ′′,µ′)). See Figure 2.3 for an illustration.
+k λ′′µ′n−2k−1 2k+1
+Figure 2.3: The resulting partition under the bijection ϕ2.
+Case 4.mk(λ)+2≤mk(µ),m2k+1(λ)>0 andmk+1(λ)+m2k+2(λ)>0. Denote the set of
+3-tuples (τ,λ,µ) in this case by Wn,k. As in Case 3, we have
+Wn,0={(∅,λ,∅)∈Pn,0:m1(λ)>0 andm1(λ)+m2(λ)>1}.
+Letλ′,µ′be given as in Case 2. We can change each (2 k+2)-part of λ′to a (k+1)-part and
+addm2k+2(λ′) (k+1)-parts to µ′. Denote the resulting partitions by λ′′andµ′′. Then we
+have
+mk+1(λ′′) =mk+1(λ)+m2k+2(λ)>0, mk+1(µ′′) =m2k+2(λ). (2.5)
+Now remove one ( k+1)-part and one (2 k+1)-part from λ′′to obtainλ′′′. By (2.5), we ﬁnd
+mk+1(λ′′′) =mk+1(λ′′)−1≥mk+1(µ′′)−1.
+Moreover, it is clear that
+|λ|+|µ|= 2k+(k+1)+(2k+1)+|λ′′′|+|µ′′|.
+Letτ′be the trapezoid partition of size k+1. So we obtain a bijection ϕ3:Wn,k→Hn,k+1
+deﬁned by ( τ,λ,µ)/mapsto→(τ′,λ′′′,µ′′). This case is illustrated in Figure 2.4.
+n
+k+1 λ′′′
+/bracehtipupleft/bracehtipdownright/bracehtipdownleft/bracehtipupright
+τ′≥k+1 and without 2 k+2µ′′
+Figure 2.4: The resulting partition under the bijection ϕ3.
+Assign a weight function wonPn,k,{n}×Pn,kand{2n−1}×Pn−1,kas follows:
+w/parenleftbig
+τ,λ,µ/parenrightbig
+=anq|τ|+|λ|+|µ|,
+w/parenleftbig
+n,(τ,λ,µ)/parenrightbig
+=qn·anq|τ|+|λ|+|µ|,
+w/parenleftbig
+2n−1,(τ,λ,µ)/parenrightbig
+=aq2n−1·an−1q|τ|+|λ|+|µ|.
+7Observe that the bijections ϕ1,ϕ2andϕ3are weight preserving. In addition, Hn,0=∅and
+Hn,k=∅fork >n
+2. Thus the bijections φn,kimmediately lead to a recurrence relation of
+Fn(a,q) deﬁned as follows.
+Corollary 2.2 Let
+Fn(a,q) =∞/summationdisplay
+k=0(−1)k/summationdisplay
+(τ,λ,µ)∈Pn,kanq|τ|+|λ|+|µ|. (2.6)
+Then, for any positive integer n, we have
+Fn(a,q) =qnFn(a,q)+aq2n−1Fn−1(a,q). (2.7)
+SinceF0(a,q) = 1, by iteration we ﬁnd that
+Fn(a,q) =aq2n−1
+1−qnFn−1(a,q) =a2q4n−4
+(1−qn)(1−qn−1)Fn−2(a,q) =···=anqn2
+(q;q)n.
+Summing over n, we arrive at Watson’s identity (1.9).
+3 Sylvester’s identity
+In this section, we describe the approach of combinatorial t elescoping for Sylvester’s identity
+(1.11). Deﬁne
+Qn,k={(τ,λ):τ= (kk+1,k−1,...,2,1),λi/\e}atio\slash= 2k+1,m>k(λ) =n−k},
+wherem>k(λ) denotes the number of parts of λwhich are greater than k. See Figure 3.1 for
+an illustration. In particular, we have
+Qn,0={(∅,λ):λi/\e}atio\slash= 1,ℓ(λ) =n}.
+n
+k λ
+τ/bracehtipupleft/bracehtipdownright/bracehtipdownleft /bracehtipupright
+Figure 3.1: The diagram of ( τ,λ)∈Qn,k.
+Let
+Hn,k={(τ,λ)∈Qn,k:mk+1(λ)≥mk(λ)}.
+Then, for each positive integer nand each nonnegative integer k, we have a bijection
+φn,k:Qn,k−→ {n}×Qn,k∪Hn,k∪Hn,k+1,
+which is a classiﬁcation of Qn,kinto three cases. Let ( τ,λ)∈Qn,k.
+8Case 1.mk+1(λ)≥mk(λ). In this case, ( τ,λ)∈Hn,kand the image of ( τ,λ) underφn,kis
+deﬁned to be itself.
+Case 2.mk+1(λ)< mk(λ) andm2k+2(λ) = 0. Denote the set of pairs ( τ,λ) in this case
+byUn,k. We remove one k-part from λ. Then, for each ( k+1)-part of λ, we can add it to
+ak-part to form a (2 k+1)-part. Finally, we decrease each part greater than k+1 by one
+to generate a partition λ′. Sincem2k+2(λ) = 0, we see that ( τ,λ′)∈Qn,k. So we obtain a
+bijectionϕ1:Un,k→ {n}×Qn,kgiven by (τ,λ)/mapsto→(n,(τ,λ′)).
+Case 3.mk+1(λ)< mk(λ) andm2k+2(λ)>0. Denote the set of pairs ( τ,λ) in this case by
+Vn,k. We ﬁrst remove one k-part and one (2 k+2)-part from λand add them to τto form a
+partitionτ′. Hereτ′is a trapezoid partition of size k+1. Then for each ( k+1)-part of λwe
+combine it with a k-part to form a (2 k+1)-part. Finally we decompose each (2 k+3)-part
+ofλinto a (k+1)-part and a ( k+2)-part to form a partition λ′. Sincem2k+3(λ′) = 0, we
+obtain a bijection ϕ2:Vn,k→Hn,k+1deﬁned by ( τ,λ)/mapsto→(τ′,λ′).
+It is not diﬃcult to see that Sylvester’s identity follows fr om the bijections φn,k. Let
+In(q) =∞/summationdisplay
+k=0(−1)k/summationdisplay
+(τ,λ)∈Qn,kq|τ|+|λ|.
+Noting that Hn,0=∅because of the deﬁnition m0(λ) = +∞, the bijections φn,klead to the
+recurrence relation
+In(q) =qnIn(q),
+which implies that In(q) = 0 forn≥1. Clearly I0(q) = 1, and hence Sylvester’s identity
+holds.
+To conclude this paper, we notice that both Watson’s identit y and Sylvester’s identity can
+be veriﬁed by employing the q-Zeilberger algorithm for inﬁnite q-series developed by Chen,
+Hou and Mu [8]. Let
+f(a) =∞/summationdisplay
+k=0(−1)k(1−aq2k)
+(q;q)k(aqk;q)∞a2kqk(5k−1)/2.
+Denote the k-th summand of f(a) byFk(a). Theq-Zeilberger algorithm gives that
+Fk(a)−Fk(aq)−aqFk(aq2) =Hk+1(a)−Hk(a), (3.1)
+where
+Hk(a) = (−1)k(−1−qk+aq2k)
+(q;q)k−1(aqk;q)∞a2kqk(5k−1)/2.
+Summing (3.1) over k, we ﬁnd that
+f(a) =f(aq)+aqf(aq2).
+Extracting the coeﬃcients of anleads to the same recurrence relation as (2.7). It is easily
+checked that the right hand side of (1.9) satisﬁes the same re cursion. By Theorem 3.1 of
+Chen, Hou and Mu [8], one sees that (1.9) holds for any aprovided that it is valid for the
+trivial case a= 0. Similarly, let
+f(x) =∞/summationdisplay
+k=0(−1)kqk(3k+1)/2xk1−xq2k+1
+(q;q)k(xqk+1;q)∞.
+9Theq-Zeilberger algorithm gives that
+Fk(x)−Fk(xq) =Hk+1(x)−Hk(x), (3.2)
+whereFk(x) is thek-th summand of f(x) and
+Hk(x) = (−1)k+1qk(3k+1)/2xk
+(q;q)k−1(xqk+1;q)∞. (3.3)
+Summing (3.2) over k, we deduce that f(x) =f(xq), which implies f(x) = 1.
+Acknowledgments. We wish to thank the referees for helpful comments. This work was supported
+by the National Science Foundation, the PCSIRT project, the Pro ject NCET-09-0479, and the Fun-
+damental Research Funds for Universities of the Ministry of Educa tion of China.
+References
+[1] G.E. Andrews, Partially ordered sets and the Rogers-Ram anujan identities, Aequationes
+Math. 12 (1975) 94–107.
+[2] G.E. Andrews, The Theory of Partitions, Encyclopedia of Mathematics and its Appli-
+cations, Vol. 2, Addison-Wesley Publishing Co., Reading, M ass., 1976.
+[3] C. Boulet and I. Pak, A combinatorial proof of the Rogers- Ramanujan and Schur iden-
+tities, J. Combin. Theory, Ser. A 113 (2006) 1019–1030.
+[4] D.M. Bressoud, An easy proof of the Rogers-Ramanujan ide ntities, J. Number Theory
+16 (1983) 235–241.
+[5] D.M. Bressoud and D. Zeilberger, A short Rogers-Ramanuj an bijection, Discrete Math.
+38 (1982) 313–315.
+[6] D.M.BressoudandD.Zeilberger, GeneralizedRogers-Ra manujanbijections, Adv.Math.
+78 (1989) 42–75.
+[7] W.Y.C. Chen, Q.-H. Hou and A. Lascoux, An involution for t he Gauss identity, J.
+Combin. Theory, Ser. A 102 (2003) 309–320.
+[8] W.Y.C. Chen, Q.-H. Hou and Y.-P. Mu, Nonterminating basi c hypergeometric series
+and theq-Zeilberger algorithm, Proc. Edinb. Math. Soc. 51 (2008) 60 9–633.
+[9] A.M. Garsia and S.C. Milne, A Rogers-Ramanujan bijectio n, J. Combin. Theory, Ser. A
+31 (1981) 289–339.
+[10] G.GasperandM.Rahman, BasicHypergeometricSeries, 2 ndEd., CambridgeUniversity
+Press, Cambridge, MA, 2004.
+[11] J.Y. Lee, A combinatorial proof for an identity of Gauss , Ramanujan J. 21 (2010) 65–69.
+[12] I. Pak, The nature of partition bijections I. Involutio ns, Adv. Appl. Math. 33 (2004)
+263–289.
+10[13] I. Pak, Partition bijections, a survey, Ramanujan J. 12 (2006) 5–75.
+[14] J.J. Sylvester, A constructive theory of partitions, a rranged in three acts, an interact,
+and an exodion, Amer. J. Math. 5 (1882) 251–330.
+[15] G.N. Watson, A new proof of the Rogers-Ramanujan identi ties, J. London Math. Soc. 4
+(1929) 4–9.
+[16] D. Zeilberger, The method of creatvie telescoping, J. S ymbolic Comput. 11 (1991) 195–
+204.
+11

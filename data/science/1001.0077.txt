@@ -1,0 +1,182 @@
+arXiv:1001.0077v1  [physics.ins-det]  31 Dec 2009The LAGUNA design study–towards giant liquid basedundergr ound
+detectors forneutrino physics andastrophysicsand proton decay
+searches∗
+TheLAGUNAconsortium†: D. Angusa, A.Arigab, D.Autieroc, A.Apostud,A.Badertschere,
+T.Bennetf, G.Bertolag, P.F.Bertolag,O.Besidah, A.Bettinii, C.Boothf, J.L.Bornec,I. Brancusd,
+W.Bujakowskyj,J.E.Campagnec,G.Cata Danild, F.Chipesiud, M.Chorowskik,J. Crippsf,
+A.Curionie,S. Davidsonc, Y.Declaisc,U.Drostg, O.Duliul,J. Dumarchezc,T. Enqvistm,A.Ereditatob,
+F.von Feilitzschn, H.Fynboo, T.Gamblef,G. Galvaninp,A.Gendottie, W.Gizickik,M.Goger-Neffn,
+U.Grassling,D.Gurneyq, M.Hakalar, S. Hannestado,M. Haworthq,S. Horikawae,A.Jipal,F.Jugetb,
+T.Kalliokoskis, S. Katsanevasc, M.Keent, J.Kisielu, I.Kreslob,V. Kudryastevf, P.Kuusiniemim,
+L.Labargav,T.Lachenmaiern,J.C.Lanfranchin, I. Lazanul, T.Lewken, K.Loom,P.Lightfootf,
+M.Lindnerw,A.Longhinh,J. Maalampis,M.Maraﬁnic,A.Marchionnie,R.M.Margineanud,
+A.Markiewiczy, T.Marrodan-Undagoitan,J.E.Marteauc,R.Matikainenr, Q.Meindln, M.Messinab,
+J.W.Mietelskiy, B.Mitricad,A.Mordasinig,L.Moscah,U.Moserb, G.Nuijtenr,L.Oberauern,
+A.Oprinad, S.Palingf,S. Pascolia, T.Patzakc, M.Pectud, Z.Pileckij,F.Piquemalc, W.Potzeln,
+W.Pytelx,M.Raczynskix,G.Rafﬂetz,G.Ristainop,M. Robinsonf, R.Rogersq,J. Roinistor,
+M.Romanai, E.RondioA, B.Rossib, A.Rubbiae, Z.Sadeckix, C.Saenzi, A.Saftoiud,J. Salmelainenr,
+O.Simal,J. Slizowskij,K.Slizowskij, J.SobczykB, N.Spoonerf,S. Stoicad, J.Suhonens,R.SulejA,
+M.Szarskay,T.SzeglowskiB, M.Temussip, J.Thompsonq,L.Thompsonf,W.H.Trzaskas,
+M.Tippmannn,A.Tonazzoc,K.Urbanczykj,G.Vasseurh,A.Williamst, J.Wintern,K.Wojutszewskaj,
+M.Wurmn, A.Zalewskay, M.Zampaoloc, M.Zitoh
+(a)UniversityofDurham(UDUR),UniversityOfﬁce,Old Elve t,DurhamDH13HP,UnitedKingdom(b)
+UniversityofBern,4Hochschulstrasse,CH-3012,Bern (c)C entreNationaldela RechercheScientiﬁque,Institut
+NationaldePhysiqueNucléaireet dePhysiquedesParticule s(CNRS/IN2P3),3rueMichel-Ange,Paris75794,
+France(d)HoriaHulubeiNationalInstituteofRD forPhysic sandNuclearEngineering,IFIN-HH,407
+AtomistilorStreet,R-077125,Magurele,jud. ILFOV,PO Box MG-6,postalcodeRO-077125,Romania(e)ETH
+Zurich,101Raemistrasse, CH-8092Zurich(f)TheUniversit yofShefﬁeld(USFD),New SpringHouse231,
+GlossopRoad,ShefﬁeldS102GW,UnitedKingdom(g)Lombardi EngineeringLimited,viaR.Simen,CH-6648,
+Minusio(h)Commissariatà l’EnergieAtomique(CEA)/Direc tiondesSciencesdela Matière,25rueLeblanc,
+Paris75015,France(i)LaboratorioSubterraneodeCanfran c(LSC),Plaza delAyuntamientono. 1,22880
+Canfranc(Huesca),Spain(j)MineralandEnergyEconomyRes earchInstituteofthePolish AcademyofSciences
+(IGSMIE-PAN),Wybickiego7,30-950Krakow,Poland(k)Wroc lawUniversityofTechnology(PWrWroclaw),
+ul. WybrzezeWyspianskiego27,50-370Wroclaw,Poland(l)U niversityofBucarest(UoB),FacultyofPhysics
+Bld.Atomistilornr.405,PhysicsPlatform,Magurele,Ilfo vCounty,RO-077125,MG-11Bucharest-Magurele,
+Romania(m)UniversityofOulu(U-OULU),1Pentti KaiteranK atu,Oulu90014,Finland(n)Technische
+UniversitätMünchen(TUM),21Arcisstrasse,München80333 ,Germany(o)UniversityofAarhus(AU),1 Norde
+Ringgade,AarhusC8000,Denmark(p)AGTIngegneriaSrl, Per ugia,10Avia dellaPallotta,Perugia06126,
+Italy(q)TechnodyneInternationalLtd.,Unit16,Shakespe areBusinessCentreHathawayClose,EastleighUK SO
+504SR,UnitedKingdom(r)KalliosuunnitteluOyRockplanLt d.,2 Asemamiehenkatu,Helsinki00520,Finland
+(s)UniversityofJyväskylä(JyU),9Survontie,Jyväskylä4 0014,Finland(t)ClevelandPotash Limited(CPL),
+BoulbyMine,Loftus,SaltburnCleveland,TS134UZ,UK (u)In stituteofPhysics,UniversityofSilesia
+Uniwersytecka4,40-007Katowice,Poland(v)UniversidadA utonomadeMadrid(UAM),C/Einstein no. 1;
+Rectorado,CiudadUniversitariadeCantoblanco,28049Mad rid,Spain(w)Max-Planck-InstituteforNuclear
+Physics,Heidelberg(x)KGHM CUPRUM LtdResearchandDevelo pmentCentre,Pl. 1Maja,50-136Wrocaw,
+Poland(y)IFJPan,H.NiewodniczaskiInstituteofNuclearP hysicsPAN, Radzikowskiego152,31-342Krakow,
+Poland(z)Max-Planck-InstituteforPhysics,Munich(A)Hi ghEnergyPhysicsDepartment-A.SoltanInstitute
+∗Contribution to the Workshop “European Strategy for Future Neutrino Physics”, CERN, Oct. 2009, to appear in the
+Proceedings.
+1forNuclearStudies(SINS)Hoza6900-681Warsaw,Poland(B) FacultyofPhysicsandAstronomy,Wroclaw
+University,pl M.Borna9,50-204Wroclaw,Poland.
+Abstract
+The feasibility of a next generation neutrino observatory i n Europe is being
+considered within the LAGUNA design study. To accommodate g iant neu-
+trino detectors and shield them from cosmic rays, a new very l arge under-
+ground infrastructure is required. Seven potential candid ate sites in differ-
+ent parts of Europe and at several distances from CERN are bei ng studied:
+Boulby (UK), Canfranc (Spain), Fréjus (France/Italy), Pyh äsalmi (Finland),
+Polkowice-Sieroszowice (Poland), Slanic (Romania) and Um bria (Italy). The
+design study aims at the comprehensive and coordinated tech nical assessment
+of each site, at a coherent cost estimation, and at a prioriti zation of the sites
+within thesummer 2010.
+1Physicsgoals
+Large underground neutrino detectors, for instance SuperK amiokande or SNO, have achieved funda-
+mental results in particle and astro-particle physics. A ne xt-generation very large multipurpose neutrino
+observatory ofatotalmassintherangeof100’000 to1’000’0 00 tonswillprovidenewanduniquescien-
+tiﬁcopportunities inthis ﬁeld, very likely leading tofund amental discoveries. It will aim at asigniﬁcant
+improvementinthesensitivitytosearchforprotondecays, pursuingtheonlypossiblepathtodirectlytest
+physicsattheGUTscale,extending theproton lifetimesens itivities upto1035years,arangecompatible
+with several theoretical models; it will measure with unpre cedented sensitivity the last unknown mixing
+angleθ13and unveil the existence of CP violation in the leptonic sect or, which in turn could provide
+an explanation of the matter-antimatter asymmetry in the Un iverse; moreover it will detect neutrinos
+as messengers from astrophysical objects as well as from the Early Universe to give us information on
+processes happening in the Universe, which cannot be studie d otherwise. In particular, it will sense a
+large number of neutrinos emitted by exploding galactic and extragalactic type-II supernovae, allowing
+anaccuratestudyofthemechanismsdrivingtheexplosion. T heneutrinoobservatory willalsoallowpre-
+cision studies of other astrophysical or terrestrial sourc es of neutrinos like solar and atmospheric ones,
+and search for new sources of astrophysical neutrinos, like for example the diffuse neutrino background
+from relic supernovae or those produced inDarkMatter (WIMP )annihilation inthecentre of theSunor
+the Earth.
+2The LAGUNAdesign study
+Theconstruction ofalargescaleneutrino detectorinEurop edevotedtoparticleandastroparticle physics
+was discussed several years ago (see e.g. [1]) and is current ly one of the priorities of the ASPERA
+roadmap, deﬁned in 2008 [2]. Four national underground labo ratories located resp. in Boulby (UK),
+Canfranc (Spain), Gran Sasso (Italy), and Modane (France), are today in operation, hosting detectors
+looking for Dark Matter or neutrino-less double beta decays , or performing long-baseline experiments.
+However,noneoftheseexistinglaboratory islargeenoughf orthenext-generation neutrino experiments.
+The FP7 Design Study LAGUNA [3] (Large Apparatus studying Gr and Uniﬁcation and Neu-
+trino Astrophysics) is an EC-funded project carrying on und erground sites studies and developments in
+view of such detectors observatories. Three detector optio ns are currently being studied: GLACIER[4],
+LENA[5], and MEMPHYS[6]. The study is evaluating possible e xtensions of the existing deep under-
+ground laboratories, and on top of it, the creation of new lab oratories in the following regions: Umbria
+Region (Italy), Pyhäsalmi (Finland), Sieroszowice (Polan d) and Slanic (Romania). Table 1summarizes
+†LAGUNA Coordinator : andre.rubbia@cern.chsome basic characteristics of the sites under consideratio n, including the distance from CERN,which is
+relevant incase aneutrino beam issent from CERNto the selec ted underground site.
+Table 1:Potentialsitesbeingstudiedwith theLAGUNAdesignstudy.
+Location Type Envisaged depth Distance from Energy1stOsc. Max.
+m.w.e. CERN[km] [GeV]
+Fréjus (F) Road tunnel ≃4800 130 0.26
+Canfranc (ES) Road tunnel ≃2100 630 1.27
+Umbria(IT)aGreen ﬁeld ≃1500 665 1.34
+Sieroszowice(PL) Mine ≃2400 950 1.92
+Boulby (UK) Mine ≃2800 1050 2.12
+Slanic(RO) Salt Mine ≃600 1570 3.18
+Pyhäsalmi (FI) Mine upto ≃4000 2300 4.65
+a≃1.0◦off axis.
+3Site selection
+Site selection is a complex process involving the optimizat ion and assessment of several parameters,
+encompassing physics performance, technical feasibility , safety and legal aspects, socio-economic and
+environmental impact, costs, etc. As a result, LAGUNA is int erdisciplinary, involving most Euro-
+pean physicists interested in realizing massive neutrino d etectors, as well as geo-technical experts, geo-
+physicists, structural engineers, mining engineers and al so large storage tank engineers. It regroups
+21 beneﬁciaries, composed of academic institutions from De nmark, Finland, France, Germany, Poland,
+Spain, Switzerland, United Kingdom, as well as industrial p artners specialized in civil and mechanical
+engineering and rock mechanics, commonly assessing the fea sibility of a this Research Infrastructure in
+Europe. Someof the typical issues addressed byLAGUNAare il lustrated below:
+1. assessment of strengths and weaknesses of each site;
+2. rock mechanics and excavation of therequired caverns;
+3. overburden vs. detector options;
+4. design and construction of tanks inrelation tosites;
+5. transport, access, delivery of detector liquids;
+6. safety issues, inroad tunnels and inoperating mines;
+7. environmental impact, e.g. rock removal;
+8. relative costs;
+9. etc.
+The study also gives the opportunity to the members of the con sortium to visit all the potential
+sitesandholdseveral meetings toexchange ideas andworkto gether oncommonareas, solving common
+issues, inacollaborative spirit, although asense of healt hy competition is implied among the sites.
+The results will be summarized in 16 reports (“deliverables ") to be submitted to the EC within
+the fall 2010. A ﬁrst report on the health, safety and environ mental impact has been prepared during
+the summer 2009. Seven “interim” reports, one for each site, are currently under preparation and should
+be available during the winter 2009/2010. They demonstrate that the site studies are well underway
+with deﬁnitions of the infrastructure in advanced stages, p roviding well-deﬁned conceptual designs and
+reliable excavation cost-estimates.
+34The future oflong baselineneutrino physicsinEurope
+The next generation deep underground neutrino detector sho uld be coupled to advanced neutrino beams
+from CERN to complete the understanding of the leptonic mixi ng matrix, in particular to study matter-
+antimatter asymmetry in neutrino oscillations (CP-violat ion), thereby addressing the outstanding puzzle
+of the origin of the excess of matter over antimatter created in the very early stages of evolution of
+theUniverse. Theoutcome of thecurrent international prog ram tomeasure the(small) mixing angle θ13
+(T2KinJapan,DoubleChoozinEurope,DayaBayinChinaandNO vAintheUS)willdeﬁnethestrategy
+to measure CP-violation in the neutrino sector, whether usi ng conventional superbeams or more exotic
+beta-beams orneutrino factories. Inthecasethat θ13isbelowthesensitivity ofT2K/DoubleChooz/Daya
+Bay/NOvA, a new far detector designed to measure CP-violati on coupled to an intensity upgraded con-
+ventional superbeam, is the most natural next step to contin ue exploring neutrino oscillations, since the
+increased statistics yields anorder of magnitude better se nsitivity in θ13.
+Similarplansareemergingworldwide, forinstance inNorth AmericawiththeDeepUnderground
+Science andEngineering Laboratory (DUSEL)at Homestake (S outhDakota), envisioning adeep under-
+ground facility coupled to USaccelerator laboratories loc ated at appropriate distances, for long baseline
+neutrino oscillation experiments [7]. In Asia, the Japanes e High Energy Research Accelerator Research
+Organization (KEK)roadmapforesees extensions oftheJPAR Cneutrino programme beyondthecurrent
+T2K experiment by increasing the neutrino beam intensity an d by constructing a new far detector in
+addition toSuperKamiokande [8].
+This international landscape underlines the “global" natu re of the project, with potential options
+beingconsidered inseveralcontinents, jointlydebatedby theinternational scientiﬁccommunity, making
+all themore likely that only one such facility will be built w orldwide.
+5Conclusions and Outlook
+TheLAGUNAconsortium isstudyingthefeasibilityofanewla rgeunderground infrastructure inEurope
+abletohostnextgeneration neutrinophysicsandastrophys ics andprotondecayexperiments. Sevensites
+are presently being considered. The study aims at the compre hensive and coordinated technical assess-
+ment of each site, at acoherent cost estimation, and at aprio rity list for site selection, by Summer2010.
+After that, a more focused design study, aiming also at detec tor option selection, should be envisaged.
+Future long baseline in Europe should consider a new beam lin e from CERN towards the chosen LA-
+GUNAsite. Thenewlargeunderground infrastructure couldi nthefuturebeoperated inconnection with
+other, moreadvanced neutrino beams like beta-beams or neut rino factories.
+Acknowledgements
+The LAGUNAdesign study is ﬁnanced by FP7Research Infrastru cture "Design Studies", Grant Agree-
+ment No. 212343 FP7-INFRA-2007-1.
+References
+[1] D. Autiero et al., “Large underground, liquid based detectors for astro-par ticle physics in Europe:
+scientiﬁc case and prospects,” JCAP 0711(2007) 011 [arXiv:0705.0116 [hep-ph]].
+[2] ASPERA is a network of national government agencies resp onsible for coordinating and funding
+national research efforts inAstroparticle Physics. See http://www.aspera-eu.org
+[3] For up-to-date information see http://laguna.ethz.ch
+[4] A.Rubbia, “Experiments for CP-violation: Agiant liqui d argon scintillation, Cerenkov and charge
+imaging experiment?,” arXiv:hep-ph/0402110.
+[5] L. Oberauer, F. von Feilitzsch and W. Potzel, “A large liq uid scintillator detector for low-energy
+neutrino astronomy,” Nucl. Phys. Proc. Suppl. 138(2005) 108.
+4[6] A. de Bellefon et al., “MEMPHYS: A large scale water Cerenkov detector at Frejus, ”
+arXiv:hep-ex/0607026.
+[7] Y.K.Kim,“Plans for super-beams inUS”,this report.
+[8] T.Hasegawa, “Plans for super-beams in Japan”, this repo rt.
+5

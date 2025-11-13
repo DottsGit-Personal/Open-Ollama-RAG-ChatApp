@@ -1,0 +1,236 @@
+arXiv:1001.0751v2  [hep-th]  2 Jun 2010The CPTgroup of thespin-3/2 ﬁeld
+B.Carballo P ´erez∗andM. Socolovsky†
+Instituto de Ciencias Nucleares, Universidad Nacional Aut ´ onoma deM´ exico,
+Circuito exterior, Ciudad Universitaria, 04510, M´ exico D .F.,M´ exico
+Abstract
+We ﬁnd out that both the matrix and the operator CPT groups for the spin-3/2
+ﬁeld (withor withoutmass)are respectively isomorphicto D4⋊Z2andQ×Z2.
+ThesegroupsareexactlythesamegroupsasfortheDiracﬁeld ,thoughthereisno
+apriorireason whytheyshouldcoincide.
+Keywords: discretesymmetries;spin3/2-ﬁeld;ﬁnitegroups
+∗brendacp@nucleares.unam.mx
+†socolovs@nucleares.unam.mx1 Introduction 2
+1 Introduction
+The CPT group of the Dirac ﬁeld in Minkowski space-time was ob tained by
+Socolovsky in 2004 [1]. It were found two sets of consistent s olutions for the
+matrices of charge conjugation( C), parity (P), and timereversal ( T), which give
+the transformation of ﬁelds ˆψC(x) =Cˆ¯ψT(x),ˆψΠ(xΠ) =Pˆψ(x)andˆψτ(xτ) =
+Tˆψ(x)∗, wherexΠ= (t,−x)andxτ= (−t,x). Thesesetsare givenby:
+a)CD=±γ2γ0,PD=±iγ0,TD=±iγ3γ1,
+b)CD=±iγ2γ0,PD=±iγ0,TD=±γ3γ1.
+Each of these sets generates a non abelian group of sixteen el ements, respec-
+tively,G(1)
+θ∼=D4×Z2andG(2)
+θ∼=16E, whereD4is the group of symmetries
+of the square and 16Eis a non trivial extension of D4byZ2, isomorphic to a
+semidirectproductofthesegroups.
+On the other hand, the quantum operators ˆC,ˆPandˆT, acting on the Hilbert
+space, generateauniquegroup Gˆθ∼=Q×Z2, whereQisthequaterniongroup.
+With this in mind, we decided to ﬁnd the CPTgroup of the spin-3/2 ﬁeld
+(Rarita-Schwinger ﬁeld), for both massive and massless cas es. This ﬁeld could
+be useful for the description of compound objects (neglecti ng its structure in a
+ﬁrst approximation), like the baryon decuplet components f or spin-3/2+[2], or
+forelementaryﬁelds such as thegravitino.
+In orderto describe3/2-spinparticles,thesetofequation s
+(iγα∂α−m)ˆψµ(x) = 0, (1)
+γµˆψµ(x) = 0, (2)
+where∂α=∂
+∂xα,isrequired. Theseequationsareknownas theRarita-Schwi nger
+equation [3]. The ﬁrst of these equation is a Dirac equation f or each vector com-
+ponent of the vector spinor ˆψµand the second one is known as the subsidiary
+condition. Precisely due to the more complexity of these equ ations with respect
+to the Dirac ﬁeld equation, there is not a priori any apparent reason why the CPT
+groupfortheRarita-Schwingerﬁeldshouldcoincidewithth osefortheDiracﬁeld.
+2 Parity
+If we want to study the Pinvariance of the Rarita-Schwinger equation, we
+needtorepeattheanalysisdonefortheDiracequationin[1] andalsoconsiderthe
+Pinvarianceofthesubsidiaryequation.2 Parity 3
+Multiplyingthisequationfromtheleftby P,changing x→ −xand inserting
+theunity,oneobtains:
+Pγ0P−1Pˆψ0(t,−x)+Pγ1P−1Pˆψ1(t,−x)+Pγ2P−1Pˆψ2(t,−x)
++Pγ3P−1Pˆψ3(t,−x) = 0,(3)
+but we need to take into account that the vector spinor change s by parity in the
+followingway:
+ˆψµ(t,x) =
+ˆψ0(t,x)
+ˆψ1(t,x)
+ˆψ2(t,x)
+ψ3(t,x)
+−→ˆψµπ(t,x) =
+Pˆψ0(t,−x)
+−Pˆψ1(t,−x)
+−Pˆψ2(t,−x)
+−Pψ3(t,−x)
+;(4)
+whereˆψµπ(t,x)can be written as ˆψµπ(t,x) =PPˆψµ(t,−x), withP ∈O(1,3)
+givenby:
+P=
+1 0 0 0
+0−1 0 0
+0 0−1 0
+0 0 0 −1
+(5)
+andP∈D16, whereD16istheDiracalgebra.
+Substitutingthecomponentsof ˆψµπ(t,x)in (3)oneobtains:
+Pγ0P−1ˆψ0π(t,x)−PγkP−1ˆψkπ(t,x) = 0. (6)
+Thisimpliestheconstraintson P:
+Pγ0P−1=γ0, PγkP−1=−γk, (7)
+or
+Pγ0P−1=−γ0, PγkP−1=γk. (8)
+The relations (7) are the same as those obtained from the Dira c equation,
+whose already known solution is PD=±iγ0, while from the relations (8) is
+obtainedP=P′=zγ3γ2γ1, withz∈C∗=C\{0}.
+Followingthesameanalysisas in[1], thereare twopossibil itiesforeach P:3 Chargeconjugation 4
+a)P2= +1⇒z=±1⇒P′=±γ3γ2γ1;
+b)P2=−1⇒z=±i⇒P′=±iγ3γ2γ1.
+In the ﬁrst case: P′†=P′=P′−1=−P′T=−P′∗and in the second one:
+P′†=−P′=P′−1=P′T=−P′∗.
+3 Chargeconjugation
+Tostudythe Cinvarianceofthesubsidiaryequation,wemusttakethecomp lex
+conjugateofthisequation,multiplyfromtheleftby Cγ0andinserttheunitmatrix.
+Thisis:
+(Cγ0)γµ∗(Cγ0)−1ˆψµC(x) = 0, (9)
+whereˆψµC(x) =Cγ0ˆψ∗
+µ(x).
+In thiscase, theconstraintson Care:
+(Cγ0)γµ∗(Cγ0)−1=γµ, (10)
+or
+(Cγ0)γµ∗(Cγ0)−1=−γµ. (11)
+Taking into account that γ0γµ∗γ0=γµT, one can ﬁnd the solutions for the C
+matrices. Theequationwiththenegativesignisthesameasi ntheDiraccaseand
+leadstoC=CD=ηγ2γ0;on theotherhand, fromequation(10)wearriveto:
+CγµTC−1=γµ, (12)
+whichleads tothesolution C=C′=ηγ3γ1.
+ForC′,asecondapplicationofthechargeconjugationtransforma tionisgiven
+by:
+(ˆψC)C=ˆψC2=C′ˆ¯ψT
+C=C′(ˆψ†
+Cγ0)T=C′γ0ˆψ∗
+C=C′γ0C′∗γ0ˆψ=−C′C′∗ˆψ
+=−|η|2γ3γ1γ3∗γ1∗ˆψ=|η|2(γ3)2(γ1)2ˆψ=|η|2ˆψ. (13)
+Since the effect on ˆψcan be, at most, a multiplication by a phase, then η∈
+U(1)andC′isunitary. Thisis:4 Timereversal 5
+C′C′†=ηγ3γ1¯η(γ3γ1)†=|η|2γ3γ1γ1γ3=|η|2γ3(γ1)2γ3=|η|21 = 1.(14)
+Hence, forC=C′wealsoﬁnd that ˆψC2=ˆψ.
+As in [1], due to a symmetry consideration between ˆψC=C′ˆ¯ψTandˆ¯ψC=
+−¯η2ˆψTC′, it follows that −¯η2=±1and taking into account that |η|4= 1, one
+obtainsη2=±1, whichimpliesthat η=±1,±i.
+Then, forthespin-3/2ﬁeld therearetwo possibilitiesfore achC:
+a)C′=±γ3γ1, C D=±γ2γ0;
+b)C′=±iγ3γ1, C D=±iγ2γ0.
+4 Timereversal
+We start again from the subsidiary equation, change t→ −tand take the
+complexconjugate:
+Tγ0∗T−1Tˆψ0(−t,x)∗+Tγ1∗T−1Tˆψ1(−t,x)∗+Tγ2∗T−1Tˆψ2(−t,x)∗
++Tγ3∗T−1Tˆψ3(−t,x)∗= 0,(15)
+but we need to take into account that the vector spinorchange s by timeinversion
+inthefollowingway:
+ˆψµ(t,x) =
+ˆψ0(t,x)
+ˆψ1(t,x)
+ˆψ2(t,x)
+ψ3(t,x)
+−→ˆψµτ(t,x) =
+−Tˆψ0(−t,x)∗
+Tˆψ1(−t,x)∗
+Tˆψ2(−t,x)∗
+Tψ3(−t,x)∗
+;(16)
+whereˆψµτ(t,x)can be written as ˆψµτ(t,x) =TTˆψµ(−t,x)∗, withT ∈O(1,3)
+givenby:
+T=
+−1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+(17)
+andT∈D16.5 Matrixand operatorCPTgroups 6
+Substitutingthecomponentsof ˆψµτ(t,x)in(15)oneobtains:
+−Tγ0∗T−1ˆψ0τ(t,x)+Tγk∗T−1ˆψkτ(t,x) = 0, (18)
+fromwhich wecan deducetheconstraintson T:
+Tγ0T−1=γ0, Tγk∗T−1=−γk, (19)
+or
+Tγ0T−1=−γ0, Tγk∗T−1=γk. (20)
+The relations (19) are the same as those obtained from the Dir ac equation,
+whose already known solution is TD=eiλγ3γ1, while from the relations (20) is
+obtainedT=T′=wγ2γ0,withw∈C∗=C\{0}.
+ForT=T′, applyingτtwice,we arriveto:
+ˆψ(t,x)→ˆψτ(t,x) =T′ˆψ(−t,x)∗→T′(T′ˆψ(t,x)∗)∗=T′T′∗ˆψ(t,x).(21)
+and takingintoaccount that
+T′T′∗=|w|2γ2γ0(γ2γ0)∗=−|w|2γ2γ0γ2γ0=|w|2γ2γ2γ0γ0=−|w|21,(22)
+itfollowsthat ˆψτ2=−ˆψ,by asimilarargumentto thatusedfor C.
+Thus,T′T′∗=−1, which implies T′∗=−T′−1andw∈U(1). Then,T′=
+eiλγ2γ0yT′†=e−iλγ2γ0.
+5 MatrixandoperatorCPTgroups
+In summary,onehasboththetwosets ofmatrices:
+a)CD=±γ2γ0, P D=±iγ0, T D=±iγ3γ1,
+b)CD=±iγ2γ0, P D=±iγ0, T D=±γ3γ1;
+and the set: C′,P′,T′, satisfying the subsidiary equation. But, only the matrice s
+CD,PD,TD,alsosatisfytheDiractypeequation. Thatiswhytheyareth ematrices
+whichconform thematrixCPT groupofthespin-3/2ﬁeld withm ass.
+Ifwetakethezero masslimitoftheDiractypeequation,
+iγα∂αˆψ(x) = 0, (23)5 Matrixand operatorCPTgroups 7
+andanalyzeitsbehaviorunderparity,chargeconjugationa ndtimereversal,aswe
+didforthesubsidiarycondition,wehave, respectively:
+i(Pγ0P−1∂0−PγiP−1∂i)ˆψΠ(x) = 0, (24)
+(i∂µ+qAµ)(Cγ0)γµ∗(Cγ0)−1ˆψC(x) = 0. (25)
+i(γ0∗∂
+∂t−γk∗∂
+∂xk)ˆψτ(x) = 0. (26)
+From the above equations we can then obtain the correspondin g restrictions
+ontheC,PandTmatrices, respectively:
+Pγ0P−1=±γ0, PγkP−1=∓γk,
+CγµTC−1=±γµ,
+Tγ0T−1=±γ0, Tγk∗T−1=∓γk. (27)
+These relations generate the same sets of matrices CD,PD,TDandC′,P′,T′
+which gave the subsidiary condition. But if we take into acco unt thatˆ¯ψˆψis the
+chargedensityoperator, for C=C′,it followsthat:
+(ˆ¯ψˆψ)C=ˆ¯ψCˆψC=−¯η2ˆψTC′C′ˆ¯ψT=−¯η2C′2(ˆ¯ψˆψ)T
+=−¯η2C′2ˆ¯ψˆψ= (¯ηη)2ˆ¯ψˆψ=|η|4ˆ¯ψˆψ=−ˆ¯ψˆψ; (28)
+from which |η|4=−1, which is a contradiction. Hence, the matrix C=C′must
+bediscarted.
+It was demostratedin[1]that CandPmustfulﬁlltherelation:
+C(P−1)TC−1=P, (29)
+whileCandTare related by:
+CT∗=TC∗. (30)
+Dueto thefact thateach componentofthevectorspinorsatis ﬁes aDiractype
+equation,theaboverelationsalsoholdinourcase. Thatisw hythesetofmatrices:
+C′,P′,T′arealso discardedforthemasslesscase.6 Acknowledgment 8
+In order to ﬁnd the operator CPT group for the spin-3/2 ﬁeld (w ith or with-
+out mass), we follow the same procedure developed in [1], for the case of the
+correspondingCPT group oftheDiracﬁeld.
+TakingˆAandˆBas any of the operators ˆCD,ˆPDandˆTD; andˆψ, as each
+componentofthevectorspinor ˆψµ(x), therelations:
+ˆA·ˆψ=ˆA†ˆψˆA (31)
+and
+(ˆA∗ˆB)·ˆψ= (ˆAˆB)†ˆψ(ˆAˆB), (32)
+can bedeﬁned.
+UsingtheaboveexpressionsandwithsupportinthematrixCP Tgroup,through
+theformulas thatlinkmatriceswithoperators:
+Pˆψ(t,−x) =ˆP†ˆψ(t,x)ˆP,
+Cˆ¯ψT(x) =ˆC†ˆψ(x)ˆC,
+Tˆψ(−t,x)∗=ˆT†ˆψ(t,x)†ˆT; (33)
+therelations:
+ˆPD∗ˆPD=−1,ˆCD∗ˆCD= 1,ˆTD∗ˆTD=−1,
+ˆTD∗ˆPD=−ˆPD∗ˆTD,ˆCD∗ˆPD=ˆPD∗ˆCD,ˆCD∗ˆTD=ˆTD∗ˆCD,(34)
+wereobtainedin[1]; fromwhichitispossibletobuild,also usingtheproperty of
+associativity,themultiplicationtablefortheoperatorC PT group.
+Itwasalsodemostratedin[1]thatonlythesecondofthetwos olutionsforthe
+matrix group ( G(2)
+θ∼=16E∼=D4⋊ Z2), is compatible with the operator group
+(Gˆθ∼=Q×Z2).
+In summary,we showedthat boththematrixand theoperatorCP T groupsfor
+the spin-3/2 ﬁeld (with or without mass) coincide with the co rresponding groups
+fortheDiracﬁeld.
+6 Acknowledgment
+ThisworkwaspartiallysupportbytheprojectPAPIITIN1186 09-2,DGAPA-
+UNAM, M´ exico. B. Carballo P´ erez also acknowledge ﬁnancia l support from
+CONACyT, M´ exico. The authors thank Prof. O. S. Zandr´ on fro m IFIR, Rosario,
+Argentina,forsuggestingthiswork.REFERENCES 9
+References
+[1] M.Socolovsky,2004, TheCPTgroupoftheDiracField ,InternationalJour-
+nalofTheoretical Physics, 43, 1941-1967;arXiv: math-ph/0404038.
+[2] F. Riazuddin, 2000, A modern introductionto ParticlePhysics, Second Edi-
+tion(World Scientiﬁc), 121-122.
+[3] W. Rarita and J. Schwinger, 1941, On a Theory of Particles with Half-
+IntegralSpin ,PhysicalReview, 60,61.

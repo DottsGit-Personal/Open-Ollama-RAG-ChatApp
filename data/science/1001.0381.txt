@@ -1,0 +1,300 @@
+arXiv:1001.0381v5  [gr-qc]  21 Jun 2011Some remarks on exact wormhole solutions
+Peter K. F. Kuhﬁttig
+Department of Mathematics
+Milwaukee School of Engineering
+Milwaukee, Wisconsin 53202-3109 USA
+Exact wormhole solutions, while eagerly saught after, ofte n have the appearance of being overly
+specialized or highly artiﬁcial. A case for the possible exi stence of traversable wormholes would be
+more compelling if an abundance of solutions could be found. It is shown in this note that for many
+of the wormhole geometries in the literature, the exact solu tions obtained imply the existence of
+large sets of additional solutions.
+PAC numbers: 04.20.Jb, 04.20.Gz
+Key words: wormholes, exact solutions
+I. INTRODUCTION
+One of the fundamental problems in the general theory
+of relativity is ﬁnding exact solutions of the Einstein ﬁeld
+equations [1]. An example is the Schwarzschild solution,
+which proved to be a major milestone. Similarly, ﬁnd-
+ing exact solutions of wormhole geometries has occupied
+many researchers. The diﬀerence is that in this setting
+exact solutions are hardly a virtue if they have the ap-
+pearance of being artiﬁcial or, at best, overly special-
+ized. It is shown in this note that exact solutions may be
+used to show the existence of entire families of solutions,
+which in turn helps strengthen the case for the possible
+existence of traversable wormholes.
+II. WORMHOLE SOLUTIONS
+A wormhole may be deﬁned as a handle or tunnel in the
+spacetime topology linking diﬀerent universes or widely
+separated regions of our own Universe [9]. A general line
+element is the following:
+ds2=−e2Φ(r)dt2+e2Λ(r)dr2+r2(dθ2+sin2θdφ2),(1)
+where Φ( r)→0 and Λ( r)→0 asr→ ∞, usually re-
+ferred to as asymptotic ﬂatness . We also assume that
+Φ and Λ have continuous derivatives in their respective
+domains. The function Φ = Φ( r) is called the redshift
+function, which must be everywhere ﬁnite to prevent
+an event horizon. The function Λ = Λ( r) is related
+to theshape function b(r) =r(1−e−2Λ(r)), that is,
+e2Λ(r)= 1/[1−b(r)/r]. The minimum radius r=r0
+is thethroatof the wormhole, where b(r0) =r0. Also
+needed is b′(r0)<1, usually referred to as the ﬂare-out
+condition . As a consequence, Λ( r) has a vertical asymp-
+tote atr=r0: limr→r0+Λ(r) = +∞. For the redshift
+function we also have the additional requirement that
+Φ′(r0) be ﬁnite. Finally, to hold a wormhole open, the
+null energy condition must be violated [9].
+ThecomponentsoftheEinsteintensorinthe orthonor-mal frame are listed next [4].
+Gˆtˆt=2
+re−2Λ(r)Λ′(r)+1
+r2/parenleftBig
+1−e−2Λ(r)/parenrightBig
+,(2)
+Gˆrˆr=2
+re−2Λ(r)Φ′(r)−1
+r2/parenleftBig
+1−e−2Λ(r)/parenrightBig
+,(3)
+Gˆθˆθ=Gˆφˆφ
+=e−2Λ(r)/parenleftbigg
+Φ′′(r)−Φ′(r)Λ′(r)+[Φ′(r)]2
++1
+rΦ′(r)−1
+rΛ′(r)/parenrightbigg
+.(4)
+The case that will be examined in some detail is a
+wormhole supported by phantom energy, whose equation
+of state (EoS) is p=−Kρ,K >1. For this case, ρ+p=
+ρ(1−K)<0, in violation of the null energy condition.
+From the Einstein ﬁeld equations Gˆαˆβ= 8πTˆαˆβand
+Eqs. (2) and (3), we now get
+1
+8π/bracketleftbigg2
+re−2Λ(r)Φ′(r)−1
+r2/parenleftBig
+1−e−2Λ(r)/parenrightBig/bracketrightbigg
+=−K1
+8π/bracketleftbigg2
+re−2Λ(r)Λ′(r)+1
+r2/parenleftBig
+1−e−2Λ(r))/parenrightBig/bracketrightbigg
+.
+Solving for Λ′(r), we have
+Λ′(r) =1
+K/bracketleftbigg
+−Φ′(r)−1
+2r/parenleftBig
+e2Λ(r)−1/parenrightBig
+(K−1)/bracketrightbigg
+.(5)
+Observe that lim r→r0+Λ′(r) =−∞. Otherwise Λ′(r) is
+continuous in the interval ( r0,∞).
+The continuity assumptions play a critical role: thus
+fora > r 0, the integral/integraltextb
+aeΛ(r)drexists since Λ( r) is
+continuous. Now from the line element (1), the proper
+radial distance ℓ(r) from the throat r=r0to any point
+away from the throat is given by
+ℓ(r) =/integraldisplayr
+r0eΛ(r′)dr′. (6)2
+For an “arbitrary” Λ( r), this integral is not likely to be
+ﬁnite, given the asymptotic behavior of Λ( r). For cer-
+tain choices of Φ( r), however, ℓ(r) does exist, thereby
+producing a traversable wormhole. Examples are the ex-
+act solutions for Λ( r) obtained by choosing the following
+redshift functions: Φ( r)≡constant [6] and Φ( r) = lnk
+r
+[3, 10].
+Next, let us suppose that Λ 1(r) is one of the above
+exact solutions [corresponding to some Φ( r)], so that
+ℓ1(r) =/integraldisplayr
+r0eΛ1(r′)dr′
+is ﬁnite. Given that Φ′(r) is ﬁnite by assumption, we
+deduce from Eq. (5) that
+q1(r) = Λ′
+1(r)+1
+K1
+2r/parenleftBig
+e2Λ1(r)−1/parenrightBig
+(K−1) (7)
+is also ﬁnite. To generate a new solution, we let ǫ=ǫ(r)
+be a function with a continuous derivative satisfying the
+conditions ǫ(r0) =ǫ′(r0) = 0 and ǫ(r)→0 asr→ ∞.
+Deﬁne Λ 2(r) = Λ1(r)+ǫ(r). Then by Eq. (7)
+q2(r) = Λ′
+2(r)+1
+K1
+2r/parenleftBig
+e2Λ2(r)−1/parenrightBig
+(K−1) (8)
+is ﬁnite. Now consider the equation
+Λ′
+2(r) =
+1
+K/bracketleftbigg
+−[Φ′(r)+η′(r)]−1
+2r/parenleftBig
+e2Λ2(r)−1/parenrightBig
+(K−1)/bracketrightbigg
+(9)
+for some ﬁnite diﬀerentiable function η=η(r). Writing
+Eq. (9) in the form
+Λ′
+1(r)+ǫ′(r) =
+1
+K/bracketleftbigg
+−[Φ′(r)+η′(r)]−1
+2r/parenleftBig
+e2Λ1(r)+2ǫ(r)−1/parenrightBig
+(K−1)/bracketrightbigg
+,
+(10)
+we see that, by comparison to Eq. (5), η′(r) must sat-
+isfy the conditions η′(r0) = 0 and η(r)→0 asr→ ∞,
+thereby retaining the asymptotic ﬂatness. The function
+η′(r) is deﬁned only implicitly in Eq. (10), but since
+we are strictly interested in the existence of new solu-
+tions, it is suﬃcient to note that the formal relationship
+η′(r) =−Φ′(r)−Kq2(r) implies that η′(r) exists and is
+sectionally continuous, so that η=η(r) exists, as well.
+We conclude that Λ 2(r) is a solution to Eq. (5) cor-
+responding to some ﬁnite redshift function Φ( r) +η(r).
+Moreover,
+ℓ2(r) =/integraldisplayr
+r0eΛ2(r′)dr′(11)
+is ﬁnite since ǫ(r0) = 0. The result is the existence of an
+entire family of solutions, one for each ǫ=ǫ(r).
+Similar arguments can be used to obtain new classes
+of solutions from exact solutions of wormholes supportedbyChaplyginandgeneralizedChaplygingas[7], modiﬁed
+Chaplygin gas [2], and even van der Waals quintessence
+[8]. For the case of a generalized Chaplygin gas, the EoS
+isp=−A/ρα, 0< α≤1, and where Ais a constant [7].
+After substituting and solving for Λ′(r), we get [4]
+Λ′(r) =
+1
+2(8π)1+1/αr(r2)1/αA1/αe2Λ(r)
+/bracketleftbig
+1−e−2Λ(r)−2re−2Λ(r)Φ′(r)/bracketrightbig1/α−1
+2r/parenleftBig
+e2Λ(r)−1/parenrightBig
+.
+(12)
+According to Ref. [7], there is an exact solution for Φ′≡
+0, making ℓ(r) ﬁnite. In analogous manner, we now let
+Λ1(r) be an exact solution of Eq. (12). Then Λ 2(r)+ǫ(r)
+is a new solution, corresponding to some Φ( r) +η(r).
+(Assume that ǫ(r) andη(r) satisfy the same conditions
+as before.) The resulting proper distance ℓ2(r) is again
+ﬁnite.
+Anexamplethatillustratestheproblemofgeneralizing
+an exact solution even better comes from the modiﬁed
+Chaplygin gas model, whose EoS is p=Aρ−B/ρα,
+0< α≤1, and where AandBare constants. This time
+we begin with Λ( r) and determine Φ( r).
+According to Ref. [2], one may choose b(r) =r0+
+d(r−r0), where dmust be less than unity to meet the
+ﬂare-out condition. The shape function b(r) determines
+Λ(r), as well as Φ( r) [2]:
+Φ(r) =φ0+1+Ad
+2(1−d)ln|r−r0|−1
+2lnr
+−32π2B
+d(1−d)r4
+0ln|r−r0|
+−32π2B
+d(1−d)/bracketleftbigg1
+4(r−r0)4+4r3
+0(r−r0)
++3r2
+0(r−r0)2+4
+3r0(r−r0)3/bracketrightbigg
+.(13)
+This Φ(r) is not ﬁnite unless Ahas the (corrected) value
+A=1
+d2(64π2Br4
+0−d). (14)
+Remark: SinceAis part of the EoS, it would be more
+realistic to state the condition as follows: determine d
+(0< d <1), if it exists, so that Eq. (14) is satisﬁed.
+For such a choice of d, we ﬁnd that
+Φ(r) =φ0−1
+2lnr−32π2B
+d(1−d)/bracketleftbigg1
+4(r−r0)4
++4r3
+0(r−r0)+3r2
+0(r−r0)2+4
+3r0(r−r0)3/bracketrightbigg
+,(15)
+which has a well deﬁned and continuous derivative. If we
+now substitute Eqs. (2) and (3) in the EoS and solve for3
+Φ′(r), we get
+Φ′(r) =1
+2r/parenleftBig
+e2Λ(r)−1/parenrightBig
++A/bracketleftbigg
+Λ′(r)+1
+2r/parenleftBig
+e2Λ(r)−1/parenrightBig/bracketrightbigg
+−(8π)1+αB(r
+2)e2Λ(r)
+/bracketleftbig2
+re−2Λ(r)Λ′(r)+1
+r2/parenleftbig
+1−e−2Λ(r)/parenrightbig/bracketrightbigα.(16)
+Since the left side is well behaved (due to the choice of
+d), the right side is also well behaved in the sense of
+being ﬁnite and sectionally continuous. As before, we
+can replace Λ( r) by Λ(r) +ǫ(r), where, once again, ǫ=
+ǫ(r) has a continuous derivative with ǫ(r0) =ǫ′(r0) = 0
+andǫ(r)→0 asr→ ∞. Now denote the left side by
+Φ′
+1(r). Since Φ′
+1(r) is also sectionally continuous, Φ 1(r)
+will exist, again showing the existence of an entire family
+of solutions.III. CONCLUSION
+Wehaveshowninthisnotethatexactsolutionsofcertain
+wormholegeometries,suchastraversablewormholessup-
+ported by phantom energy, Chaplygin and generalized
+Chaplygin gas, or modiﬁed Chaplygin gas, imply the ex-
+istence of entire families of additional solutions. Having
+an abundance of solutions is highly desirable since ex-
+act solutions often have the appearance of being overly
+specialized or even artiﬁcial.
+From a physical standpoint, the proliferation of solu-
+tions, given the various equations of state, would greatly
+increasetheprobabilityofwormholes’havingformednat-
+urally. In particular, it is argued in Ref. [5] that the EoS
+had very likely crossed the “phantom divide” some time
+in the past, so that wormholes could have formed natu-
+rally. Inapproachingthepresentdark-energyphase, such
+wormholes would have formed event horizons, thereby
+becoming black holes or (possibly) quasi-black holes.
+This outcome provides at least a possibleexplanation for
+the abundance of black holes and the complete lack of
+wormholes.
+[1] J. Bicak, Einstein equations: exact solutions, arXiv:
+gr-qc/0604102.
+[2] S. Chakraborty and T. Bandyopadhyay, Modiﬁed Chap-
+lygin traversable wormholes, International Journal of
+Modern Physics D, 18 (2007), 463-476.
+[3] P.K.F. Kuhﬁttig, Seeking exactly solvable models of
+traversable wormholes supported by phantom energy,
+Classical and Quantum Gravity, 23 (2006), 5853-5860.
+[4] P.K.F. Kuhﬁttig, Theoretical construction of wormhole s
+supported by Chaplygin gas, arXiv: 0802.3656.
+[5] P.K.F. Kuhﬁttig, Could some black holes have evolved
+from wormholes? Scholarly Research Exchange, 2008
+(2008), Article ID 296158, 5 pages.
+[6] F.S.N. Lobo, Phantom energy traversable wormholes,Physical ReviewD,71(2005), ArticleID084011, 8pages.
+[7] F.S.N. Lobo, Chaplygin traversable wormholes, Physica l
+Review D, 73 (2006), Article ID 064028, 9 pages.
+[8] F.S.N. Lobo, Van der Waals quintessence stars, Physical
+Review D, 75 (2007), Article ID 024023, 7 pages.
+[9] M.S. Morris and K.S. Thorne, Wormholes in spacetime
+and their use for interstellar travel: A tool for teach-
+ing general relativity, American Journal of Physics, 56
+(1988), 395-412.
+[10] O.B. Zaslavskii, Exactly solvable models of wormholes
+supported by phantom energy, Physical Review D, 72
+(2005), Article ID 061303, 3 pages.

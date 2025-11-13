@@ -1,0 +1,424 @@
+arXiv:1001.0067v1  [quant-ph]  31 Dec 2009Eﬃcient numerical method to calculate three-tangle of mixe d states
+Kun Cao, Zheng-Wei Zhou, Guang-Can Guo, and Lixin He∗
+Key Laboratory of Quantum Information, University of Scien ce and
+Technology of China, Hefei, 230026, People’s Republic of Ch ina
+(Dated: October 22, 2018)
+We demonstrate an eﬃcient numerical method to calculate thr ee-tangle of general mixed states.
+We construct a “energy function” (target function) for the t hree-tangle of the mixed state under
+certain constrains. The “energy function” (target functio n) is then optimized via a replica exchange
+MonteCarlomethod. Wehaveextensivelytestedthemethodfo rtheexampleswith knownanalytical
+results, showing remarkable agreement. The method can be ap plied to other optimization problems
+in quantum information theory.
+PACS numbers: 03.67.Mn, 03.65.Ud, 02.70.Ns, 02.70.Uu
+One of challenges in present quantum information the-
+ory is the quantiﬁcation of quantum entanglement. The
+primary studies on entanglement measures focus on bi-
+partite systems. In bipartite entanglementmeasures, for-
+mation of entanglement, presented by Bennett et al., is
+veryfundamental[1]. Thesigniﬁcanceofthis measurere-
+lies on not only be able to provide an accurate boundary
+between separable states and entangled states but also
+constructing a general formula for entanglement mea-
+sures of mixed states: once a measure for pure states
+is given, the corresponding measure for mixed states can
+be obtained via the convex-roof extension. This scenario
+canbeevengeneralizedtoquantifymultipartiteentangle-
+ment. The initial attempt is 3-tangle of 3-qubit system,
+provided by Coﬀman et al [2]. Entanglement measures
+beyond 3-qubit were also presented [3, 4]. Although such
+kind of deﬁnition is straightforward, the practical eval-
+uation of the convex-roof extension is a diﬃcult mathe-
+matical problem. To date a general analytical method is
+knownonlyforthe concurrenceoftwo-qubitmixed states
+[5, 6].
+Concurrence of mixed two qubits has been applied to
+study quantum phase transitions. Most of studies show
+that, for general spin 1 /2 lattice models, pairwise entan-
+glement (or its functions) depicted by concurrence of the
+nearest-neighbor two site has special singularity at quan-
+tum critical points (see[7] and its references). A natu-
+ral generalization for this viewpoint is that multipartite
+entanglement beyond two sites will reveal more exten-
+sive characteristics on quantum phase transition. How-
+ever, as far as 3-tangle is concerned, since the convex
+roof is obtained by minimizing the average tangle of a
+givenmixedstateoverallpossibledecompositionsofpure
+states, there is no general method to calculate the three-
+tangle of a mixed state. The analytical method is only
+capabletostudysomeparticularthreequbit states[8–11].
+In this work, we develop a method to calculate the
+three-tangle of any mixed states by numerically mini-
+mize certain target functions. The target functions are
+∗Email address: helx@ustc.edu.cnoptimized by using replica exchange Monte Carlo (MC)
+[12, 13] method. Replica exchange MC has been widely
+usedin condensedmatter physicstosimulate the systems
+with very rough “energy surfaces”, such as spin glasses
+[14], protein systemsand Lennard-Jonesparticles[15, 16]
+etc. The replica exchange MC method is much more ef-
+fective to ﬁnd the global minium of the target functions
+than the conventional simulating annealing method. By
+applying this method we have successfully obtained the
+three-tangle of mixed (generalized) GHZ and W states.
+We also obtained the three-tangle of GHZ state with
+white noise, whose density matrices are of rank 8.
+The concurrence C(ψAB) measures the biparticle en-
+tanglement between particle A and B in a pure two-qubit
+state|ψAB/an}bracketri}ht. C is deﬁned as
+C= 2|φ00φ11−φ01φ10|. (1)
+in terms of the coeﬃcients {φ00,φ01,φ10,φ11}of|ψAB/an}bracketri}ht
+with respect to an orthonormal basis. The measure
+for three particle entanglement in a three-qubit state
+|ψABC/an}bracketri}hthas been introduced in Ref.[2] as three-tangle
+τ3(ψABC). It can be expressed in terms of the coeﬃ-
+cients{φ000,φ001,...,φ111}.
+τ3= 4|d1−2d2+4d3| (2)
+d1=φ2
+000φ2
+111+φ2
+001φ2
+110+φ2
+010φ2
+101+φ2
+100φ2
+011(3)
+d2=φ000φ111φ011φ100+φ000φ111φ101φ010
++φ000φ111φ110φ001+φ011φ100φ101φ010
++φ011φ100φ110φ001+φ101φ010φ110φ001(4)
+d3=φ000φ110φ101φ011+φ111φ001φ010φ100(5)
+It can be shown that for any factorized state, the three-
+tangle vanishes. For the GHZ state,
+|GHZ/an}bracketri}ht=1√
+2(|000/an}bracketri}ht+|111/an}bracketri}ht) (6)2
+τ3(GHZ)=1. It also appears a class of entangled three-
+qubit states represented by |W/an}bracketri}htstate withτ3vanished,
+i.e.,
+|W/an}bracketri}ht=1√
+3(|100/an}bracketri}ht+|010/an}bracketri}ht+|001/an}bracketri}ht) (7)
+The three-tangle of mixed state can be obtained via
+convex-roof extension[1, 5, 17]. Suppose the density ma-
+trix of a mixed state ρcan be decomposed into sum of
+some pure states πi, i.e.,
+ρ=/summationdisplay
+ipiπi, (8)
+where,
+πi=|Ψi/an}bracketri}ht/an}bracketle{tΨi|. (9)
+|Ψi/an}bracketri}htis the wave function of a normalized pure state. The
+three-tangle of the mixed state is deﬁned as the average
+pure-state concurrence minimized over all possible de-
+compositions.
+τ3(ρ) = min/summationdisplay
+ipiτ3(πi). (10)
+It is very diﬃcult to develop an universal analytical
+method to calculate the three-tangle of mixed three-
+qubit state. So far, there are very limited examples
+of mixed states whose three-tangle have been obtained
+analytically[8–11]. Alternatively, one could resort to the
+numerical methods. To get the three-tangle of mixed
+states is a constrained minimization problem. The pure
+state wavefunction can be expanded on the orthonormal
+three-particle basis, i.e., |Ψi/an}bracketri}ht=/summationtext
+αciα|Φα/an}bracketri}ht. The ﬁrst
+constrain is,
+/summationdisplay
+ipici,αc∗
+i,β=ραβ. (11)
+whereραβis the density matrix in the basis of {|Φα/an}bracketri}ht}.
+Furthermore, the coeﬃcients have to satisfy the normal-
+ization conditions,
+/summationdisplay
+α|ciα|2= 1,and/summationdisplay
+ipi= 1,pi≥0.(12)
+The above constrains can be enforced in the simulation
+by explicitly applying normalization factors at each MC
+step, whereas the constrain Eq. 11 can be enforced via
+a penalty function. The “energy function” (target func-
+tion) reads,
+E({pi,Ψi}) =/summationdisplay
+ipiτ3(Ψi)+κR2,(13)
+where{pi,Ψi}realizing the mixed state as given in Eq.9.
+R2is the residual between the searched density matrix
+and the target density matrix ρ, deﬁned as
+R2=Nc/summationdisplay
+α=1Nc/summationdisplay
+β=1
+Np/summationdisplay
+i=1pici,αc∗
+i,β−ραβ
+2
+.(14)κis a large constant, to ensure R2∼0.Nc= 8 is the
+dimension of three-particle basis set. Npis the number
+of partition in the decomposition. We can easily see that
+Npdeterminesthenumberofvariables Nv=Np+2NcNp.
+In Eq.13,κshould be large enough to ensure a small
+residualR2to numerically satisfy the constrain given in
+Eq.11. However, large κwill make the “energy” surface
+ofEvery rough, i.e., E({pi,Ψi}) has many local min-
+ima separated by large “energy” barriers, which causes
+great diﬃculties in ﬁnding the global minima of three
+tangle using traditional constrained simulated annealing
+(CSA) method, because it tends to be trapped at some
+local minima. Here, we adopt the replica exchange (also
+known as parallel tempering [18]) Monte Carlo method
+[12] which simulates Mreplicas simultaneously each at
+a diﬀerent temperature β0= 1/Tmax< β1< ... <
+βn−2< βM−1= 1/Tmincovering a range of interest.
+Each replica runs independently, except that after cer-
+tain steps, the conﬁgurations can be exchanged between
+neighboring temperatures, according to the Metropolis
+criterion,
+w=/braceleftbigg1 ∆H <0
+e−∆Hotherwise,(15)
+where ∆H=−(βi−βi−1)(Ei−Ei−1), in which Eiand
+Ei−1are the energy of the i-th andi-1-th replica. During
+the exchange, the detailed balance in canonical ensemble
+is satisﬁed. Importantly, the inclusion of high- Tconﬁg-
+urations ensures that the lower- Tsystems can access a
+broad phase space and avoid becoming trapped at local
+minima. The replica temperatures are adjust so that the
+exchangerate between the replicas are all about 20%[19].
+while keep the highest temperature β0= 1/Tmaxand
+lowest temperature βM−1= 1/Tminﬁxed. This can be
+done by adaptively adjusting the temperature of each
+replica using a recursion method proposed by Berg[20].
+We slightly revised the the algorithms to give better per-
+formance. Suppose, in the n-th iteration, the temper-
+ature of the i-th replica is βn
+iand the acceptance rate
+betweenβn
+iandβn
+i−1isar,n
+i. In then+1-th iteration,
+βn+1
+ican be updated as,
+βn+1
+i=βn+1
+i−1+(1−c+can
+i)(βn
+i−βn
+i−1),(16)
+where,
+an
+i=ar,n
+i(βn
+M−1−βn
+0)
+/summationtextM−1
+i=1ar,n
+i(βn
+i−βn
+i−1), (17)
+cis an empirical parameter that can be adjusted to ac-
+celerate the convergency. In the present case, we found
+that by choosing proper c <1 (in this case c=0.7) the
+recursionscheme geta suitable βdistribution within tens
+of iterations. We then ﬁxed the replica temperatures for
+the simulations.
+Based on convex-roof extension, Lohmayer et al.have
+provided a complete analysis of mixed three-qubit states
+composed of a GHZ state and a W state, obtaining3
+the optimal decomposition and convex-roof for three-
+tangle[8]. Eltschka et algeneralized this method to treat
+the three-tangle of mixed three-qubit states composed of
+a generalized GHZ state and a generalized W state. The
+explicit expressions for mixed-state three- tangle and the
+corresponding optimal decomposition for the more gen-
+eral form were also presented[9]. We ﬁrst test our scheme
+by comparing with the available analytical results. We
+constructa seriesoftargetfunctions based onthe density
+matrix given in Refs. 8, 9 as were described in the previ-
+ous sections. Replica exchange MC is then performed to
+ﬁnd the three-tangle and optimal decomposition which
+are compared with the analytical results.
+In all our minimization process, the temperature range
+is chosen between Tmax=100 andTmin=10−6, such that
+Tmaxis high enough to help the low temperature replica
+to avoid being trapped in the local minimum and Tminis
+low enough to give the ﬁnal minimized value an accuracy
+of 10−6theoretically. With ﬁxed temperature range, the
+suitable number of replicas is determined by the corre-
+spondingdensitymatrixandweightfactor κ. Usually150
+replicas are enough. In our simulations, κis adjusted to
+be 104−107to keep the ﬁnal R2<10−10which is con-
+sidered accurate enough in identifying the three-tangleof
+mixed state. In eachsimulation, the numberofpartitions
+Npis ﬁxed. We then increase Npuntil the calculated
+three-tangle converges.
+Let us ﬁrst look at the mixed GHZ and W states, The
+density matrices of the states are,
+ρ(p) =pπGHZ+(1−p)πW, (18)
+whereπGHZ=|GHZ/an}bracketri}ht/an}bracketle{tGHZ|andπW=|W/an}bracketri}ht/an}bracketle{tW|arethe
+density matrices of GHZ and W states respectively[8]. It
+is known that τ3(GHZ)=1 andτ3(W)=0. According to
+Caratheodory’s theorem, Np=4 is enough to get the op-
+timizedτ3of a mixed states of rank 2[8]. We calculate τ3
+by usingNp=4 - 8. Indeed, we ﬁnd in our simulations,
+thatNp=4 is enough to give the optimal values. The re-
+sults are shown Fig.1(a), which depicts the numerically
+calculatedτ3of the mixed GHZ and W states (open cir-
+cles), comparedtothe analyticalvalues(solid line)[8]. As
+one can see that the numerical and analytical results are
+in excellent agreement.
+We then calculate τ3for the mixtures of generalized
+GHZandgeneralizedWstates[9], whosedensitymatrices
+are,
+ρ(p) =p|gGHZ/an}bracketri}ht/an}bracketle{tgGHZ|+(1−p)|gW/an}bracketri}ht/an}bracketle{tgW|,(19)
+where the density matrix of a generalized GHZ state is
+|gGHZ/an}bracketri}ht=a|000/an}bracketri}ht+b|111/an}bracketri}ht, (20)
+and density matrix of a generalized W state is
+|gW/an}bracketri}ht=c|001/an}bracketri}ht+d|010/an}bracketri}ht+f|100/an}bracketri}ht.(21)
+The coeﬃcients must satisfy the normalization condition
+|a|2+|b|2=1, and |c|2+|d|2+|f|2=1. For the pure gen-
+eralized GHZ and W states, it is easy to calculate that
+τ3(gW)=0, andτ3(gGHZ) = 4|a2b2|.0.00.20.40.60.81.0τ3numerical
+analytical
+0.000.040.080.120.16τ3numerical
+analytical
+0.0 0.2 0.4 0.6 0.8 1.0
+p0.00.20.40.60.81.0τ3numerical
+analytical
+0.0 0.2 0.4 0.6 0.8 1.0
+p0.00.20.40.60.81.0τ3numerical(a)
+(d)(b)
+(c)
+FIG. 1: The three-tangle calculated with replica exchange
+compared to analytical results, for (a) the mixed GHZ and
+W states, (b) the mixed generalized GHZ and generalized W
+states, (c) the mixedGHZ state, W state andﬂippedW states
+with n=2, (d) the mixed GHZ state and white noise states.
+TABLE I: Numerically calculated τ3of mixed GHZ, W and
+ﬂipped-W states for n=2 compared to the analytical results
+given in Ref. 10.
+p 0.2 0.75 0.8 0.85 0.9 0.933 0.95
+analytical 0 0 0.1835 0.3775 0.5805 0.7182 0.7897
+numerical 5.7e-6 2e-5 0.1836 0.3781 0.5811 0.7186 0.7901
+The calculated τ3of the mixed states are shown in
+Fig.1(b) for a=0.2,c=0.2,d=0.2. As we see the results
+are in excellent agreement with the analytical results.
+Againweﬁndthat Np=4isenoughtotheoptimalresults.
+In the above tests, we demonstrate that our method
+is very eﬀective to deal with the three-tangle of rank-2
+mixed states. Recently, Jung at al. has obtained the
+analytical results of the three-tangle of the mixed states
+of GHZ, W, and ﬂipped-W states[10]. These states are
+of rank 3. The ﬂipped-W states is deﬁned as
+|˜w/an}bracketri}ht=1√
+3(|110/an}bracketri}ht+|101/an}bracketri}ht+|011/an}bracketri}ht).(22)
+ThedensitymatrixofmixtureofGHZ,W,andﬂipped-W
+states are given by,
+ρ(p,q) =p|GHZ/an}bracketri}ht/an}bracketle{tGHZ|+q|W/an}bracketri}ht/an}bracketle{tW|+(1−p−q)|˜W/an}bracketri}ht/an}bracketle{t˜W|,
+(23)
+whereqwasdeﬁnedas q= 1−p/n,nisapositivenumber.
+We then compared our numerical results to the analyti-
+cal values. The results for the case of n=2 are shown in
+Fig.1(c). The numerical results are also in good agree-
+ment with the analytical results. We further calculate
+three-tangleofthemixedstateswhichareofrank4,given
+in Ref.11, obtaining the same accuracy compared to the
+analytical results.
+To give an illustration of the accuracy, the numeri-
+cal values of mixture of GHZ, W and ﬂipped-W state
+with n=2 are also listed in Table I. We can see that
+all the results are within an accuracy of ∼10−4. The4
+8 10 12 14 16 18 20
+Np0.0000.0010.0020.0030.0040.005∆τ3p=0.65
+p=0.7
+p=0.75
+p=0.8
+p=0.9
+FIG. 2: (Color online) The Npdependent∆ τ3calculated with
+replica exchange for density matrix constructed by GHZ stat e
+with white noise, where ∆ τ3=τ3−τmin
+3withτmin
+3the min-
+imum three-tangle for each pvalue.
+accuracy can easily be improved by increasing κand de-
+creasingTmin. For the example given above, in the case
+ofp=0.8, ifwe reduce Tminto 10−10and useκ= 1010, we
+obtainτ3=0.18349906 compared to the analytical value
+0.18349861 in an accuracy ∼10−7. In principle, our nu-
+merical method can achieve arbitrary accuracy. We have
+alsotriedtooptimizeEq. 13viatraditionalCSAmethod.
+Weﬁndtheperformanceofthetraditionalmethodisvery
+bad, because it can easily be trapped at some local min-
+ima.
+Having demonstrated the ability of the method, we
+then calculate the τ3of the GHZ states mixed with white
+noise, which does not have analytical solutions so far.
+The density matrices of the states are
+ρ(p) =pπGHZ+1−p
+8πE, (24)
+whereπEisaunitmatrix. Inthiscase,thedensitymatri-
+ces are of rank 8. We need at least Np=8 to ensure R2∼0. In practice, we have calculated τ3up toNp=20. We
+ﬁnd that use Np=15 can converge τ3to less than 10−3
+for this problem. (See Fig. 2). The calculated results
+are shown in Fig.1(d). From Fig. 1(d), we see that τ3
+of the white noise mixed GHZ states is zero for pless
+than about 0.7, then increase almost linearly to 1.0 as
+pincreases. The behavior of τ3looks similar to that of
+mixed GHZ and W states.
+Itisstraightforwardtoapplythemethodtoanymixed
+states. It therefore opens up a way to study the multi-
+particleentanglementeﬀects in manyimportant systems,
+e.g., in systems with quantum phase transitions, which
+was impossible before, because the analytical solution to
+the tree-tangle of a general mixed state is not available.
+To conclude, we have demonstrate an eﬃcient numeri-
+cal method to calculate the three-tangle of general mixed
+states. We construct a “energy function” (target func-
+tion) for the three-tangle of the mixed state under cer-
+tain constrains. The “energy function” (target function)
+is then optimized via a replica exchange Monte Carlo
+method. We have tested the method for the examples
+with known analyticalresults, showingremarkableagree-
+ment. We further calculate the three-tangle of GHZ
+states mixed with white noise. The work opens a way
+to study three-tangle of general mixed states, and can be
+generalized to solve many other optimization problems
+in quantum information theory.
+L.H. acknowledges the support from the Chinese Na-
+tional Fundamental Research Program 2006CB921900,
+the Innovationfunds and“HundredsofTalents”program
+fromChinese AcademyofSciences, and NationalNatural
+Science Foundation of China, Grant No. 10674124. W.Z
+were supported by National Natural Science Foundation
+of China, Grant No. 10874170and K.C.Wong Education
+Foundation, Hong Kong.
+[1] C. H. Bennett, D. DiVincenzo, J. Smolin, and W. K.
+Wootters, Phys. Rev. A 54, 3824 (1996).
+[2] V. Coﬀman, J. Kundu, and W. Wootters, Phys. Rev. A
+61, 052306 (2000).
+[3] Y.-K. Bai, D. Yang, and Z.-D. Wang, Phys. Rev. A 76,
+022336 (2007).
+[4] J.-M. Cai, Z.-W. Zhou, X.-X. Zhou, and G.-C. Guo,
+Phys. Rev. A 74, 042338 (2006).
+[5] A. Uhlmann, Phys. Rev. A 62, 032307 (2000).
+[6] W. K. Wooters, Phys. Rev. Lett. 80, 2245 (1998).
+[7] L. Amico, R. Fazio, A. Osterloh, and V. Vedral, Rev.
+Mod. Phys. 80, 518 (2008).
+[8] R. Lohmayer, A. Osterloh, J. Siewert, and A. Uhlmann,
+Phys. Rev. Lett. 97, 260502 (2006).
+[9] C. Eltschka, A. Osterloh, J. Siewert, and A. Uhlmann,
+arXiv:0711.4477v1 (2007).
+[10] E. Jung, M.-R. Hwang, D. Park, and J.-W. Son, Phys.
+Rev. A79, 024306 (2009).
+[11] E. Jung, D. Park, and J.-W. Son, Phys. Rev. A 80,
+010301(R) (2009).[12] R. H. Swendsen and J. S. Wang, Phys. Rev. Lett. 57,
+2607 (1986).
+[13] C. J. Geyer, Computer Science and Statistics, Proceed-
+ings of the 23rd Symposium on the interface (Interface
+Foundation, 1991).
+[14] E. Marinari, G. Parisi, and J. J. Ruiz-Lorenzo, Phys.
+Rev. B58, 14852 (1998).
+[15] Y. Sugita, A. Kitao, and Y. Okamato, J. Chem. Phys.
+113, 6042 (2000).
+[16] J. P. Neirotti, F. Calvo, D. L. Freeman, and J. D. Doll,
+J. Chem. Phys. 112, 10340 (2000).
+[17] F. Benatti, H. Narnhofer, and A. Uhlmann, Rep. Math.
+Phys.38, 123 (1996).
+[18] E. Marinari, G. Parisi, and J. J. Ruiz-Lorenzo, in Spin
+Glasses and Random Fields , edited by A. P. Young
+(World Scientiﬁc, Singapore, 1997).
+[19] A. Kone and D. A. Kofke, J. Chem. Phys. 122, 206101
+(2005).
+[20] B. A. Berg, Markov Chain Monte Carlo Simualtions and
+Their Statistical Analysis (World Scientiﬁc Press, 2004).
